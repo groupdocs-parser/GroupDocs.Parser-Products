@@ -354,7 +354,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-java.png"
           product: "GroupDocs.Parser"
           platform: "Java"
-          link: "/parser/java"
+          link: "/parser/java/"
 
 ############################# Back to top ###############################
 back_to_top:

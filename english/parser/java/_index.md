@@ -338,7 +338,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-net.png"
           product: "GroupDocs.Parser"
           platform: ".NET"
-          link: "/parser/net"
+          link: "/parser/net/"
 
 ############################# Back to top ###############################
 back_to_top:

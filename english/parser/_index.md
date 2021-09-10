@@ -19,11 +19,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Parser On Premise APIs Include"
-      link: "/parser"
+      link: "/parser/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/parser/net"
+        - link: "/parser/net/"
           img_alt: "GroupDocs.Parser for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-net.png"
           product: "GroupDocs.Parser for"
@@ -31,7 +31,7 @@ apis:
           content: "On Premise Parser APIs for .NET Framework based applications to extract data from the supported document file formats."
 
         # api_product loop
-        - link: "/parser/java"
+        - link: "/parser/java/"
           img_alt: "GroupDocs.Parser for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-java.png"
           product: "GroupDocs.Parser for"
