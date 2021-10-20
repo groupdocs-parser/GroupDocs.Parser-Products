@@ -10,7 +10,7 @@ head_description: "Solution to parse documents, spreadsheets, presentations, ema
 
 ############################# Header ############################
 title: "Document Parsing Solution for Developers"
-description: "‎Extract text, images, metadata and encoding detection for Microsoft Office, OpenOffice, PDF, HTML and other file formats of your choice."
+description: "Extract text, images, metadata and encoding detection for Microsoft Office, OpenOffice, PDF, HTML and other file formats of your choice."
 
 ############################# APIs ###############################
 apis:
