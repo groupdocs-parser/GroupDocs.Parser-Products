@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Parser On Premise APIs Include"
+    - title: "GroupDocs.Parser High Code APIs Include"
       link: "/parser/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/parser/net/"
@@ -39,9 +39,9 @@ apis:
           content: "On Premise APIs for Java based applications to parse and extract data from the supported document file formats."
 
     # api loop
-    - title: "GroupDocs.Parser Cloud APIs Include"
+    - title: "GroupDocs.Parser Low Code APIs Include"
       link: "https://products.groupdocs.cloud/parser"
-      label: "View All Cloud APIs"
+      label: "View All Low Code APIs"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/parser/curl"
@@ -68,9 +68,9 @@ apis:
           content: "Cloud SDK for Java developers to parse documents, extract document information and data within Java based applications."
 
     # api loop
-    - title: "GroupDocs.Parser Cross Platform Apps Include"
+    - title: "GroupDocs.Parser No Code Apps Include"
       link: "https://products.groupdocs.app/parser"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/parser/total"
