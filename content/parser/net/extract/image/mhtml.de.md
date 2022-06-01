@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Bilder aus IMAGE -Dokumenten über C# extrahieren"
+    - title_left: "Bilder aus MHTML -Dokumenten über C# extrahieren"
       content_left: |
-       Mit GroupDocs.Parser .NET API können Softwareentwickler Bilder aus IMAGE -Dokumenten extrahieren. Das folgende C# .NET-Codebeispiel zeigt, wie Bilder in einem IMAGE -Dokument extrahiert werden. 
+       Mit GroupDocs.Parser .NET API können Softwareentwickler Bilder aus MHTML -Dokumenten extrahieren. Das folgende C# .NET-Codebeispiel zeigt, wie Bilder in einem MHTML -Dokument extrahiert werden. 
 
       title_right: "So extrahieren Sie Bilder über .NET"
       content_right: |
@@ -43,9 +43,9 @@ steps:
       gisthash: "6bc9e8fea228c9e1b99425b338bb0f00"
       gistfile: "images_extraction_form_documents.cs"
 
-    - title_left: "Bildextraktion aus der Seite des IMAGE -Dokuments über C#"
+    - title_left: "Bildextraktion aus der Seite des MHTML -Dokuments über C#"
       content_left: |
-       GroupDocs.Parser .NET ermöglicht Softwareentwicklern, Bilder aus der Seite von IMAGE -Dokumenten zu extrahieren. Der folgende C# .NET-Code zeigt, wie die Bildextraktion in einem IMAGE -Dokument erreicht werden kann. 
+       GroupDocs.Parser .NET ermöglicht Softwareentwicklern, Bilder aus der Seite von MHTML -Dokumenten zu extrahieren. Der folgende C# .NET-Code zeigt, wie die Bildextraktion in einem MHTML -Dokument erreicht werden kann. 
 
       title_right: "Datei-Image über .NET extrahieren"
       content_right: |
@@ -60,9 +60,9 @@ steps:
       gisthash: "2000d476c202a688677f57a2fbd7ceab"
       gistfile: "images_extraction_form_documents_page.cs"
       
-    - title_left: "So extrahieren Sie ein Bild aus dem Seitenbereich für IMAGE -Dokumente"
+    - title_left: "So extrahieren Sie ein Bild aus dem Seitenbereich für MHTML -Dokumente"
       content_left: |
-       Die GroupDocs.Parser .NET API unterstützt vollständig die Extraktion von Bildern aus IMAGE -Dokumenten mit ein paar Zeilen .NET-Code. Das folgende .NET-Codebeispiel zeigt, wie Sie Bilder aus einem IMAGE -Dokumentseitenbereich extrahieren.
+       Die GroupDocs.Parser .NET API unterstützt vollständig die Extraktion von Bildern aus MHTML -Dokumenten mit ein paar Zeilen .NET-Code. Das folgende .NET-Codebeispiel zeigt, wie Sie Bilder aus einem MHTML -Dokumentseitenbereich extrahieren.
 
       title_right: "Extrahieren Sie Bilder aus einem Dateiseitenbereich über .NET"
       content_right: |
@@ -77,7 +77,7 @@ steps:
 
     - title_left: "So extrahieren und speichern Sie Bilder über C# .NET in einer Datei"
       content_left: |
-       GroupDocs.Parser .NET API ermöglicht es Softwareentwicklern, Bilder aus einem Dokument zu extrahieren und es mit nur wenigen Zeilen .NET-Code in einer Datei zu speichern. Das folgende Beispiel zeigt, wie Sie Bilder aus einem IMAGE -Dokument extrahieren und den Bildinhalt in der Datei speichern.
+       GroupDocs.Parser .NET API ermöglicht es Softwareentwicklern, Bilder aus einem Dokument zu extrahieren und es mit nur wenigen Zeilen .NET-Code in einer Datei zu speichern. Das folgende Beispiel zeigt, wie Sie Bilder aus einem MHTML -Dokument extrahieren und den Bildinhalt in der Datei speichern.
 
       title_right: "Speichern Sie Bilder über .NET in einer Datei"
       content_right: |

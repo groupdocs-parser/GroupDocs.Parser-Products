@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "通过 C# 从 IMAGE 文档中提取图像"
+    - title_left: "通过 C# 从 MHTML 文档中提取图像"
       content_left: |
-       GroupDocs.Parser .NET API 使软件开发人员能够从 IMAGE 文档中提取图像。 以下 C# .NET 代码示例演示了如何在 IMAGE 文档中提取图像。 
+       GroupDocs.Parser .NET API 使软件开发人员能够从 MHTML 文档中提取图像。 以下 C# .NET 代码示例演示了如何在 MHTML 文档中提取图像。 
 
       title_right: "如何通过 .NET 提取图像"
       content_right: |
@@ -43,9 +43,9 @@ steps:
       gisthash: "6bc9e8fea228c9e1b99425b338bb0f00"
       gistfile: "images_extraction_form_documents.cs"
 
-    - title_left: "通过 C# 从 IMAGE 文档页面中提取图像"
+    - title_left: "通过 C# 从 MHTML 文档页面中提取图像"
       content_left: |
-       GroupDocs.Parser .NET 允许软件开发人员从 IMAGE 文档的页面中提取图像。 下面的 C# .NET 代码显示了如何在 IMAGE 文档中实现图像提取。 
+       GroupDocs.Parser .NET 允许软件开发人员从 MHTML 文档的页面中提取图像。 下面的 C# .NET 代码显示了如何在 MHTML 文档中实现图像提取。 
 
       title_right: "通过 .NET 提取文件图像"
       content_right: |
@@ -60,9 +60,9 @@ steps:
       gisthash: "2000d476c202a688677f57a2fbd7ceab"
       gistfile: "images_extraction_form_documents_page.cs"
       
-    - title_left: "如何从 IMAGE 文档页面区域提取图像"
+    - title_left: "如何从 MHTML 文档页面区域提取图像"
       content_left: |
-       GroupDocs.Parser .NET API 完全支持使用几行 .NET 代码从 IMAGE 文档中提取图像。 以下 .NET 代码示例展示了如何从 IMAGE 文档页面区域执行图像提取。
+       GroupDocs.Parser .NET API 完全支持使用几行 .NET 代码从 MHTML 文档中提取图像。 以下 .NET 代码示例展示了如何从 MHTML 文档页面区域执行图像提取。
 
       title_right: "通过 .NET 从文件页面区域中提取图像"
       content_right: |
@@ -77,7 +77,7 @@ steps:
 
     - title_left: "如何通过 C# .NET 提取图像并将其保存到文件"
       content_left: |
-       GroupDocs.Parser .NET API 允许软件开发人员从文档中提取图像并将其保存到一个文件中，只需几行 .NET 代码。 以下示例演示如何从 IMAGE 文档中提取图像并将图像内容保存到文件中。 
+       GroupDocs.Parser .NET API 允许软件开发人员从文档中提取图像并将其保存到一个文件中，只需几行 .NET 代码。 以下示例演示如何从 MHTML 文档中提取图像并将图像内容保存到文件中。 
 
       title_right: "通过 .NET 将图像保存到文件"
       content_right: |
