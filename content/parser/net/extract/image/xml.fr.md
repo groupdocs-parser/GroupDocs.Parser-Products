@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Extraire des images de documents IMAGE  via C#"
+    - title_left: "Extraire des images de documents XML  via C#"
       content_left: |
-       L'API GroupDocs.Parser .NET permet aux développeurs de logiciels d'extraire des images des documents IMAGE . L'exemple de code C# .NET suivant montre comment extraire des images dans un document IMAGE . 
+       L'API GroupDocs.Parser .NET permet aux développeurs de logiciels d'extraire des images des documents XML . L'exemple de code C# .NET suivant montre comment extraire des images dans un document XML . 
 
       title_right: "Comment extraire des images via .NET"
       content_right: |
@@ -43,9 +43,9 @@ steps:
       gisthash: "6bc9e8fea228c9e1b99425b338bb0f00"
       gistfile: "images_extraction_form_documents.cs"
 
-    - title_left: "Extraction d'images de la page du document IMAGE  via C#"
+    - title_left: "Extraction d'images de la page du document XML  via C#"
       content_left: |
-       GroupDocs.Parser .NET permet aux développeurs de logiciels d'extraire des images de la page des documents IMAGE . Le code C# .NET ci-dessous montre comment l'extraction d'images peut être réalisée dans un document IMAGE . 
+       GroupDocs.Parser .NET permet aux développeurs de logiciels d'extraire des images de la page des documents XML . Le code C# .NET ci-dessous montre comment l'extraction d'images peut être réalisée dans un document XML . 
 
       title_right: "Extraire l'image du fichier via .NET"
       content_right: |
@@ -60,9 +60,9 @@ steps:
       gisthash: "2000d476c202a688677f57a2fbd7ceab"
       gistfile: "images_extraction_form_documents_page.cs"
       
-    - title_left: "Comment extraire une image de la zone de page des documents IMAGE "
+    - title_left: "Comment extraire une image de la zone de page des documents XML "
       content_left: |
-       L'API GroupDocs.Parser .NET prend entièrement en charge l'extraction d'images à partir de documents IMAGE  à l'aide de quelques lignes de code .NET. L'exemple de code .NET suivant montre comment effectuer une extraction d'images à partir d'une zone de page de document IMAGE .
+       L'API GroupDocs.Parser .NET prend entièrement en charge l'extraction d'images à partir de documents XML  à l'aide de quelques lignes de code .NET. L'exemple de code .NET suivant montre comment effectuer une extraction d'images à partir d'une zone de page de document XML .
 
       title_right: "Extraire des images d'une zone de page de fichier via .NET"
       content_right: |
@@ -77,7 +77,7 @@ steps:
 
     - title_left: "Comment extraire et enregistrer une image dans un fichier via C# .NET"
       content_left: |
-       L'API GroupDocs.Parser .NET permet aux développeurs de logiciels d'extraire des images d'un document et de les enregistrer dans un fichier avec seulement quelques lignes de code .NET. L'exemple suivant montre comment effectuer l'extraction d'images à partir d'un document IMAGE  et enregistrer le contenu de l'image dans le fichier. 
+       L'API GroupDocs.Parser .NET permet aux développeurs de logiciels d'extraire des images d'un document et de les enregistrer dans un fichier avec seulement quelques lignes de code .NET. L'exemple suivant montre comment effectuer l'extraction d'images à partir d'un document XML  et enregistrer le contenu de l'image dans le fichier. 
 
       title_right: "Enregistrer des images dans un fichier via .NET"
       content_right: |
