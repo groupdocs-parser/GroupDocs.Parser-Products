@@ -2,8 +2,8 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "ko/parser/net/extract/table/docx/"
-otherformats: DOC DOT DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+path: "ko/parser/net/extract/table/emlx/"
+otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML MSG ONE 
 
 ############################# Head ############################
 head_title: "C#.NET API를 통해 PDF, DOCX, PPTX, XLSX, EPUB 등에서 테이블 추출"
@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "C# .NET을 통해 DOCX 문서에서 테이블을 추출하는 방법 "
+    - title_left: "C# .NET을 통해 EMLX 문서에서 테이블을 추출하는 방법 "
       content_left: |
-       GroupDocs.Parser .NET API를 사용하면 소프트웨어 개발자가 몇 줄의 코드로 DOCX 문서에서 테이블을 추출할 수 있습니다. 다음 C# .NET 코드 예제는 개발자가 DOCX 문서에서 테이블을 추출하는 방법을 보여줍니다. 
+       GroupDocs.Parser .NET API를 사용하면 소프트웨어 개발자가 몇 줄의 코드로 EMLX 문서에서 테이블을 추출할 수 있습니다. 다음 C# .NET 코드 예제는 개발자가 EMLX 문서에서 테이블을 추출하는 방법을 보여줍니다. 
 
       title_right: "문서에서 테이블 추출"
       content_right: |
@@ -47,7 +47,7 @@ steps:
 
     - title_left: ".NET API를 사용하여 TABLE 문서 페이지에서 테이블 추출"
       content_left: |
-       GroupDocs.Parser .NET은 소프트웨어 개발자가 DOCX 문서 페이지에서 테이블을 추출할 수 있도록 합니다. 다음 C# .NET 코드는 프로그래머가 DOCX 문서 내에서 바코드 추출을 수행하는 방법을 보여줍니다.
+       GroupDocs.Parser .NET은 소프트웨어 개발자가 EMLX 문서 페이지에서 테이블을 추출할 수 있도록 합니다. 다음 C# .NET 코드는 프로그래머가 EMLX 문서 내에서 바코드 추출을 수행하는 방법을 보여줍니다.
 
       title_right: "C# .NET을 통해 바코드 추출"
       content_right: |
