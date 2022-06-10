@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "C# .NET을 통해 TABLE 문서에서 테이블을 추출하는 방법 "
+    - title_left: "C# .NET을 통해 XML 문서에서 테이블을 추출하는 방법 "
       content_left: |
-       GroupDocs.Parser .NET API를 사용하면 소프트웨어 개발자가 몇 줄의 코드로 TABLE 문서에서 테이블을 추출할 수 있습니다. 다음 C# .NET 코드 예제는 개발자가 TABLE 문서에서 테이블을 추출하는 방법을 보여줍니다. 
+       GroupDocs.Parser .NET API를 사용하면 소프트웨어 개발자가 몇 줄의 코드로 XML 문서에서 테이블을 추출할 수 있습니다. 다음 C# .NET 코드 예제는 개발자가 XML 문서에서 테이블을 추출하는 방법을 보여줍니다. 
 
       title_right: "문서에서 테이블 추출"
       content_right: |
@@ -45,9 +45,9 @@ steps:
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: ".NET API를 사용하여  문서 페이지에서 테이블 추출"
+    - title_left: ".NET API를 사용하여 XML 문서 페이지에서 테이블 추출"
       content_left: |
-       GroupDocs.Parser .NET은 소프트웨어 개발자가 TABLE 문서 페이지에서 테이블을 추출할 수 있도록 합니다. 다음 C# .NET 코드는 프로그래머가 TABLE 문서 내에서 바코드 추출을 수행하는 방법을 보여줍니다.
+       GroupDocs.Parser .NET은 소프트웨어 개발자가 XML 문서 페이지에서 테이블을 추출할 수 있도록 합니다. 다음 C# .NET 코드는 프로그래머가 XML 문서 내에서 바코드 추출을 수행하는 방법을 보여줍니다.
 
       title_right: "C# .NET을 통해 바코드 추출"
       content_right: |

@@ -45,7 +45,7 @@ steps:
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: ".NET API를 사용하여 TABLE 문서 페이지에서 테이블 추출"
+    - title_left: ".NET API를 사용하여 EPUB 문서 페이지에서 테이블 추출"
       content_left: |
        GroupDocs.Parser .NET은 소프트웨어 개발자가 EPUB 문서 페이지에서 테이블을 추출할 수 있도록 합니다. 다음 C# .NET 코드는 프로그래머가 EPUB 문서 내에서 바코드 추출을 수행하는 방법을 보여줍니다.
 
