@@ -45,7 +45,7 @@ steps:
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: "使用 .NET API 从 TABLE 文档的页面中提取表格"
+    - title_left: "使用 .NET API 从 CSV 文档的页面中提取表格"
       content_left: |
        GroupDocs.Parser .NET 使软件开发人员能够从 CSV 文档的页面中提取表格。 以下 C# .NET 代码显示了程序员如何在 CSV 文档中执行条形码提取。 
 

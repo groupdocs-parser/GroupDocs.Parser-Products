@@ -2,8 +2,8 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "zh/parser/net/extract//table/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+path: "zh/parser/net/extract/table/otp/"
+otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP PST OST EML EMLX MSG ONE 
 
 ############################# Head ############################
 head_title: "通过 C#.NET API 从 PDF、DOCX、PPTX、XLSX、EPUB 等中提取表格"
@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "如何通过 C# .NET 从 MHTML 文档中提取表格"
+    - title_left: "如何通过 C# .NET 从 OTP 文档中提取表格"
       content_left: |
-       GroupDocs.Parser .NET API 可帮助软件开发人员从 MHTML 文档中提取表格，只需几行代码。 以下 C# .NET 代码示例演示了开发人员如何从 MHTML 文档中提取表。 
+       GroupDocs.Parser .NET API 可帮助软件开发人员从 OTP 文档中提取表格，只需几行代码。 以下 C# .NET 代码示例演示了开发人员如何从 OTP 文档中提取表。 
 
       title_right: "从文档中提取表格"
       content_right: |
@@ -45,9 +45,9 @@ steps:
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: "使用 .NET API 从 MHTML 文档的页面中提取表格"
+    - title_left: "使用 .NET API 从 OTP 文档的页面中提取表格"
       content_left: |
-       GroupDocs.Parser .NET 使软件开发人员能够从 MHTML 文档的页面中提取表格。 以下 C# .NET 代码显示了程序员如何在 MHTML 文档中执行条形码提取。 
+       GroupDocs.Parser .NET 使软件开发人员能够从 OTP 文档的页面中提取表格。 以下 C# .NET 代码显示了程序员如何在 OTP 文档中执行条形码提取。 
 
       title_right: "通过 C# .NET 提取条形码"
       content_right: |
