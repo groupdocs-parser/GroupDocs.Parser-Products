@@ -2,8 +2,8 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "parser/net/extract/table/eml/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EMLX MSG ONE 
+path: "parser/net/extract/table/xlsm/"
+otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
 
 ############################# Head ############################
 head_title: "Extract Tables from PDF, DOCX, PPTX, XLSX, EPUB & More via C#.NET API"
@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "How to Extract Tables from EML Documents via C# .NET "
+    - title_left: "How to Extract Tables from XLSM Documents via C# .NET "
       content_left: |
-       GroupDocs.Parser .NET API helps software developers to extract tables from EML documents with just couple of lines of code. The following C# .NET code example demonstrates how developers can extract tables from a EML document. 
+       GroupDocs.Parser .NET API helps software developers to extract tables from XLSM documents with just couple of lines of code. The following C# .NET code example demonstrates how developers can extract tables from a XLSM document. 
 
       title_right: "Tables Extraction from Documents"
       content_right: |
@@ -45,9 +45,9 @@ steps:
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: "Use .NET API to Extract Tables from EML Document's Page"
+    - title_left: "Use .NET API to Extract Tables from XLSM Document's Page"
       content_left: |
-       GroupDocs.Parser .NET empowers software developers to extract tables from EML documents's page. The following C# .NET code shows how programmers can perform barcodes extraction inside a EML document. 
+       GroupDocs.Parser .NET empowers software developers to extract tables from XLSM documents's page. The following C# .NET code shows how programmers can perform barcodes extraction inside a XLSM document. 
 
       title_right: "Extract Barcodes via C# .NET"
       content_right: |

@@ -11,7 +11,7 @@ head_description: "GroupDocs.Parser .NET API enables progreammers to extract tab
 
 ############################# Header ############################
 title: "Extract Barcodes from Excel, Word, PDF & PowerPoint Documents via C#.NET API"
-description: "GroupDocs.Parser .NET API allows programmers to extract barcodes from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB documents or page aea."
+description: "GroupDocs.Parser .NET API allows programmers to extract barcodes from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB documents or pages."
 
 ######################### Download Button #######################
 button:
@@ -45,7 +45,7 @@ steps:
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: "Use .NET API to Extract Tables from FB2 Document's Page via .NET"
+    - title_left: "Use .NET API to Extract Tables from FB2 Document's Page"
       content_left: |
        GroupDocs.Parser .NET empowers software developers to extract tables from FB2 documents's page. The following C# .NET code shows how programmers can perform barcodes extraction inside a FB2 document. 
 

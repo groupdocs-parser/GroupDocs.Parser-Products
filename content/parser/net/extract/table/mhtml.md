@@ -11,7 +11,7 @@ head_description: "GroupDocs.Parser .NET API enables progreammers to extract tab
 
 ############################# Header ############################
 title: "Extract Barcodes from Excel, Word, PDF & PowerPoint Documents via C#.NET API"
-description: "GroupDocs.Parser .NET API allows programmers to extract barcodes from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB documents or page aea."
+description: "GroupDocs.Parser .NET API allows programmers to extract barcodes from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB documents or pages."
 
 ######################### Download Button #######################
 button:

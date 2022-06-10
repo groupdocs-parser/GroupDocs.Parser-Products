@@ -2,16 +2,16 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "ja/parser/net/extract/table/epub/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+path: "parser/net/extract/table/epub/"
+otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
 
 ############################# Head ############################
-head_title: "C＃.NET APIを介してPDF、DOCX、PPTX、XLSX、EPUBなどからテーブルを抽出します"
-head_description: "GroupDocs.Parser .NET APIを使用すると、プログラマーは.NETアプリ内のPDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV、ODT、RTF、およびその他の多くのドキュメントタイプからテーブルを抽出できます。"
+head_title: "Extract Tables from PDF, DOCX, PPTX, XLSX, EPUB & More via C#.NET API"
+head_description: "GroupDocs.Parser .NET API enables progreammers to extract tables from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & many other documents types inside .NET Apps."
 
 ############################# Header ############################
-title: "C＃.NET APIを介してExcel、Word、PDF、およびPowerPointドキュメントからバーコードを抽出する"
-description: "GroupDocs.Parser .NET APIを使用すると、プログラマーはPDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV、ODT、RTF、EPUBのドキュメントまたはページからバーコードを抽出できます。"
+title: "Extract Barcodes from Excel, Word, PDF & PowerPoint Documents via C#.NET API"
+description: "GroupDocs.Parser .NET API allows programmers to extract barcodes from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB documents or pages."
 
 ######################### Download Button #######################
 button:
@@ -20,68 +20,72 @@ button:
 ############################# About ############################
 about:
     enable: true
-    title: ".NET APIを介してExcel、Word、PDF、その他のドキュメントからバーコードを抽出する方法は？"
+    title: "How to Extract Barcodes from Excel, Word, PDF & Other Documents via .NET API?"
     content: |
-     表は、行と列に配置されたセルのコレクションです。 テーブルは、詳細なデータや複雑なデータを保存および整理する上で非常に重要な役割を果たし、ユーザーが簡単に読み取って表示できるようにします。 テーブルは、リストの作成、情報の比較、データの整列、情報のグループ化、データの傾向やパターンの強調表示など、さまざまな方法で使用できます。 GroupDocs.Parser for .NETは、ソフトウェアプログラマーが、PDF、電子メール、電子ブック、Word（DOC、DOCX）、PowerPointなど、サポートされているさまざまな種類のドキュメント形式からテーブル、テキスト、および画像を抽出するためのソリューションを開発できるようにする便利なAPIです。 （PPT、PPTX）、Excel（XLS、XLSX）、Eメール（EML、MSG）形式など。 Java APIには、ドキュメントからすべてのテーブルを抽出する、特定のページからテーブルを抽出する、テーブルセルデータを取得する、テーブルの行と列の総数を取得する、行の高さを取得する、データを印刷するなど、テーブルを操作するためのいくつかの重要な機能が含まれています。 テーブルのとより多くの可能性があります。
+     Table is the collection of cells arranged in rows and columns.  Tables play a very important role in storing as well as organizing detailed or complicated data allowing the users to easily read and view it. Tables can be used in many ways, such as making lists, comparing information, align data, group information, highlight trends or patterns in data and many more. GroupDocs.Parser for .NET is a useufly API that allows software programmers to develop solution for extracting tables, text and  images from various kinds of supported documents formats, such as such as PDF, Emails, Ebooks, Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), Emails (EML, MSG)  formats and many more. The Java API has included several important features for working with tables, such as extract all tables from a documents, extract table from a particular page, get table cell data, get total number of a table rows and columns, get row height,   print data of a table and may more.
 
 ############################# content ############################
 steps:
     enable: true
     block:
-    - title_left: "C＃.NETを介して EPUBドキュメントからテーブルを抽出する方法 "
+    - title_left: "How to Extract Tables from EPUB Documents via C# .NET "
       content_left: |
-       GroupDocs.Parser .NET APIは、ソフトウェア開発者がわずか数行のコードで EPUB ドキュメントからテーブルを抽出するのに役立ちます。 次のC＃.NETコード例は、開発者が EPUBドキュメントからテーブルを抽出する方法を示しています。 
+       GroupDocs.Parser .NET API helps software developers to extract tables from EPUB documents with just couple of lines of code. The following C# .NET code example demonstrates how developers can extract tables from a EPUB document. 
 
-      title_right: "ドキュメントからのテーブルの抽出"
+      title_right: "Tables Extraction from Documents"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser）
-        * テーブル抽出がサポートされているかどうかを確認します
-        * テーブルのレイアウトを作成します
-        * テーブル抽出のオプションを作成します
-        * [getTables（options）]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions））メソッドを呼び出して、からテーブルを抽出します。 全てのドキュメント。
-        *行と列を繰り返します
-        *テーブルのセルテキストを抽出して印刷する
+        * Create an instance of [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) 
+        * check if tables extraction is supported 
+        * Create the layout of tables
+        * Create the options for table extraction
+        * Call [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions)) method to extract tables from the whole document.
+        * Iterate over rows and columns
+        * extract and Print table cell text
 
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: ".NET APIを使用して、EPUB ドキュメントのページからテーブルを抽出します"
+    - title_left: "Use .NET API to Extract Tables from EPUB Document's Page"
       content_left: |
-       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者は EPUBドキュメントのページからテーブルを抽出できます。 次のC＃.NETコードは、プログラマーがEPUBドキュメント内でバーコード抽出を実行する方法を示しています。。
+       GroupDocs.Parser .NET empowers software developers to extract tables from EPUB documents's page. The following C# .NET code shows how programmers can perform barcodes extraction inside a EPUB document. 
 
-      title_right: "C＃.NETを介してバーコードを抽出する"
+      title_right: "Extract Barcodes via C# .NET"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser）
-        * テーブル抽出がサポートされているかどうかを確認します
-        * テーブルのレイアウトを作成します
-        * ドキュメントページからテーブルを抽出するためのオプションを作成します
-        * [getTables（options）]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions））メソッドを呼び出して、からテーブルを抽出します。 全てのドキュメント。
-        *テーブル、行、列を繰り返します
-        *テーブルのセルテキストを抽出して印刷する
+        * Create an instance of [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) 
+        * check if tables extraction is supported 
+        * Create the layout of tables
+        * Create the options for table extraction from document page
+        * Call [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions)) method to extract tables from the whole document.
+        * Iterate over tables, rows and columns
+        * extract and Print table cell text
      
       gisthash: "2dc42054bba3abdc297c63f4534281d8"
       gistfile: "tables_extraction_form_documents_page.cs"
       
-    - title_left: "システム要求"
+    - title_left: "System Requirements"
       content_left: |
-       GroupDocs.Parser for .NETは、すべての主要なプラットフォームとオペレーティングシステムで完全にサポートされています。 完全なシステム要件ガイドについては、[システム要件]（hhttps：//docs.groupdocs.com/parser/net/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。 システム：
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelopなど
-        * フレームワーク：.NETフレームワーク、.NET標準、.NETコア、モノラル
-        * [NuGet]（https://www.nuget.org/packages/GroupDocs.parser/）から最新バージョンのGroupDocs.Parser.NETAPIを入手します。
+        GroupDocs.Parser for .NET is fully supported on all major platforms and operating systems. For complete system requirements guide, please visit [system requirements](hhttps://docs.groupdocs.com/parser/net/system-requirements/) Before executing the code below, please make sure that you have the following prerequisites installled on your system:
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environment:  Visual Studio, Xamarin, MonoDevelop etc
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Get the latest version of GroupDocs.Parser .NET APIs from [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)
         
-      title_right: "GroupDocs.Parserを使用する理由"
+      title_right: "Why Use GroupDocs.Parser"
       content_right: |
-        * サポートされているドキュメントからのプレーンテキスト抽出のサポート
-        * ユーザー定義のテンプレートを介して解析するドキュメント。
-        * 構造化テキスト抽出を完全にサポート
-        * キーワードおよび正規表現によるテキスト検索
-        * フォーマットされたテキスト、メタデータ、画像、コンテナ、および添付ファイルを抽出します。
-        * サポートされている一部のドキュメント形式の目次を抽出します。
-        * PDFドキュメントからフォームデータを解析します。
-        * ドキュメントからハイパーリンクを抽出します
+        * Plain text extraction support  from any supported documents
+        * Documents parsing via user-defined templates.
+        * Fully support structured text extraction
+        * Text searching via keyword as well as regular expression
+        * Extract formatted text, metadata, images, containers, and attachments.
+        * Extract table of contents for some supported document formats.
+        * Parse form data from PDF documents.
+        * Extract hyperlinks from the document
 
 demos:
+    enable: true
+        
+
+about_formats:
     enable: true
 
 
