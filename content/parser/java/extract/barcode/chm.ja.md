@@ -58,7 +58,7 @@ steps:
       gisthash: "ff09980eef6df60d5a3272b91b5607cf"
       gistfile: "barcodes_extraction_form_documents_page.java"
       
-    - title_left: "{{$ 6}}_UPPERドキュメントページ領域からバーコードを抽出する方法"
+    - title_left: "CHMドキュメントページ領域からバーコードを抽出する方法"
       content_left: |
        GroupDocs.Parser Java APIは、CHMドキュメントからのバーコードの抽出を簡単に完全にサポートします。 次のJavaコード例は、CHMドキュメントページ領域からバーコード抽出を実行する方法を示しています。
 
@@ -79,7 +79,7 @@ steps:
         GroupDocs.Parser for Javaは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。 完全なシステム要件ガイドについては、以下のコードを実行する前にシステム要件にアクセスしてください。システムに次の前提条件がインストールされていることを確認してください。
         * オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * Javaバージョンのサポート：J2SE 7.0（1.7）、J2SE 8.0（1.8）以降
-        * GroupDocs [Repository]（https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser）から最新バージョンのGroupDocs.ParserJavaAPIを入手します。
+        * GroupDocs [リポジトリ]（https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser）からGroupDocs.ParserJavaAPIの最新バージョンを入手します。
         
       title_right: "GroupDocs.Parserを使用する理由"
       content_right: |
