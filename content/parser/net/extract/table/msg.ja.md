@@ -2,8 +2,8 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "ja/parser/net/extract/table/docm/"
-otherformats: DOC DOT DOCX DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+path: "ja/parser/net/extract/table/msg/"
+otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX ONE 
 
 ############################# Head ############################
 head_title: "C＃.NET APIを介してPDF、DOCX、PPTX、XLSX、EPUBなどからテーブルを抽出します"
@@ -30,7 +30,7 @@ steps:
     block:
     - title_left: "C＃.NETを介して {{$ 6}}_UPPER ドキュメントからテーブルを抽出する方法 "
       content_left: |
-       GroupDocs.Parser .NET APIは、ソフトウェア開発者がわずか数行のコードで DOCM ドキュメントからテーブルを抽出するのに役立ちます。 次のC＃.NETコード例は、開発者がDOCMドキュメントからテーブルを抽出する方法を示しています。 
+       GroupDocs.Parser .NET APIは、ソフトウェア開発者がわずか数行のコードで MSG ドキュメントからテーブルを抽出するのに役立ちます。 次のC＃.NETコード例は、開発者がMSGドキュメントからテーブルを抽出する方法を示しています。 
 
       title_right: "ドキュメントからのテーブルの抽出"
       content_right: |
@@ -47,7 +47,7 @@ steps:
 
     - title_left: ".NET APIを使用して、{{$ 5}}_UPPER ドキュメントのページからテーブルを抽出します"
       content_left: |
-       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者は {{$ 6}}_UPPER ドキュメントのページからテーブルを抽出できます。 次のC＃.NETコードは、プログラマーがDOCMドキュメント内でバーコード抽出を実行する方法を示しています。
+       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者は {{$ 6}}_UPPER ドキュメントのページからテーブルを抽出できます。 次のC＃.NETコードは、プログラマーがMSGドキュメント内でバーコード抽出を実行する方法を示しています。
 
       title_right: "C＃.NETを介してバーコードを抽出する"
       content_right: |
