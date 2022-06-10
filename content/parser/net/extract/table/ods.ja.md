@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "C＃.NETを介して {{$ 6}}_UPPER ドキュメントからテーブルを抽出する方法 "
+    - title_left: "C＃.NETを介して ODSドキュメントからテーブルを抽出する方法 "
       content_left: |
-       GroupDocs.Parser .NET APIは、ソフトウェア開発者がわずか数行のコードで ODS ドキュメントからテーブルを抽出するのに役立ちます。 次のC＃.NETコード例は、開発者がODSドキュメントからテーブルを抽出する方法を示しています。 
+       GroupDocs.Parser .NET APIは、ソフトウェア開発者がわずか数行のコードで ODS ドキュメントからテーブルを抽出するのに役立ちます。 次のC＃.NETコード例は、開発者が ODSドキュメントからテーブルを抽出する方法を示しています。 
 
       title_right: "ドキュメントからのテーブルの抽出"
       content_right: |
@@ -45,9 +45,9 @@ steps:
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: ".NET APIを使用して、{{$ 5}}_UPPER ドキュメントのページからテーブルを抽出します"
+    - title_left: ".NET APIを使用して、ODS ドキュメントのページからテーブルを抽出します"
       content_left: |
-       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者は {{$ 6}}_UPPER ドキュメントのページからテーブルを抽出できます。 次のC＃.NETコードは、プログラマーがODSドキュメント内でバーコード抽出を実行する方法を示しています。
+       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者は ODSドキュメントのページからテーブルを抽出できます。 次のC＃.NETコードは、プログラマーがODSドキュメント内でバーコード抽出を実行する方法を示しています。。
 
       title_right: "C＃.NETを介してバーコードを抽出する"
       content_right: |

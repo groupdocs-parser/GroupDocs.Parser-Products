@@ -2,8 +2,8 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "ja/parser/net/extract/table/dotm/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+path: "ja/parser/net/extract/table/ppsx/"
+otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
 
 ############################# Head ############################
 head_title: "C＃.NET APIを介してPDF、DOCX、PPTX、XLSX、EPUBなどからテーブルを抽出します"
@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "C＃.NETを介して DOTMドキュメントからテーブルを抽出する方法 "
+    - title_left: "C＃.NETを介して PPSXドキュメントからテーブルを抽出する方法 "
       content_left: |
-       GroupDocs.Parser .NET APIは、ソフトウェア開発者がわずか数行のコードで DOTM ドキュメントからテーブルを抽出するのに役立ちます。 次のC＃.NETコード例は、開発者が DOTMドキュメントからテーブルを抽出する方法を示しています。 
+       GroupDocs.Parser .NET APIは、ソフトウェア開発者がわずか数行のコードで PPSX ドキュメントからテーブルを抽出するのに役立ちます。 次のC＃.NETコード例は、開発者が PPSXドキュメントからテーブルを抽出する方法を示しています。 
 
       title_right: "ドキュメントからのテーブルの抽出"
       content_right: |
@@ -45,9 +45,9 @@ steps:
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: ".NET APIを使用して、DOTM ドキュメントのページからテーブルを抽出します"
+    - title_left: ".NET APIを使用して、PPSX ドキュメントのページからテーブルを抽出します"
       content_left: |
-       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者は DOTMドキュメントのページからテーブルを抽出できます。 次のC＃.NETコードは、プログラマーがDOTMドキュメント内でバーコード抽出を実行する方法を示しています。。
+       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者は PPSXドキュメントのページからテーブルを抽出できます。 次のC＃.NETコードは、プログラマーがPPSXドキュメント内でバーコード抽出を実行する方法を示しています。。
 
       title_right: "C＃.NETを介してバーコードを抽出する"
       content_right: |
