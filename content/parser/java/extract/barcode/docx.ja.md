@@ -34,9 +34,9 @@ steps:
 
       title_right: "Javaを介してドキュメントからバーコードを抽出する"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser）
+        * [Parser]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser）クラスのインスタンスを作成します
         * バーコード抽出がサポートされているかどうかを確認します
-        * [GetBarcodes]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes（））メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
+        * [GetBarcodes]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()）メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
         * ドキュメント内のバーコードを繰り返します
         * すべてのバーコードとその値を印刷します
 
@@ -49,9 +49,9 @@ steps:
 
       title_right: "ファイルページからバーコードを取得する方法"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser）  
+        * [Parser]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser）クラスのインスタンスを作成します  
         * バーコード抽出サポートについてはドキュメントを確認してください
-        * [GetBarcodes]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes(int））メソッドを呼び出して、ドキュメントの2ページ目からすべてのバーコードを抽出します。
+        * [GetBarcodes]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()）メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
         * バーコードのページを繰り返します
         * ページ番号とバーコード値を印刷します
      
@@ -64,10 +64,10 @@ steps:
 
       title_right: "Javaを介してファイルページ領域からバーコードを抽出する"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser）
+        * [Parser]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser）クラスのインスタンスを作成します
         * バーコード抽出に使用できるオプションの作成をカスタマイズする
         * バーコード抽出サポートについてはドキュメントを確認してください
-        * [GetBarcodes]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes(int））メソッドを呼び出して、ドキュメントの2ページ目からすべてのバーコードを抽出します。
+        * [GetBarcodes]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()）メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
         * ドキュメント内のバーコードを繰り返します
         * ページ番号とバーコード値を印刷します
      
