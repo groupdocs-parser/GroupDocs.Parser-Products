@@ -2,8 +2,8 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "parser/java/extract//barcode/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+path: "parser/java/extract/barcode/mhtml"
+otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
 
 ############################# Head ############################
 head_title: "Extract Barcodes from Excel, Word, PDF & Other Document via Java API "
@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "How to Extract Barcodes from BARCODE Documents via Java"
+    - title_left: "How to Extract Barcodes from MHTML Documents via Java"
       content_left: |
-       GroupDocs.Parser Java API gives programmers the power to easily extract barcodes from BARCODE documents. The following Java code example demonstrates how to extract barcode images inside a BARCODE document with minimum effort and cost. 
+       GroupDocs.Parser Java API gives programmers the power to easily extract barcodes from MHTML documents. The following Java code example demonstrates how to extract barcode images inside a MHTML document with minimum effort and cost. 
 
       title_right: "Extract Barcodes from Docs via Java"
       content_right: |
@@ -43,9 +43,9 @@ steps:
       gisthash: "bb2393a5db93e1795d41d908ad23e158"
       gistfile: "barcode_extraction_form_documents.java"
 
-    - title_left: "Get Barcodes from BARCODE Document's Page via Java"
+    - title_left: "Get Barcodes from MHTML Document's Page via Java"
       content_left: |
-       GroupDocs.Parser Java enables software developers to parse and get barcodes from a BARCODE documents's page with ease. The following Java code shows how barcode extraction can be achived  from a specific document page inside a BARCODE document. 
+       GroupDocs.Parser Java enables software developers to parse and get barcodes from a MHTML documents's page with ease. The following Java code shows how barcode extraction can be achived  from a specific document page inside a MHTML document. 
 
       title_right: "How to Get Barcode from a File Page"
       content_right: |
@@ -58,9 +58,9 @@ steps:
       gisthash: "ff09980eef6df60d5a3272b91b5607cf"
       gistfile: "barcodes_extraction_form_documents_page.java"
       
-    - title_left: "How to Extract Barcodes from BARCODE Documents Page Area"
+    - title_left: "How to Extract Barcodes from MHTML Documents Page Area"
       content_left: |
-       GroupDocs.Parser Java API fully supports extraction of barcodes from BARCODE documents with ease. The following Java code example shows how to perform barcodes extraction from a BARCODE document page area.
+       GroupDocs.Parser Java API fully supports extraction of barcodes from MHTML documents with ease. The following Java code example shows how to perform barcodes extraction from a MHTML document page area.
 
       title_right: "Extract Barcode from a File Page Area via Java"
       content_right: |

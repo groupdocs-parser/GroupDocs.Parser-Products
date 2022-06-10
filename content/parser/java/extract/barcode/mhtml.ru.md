@@ -2,7 +2,7 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "ru/parser/java/extract//barcode/"
+path: "ru/parser/java/extract/barcode/mhtml"
 otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
 
 ############################# Head ############################
@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Как извлечь штрих-коды из документов BARCODE с помощью Java"
+    - title_left: "Как извлечь штрих-коды из документов MHTML с помощью Java"
       content_left: |
-       Java API GroupDocs.Parser дает программистам возможность легко извлекать штрих-коды из документов BARCODE. В следующем примере кода Java показано, как извлечь изображения штрих-кода из документа BARCODE с минимальными усилиями и затратами.
+       Java API GroupDocs.Parser дает программистам возможность легко извлекать штрих-коды из документов MHTML. В следующем примере кода Java показано, как извлечь изображения штрих-кода из документа MHTML с минимальными усилиями и затратами.
 
       title_right: "Извлечение штрих-кодов из документов через Java"
       content_right: |
@@ -43,9 +43,9 @@ steps:
       gisthash: "bb2393a5db93e1795d41d908ad23e158"
       gistfile: "barcode_extraction_form_documents.java"
 
-    - title_left: "Получите штрих-коды со страницы документа BARCODE с помощью Java"
+    - title_left: "Получите штрих-коды со страницы документа MHTML с помощью Java"
       content_left: |
-       GroupDocs.Parser Java позволяет разработчикам программного обеспечения легко анализировать и получать штрих-коды со страницы документов BARCODE. Следующий код Java показывает, как можно добиться извлечения штрих-кода из определенной страницы документа внутри документа BARCODE. 
+       GroupDocs.Parser Java позволяет разработчикам программного обеспечения легко анализировать и получать штрих-коды со страницы документов MHTML. Следующий код Java показывает, как можно добиться извлечения штрих-кода из определенной страницы документа внутри документа MHTML. 
 
       title_right: "Как получить штрих-код со страницы файла"
       content_right: |
@@ -58,9 +58,9 @@ steps:
       gisthash: "ff09980eef6df60d5a3272b91b5607cf"
       gistfile: "barcodes_extraction_form_documents_page.java"
       
-    - title_left: "Как извлечь штрих-коды из BARCODE области страницы документов"
+    - title_left: "Как извлечь штрих-коды из MHTML области страницы документов"
       content_left: |
-       GroupDocs.Parser Java API полностью поддерживает извлечение штрих-кодов из документов BARCODE. В следующем примере кода Java показано, как выполнить извлечение штрих-кодов из области страницы документа BARCODE.
+       GroupDocs.Parser Java API полностью поддерживает извлечение штрих-кодов из документов MHTML. В следующем примере кода Java показано, как выполнить извлечение штрих-кодов из области страницы документа MHTML.
 
       title_right: "Извлечь штрих-код из области страницы файла с помощью Java"
       content_right: |

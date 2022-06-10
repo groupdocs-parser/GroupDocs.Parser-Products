@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "如何通过 Java 从 BARCODE 文档中提取条形码"
+    - title_left: "如何通过 Java 从 XML 文档中提取条形码"
       content_left: |
-       GroupDocs.Parser Java API 使程序员能够轻松地从 BARCODE 文档中提取条形码。 以下 Java 代码示例演示了如何以最少的工作量和成本提取 BARCODE 文档中的条形码图像。 
+       GroupDocs.Parser Java API 使程序员能够轻松地从 XML 文档中提取条形码。 以下 Java 代码示例演示了如何以最少的工作量和成本提取 XML 文档中的条形码图像。 
 
       title_right: "通过 Java 从文档中提取条形码"
       content_right: |
@@ -43,9 +43,9 @@ steps:
       gisthash: "bb2393a5db93e1795d41d908ad23e158"
       gistfile: "barcode_extraction_form_documents.java"
 
-    - title_left: "通过 Java 从 BARCODE 文档页面获取条形码"
+    - title_left: "通过 Java 从 XML 文档页面获取条形码"
       content_left: |
-       GroupDocs.Parser Java 使软件开发人员能够轻松地从 BARCODE 文档的页面解析和获取条形码。 以下 Java 代码显示了如何从 BARCODE 文档中的特定文档页面中提取条形码。 
+       GroupDocs.Parser Java 使软件开发人员能够轻松地从 XML 文档的页面解析和获取条形码。 以下 Java 代码显示了如何从 XML 文档中的特定文档页面中提取条形码。 
 
       title_right: "如何从文件页面获取条形码"
       content_right: |
@@ -58,9 +58,9 @@ steps:
       gisthash: "ff09980eef6df60d5a3272b91b5607cf"
       gistfile: "barcodes_extraction_form_documents_page.java"
       
-    - title_left: "如何从 BARCODE 文档页面区域提取条形码"
+    - title_left: "如何从 XML 文档页面区域提取条形码"
       content_left: |
-       GroupDocs.Parser Java API 完全支持轻松地从 BARCODE 文档中提取条形码。 以下 Java 代码示例显示如何从 BARCODE 文档页面区域执行条形码提取。
+       GroupDocs.Parser Java API 完全支持轻松地从 XML 文档中提取条形码。 以下 Java 代码示例显示如何从 XML 文档页面区域执行条形码提取。
 
       title_right: "通过 Java 从文件页面区域中提取条形码"
       content_right: |

@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Comment extraire les codes-barres de BARCODE Documents via Java"
+    - title_left: "Comment extraire les codes-barres de XML Documents via Java"
       content_left: |
-       L'API Java GroupDocs.Parser permet aux programmeurs d'extraire facilement les codes-barres des documents BARCODE. L'exemple de code Java suivant montre comment extraire des images de codes-barres dans un document BARCODE avec un minimum d'effort et de coût. 
+       L'API Java GroupDocs.Parser permet aux programmeurs d'extraire facilement les codes-barres des documents XML. L'exemple de code Java suivant montre comment extraire des images de codes-barres dans un document XML avec un minimum d'effort et de coût. 
 
       title_right: "Extraire les codes-barres de Docs via Java"
       content_right: |
@@ -43,9 +43,9 @@ steps:
       gisthash: "bb2393a5db93e1795d41d908ad23e158"
       gistfile: "barcode_extraction_form_documents.java"
 
-    - title_left: "Obtenez des codes-barres à partir de la page de BARCODE Document via Java"
+    - title_left: "Obtenez des codes-barres à partir de la page de XML Document via Java"
       content_left: |
-       GroupDocs.Parser Java permet aux développeurs de logiciels d'analyser et d'obtenir facilement des codes-barres à partir d'une page de documents BARCODE. Le code Java suivant montre comment l'extraction de code-barres peut être réalisée à partir d'une page de document spécifique dans un document BARCODE. 
+       GroupDocs.Parser Java permet aux développeurs de logiciels d'analyser et d'obtenir facilement des codes-barres à partir d'une page de documents XML. Le code Java suivant montre comment l'extraction de code-barres peut être réalisée à partir d'une page de document spécifique dans un document XML. 
 
       title_right: "Comment obtenir un code-barres à partir d'une page de fichier"
       content_right: |
@@ -58,9 +58,9 @@ steps:
       gisthash: "ff09980eef6df60d5a3272b91b5607cf"
       gistfile: "barcodes_extraction_form_documents_page.java"
       
-    - title_left: "Comment extraire les codes-barres de la zone de page BARCODE Documents"
+    - title_left: "Comment extraire les codes-barres de la zone de page XML Documents"
       content_left: |
-       L'API Java GroupDocs.Parser prend entièrement en charge l'extraction de codes-barres à partir de documents BARCODE en toute simplicité. L'exemple de code Java suivant montre comment effectuer une extraction de codes-barres à partir d'une zone de page de document BARCODE.
+       L'API Java GroupDocs.Parser prend entièrement en charge l'extraction de codes-barres à partir de documents XML en toute simplicité. L'exemple de code Java suivant montre comment effectuer une extraction de codes-barres à partir d'une zone de page de document XML.
 
       title_right: "Extraire le code-barres d'une zone de page de fichier via Java"
       content_right: |

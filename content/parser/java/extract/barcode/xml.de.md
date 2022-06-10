@@ -2,7 +2,7 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "de/parser/java/extract//barcode/"
+path: "de/parser/java/extract/barcode/xml"
 otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
 
 ############################# Head ############################
@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "So extrahieren Sie Barcodes aus BARCODE-Dokumenten über Java"
+    - title_left: "So extrahieren Sie Barcodes aus XML-Dokumenten über Java"
       content_left: |
-       GroupDocs.Parser Java API gibt Programmierern die Möglichkeit, Strichcodes einfach aus BARCODE-Dokumenten zu extrahieren. Das folgende Java-Codebeispiel zeigt, wie Sie Barcode-Bilder innerhalb eines BARCODE-Dokuments mit minimalem Aufwand und minimalen Kosten extrahieren. 
+       GroupDocs.Parser Java API gibt Programmierern die Möglichkeit, Strichcodes einfach aus XML-Dokumenten zu extrahieren. Das folgende Java-Codebeispiel zeigt, wie Sie Barcode-Bilder innerhalb eines XML-Dokuments mit minimalem Aufwand und minimalen Kosten extrahieren. 
 
       title_right: "Extrahieren Sie Barcodes aus Dokumenten über Java"
       content_right: |
@@ -43,9 +43,9 @@ steps:
       gisthash: "bb2393a5db93e1795d41d908ad23e158"
       gistfile: "barcode_extraction_form_documents.java"
 
-    - title_left: "Rufen Sie Barcodes von der Seite BARCODE des Dokuments über Java ab"
+    - title_left: "Rufen Sie Barcodes von der Seite XML des Dokuments über Java ab"
       content_left: |
-       GroupDocs.Parser Java ermöglicht Softwareentwicklern das einfache Parsen und Abrufen von Barcodes von der Seite eines BARCODE-Dokuments. Der folgende Java-Code zeigt, wie die Barcode-Extraktion von einer bestimmten Dokumentseite innerhalb eines BARCODE-Dokuments erreicht werden kann.
+       GroupDocs.Parser Java ermöglicht Softwareentwicklern das einfache Parsen und Abrufen von Barcodes von der Seite eines XML-Dokuments. Der folgende Java-Code zeigt, wie die Barcode-Extraktion von einer bestimmten Dokumentseite innerhalb eines XML-Dokuments erreicht werden kann.
 
       title_right: "So erhalten Sie einen Barcode von einer Dateiseite"
       content_right: |
@@ -58,9 +58,9 @@ steps:
       gisthash: "ff09980eef6df60d5a3272b91b5607cf"
       gistfile: "barcodes_extraction_form_documents_page.java"
       
-    - title_left: "So extrahieren Sie Barcodes aus dem Seitenbereich für BARCODE-Dokumente"
+    - title_left: "So extrahieren Sie Barcodes aus dem Seitenbereich für XML-Dokumente"
       content_left: |
-       GroupDocs.Parser Java API unterstützt die einfache Extraktion von Barcodes aus BARCODE-Dokumenten. Das folgende Java-Codebeispiel zeigt, wie die Barcode-Extraktion aus einem BARCODE-Dokumentseitenbereich durchgeführt wird.
+       GroupDocs.Parser Java API unterstützt die einfache Extraktion von Barcodes aus XML-Dokumenten. Das folgende Java-Codebeispiel zeigt, wie die Barcode-Extraktion aus einem XML-Dokumentseitenbereich durchgeführt wird.
 
       title_right: "Barcode aus einem Dateiseitenbereich über Java extrahieren"
       content_right: |
