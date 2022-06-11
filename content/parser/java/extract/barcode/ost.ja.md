@@ -2,8 +2,8 @@
 ############################# Static ############################
 layout: "auto-gen-gist"
 draft: false
-path: "ja/parser/java/extract/barcode/dot/"
-otherformats: DOC  DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+path: "ja/parser/java/extract/barcode/ost/"
+otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST EML EMLX MSG ONE 
 
 ############################# Head ############################
 head_title: "Java APIを介して、Excel、Word、PDF、その他のドキュメントからバーコードを抽出する"
@@ -28,9 +28,9 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "Javaを介してDOTドキュメントからバーコードを抽出する方法"
+    - title_left: "Javaを介してOSTドキュメントからバーコードを抽出する方法"
       content_left: |
-       GroupDocs.Parser Java APIを使用すると、プログラマーは {{$ 6}}_UPPER ドキュメントからバーコードを簡単に抽出できます。 次のJavaコード例は、最小限の労力とコストで DOT ドキュメント内のバーコード画像を抽出する方法を示しています。 
+       GroupDocs.Parser Java APIを使用すると、プログラマーは {{$ 6}}_UPPER ドキュメントからバーコードを簡単に抽出できます。 次のJavaコード例は、最小限の労力とコストで OST ドキュメント内のバーコード画像を抽出する方法を示しています。 
 
       title_right: "Javaを介してドキュメントからバーコードを抽出する"
       content_right: |
@@ -43,9 +43,9 @@ steps:
       gisthash: "bb2393a5db93e1795d41d908ad23e158"
       gistfile: "barcode_extraction_form_documents.java"
 
-    - title_left: "Java経由で DOT ドキュメントのページからバーコードを取得する"
+    - title_left: "Java経由で OST ドキュメントのページからバーコードを取得する"
       content_left: |
-       GroupDocs.Parser Javaを使用すると、ソフトウェア開発者は DOT ドキュメントのページからバーコードを簡単に解析して取得できます。 次のJavaコードは、DOT ドキュメント内の特定のドキュメントページからバーコード抽出を実行する方法を示しています。 
+       GroupDocs.Parser Javaを使用すると、ソフトウェア開発者は OST ドキュメントのページからバーコードを簡単に解析して取得できます。 次のJavaコードは、OST ドキュメント内の特定のドキュメントページからバーコード抽出を実行する方法を示しています。 
 
       title_right: "ファイルページからバーコードを取得する方法"
       content_right: |
@@ -58,9 +58,9 @@ steps:
       gisthash: "ff09980eef6df60d5a3272b91b5607cf"
       gistfile: "barcodes_extraction_form_documents_page.java"
       
-    - title_left: "DOTドキュメントページ領域からバーコードを抽出する方法"
+    - title_left: "OSTドキュメントページ領域からバーコードを抽出する方法"
       content_left: |
-       GroupDocs.Parser Java APIは、DOTドキュメントからのバーコードの抽出を簡単に完全にサポートします。 次のJavaコード例は、DOTドキュメントページ領域からバーコード抽出を実行する方法を示しています。
+       GroupDocs.Parser Java APIは、OSTドキュメントからのバーコードの抽出を簡単に完全にサポートします。 次のJavaコード例は、OSTドキュメントページ領域からバーコード抽出を実行する方法を示しています。
 
       title_right: "Javaを介してファイルページ領域からバーコードを抽出する"
       content_right: |
