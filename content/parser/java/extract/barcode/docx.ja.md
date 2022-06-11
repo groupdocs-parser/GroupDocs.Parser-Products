@@ -34,9 +34,9 @@ steps:
 
       title_right: "Javaを介してドキュメントからバーコードを抽出する"
       content_right: |
-        * [Parser]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser）クラスのインスタンスを作成します
+        * [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) クラスのインスタンスを作成します
         * バーコード抽出がサポートされているかどうかを確認します
-        * [GetBarcodes]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()）メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
+        * [GetBarcodes](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()) メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
         * ドキュメント内のバーコードを繰り返します
         * すべてのバーコードとその値を印刷します
 
@@ -49,9 +49,9 @@ steps:
 
       title_right: "ファイルページからバーコードを取得する方法"
       content_right: |
-        * [Parser]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser）クラスのインスタンスを作成します  
+        * [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) クラスのインスタンスを作成します  
         * バーコード抽出サポートについてはドキュメントを確認してください
-        * [GetBarcodes]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()）メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
+        * [GetBarcodes](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes())メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
         * バーコードのページを繰り返します
         * ページ番号とバーコード値を印刷します
      
@@ -64,10 +64,10 @@ steps:
 
       title_right: "Javaを介してファイルページ領域からバーコードを抽出する"
       content_right: |
-        * [Parser]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser）クラスのインスタンスを作成します
+        * [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) クラスのインスタンスを作成します
         * バーコード抽出に使用できるオプションの作成をカスタマイズする
         * バーコード抽出サポートについてはドキュメントを確認してください
-        * [GetBarcodes]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()）メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
+        * [GetBarcodes](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()) メソッドを呼び出して、ドキュメント全体からすべてのバーコードを抽出します。
         * ドキュメント内のバーコードを繰り返します
         * ページ番号とバーコード値を印刷します
      
@@ -79,7 +79,7 @@ steps:
         GroupDocs.Parser for Javaは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。 完全なシステム要件ガイドについては、以下のコードを実行する前にシステム要件にアクセスしてください。システムに次の前提条件がインストールされていることを確認してください。
         * オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * Javaバージョンのサポート：J2SE 7.0（1.7）、J2SE 8.0（1.8）以降
-        * GroupDocs [リポジトリ]（https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser）からGroupDocs.ParserJavaAPIの最新バージョンを入手します。
+        * GroupDocs [リポジトリ](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser) からGroupDocs.ParserJavaAPIの最新バージョンを入手します。
         
       title_right: "GroupDocs.Parserを使用する理由"
       content_right: |
