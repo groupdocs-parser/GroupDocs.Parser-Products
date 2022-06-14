@@ -28,34 +28,34 @@ about:
 steps:
     enable: true
     block:
-    - title_left: "C＃.NETを介して XMLドキュメントからテーブルを抽出する方法 "
+    - title_left: "C＃.NETを介して TABLEドキュメントからテーブルを抽出する方法 "
       content_left: |
-       GroupDocs.Parser .NET APIは、ソフトウェア開発者がわずか数行のコードで XML ドキュメントからテーブルを抽出するのに役立ちます。 次のC＃.NETコード例は、開発者が XMLドキュメントからテーブルを抽出する方法を示しています。 
+       GroupDocs.Parser .NET APIは、ソフトウェア開発者がわずか数行のコードで TABLE ドキュメントからテーブルを抽出するのに役立ちます。 次のC＃.NETコード例は、開発者が TABLEドキュメントからテーブルを抽出する方法を示しています。 
 
       title_right: "ドキュメントからのテーブルの抽出"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser）
+        * [パーサー](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)クラスのインスタンスを作成します 
         * テーブル抽出がサポートされているかどうかを確認します
         * テーブルのレイアウトを作成します
         * テーブル抽出のオプションを作成します
-        * [getTables（options）]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions））メソッドを呼び出して、からテーブルを抽出します。 全てのドキュメント。
+        * [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions))メソッドを呼び出して、からテーブルを抽出します。 全てのドキュメント。
         *行と列を繰り返します
         *テーブルのセルテキストを抽出して印刷する
 
       gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
       gistfile: "tables_extraction_form_documents.cs"
 
-    - title_left: ".NET APIを使用して、XML ドキュメントのページからテーブルを抽出します"
+    - title_left: ".NET APIを使用して、TABLE ドキュメントのページからテーブルを抽出します"
       content_left: |
-       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者は XMLドキュメントのページからテーブルを抽出できます。 次のC＃.NETコードは、プログラマーがXMLドキュメント内でバーコード抽出を実行する方法を示しています。。
+       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者は TABLEドキュメントのページからテーブルを抽出できます。 次のC＃.NETコードは、プログラマーがTABLEドキュメント内でバーコード抽出を実行する方法を示しています。。
 
       title_right: "C＃.NETを介してバーコードを抽出する"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser）
+        * [パーサー](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)クラスのインスタンスを作成します 
         * テーブル抽出がサポートされているかどうかを確認します
         * テーブルのレイアウトを作成します
         * ドキュメントページからテーブルを抽出するためのオプションを作成します
-        * [getTables（options）]（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions））メソッドを呼び出して、からテーブルを抽出します。 全てのドキュメント。
+        * [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions))メソッドを呼び出して、からテーブルを抽出します。 全てのドキュメント。
         *テーブル、行、列を繰り返します
         *テーブルのセルテキストを抽出して印刷する
      
@@ -68,7 +68,7 @@ steps:
         * オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * 開発環境：Visual Studio、Xamarin、MonoDevelopなど
         * フレームワーク：.NETフレームワーク、.NET標準、.NETコア、モノラル
-        * [NuGet]（https://www.nuget.org/packages/GroupDocs.parser/）から最新バージョンのGroupDocs.Parser.NETAPIを入手します。
+        * [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)から最新バージョンのGroupDocs.Parser.NETAPIを入手します。
         
       title_right: "GroupDocs.Parserを使用する理由"
       content_right: |
@@ -83,7 +83,7 @@ steps:
 
 demos:
     enable: true
-
+        
 
 more_formats:
     enable: true
