@@ -30,7 +30,7 @@ steps:
       content_right: |
         * Erstellen Sie eine Instanz von [パーサー](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)
         *ÜberprüfenSie、ob das DokumentdieHyperlink-Extraktionunterstützt
-        *ハイパーリンクausdemDokument extrahieren
+        * ハイパーリンクausdemDokument extrahieren
         * Rufen Sie die Methode [GetHyperlinks](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getHyperlinks（）)auf、um alle Hyperlinks aus dem gesamten Dokumentzuextrahieren。
         *ÜberHyperlinksiterierenunddie Hyperlink-URL drucken
 
@@ -47,7 +47,7 @@ steps:
         *ÜberprüfenSie、ob das DokumentdieHyperlink-Extraktionunterstützt
         * Rufen Sie Dokumentinformationen ab、indem Sie die Methode [getDocumentInfo](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getDocumentInfo（）)aufrufen。
         *IterierenSieüberSeitenunddruckenSie eine Seitenzahl
-        *ハイパーリンクausdemDokument extrahieren
+        * ハイパーリンクausdemDokument extrahieren
         * Rufen Sie die Methode [GetHyperlinks](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getHyperlinks（）)auf、um alle Hyperlinks aus dem gesamten Dokumentzuextrahieren。
         *ÜberHyperlinksiterierenunddie Hyperlink-URL drucken
      

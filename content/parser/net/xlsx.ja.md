@@ -29,10 +29,10 @@ steps:
       title_right: "ハイパーリンクを抽出する方法"
       content_right: |
         * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser） 
-        *ハイパーリンク抽出のサポートについてはドキュメントを確認してください
-        *ドキュメントからハイパーリンクを抽出します
+        * ハイパーリンク抽出のサポートについてはドキュメントを確認してください
+        * ドキュメントからハイパーリンクを抽出します
         * [GetHyperlinks](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks)メソッドを呼び出して、ドキュメント全体からすべてのハイパーリンクを抽出します。
-        *ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
+        * ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
 
       gisthash: "35be3a09e0135c65be790c42c5c86d37"
       gistfile: "Extract_hyperlinks_form_documents.cs"
@@ -44,12 +44,12 @@ steps:
       title_right: ".NETを介してハイパーリンクを抽出する"
       content_right: |
         * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser） 
-        *ハイパーリンク抽出のサポートについてはドキュメントを確認してください
+        * ハイパーリンク抽出のサポートについてはドキュメントを確認してください
         * [GetDocumentInfo](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getdocumentinfo)を呼び出してドキュメント情報を取得します 
-        *ページを繰り返し処理し、ページ番号を印刷します
-        *ドキュメントからハイパーリンクを抽出します
+        * ページを繰り返し処理し、ページ番号を印刷します
+        * ドキュメントからハイパーリンクを抽出します
         * [GetHyperlinks](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks)メソッドを呼び出して、ドキュメント全体からすべてのハイパーリンクを抽出します。
-        *ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
+        * ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
      
       gisthash: "e71f8e39ba36ebf97034dfbf6fceeec1"
       gistfile: "hyperlinks_extraction_form_documents_page.cs"
@@ -61,10 +61,10 @@ steps:
       title_right: ".NETを使用してハイパーリンクを抽出する方法"
       content_right: |
         * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser） 
-        *ハイパーリンク抽出のサポートについてはドキュメントを確認してください
-        *ハイパーリンク抽出に使用されるオプションを作成します
+        * ハイパーリンク抽出のサポートについてはドキュメントを確認してください
+        * ハイパーリンク抽出に使用されるオプションを作成します
         * [GetHyperlinks](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/gethyperlinks/methods/1)メソッドを呼び出して、ドキュメントページからハイパーリンクを抽出します。
-        *ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
+        * ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
      
       gisthash: "eefbede6f391ea44ddb6901edb353950"
       gistfile: "hyperlinks_extraction_from__documents_page_area.cs"
@@ -72,21 +72,21 @@ steps:
     - title_left: "システム要求"
       content_left: |
         GroupDocs.Assembly .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。完全なシステム要件ガイドについては、[システム要件](hhttps：//docs.groupdocs.com/parser/net/system-requirements/)にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。システム：
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
         *開発環境：Visual Studio、Xamarin、MonoDevelopなど
-        *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
+        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)から最新バージョンのGroupDocs.Assembly.NETAPIを取得します
         
       title_right: "GroupDocs.Assemblyを使用する理由"
       content_right: |
-        *サポートされているドキュメントからのプレーンテキスト抽出のサポート
-        *ユーザー定義のテンプレートを介したドキュメントの解析。
-        *構造化テキスト抽出を完全にサポート
-        *キーワードおよび正規表現によるテキスト検索
-        *フォーマットされたテキスト、メタデータ、画像、コンテナ、および添付ファイルを抽出します。
-        *サポートされている一部のドキュメント形式の目次を抽出します。
-        *PDFドキュメントからフォームデータを解析します。
-        *ドキュメントからハイパーリンクを抽出します
+        * サポートされているドキュメントからのプレーンテキスト抽出のサポート
+        * ユーザー定義のテンプレートを介したドキュメントの解析。
+        * 構造化テキスト抽出を完全にサポート
+        * キーワードおよび正規表現によるテキスト検索
+        * フォーマットされたテキスト、メタデータ、画像、コンテナ、および添付ファイルを抽出します。
+        * サポートされている一部のドキュメント形式の目次を抽出します。
+        * PDFドキュメントからフォームデータを解析します。
+        * ドキュメントからハイパーリンクを抽出します
 
 demos:
     enable: true

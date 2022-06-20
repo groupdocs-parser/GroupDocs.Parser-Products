@@ -28,11 +28,11 @@ steps:
 
       title_right: "Javaを介してハイパーリンクを抽出する"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser） 
-        *ドキュメントがハイパーリンク抽出をサポートしているかどうかを確認します
-        *ドキュメントからハイパーリンクを抽出します
+        * [パーサー](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)のインスタンスを作成します
+        * ドキュメントがハイパーリンク抽出をサポートしているかどうかを確認します
+        * ドキュメントからハイパーリンクを抽出します
         * [GetHyperlinks](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getHyperlinks（）)メソッドを呼び出して、ドキュメント全体からすべてのハイパーリンクを抽出します。
-        *ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
+        * ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
 
       gisthash: "036de701f5f17a02dd2353ee547afd5b"
       gistfile: "extract_hyperlinks_form_documents.java"
@@ -43,13 +43,13 @@ steps:
 
       title_right: "Javaを介してハイパーリンクを抽出する"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser） 
-        *ドキュメントがハイパーリンク抽出をサポートしているかどうかを確認します
+        * [パーサー](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)のインスタンスを作成します
+        * ドキュメントがハイパーリンク抽出をサポートしているかどうかを確認します
         * [getDocumentInfo](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getDocumentInfo())メソッドを呼び出してドキュメント情報を取得します。
-        *ページを繰り返し処理し、ページ番号を印刷します
-        *ドキュメントからハイパーリンクを抽出します
+        * ページを繰り返し処理し、ページ番号を印刷します
+        * ドキュメントからハイパーリンクを抽出します
         * [GetHyperlinks](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getHyperlinks（）)メソッドを呼び出して、ドキュメント全体からすべてのハイパーリンクを抽出します。
-        *ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
+        * ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
      
       gisthash: "bcca6319f2287edb7295443c1def46ee"
       gistfile: "extract_hyperlinks_form_documents_page.java"
@@ -60,11 +60,11 @@ steps:
 
       title_right: "Javaを使用してハイパーリンクを抽出する方法は？"
       content_right: |
-        * [パーサー]のインスタンスを作成します（https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser） 
-        *ハイパーリンク抽出のサポートについてはドキュメントを確認してください
-        *ハイパーリンク抽出に使用されるオプションを作成します
+        * [パーサー](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)のインスタンスを作成します
+        * ハイパーリンク抽出のサポートについてはドキュメントを確認してください
+        * ハイパーリンク抽出に使用されるオプションを作成します
         * [GetHyperlinks](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getHyperlinks（）)メソッドを呼び出して、ドキュメント全体からすべてのハイパーリンクを抽出します。
-        *ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
+        * ハイパーリンクを繰り返し処理し、ハイパーリンクURLを出力します
      
       gisthash: "4aefff1fcc6733c0fc12b736d7e36711"
       gistfile: "hyperlinks_extraction_from_document_page_area.java"
@@ -72,20 +72,20 @@ steps:
     - title_left: "システム要求"
       content_left: |
         GroupDocs.Parser for Javaは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。完全なシステム要件ガイドについては、以下のコードを実行する前にシステム要件にアクセスしてください。システムに次の前提条件がインストールされていることを確認してください。
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
         * Javaバージョンのサポート：J2SE 7.0（1.7）、J2SE 8.0（1.8）以降
-        * GroupDocs [Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser)から最新バージョンのGroupDocs.AssemblyJavaAPIを入手します。
+        * GroupDocs [Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser)から最新バージョンのGroupDocs.Assembly Java APIを入手します。
         
       title_right: "GroupDocs.Assemblyを使用する理由"
       content_right: |
-        *サポートされているドキュメントのいずれかからプレーンテキストを抽出します。
-        *目次抽出のサポート
-        *フォーマットされたテキスト、メタデータ、画像、コンテナ、および添付ファイルを抽出します。
-        *ユーザー定義のテンプレートを介したドキュメントの解析。
-        *キーワードまたは正規表現を使用してテキストを検索します。 
-        *構造化テキスト抽出のサポート
-        *サポートされている一部のドキュメント形式の目次を抽出します。
-        *PDFドキュメントからフォームデータを解析します。
+        * サポートされているドキュメントのいずれかからプレーンテキストを抽出します。
+        * 目次抽出のサポート
+        * フォーマットされたテキスト、メタデータ、画像、コンテナ、および添付ファイルを抽出します。
+        * ユーザー定義のテンプレートを介したドキュメントの解析。
+        * キーワードまたは正規表現を使用してテキストを検索します。 
+        * 構造化テキスト抽出のサポート
+        * サポートされている一部のドキュメント形式の目次を抽出します。
+        * PDFドキュメントからフォームデータを解析します。
 
 demos:
     enable: true

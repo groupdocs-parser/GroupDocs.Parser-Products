@@ -52,7 +52,7 @@ steps:
         * [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) クラスのインスタンスを作成します
         * ドキュメントが画像抽出をサポートしているかどうかを確認します
         * [getDocumentInfo](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getDocumentInfo()) メソッドを呼び出してドキュメント情報を取得します。
-        *ページの存在についてドキュメントを確認してください
+        * ページの存在についてドキュメントを確認してください
         * ページを繰り返し、ページ番号を印刷する
         * [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) メソッドを呼び出して、ドキュメント全体からすべての画像を抽出します。
         * 画像を繰り返し表示し、画像タイプを印刷します
@@ -95,7 +95,7 @@ steps:
         GroupDocs.Parser for Javaは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。 完全なシステム要件ガイドについては、以下のコードを実行する前にシステム要件にアクセスしてください。システムに次の前提条件がインストールされていることを確認してください。
          * オペレーティングシステム：Microsoft Windows、Linux、MacOS
          * Javaバージョンのサポート：J2SE 7.0（1.7）、J2SE 8.0（1.8）以降
-         * GroupDocs [Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser) から最新バージョンのGroupDocs.AssemblyJavaAPIを入手します。
+         * GroupDocs [Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser) から最新バージョンのGroupDocs.Assembly Java APIを入手します。
         
       title_right: "GroupDocs.Parserを使用する理由"
       content_right: |
