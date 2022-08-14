@@ -4,7 +4,7 @@ draft: false
 path: "parser/net/extract/barcode/csv/"
 otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
 
-head_title: "..NET API untuk Mengekstrak Barcode dari PDF, DOCX, PPTX, XLSX, EPUB & Lainnya "
+head_title: ".NET API untuk Mengekstrak Barcode dari PDF, DOCX, PPTX, XLSX, EPUB & Lainnya "
 head_description: "GroupDocs.Parser .NET API memungkinkan pengembang perangkat lunak mengekstrak barcode dari dokumen PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB di dalam .NET Apps."
 
 title: "Ekstrak Barcode dari Excel, Word, PDF & PowerPoint Dokumen melalui C#.NET API"

@@ -4,7 +4,7 @@ draft: false
 path: "parser/net/extract/docx"
 otherformats: DOC DOT DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
 
-head_title: "..NET API untuk Mengurai & Mengekstrak Hyperlink dari Dokumen, Halaman, atau Area Halaman"
+head_title: ".NET API untuk Mengurai & Mengekstrak Hyperlink dari Dokumen, Halaman, atau Area Halaman"
 head_description: "GroupDocs.Parser .NET API memungkinkan pemrogram perangkat lunak untuk mengekstrak hyperlink dari dokumen, halaman atau halaman Area PDF, DOCX, XLSX, CSV, PPTX, EML, MSG, EPUB & banyak lagi."
 
 title: "Ekstrak Hyperlink dari Dokumen, Halaman, atau Area halaman tertentu melalui C#/VB.NET API"
