@@ -8,10 +8,10 @@ product_tag: "parser"
 platform: ".NET"
 platform_tag: "net"
 
-head_title: "..NET Parsing API, ekstrak Metadata Gambar Teks dari PDF Word Excel"
+head_title: ".NET Parsing API, ekstrak Metadata Gambar Teks dari PDF Word Excel"
 head_description: "C# .NET document parsing API untuk mengekstrak teks, gambar, metadata & encoding dari database, PDF, Word, Excel, presentasi, web, email, EPUB & format file zip."
 
-title: "..NET API untuk Mengekstrak Data Dokumen"
+title: ".NET API untuk Mengekstrak Data Dokumen"
 description: "Ekstrak gambar, teks mentah atau diformat, dan metadata dari dokumen, spreadsheet, presentasi, email & arsip dari dalam aplikasi .NET."
 button:
     enable: true

@@ -155,7 +155,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Parser for Java supports following Sistemas operativos, Frameworks & Package ‎Managers:‎
+          GroupDocs.Parser for Java supports following Sistemas operativos, Frameworks & Package Managers:
         
         left:
           enable: true

@@ -15,7 +15,7 @@ head_description: "C# .NET document parsing API to extract text, images, metadat
 
 ############################# Header ############################
 title: ".NET API to Extract Document Data"
-description: "‎Extract images, raw or formatted text and metadata from documents, spreadsheets, presentations, emails & archives from within .NET apps.‎"
+description: "Extract images, raw or formatted text and metadata from documents, spreadsheets, presentations, emails & archives from within .NET apps."
 button:
     enable: true
 
@@ -155,7 +155,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Parser for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Parser for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -233,7 +233,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Extract Data from PDF, MS Word, Excel and Presentation Documents‎"
+        content: "Extract Data from PDF, MS Word, Excel and Presentation Documents"
 
       # feature loop
       - icon: "fas fa-location-arrow"

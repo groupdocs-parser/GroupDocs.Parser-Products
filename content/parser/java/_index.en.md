@@ -15,7 +15,7 @@ head_description: "Java document parser API to extract text, images, metadata & 
 
 ############################# Header ############################
 title: "Java Parser API to Extract Data"
-description: "‎Java API to parse & extract images and text with metadata from documents, presentations, archives & emails.‎"
+description: "Java API to parse & extract images and text with metadata from documents, presentations, archives & emails."
 button:
     enable: true
 
@@ -155,7 +155,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Parser for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Parser for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -227,7 +227,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Pull out Raw Text from Simple PDF File or a PDF Portfolio Document‎"
+        content: "Pull out Raw Text from Simple PDF File or a PDF Portfolio Document"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -263,7 +263,7 @@ features:
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Draw Out All or Selected Images from Supported Formats & Rotate Extracted Image(s)‎"
+        content: "Draw Out All or Selected Images from Supported Formats & Rotate Extracted Image(s)"
 
       # feature loop
       - icon: "fas fa-file-code"
@@ -271,7 +271,7 @@ features:
       
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Fetch Data from Email Container (Exchange Web Server, POP3, IMAP)‎"
+        content: "Fetch Data from Email Container (Exchange Web Server, POP3, IMAP)"
 
       # feature loop
       - icon: "fas fa-file-excel"
@@ -321,7 +321,7 @@ features:
       # more_feature_loop
       - title: "Get Text with Plain Text or HTML Formatters"
         content: |
-          With GroupDocs.Parser for Java, you can apply various formatters to the Text and HTML. You can pull text with Plain Text Formatter for both Simple and ASCII. You can also get Text with HTML Formatter and apply formatting to paragraph, hyperlink, font, headings, lists and tables.‎
+          With GroupDocs.Parser for Java, you can apply various formatters to the Text and HTML. You can pull text with Plain Text Formatter for both Simple and ASCII. You can also get Text with HTML Formatter and apply formatting to paragraph, hyperlink, font, headings, lists and tables.
 
 ############################# Support ############################
 support:
