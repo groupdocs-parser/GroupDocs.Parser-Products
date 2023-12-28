@@ -1,0 +1,253 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java, Cloud APIs & Online Document Parser Apps",
+    "head_description": "Get all-in-one document parsing solution for .NET, Java and cloud-based applications. Extract data from document formats online using simple drag and drop feature",
+    "title": "Document Parsing Solution",
+    "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "api_high_title": "GroupDocs.Parser High Code APIs Include",
+    "api_high_label": "View All High Code APIs",
+    "api_high_1_content": "Native .NET API to extract text, images, metadata from Microsoft Office, PDF, images and various other formats in .NET applications.",
+    "api_high_2_content": "Empower Java applications with data extraction from wide range of documents & images on any operating system with JDK installed.",
+    "api_low_title": "GroupDocs.Parser Low Code APIs Include",
+    "api_low_label": "View All Low Code APIs",
+    "api_low_1_content": "Work with cURL RESTful document parsing API to extract data from all popular document formats including PDF, Word, Excel & images.",
+    "api_low_2_content": "Use Parser RESTful API easily with .NET SDK to extract data from a number of document formats within .NET applications.",
+    "api_low_3_content": "Implement advanced document parsing features in your java applications with specially designed document parsing SDK for Java.",
+    "api_nocode_title": "GroupDocs.Parser No Code Apps Include",
+    "api_nocodelabel": "View All No Code Apps",
+    "api_nocode_1_content": "Free online app to parse Word, Excel, PowerPoint, PDF & 30+ more document types.",
+    "api_nocode_2_content": "Parse Word documents directly from your web browser to extract images, text or metadata.",
+    "api_nocode_3_content": "Free PDF parsing app that works on any platform or device without any limitations.",
+    "title_1": "Parse documents",
+    "words_for": "for",
+    "actions_alt": "Licensing",
+    "actions_title": "Ready to get started?",
+    "actions_description": "Try GroupDocs.Parser features for free or request a license",
+    "release_title": "Version {0} released",
+    "release_notes": "See what’s new",
+    "release_downloads": "Downloads",
+    "code_more": "More examples",
+    "overview_title": "GroupDocs.Parser Overview",
+    "platforms_title": "Platform independence",
+    "formats_title": "Supported file formats",
+    "formats_groups": {
+      "title_1": "Microsoft Office formats",
+      "title_2": "Images & Other Formats",
+      "title_3": "Other formats",
+      "format_portable": "Portable",
+      "format_other_office": "Other office formats",
+      "format_images": "Images",
+      "format_web": "Web",
+      "format_archives": "Archives",
+      "format_ebooks": "Ebooks"
+    },
+
+    "net": {
+      "title": "Native .NET API for Document Parsing",
+      "title_2": "via .NET API",
+      "actions_main": "Free NuGet Download",
+
+      "code": {
+        "title": "Extract text from PDF files in C#",
+        "instance": "Create an instance of Parser class",
+        "extract": "Extract a text into the reader",
+        "print_1": "Print a text from the document",
+        "print_2": "If text extraction isn't supported, a reader is null",
+        "not_supported": "Text extraction isn't supported"
+      },
+
+      "overview_description": "API for performing document parsing in .NET applications",
+      "overview_feature_1": {
+        "title": "Extract data from documents",
+        "description": ".NET API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
+      },
+      "overview_feature_2": {
+        "title": "Parse documents",
+        "description": "Extract various elements such as hyperlinks, tables, QR codes, barcodes and data from PDF forms. Also parse any desired information from documents using custom templates." },
+      "overview_feature_3": {
+        "title": "Customizing results",
+        "description": ".NET API enables you to retrieve data in various formats such as raw, structured, HTML, or Markdown. Additionally, API offers a search functionality for locating specific words or phrases within the text of documents."
+      },
+      "features": {
+        "title": "GroupDocs.Parser features",
+        "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately.",
+        "feature_1": {
+          "title": "Extract text",
+          "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
+        },
+        "feature_2": {
+          "title": "Extract images",
+          "content": "Retrieve visual content from diverse sources like office documents, PDF files for convenient access and use."
+        },
+        "feature_3": {
+          "title": "Scan QR Codes",
+          "content": "Detect and decode QR codes present within office documents, PDF files, or visual content for efficient information retrieval."
+        },
+        "feature_4": {
+          "title": "Extract data from email attachments and archives",
+          "content": "Gather valuable information from email messages, file attachments, and compressed data sources for effective analysis and utilization."
+        },
+        "feature_5": {
+          "title": "Extract tables",
+          "content": "Identify and extract tabular data from PDF documents for organized analysis and use."
+        },
+        "feature_6": {
+          "title": "Extract hyperlinks",
+          "content": "Locate and extract hyperlinks and email addresses within office documents or PDF files for efficient access ."
+        },
+        "feature_7": {
+          "title": "Parse PDF Forms",
+          "content": "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. .NET API can be utilized to extract data from these forms for efficient processing."
+        },
+        "feature_8": {
+          "title": "Parse data by templates",
+          "content": "Create custom templates and utilize them with .NET API to parse specific information from PDF files, simplifying data extraction processes."
+        },
+        "feature_9": {
+          "title": "Search a text in documents",
+          "content": "Quickly locate specific words or patterns within documents."
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for .NET supports the following operating systems, frameworks and package managers",
+      "formats_description": "GroupDocs.Parser for .NET supports operations with the following [file formats](https://docs.groupdocs.com/parser/net/supported-document-formats/).",
+
+      "code-samples": {
+        "title": "Code sample",
+        "description": "Some use cases of typical GroupDocs.Parser for .NET operations",
+        "sample1" : {
+          "header": "Extract images from PDF documents",
+          "description" : ".NET API makes it easy for C# developers to extract images from documents by implementing a few easy steps.",
+          "title": "Extract images from PDF documents in C#",
+          "code": {
+            "header": "Extract images from PDF documents using GroupDocs.Parser API",
+            "instance": "Create an instance of Parser class",
+            "extract": "Extract images",
+            "check_null": "Check if images extraction is supported",
+            "not_supported": "Images extraction isn't supported",
+            "iterate": "Iterate over images",
+            "print": "Print a page index, rectangle and image type:"
+          }
+        },
+        "sample2" : {
+          "header": "Extract barcodes from images",
+          "description": ".NET API makes it easy for C# developers to extract barcodes from documents by implementing a few easy steps.",          
+          "title": "Extract barcodes from images",
+          "code": {
+            "header": "Extract barcodes from documents using GroupDocs.Parser API",
+            "instance": "Create an instance of Parser class",
+            "check": "Check if the file supports barcode extracting",
+            "not_supported": "The file doesn't support barcode extracting.",
+            "extract": "Extract barcodes from the file.",
+            "iterate": "Iterate over barcodes",
+            "print_page_index": "Print the page index",
+            "print_value": "Print the barcode value"
+          }
+        }
+      }
+    },
+    "java": {
+      "title": "Java API to Parse Documenrs",
+      "title_2": "via Java API",
+      "actions_main": "Free Maven Download",
+
+      "code": {
+        "title": "Extract text from PDF files in Java",
+        "instance": "Create an instance of Parser class",
+        "extract": "Extract a text into the reader",
+        "print_1": "Print a text from the document",
+        "print_2": "If text extraction isn't supported, a reader is null",
+        "not_supported": "Text extraction isn't supported"
+      },
+
+      "overview_description": "API for performing document parsing in Java applications",
+      "overview_feature_1": {
+        "title": "Extract data from documents",
+        "description": "Java API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
+      },
+      "overview_feature_2": {
+        "title": "Parse documents",
+        "description": "Extract various elements such as hyperlinks, tables, QR codes, barcodes and data from PDF forms. Also parse any desired information from documents using custom templates." },
+      "overview_feature_3": {
+        "title": "Customizing results",
+        "description": "Java API enables you to retrieve data in various formats such as raw, structured, HTML, or Markdown. Additionally, API offers a search functionality for locating specific words or phrases within the text of documents."
+      },
+      "features": {
+        "title": "GroupDocs.Parser features",
+        "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately.",
+        "feature_1": {
+          "title": "Extract text",
+          "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
+        },
+        "feature_2": {
+          "title": "Extract images",
+          "content": "Retrieve visual content from diverse sources like office documents, PDF files for convenient access and use."
+        },
+        "feature_3": {
+          "title": "Scan QR Codes",
+          "content": "Detect and decode QR codes present within office documents, PDF files, or visual content for efficient information retrieval."
+        },
+        "feature_4": {
+          "title": "Extract data from email attachments and archives",
+          "content": "Gather valuable information from email messages, file attachments, and compressed data sources for effective analysis and utilization."
+        },
+        "feature_5": {
+          "title": "Extract tables",
+          "content": "Identify and extract tabular data from PDF documents for organized analysis and use."
+        },
+        "feature_6": {
+          "title": "Extract hyperlinks",
+          "content": "Locate and extract hyperlinks and email addresses within office documents or PDF files for efficient access ."
+        },
+        "feature_7": {
+          "title": "Parse PDF Forms",
+          "content": "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. Java API can be utilized to extract data from these forms for efficient processing."
+        },
+        "feature_8": {
+          "title": "Parse data by templates",
+          "content": "Create custom templates and utilize them with Java API to parse specific information from PDF files, simplifying data extraction processes."
+        },
+        "feature_9": {
+          "title": "Search a text in documents",
+          "content": "Quickly locate specific words or patterns within documents."
+        }
+      },
+
+      "platforms_description": "GroupDocs.Parser for Java supports the following operating systems, frameworks and package managers",
+      "formats_description": "GroupDocs.Parser for Java supports operations with the following [file formats](https://docs.groupdocs.com/parser/java/supported-document-formats/).",
+
+      "code-samples": {
+        "title": "Code sample",
+        "description": "Some use cases of typical GroupDocs.Parser for Java operations",
+        "sample1" : {
+          "header": "Extract images from PDF documents",
+          "description" : "Java API makes it easy for Java developers to extract images from documents by implementing a few easy steps.",
+          "title": "Extract images from PDF documents in Java",
+          "code": {
+            "header": "Extract images from PDF documents using GroupDocs.Parser API",
+            "instance": "Create an instance of Parser class",
+            "extract": "Extract images",
+            "check_null": "Check if images extraction is supported",
+            "not_supported": "Images extraction isn't supported",
+            "iterate": "Iterate over images",
+            "print": "Print a page index, rectangle and image type:"
+          }
+        },
+        "sample2" : {
+          "header": "Extract barcodes from images",
+          "description": "Java API makes it easy for Java developers to extract barcodes from documents by implementing a few easy steps.",          
+          "title": "Extract barcodes from images",
+          "code": {
+            "header": "Extract barcodes from documents using GroupDocs.Parser API",
+            "instance": "Create an instance of Parser class",
+            "check": "Check if the file supports barcode extracting",
+            "not_supported": "The file doesn't support barcode extracting.",
+            "extract": "Extract barcodes from the file.",
+            "iterate": "Iterate over barcodes",
+            "print_page_index": "Print the page index",
+            "print_value": "Print the barcode value"
+          }
+        }
+      }
+    }
+  }
+}

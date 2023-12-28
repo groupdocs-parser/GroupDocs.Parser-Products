@@ -3,24 +3,24 @@
 layout: "product"
 date: 2022-03-01T15:12:22
 draft: false
-#operation: 
-#parsertype: 
-#fileformat: 
-#productName: Java
-lang: en
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  parser on  for Java
+#operation: <% get "Operation" %>
+#parsertype: <% get "Parsertype" %>
+#fileformat: <% get "Fileformat" %>
+#productName: <% get "ProductName" %>
+lang: <% lower ( get "lang") %>
+#productCode: <% lower ( get "ProductCode") %>
+#otherformats: <% get "OtherFormats" %>
+#breadcrumb: Put <% get "Parsertype" %> parser on <% get "Fileformat" %> for <% get "ProgLang" %>
 product: "Parser"
 product_tag: "parser"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & Online Document Parser Apps"
-head_description: "Get all-in-one document parsing solution for .NET, Java and cloud-based applications. Extract data from document formats online using simple drag and drop feature"
+head_title: "<% "{index-content.head_title}" %>"
+head_description: "<% "{index-content.head_description}" %>"
 
 ############################# Header ############################
-title: "Document Parsing Solution"
-description: "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
+title: "<% "{index-content.title}" %>"
+description: "<% "{index-content.description}" %>"
 
 ############################# APIs ###############################
 apis:
@@ -28,9 +28,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Parser High Code APIs Include"
+    - title: "<% "{index-content.api_high_title}" %>"
       link: "/parser/"
-      label: "View All High Code APIs"
+      label: "<% "{index-content.api_high_label}" %>"
       api_product:
         # api_product loop
         - link: "/parser/net/"
@@ -38,7 +38,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-net.png"
           product: "GroupDocs.Parser for"
           platform: ".NET"
-          content: "Native .NET API to extract text, images, metadata from Microsoft Office, PDF, images and various other formats in .NET applications."
+          content: "<% "{index-content.api_high_1_content}" %>"
 
         # api_product loop
         - link: "/parser/java/"
@@ -46,12 +46,12 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-java.png"
           product: "GroupDocs.Parser for"
           platform: "Java"
-          content: "Empower Java applications with data extraction from wide range of documents & images on any operating system with JDK installed."
+          content: "<% "{index-content.api_high_2_content}" %>"
 
     # api loop
-    - title: "GroupDocs.Parser Low Code APIs Include"
+    - title: "<% "{index-content.api_low_title}" %>"
       link: "https://products.groupdocs.cloud/parser"
-      label: "View All Low Code APIs"
+      label: "<% "{index-content.api_low_label}" %>"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/parser/curl"
@@ -59,7 +59,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-curl.png"
           product: "GroupDocs.Parser"
           platform: "Cloud for cURL"
-          content: "Work with cURL RESTful document parsing API to extract data from all popular document formats including PDF, Word, Excel & images."
+          content: "<% "{index-content.api_low_1_content}" %>"
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/parser/net"
@@ -67,7 +67,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-net.png"
           product: "GroupDocs.Parser"
           platform: "Cloud SDK for .NET"
-          content: "Use Parser RESTful API easily with .NET SDK to extract data from a number of document formats within .NET applications."
+          content: "<% "{index-content.api_low_2_content}" %>"
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/parser/java"
@@ -75,12 +75,12 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_parser-for-java.png"
           product: "GroupDocs.Parser"
           platform: "Cloud SDK for Java"
-          content: "Implement advanced document parsing features in your java applications with specially designed document parsing SDK for Java."
+          content: "<% "{index-content.api_low_3_content}" %>"
 
     # api loop
-    - title: "GroupDocs.Parser No Code Apps Include"
+    - title: "<% "{index-content.api_nocode_title}" %>"
       link: "https://products.groupdocs.app/parser"
-      label: "View All No Code Apps"
+      label: "<% "{index-content.api_nocodelabel}" %>"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/parser/total"
@@ -88,7 +88,7 @@ apis:
           image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_parser-app.png"
           product: "GroupDocs.Parser"
           platform: "Total"
-          content: "Free online app to parse Word, Excel, PowerPoint, PDF & 30+ more document types."
+          content: "<% "{index-content.api_nocode_1_content}" %>"
 
         # api_product loop
         - link: "https://products.groupdocs.app/parser/docx"
@@ -96,7 +96,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Parser"
           platform: "DOCX"
-          content: "Parse Word documents directly from your web browser to extract images, text or metadata."
+          content: "<% "{index-content.api_nocode_2_content}" %>"
 
         # api_product loop
         - link: "https://products.groupdocs.app/parser/pdf"
@@ -104,7 +104,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Parser"
           platform: "PDF"
-          content: "Free PDF parsing app that works on any platform or device without any limitations."
+          content: "<% "{index-content.api_nocode_3_content}" %>"
 
 ############################# Back to top ###############################
 back_to_top:
