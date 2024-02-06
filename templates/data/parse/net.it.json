@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Analizza i dati da {{EXT}} in {{ProgLang}}",
+    "description": "Analizza rapidamente i dati dai documenti in {{ProgLang}}."
+  },
+  "header": {
+    "title": "Analizza i dati da {{EXT}} in {{ProgLang}}",
+    "description": "Analizza i dati da {{EXT}} con poche righe di codice {{ProductName}}.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codici",
+      "button_text_3": "Demo dal vivo",
+      "button_text_4": "Prezzi"
+    }
+  },
+  "about": {
+    "title": "Analizza i dati con i modelli in {{ProductFullName}}",
+    "p1": "I modelli possono migliorare notevolmente l'efficienza, la precisione e la coerenza dell'estrazione dei dati dai documenti. {{ProductFullName}} fornisce una soluzione potente per lavorare con i modelli.",
+    "p2": "Con {{ProductFullName}} puoi creare facilmente modelli per diversi tipi di documenti, inclusi i documenti PDF e Microsoft Word. È inoltre possibile utilizzare modelli per l'analisi batch di più documenti.",
+    "p3": "Le migliori pratiche per lavorare con i modelli in {{ProductFullName}} includono l'utilizzo di identificatori univoci e il test approfondito dei modelli prima della distribuzione. Con {{ProductFullName}} puoi ottimizzare l'estrazione dei dati e ottenere risultati migliori.",
+    "p4": "Scarica e prova {{ProductFullName}} oggi stesso per semplificare le attività di analisi dei documenti e migliorare la tua produttività. La nostra documentazione e le risorse di supporto sono disponibili per aiutarti a iniziare e raggiungere il successo.",
+    "p5": "Scopri di più sull'analisi dei documenti in [documentazione](https://docs.groupdocs.com/parser/{{ProductCode}}/working-with-templates/)."
+  },
+  "more": {
+    "title_left": "Requisiti di sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} Le API sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: sistema operativo Microsoft Windows, Linux, Mac",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Perché utilizzare {{ProductFullName}}",
+    "content_right": {
+      "p1": "Supporto per l'estrazione di testo normale da qualsiasi documento supportato",
+      "p2": "Analisi dei documenti tramite modelli definiti dall'utente",
+      "p3": "Supporta completamente l'estrazione del testo strutturato",
+      "p4": "Ricerca di testo tramite parole chiave ed espressioni regolari",
+      "p5": "Estrai testo formattato, metadati, immagini, contenitori e allegati",
+      "p6": "Estrai il sommario per alcuni formati di documento supportati",
+      "p7": "Analizza i dati del modulo da documenti PDF",
+      "p8": "Estrai collegamenti ipertestuali dal documento"
+    }
+  },
+  "demos": {
+    "title": "Demo dal vivo: analizza i dati da {{EXT}} online",
+    "h1": "Analizza subito i dati dal file {{EXT}} visitando il sito web [GroupDocs.Parser Demo live](https://products.groupdocs.app/parser/{{ext}}).",
+    "h2": "La demo live presenta i seguenti vantaggi."
+  },
+  "more_formats": {
+    "title": "Analizzare i dati da altri formati di documento",
+    "content": "I documenti {{ProductName}} analizzano l'API per formati di file e immagini. Estrai i dati per alcuni dei formati di file più diffusi come indicato di seguito."
+  }
+}

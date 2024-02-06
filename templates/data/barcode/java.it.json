@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "Estrai codici a barre da Excel, Word, PDF e altri documenti tramite API {{ProductName}}",
+    "description": "{{ProductFullName}} consente agli sviluppatori di software di estrarre codici a barre da PDF, MS Excel, Word, PowerPoint, Outlook, OneNote e altri documenti all'interno delle app {{ProductName}}."
+  },
+  "header": {
+    "title": "Come estrarre i codici a barre da PDF, DOCX, PPTX, EML, MSG, XLSX e EPUB tramite l'API {ProductName}}",
+    "description": "L'API {{ProductFullName}} consente agli sviluppatori di software di estrarre codici a barre da PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint( PPT, { 330}), Outlook (EML, MSG) e molti altri documenti Area pagina.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codici",
+      "button_text_3": "Demo dal vivo",
+      "button_text_4": "Prezzi"
+    }
+  },
+  "about": {
+    "title": "Come estrarre i codici a barre dall'API dei file {{EXT}} {{ProductName}}?",
+    "h1": "L'immagine dei codici a barre è costituita da una serie di linee nere parallele e spazi bianchi di larghezza variabile che possono essere utilizzati per codificare le informazioni in uno schema visivo. È stato introdotto negli anni '70 ed è ora una parte universale delle attività commerciali. {{ProductFullName}} è una potente API che consente ai programmatori di software di creare applicazioni per analizzare diversi tipi di documenti ed estrarre da essi testo, immagini e codici a barre. Include il supporto per alcuni dei tipi di documenti più comuni come PDF, e-mail, ebook, formati Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, {330 }), Excel (XLS, XLSX), formati email (EML, MSG) e molti altri. L'API {{ProductName}} ha incluso il supporto per diverse importanti funzionalità relative all'analisi dei documenti e all'estrazione dei dati come estrazione di testo semplice, estrazione di testo strutturato, estrazione di testo formattato markdown, estrazione di testo da una pagina o area di pagina specifica, estrazione di codici a barre dal documento, estrazione metadati o immagini e molto altro ancora."
+  },
+  "steps": {
+    "title_left": "Estrai codici a barre da {{EXT}} in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) consente agli sviluppatori di {{ProgLang}} di estrarre facilmente i codici a barre da un file {{EXT}} implementando alcuni semplici passaggi.",
+      "step_1": "Istanziare l'oggetto [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) per il documento iniziale;",
+      "step_2": "Controlla se il file supporta l'estrazione del codice a barre;",
+      "step_3": "Chiama il metodo [getBarcodes](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getBarcodes--) e ottieni la raccolta di [PageBarcodeArea](https://reference.groupdocs.com /parser/java/com.groupdocs.parser.data/pagebarcodearea/) oggetti;",
+      "step_4": "Scorri la raccolta e ottieni il valore del codice a barre."
+    },
+    "title_right": "Ulteriori informazioni sull'estrazione del codice a barre",
+    "content_right": {
+      "step_1": "Come estrarre i codici a barre dal documento",
+      "step_2": "Come estrarre i codici a barre dalla pagina del documento",
+      "step_3": "Come estrarre i codici a barre dall'area della pagina del documento"
+    },
+    "title_code": "Come estrarre i codici a barre dal file {{EXT}} utilizzando il codice di esempio {{ProgLang}}",
+    "code": {
+      "header": "Estrai i codici a barre dal file {{EXT}} utilizzando l'API GroupDocs.Parser",
+      "instance": "Crea un'istanza della classe Parser",
+      "check": "Controlla se il file supporta l'estrazione del codice a barre",
+      "not_supported": "Il file non supporta l'estrazione dei codici a barre.",
+      "extract": "Estrai i codici a barre dal file.",
+      "iterate": "Itera sui codici a barre",
+      "print_page_index": "Stampa l'indice della pagina",
+      "print_value": "Stampa il valore del codice a barre"
+    }
+  },
+  "more": {
+    "title_left": "Requisiti di sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} Le API sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: sistema operativo Microsoft Windows, Linux, Mac",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Perché utilizzare {{ProductFullName}}",
+    "content_right": {
+      "p1": "Supporto per l'estrazione di testo normale da qualsiasi documento supportato",
+      "p2": "Analisi dei documenti tramite modelli definiti dall'utente",
+      "p3": "Supporta completamente l'estrazione del testo strutturato",
+      "p4": "Ricerca di testo tramite parole chiave ed espressioni regolari",
+      "p5": "Estrai testo formattato, metadati, immagini, contenitori e allegati",
+      "p6": "Estrai il sommario per alcuni formati di documento supportati",
+      "p7": "Analizza i dati del modulo da documenti PDF",
+      "p8": "Estrai collegamenti ipertestuali dal documento"
+    }
+  },
+  "demos": {
+    "title": "Demo dal vivo: estrai codici a barre da {{EXT}} online",
+    "h1": "Estrai subito i codici a barre dal file {{EXT}} visitando il sito web [GroupDocs.Parser Demo live](https://products.groupdocs.app/parser/barcodes/{{ext}}).",
+    "h2": "La demo live presenta i seguenti vantaggi."
+  },
+  "more_formats": {
+    "title": "Estrai codici a barre da altri formati di documenti",
+    "content": "{{ProductName}} documenti analizza ed estrae codici a barre API per formati di file e immagini. Estrai i dati per alcuni dei formati di file più diffusi come indicato di seguito."
+  }
+}

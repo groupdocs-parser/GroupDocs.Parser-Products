@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-28T16:34:08
+date: 2024-02-03T08:11:54
 draft: false
 #operation: 
 #parsertype: 
@@ -210,7 +210,7 @@ code_samples:
         {{< landing/code title="Extract images from PDF documents in Java">}}
         ```java {style=abap}
         // Create an instance of Parser class
-        try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
+        try (Parser parser = new Parser(filePath)) {
             // Extract images
             Iterable<PageImageArea> images = parser.getImages();
             // Check if images extraction is supported
@@ -233,14 +233,14 @@ code_samples:
         {{< landing/code title="Extract barcodes from images">}}
         ```java {style=abap}   
         // Create an instance of Parser class
-        try (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+        try (Parser parser = new Parser(filePath)) {
             // // Check if the file supports barcode extracting
             if (!parser.getFeatures().isBarcodes()) {
                 System.out.println("The file doesn't support barcode extracting.");
                 return;
             }
 
-            // {index-content.java.code-samples.sample2.code.scan}
+            // Extract barcodes from the file.
             Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
 
             // Iterate over barcodes

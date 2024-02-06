@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "Wyodrębnij obrazy z Excel, Word, PDF i innego dokumentu lub strony za pomocą .NET",
+    "description": "Interfejs API GroupDocs.Parser .NET umożliwia programistom wyodrębnianie obrazów z różnych dokumentów, takich jak MS Excel, Word, PowerPoint, PDF i innych, w ich aplikacjach .NET."
+  },
+  "header": {
+    "title": "Wyodrębnij obrazy z dokumentów i stron PDF, DOCX, PPTX, MSG, XLSX za pośrednictwem interfejsu API C#.NET",
+    "description": "Interfejs API GroupDocs.Parser .NET umożliwia programistom wyodrębnianie obrazów z plików PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF i EPUB dokumenty lub strony dokumentów.",
+    "button_label": "Pobierz darmową wersję próbną"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Dokumentacja API",
+      "button_text_2": "Przykłady kodu",
+      "button_text_3": "Demo na żywo",
+      "button_text_4": "cennik"
+    }
+  },
+  "about": {
+    "title": "Jak wyodrębnić obrazy z plików {{EXT}} za pomocą {{ProductName}}?",
+    "h1": "Obrazy mogą być wykorzystywane do przekazywania informacji w sposób niemożliwy do wyrażenia słowami. Obrazy pomagają nam przyciągnąć uwagę użytkownika i z łatwością wyjaśnić trudne pojęcia. Czasami podczas czytania dokumentów, czasopism lub korzystania z prezentacji często znaleźliśmy fascynujące obrazy i chcieliśmy je pobrać. {{ProductFullName}} to potężny interfejs API, który pomaga użytkownikom tworzyć przydatne aplikacje do wyodrębniania obrazów z różnych typów dokumentów i zapisywania ich w formatach PNG, JPEG, WebP, GIF, BMP i innych. Interfejs API obsługuje wyodrębnianie tekstu i obrazów z niektórych najczęściej używanych formatów plików, takich jak PDF, e-maile, e-booki, formaty Microsoft Office: Word (DOC, DOCX), { 284} (PPT, PPTX), Excel (XLS, XLSX), formaty LibreOffice i wiele innych. API w pełni obsługuje także analizowanie dokumentów, wyodrębnianie zwykłego i strukturalnego tekstu, wyszukiwanie tekstu według słów kluczowych, wyodrębnianie metadanych lub obrazów, kontenerów oraz załączników i wiele innych."
+  },
+  "steps": {
+    "title_left": "Wyodrębnij obrazy z {{EXT}} w {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) ułatwia programistom {{ProgLang}} wyodrębnianie obrazów z pliku {{EXT}} poprzez wykonanie kilku prostych kroków.",
+      "step_1": "Utwórz instancję obiektu [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) dla dokumentu początkowego;",
+      "step_2": "Wywołaj metodę [GetImages](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/getimages) i uzyskaj kolekcję obiektów graficznych;",
+      "step_3": "Sprawdź, czy czytnik nie jest *null* (dla dokumentu obsługiwane jest wyodrębnianie obrazów);",
+      "step_4": "Iteruj po kolekcji i uzyskaj rozmiary, typy obrazów i zawartość obrazów."
+    },
+    "title_right": "Dowiedz się więcej o wyodrębnianiu obrazów",
+    "content_right": {
+      "step_1": "Jak wyodrębnić obrazy z dokumentu",
+      "step_2": "Jak wyodrębnić obrazy ze strony dokumentu",
+      "step_3": "Jak wyodrębnić obrazy z obszaru strony dokumentu",
+      "step_4": "Jak wyodrębnić obrazy do plików"
+    },
+    "title_code": "Jak wyodrębnić obrazy z pliku {{EXT}} przy użyciu przykładowego kodu {{ProgLang}}",
+    "code": {
+      "header": "Wyodrębnij obrazy z pliku {{EXT}} przy użyciu interfejsu API GroupDocs.Parser",
+      "instance": "Utwórz instancję klasy Parser",
+      "extract": "Wyodrębnij obrazy",
+      "check_null": "Sprawdź, czy obsługiwana jest ekstrakcja obrazów",
+      "not_supported": "Wyodrębnianie obrazów nie jest obsługiwane",
+      "iterate": "Iteruj po obrazach",
+      "print": "Wydrukuj indeks strony, prostokąt i typ obrazu:"
+    }
+  },
+  "more": {
+    "title_left": "wymagania systemowe",
+    "content_left": {
+      "description": "{{ProductFullName}} Interfejsy API są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że w systemie zainstalowano następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Ramy",
+      "step_4": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Dlaczego warto używać {{ProductFullName}}",
+    "content_right": {
+      "p1": "Obsługa wyodrębniania zwykłego tekstu z dowolnych obsługiwanych dokumentów",
+      "p2": "Analizowanie dokumentów za pomocą szablonów zdefiniowanych przez użytkownika",
+      "p3": "W pełni obsługuje wyodrębnianie tekstu strukturalnego",
+      "p4": "Wyszukiwanie tekstu za pomocą słów kluczowych i wyrażeń regularnych",
+      "p5": "Wyodrębnij sformatowany tekst, metadane, obrazy, kontenery i załączniki",
+      "p6": "Wyodrębnij spis treści dla niektórych obsługiwanych formatów dokumentów",
+      "p7": "Analizuj dane formularzy z PDF dokumentów",
+      "p8": "Wyodrębnij hiperłącza z dokumentu"
+    }
+  },
+  "demos": {
+    "title": "Prezentacje na żywo — wyodrębnij obrazy z usługi {{EXT}} Online",
+    "h1": "Wyodrębnij teraz obrazy z pliku {{EXT}}, odwiedzając witrynę [GroupDocs.Parser Prezentacje na żywo](https://products.groupdocs.app/parser/images/{{ext}}).",
+    "h2": "Demo na żywo ma następujące zalety."
+  },
+  "more_formats": {
+    "title": "Wyodrębnij obrazy z innych formatów dokumentów",
+    "content": "{{ProductName}} API analizowania dokumentów i ekstrakcji obrazów dla formatów plików i obrazów. Wyodrębnij dane dla niektórych popularnych formatów plików, jak opisano poniżej."
+  }
+}

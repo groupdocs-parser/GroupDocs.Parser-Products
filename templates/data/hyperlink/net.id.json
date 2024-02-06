@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": ".NET API untuk Mengurai & Mengekstrak Hyperlink dari Dokumen, Halaman, atau Area Halaman",
+    "description": "GroupDocs.Parser .NET API memungkinkan pemrogram perangkat lunak mengekstrak hyperlink dari dokumen, halaman, atau Area halaman PDF, DOCX, XLSX, CSV, PPTX, EML, MSG, EPUB & masih banyak lagi."
+  },
+  "header": {
+    "title": "Ekstrak Hyperlink dari Dokumen, Halaman, atau Area halaman Tertentu melalui C#/VB.NET API",
+    "description": "GroupDocs.Parser .NET API memungkinkan pengembang perangkat lunak mengurai & mengekstrak hyperlink dari dokumen, halaman, atau Area halaman PDF, DOC, DOCX, PPT, PPTX, EML, MSG , XLS, XLSX, CSV, ODT, RTF, EPUB dan banyak dokumen lainnya.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Bagaimana cara Mengurai & Mengekstrak Hyperlink dari {{EXT}} dokumen melalui {{ProductName}} API?",
+    "h1": "Hyperlink adalah sepotong teks atau gambar atau ikon yang menunjuk ke seluruh dokumen atau ke bagian tertentu dalam dokumen. Penggunaan hyperlink memungkinkan pengguna untuk menavigasi ke halaman web atau dokumen. Seringkali diperlukan untuk mengekstrak hyperlink dari dokumen dan menggunakannya untuk mengakses dokumen eksternal atau halaman web. {{ProductFullName}} adalah API ekstraksi teks dokumen menarik yang menyediakan fungsionalitas lengkap untuk mengimplementasikan solusi ekstraksi teks dan metadata. Ini mendukung ekstraksi teks & hyperlink dari format PDF, Email, Ebooks, Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel ( XLS, XLSX), format LibreOffice, dan banyak lagi. Ini mendukung beberapa fitur lanjutan untuk penguraian dokumen, mengekstraksi teks biasa dan terstruktur, pencarian teks dengan kata kunci, mengekstrak metadata atau gambar, wadah serta lampiran dan banyak lagi."
+  },
+  "steps": {
+    "title_left": "Ekstrak hyperlink dari {{EXT}} di {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) memudahkan pengembang {{ProgLang}} untuk mengekstrak hyperlink dari file {{EXT}} dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Membuat instance objek [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) untuk dokumen awal;",
+      "step_2": "Periksa apakah dokumen mendukung ekstraksi hyperlink;",
+      "step_3": "Panggil metode [GetHyperlinks](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks) dan dapatkan koleksi [PageHyperlinkArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagehyperlinkarea) objek;",
+      "step_4": "Iterasi melalui koleksi dan dapatkan teks hyperlink dan URL."
+    },
+    "title_right": "Pelajari lebih lanjut tentang ekstraksi hyperlink",
+    "content_right": {
+      "step_1": "Cara mengekstrak hyperlink dari dokumen",
+      "step_2": "Cara mengekstrak hyperlink dari halaman dokumen",
+      "step_3": "Cara mengekstrak hyperlink dari area halaman dokumen"
+    },
+    "title_code": "Cara mengekstrak hyperlink dari file {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "header": "Ekstrak hyperlink dari file {{EXT}} menggunakan GroupDocs.Parser API",
+      "instance": "Buat instance kelas Parser",
+      "check": "Periksa apakah dokumen mendukung ekstraksi hyperlink",
+      "not_supported": "Dokumen tidak mendukung ekstraksi hyperlink.",
+      "extract": "Ekstrak hyperlink dari dokumen",
+      "iterate": "Iterasi melalui hyperlink",
+      "print_text": "Cetak teks hyperlink",
+      "print_url": "Cetak URL hyperlink"
+    }
+  },
+  "more": {
+    "title_left": "Persyaratan sistem",
+    "content_left": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Mengapa Menggunakan {{ProductFullName}}",
+    "content_right": {
+      "p1": "Dukungan ekstraksi teks biasa dari dokumen yang didukung",
+      "p2": "Penguraian dokumen melalui templat yang ditentukan pengguna",
+      "p3": "Sepenuhnya mendukung ekstraksi teks terstruktur",
+      "p4": "Pencarian teks melalui kata kunci serta ekspresi reguler",
+      "p5": "Ekstrak teks yang diformat, metadata, gambar, wadah, dan lampiran",
+      "p6": "Ekstrak daftar isi untuk beberapa format dokumen yang didukung",
+      "p7": "Mengurai data formulir dari PDF dokumen",
+      "p8": "Ekstrak hyperlink dari dokumen"
+    }
+  },
+  "more_formats": {
+    "title": "Ekstrak Hyperlink Dari Format Dokumen Lain",
+    "content": "{{ProductName}} dokumen mengurai & API ekstraksi hyperlink untuk format file dan gambar. Ekstrak data untuk beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

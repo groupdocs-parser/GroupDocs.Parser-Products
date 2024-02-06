@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": ".NET API pour extraire les codes-barres de PDF, DOCX, PPTX, XLSX, EPUB et plus",
+    "description": "GroupDocs.Parser .NET L'API permet aux développeurs de logiciels d'extraire les codes-barres de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, Documents CSV, ODT, RTF et EPUB dans les applications .NET."
+  },
+  "header": {
+    "title": "Extrayez les codes-barres des documents Excel, Word, PDF et PowerPoint via l'API C#.NET",
+    "description": "GroupDocs.Parser .NET L'API permet aux programmeurs d'extraire les codes-barres de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF & EPUB documents ou zone de page.",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "Comment extraire les codes-barres de l'API {{EXT}} fichiers {{ProductName}} ?",
+    "h1": "Les codes-barres sont une représentation lisible par machine de chiffres et de caractères couramment utilisés dans le monde entier dans de nombreux contextes, tels que la numérisation et l'identification de produits, le suivi de pièces automobiles, la gestion des stocks, etc. {{ProductFullName}} est une API puissante qui aide les développeurs à développer une solution pour extraire du texte, des images et des codes-barres à partir de différents types de formats de documents pris en charge, tels que les formats PDF, e-mails, livres électroniques, Microsoft Office : Word ({ 377}, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), e-mails (EML, MSG) et bien d'autres. L'API {{ProductName}} a inclus la prise en charge de plusieurs fonctionnalités avancées d'analyse de documents telles que la recherche de texte par mots-clés, l'extraction de texte précise, l'extraction de texte au format HTML ou Markdown, l'extraction de zones de texte avec des coordonnées, l'extraction de métadonnées ou de codes-barres, etc."
+  },
+  "steps": {
+    "title_left": "Extraire les codes-barres de {{EXT}} dans {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) permet aux développeurs {{ProgLang}} d'extraire facilement les codes-barres d'un fichier {{EXT}} en mettant en œuvre quelques étapes simples.",
+      "step_1": "Instanciez l'objet [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) pour le document initial ;",
+      "step_2": "Vérifiez si le fichier prend en charge l'extraction de code-barres ;",
+      "step_3": "Appelez la méthode [GetBarcodes](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getbarcodes) et obtenez la collection de [PageBarcodeArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagebarcodearea) objets ;",
+      "step_4": "Parcourez la collection et obtenez une valeur de code-barres."
+    },
+    "title_right": "En savoir plus sur l'extraction de code-barres",
+    "content_right": {
+      "step_1": "Comment extraire les codes-barres d'un document",
+      "step_2": "Comment extraire les codes-barres de la page du document",
+      "step_3": "Comment extraire les codes-barres de la zone de page du document"
+    },
+    "title_code": "Comment extraire les codes-barres du fichier {{EXT}} à l'aide de l'exemple de code {{ProgLang}}",
+    "code": {
+      "header": "Extraire les codes-barres du fichier {{EXT}} à l'aide de l'API GroupDocs.Parser",
+      "instance": "Créer une instance de la classe Parser",
+      "check": "Vérifiez si le fichier prend en charge l'extraction de code-barres",
+      "not_supported": "Le fichier ne prend pas en charge l'extraction de code-barres.",
+      "extract": "Extrayez les codes-barres du fichier.",
+      "iterate": "Itérer sur les codes-barres",
+      "print_page_index": "Imprimer l'index des pages",
+      "print_value": "Imprimer la valeur du code-barres"
+    }
+  },
+  "more": {
+    "title_left": "Configuration requise",
+    "content_left": {
+      "description": "{{ProductFullName}} Les API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Pourquoi utiliser {{ProductFullName}}",
+    "content_right": {
+      "p1": "Prise en charge de l'extraction de texte brut à partir de tous les documents pris en charge",
+      "p2": "Analyse de documents via des modèles définis par l'utilisateur",
+      "p3": "Prise en charge complète de l'extraction de texte structuré",
+      "p4": "Recherche de texte par mot-clé ainsi que par expression régulière",
+      "p5": "Extraire du texte formaté, des métadonnées, des images, des conteneurs et des pièces jointes",
+      "p6": "Extraire la table des matières pour certains formats de document pris en charge",
+      "p7": "Analyser les données de formulaire de PDF documents",
+      "p8": "Extraire les hyperliens du document"
+    }
+  },
+  "demos": {
+    "title": "Démos en direct - Extrayez les codes-barres des documents en ligne",
+    "h1": "Extrayez les codes-barres des documents dès maintenant en visitant le site Web [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/barcodes/).",
+    "h2": "La démo en direct présente les avantages suivants."
+  },
+  "more_formats": {
+    "title": "Extraire les codes-barres d'autres formats de documents",
+    "content": "{{ProductName}} API d'analyse de documents et d'extraction de codes-barres pour les formats de fichiers et les images. Extrayez les données pour certains des formats de fichiers populaires comme indiqué ci-dessous."
+  }
+}

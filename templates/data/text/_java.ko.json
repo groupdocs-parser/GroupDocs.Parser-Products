@@ -1,0 +1,78 @@
+{
+  "head": {
+    "title": "{{ProgLang}}의 문서에서 텍스트 추출",
+    "description": "{{ProgLang}}의 문서 파일에서 빠르게 텍스트를 추출합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}의 문서에서 텍스트 추출",
+    "description": "몇 줄의 {{ProductName}} 코드로 문서에서 텍스트를 추출합니다.",
+    "button_label": "무료 평가판 다운로드"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API 참조",
+      "button_text_2": "코드 예제",
+      "button_text_3": "라이브 데모",
+      "button_text_4": "가격"
+    }
+  },
+  "about": {
+    "title": "파일 {{ProductName}} API에서 텍스트를 추출하는 방법은 무엇입니까?",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/)는 텍스트, 이미지 및 메타데이터 추출기 API로, 원시, 구조화 및 형식화된 텍스트를 구문 분석하는 기능으로 비즈니스 애플리케이션을 구축하는 데 도움이 되는 50개 이상의 인기 있는 문서 유형을 지원합니다. 또한 사전 정의된 템플릿을 사용하여 문서 구문 분석을 지원하고 송장 및 기타 일반 문서에서 복잡한 데이터를 빠르고 정확하게 추출할 수 있습니다. GroupDocs.Parser for Java을 사용하면 Word 처리 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, OneNote, PDF 파일 및 ZIP 아카이브를 포함하여 널리 사용되는 모든 형식의 비밀번호로 보호된 파일에서 텍스트 및 메타데이터를 추출할 수 있습니다.",
+    "h2": "GroupDocs.Parser API는 파일 텍스트 추출 기능이 필요한 기업 솔루션에 적합한 선택입니다. 이러한 API는 {{Runtime}}를 포함한 모든 주요 운영 체제 및 플랫폼에서 잘 지원됩니다."
+  },
+  "steps": {
+    "title_left": "{{ProductName}}의 문서에서 텍스트 추출",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/)를 사용하면 {{ProgLang}} 개발자가 몇 가지 간단한 단계를 구현하여 문서에서 텍스트를 쉽게 추출할 수 있습니다.",
+      "step_1": "초기 문서에 대한 [Parser](https://reference.groupdocs.com/java/parser/com.groupdocs.parser/Parser) 개체를 인스턴스화합니다.",
+      "step_2": "[getText](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getText--) 메서드를 호출하고 [TextReader](https://reference.groupdocs.com/java/parser/com.groupdocs.parser.data/TextReader) 개체;",
+      "step_3": "판독기가 *null*이 아닌지 확인합니다(문서에 대해 텍스트 추출이 지원됨).",
+      "step_4": "독자로부터 텍스트를 읽습니다."
+    },
+    "title_right": "텍스트 추출에 대해 자세히 알아보기",
+    "content_right": {
+      "step_1": "Accurate 모드에서 텍스트를 추출하는 방법",
+      "step_2": "Raw 모드에서 텍스트를 추출하는 방법"
+    },
+    "title_code": "{{ProgLang}} 예제 코드를 사용하여 문서에서 텍스트를 추출하는 방법",
+    "code": {
+      "header": "GroupDocs.Parser API를 사용하여 문서에서 텍스트 추출",
+      "instance": "Parser 클래스의 인스턴스 생성",
+      "extract": "텍스트를 리더기로 추출",
+      "print_1": "문서에서 텍스트 인쇄",
+      "print_2": "텍스트 추출이 지원되지 않는 경우 판독기는 null입니다.",
+      "not_supported": "텍스트 추출은 지원되지 않습니다."
+    }
+  },
+  "more": {
+    "title_left": "시스템 요구 사항",
+    "content_left": {
+      "description": "{{ProductFullName}} API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 필수 구성 요소가 설치되어 있는지 확인하십시오.",
+      "step_1": "운영 체제: Microsoft Windows, Linux, MacOS",
+      "step_2": "개발 환경: {{DevEnv}}",
+      "step_3": "프레임워크",
+      "step_4": "[{{RepoName}}]({{RepoUrl}})에서 {{ProductFullName}}의 최신 버전을 다운로드하세요."
+    },
+    "title_right": "{{ProductFullName}}를 사용하는 이유",
+    "content_right": {
+      "p1": "지원되는 모든 문서에서 일반 텍스트 추출 지원",
+      "p2": "사용자 정의 템플릿을 통한 문서 분석",
+      "p3": "구조화된 텍스트 추출을 완벽하게 지원",
+      "p4": "키워드 및 정규 표현식을 통한 텍스트 검색",
+      "p5": "형식이 지정된 텍스트, 메타데이터, 이미지, 컨테이너 및 첨부 파일 추출",
+      "p6": "지원되는 일부 문서 형식의 목차 추출",
+      "p7": "PDF 문서에서 양식 데이터 구문 분석",
+      "p8": "문서에서 하이퍼링크 추출"
+    }
+  },
+  "demos": {
+    "title": "라이브 데모 - 온라인 문서에서 텍스트 추출",
+    "h1": "지금 바로 [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/text/) 웹사이트를 방문하여 문서에서 텍스트를 추출하세요.",
+    "h2": "라이브 데모에는 다음과 같은 이점이 있습니다."
+  },
+  "more_formats": {
+    "title": "다른 문서 형식에서 텍스트 추출",
+    "content": "{{ProductName}} 파일 형식 및 이미지에 대한 문서 구문 분석 및 텍스트 추출 API. 아래에 설명된 대로 널리 사용되는 일부 파일 형식에 대한 데이터를 추출합니다."
+  }
+}

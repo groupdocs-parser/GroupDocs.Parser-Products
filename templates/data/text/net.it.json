@@ -1,0 +1,78 @@
+{
+  "head": {
+    "title": "Estrai testo da {{EXT}} in {{ProgLang}}",
+    "description": "Estrai rapidamente il testo da un file di documenti in {{ProgLang}}."
+  },
+  "header": {
+    "title": "Estrai testo da {{EXT}} in {{ProgLang}}",
+    "description": "Estrai il testo da {{EXT}} con poche righe di codice {{ProductName}}.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codici",
+      "button_text_3": "Demo dal vivo",
+      "button_text_4": "Prezzi"
+    }
+  },
+  "about": {
+    "title": "Come estrarre un testo dall'API dei file {{EXT}} {{ProductName}}?",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) è un'API di estrazione di testo, metadati e immagini per applicazioni aziendali sviluppate utilizzando C#, ASP.NET e altre .NET tecnologie. Supporta l'estrazione di testo grezzo, formattato e strutturato, nonché di metadati dai file dei formati supportati. Attraverso GroupDocs.Parser for .NET, le tue applicazioni possono anche eseguire l'analisi di documenti protetti da password per i formati più diffusi, come Word documenti di elaborazione, Excel fogli di calcolo, PowerPoint presentazioni, OneNote, PDF file e ZIP archivi .",
+    "h2": "L'API GroupDocs.Parser è la scelta giusta per le soluzioni aziendali che necessitano della funzionalità di estrazione del testo dei file. Queste API sono ben supportate su tutti i principali sistemi operativi e piattaforme, incluso {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Estrai testo da {{EXT}} in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) consente agli sviluppatori {{ProgLang}} di estrarre facilmente un testo da un file {{EXT}} implementando alcuni semplici passaggi.",
+      "step_1": "Istanziare l'oggetto [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) per il documento iniziale;",
+      "step_2": "Chiama il metodo [GetText](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/gettext) e ottieni [TextReader](https://docs.microsoft.com/en-us/ dotnet/api/system.io.textreader?view=netframework-2.0) oggetto;",
+      "step_3": "Controlla se il lettore non è *null* (l'estrazione del testo è supportata per il documento);",
+      "step_4": "Leggere un testo dal lettore."
+    },
+    "title_right": "Ulteriori informazioni sull'estrazione del testo",
+    "content_right": {
+      "step_1": "Come estrarre il testo in modalità Accurata",
+      "step_2": "Come estrarre il testo in modalità Raw"
+    },
+    "title_code": "Come estrarre il testo dal file {{EXT}} utilizzando il codice di esempio {{ProgLang}}",
+    "code": {
+      "header": "Estrai il testo dal file {{EXT}} utilizzando l'API GroupDocs.Parser",
+      "instance": "Crea un'istanza della classe Parser",
+      "extract": "Estrarre un testo nel lettore",
+      "print_1": "Stampa un testo dal documento",
+      "print_2": "Se l'estrazione del testo non è supportata, un lettore è nullo",
+      "not_supported": "L'estrazione del testo non è supportata"
+    }
+  },
+  "more": {
+    "title_left": "Requisiti di sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} Le API sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: sistema operativo Microsoft Windows, Linux, Mac",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Perché utilizzare {{ProductFullName}}",
+    "content_right": {
+      "p1": "Supporto per l'estrazione di testo normale da qualsiasi documento supportato",
+      "p2": "Analisi dei documenti tramite modelli definiti dall'utente",
+      "p3": "Supporta completamente l'estrazione del testo strutturato",
+      "p4": "Ricerca di testo tramite parole chiave ed espressioni regolari",
+      "p5": "Estrai testo formattato, metadati, immagini, contenitori e allegati",
+      "p6": "Estrai il sommario per alcuni formati di documento supportati",
+      "p7": "Analizza i dati del modulo da documenti PDF",
+      "p8": "Estrai collegamenti ipertestuali dal documento"
+    }
+  },
+  "demos": {
+    "title": "Demo dal vivo: estrai testo da {{EXT}} online",
+    "h1": "Estrai subito il testo dal file {{EXT}} visitando il sito web [GroupDocs.Parser Demo live](https://products.groupdocs.app/parser/text/{{ext}}).",
+    "h2": "La demo live presenta i seguenti vantaggi."
+  },
+  "more_formats": {
+    "title": "Estrai testo da altri formati di documento",
+    "content": "API per l'analisi e l'estrazione del testo di documenti {{ProductName}} per formati di file e immagini. Estrai i dati per alcuni dei formati di file più diffusi come indicato di seguito."
+  }
+}

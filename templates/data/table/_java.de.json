@@ -1,0 +1,79 @@
+{
+  "head": {
+    "title": "Extrahieren Sie Tabellen aus PDF, DOCX, PPTX, XLSX, EPUB und mehr über die Java-API",
+    "description": "Mit der API GroupDocs.Parser Java können Programmierer Tabellen aus PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX und CSV extrahieren , ODT, RTF und viele andere Dokumenttypen in Java Apps."
+  },
+  "header": {
+    "title": "Extrahieren Sie Tabellen aus Excel-, Word-, PDF- und PowerPoint-Dokumenten über die Java-API",
+    "description": "Mit der API GroupDocs.Parser Java können Programmierer Tabellen aus PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX und CSV extrahieren , ODT, RTF & EPUB Dokumente oder Seiten.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Wie extrahiere ich Tabellen aus Excel, Word, PDF und anderen Dokumenten über die {{ProductName}}-API?",
+    "h1": "Eine Tabelle ist die Sammlung von Zellen, die in Zeilen und Spalten angeordnet sind. Tabellen spielen eine sehr wichtige Rolle beim Speichern und Organisieren detaillierter oder komplizierter Daten, damit die Benutzer sie leicht lesen und anzeigen können. Tabellen können auf vielfältige Weise verwendet werden, z. B. zum Erstellen von Listen, zum Vergleichen von Informationen, zum Ausrichten von Daten, zum Gruppieren von Informationen, zum Hervorheben von Trends oder Mustern in Daten und vielem mehr. {{ProductFullName}} ist eine nützliche API, die es Softwareprogrammierern ermöglicht, Lösungen zum Extrahieren von Tabellen, Text und Bildern aus verschiedenen Arten unterstützter Dokumentformate zu entwickeln, wie z. B. PDF, E-Mails, E-Books, Word (DOC, { 318}), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), E-Mail-Formate (EML, MSG) und viele mehr. Die {{ProductName}}-API enthält mehrere wichtige Funktionen für die Arbeit mit Tabellen, z. B. das Extrahieren aller Tabellen aus einem Dokument, das Extrahieren einer Tabelle aus einer bestimmten Seite, das Abrufen von Tabellenzellendaten, das Abrufen der Gesamtzahl der Tabellenzeilen und -spalten sowie das Abrufen der Zeilenhöhe. Daten einer Tabelle drucken und vieles mehr."
+  },
+  "steps": {
+    "title_left": "Extrahieren Sie Tabellen aus Dokumenten in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) erleichtert {{ProgLang}} Entwicklern das Extrahieren von Tabellen aus Dokumenten durch die Implementierung einiger einfacher Schritte.",
+      "step_1": "Instanziieren Sie das [Parser](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/)-Objekt für das ursprüngliche Dokument.",
+      "step_2": "Überprüfen Sie, ob das Dokument die Tabellenextraktion unterstützt;",
+      "step_3": "Instanziieren Sie [PageTableAreaOptions](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.options/pagetableareaoptions/) und [TemplateTableLayout](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.templates/templatetablelayout/) Klassen, um das Layout von Tabellen festzulegen",
+      "step_4": "Rufen Sie die Methode [getTables](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) auf und erhalten Sie eine Sammlung von [PageTableArea](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagetablearea/) Objekte ab;",
+      "step_5": "Durchlaufen Sie die Sammlung und drucken Sie Tabellenzellen."
+    },
+    "title_right": "Erfahren Sie mehr über die Tabellenextraktion",
+    "content_right": {
+      "step_1": "So extrahieren Sie Tabellen aus einem Dokument",
+      "step_2": "So extrahieren Sie Tabellen aus einer Dokumentseite"
+    },
+    "title_code": "So extrahieren Sie Tabellen aus Dokumenten mithilfe des Beispielcodes {{ProgLang}}",
+    "code": {
+      "header": "Extrahieren Sie Tabellen aus Dokumenten mithilfe der GroupDocs.Parser-API",
+      "instance": "Erstellen Sie eine Instanz der Parser-Klasse",
+      "check": "Überprüfen Sie, ob das Dokument die Tabellenextraktion unterstützt",
+      "not_supported": "Das Dokument unterstützt die Tabellenextraktion nicht.",
+      "layout": "Erstellen Sie das Layout der Tabellen",
+      "options": "Erstellen Sie die Optionen für die Tabellenextraktion",
+      "extract": "Extrahieren Sie Tabellen aus dem Dokument.",
+      "iterate": "Über Tabellen iterieren",
+      "iterate_rows": "Über Zeilen iterieren",
+      "iterate_columns": "Über Spalten iterieren",
+      "cell": "Holen Sie sich die Tabellenzelle",
+      "print_cell": "Drucken Sie den Text der Tabellenzelle"
+    }
+  },
+  "more": {
+    "title_left": "System Anforderungen",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmenwerke",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter."
+    },
+    "title_right": "Warum {{ProductFullName}} verwenden?",
+    "content_right": {
+      "p1": "Unterstützung für die Extraktion von Klartext aus allen unterstützten Dokumenten",
+      "p2": "Parsen von Dokumenten über benutzerdefinierte Vorlagen",
+      "p3": "Vollständige Unterstützung der strukturierten Textextraktion",
+      "p4": "Textsuche über Schlüsselwörter sowie reguläre Ausdrücke",
+      "p5": "Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge",
+      "p6": "Extrahieren Sie das Inhaltsverzeichnis für einige unterstützte Dokumentformate",
+      "p7": "Analysieren Sie Formulardaten aus PDF-Dokumenten",
+      "p8": "Extrahieren Sie Hyperlinks aus dem Dokument"
+    }
+  },
+  "more_formats": {
+    "title": "Extrahieren Sie Tabellen aus anderen Dokumentformaten",
+    "content": "{{ProductName}} API zum Parsen und Extrahieren von Tabellen für Dateiformate und Bilder. Extrahieren Sie Daten für einige der gängigen Dateiformate, wie unten aufgeführt."
+  }
+}

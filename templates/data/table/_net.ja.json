@@ -1,0 +1,79 @@
+{
+  "head": {
+    "title": "C#.NET API 経由で PDF、DOCX、PPTX、XLSX、EPUB などからテーブルを抽出します",
+    "description": "GroupDocs.Parser .NET API を使用すると、プログラマーは PDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV からテーブルを抽出できます、ODT、RTF、および .NET アプリ内のその他の多くのドキュメント タイプ。"
+  },
+  "header": {
+    "title": "C#.NET API 経由で Excel、Word、PDF、PowerPoint ドキュメントからテーブルを抽出します",
+    "description": "GroupDocs.Parser .NET API を使用すると、プログラマは PDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV からテーブルを抽出できます。 、ODT、RTF、および EPUB のドキュメントまたはページ。",
+    "button_label": "無料トライアルをダウンロード"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "APIリファレンス",
+      "button_text_2": "コード例",
+      "button_text_3": "ライブデモ",
+      "button_text_4": "価格設定"
+    }
+  },
+  "about": {
+    "title": "{{ProductName}} API を介して Excel、Word、PDF、およびその他のドキュメントからテーブルを抽出するにはどうすればよいですか?",
+    "h1": "テーブルは行と列に配置されたセルの集合です。テーブルは、詳細または複雑なデータを保存および整理して、ユーザーが簡単に読み取ったり表示できるようにする上で非常に重要な役割を果たします。テーブルは、リストの作成、情報の比較、データの整列、情報のグループ化、データの傾向やパターンの強調表示など、さまざまな方法で使用できます。 {{ProductFullName}} は、ソフトウェア プログラマが、PDF、電子メール、電子ブック、Word (DOC、{ 318})、PowerPoint (PPT、PPTX)、Excel (XLS、XLSX)、メール (EML、MSG) 形式など。 {{ProductName}} API には、ドキュメントからすべての表を抽出する、特定のページから表を抽出する、表のセル データを取得する、表の行と列の合計数を取得する、行の高さを取得するなど、表を操作するための重要な機能がいくつか含まれています。テーブルなどのデータを印刷します。"
+  },
+  "steps": {
+    "title_left": "{{ProductName}} のドキュメントからテーブルを抽出する",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) を使用すると、{{ProgLang}} 開発者はいくつかの簡単な手順を実装することで、ドキュメントからテーブルを簡単に抽出できます。",
+      "step_1": "最初のドキュメントの [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) オブジェクトをインスタンス化します。",
+      "step_2": "ドキュメントがテーブル抽出をサポートしているかどうかを確認します。",
+      "step_3": "[PageTableAreaOptions](https://reference.groupdocs.com/parser/net/groupdocs.parser.options/pagetableareaoptions/) および  をインスタンス化します。 [TemplateTableLayout](https://reference.groupdocs.com/parser/net/groupdocs.parser.templates/templatetablelayout/) テーブルのレイアウトを設定するクラス",
+      "step_4": "[GetTables](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gettables) メソッドを呼び出し、のコレクションを取得します。[PageTableArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagetablearea) オブジェクト。",
+      "step_5": "コレクションを繰り返し処理し、表のセルを出力します。"
+    },
+    "title_right": "テーブル抽出の詳細",
+    "content_right": {
+      "step_1": "文書から表を抽出する方法",
+      "step_2": "ドキュメントページから表を抽出する方法"
+    },
+    "title_code": "{{ProgLang}} サンプルコードを使用してドキュメントから表を抽出する方法",
+    "code": {
+      "header": "GroupDocs.Parser API を使用してドキュメントからテーブルを抽出する",
+      "instance": "Parserクラスのインスタンスを作成する",
+      "check": "ドキュメントがテーブル抽出をサポートしているかどうかを確認する",
+      "not_supported": "ドキュメントはテーブル抽出をサポートしていません。",
+      "layout": "テーブルのレイアウトを作成する",
+      "options": "テーブル抽出のオプションを作成する",
+      "extract": "ドキュメントから表を抽出します。",
+      "iterate": "テーブルを反復処理する",
+      "iterate_rows": "行を反復処理する",
+      "iterate_columns": "列を反復処理する",
+      "cell": "表のセルを取得する",
+      "print_cell": "表のセルのテキストを印刷します"
+    }
+  },
+  "more": {
+    "title_left": "システム要求",
+    "content_left": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "{{ProductFullName}} の最新バージョンを [{{RepoName}}]({{RepoUrl}}) からダウンロードします"
+    },
+    "title_right": "{{ProductFullName}} を使用する理由",
+    "content_right": {
+      "p1": "サポートされているドキュメントからのプレーン テキスト抽出のサポート",
+      "p2": "ユーザー定義のテンプレートを使用したドキュメントの解析",
+      "p3": "構造化テキスト抽出を完全にサポート",
+      "p4": "キーワードおよび正規表現によるテキスト検索",
+      "p5": "書式設定されたテキスト、メタデータ、画像、コンテナ、添付ファイルを抽出します",
+      "p6": "サポートされている一部のドキュメント形式の目次を抽出します",
+      "p7": "PDF ドキュメントからのフォーム データを解析する",
+      "p8": "ドキュメントからハイパーリンクを抽出する"
+    }
+  },
+  "more_formats": {
+    "title": "他のドキュメント形式からのテーブルの抽出",
+    "content": "{{ProductName}} ファイル形式と画像のドキュメント解析とテーブル スキャン API。以下に示すように、いくつかの一般的なファイル形式のデータを抽出します。"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "index-content": {
+    "head_title": ".NET、Java、クラウド API およびオンライン ドキュメント パーサー アプリ",
+    "head_description": ".NET、Java、およびクラウドベースのアプリケーション向けのオールインワンの文書解析ソリューションを入手します。シンプルなドラッグ アンド ドロップ機能を使用してオンラインでドキュメント形式からデータを抽出します",
+    "title": "文書解析ソリューション",
+    "description": "プログラマーとエンドユーザー向けの柔軟な API とアプリベースのソリューションを使用して、あらゆるプラットフォーム上のドキュメントや画像からデータを抽出します。",
+    "api_high_title": "GroupDocs.Parser High Code API には以下が含まれます",
+    "api_high_label": "すべての High Code API を表示",
+    "api_high_1_content": ".NET アプリケーションの Microsoft Office、PDF、画像、その他のさまざまな形式からテキスト、画像、メタデータを抽出するネイティブ .NET API。",
+    "api_high_2_content": "JDK がインストールされているオペレーティング システム上で、幅広いドキュメントや画像からデータを抽出できる Java アプリケーションを強化します。",
+    "api_low_title": "GroupDocs.Parser Low Code API には以下が含まれます",
+    "api_low_label": "すべての Low Code API を表示",
+    "api_low_1_content": "cURL REST の完全なドキュメント解析 API と連携して、PDF、Word、Excel、画像などの一般的なドキュメント形式からデータを抽出します。",
+    "api_low_2_content": ".NET SDK でパーサー REST フル API を簡単に使用して、.NET アプリケーション内のさまざまなドキュメント形式からデータを抽出します。",
+    "api_low_3_content": "Java 用に特別に設計されたドキュメント解析 SDK を使用して、Java アプリケーションに高度なドキュメント解析機能を実装します。",
+    "api_nocode_title": "GroupDocs.Parser No Code アプリには以下が含まれます",
+    "api_nocodelabel": "すべての No Code 個のアプリを表示",
+    "api_nocode_1_content": "Word、Excel、PowerPoint、PDF など 30 種類以上のドキュメント タイプを解析する無料のオンライン アプリ。",
+    "api_nocode_2_content": "Web ブラウザから直接 Word ドキュメントを解析して、画像、テキスト、またはメタデータを抽出します。",
+    "api_nocode_3_content": "無料の PDF 解析アプリは、あらゆるプラットフォームやデバイスで制限なく動作します。",
+    "title_1": "文書を解析する",
+    "words_for": "のために",
+    "actions_alt": "ライセンス",
+    "actions_title": "始める準備はできていますか?",
+    "actions_description": "GroupDocs.Parser の機能を無料で試すか、ライセンスをリクエストしてください",
+    "release_title": "バージョン {0} がリリースされました",
+    "release_notes": "新機能を見る",
+    "release_downloads": "ダウンロード",
+    "code_more": "他の例",
+    "overview_title": "GroupDocs.Parser 概要",
+    "platforms_title": "プラットフォームの独立性",
+    "formats_title": "サポートされているファイル形式",
+    "formats_groups": {
+      "title_1": "Microsoft Office 形式",
+      "title_2": "画像とその他の形式",
+      "title_3": "その他のフォーマット",
+      "format_portable": "Portable",
+      "format_other_office": "その他のオフィス形式",
+      "format_images": "画像",
+      "format_web": "ウェブ",
+      "format_archives": "アーカイブ",
+      "format_ebooks": "電子書籍"
+    },
+    "net": {
+      "title": "ドキュメント解析用のネイティブ .NET API",
+      "title_2": ".NET API 経由",
+      "actions_main": "無料の NuGet ダウンロード",
+      "code": {
+        "title": "C# で PDF ファイルからテキストを抽出する",
+        "instance": "Parserクラスのインスタンスを作成する",
+        "extract": "テキストをリーダーに抽出する",
+        "print_1": "ドキュメントからテキストを印刷する",
+        "print_2": "テキスト抽出がサポートされていない場合、リーダーは null になります",
+        "not_supported": "テキスト抽出はサポートされていません"
+      },
+      "overview_description": ".NET アプリケーションでドキュメント解析を実行するための API",
+      "overview_feature_1": {
+        "title": "ドキュメントからデータを抽出する",
+        "description": ".NET API を使用すると、Office ドキュメント、電子メール、添付ファイル、アーカイブなどの幅広いファイル形式からテキスト、メタデータ、画像を取得できます。この強力なツールは、データ分析、検索エンジンのインデックス作成、コンテンツ管理システムなどのさまざまなアプリケーションで、これらのファイルに含まれる貴重な情報に効率的にアクセスして処理するのに役立ちます。"
+      },
+      "overview_feature_2": {
+        "title": "文書を解析する",
+        "description": "PDF フォームからハイパーリンク、表、QR コード、バーコード、データなどのさまざまな要素を抽出します。また、カスタム テンプレートを使用してドキュメントから必要な情報を解析します。"
+      },
+      "overview_feature_3": {
+        "title": "結果のカスタマイズ",
+        "description": ".NET API を使用すると、生、構造化、HTML、マークダウンなどのさまざまな形式でデータを取得できます。さらに、API は、ドキュメントのテキスト内の特定の単語や語句を見つけるための検索機能を提供します。"
+      },
+      "features": {
+        "title": "GroupDocs.Parser の機能",
+        "description": "PDF、Office ドキュメント、画像からデータを迅速かつ正確に抽出します。",
+        "feature_1": {
+          "title": "テキストを抽出する",
+          "content": "オフィス文書、PDF ファイル、画像などのさまざまなファイル形式からテキスト情報を抽出し、読みやすく分析しやすくします。"
+        },
+        "feature_2": {
+          "title": "画像の抽出",
+          "content": "オフィス文書や PDF ファイルなどのさまざまなソースからビジュアル コンテンツを取得して、アクセスして使用するのが便利です。"
+        },
+        "feature_3": {
+          "title": "QRコードをスキャンする",
+          "content": "オフィス文書、PDF ファイル、またはビジュアル コンテンツ内に存在する QR コードを検出してデコードし、効率的な情報検索を実現します。"
+        },
+        "feature_4": {
+          "title": "電子メールの添付ファイルとアーカイブからデータを抽出する",
+          "content": "電子メール メッセージ、添付ファイル、圧縮データ ソースから貴重な情報を収集し、効果的に分析して利用します。"
+        },
+        "feature_5": {
+          "title": "テーブルの抽出",
+          "content": "組織的な分析と使用のために、PDF ドキュメントから表形式のデータを特定して抽出します。"
+        },
+        "feature_6": {
+          "title": "ハイパーリンクの抽出",
+          "content": "オフィス文書または PDF ファイル内のハイパーリンクと電子メール アドレスを見つけて抽出し、効率的にアクセスできるようにします。"
+        },
+        "feature_7": {
+          "title": "PDF フォームを解析する",
+          "content": "PDF フォームは、ユーザーが情報を電子的に入力できるようにするための入力可能なフィールドを備えたデジタル ドキュメントです。 .NET API を利用してこれらのフォームからデータを抽出し、効率的に処理できます。"
+        },
+        "feature_8": {
+          "title": "テンプレートによるデータの解析",
+          "content": "カスタム テンプレートを作成し、それを .NET API で利用して、PDF ファイルからの特定の情報を解析し、データ抽出プロセスを簡素化します。"
+        },
+        "feature_9": {
+          "title": "ドキュメント内のテキストを検索する",
+          "content": "文書内の特定の単語やパターンをすばやく見つけます。"
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for .NET 次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています",
+      "formats_description": "GroupDocs.Parser for .NET は、次の [ファイル形式](https://docs.groupdocs.com/parser/net/supported-document-formats/) での操作をサポートしています。",
+      "code-samples": {
+        "title": "コードサンプル",
+        "description": "典型的なオペレーションのいくつかのユースケース",
+        "sample1": {
+          "header": "PDF ドキュメントから画像を抽出する",
+          "description": ".NET API を使用すると、C# 開発者はいくつかの簡単な手順を実装することで、ドキュメントから画像を簡単に抽出できます。",
+          "title": "C# で PDF ドキュメントから画像を抽出する",
+          "code": {
+            "header": "GroupDocs.Parser API を使用して PDF ドキュメントから画像を抽出する",
+            "instance": "Parserクラスのインスタンスを作成する",
+            "extract": "画像の抽出",
+            "check_null": "画像抽出がサポートされているかどうかを確認する",
+            "not_supported": "画像の抽出はサポートされていません",
+            "iterate": "画像を反復処理する",
+            "print": "ページインデックス、四角形、および画像タイプを印刷します。"
+          }
+        },
+        "sample2": {
+          "header": "画像からバーコードを抽出する",
+          "description": ".NET API を使用すると、C# 開発者はいくつかの簡単な手順を実装することで、ドキュメントからバーコードを簡単に抽出できます。",
+          "title": "画像からバーコードを抽出する",
+          "code": {
+            "header": "GroupDocs.Parser API を使用してドキュメントからバーコードを抽出する",
+            "instance": "Parserクラスのインスタンスを作成する",
+            "check": "ファイルがバーコード抽出をサポートしているかどうかを確認します",
+            "not_supported": "このファイルはバーコード抽出をサポートしていません。",
+            "extract": "ファイルからバーコードを抽出します。",
+            "iterate": "バーコードを反復処理する",
+            "print_page_index": "ページインデックスを印刷する",
+            "print_value": "バーコード値を印刷する"
+          }
+        }
+      }
+    },
+    "java": {
+      "title": "Java ドキュメントを解析するための API",
+      "title_2": "Java API 経由",
+      "actions_main": "Maven の無料ダウンロード",
+      "code": {
+        "title": "Java の PDF ファイルからテキストを抽出します",
+        "instance": "Parserクラスのインスタンスを作成する",
+        "extract": "テキストをリーダーに抽出する",
+        "print_1": "ドキュメントからテキストを印刷する",
+        "print_2": "テキスト抽出がサポートされていない場合、リーダーは null になります",
+        "not_supported": "テキスト抽出はサポートされていません"
+      },
+      "overview_description": "Java アプリケーションでドキュメント解析を実行するための API",
+      "overview_feature_1": {
+        "title": "ドキュメントからデータを抽出する",
+        "description": "Java API を使用すると、Office ドキュメント、電子メール、添付ファイル、アーカイブなどの幅広いファイル形式からテキスト、メタデータ、画像を取得できます。この強力なツールは、データ分析、検索エンジンのインデックス作成、コンテンツ管理システムなどのさまざまなアプリケーションで、これらのファイルに含まれる貴重な情報に効率的にアクセスして処理するのに役立ちます。"
+      },
+      "overview_feature_2": {
+        "title": "文書を解析する",
+        "description": "PDF フォームからハイパーリンク、表、QR コード、バーコード、データなどのさまざまな要素を抽出します。また、カスタム テンプレートを使用してドキュメントから必要な情報を解析します。"
+      },
+      "overview_feature_3": {
+        "title": "結果のカスタマイズ",
+        "description": "Java API を使用すると、生、構造化、HTML、マークダウンなどのさまざまな形式でデータを取得できます。さらに、API は、ドキュメントのテキスト内の特定の単語や語句を見つけるための検索機能を提供します。"
+      },
+      "features": {
+        "title": "GroupDocs.Parser の機能",
+        "description": "PDF、Office ドキュメント、画像からデータを迅速かつ正確に抽出します。",
+        "feature_1": {
+          "title": "テキストを抽出する",
+          "content": "オフィス文書、PDF ファイル、画像などのさまざまなファイル形式からテキスト情報を抽出し、読みやすく分析しやすくします。"
+        },
+        "feature_2": {
+          "title": "画像の抽出",
+          "content": "オフィス文書や PDF ファイルなどのさまざまなソースからビジュアル コンテンツを取得して、アクセスして使用するのが便利です。"
+        },
+        "feature_3": {
+          "title": "QRコードをスキャンする",
+          "content": "オフィス文書、PDF ファイル、またはビジュアル コンテンツ内に存在する QR コードを検出してデコードし、効率的な情報検索を実現します。"
+        },
+        "feature_4": {
+          "title": "電子メールの添付ファイルとアーカイブからデータを抽出する",
+          "content": "電子メール メッセージ、添付ファイル、圧縮データ ソースから貴重な情報を収集し、効果的に分析して利用します。"
+        },
+        "feature_5": {
+          "title": "テーブルの抽出",
+          "content": "組織的な分析と使用のために、PDF ドキュメントから表形式のデータを特定して抽出します。"
+        },
+        "feature_6": {
+          "title": "ハイパーリンクの抽出",
+          "content": "オフィス文書または PDF ファイル内のハイパーリンクと電子メール アドレスを見つけて抽出し、効率的にアクセスできるようにします。"
+        },
+        "feature_7": {
+          "title": "PDF フォームを解析する",
+          "content": "PDF フォームは、ユーザーが情報を電子的に入力できるようにするための入力可能なフィールドを備えたデジタル ドキュメントです。 Java API を利用してこれらのフォームからデータを抽出し、効率的に処理できます。"
+        },
+        "feature_8": {
+          "title": "テンプレートによるデータの解析",
+          "content": "カスタム テンプレートを作成し、それを Java API で利用して、PDF ファイルからの特定の情報を解析し、データ抽出プロセスを簡素化します。"
+        },
+        "feature_9": {
+          "title": "ドキュメント内のテキストを検索する",
+          "content": "文書内の特定の単語やパターンをすばやく見つけます。"
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for Java は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています",
+      "formats_description": "GroupDocs.Parser for Java は、次の [ファイル形式](https://docs.groupdocs.com/parser/java/supported-document-formats/) での操作をサポートしています。",
+      "code-samples": {
+        "title": "コードサンプル",
+        "description": "典型的な GroupDocs.Parser for Java 操作のいくつかの使用例",
+        "sample1": {
+          "header": "PDF ドキュメントから画像を抽出する",
+          "description": "Java API を使用すると、Java 開発者はいくつかの簡単な手順を実装することで、ドキュメントから画像を簡単に抽出できます。",
+          "title": "Java の PDF ドキュメントから画像を抽出します",
+          "code": {
+            "header": "GroupDocs.Parser API を使用して PDF ドキュメントから画像を抽出する",
+            "instance": "Parserクラスのインスタンスを作成する",
+            "extract": "画像の抽出",
+            "check_null": "画像抽出がサポートされているかどうかを確認する",
+            "not_supported": "画像の抽出はサポートされていません",
+            "iterate": "画像を反復処理する",
+            "print": "ページインデックス、四角形、および画像タイプを印刷します。"
+          }
+        },
+        "sample2": {
+          "header": "画像からバーコードを抽出する",
+          "description": "Java API を使用すると、Java 開発者はいくつかの簡単な手順を実装することで、ドキュメントからバーコードを簡単に抽出できます。",
+          "title": "画像からバーコードを抽出する",
+          "code": {
+            "header": "GroupDocs.Parser API を使用してドキュメントからバーコードを抽出する",
+            "instance": "Parserクラスのインスタンスを作成する",
+            "check": "ファイルがバーコード抽出をサポートしているかどうかを確認します",
+            "not_supported": "このファイルはバーコード抽出をサポートしていません。",
+            "extract": "ファイルからバーコードを抽出します。",
+            "iterate": "バーコードを反復処理する",
+            "print_page_index": "ページインデックスを印刷する",
+            "print_value": "バーコード値を印刷する"
+          }
+        }
+      }
+    }
+  }
+}

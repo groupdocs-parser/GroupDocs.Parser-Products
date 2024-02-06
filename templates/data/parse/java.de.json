@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Daten von {{EXT}} in {{ProgLang}} analysieren",
+    "description": "Analysieren Sie schnell Daten aus Dokumenten in {{ProgLang}}."
+  },
+  "header": {
+    "title": "Daten von {{EXT}} in {{ProgLang}} analysieren",
+    "description": "Analysieren Sie Daten aus {{EXT}} mit ein paar Zeilen {{ProductName}}-Code.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Daten mit Vorlagen in {{ProductFullName}} analysieren",
+    "p1": "Vorlagen können die Effizienz, Genauigkeit und Konsistenz der Datenextraktion aus Dokumenten erheblich verbessern. {{ProductFullName}} bietet eine leistungsstarke Lösung für die Arbeit mit Vorlagen.",
+    "p2": "Mit {{ProductFullName}} können Sie ganz einfach Vorlagen für verschiedene Arten von Dokumenten erstellen, einschließlich PDFs und Microsoft Word-Dokumenten. Sie können Vorlagen auch zum Stapelparsen mehrerer Dokumente verwenden.",
+    "p3": "Zu den Best Practices für die Arbeit mit Vorlagen in {{ProductFullName}} gehören die Verwendung eindeutiger Kennungen und das gründliche Testen von Vorlagen vor der Bereitstellung. Mit {{ProductFullName}} können Sie die Datenextraktion optimieren und bessere Ergebnisse erzielen.",
+    "p4": "Laden Sie {{ProductFullName}} noch heute herunter und testen Sie es, um Ihre Aufgaben beim Parsen von Dokumenten zu vereinfachen und Ihre Produktivität zu steigern. Unsere Dokumentations- und Supportressourcen stehen Ihnen zur Verfügung, um Ihnen den Einstieg und den Erfolg zu erleichtern.",
+    "p5": "Weitere Informationen zum Parsen von Dokumenten finden Sie in der [Dokumentation](https://docs.groupdocs.com/parser/{{ProductCode}}/working-with-templates/)."
+  },
+  "more": {
+    "title_left": "System Anforderungen",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmenwerke",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter."
+    },
+    "title_right": "Warum {{ProductFullName}} verwenden?",
+    "content_right": {
+      "p1": "Unterstützung für die Extraktion von Klartext aus allen unterstützten Dokumenten",
+      "p2": "Parsen von Dokumenten über benutzerdefinierte Vorlagen",
+      "p3": "Vollständige Unterstützung der strukturierten Textextraktion",
+      "p4": "Textsuche über Schlüsselwörter sowie reguläre Ausdrücke",
+      "p5": "Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge",
+      "p6": "Extrahieren Sie das Inhaltsverzeichnis für einige unterstützte Dokumentformate",
+      "p7": "Analysieren Sie Formulardaten aus PDF-Dokumenten",
+      "p8": "Extrahieren Sie Hyperlinks aus dem Dokument"
+    }
+  },
+  "demos": {
+    "title": "Live-Demos – Analysieren Sie Daten von {{EXT}} Online",
+    "h1": "Analysieren Sie jetzt Daten aus der Datei {{EXT}}, indem Sie die Website [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/{{ext}}) besuchen.",
+    "h2": "Die Live-Demo bietet folgende Vorteile."
+  },
+  "more_formats": {
+    "title": "Analysieren Sie Daten aus anderen Dokumentformaten",
+    "content": "{{ProductName}} API zum Parsen von Dokumenten für Dateiformate und Bilder. Extrahieren Sie Daten für einige der gängigen Dateiformate, wie unten aufgeführt."
+  }
+}

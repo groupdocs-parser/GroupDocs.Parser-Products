@@ -1,0 +1,247 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java, Cloud API 및 온라인 문서 파서 앱",
+    "head_description": ".NET, Java 및 클라우드 기반 애플리케이션을 위한 올인원 문서 구문 분석 솔루션을 받으세요. 간단한 드래그 앤 드롭 기능을 사용하여 온라인으로 문서 형식에서 데이터 추출",
+    "title": "문서분석 솔루션",
+    "description": "프로그래머와 최종 사용자를 위한 유연한 API와 앱 기반 솔루션을 사용하여 모든 플랫폼의 문서와 이미지에서 데이터를 추출합니다.",
+    "api_high_title": "GroupDocs.Parser High Code API에는 다음이 포함됩니다.",
+    "api_high_label": "모든 High Code API 보기",
+    "api_high_1_content": ".NET 애플리케이션의 Microsoft Office, PDF, 이미지 및 기타 다양한 형식에서 텍스트, 이미지, 메타데이터를 추출하는 기본 .NET API입니다.",
+    "api_high_2_content": "JDK가 설치된 모든 운영 체제에서 다양한 문서 및 이미지로부터 데이터를 추출하여 Java 애플리케이션을 강화합니다.",
+    "api_low_title": "GroupDocs.Parser Low Code API에는 다음이 포함됩니다.",
+    "api_low_label": "모든 Low Code API 보기",
+    "api_low_1_content": "cURL RESTful 문서 구문 분석 API를 사용하여 PDF, Word, Excel 및 이미지를 포함하여 널리 사용되는 모든 문서 형식에서 데이터를 추출합니다.",
+    "api_low_2_content": ".NET SDK와 함께 Parser RESTful API를 쉽게 사용하여 .NET 애플리케이션 내의 다양한 문서 형식에서 데이터를 추출합니다.",
+    "api_low_3_content": "Java용으로 특별히 설계된 문서 구문 분석 SDK를 사용하여 Java 애플리케이션에 고급 문서 구문 분석 기능을 구현하세요.",
+    "api_nocode_title": "GroupDocs.Parser No Code 앱에는 다음이 포함됩니다.",
+    "api_nocodelabel": "모든 No Code 앱 보기",
+    "api_nocode_1_content": "Word, Excel, PowerPoint, PDF 외 30개 이상의 문서 유형을 구문 분석하는 무료 온라인 앱입니다.",
+    "api_nocode_2_content": "웹 브라우저에서 직접 Word 문서를 구문 분석하여 이미지, 텍스트 또는 메타데이터를 추출합니다.",
+    "api_nocode_3_content": "모든 플랫폼이나 기기에서 제한 없이 작동하는 무료 PDF 구문 분석 앱입니다.",
+    "title_1": "문서 분석",
+    "words_for": "~을 위한",
+    "actions_alt": "라이선스",
+    "actions_title": "시작할 준비가 되셨나요?",
+    "actions_description": "무료로 GroupDocs.Parser 기능을 사용해 보거나 라이선스를 요청하세요",
+    "release_title": "버전 {0} 출시",
+    "release_notes": "새로운 소식 보기",
+    "release_downloads": "다운로드",
+    "code_more": "더 많은 예",
+    "overview_title": "GroupDocs.Parser 개요",
+    "platforms_title": "플랫폼 독립성",
+    "formats_title": "지원되는 파일 형식",
+    "formats_groups": {
+      "title_1": "Microsoft Office 형식",
+      "title_2": "이미지 및 기타 형식",
+      "title_3": "기타 형식",
+      "format_portable": "Portable",
+      "format_other_office": "기타 사무실 형식",
+      "format_images": "이미지",
+      "format_web": "편물",
+      "format_archives": "아카이브",
+      "format_ebooks": "전자책"
+    },
+    "net": {
+      "title": "문서 구문 분석을 위한 기본 .NET API",
+      "title_2": ".NET API를 통해",
+      "actions_main": "무료 NuGet 다운로드",
+      "code": {
+        "title": "C#의 PDF 파일에서 텍스트 추출",
+        "instance": "Parser 클래스의 인스턴스 생성",
+        "extract": "리더기로 텍스트 추출",
+        "print_1": "문서의 텍스트 인쇄",
+        "print_2": "텍스트 추출이 지원되지 않으면 판독기는 null입니다.",
+        "not_supported": "텍스트 추출은 지원되지 않습니다."
+      },
+      "overview_description": ".NET 애플리케이션에서 문서 구문 분석을 수행하기 위한 API",
+      "overview_feature_1": {
+        "title": "문서에서 데이터 추출",
+        "description": "API를 사용하면 Office 문서, 이메일, 첨부 파일, 아카이브 등 다양한 파일 형식에서 텍스트, 메타데이터, 이미지를 검색할 수 있습니다. 이 강력한 도구는 데이터 분석, 검색 엔진 색인화 또는 콘텐츠 관리 시스템과 같은 다양한 응용 프로그램을 위해 이러한 파일에 포함된 중요한 정보에 효율적으로 액세스하고 처리하는 데 도움이 됩니다."
+      },
+      "overview_feature_2": {
+        "title": "문서 분석",
+        "description": "PDF 양식에서 하이퍼링크, 표, QR 코드, 바코드 및 데이터와 같은 다양한 요소를 추출합니다. 또한 사용자 정의 템플릿을 사용하여 문서에서 원하는 정보를 구문 분석합니다."
+      },
+      "overview_feature_3": {
+        "title": "결과 맞춤설정",
+        "description": ".NET API를 사용하면 원시, 구조적, HTML 또는 마크다운과 같은 다양한 형식의 데이터를 검색할 수 있습니다. 또한 API는 문서 텍스트 내에서 특정 단어나 문구를 찾는 검색 기능을 제공합니다."
+      },
+      "features": {
+        "title": "GroupDocs.Parser 기능",
+        "description": "PDF, Office 문서 및 이미지에서 데이터를 신속하고 정확하게 추출합니다.",
+        "feature_1": {
+          "title": "텍스트 추출",
+          "content": "쉽게 읽고 분석할 수 있도록 사무용 문서, PDF 파일, 이미지 등 다양한 파일 형식에서 텍스트 정보를 추출합니다."
+        },
+        "feature_2": {
+          "title": "이미지 추출",
+          "content": "편리한 액세스 및 사용을 위해 사무실 문서, PDF 파일과 같은 다양한 소스에서 시각적 콘텐츠를 검색합니다."
+        },
+        "feature_3": {
+          "title": "QR 코드 스캔",
+          "content": "효율적인 정보 검색을 위해 사무실 문서, PDF 파일 또는 시각적 콘텐츠 내에 있는 QR 코드를 감지하고 디코딩합니다."
+        },
+        "feature_4": {
+          "title": "이메일 첨부 파일 및 아카이브에서 데이터 추출",
+          "content": "효과적인 분석과 활용을 위해 이메일 메시지, 첨부 파일, 압축 데이터 소스에서 귀중한 정보를 수집하세요."
+        },
+        "feature_5": {
+          "title": "테이블 추출",
+          "content": "체계적인 분석 및 사용을 위해 PDF 문서에서 표 형식 데이터를 식별하고 추출합니다."
+        },
+        "feature_6": {
+          "title": "하이퍼링크 추출",
+          "content": "효율적인 액세스를 위해 사무실 문서 또는 PDF 파일 내에서 하이퍼링크와 이메일 주소를 찾아 추출합니다."
+        },
+        "feature_7": {
+          "title": "PDF 양식 구문 분석",
+          "content": "PDF 양식은 사용자 상호작용을 위해 입력 가능한 필드가 포함된 디지털 문서로, 정보를 전자적으로 입력할 수 있습니다. 효율적인 처리를 위해 API를 활용하여 이러한 양식에서 데이터를 추출할 수 있습니다."
+        },
+        "feature_8": {
+          "title": "템플릿으로 데이터 구문 분석",
+          "content": "맞춤 템플릿을 만들고 이를 .NET API로 활용하여 PDF 파일의 특정 정보를 구문 분석하여 데이터 추출 프로세스를 단순화합니다."
+        },
+        "feature_9": {
+          "title": "문서에서 텍스트 검색",
+          "content": "문서 내에서 특정 단어나 패턴을 빠르게 찾습니다."
+        }
+      },
+      "platforms_description": "다음 운영체제, 프레임워크, 패키지 관리자를 지원합니다.",
+      "formats_description": "다음 [파일 형식](https://docs.groupdocs.com/parser/net/supported-document-formats/)을 사용한 작업을 지원합니다.",
+      "code-samples": {
+        "title": "코드 샘플",
+        "description": "일반적인 작업의 일부 사용 사례",
+        "sample1": {
+          "header": "PDF 문서에서 이미지 추출",
+          "description": "API를 사용하면 C# 개발자가 몇 가지 간단한 단계를 구현하여 문서에서 이미지를 쉽게 추출할 수 있습니다.",
+          "title": "C#의 PDF 문서에서 이미지 추출",
+          "code": {
+            "header": "GroupDocs.Parser API를 사용하여 PDF 문서에서 이미지 추출",
+            "instance": "Parser 클래스의 인스턴스 생성",
+            "extract": "이미지 추출",
+            "check_null": "이미지 추출이 지원되는지 확인",
+            "not_supported": "이미지 추출은 지원되지 않습니다.",
+            "iterate": "이미지 반복",
+            "print": "페이지 색인, 직사각형 및 이미지 유형을 인쇄합니다."
+          }
+        },
+        "sample2": {
+          "header": "이미지에서 바코드 추출",
+          "description": "API를 사용하면 C# 개발자가 몇 가지 간단한 단계를 구현하여 문서에서 바코드를 쉽게 추출할 수 있습니다.",
+          "title": "이미지에서 바코드 추출",
+          "code": {
+            "header": "GroupDocs.Parser API를 사용하여 문서에서 바코드 추출",
+            "instance": "Parser 클래스의 인스턴스 생성",
+            "check": "파일이 바코드 추출을 지원하는지 확인하세요.",
+            "not_supported": "해당 파일은 바코드 추출을 지원하지 않습니다.",
+            "extract": "파일에서 바코드를 추출합니다.",
+            "iterate": "바코드 반복",
+            "print_page_index": "페이지 색인 인쇄",
+            "print_value": "바코드 값을 인쇄하세요"
+          }
+        }
+      }
+    },
+    "java": {
+      "title": "Java 문서를 구문 분석하는 API",
+      "title_2": "Java API를 통해",
+      "actions_main": "무료 메이븐 다운로드",
+      "code": {
+        "title": "Java의 PDF 파일에서 텍스트를 추출합니다.",
+        "instance": "Parser 클래스의 인스턴스 생성",
+        "extract": "리더기로 텍스트 추출",
+        "print_1": "문서의 텍스트 인쇄",
+        "print_2": "텍스트 추출이 지원되지 않으면 판독기는 null입니다.",
+        "not_supported": "텍스트 추출은 지원되지 않습니다."
+      },
+      "overview_description": "Java 애플리케이션에서 문서 구문 분석을 수행하기 위한 API",
+      "overview_feature_1": {
+        "title": "문서에서 데이터 추출",
+        "description": "Java API를 사용하면 Office 문서, 이메일, 첨부 파일, 아카이브 등 다양한 파일 형식에서 텍스트, 메타데이터, 이미지를 검색할 수 있습니다. 이 강력한 도구는 데이터 분석, 검색 엔진 색인화 또는 콘텐츠 관리 시스템과 같은 다양한 응용 프로그램을 위해 이러한 파일에 포함된 중요한 정보에 효율적으로 액세스하고 처리하는 데 도움이 됩니다."
+      },
+      "overview_feature_2": {
+        "title": "문서 분석",
+        "description": "PDF 양식에서 하이퍼링크, 표, QR 코드, 바코드 및 데이터와 같은 다양한 요소를 추출합니다. 또한 사용자 정의 템플릿을 사용하여 문서에서 원하는 정보를 구문 분석합니다."
+      },
+      "overview_feature_3": {
+        "title": "결과 맞춤설정",
+        "description": "Java API를 사용하면 원시, 구조화, HTML 또는 마크다운과 같은 다양한 형식의 데이터를 검색할 수 있습니다. 또한 API는 문서 텍스트 내에서 특정 단어나 문구를 찾는 검색 기능을 제공합니다."
+      },
+      "features": {
+        "title": "GroupDocs.Parser 기능",
+        "description": "PDF, Office 문서 및 이미지에서 데이터를 신속하고 정확하게 추출합니다.",
+        "feature_1": {
+          "title": "텍스트 추출",
+          "content": "쉽게 읽고 분석할 수 있도록 사무용 문서, PDF 파일, 이미지 등 다양한 파일 형식에서 텍스트 정보를 추출합니다."
+        },
+        "feature_2": {
+          "title": "이미지 추출",
+          "content": "편리한 액세스 및 사용을 위해 사무실 문서, PDF 파일과 같은 다양한 소스에서 시각적 콘텐츠를 검색합니다."
+        },
+        "feature_3": {
+          "title": "QR 코드 스캔",
+          "content": "효율적인 정보 검색을 위해 사무실 문서, PDF 파일 또는 시각적 콘텐츠 내에 있는 QR 코드를 감지하고 디코딩합니다."
+        },
+        "feature_4": {
+          "title": "이메일 첨부 파일 및 아카이브에서 데이터 추출",
+          "content": "효과적인 분석과 활용을 위해 이메일 메시지, 첨부 파일, 압축 데이터 소스에서 귀중한 정보를 수집하세요."
+        },
+        "feature_5": {
+          "title": "테이블 추출",
+          "content": "체계적인 분석 및 사용을 위해 PDF 문서에서 표 형식 데이터를 식별하고 추출합니다."
+        },
+        "feature_6": {
+          "title": "하이퍼링크 추출",
+          "content": "효율적인 액세스를 위해 사무실 문서 또는 PDF 파일 내에서 하이퍼링크와 이메일 주소를 찾아 추출합니다."
+        },
+        "feature_7": {
+          "title": "PDF 양식 구문 분석",
+          "content": "PDF 양식은 사용자 상호작용을 위해 입력 가능한 필드가 포함된 디지털 문서로, 정보를 전자적으로 입력할 수 있습니다. Java 효율적인 처리를 위해 API를 활용하여 이러한 양식에서 데이터를 추출할 수 있습니다."
+        },
+        "feature_8": {
+          "title": "템플릿으로 데이터 구문 분석",
+          "content": "맞춤 템플릿을 만들고 이를 Java API로 활용하여 PDF 파일의 특정 정보를 구문 분석하여 데이터 추출 프로세스를 단순화합니다."
+        },
+        "feature_9": {
+          "title": "문서에서 텍스트 검색",
+          "content": "문서 내에서 특정 단어나 패턴을 빠르게 찾습니다."
+        }
+      },
+      "platforms_description": "다음 운영체제, 프레임워크, 패키지 관리자를 지원합니다.",
+      "formats_description": "GroupDocs.Parser for Java 다음 [파일 형식](https://docs.groupdocs.com/parser/java/supported-document-formats/)을 사용한 작업을 지원합니다.",
+      "code-samples": {
+        "title": "코드 샘플",
+        "description": "일반적인 GroupDocs.Parser for Java 작업의 일부 사용 사례",
+        "sample1": {
+          "header": "PDF 문서에서 이미지 추출",
+          "description": "Java API를 사용하면 Java 개발자가 몇 가지 간단한 단계를 구현하여 문서에서 이미지를 쉽게 추출할 수 있습니다.",
+          "title": "Java의 PDF 문서에서 이미지를 추출합니다.",
+          "code": {
+            "header": "GroupDocs.Parser API를 사용하여 PDF 문서에서 이미지 추출",
+            "instance": "Parser 클래스의 인스턴스 생성",
+            "extract": "이미지 추출",
+            "check_null": "이미지 추출이 지원되는지 확인",
+            "not_supported": "이미지 추출은 지원되지 않습니다.",
+            "iterate": "이미지 반복",
+            "print": "페이지 색인, 직사각형 및 이미지 유형을 인쇄합니다."
+          }
+        },
+        "sample2": {
+          "header": "이미지에서 바코드 추출",
+          "description": "Java API를 사용하면 Java 개발자가 몇 가지 간단한 단계를 구현하여 문서에서 바코드를 쉽게 추출할 수 있습니다.",
+          "title": "이미지에서 바코드 추출",
+          "code": {
+            "header": "GroupDocs.Parser API를 사용하여 문서에서 바코드 추출",
+            "instance": "Parser 클래스의 인스턴스 생성",
+            "check": "파일이 바코드 추출을 지원하는지 확인하세요.",
+            "not_supported": "해당 파일은 바코드 추출을 지원하지 않습니다.",
+            "extract": "파일에서 바코드를 추출합니다.",
+            "iterate": "바코드 반복",
+            "print_page_index": "페이지 색인 인쇄",
+            "print_value": "바코드 값을 인쇄하세요"
+          }
+        }
+      }
+    }
+  }
+}

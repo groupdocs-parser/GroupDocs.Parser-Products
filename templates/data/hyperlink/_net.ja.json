@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": ".NET ドキュメント、ページ、またはページ領域からハイパーリンクを解析して抽出する API",
+    "description": "GroupDocs.Parser .NET API を使用すると、ソフトウェア プログラマはドキュメント、ページ、またはページ領域 PDF、DOCX、XLSX、CSV、PPTX、EML、MSG、EPUB からハイパーリンクを抽出できます。などなど。"
+  },
+  "header": {
+    "title": "C#/VB API 経由でドキュメント、ページ、または特定のページ領域からハイパーリンクを抽出します。",
+    "description": "GroupDocs.Parser .NET API を使用すると、ソフトウェア開発者はドキュメント、ページ、またはページ領域 PDF、DOC、DOCX、PPT、PPTX、EML、MSG からハイパーリンクを解析して抽出できます。 、XLS、XLSX、CSV、ODT、RTF、EPUB、その他多くのドキュメント。",
+    "button_label": "無料トライアルをダウンロード"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "APIリファレンス",
+      "button_text_2": "コード例",
+      "button_text_3": "ライブデモ",
+      "button_text_4": "価格設定"
+    }
+  },
+  "about": {
+    "title": "{{ProductName}} API を介してドキュメントからハイパーリンクを解析して抽出するにはどうすればよいですか?",
+    "h1": "ハイパーリンクは、文書全体または文書内の特定の部分を指すテキスト、画像、またはアイコンです。ハイパーリンクを使用すると、ユーザーは Web ページまたはドキュメントに移動できます。多くの場合、ドキュメントからハイパーリンクを抽出し、それを使用して外部ドキュメントまたは Web ページにアクセスすることが必要になります。 {{ProductFullName}} は、テキストおよびメタデータ抽出ソリューションを実装するための完全な機能を提供する魅力的なドキュメント テキスト抽出 API です。 PDF、メール、電子書籍、Microsoft Office 形式からのテキストとハイパーリンクの抽出をサポートしています: Word (DOC、DOCX)、PowerPoint (PPT、PPTX)、Excel ( XLS、XLSX)、LibreOffice 形式など。ドキュメントの解析、プレーンテキストと構造化テキストの抽出、キーワードによるテキスト検索、メタデータや画像、コンテナや添付ファイルの抽出など、いくつかの高度な機能をサポートしています。"
+  },
+  "steps": {
+    "title_left": "{{ProductName}} のドキュメントからハイパーリンクを抽出します",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) を使用すると、{{ProgLang}} 開発者はいくつかの簡単な手順を実装することで、ドキュメントからハイパーリンクを簡単に抽出できます。",
+      "step_1": "最初のドキュメントの [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) オブジェクトをインスタンス化します。",
+      "step_2": "ドキュメントがハイパーリンク抽出をサポートしているかどうかを確認します。",
+      "step_3": "[GetHyperlinks](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks) メソッドを呼び出し、[PageHyperlinkArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagehyperlinkarea) オブジェクト。",
+      "step_4": "コレクションを反復処理して、ハイパーリンクのテキストと URL を取得します。"
+    },
+    "title_right": "ハイパーリンク抽出の詳細",
+    "content_right": {
+      "step_1": "ドキュメントからハイパーリンクを抽出する方法",
+      "step_2": "ドキュメントページからハイパーリンクを抽出する方法",
+      "step_3": "ドキュメントのページ領域からハイパーリンクを抽出する方法"
+    },
+    "title_code": "{{ProgLang}} サンプルコードを使用してドキュメントからハイパーリンクを抽出する方法",
+    "code": {
+      "header": "GroupDocs.Parser API を使用してドキュメントからハイパーリンクを抽出する",
+      "instance": "Parserクラスのインスタンスを作成する",
+      "check": "ドキュメントがハイパーリンク抽出をサポートしているかどうかを確認する",
+      "not_supported": "ドキュメントはハイパーリンク抽出をサポートしていません。",
+      "extract": "ドキュメントからハイパーリンクを抽出する",
+      "iterate": "ハイパーリンクを反復処理する",
+      "print_text": "ハイパーリンクのテキストを印刷する",
+      "print_url": "ハイパーリンクの URL を出力する"
+    }
+  },
+  "more": {
+    "title_left": "システム要求",
+    "content_left": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "{{ProductFullName}} の最新バージョンを [{{RepoName}}]({{RepoUrl}}) からダウンロードします"
+    },
+    "title_right": "{{ProductFullName}} を使用する理由",
+    "content_right": {
+      "p1": "サポートされているドキュメントからのプレーン テキスト抽出のサポート",
+      "p2": "ユーザー定義のテンプレートを使用したドキュメントの解析",
+      "p3": "構造化テキスト抽出を完全にサポート",
+      "p4": "キーワードおよび正規表現によるテキスト検索",
+      "p5": "書式設定されたテキスト、メタデータ、画像、コンテナ、添付ファイルを抽出します",
+      "p6": "サポートされている一部のドキュメント形式の目次を抽出します",
+      "p7": "PDF ドキュメントからのフォーム データを解析する",
+      "p8": "ドキュメントからハイパーリンクを抽出する"
+    }
+  },
+  "more_formats": {
+    "title": "他のドキュメント形式からハイパーリンクを抽出する",
+    "content": "{{ProductName}} ドキュメントは、ファイル形式と画像の解析とハイパーリンク抽出 API を使用します。以下に示すように、いくつかの一般的なファイル形式のデータを抽出します。"
+  }
+}

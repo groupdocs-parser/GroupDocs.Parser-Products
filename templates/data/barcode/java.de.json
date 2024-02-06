@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "Extrahieren Sie Barcodes aus Excel, Word, PDF und anderen Dokumenten über die {{ProductName}}-API",
+    "description": "{{ProductFullName}} ermöglicht Softwareentwicklern das Extrahieren von Barcodes aus PDF, MS Excel, Word, PowerPoint, Outlook, OneNote und weiteren Dokumenten in {{ProductName}}-Apps."
+  },
+  "header": {
+    "title": "So extrahieren Sie Barcodes aus PDF, DOCX, PPTX, EML, MSG, XLSX und EPUB über die {ProductName}}-API",
+    "description": "Mit der API {{ProductFullName}} können Softwareentwickler Barcodes aus PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint( PPT, { extrahieren. 330}), Outlook ( EML, MSG) und viele andere Dokumente im Seitenbereich.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Wie extrahiere ich Barcodes aus {{EXT}}-Dateien mit der {{ProductName}}-API?",
+    "h1": "Das Barcode-Bild besteht aus einer Reihe paralleler schwarzer Linien und weißer Räume unterschiedlicher Breite, die zur Codierung von Informationen in ein visuelles Muster verwendet werden können. Es wurde in den 1970er Jahren eingeführt und ist heute ein universeller Bestandteil kommerzieller Unternehmen. {{ProductFullName}} ist eine leistungsstarke API, die es Softwareprogrammierern ermöglicht, Anwendungen zum Parsen verschiedener Dokumenttypen und zum Extrahieren von Text, Bildern und Barcodes daraus zu erstellen. Es bietet Unterstützung für einige der gängigsten Dokumenttypen wie PDF, E-Mails, E-Books und die Formate Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, {330). }), Excel (XLS, XLSX), E-Mail-Formate (EML, MSG) und viele mehr. Die {{ProductName}}-API bietet Unterstützung für mehrere wichtige Funktionen im Zusammenhang mit der Analyse von Dokumenten und der Datenextraktion, z. B. Nur-Text-Extraktion, Extraktion strukturierter Texte, Extrahieren von Markdown-formatiertem Text, Extrahieren von Text aus einer bestimmten Seite oder einem bestimmten Seitenbereich, Extrahieren von Barcodes aus Dokumenten, Extrahieren Metadaten oder Bilder und vieles mehr."
+  },
+  "steps": {
+    "title_left": "Barcodes aus {{EXT}} in {{ProductName}} extrahieren",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) erleichtert {{ProgLang}}-Entwicklern das Extrahieren von Barcodes aus einer {{EXT}}-Datei durch die Implementierung einiger einfacher Schritte.",
+      "step_1": "Instanziieren Sie das [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser)-Objekt für das ursprüngliche Dokument.",
+      "step_2": "Überprüfen Sie, ob die Datei das Extrahieren von Barcodes unterstützt.",
+      "step_3": "Rufen Sie die Methode [getBarcodes](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getBarcodes--) auf und rufen Sie die Sammlung von [PageBarcodeArea](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagebarcodearea/) Objekte ab;",
+      "step_4": "Durchlaufen Sie die Sammlung und erhalten Sie einen Barcode-Wert."
+    },
+    "title_right": "Erfahren Sie mehr über die Barcode-Extraktion",
+    "content_right": {
+      "step_1": "So extrahieren Sie Barcodes aus einem Dokument",
+      "step_2": "So extrahieren Sie Barcodes von einer Dokumentseite",
+      "step_3": "So extrahieren Sie Barcodes aus dem Seitenbereich eines Dokuments"
+    },
+    "title_code": "So extrahieren Sie Barcodes aus der Datei {{EXT}} mithilfe des Beispielcodes {{ProgLang}}",
+    "code": {
+      "header": "Extrahieren Sie Barcodes aus der Datei {{EXT}} mit der API GroupDocs.Parser",
+      "instance": "Erstellen Sie eine Instanz der Parser-Klasse",
+      "check": "Überprüfen Sie, ob die Datei das Extrahieren von Barcodes unterstützt",
+      "not_supported": "Die Datei unterstützt das Extrahieren von Barcodes nicht.",
+      "extract": "Barcodes aus der Datei extrahieren.",
+      "iterate": "Über Barcodes iterieren",
+      "print_page_index": "Drucken Sie den Seitenindex",
+      "print_value": "Drucken Sie den Barcode-Wert"
+    }
+  },
+  "more": {
+    "title_left": "System Anforderungen",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmenwerke",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter."
+    },
+    "title_right": "Warum {{ProductFullName}} verwenden?",
+    "content_right": {
+      "p1": "Unterstützung für die Extraktion von Klartext aus allen unterstützten Dokumenten",
+      "p2": "Parsen von Dokumenten über benutzerdefinierte Vorlagen",
+      "p3": "Vollständige Unterstützung der strukturierten Textextraktion",
+      "p4": "Textsuche über Schlüsselwörter sowie reguläre Ausdrücke",
+      "p5": "Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge",
+      "p6": "Extrahieren Sie das Inhaltsverzeichnis für einige unterstützte Dokumentformate",
+      "p7": "Analysieren Sie Formulardaten aus PDF-Dokumenten",
+      "p8": "Extrahieren Sie Hyperlinks aus dem Dokument"
+    }
+  },
+  "demos": {
+    "title": "Live-Demos – Barcodes aus {{EXT}} online extrahieren",
+    "h1": "Extrahieren Sie jetzt Barcodes aus der Datei {{EXT}}, indem Sie die Website [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/barcodes/{{ext}}) besuchen.",
+    "h2": "Die Live-Demo bietet folgende Vorteile."
+  },
+  "more_formats": {
+    "title": "Extrahieren Sie Barcodes aus anderen Dokumentformaten",
+    "content": "{{ProductName}} API zum Parsen und Extrahieren von Barcodes für Dateiformate und Bilder. Extrahieren Sie Daten für einige der gängigen Dateiformate, wie unten aufgeführt."
+  }
+}

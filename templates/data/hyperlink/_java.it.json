@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Estrai collegamenti ipertestuali dai documenti in {{ProgLang}}",
+    "description": "L'API {{ProductFullName}} consente agli sviluppatori di estrarre collegamenti ipertestuali da documenti, pagine di documenti o aree specifiche della pagina di Excel, PowerPoint, PDF, Outlook e altro."
+  },
+  "header": {
+    "title": "{{ProductName}} API per estrarre collegamenti ipertestuali da documenti, pagine o aree di pagine particolari",
+    "description": "L'API {{ProductFullName}} semplifica il lavoro degli sviluppatori consentendo loro di estrarre collegamenti ipertestuali da documenti, pagine di documenti o pagine specifiche. Area di PDF, DOCX, PPTX, EML, MSG, XLS, {322 }, CSV, RTF, EPUB e molti altri.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codici",
+      "button_text_3": "Demo dal vivo",
+      "button_text_4": "Prezzi"
+    }
+  },
+  "about": {
+    "title": "Come analizzare ed estrarre i collegamenti ipertestuali dai documenti tramite l'API {{ProductName}}?",
+    "h1": "Un collegamento ipertestuale è una porzione di testo, un'immagine o un'icona che punta a un intero documento o a una parte particolare all'interno di un documento. L'uso dei collegamenti ipertestuali consente agli utenti di navigare verso una pagina Web o un documento. Spesso è necessario estrarre collegamenti ipertestuali da un documento e utilizzarlo per accedere a documenti o pagine Web esterni. {{ProductFullName}} è un'affascinante API per l'estrazione di testo di documenti che fornisce funzionalità complete per l'implementazione di soluzioni di estrazione di testo e metadati. Supporta l'estrazione di testo e collegamenti ipertestuali dai formati PDF, email, ebook, Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel ( XLS, XLSX), formati LibreOffice e molti altri. Supporta diverse funzionalità avanzate per l'analisi dei documenti, l'estrazione di testo semplice e strutturato, la ricerca di testo per parole chiave, l'estrazione di metadati o immagini, contenitori e allegati e molto altro."
+  },
+  "steps": {
+    "title_left": "Estrai collegamenti ipertestuali dai documenti in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) semplifica agli sviluppatori {{ProgLang}} l'estrazione dei collegamenti ipertestuali dai documenti implementando alcuni semplici passaggi.",
+      "step_1": "Istanziare l'oggetto [Parser](https://reference.groupdocs.com/java/parser/com.groupdocs.parser/Parser) per il documento iniziale;",
+      "step_2": "Controlla se il documento supporta l'estrazione del collegamento ipertestuale;",
+      "step_3": "Chiama il metodo [getHyperlinks](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getHyperlinks--) e ottieni la raccolta di [PageHyperlinkArea](https://reference.groupdocs.com /parser/java/com.groupdocs.parser.data/PageHyperlinkArea) oggetti;",
+      "step_4": "Scorri la raccolta e ottieni il testo del collegamento ipertestuale e l'URL."
+    },
+    "title_right": "Ulteriori informazioni sull'estrazione dei collegamenti ipertestuali",
+    "content_right": {
+      "step_1": "Come estrarre i collegamenti ipertestuali dal documento",
+      "step_2": "Come estrarre i collegamenti ipertestuali dalla pagina del documento",
+      "step_3": "Come estrarre i collegamenti ipertestuali dall'area della pagina del documento"
+    },
+    "title_code": "Come estrarre collegamenti ipertestuali dai documenti utilizzando il codice di esempio {{ProgLang}}",
+    "code": {
+      "header": "Estrai collegamenti ipertestuali dai documenti utilizzando l'API GroupDocs.Parser",
+      "instance": "Crea un'istanza della classe Parser",
+      "check": "Controlla se il documento supporta l'estrazione del collegamento ipertestuale",
+      "not_supported": "Il documento non supporta l'estrazione del collegamento ipertestuale.",
+      "extract": "Estrai collegamenti ipertestuali dal documento",
+      "iterate": "Iterare sui collegamenti ipertestuali",
+      "print_text": "Stampa il testo del collegamento ipertestuale",
+      "print_url": "Stampa l'URL del collegamento ipertestuale"
+    }
+  },
+  "more": {
+    "title_left": "Requisiti di sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} Le API sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: sistema operativo Microsoft Windows, Linux, Mac",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Perché utilizzare {{ProductFullName}}",
+    "content_right": {
+      "p1": "Supporto per l'estrazione di testo normale da qualsiasi documento supportato",
+      "p2": "Analisi dei documenti tramite modelli definiti dall'utente",
+      "p3": "Supporta completamente l'estrazione del testo strutturato",
+      "p4": "Ricerca di testo tramite parole chiave ed espressioni regolari",
+      "p5": "Estrai testo formattato, metadati, immagini, contenitori e allegati",
+      "p6": "Estrai il sommario per alcuni formati di documento supportati",
+      "p7": "Analizza i dati del modulo da documenti PDF",
+      "p8": "Estrai collegamenti ipertestuali dal documento"
+    }
+  },
+  "more_formats": {
+    "title": "Estrai collegamenti ipertestuali da altri formati di documento",
+    "content": "API per l'analisi di documenti e l'estrazione di collegamenti ipertestuali {{ProductName}} per formati di file e immagini. Estrai i dati per alcuni dei formati di file più diffusi come indicato di seguito."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": ".NET API para analisar e extrair hiperlinks de documentos, páginas ou áreas de página",
+    "description": "GroupDocs.Parser .NET API permite que programadores de software extraiam hiperlinks de documentos, páginas ou áreas de página de PDF, DOCX, XLSX, CSV, PPTX, EML, MSG, EPUB & muito mais."
+  },
+  "header": {
+    "title": "Extraia hiperlinks de documentos, páginas ou áreas específicas da página por meio da API C#/VB.NET",
+    "description": "GroupDocs.Parser .NET API permite que desenvolvedores de software analisem e extraiam hiperlinks de documentos, páginas ou áreas de página de PDF, DOC, DOCX, PPT, PPTX, EML, MSG , XLS, XLSX, CSV, ODT, RTF, EPUB e muitos outros documentos.",
+    "button_label": "Baixe a avaliação gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referência de API",
+      "button_text_2": "Exemplos de código",
+      "button_text_3": "Demonstrações ao vivo",
+      "button_text_4": "Preços"
+    }
+  },
+  "about": {
+    "title": "Como analisar e extrair hiperlinks de documentos por meio da API {{ProductName}}?",
+    "h1": "Um hiperlink é um pedaço de texto, imagem ou ícone que aponta para um documento inteiro ou para uma parte específica de um documento. O uso de hiperlinks permite aos usuários navegar para uma página da web ou documento. Muitas vezes é necessário extrair hiperlinks de um documento e usá-los para acessar documentos externos ou páginas da web. {{ProductFullName}} é uma API fascinante de extração de texto de documentos que fornece funcionalidade completa para implementação de soluções de extração de texto e metadados. Suporta extração de texto e hiperlinks de PDF, e-mails, e-books, Microsoft Office formatos: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel ( XLS, XLSX), formatos do LibreOffice e muitos mais. Ele suporta vários recursos avançados para análise de documentos, extração de texto simples e estruturado, pesquisa de texto por palavras-chave, extração de metadados ou imagens, contêineres, bem como anexos e muito mais."
+  },
+  "steps": {
+    "title_left": "Extraia hiperlinks de documentos em {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) facilita para os desenvolvedores {{ProgLang}} extrair hiperlinks de documentos implementando algumas etapas fáceis.",
+      "step_1": "Instancie o objeto [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) para o documento inicial;",
+      "step_2": "Verifique se o documento suporta extração de hiperlink;",
+      "step_3": "Chame o método [GetHyperlinks](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks) e obtenha a coleção de [PageHyperlinkArea](https://reference.groupdocs.com/parser/ net/groupdocs.parser.data/pagehyperlinkarea) objetos;",
+      "step_4": "Itere pela coleção e obtenha um texto de hiperlink e URL."
+    },
+    "title_right": "Saiba mais sobre a extração de hiperlinks",
+    "content_right": {
+      "step_1": "Como extrair hiperlinks de um documento",
+      "step_2": "Como extrair hiperlinks da página do documento",
+      "step_3": "Como extrair hiperlinks da área da página do documento"
+    },
+    "title_code": "Como extrair hiperlinks de documentos usando código de exemplo {{ProgLang}}",
+    "code": {
+      "header": "Extraia hiperlinks de documentos usando a API GroupDocs.Parser",
+      "instance": "Crie uma instância da classe Parser",
+      "check": "Verifique se o documento suporta extração de hiperlink",
+      "not_supported": "O documento não suporta extração de hiperlink.",
+      "extract": "Extraia hiperlinks do documento",
+      "iterate": "Iterar sobre hiperlinks",
+      "print_text": "Imprima o texto do hiperlink",
+      "print_url": "Imprima o URL do hiperlink"
+    }
+  },
+  "more": {
+    "title_left": "Requisitos de sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs são suportadas em todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.",
+      "step_1": "Sistemas operacionais: Microsoft Windows, Linux, MacSO",
+      "step_2": "Ambientes de desenvolvimento: {{DevEnv}}",
+      "step_3": "Estruturas",
+      "step_4": "Baixe a versão mais recente de {{ProductFullName}} em [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Por que usar {{ProductFullName}}",
+    "content_right": {
+      "p1": "Suporte para extração de texto simples de qualquer documento suportado",
+      "p2": "Análise de documentos por meio de modelos definidos pelo usuário",
+      "p3": "Suporte total à extração de texto estruturado",
+      "p4": "Pesquisa de texto por palavra-chave e também por expressão regular",
+      "p5": "Extraia texto formatado, metadados, imagens, contêineres e anexos",
+      "p6": "Extraia o índice de alguns formatos de documento suportados",
+      "p7": "Analisar dados de formulário de PDF documentos",
+      "p8": "Extraia hiperlinks do documento"
+    }
+  },
+  "more_formats": {
+    "title": "Extraia hiperlinks de outros formatos de documento",
+    "content": "{{ProductName}} API de análise de documentos e extração de hiperlinks para formatos de arquivo e imagens. Extraia dados para alguns dos formatos de arquivo populares conforme indicado abaixo."
+  }
+}

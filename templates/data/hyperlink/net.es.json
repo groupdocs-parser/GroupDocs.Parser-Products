@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": ".NET API para analizar y extraer hipervínculos de documentos, páginas o área de página",
+    "description": "GroupDocs.Parser .NET La API permite a los programadores de software extraer hipervínculos de documentos, páginas o páginas Área de PDF, DOCX, XLSX, CSV, PPTX, EML, MSG, EPUB & mucho mas."
+  },
+  "header": {
+    "title": "Extraiga hipervínculos de documentos, páginas o áreas de páginas específicas a través de la API de C#/VB.NET",
+    "description": "GroupDocs.Parser .NET La API permite a los desarrolladores de software analizar y extraer hipervínculos de documentos, páginas o áreas de página de PDF, DOC, DOCX, PPT, PPTX, EML, MSG , XLS, XLSX, CSV, ODT, RTF, EPUB y muchos otros documentos.",
+    "button_label": "Descargue prueba gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referencia de la API",
+      "button_text_2": "Ejemplos de código",
+      "button_text_3": "demostraciones en vivo",
+      "button_text_4": "Precios"
+    }
+  },
+  "about": {
+    "title": "¿Cómo analizar y extraer hipervínculos de documentos {{EXT}} a través de la API {{ProductName}}?",
+    "h1": "Un hipervínculo es un fragmento de texto, una imagen o un icono que apunta a un documento completo o a una parte particular dentro de un documento. El uso de hipervínculos permite a los usuarios navegar a una página web o documento. A menudo se requiere extraer hipervínculos de un documento y usarlo para acceder a documentos externos o páginas web. {{ProductFullName}} es una fascinante API de extracción de texto de documentos que proporciona una funcionalidad completa para implementar soluciones de extracción de texto y metadatos. Admite la extracción de texto e hipervínculos de PDF, correos electrónicos, libros electrónicos, Microsoft Office formatos: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel ( XLS, XLSX), formatos de LibreOffice y muchos más. Admite varias funciones avanzadas para el análisis de documentos, la extracción de texto sin formato y estructurado, la búsqueda de texto por palabras clave, la extracción de metadatos o imágenes, los contenedores y los archivos adjuntos, y mucho más."
+  },
+  "steps": {
+    "title_left": "Extraer hipervínculos de {{EXT}} en {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) facilita a los desarrolladores de {{ProgLang}} extraer hipervínculos de un archivo {{EXT}} mediante la implementación de unos sencillos pasos.",
+      "step_1": "Crear una instancia del objeto [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) para el documento inicial;",
+      "step_2": "Compruebe si el documento admite la extracción de hipervínculos;",
+      "step_3": "Llame al método [GetHyperlinks](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks) y obtenga la colección de [PageHyperlinkArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagehyperlinkarea) objetos;",
+      "step_4": "Recorra la colección y obtenga un texto de hipervínculo y una URL."
+    },
+    "title_right": "Más información sobre la extracción de hipervínculos",
+    "content_right": {
+      "step_1": "Cómo extraer hipervínculos del documento",
+      "step_2": "Cómo extraer hipervínculos de la página del documento",
+      "step_3": "Cómo extraer hipervínculos del área de la página del documento"
+    },
+    "title_code": "Cómo extraer hipervínculos del archivo {{EXT}} usando el código de ejemplo {{ProgLang}}",
+    "code": {
+      "header": "Extraiga hipervínculos del archivo {{EXT}} usando la API GroupDocs.Parser",
+      "instance": "Crear una instancia de la clase Parser",
+      "check": "Compruebe si el documento admite la extracción de hipervínculos",
+      "not_supported": "El documento no admite la extracción de hipervínculos.",
+      "extract": "Extraer hipervínculos del documento",
+      "iterate": "Iterar sobre hipervínculos",
+      "print_text": "Imprimir el texto del hipervínculo",
+      "print_url": "Imprima la URL del hipervínculo"
+    }
+  },
+  "more": {
+    "title_left": "Requisitos del sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} Las API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Marcos",
+      "step_4": "Descarga la última versión de {{ProductFullName}} desde [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Por qué usar {{ProductFullName}}",
+    "content_right": {
+      "p1": "Compatibilidad con la extracción de texto sin formato de cualquier documento compatible",
+      "p2": "Análisis de documentos a través de plantillas definidas por el usuario",
+      "p3": "Totalmente compatible con la extracción de texto estructurado",
+      "p4": "Búsqueda de texto por palabra clave y expresión regular",
+      "p5": "Extraiga texto formateado, metadatos, imágenes, contenedores y archivos adjuntos",
+      "p6": "Extraiga la tabla de contenido para algunos formatos de documentos compatibles",
+      "p7": "Analizar datos de formulario de PDF documentos",
+      "p8": "Extraer hipervínculos del documento"
+    }
+  },
+  "more_formats": {
+    "title": "Extraer hipervínculos de otros formatos de documentos",
+    "content": "{{ProductName}} API de extracción de hipervínculos y análisis de documentos para formatos de archivo e imágenes. Extraiga datos para algunos de los formatos de archivo populares como se indica a continuación."
+  }
+}

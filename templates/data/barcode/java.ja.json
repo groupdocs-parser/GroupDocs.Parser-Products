@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "{{ProductName}} API 経由で Excel、Word、PDF、およびその他のドキュメントからバーコードを抽出します",
+    "description": "{{ProductFullName}} を使用すると、ソフトウェア開発者は、{{ProductName}} アプリ内の PDF、MS Excel、Word、PowerPoint、Outlook、OneNote などのドキュメントからバーコードを抽出できます。"
+  },
+  "header": {
+    "title": "{ProductName}} API 経由で PDF、DOCX、PPTX、EML、MSG、XLSX、EPUB からバーコードを抽出する方法",
+    "description": "{{ProductFullName}} API を使用すると、ソフトウェア開発者は、PDF、Word (DOC、DOCX)、Excel (XLS、XLSX)、PowerPoint( PPT、{ 330})、Outlook (EML、MSG)、その他多くのドキュメントのページ領域。",
+    "button_label": "無料トライアルをダウンロード"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "APIリファレンス",
+      "button_text_2": "コード例",
+      "button_text_3": "ライブデモ",
+      "button_text_4": "価格設定"
+    }
+  },
+  "about": {
+    "title": "{{EXT}} ファイルからバーコードを抽出する方法 {{ProductName}} API?",
+    "h1": "バーコード画像は、情報を視覚的なパターンにエンコードするために使用できる、一連の平行な黒い線とさまざまな幅の白いスペースで構成されます。これは 1970 年代に導入され、現在では商業ビジネスの普遍的な部分となっています。 {{ProductFullName}} は、ソフトウェア プログラマーがさまざまな種類のドキュメントを解析し、そこからテキスト、画像、バーコードを抽出するためのアプリケーションを構築できるようにする強力な API です。 PDF、電子メール、電子ブック、Microsoft Office 形式などの最も一般的なドキュメント タイプのサポートが含まれています: Word (DOC、DOCX)、PowerPoint (PPT、{330 })、Excel (XLS、XLSX)、電子メール (EML、MSG) 形式など。 {{ProductName}} API には、プレーン テキストの抽出、構造化テキストの抽出、マークダウン形式のテキストの抽出、特定のページまたはページ領域からのテキストの抽出、文書からのバーコードの抽出、抽出など、ドキュメントの解析とデータ抽出に関連するいくつかの重要な機能のサポートが含まれています。メタデータや画像など。"
+  },
+  "steps": {
+    "title_left": "{{ProductName}} の {{EXT}} からバーコードを抽出します",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) を使用すると、{{ProgLang}} 開発者は、いくつかの簡単な手順を実装することで、{{EXT}} ファイルからバーコードを簡単に抽出できます。",
+      "step_1": "最初のドキュメントの [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) オブジェクトをインスタンス化します。",
+      "step_2": "ファイルがバーコード抽出をサポートしているかどうかを確認します。",
+      "step_3": "[getBarcodes](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getBarcodes--) メソッドを呼び出し、のコレクションを取得します。[PageBarcodeArea](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagebarcodearea/) オブジェクト。",
+      "step_4": "コレクションを反復処理して、バーコード値を取得します。"
+    },
+    "title_right": "バーコード抽出の詳細",
+    "content_right": {
+      "step_1": "文書からバーコードを抽出する方法",
+      "step_2": "ドキュメントページからバーコードを抽出する方法",
+      "step_3": "文書ページ領域からバーコードを抽出する方法"
+    },
+    "title_code": "{{ProgLang}} サンプルコードを使用して {{EXT}} ファイルからバーコードを抽出する方法",
+    "code": {
+      "header": "GroupDocs.Parser API を使用して {{EXT}} ファイルからバーコードを抽出します",
+      "instance": "Parserクラスのインスタンスを作成する",
+      "check": "ファイルがバーコード抽出をサポートしているかどうかを確認します",
+      "not_supported": "このファイルはバーコード抽出をサポートしていません。",
+      "extract": "ファイルからバーコードを抽出します。",
+      "iterate": "バーコードを反復処理する",
+      "print_page_index": "ページインデックスを印刷する",
+      "print_value": "バーコード値を印刷する"
+    }
+  },
+  "more": {
+    "title_left": "システム要求",
+    "content_left": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "{{ProductFullName}} の最新バージョンを [{{RepoName}}]({{RepoUrl}}) からダウンロードします"
+    },
+    "title_right": "{{ProductFullName}} を使用する理由",
+    "content_right": {
+      "p1": "サポートされているドキュメントからのプレーン テキスト抽出のサポート",
+      "p2": "ユーザー定義のテンプレートを使用したドキュメントの解析",
+      "p3": "構造化テキスト抽出を完全にサポート",
+      "p4": "キーワードおよび正規表現によるテキスト検索",
+      "p5": "書式設定されたテキスト、メタデータ、画像、コンテナ、添付ファイルを抽出します",
+      "p6": "サポートされている一部のドキュメント形式の目次を抽出します",
+      "p7": "PDF ドキュメントからのフォーム データを解析する",
+      "p8": "ドキュメントからハイパーリンクを抽出する"
+    }
+  },
+  "demos": {
+    "title": "ライブ デモ - オンライン {{EXT}} からバーコードを抽出",
+    "h1": "[GroupDocs.Parser ライブ デモ](https://products.groupdocs.app/parser/barcodes/{{ext}}) Web サイトにアクセスして、今すぐ {{EXT}} ファイルからバーコードを抽出してください。",
+    "h2": "ライブデモには次のようなメリットがあります。"
+  },
+  "more_formats": {
+    "title": "他のドキュメント形式からバーコードを抽出する",
+    "content": "{{ProductName}} ドキュメントは、ファイル形式と画像の API を解析してバーコードを抽出します。以下に示すように、いくつかの一般的なファイル形式のデータを抽出します。"
+  }
+}

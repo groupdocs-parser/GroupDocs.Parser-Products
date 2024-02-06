@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": ".NET 用于从文档、页面或页面区域解析和提取超链接的 API",
+    "description": "GroupDocs.Parser .NET API 使软件程序员能够从 PDF、DOCX、XLSX、CSV、PPTX、EML、MSG、EPUB 的文档、页面或页面区域中提取超链接＆ 还有很多。"
+  },
+  "header": {
+    "title": "通过 C#/VB.NET API 从文档、页面或特定页面区域提取超链接",
+    "description": "GroupDocs.Parser .NET API 允许软件开发者从 PDF、DOC、DOCX、PPT、PPTX、EML、MSG 的文档、页面或页面区域中解析和提取超链接、XLS、XLSX、CSV、ODT、RTF、EPUB 和许多其他文档。",
+    "button_label": "下载免费试用版"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API参考",
+      "button_text_2": "代码示例",
+      "button_text_3": "现场演示",
+      "button_text_4": "价钱"
+    }
+  },
+  "about": {
+    "title": "如何通过 {{ProductName}} API 从文档中解析和提取超链接？",
+    "h1": "超链接是指向整个文档或文档中特定部分的一段文本、图像或图标。使用超链接允许用户导航到网页或文档。通常需要从文档中提取超链接并使用它来访问外部文档或网页。 {{ProductFullName}} 是一个令人着迷的文档文本提取 API，它提供了用于实施文本和元数据提取解决方案的完整功能。它支持从 PDF、电子邮件、电子书、Microsoft Office 格式中提取文本和超链接：Word (DOC、DOCX)、PowerPoint (PPT、PPTX)、Excel ( XLS、XLSX）、LibreOffice 格式等等。它支持多种高级功能，用于文档解析、提取纯文本和结构化文本、按关键字搜索文本、提取元数据或图像、容器以及附件等等。"
+  },
+  "steps": {
+    "title_left": "从 {{ProductName}} 中的文档中提取超链接",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) 让 {{ProgLang}} 开发者只需执行几个简单的步骤即可轻松从文档中提取超链接。",
+      "step_1": "实例化初始文档的 [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) 对象；",
+      "step_2": "检查文档是否支持超链接提取；",
+      "step_3": "调用 [GetHyperlinks](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks) 方法并获取 [PageHyperlinkArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagehyperlinkarea) 对象；",
+      "step_4": "遍历集合并获取超链接文本和 URL。"
+    },
+    "title_right": "了解有关超链接提取的更多信息",
+    "content_right": {
+      "step_1": "如何从文档中提取超链接",
+      "step_2": "如何从文档页面中提取超链接",
+      "step_3": "如何从文档页面区域中提取超链接"
+    },
+    "title_code": "如何使用 {{ProgLang}} 示例代码从文档中提取超链接",
+    "code": {
+      "header": "使用 GroupDocs.Parser API 从文档中提取超链接",
+      "instance": "创建 Parser 类的实例",
+      "check": "检查文档是否支持超链接提取",
+      "not_supported": "文档不支持超链接提取。",
+      "extract": "从文档中提取超链接",
+      "iterate": "迭代超链接",
+      "print_text": "打印超链接文本",
+      "print_url": "打印超链接 URL"
+    }
+  },
+  "more": {
+    "title_left": "系统要求",
+    "content_left": {
+      "description": "{{ProductFullName}} 所有主要平台和操作系统均支持 API。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "构架",
+      "step_4": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    },
+    "title_right": "为什么使用{{ProductFullName}}",
+    "content_right": {
+      "p1": "支持从任何支持的文档中提取纯文本",
+      "p2": "通过用户定义的模板解析文档",
+      "p3": "全面支持结构化文本提取",
+      "p4": "通过关键字和正则表达式进行文本搜索",
+      "p5": "提取格式化文本、元数据、图像、容器和附件",
+      "p6": "提取某些支持的文档格式的目录",
+      "p7": "从 PDF 文档解析表单数据",
+      "p8": "从文档中提取超链接"
+    }
+  },
+  "more_formats": {
+    "title": "从其他文档格式中提取超链接",
+    "content": "{{ProductName}} 针对文件格式和图像的文档解析和超链接提取 API。提取一些流行文件格式的数据，如下所述。"
+  }
+}

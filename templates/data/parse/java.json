@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Parse Data from {{EXT}} in {{ProgLang}}",
+    "description": "Quickly parse data from documents in {{ProgLang}}."
+  },
+  "header": {
+    "title": "Parse data from {{EXT}} In {{ProgLang}}",
+    "description": "Parse data from {{EXT}} with a few lines of {{ProductName}} code.",
+    "button_label": "Download Free Trial"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API Reference",
+      "button_text_2": "Code Examples",
+      "button_text_3": "Live Demos",
+      "button_text_4": "Pricing"
+    }
+  },
+  "about": {
+    "title": "Parse Data with Templates in {{ProductFullName}}",
+    "p1": "Templates can greatly enhance the efficiency, accuracy, and consistency of data extraction from documents. {{ProductFullName}} provides a powerful solution for working with templates.",
+    "p2": "With {{ProductFullName}}, you can easily create templates for different types of documents, including PDFs and Microsoft Word documents. You can also use templates for batch parsing of multiple documents.",
+    "p3": "Best practices for working with templates in {{ProductFullName}} include using unique identifiers and testing templates thoroughly before deployment. With {{ProductFullName}}, you can optimize data extraction and achieve better results.",
+    "p4": "Download and try {{ProductFullName}} today to simplify your document parsing tasks and improve your productivity. Our documentation and support resources are available to help you get started and achieve success.",
+    "p5": "Learn more about document parsing in [documentation](https://docs.groupdocs.com/parser/{{ProductCode}}/working-with-templates/)."
+  },
+  "more": {
+    "title_left": "System Requirements",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development Environments: {{DevEnv}}",
+      "step_3": "Frameworks",
+      "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },    
+    "title_right": "Why Use {{ProductFullName}}",
+    "content_right": {
+      "p1": "Plain text extraction support from any supported documents",  
+      "p2": "Documents parsing via user-defined templates",
+      "p3": "Fully support structured text extraction",
+      "p4": "Text searching via keyword as well as regular expression",  
+      "p5": "Extract formatted text, metadata, images, containers, and attachments",
+      "p6": "Extract table of contents for some supported document formats",
+      "p7": "Parse form data from PDF documents",  
+      "p8": "Extract hyperlinks from the document"
+    }
+  },
+  "demos": {
+    "title": "Live Demos - Parse data from {{EXT}} Online",
+    "h1": "Parse data from {{EXT}} file right now by visiting [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/{{ext}}) website.",
+    "h2": "The live demo has the following benefits."
+  },
+  "more_formats": {
+    "title": "Parse Data From Other Document Formats",
+    "content": "{{ProductName}} documents parse API for file formats and images. Extract data for some of the popular file formats as stated below."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "Come estrarre immagini da Excel, Word, PDF e altri documenti tramite {{ProductName}}?",
+    "description": "L'API {{ProductFullName}} consente agli sviluppatori di software di analizzare ed estrarre immagini da documenti ed email PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX all'interno delle app {{ProductName}}."
+  },
+  "header": {
+    "title": "API {{ProductName}} per analizzare ed estrarre immagini da Excel, Word, PowerPoint, PDF e altre pagine di documenti",
+    "description": "L'API {{ProductFullName}} consente ai programmatori di estrarre immagini da PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, {358 }, documenti RTF e EPUB o pagine di documenti all'interno delle applicazioni {{ProductName}}.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codici",
+      "button_text_3": "Demo dal vivo",
+      "button_text_4": "Prezzi"
+    }
+  },
+  "about": {
+    "title": "Scopri come estrarre immagini da documenti {{EXT}} o da una pagina specifica tramite l'API {{ProductName}}",
+    "h1": "Un’immagine vale più di mille parole e non può essere ignorata nel mondo visivo di oggi mentre si creano contenuti accattivanti. Le immagini possono essere un’ottima fonte di comunicazione di informazioni e di catturare l’attenzione dell’utente. Spesso è necessario ottenere immagini da documenti, diari o presentazioni e utilizzarle altrove. {{ProductFullName}} è una potente API che aiuta gli sviluppatori e i programmatori di software a creare soluzioni per l'analisi e l'estrazione di immagini o altre informazioni da numerosi tipi di documenti. Supporta anche il salvataggio di immagini in PNG, JPEG, WebP, GIF, BMP e altri formati. L'API ha incluso il supporto per alcuni formati di documenti più diffusi, come i formati PDF, Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), {282 } (XLS, XLSX), formati LibreOffice, e-mail, ebook e molto altro. Include anche il supporto per alcune funzionalità avanzate relative all'analisi dei documenti, all'estrazione di testo semplice e strutturato, alla ricerca di testo per parole chiave, all'estrazione di metadati o immagini, contenitori e allegati e molto altro."
+  },
+  "steps": {
+    "title_left": "Estrai immagini da documenti in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) semplifica agli sviluppatori {{ProgLang}} l'estrazione di immagini da un documento implementando alcuni semplici passaggi.",
+      "step_1": "Istanziare l'oggetto [Parser](https://reference.groupdocs.com/java/parser/com.groupdocs.parser/Parser) per il documento iniziale;",
+      "step_2": "Chiama il metodo [getImages](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getImages--) e ottieni la raccolta di oggetti immagine;",
+      "step_3": "Controlla se il lettore non è *null* (l'estrazione delle immagini è supportata per il documento);",
+      "step_4": "Scorrere la raccolta e ottenere dimensioni, tipi di immagine e contenuto dell'immagine."
+    },
+    "title_right": "Scopri di più sull'estrazione delle immagini",
+    "content_right": {
+      "step_1": "Come estrarre immagini da un documento",
+      "step_2": "Come estrarre immagini dalla pagina del documento",
+      "step_3": "Come estrarre immagini dall'area della pagina del documento",
+      "step_4": "Come estrarre le immagini nei file"
+    },
+    "title_code": "Come estrarre immagini dai documenti utilizzando il codice di esempio {{ProgLang}}",
+    "code": {
+      "header": "Estrai immagini dai documenti utilizzando l'API GroupDocs.Parser",
+      "instance": "Crea un'istanza della classe Parser",
+      "extract": "Estrai immagini",
+      "check_null": "Controlla se l'estrazione delle immagini è supportata",
+      "not_supported": "L'estrazione delle immagini non è supportata",
+      "iterate": "Itera sulle immagini",
+      "print": "Stampa un indice di pagina, un rettangolo e un tipo di immagine:"
+    }
+  },
+  "more": {
+    "title_left": "Requisiti di sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} Le API sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: sistema operativo Microsoft Windows, Linux, Mac",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Perché utilizzare {{ProductFullName}}",
+    "content_right": {
+      "p1": "Supporto per l'estrazione di testo normale da qualsiasi documento supportato",
+      "p2": "Analisi dei documenti tramite modelli definiti dall'utente",
+      "p3": "Supporta completamente l'estrazione del testo strutturato",
+      "p4": "Ricerca di testo tramite parole chiave ed espressioni regolari",
+      "p5": "Estrai testo formattato, metadati, immagini, contenitori e allegati",
+      "p6": "Estrai il sommario per alcuni formati di documento supportati",
+      "p7": "Analizza i dati del modulo da documenti PDF",
+      "p8": "Estrai collegamenti ipertestuali dal documento"
+    }
+  },
+  "demos": {
+    "title": "Demo live: estrai immagini da documenti online",
+    "h1": "Estrai subito le immagini dai documenti visitando il sito web [GroupDocs.Parser Demo live](https://products.groupdocs.app/parser/images/).",
+    "h2": "La demo live presenta i seguenti vantaggi."
+  },
+  "more_formats": {
+    "title": "Estrai immagini da altri formati di documenti",
+    "content": "API di analisi e estrazione di documenti {{ProductName}} per formati di file e immagini. Estrai i dati per alcuni dei formati di file più diffusi come indicato di seguito."
+  }
+}

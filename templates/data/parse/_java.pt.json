@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Analisar dados de documentos em {{ProgLang}}",
+    "description": "Analise rapidamente dados de documentos em {{ProgLang}}."
+  },
+  "header": {
+    "title": "Analisar dados de documentos em {{ProgLang}}",
+    "description": "Analise dados de documentos com algumas linhas de código {{ProductName}}.",
+    "button_label": "Baixe a avaliação gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referência de API",
+      "button_text_2": "Exemplos de código",
+      "button_text_3": "Demonstrações ao vivo",
+      "button_text_4": "Preços"
+    }
+  },
+  "about": {
+    "title": "Analisar dados com modelos em {{ProductFullName}}",
+    "p1": "Os modelos podem melhorar muito a eficiência, a precisão e a consistência da extração de dados de documentos. {{ProductFullName}} fornece uma solução poderosa para trabalhar com modelos.",
+    "p2": "Com o {{ProductFullName}}, você pode criar facilmente modelos para diferentes tipos de documentos, incluindo documentos PDF e Microsoft Word. Você também pode usar modelos para análise em lote de vários documentos.",
+    "p3": "As práticas recomendadas para trabalhar com modelos em {{ProductFullName}} incluem o uso de identificadores exclusivos e testes completos de modelos antes da implantação. Com o {{ProductFullName}}, você pode otimizar a extração de dados e obter melhores resultados.",
+    "p4": "Baixe e experimente o {{ProductFullName}} hoje mesmo para simplificar suas tarefas de análise de documentos e melhorar sua produtividade. Nossa documentação e recursos de suporte estão disponíveis para ajudá-lo a começar e alcançar o sucesso.",
+    "p5": "Saiba mais sobre análise de documentos na [documentação](https://docs.groupdocs.com/parser/{{ProductCode}}/working-with-templates/)."
+  },
+  "more": {
+    "title_left": "Requisitos de sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs são suportadas em todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.",
+      "step_1": "Sistemas operacionais: Microsoft Windows, Linux, MacSO",
+      "step_2": "Ambientes de desenvolvimento: {{DevEnv}}",
+      "step_3": "Estruturas",
+      "step_4": "Baixe a versão mais recente de {{ProductFullName}} em [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Por que usar {{ProductFullName}}",
+    "content_right": {
+      "p1": "Suporte para extração de texto simples de qualquer documento suportado",
+      "p2": "Análise de documentos por meio de modelos definidos pelo usuário",
+      "p3": "Suporte total à extração de texto estruturado",
+      "p4": "Pesquisa de texto por palavra-chave e também por expressão regular",
+      "p5": "Extraia texto formatado, metadados, imagens, contêineres e anexos",
+      "p6": "Extraia o índice de alguns formatos de documento suportados",
+      "p7": "Analisar dados de formulário de PDF documentos",
+      "p8": "Extraia hiperlinks do documento"
+    }
+  },
+  "demos": {
+    "title": "Demonstrações ao vivo - Analise dados de documentos on-line",
+    "h1": "Analise dados de documentos agora mesmo visitando o site [GroupDocs.Parser Demonstrações ao vivo](https://products.groupdocs.app/parser/).",
+    "h2": "A demonstração ao vivo tem os seguintes benefícios."
+  },
+  "more_formats": {
+    "title": "Analisar dados de outros formatos de documento",
+    "content": "{{ProductName}} documentos analisam API para formatos de arquivo e imagens. Extraia dados para alguns dos formatos de arquivo populares conforme indicado abaixo."
+  }
+}

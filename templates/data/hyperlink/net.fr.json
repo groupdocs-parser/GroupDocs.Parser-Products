@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": ".NET API pour analyser et extraire des hyperliens à partir de documents, de pages ou d'une zone de page",
+    "description": "GroupDocs.Parser .NET L'API permet aux programmeurs de logiciels d'extraire des hyperliens à partir de documents, de pages ou d'une zone de page de PDF, DOCX, XLSX, CSV, PPTX, EML, MSG, EPUB & beaucoup plus."
+  },
+  "header": {
+    "title": "Extrayez des liens hypertexte à partir de documents, de pages ou d'une zone de page spécifique via l'API C#/VB.NET",
+    "description": "GroupDocs.Parser .NET L'API permet aux développeurs de logiciels d'analyser et d'extraire des hyperliens à partir de documents, de pages ou de la zone de page de PDF, DOC, DOCX, PPT, PPTX, EML, MSG , XLS, XLSX, CSV, ODT, RTF, EPUB et de nombreux autres documents.",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "Comment analyser et extraire les hyperliens des documents {{EXT}} via l'API {{ProductName}} ?",
+    "h1": "Un lien hypertexte est un morceau de texte ou une image ou une icône qui pointe vers un document entier ou vers une partie particulière d'un document. L'utilisation d'hyperliens permet aux utilisateurs de naviguer vers une page Web ou un document. Il est souvent nécessaire d'extraire des hyperliens d'un document et de l'utiliser pour accéder à un document externe ou à une page Web. {{ProductFullName}} est une fascinante API d'extraction de texte de document qui fournit des fonctionnalités complètes pour la mise en œuvre de solutions d'extraction de texte et de métadonnées. Il prend en charge l'extraction de texte et d'hyperliens à partir des formats PDF, e-mails, livres électroniques, Microsoft Office : Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel ( XLS, XLSX), les formats LibreOffice et bien d'autres. Il prend en charge plusieurs fonctionnalités avancées pour l'analyse de documents, l'extraction de texte brut et structuré, la recherche de texte par mots-clés, l'extraction de métadonnées ou d'images, de conteneurs ainsi que de pièces jointes et bien d'autres."
+  },
+  "steps": {
+    "title_left": "Extraire les hyperliens de {{EXT}} dans {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) permet aux développeurs {{ProgLang}} d'extraire facilement des liens hypertexte d'un fichier {{EXT}} en mettant en œuvre quelques étapes simples.",
+      "step_1": "Instanciez l'objet [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) pour le document initial ;",
+      "step_2": "Vérifiez si le document prend en charge l'extraction de lien hypertexte ;",
+      "step_3": "Appelez la méthode [GetHyperlinks](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks) et obtenez la collection de [PageHyperlinkArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagehyperlinkarea) objets ;",
+      "step_4": "Parcourez la collection et obtenez un texte de lien hypertexte et une URL."
+    },
+    "title_right": "En savoir plus sur l'extraction des hyperliens",
+    "content_right": {
+      "step_1": "Comment extraire des hyperliens d'un document",
+      "step_2": "Comment extraire les hyperliens de la page du document",
+      "step_3": "Comment extraire des hyperliens de la zone de page du document"
+    },
+    "title_code": "Comment extraire des hyperliens du fichier {{EXT}} à l'aide de l'exemple de code {{ProgLang}}",
+    "code": {
+      "header": "Extraire les hyperliens du fichier {{EXT}} à l'aide de l'API GroupDocs.Parser",
+      "instance": "Créer une instance de la classe Parser",
+      "check": "Vérifiez si le document prend en charge l'extraction de lien hypertexte",
+      "not_supported": "Le document ne prend pas en charge l'extraction de liens hypertexte.",
+      "extract": "Extraire les hyperliens du document",
+      "iterate": "Itérer sur les hyperliens",
+      "print_text": "Imprimer le texte du lien hypertexte",
+      "print_url": "Imprimer l'URL du lien hypertexte"
+    }
+  },
+  "more": {
+    "title_left": "Configuration requise",
+    "content_left": {
+      "description": "{{ProductFullName}} Les API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Pourquoi utiliser {{ProductFullName}}",
+    "content_right": {
+      "p1": "Prise en charge de l'extraction de texte brut à partir de tous les documents pris en charge",
+      "p2": "Analyse de documents via des modèles définis par l'utilisateur",
+      "p3": "Prise en charge complète de l'extraction de texte structuré",
+      "p4": "Recherche de texte par mot-clé ainsi que par expression régulière",
+      "p5": "Extraire du texte formaté, des métadonnées, des images, des conteneurs et des pièces jointes",
+      "p6": "Extraire la table des matières pour certains formats de document pris en charge",
+      "p7": "Analyser les données de formulaire de PDF documents",
+      "p8": "Extraire les hyperliens du document"
+    }
+  },
+  "more_formats": {
+    "title": "Extraire des liens hypertexte à partir d'autres formats de documents",
+    "content": "{{ProductName}} API d'analyse de documents et d'extraction d'hyperliens pour les formats de fichiers et les images. Extrayez les données pour certains des formats de fichiers populaires comme indiqué ci-dessous."
+  }
+}

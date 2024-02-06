@@ -1,0 +1,79 @@
+{
+  "head": {
+    "title": "C#.NET API를 통해 PDF, DOCX, PPTX, XLSX, EPUB 등에서 테이블 추출",
+    "description": "GroupDocs.Parser .NET API를 사용하면 프로그래머가 PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV에서 테이블을 추출할 수 있습니다. , ODT, RTF 및 .NET 앱 내의 다른 많은 문서 유형."
+  },
+  "header": {
+    "title": "C#.NET API를 통해 Excel, Word, PDF 및 PowerPoint 문서에서 테이블 추출",
+    "description": "GroupDocs.Parser .NET API를 통해 프로그래머는 PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV에서 테이블을 추출할 수 있습니다. , ODT, RTF & EPUB 문서 또는 페이지.",
+    "button_label": "무료 평가판 다운로드"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API 참조",
+      "button_text_2": "코드 예제",
+      "button_text_3": "라이브 데모",
+      "button_text_4": "가격"
+    }
+  },
+  "about": {
+    "title": "{{ProductName}} API를 통해 Excel, Word, PDF 및 기타 문서에서 테이블을 추출하는 방법은 무엇입니까?",
+    "h1": "표는 행과 열로 배열된 셀 모음입니다. 테이블은 상세하거나 복잡한 데이터를 사용자가 쉽게 읽고 볼 수 있도록 저장하고 정리하는 데 매우 중요한 역할을 합니다. 표는 목록 만들기, 정보 비교, 데이터 정렬, 정보 그룹화, 데이터의 추세 또는 패턴 강조 등 다양한 방법으로 사용할 수 있습니다. {{ProductFullName}}는 소프트웨어 프로그래머가 PDF, 이메일, 전자책, Word(DOC, { 318}), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), 이메일(EML, MSG) 형식 등. {{ProductName}} API에는 문서에서 모든 테이블 추출, 특정 페이지에서 테이블 추출, 테이블 셀 데이터 가져오기, 테이블 행 및 열의 총 수 가져오기, 행 높이 가져오기, 테이블의 데이터를 인쇄하고 그 이상일 수 있습니다."
+  },
+  "steps": {
+    "title_left": "{{ProductName}}의 문서에서 테이블 추출",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/)를 사용하면 {{ProgLang}} 개발자가 몇 가지 간단한 단계를 구현하여 문서에서 테이블을 쉽게 추출할 수 있습니다.",
+      "step_1": "초기 문서에 대한 [파서](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) 개체를 인스턴스화합니다.",
+      "step_2": "문서가 테이블 추출을 지원하는지 확인하십시오.",
+      "step_3": "[PageTableAreaOptions](https://reference.groupdocs.com/parser/net/groupdocs.parser.options/pagetableareaoptions/) 및 인스턴스화 [TemplateTableLayout](https://reference.groupdocs.com/parser/net/groupdocs.parser.templates/templatetablelayout/) 테이블 레이아웃을 설정하는 클래스",
+      "step_4": "[GetTables](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gettables) 메서드를 호출하고 [PageTableArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagetablearea) 개체;",
+      "step_5": "컬렉션을 반복하고 테이블 셀을 인쇄합니다."
+    },
+    "title_right": "테이블 추출에 대해 자세히 알아보기",
+    "content_right": {
+      "step_1": "문서에서 테이블을 추출하는 방법",
+      "step_2": "문서 페이지에서 표를 추출하는 방법"
+    },
+    "title_code": "{{ProgLang}} 예제 코드를 사용하여 문서에서 테이블을 추출하는 방법",
+    "code": {
+      "header": "GroupDocs.Parser API를 사용하여 문서에서 테이블 추출",
+      "instance": "Parser 클래스의 인스턴스 생성",
+      "check": "문서가 테이블 추출을 지원하는지 확인",
+      "not_supported": "문서는 테이블 추출을 지원하지 않습니다.",
+      "layout": "테이블 레이아웃 만들기",
+      "options": "테이블 추출 옵션 만들기",
+      "extract": "문서에서 테이블을 추출합니다.",
+      "iterate": "테이블 반복",
+      "iterate_rows": "행 반복",
+      "iterate_columns": "열을 반복",
+      "cell": "테이블 셀 가져오기",
+      "print_cell": "테이블 셀 텍스트 인쇄"
+    }
+  },
+  "more": {
+    "title_left": "시스템 요구 사항",
+    "content_left": {
+      "description": "{{ProductFullName}} API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 필수 구성 요소가 설치되어 있는지 확인하십시오.",
+      "step_1": "운영 체제: Microsoft Windows, Linux, MacOS",
+      "step_2": "개발 환경: {{DevEnv}}",
+      "step_3": "프레임워크",
+      "step_4": "[{{RepoName}}]({{RepoUrl}})에서 {{ProductFullName}}의 최신 버전을 다운로드하세요."
+    },
+    "title_right": "{{ProductFullName}}를 사용하는 이유",
+    "content_right": {
+      "p1": "지원되는 모든 문서에서 일반 텍스트 추출 지원",
+      "p2": "사용자 정의 템플릿을 통한 문서 분석",
+      "p3": "구조화된 텍스트 추출을 완벽하게 지원",
+      "p4": "키워드 및 정규 표현식을 통한 텍스트 검색",
+      "p5": "형식이 지정된 텍스트, 메타데이터, 이미지, 컨테이너 및 첨부 파일 추출",
+      "p6": "지원되는 일부 문서 형식의 목차 추출",
+      "p7": "PDF 문서에서 양식 데이터 구문 분석",
+      "p8": "문서에서 하이퍼링크 추출"
+    }
+  },
+  "more_formats": {
+    "title": "다른 문서 형식에서 테이블 추출",
+    "content": "{{ProductName}} 파일 형식 및 이미지에 대한 문서 구문 분석 및 테이블 스캐닝 API. 아래에 설명된 대로 널리 사용되는 일부 파일 형식에 대한 데이터를 추출합니다."
+  }
+}

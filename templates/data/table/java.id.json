@@ -1,0 +1,79 @@
+{
+  "head": {
+    "title": "Ekstrak Tabel dari PDF, DOCX, PPTX, XLSX, EPUB & Lainnya melalui Java API",
+    "description": "GroupDocs.Parser Java API memungkinkan pembuat program mengekstrak tabel dari PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF & banyak jenis dokumen lainnya di dalam Java Apps."
+  },
+  "header": {
+    "title": "Ekstrak Tabel dari Excel, Word, PDF & PowerPoint Dokumen melalui Java API",
+    "description": "GroupDocs.Parser Java API memungkinkan programmer mengekstrak tabel dari PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF & EPUB dokumen atau halaman.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Bagaimana cara Mengekstrak Tabel dari {{EXT}} file melalui {{ProductName}} API?",
+    "h1": "Tabel adalah kumpulan sel yang disusun dalam baris dan kolom. Tabel memainkan peran yang sangat penting dalam menyimpan serta mengatur data yang terperinci atau rumit yang memungkinkan pengguna untuk dengan mudah membaca dan melihatnya. Tabel dapat digunakan dalam banyak cara, seperti membuat daftar, membandingkan informasi, menyelaraskan data, mengelompokkan informasi, menyoroti tren atau pola dalam data dan masih banyak lagi. {{ProductFullName}} adalah API berguna yang memungkinkan pemrogram perangkat lunak mengembangkan solusi untuk mengekstrak tabel, teks, dan gambar dari berbagai jenis format dokumen yang didukung, seperti PDF, Email, Ebook, Word (DOC, { 318}), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), format Email (EML, MSG) dan banyak lagi. API {{ProductName}} telah menyertakan beberapa fitur penting untuk bekerja dengan tabel, seperti mengekstrak semua tabel dari dokumen, mengekstrak tabel dari halaman tertentu, mendapatkan data sel tabel, mendapatkan jumlah total baris dan kolom tabel, mendapatkan tinggi baris, mencetak data tabel dan mungkin lebih."
+  },
+  "steps": {
+    "title_left": "Ekstrak tabel dari {{EXT}} di {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) memudahkan pengembang {{ProgLang}} untuk mengekstrak tabel dari file {{EXT}} dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Membuat instance objek [Parser](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/) untuk dokumen awal;",
+      "step_2": "Periksa apakah dokumen mendukung ekstraksi tabel;",
+      "step_3": "Membuat instance [PageTableAreaOptions](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.options/pagetableareaoptions/) dan [TemplateTableLayout](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.templates/templatetablelayout/) untuk mengatur tata letak tabel",
+      "step_4": "Panggil metode [getTables](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) dan dapatkan kumpulan [PageTableArea](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagetablearea/) objek;",
+      "step_5": "Iterasi melalui koleksi dan cetak sel tabel."
+    },
+    "title_right": "Pelajari lebih lanjut tentang ekstraksi tabel",
+    "content_right": {
+      "step_1": "Cara mengekstrak tabel dari dokumen",
+      "step_2": "Cara mengekstrak tabel dari halaman dokumen"
+    },
+    "title_code": "Cara mengekstrak tabel dari file {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "header": "Ekstrak tabel dari file {{EXT}} menggunakan GroupDocs.Parser API",
+      "instance": "Buat instance kelas Parser",
+      "check": "Periksa apakah dokumen mendukung ekstraksi tabel",
+      "not_supported": "Dokumen tidak mendukung ekstraksi tabel.",
+      "layout": "Membuat tata letak tabel",
+      "options": "Buat opsi untuk ekstraksi tabel",
+      "extract": "Ekstrak tabel dari dokumen.",
+      "iterate": "Ulangi tabel",
+      "iterate_rows": "Ulangi baris",
+      "iterate_columns": "Ulangi kolom",
+      "cell": "Dapatkan sel tabel",
+      "print_cell": "Cetak teks sel tabel"
+    }
+  },
+  "more": {
+    "title_left": "Persyaratan sistem",
+    "content_left": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Mengapa Menggunakan {{ProductFullName}}",
+    "content_right": {
+      "p1": "Dukungan ekstraksi teks biasa dari dokumen yang didukung",
+      "p2": "Penguraian dokumen melalui templat yang ditentukan pengguna",
+      "p3": "Sepenuhnya mendukung ekstraksi teks terstruktur",
+      "p4": "Pencarian teks melalui kata kunci serta ekspresi reguler",
+      "p5": "Ekstrak teks yang diformat, metadata, gambar, wadah, dan lampiran",
+      "p6": "Ekstrak daftar isi untuk beberapa format dokumen yang didukung",
+      "p7": "Mengurai data formulir dari PDF dokumen",
+      "p8": "Ekstrak hyperlink dari dokumen"
+    }
+  },
+  "more_formats": {
+    "title": "Ekstrak Tabel Dari Format Dokumen Lain",
+    "content": "{{ProductName}} API penguraian dokumen & tabel untuk format file dan gambar. Ekstrak data untuk beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

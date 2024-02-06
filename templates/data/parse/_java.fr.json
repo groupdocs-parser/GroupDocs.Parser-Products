@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Analyser les données des documents dans {{ProgLang}}",
+    "description": "Analysez rapidement les données des documents dans {{ProgLang}}."
+  },
+  "header": {
+    "title": "Analyser les données des documents dans {{ProgLang}}",
+    "description": "Analysez les données des documents avec quelques lignes de code {{ProductName}}.",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "Analyser les données avec des modèles dans {{ProductFullName}}",
+    "p1": "Les modèles peuvent grandement améliorer l'efficacité, la précision et la cohérence de l'extraction de données à partir de documents. {{ProductFullName}} fournit une solution puissante pour travailler avec des modèles.",
+    "p2": "Avec {{ProductFullName}}, vous pouvez facilement créer des modèles pour différents types de documents, y compris les documents PDF et Microsoft Word. Vous pouvez également utiliser des modèles pour l'analyse par lots de plusieurs documents.",
+    "p3": "Les meilleures pratiques pour travailler avec des modèles dans {{ProductFullName}} incluent l'utilisation d'identificateurs uniques et le test approfondi des modèles avant le déploiement. Avec {{ProductFullName}}, vous pouvez optimiser l'extraction des données et obtenir de meilleurs résultats.",
+    "p4": "Téléchargez et essayez {{ProductFullName}} dès aujourd'hui pour simplifier vos tâches d'analyse de documents et améliorer votre productivité. Notre documentation et nos ressources d'assistance sont disponibles pour vous aider à démarrer et à réussir.",
+    "p5": "En savoir plus sur l'analyse de documents dans la [documentation](https://docs.groupdocs.com/parser/{{ProductCode}}/working-with-templates/)."
+  },
+  "more": {
+    "title_left": "Configuration requise",
+    "content_left": {
+      "description": "{{ProductFullName}} Les API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Pourquoi utiliser {{ProductFullName}}",
+    "content_right": {
+      "p1": "Prise en charge de l'extraction de texte brut à partir de tous les documents pris en charge",
+      "p2": "Analyse de documents via des modèles définis par l'utilisateur",
+      "p3": "Prise en charge complète de l'extraction de texte structuré",
+      "p4": "Recherche de texte par mot-clé ainsi que par expression régulière",
+      "p5": "Extraire du texte formaté, des métadonnées, des images, des conteneurs et des pièces jointes",
+      "p6": "Extraire la table des matières pour certains formats de document pris en charge",
+      "p7": "Analyser les données de formulaire de PDF documents",
+      "p8": "Extraire les hyperliens du document"
+    }
+  },
+  "demos": {
+    "title": "Démos en direct - Analyser les données des documents en ligne",
+    "h1": "Analysez les données des documents dès maintenant en visitant le site Web [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/).",
+    "h2": "La démo en direct présente les avantages suivants."
+  },
+  "more_formats": {
+    "title": "Analyser les données d'autres formats de document",
+    "content": "API d'analyse de documents {{ProductName}} pour les formats de fichiers et les images. Extrayez les données pour certains des formats de fichiers populaires comme indiqué ci-dessous."
+  }
+}

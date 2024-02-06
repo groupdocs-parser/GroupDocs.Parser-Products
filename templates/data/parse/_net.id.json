@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Mengurai Data dari dokumen di {{ProgLang}}",
+    "description": "Mengurai data dengan cepat dari dokumen di {{ProgLang}}."
+  },
+  "header": {
+    "title": "Mengurai data dari dokumen Di {{ProgLang}}",
+    "description": "Parsing data dari dokumen dengan beberapa baris kode {{ProductName}}.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Parsing Data dengan Template di {{ProductFullName}}",
+    "p1": "Template dapat sangat meningkatkan efisiensi, akurasi, dan konsistensi ekstraksi data dari dokumen. {{ProductFullName}} memberikan solusi andal untuk bekerja dengan template.",
+    "p2": "Dengan {{ProductFullName}}, Anda dapat dengan mudah membuat template untuk berbagai jenis dokumen, termasuk dokumen PDF dan Microsoft Word. Anda juga dapat menggunakan template untuk penguraian batch dari banyak dokumen.",
+    "p3": "Praktik terbaik untuk bekerja dengan template di {{ProductFullName}} mencakup penggunaan pengenal unik dan pengujian template secara menyeluruh sebelum penerapan. Dengan {{ProductFullName}}, Anda dapat mengoptimalkan ekstraksi data dan mendapatkan hasil yang lebih baik.",
+    "p4": "Unduh dan coba {{ProductFullName}} hari ini untuk menyederhanakan tugas penguraian dokumen dan meningkatkan produktivitas Anda. Sumber daya dokumentasi dan dukungan kami tersedia untuk membantu Anda memulai dan mencapai kesuksesan.",
+    "p5": "Pelajari penguraian dokumen lebih lanjut di [dokumentasi](https://docs.groupdocs.com/parser/{{ProductCode}}/working-with-templates/)."
+  },
+  "more": {
+    "title_left": "Persyaratan sistem",
+    "content_left": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Mengapa Menggunakan {{ProductFullName}}",
+    "content_right": {
+      "p1": "Dukungan ekstraksi teks biasa dari dokumen yang didukung",
+      "p2": "Penguraian dokumen melalui templat yang ditentukan pengguna",
+      "p3": "Sepenuhnya mendukung ekstraksi teks terstruktur",
+      "p4": "Pencarian teks melalui kata kunci serta ekspresi reguler",
+      "p5": "Ekstrak teks yang diformat, metadata, gambar, wadah, dan lampiran",
+      "p6": "Ekstrak daftar isi untuk beberapa format dokumen yang didukung",
+      "p7": "Mengurai data formulir dari PDF dokumen",
+      "p8": "Ekstrak hyperlink dari dokumen"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung - Mengurai data dari dokumen Online",
+    "h1": "Uraikan data dari dokumen sekarang juga dengan mengunjungi situs web [GroupDocs.Parser Demo Langsung](https://products.groupdocs.app/parser/).",
+    "h2": "Demo langsung memiliki manfaat berikut."
+  },
+  "more_formats": {
+    "title": "Mengurai Data Dari Format Dokumen Lain",
+    "content": "{{ProductName}} dokumen mengurai API untuk format file dan gambar. Ekstrak data untuk beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

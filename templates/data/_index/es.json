@@ -1,0 +1,247 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java, API en la nube y aplicaciones de análisis de documentos en línea",
+    "head_description": "Obtenga una solución de análisis de documentos todo en uno para .NET, Java y aplicaciones basadas en la nube. Extraiga datos de formatos de documentos en línea usando la función simple de arrastrar y soltar",
+    "title": "Solución de análisis de documentos",
+    "description": "Extraiga datos de documentos e imágenes en cualquier plataforma utilizando nuestras API flexibles y soluciones basadas en aplicaciones para programadores y usuarios finales.",
+    "api_high_title": "GroupDocs.Parser High Code API incluyen",
+    "api_high_label": "Ver todas las High Code API",
+    "api_high_1_content": "API .NET nativa para extraer texto, imágenes, metadatos de Microsoft Office, PDF, imágenes y varios otros formatos en aplicaciones .NET.",
+    "api_high_2_content": "Potencia Java aplicaciones con extracción de datos de una amplia gama de documentos e imágenes en cualquier sistema operativo con JDK instalado.",
+    "api_low_title": "GroupDocs.Parser Low Code API incluyen",
+    "api_low_label": "Ver todas las Low Code API",
+    "api_low_1_content": "Trabaje con la API de análisis de documentos completa de cURL REST para extraer datos de todos los formatos de documentos populares, incluidos PDF, Word, Excel e imágenes.",
+    "api_low_2_content": "Utilice la API completa de Parser fácilmente con el SDK .NET para extraer datos de varios formatos de documentos dentro de aplicaciones .NET.",
+    "api_low_3_content": "Implemente funciones avanzadas de análisis de documentos en sus aplicaciones Java con el SDK de análisis de documentos especialmente diseñado para Java.",
+    "api_nocode_title": "GroupDocs.Parser No Code Las aplicaciones incluyen",
+    "api_nocodelabel": "Ver todas las No Code aplicaciones",
+    "api_nocode_1_content": "Aplicación en línea gratuita para analizar Word, Excel, PowerPoint, PDF y más de 30 tipos de documentos.",
+    "api_nocode_2_content": "Analice Word documentos directamente desde su navegador web para extraer imágenes, texto o metadatos.",
+    "api_nocode_3_content": "Aplicación de análisis PDF gratuita que funciona en cualquier plataforma o dispositivo sin limitaciones.",
+    "title_1": "Analizar documentos",
+    "words_for": "para",
+    "actions_alt": "Licencia",
+    "actions_title": "¿Listo para comenzar?",
+    "actions_description": "Pruebe GroupDocs.Parser funciones gratis o solicite una licencia",
+    "release_title": "Versión {0} lanzada",
+    "release_notes": "Ver qué hay de nuevo",
+    "release_downloads": "Descargas",
+    "code_more": "Más ejemplos",
+    "overview_title": "GroupDocs.Parser Descripción general",
+    "platforms_title": "Independencia de plataforma",
+    "formats_title": "Formatos de archivo admitidos",
+    "formats_groups": {
+      "title_1": "Microsoft Office formatos",
+      "title_2": "Imágenes y otros formatos",
+      "title_3": "Otros formatos",
+      "format_portable": "Portable",
+      "format_other_office": "Otros formatos de oficina",
+      "format_images": "Imágenes",
+      "format_web": "Web",
+      "format_archives": "Archivo",
+      "format_ebooks": "Libros electrónicos"
+    },
+    "net": {
+      "title": "API nativa .NET para análisis de documentos",
+      "title_2": "a través de .NET API",
+      "actions_main": "Descarga gratuita NuGet",
+      "code": {
+        "title": "Extraiga texto de PDF archivos en C#",
+        "instance": "Crear una instancia de la clase Parser",
+        "extract": "Extraer un texto en el lector.",
+        "print_1": "Imprimir un texto del documento.",
+        "print_2": "Si no se admite la extracción de texto, un lector es nulo",
+        "not_supported": "La extracción de texto no es compatible"
+      },
+      "overview_description": "API para realizar análisis de documentos en .NET aplicaciones",
+      "overview_feature_1": {
+        "title": "Extraer datos de documentos",
+        "description": ".NET La API le permite recuperar texto, metadatos e imágenes de una amplia gama de formatos de archivo, como documentos de Office, correos electrónicos, archivos adjuntos y archivos. Esta poderosa herramienta lo ayuda a acceder y procesar de manera eficiente información valiosa contenida en estos archivos para diversas aplicaciones como análisis de datos, indexación de motores de búsqueda o sistemas de administración de contenido."
+      },
+      "overview_feature_2": {
+        "title": "Analizar documentos",
+        "description": "Extraiga varios elementos como hipervínculos, tablas, códigos QR, códigos de barras y datos de PDF formularios. Analice también cualquier información deseada de los documentos utilizando plantillas personalizadas."
+      },
+      "overview_feature_3": {
+        "title": "Personalización de resultados",
+        "description": ".NET API le permite recuperar datos en varios formatos, como sin formato, estructurado, HTML o Markdown. Además, API ofrece una función de búsqueda para localizar palabras o frases específicas dentro del texto de los documentos."
+      },
+      "features": {
+        "title": "GroupDocs.Parser características",
+        "description": "Extraiga datos de PDF, documentos de Office e imágenes de forma rápida y precisa.",
+        "feature_1": {
+          "title": "Extraer texto",
+          "content": "Extraiga información textual de varios formatos de archivo, como documentos de Office, PDF archivos e imágenes para facilitar la lectura y el análisis."
+        },
+        "feature_2": {
+          "title": "Extraer imágenes",
+          "content": "Recupere contenido visual de diversas fuentes, como documentos de Office y archivos PDF para acceder y utilizar cómodamente."
+        },
+        "feature_3": {
+          "title": "Escanear códigos QR",
+          "content": "Detecte y decodifique códigos QR presentes en documentos de Office, PDF archivos o contenido visual para una recuperación eficiente de la información."
+        },
+        "feature_4": {
+          "title": "Extraiga datos de archivos adjuntos y archivos de correo electrónico",
+          "content": "Recopile información valiosa de mensajes de correo electrónico, archivos adjuntos y fuentes de datos comprimidos para un análisis y utilización eficaces."
+        },
+        "feature_5": {
+          "title": "Extraer tablas",
+          "content": "Identifique y extraiga datos tabulares de PDF documentos para su análisis y uso organizados."
+        },
+        "feature_6": {
+          "title": "Extraer hipervínculos",
+          "content": "Localice y extraiga hipervínculos y direcciones de correo electrónico dentro de documentos de Office o archivos PDF para un acceso eficiente."
+        },
+        "feature_7": {
+          "title": "Analizar PDF formularios",
+          "content": "PDF Los formularios son documentos digitales que presentan campos que se pueden completar para la interacción del usuario, lo que les permite ingresar información electrónicamente. .NET Se puede utilizar API para extraer datos de estos formularios para un procesamiento eficiente."
+        },
+        "feature_8": {
+          "title": "Analizar datos por plantillas",
+          "content": "Cree plantillas personalizadas y utilícelas con .NET API para analizar información específica de PDF archivos, simplificando los procesos de extracción de datos."
+        },
+        "feature_9": {
+          "title": "Buscar un texto en documentos",
+          "content": "Localice rápidamente palabras o patrones específicos dentro de los documentos."
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for .NET es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes",
+      "formats_description": "GroupDocs.Parser for .NET admite operaciones con los siguientes [formatos de archivo](https://docs.groupdocs.com/parser/net/supported-document-formats/).",
+      "code-samples": {
+        "title": "Ejemplo de código",
+        "description": "Algunos casos prácticos de operaciones GroupDocs.Parser for .NET típicas",
+        "sample1": {
+          "header": "Extraer imágenes de PDF documentos",
+          "description": ".NET La API facilita a los desarrolladores de C# la extracción de imágenes de documentos mediante la implementación de unos sencillos pasos.",
+          "title": "Extraiga imágenes de PDF documentos en C#",
+          "code": {
+            "header": "Extraiga imágenes de PDF documentos utilizando la API GroupDocs.Parser",
+            "instance": "Crear una instancia de la clase Parser",
+            "extract": "Extraer imágenes",
+            "check_null": "Compruebe si se admite la extracción de imágenes",
+            "not_supported": "La extracción de imágenes no es compatible",
+            "iterate": "Iterar sobre imágenes",
+            "print": "Imprima un índice de página, un rectángulo y un tipo de imagen:"
+          }
+        },
+        "sample2": {
+          "header": "Extraer códigos de barras de imágenes",
+          "description": ".NET La API facilita a los desarrolladores de C# la extracción de códigos de barras de documentos mediante la implementación de unos sencillos pasos.",
+          "title": "Extraer códigos de barras de imágenes",
+          "code": {
+            "header": "Extraiga códigos de barras de documentos utilizando la API GroupDocs.Parser",
+            "instance": "Crear una instancia de la clase Parser",
+            "check": "Compruebe si el archivo admite la extracción de códigos de barras",
+            "not_supported": "El archivo no admite la extracción de códigos de barras.",
+            "extract": "Extraiga códigos de barras del archivo.",
+            "iterate": "Iterar sobre códigos de barras",
+            "print_page_index": "Imprimir el índice de la página.",
+            "print_value": "Imprimir el valor del código de barras"
+          }
+        }
+      }
+    },
+    "java": {
+      "title": "Java API para analizar documentos",
+      "title_2": "a través de Java API",
+      "actions_main": "Descarga gratuita de Maven",
+      "code": {
+        "title": "Extraiga texto de PDF archivos en Java",
+        "instance": "Crear una instancia de la clase Parser",
+        "extract": "Extraer un texto en el lector.",
+        "print_1": "Imprimir un texto del documento.",
+        "print_2": "Si no se admite la extracción de texto, un lector es nulo",
+        "not_supported": "La extracción de texto no es compatible"
+      },
+      "overview_description": "API para realizar análisis de documentos en Java aplicaciones",
+      "overview_feature_1": {
+        "title": "Extraer datos de documentos",
+        "description": "Java API le permite recuperar texto, metadatos e imágenes de una amplia gama de formatos de archivo, como documentos de Office, correos electrónicos, archivos adjuntos y archivos. Esta poderosa herramienta lo ayuda a acceder y procesar de manera eficiente información valiosa contenida en estos archivos para diversas aplicaciones como análisis de datos, indexación de motores de búsqueda o sistemas de administración de contenido."
+      },
+      "overview_feature_2": {
+        "title": "Analizar documentos",
+        "description": "Extraiga varios elementos como hipervínculos, tablas, códigos QR, códigos de barras y datos de PDF formularios. Analice también cualquier información deseada de los documentos utilizando plantillas personalizadas."
+      },
+      "overview_feature_3": {
+        "title": "Personalización de resultados",
+        "description": "Java API le permite recuperar datos en varios formatos, como sin formato, estructurado, HTML o Markdown. Además, API ofrece una función de búsqueda para localizar palabras o frases específicas dentro del texto de los documentos."
+      },
+      "features": {
+        "title": "GroupDocs.Parser características",
+        "description": "Extraiga datos de PDF, documentos de Office e imágenes de forma rápida y precisa.",
+        "feature_1": {
+          "title": "Extraer texto",
+          "content": "Extraiga información textual de varios formatos de archivo, como documentos de Office, PDF archivos e imágenes para facilitar la lectura y el análisis."
+        },
+        "feature_2": {
+          "title": "Extraer imágenes",
+          "content": "Recupere contenido visual de diversas fuentes, como documentos de Office y archivos PDF para acceder y utilizar cómodamente."
+        },
+        "feature_3": {
+          "title": "Escanear códigos QR",
+          "content": "Detecte y decodifique códigos QR presentes en documentos de Office, PDF archivos o contenido visual para una recuperación eficiente de la información."
+        },
+        "feature_4": {
+          "title": "Extraiga datos de archivos adjuntos y archivos de correo electrónico",
+          "content": "Recopile información valiosa de mensajes de correo electrónico, archivos adjuntos y fuentes de datos comprimidos para un análisis y utilización eficaces."
+        },
+        "feature_5": {
+          "title": "Extraer tablas",
+          "content": "Identifique y extraiga datos tabulares de PDF documentos para su análisis y uso organizados."
+        },
+        "feature_6": {
+          "title": "Extraer hipervínculos",
+          "content": "Localice y extraiga hipervínculos y direcciones de correo electrónico dentro de documentos de Office o archivos PDF para un acceso eficiente."
+        },
+        "feature_7": {
+          "title": "Analizar PDF formularios",
+          "content": "PDF Los formularios son documentos digitales que presentan campos que se pueden completar para la interacción del usuario, lo que les permite ingresar información electrónicamente. Java Se puede utilizar API para extraer datos de estos formularios para un procesamiento eficiente."
+        },
+        "feature_8": {
+          "title": "Analizar datos por plantillas",
+          "content": "Cree plantillas personalizadas y utilícelas con Java API para analizar información específica de PDF archivos, simplificando los procesos de extracción de datos."
+        },
+        "feature_9": {
+          "title": "Buscar un texto en documentos",
+          "content": "Localice rápidamente palabras o patrones específicos dentro de los documentos."
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for Java es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes",
+      "formats_description": "GroupDocs.Parser for Java admite operaciones con los siguientes [formatos de archivo](https://docs.groupdocs.com/parser/java/supported-document-formats/).",
+      "code-samples": {
+        "title": "Ejemplo de código",
+        "description": "Algunos casos de uso de operaciones GroupDocs.Parser for Java típicas",
+        "sample1": {
+          "header": "Extraer imágenes de PDF documentos",
+          "description": "La API Java facilita a los desarrolladores Java la extracción de imágenes de documentos mediante la implementación de unos sencillos pasos.",
+          "title": "Extraiga imágenes de PDF documentos en Java",
+          "code": {
+            "header": "Extraiga imágenes de PDF documentos utilizando la API GroupDocs.Parser",
+            "instance": "Crear una instancia de la clase Parser",
+            "extract": "Extraer imágenes",
+            "check_null": "Compruebe si se admite la extracción de imágenes",
+            "not_supported": "La extracción de imágenes no es compatible",
+            "iterate": "Iterar sobre imágenes",
+            "print": "Imprima un índice de página, un rectángulo y un tipo de imagen:"
+          }
+        },
+        "sample2": {
+          "header": "Extraer códigos de barras de imágenes",
+          "description": "La API Java facilita a los desarrolladores Java la extracción de códigos de barras de documentos mediante la implementación de unos sencillos pasos.",
+          "title": "Extraer códigos de barras de imágenes",
+          "code": {
+            "header": "Extraiga códigos de barras de documentos utilizando la API GroupDocs.Parser",
+            "instance": "Crear una instancia de la clase Parser",
+            "check": "Compruebe si el archivo admite la extracción de códigos de barras",
+            "not_supported": "El archivo no admite la extracción de códigos de barras.",
+            "extract": "Extraiga códigos de barras del archivo.",
+            "iterate": "Iterar sobre códigos de barras",
+            "print_page_index": "Imprimir el índice de la página.",
+            "print_value": "Imprimir el valor del código de barras"
+          }
+        }
+      }
+    }
+  }
+}

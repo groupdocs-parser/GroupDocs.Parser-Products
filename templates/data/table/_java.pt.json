@@ -1,0 +1,79 @@
+{
+  "head": {
+    "title": "Extraia tabelas de PDF, DOCX, PPTX, XLSX, EPUB e mais por meio da API Java",
+    "description": "GroupDocs.Parser Java API permite que programadores extraiam tabelas de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF e muitos outros tipos de documentos dentro de Java Apps."
+  },
+  "header": {
+    "title": "Extraia tabelas de documentos Excel, Word, PDF e PowerPoint por meio da API Java",
+    "description": "GroupDocs.Parser Java API permite aos programadores extrair tabelas de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF e EPUB documentos ou páginas.",
+    "button_label": "Baixe a avaliação gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referência de API",
+      "button_text_2": "Exemplos de código",
+      "button_text_3": "Demonstrações ao vivo",
+      "button_text_4": "Preços"
+    }
+  },
+  "about": {
+    "title": "Como extrair tabelas de Excel, Word, PDF e outros documentos por meio da API {{ProductName}}?",
+    "h1": "Tabela é a coleção de células organizadas em linhas e colunas. As tabelas desempenham um papel muito importante no armazenamento e na organização de dados detalhados ou complicados, permitindo aos usuários lê-los e visualizá-los facilmente. As tabelas podem ser usadas de várias maneiras, como fazer listas, comparar informações, alinhar dados, agrupar informações, destacar tendências ou padrões em dados e muito mais. {{ProductFullName}} é uma API útil que permite aos programadores de software desenvolver soluções para extrair tabelas, texto e imagens de vários tipos de formatos de documentos suportados, como PDF, Emails, Ebooks, Word (DOC, { 318}), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), formatos de e-mails (EML, MSG) e muito mais. A API {{ProductName}} incluiu vários recursos importantes para trabalhar com tabelas, como extrair todas as tabelas de um documento, extrair tabela de uma página específica, obter dados de células da tabela, obter o número total de linhas e colunas de uma tabela, obter a altura da linha, imprimir dados de uma tabela e muito mais."
+  },
+  "steps": {
+    "title_left": "Extraia tabelas de documentos em {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) facilita para os desenvolvedores {{ProgLang}} extrair tabelas de documentos implementando algumas etapas fáceis.",
+      "step_1": "Instancie o objeto [Parser](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/) para o documento inicial;",
+      "step_2": "Verifique se o documento suporta extração de tabelas;",
+      "step_3": "Instancie [PageTableAreaOptions](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.options/pagetableareaoptions/) e [TemplateTableLayout](https://reference.groupdocs.com/parser/java/com .groupdocs.parser.templates/templatetablelayout/) classes para definir o layout das tabelas",
+      "step_4": "Chame o método [getTables](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) e obtenha a coleção de [PageTableArea]( https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagetablearea/) objetos;",
+      "step_5": "Itere pela coleção e imprima as células da tabela."
+    },
+    "title_right": "Saiba mais sobre a extração de tabelas",
+    "content_right": {
+      "step_1": "Como extrair tabelas do documento",
+      "step_2": "Como extrair tabelas da página do documento"
+    },
+    "title_code": "Como extrair tabelas de documentos usando código de exemplo {{ProgLang}}",
+    "code": {
+      "header": "Extraia tabelas de documentos usando a API GroupDocs.Parser",
+      "instance": "Crie uma instância da classe Parser",
+      "check": "Verifique se o documento suporta extração de tabela",
+      "not_supported": "O documento não suporta extração de tabelas.",
+      "layout": "Crie o layout das tabelas",
+      "options": "Crie as opções para extração de tabela",
+      "extract": "Extraia tabelas do documento.",
+      "iterate": "Iterar sobre tabelas",
+      "iterate_rows": "Iterar sobre linhas",
+      "iterate_columns": "Iterar sobre colunas",
+      "cell": "Obtenha a célula da tabela",
+      "print_cell": "Imprimir o texto da célula da tabela"
+    }
+  },
+  "more": {
+    "title_left": "Requisitos de sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs são suportadas em todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.",
+      "step_1": "Sistemas operacionais: Microsoft Windows, Linux, MacSO",
+      "step_2": "Ambientes de desenvolvimento: {{DevEnv}}",
+      "step_3": "Estruturas",
+      "step_4": "Baixe a versão mais recente de {{ProductFullName}} em [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Por que usar {{ProductFullName}}",
+    "content_right": {
+      "p1": "Suporte para extração de texto simples de qualquer documento suportado",
+      "p2": "Análise de documentos por meio de modelos definidos pelo usuário",
+      "p3": "Suporte total à extração de texto estruturado",
+      "p4": "Pesquisa de texto por palavra-chave e também por expressão regular",
+      "p5": "Extraia texto formatado, metadados, imagens, contêineres e anexos",
+      "p6": "Extraia o índice de alguns formatos de documento suportados",
+      "p7": "Analisar dados de formulário de PDF documentos",
+      "p8": "Extraia hiperlinks do documento"
+    }
+  },
+  "more_formats": {
+    "title": "Extraia tabelas de outros formatos de documentos",
+    "content": "{{ProductName}} API de análise de documentos e extração de tabelas para formatos de arquivo e imagens. Extraia dados para alguns dos formatos de arquivo populares conforme indicado abaixo."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "head": {
+    "title": "Wyodrębnij tabele z PDF, DOCX, PPTX, XLSX, EPUB i innych za pośrednictwem interfejsu API C#.NET",
+    "description": "Interfejs API GroupDocs.Parser .NET umożliwia programistom wyodrębnianie tabel z PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF i wiele innych typów dokumentów w aplikacjach .NET."
+  },
+  "header": {
+    "title": "Wyodrębnij tabele z dokumentów Excel, Word, PDF i PowerPoint za pomocą interfejsu API C#.NET",
+    "description": "API GroupDocs.Parser .NET umożliwia programistom wyodrębnianie tabel z PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF i EPUB dokumenty lub strony.",
+    "button_label": "Pobierz darmową wersję próbną"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Dokumentacja API",
+      "button_text_2": "Przykłady kodu",
+      "button_text_3": "Demo na żywo",
+      "button_text_4": "cennik"
+    }
+  },
+  "about": {
+    "title": "Jak wyodrębnić tabele z dokumentów Excel, Word, PDF i innych za pośrednictwem interfejsu API {{ProductName}}?",
+    "h1": "Tabela to zbiór komórek ułożonych w wiersze i kolumny. Tabele odgrywają bardzo ważną rolę w przechowywaniu i organizowaniu szczegółowych lub skomplikowanych danych, umożliwiając użytkownikom łatwe ich odczytywanie i przeglądanie. Tabele można wykorzystywać na wiele sposobów, np. tworząc listy, porównując informacje, wyrównując dane, grupując informacje, podkreślając trendy lub wzorce w danych i wiele innych. {{ProductFullName}} to przydatny interfejs API, który umożliwia programistom opracowywanie rozwiązań do wyodrębniania tabel, tekstu i obrazów z różnych obsługiwanych formatów dokumentów, takich jak PDF, e-maile, e-booki, Word (DOC, { 318}), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), e-maile (EML, MSG) i wiele innych. Interfejs API {{ProductName}} zawiera kilka ważnych funkcji do pracy z tabelami, takich jak wyodrębnianie wszystkich tabel z dokumentów, wyodrębnianie tabeli z określonej strony, pobieranie danych z komórek tabeli, uzyskiwanie całkowitej liczby wierszy i kolumn tabeli, uzyskiwanie wysokości wierszy, wydrukuj dane tabeli i może więcej."
+  },
+  "steps": {
+    "title_left": "Wyodrębnij tabele z dokumentów w {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) ułatwia programistom {{ProgLang}} wyodrębnianie tabel z dokumentów, wykonując kilka prostych kroków.",
+      "step_1": "Utwórz instancję obiektu [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) dla dokumentu początkowego;",
+      "step_2": "Sprawdź, czy dokument obsługuje wyodrębnianie tabeli;",
+      "step_3": "Utwórz instancję [PageTableAreaOptions](https://reference.groupdocs.com/parser/net/groupdocs.parser.options/pagetableareaoptions/) i [TemplateTableLayout](https://reference.groupdocs.com/parser/net/groupdocs.parser .templates/templatetablelayout/) do ustawiania układu tabel",
+      "step_4": "Wywołaj metodę [GetTables](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gettables) i uzyskaj kolekcję [PageTableArea](https://reference.groupdocs.com/parser/ net/groupdocs.parser.data/pagetablearea) obiekty;",
+      "step_5": "Iteruj po kolekcji i wydrukuj komórki tabeli."
+    },
+    "title_right": "Dowiedz się więcej o wyodrębnianiu tabel",
+    "content_right": {
+      "step_1": "Jak wyodrębnić tabele z document",
+      "step_2": "Jak wyodrębnić tabele ze strony dokumentu"
+    },
+    "title_code": "Jak wyodrębnić tabele z dokumentów przy użyciu przykładowego kodu {{ProgLang}}",
+    "code": {
+      "header": "Wyodrębnij tabele z dokumentów za pomocą interfejsu API GroupDocs.Parser",
+      "instance": "Utwórz instancję klasy Parser",
+      "check": "Sprawdź, czy dokument obsługuje wyodrębnianie tabeli",
+      "not_supported": "Dokument nie obsługuje wyodrębniania tabel.",
+      "layout": "Utwórz układ tabel",
+      "options": "Utwórz opcje wyodrębniania tabeli",
+      "extract": "Wyodrębnij tabele z dokumentu.",
+      "iterate": "Iteruj po tabelach",
+      "iterate_rows": "Iteruj po wierszach",
+      "iterate_columns": "Iteruj po kolumnach",
+      "cell": "Zdobądź komórkę tabeli",
+      "print_cell": "Wydrukuj tekst komórki tabeli"
+    }
+  },
+  "more": {
+    "title_left": "wymagania systemowe",
+    "content_left": {
+      "description": "{{ProductFullName}} Interfejsy API są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że w systemie zainstalowano następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Ramy",
+      "step_4": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Dlaczego warto używać {{ProductFullName}}",
+    "content_right": {
+      "p1": "Obsługa wyodrębniania zwykłego tekstu z dowolnych obsługiwanych dokumentów",
+      "p2": "Analizowanie dokumentów za pomocą szablonów zdefiniowanych przez użytkownika",
+      "p3": "W pełni obsługuje wyodrębnianie tekstu strukturalnego",
+      "p4": "Wyszukiwanie tekstu za pomocą słów kluczowych i wyrażeń regularnych",
+      "p5": "Wyodrębnij sformatowany tekst, metadane, obrazy, kontenery i załączniki",
+      "p6": "Wyodrębnij spis treści dla niektórych obsługiwanych formatów dokumentów",
+      "p7": "Analizuj dane formularzy z PDF dokumentów",
+      "p8": "Wyodrębnij hiperłącza z dokumentu"
+    }
+  },
+  "more_formats": {
+    "title": "Wyodrębnij tabele z innych formatów dokumentów",
+    "content": "{{ProductName}} API do analizowania dokumentów i skanowania tabel pod kątem formatów plików i obrazów. Wyodrębnij dane dla niektórych popularnych formatów plików, jak opisano poniżej."
+  }
+}

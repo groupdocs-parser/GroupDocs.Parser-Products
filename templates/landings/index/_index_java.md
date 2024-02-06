@@ -210,7 +210,7 @@ code_samples:
         {{< landing/code title="<% "{index-content.java.code-samples.sample1.title}" %>">}}
         ```java {style=abap}
         // <% "{index-content.java.code-samples.sample1.code.instance}" %>
-        try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
+        try (Parser parser = new Parser(filePath)) {
             // <% "{index-content.java.code-samples.sample1.code.extract}" %>
             Iterable<PageImageArea> images = parser.getImages();
             // <% "{index-content.java.code-samples.sample1.code.check_null}" %>
@@ -233,14 +233,14 @@ code_samples:
         {{< landing/code title="<% "{index-content.java.code-samples.sample2.title}" %>">}}
         ```java {style=abap}   
         // <% "{index-content.java.code-samples.sample2.code.instance}" %>
-        try (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+        try (Parser parser = new Parser(filePath)) {
             // // <% "{index-content.java.code-samples.sample2.code.check}" %>
             if (!parser.getFeatures().isBarcodes()) {
                 System.out.println("<% "{index-content.java.code-samples.sample2.code.not_supported}" %>");
                 return;
             }
 
-            // <% "{index-content.java.code-samples.sample2.code.scan}" %>
+            // <% "{index-content.java.code-samples.sample2.code.extract}" %>
             Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
 
             // <% "{index-content.java.code-samples.sample2.code.iterate}" %>

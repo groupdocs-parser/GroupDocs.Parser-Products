@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "Wyodrębnij kody kreskowe z Excel, Word, PDF i innych dokumentów za pośrednictwem interfejsu API {{ProductName}}",
+    "description": "{{ProductFullName}} umożliwia twórcom oprogramowania wyodrębnianie kodów kreskowych z aplikacji PDF, MS Excel, Word, PowerPoint, Outlook, OneNote i innych."
+  },
+  "header": {
+    "title": "Jak wyodrębnić kody kreskowe z PDF, DOCX, PPTX, EML, MSG, XLSX i EPUB za pośrednictwem interfejsu API {ProductName}}",
+    "description": "Interfejs API {{ProductFullName}} umożliwia twórcom oprogramowania wyodrębnianie kodów kreskowych z PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint( PPT, { 330}), Outlook ( EML, MSG) i wiele innych dokumentów Obszar strony.",
+    "button_label": "Pobierz darmową wersję próbną"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Dokumentacja API",
+      "button_text_2": "Przykłady kodu",
+      "button_text_3": "Demo na żywo",
+      "button_text_4": "cennik"
+    }
+  },
+  "about": {
+    "title": "Jak wyodrębnić kody kreskowe z interfejsu API Excel, Word, PDF i innych dokumentów {{ProductName}}?",
+    "h1": "Obraz kodów kreskowych składa się z szeregu równoległych czarnych linii i białych przestrzeni o różnej szerokości, które można wykorzystać do zakodowania informacji we wzór wizualny. Został wprowadzony w latach 70. XX wieku i obecnie jest uniwersalną częścią przedsiębiorstw komercyjnych. {{ProductFullName}} to potężny interfejs API, który umożliwia programistom tworzenie aplikacji do analizowania różnych typów dokumentów i wyodrębniania z nich tekstu, obrazów i kodów kreskowych. Obejmowała obsługę niektórych najpopularniejszych typów dokumentów, takich jak PDF, e-maile, e-booki, formaty Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, {330 }), Excel (XLS, XLSX), formaty e-maili (EML, MSG) i wiele innych. Interfejs API {{ProductName}} obsługuje kilka ważnych funkcji związanych z analizowaniem dokumentów i ekstrakcją danych, takich jak wyodrębnianie zwykłego tekstu, wyodrębnianie tekstu strukturalnego, wyodrębnianie tekstu w formacie Markdown, wyodrębnianie tekstu z określonej strony lub obszaru strony, wyodrębnianie kodu kreskowego z dokumentu, wyodrębnianie metadane lub obrazy i wiele innych."
+  },
+  "steps": {
+    "title_left": "Wyodrębnij kody kreskowe z dokumentów w {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) ułatwia programistom {{ProgLang}} wyodrębnianie kodów kreskowych z dokumentów, wykonując kilka prostych kroków.",
+      "step_1": "Utwórz instancję obiektu [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) dla dokumentu początkowego;",
+      "step_2": "Sprawdź, czy plik obsługuje wyodrębnianie kodów kreskowych;",
+      "step_3": "Wywołaj metodę [getBarcodes](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getBarcodes--) i uzyskaj kolekcję [PageBarcodeArea](https://reference.groupdocs.com /parser/java/com.groupdocs.parser.data/pagebarcodearea/) obiekty;",
+      "step_4": "Iteruj po kolekcji i uzyskaj wartość kodu kreskowego."
+    },
+    "title_right": "Dowiedz się więcej o ekstrakcji kodów kreskowych",
+    "content_right": {
+      "step_1": "Jak wyodrębnić kody kreskowe z dokumentu",
+      "step_2": "Jak wyodrębnić kody kreskowe ze strony dokumentu",
+      "step_3": "Jak wyodrębnić kody kreskowe z obszaru strony dokumentu"
+    },
+    "title_code": "Jak wyodrębnić kody kreskowe z dokumentów przy użyciu przykładowego kodu {{ProgLang}}",
+    "code": {
+      "header": "Wyodrębnij kody kreskowe z dokumentów za pomocą interfejsu API GroupDocs.Parser",
+      "instance": "Utwórz instancję klasy Parser",
+      "check": "Sprawdź, czy plik obsługuje wyodrębnianie kodów kreskowych",
+      "not_supported": "Plik nie obsługuje wyodrębniania kodów kreskowych.",
+      "extract": "Wyodrębnij kody kreskowe z pliku.",
+      "iterate": "Iteruj po kodach kreskowych",
+      "print_page_index": "Wydrukuj indeks strony",
+      "print_value": "Wydrukuj wartość kodu kreskowego"
+    }
+  },
+  "more": {
+    "title_left": "wymagania systemowe",
+    "content_left": {
+      "description": "{{ProductFullName}} Interfejsy API są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że w systemie zainstalowano następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Ramy",
+      "step_4": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Dlaczego warto używać {{ProductFullName}}",
+    "content_right": {
+      "p1": "Obsługa wyodrębniania zwykłego tekstu z dowolnych obsługiwanych dokumentów",
+      "p2": "Analizowanie dokumentów za pomocą szablonów zdefiniowanych przez użytkownika",
+      "p3": "W pełni obsługuje wyodrębnianie tekstu strukturalnego",
+      "p4": "Wyszukiwanie tekstu za pomocą słów kluczowych i wyrażeń regularnych",
+      "p5": "Wyodrębnij sformatowany tekst, metadane, obrazy, kontenery i załączniki",
+      "p6": "Wyodrębnij spis treści dla niektórych obsługiwanych formatów dokumentów",
+      "p7": "Analizuj dane formularzy z PDF dokumentów",
+      "p8": "Wyodrębnij hiperłącza z dokumentu"
+    }
+  },
+  "demos": {
+    "title": "Demo na żywo — wyodrębniaj kody kreskowe z dokumentów online",
+    "h1": "Wyodrębnij kody kreskowe z dokumentów już teraz, odwiedzając witrynę [GroupDocs.Parser Prezentacje na żywo](https://products.groupdocs.app/parser/barcodes/).",
+    "h2": "Demo na żywo ma następujące zalety."
+  },
+  "more_formats": {
+    "title": "Wyodrębnij kody kreskowe z innych formatów dokumentów",
+    "content": "{{ProductName}} Analiza dokumentów i wyodrębnianie kodów kreskowych API dla formatów plików i obrazów. Wyodrębnij dane dla niektórych popularnych formatów plików, jak opisano poniżej."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Analizuj dane z dokumentów w {{ProgLang}}",
+    "description": "Szybko analizuj dane z dokumentów w {{ProgLang}}."
+  },
+  "header": {
+    "title": "Analizuj dane z dokumentów w {{ProgLang}}",
+    "description": "Analizuj dane z dokumentów za pomocą kilku linii kodu {{ProductName}}.",
+    "button_label": "Pobierz darmową wersję próbną"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Dokumentacja API",
+      "button_text_2": "Przykłady kodu",
+      "button_text_3": "Demo na żywo",
+      "button_text_4": "cennik"
+    }
+  },
+  "about": {
+    "title": "Analizuj dane za pomocą szablonów w {{ProductFullName}}",
+    "p1": "Szablony mogą znacznie zwiększyć wydajność, dokładność i spójność ekstrakcji danych z dokumentów. {{ProductFullName}} zapewnia zaawansowane rozwiązanie do pracy z szablonami.",
+    "p2": "Dzięki {{ProductFullName}} możesz z łatwością tworzyć szablony dla różnych typów dokumentów, w tym dokumentów PDF i dokumentów Microsoft Word. Możesz także użyć szablonów do wsadowego analizowania wielu dokumentów.",
+    "p3": "Najlepsze praktyki dotyczące pracy z szablonami w {{ProductFullName}} obejmują używanie unikalnych identyfikatorów i dokładne testowanie szablonów przed wdrożeniem. Dzięki {{ProductFullName}} możesz zoptymalizować ekstrakcję danych i osiągnąć lepsze wyniki.",
+    "p4": "Pobierz i wypróbuj {{ProductFullName}} już dziś, aby uprościć zadania analizowania dokumentów i zwiększyć swoją produktywność. Nasza dokumentacja i zasoby wsparcia są dostępne, aby pomóc Ci rozpocząć i osiągnąć sukces.",
+    "p5": "Dowiedz się więcej o analizowaniu dokumentów w [dokumentacji](https://docs.groupdocs.com/parser/{{ProductCode}}/working-with-templates/)."
+  },
+  "more": {
+    "title_left": "wymagania systemowe",
+    "content_left": {
+      "description": "{{ProductFullName}} Interfejsy API są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że w systemie zainstalowano następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Ramy",
+      "step_4": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Dlaczego warto używać {{ProductFullName}}",
+    "content_right": {
+      "p1": "Obsługa wyodrębniania zwykłego tekstu z dowolnych obsługiwanych dokumentów",
+      "p2": "Analizowanie dokumentów za pomocą szablonów zdefiniowanych przez użytkownika",
+      "p3": "W pełni obsługuje wyodrębnianie tekstu strukturalnego",
+      "p4": "Wyszukiwanie tekstu za pomocą słów kluczowych i wyrażeń regularnych",
+      "p5": "Wyodrębnij sformatowany tekst, metadane, obrazy, kontenery i załączniki",
+      "p6": "Wyodrębnij spis treści dla niektórych obsługiwanych formatów dokumentów",
+      "p7": "Analizuj dane formularzy z PDF dokumentów",
+      "p8": "Wyodrębnij hiperłącza z dokumentu"
+    }
+  },
+  "demos": {
+    "title": "Demo na żywo — analizuj dane z dokumentów online",
+    "h1": "Przeanalizuj dane z dokumentów już teraz, odwiedzając witrynę [GroupDocs.Parser Prezentacje na żywo](https://products.groupdocs.app/parser/).",
+    "h2": "Demo na żywo ma następujące zalety."
+  },
+  "more_formats": {
+    "title": "Analizuj dane z innych formatów dokumentów",
+    "content": "Dokumenty {{ProductName}} analizują interfejs API pod kątem formatów plików i obrazów. Wyodrębnij dane dla niektórych popularnych formatów plików, jak opisano poniżej."
+  }
+}

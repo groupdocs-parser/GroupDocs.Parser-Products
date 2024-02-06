@@ -1,0 +1,247 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java, Cloud API & Aplikasi Parser Dokumen Online",
+    "head_description": "Dapatkan solusi penguraian dokumen lengkap untuk .NET, Java dan aplikasi berbasis cloud. Ekstrak data dari format dokumen online menggunakan fitur drag and drop sederhana",
+    "title": "Solusi Penguraian Dokumen",
+    "description": "Ekstrak data dari dokumen dan gambar pada platform apa pun menggunakan API fleksibel dan solusi berbasis aplikasi kami untuk pemrogram dan pengguna akhir.",
+    "api_high_title": "GroupDocs.Parser High Code Termasuk API",
+    "api_high_label": "Lihat Semua High Code API",
+    "api_high_1_content": "API .NET asli untuk mengekstrak teks, gambar, metadata dari Microsoft Office, PDF, gambar, dan berbagai format lainnya di aplikasi .NET.",
+    "api_high_2_content": "Berdayakan aplikasi Java dengan ekstraksi data dari berbagai dokumen & gambar pada sistem operasi apa pun yang menginstal JDK.",
+    "api_low_title": "GroupDocs.Parser Low Code Termasuk API",
+    "api_low_label": "Lihat Semua Low Code API",
+    "api_low_1_content": "Bekerja dengan API penguraian dokumen lengkap cURL untuk mengekstrak data dari semua format dokumen populer termasuk PDF, Word, Excel & gambar.",
+    "api_low_2_content": "Gunakan API lengkap Parser dengan mudah menggunakan SDK untuk mengekstrak data dari sejumlah format dokumen dalam aplikasi.",
+    "api_low_3_content": "Terapkan fitur penguraian dokumen tingkat lanjut di aplikasi java Anda dengan SDK penguraian dokumen yang dirancang khusus untuk Java.",
+    "api_nocode_title": "GroupDocs.Parser No Code Termasuk Aplikasi",
+    "api_nocodelabel": "Lihat Semua No Code Aplikasi",
+    "api_nocode_1_content": "Aplikasi online gratis untuk mengurai Word, Excel, PowerPoint, PDF & 30+ jenis dokumen lainnya.",
+    "api_nocode_2_content": "Parsing Word dokumen langsung dari browser web Anda untuk mengekstrak gambar, teks, atau metadata.",
+    "api_nocode_3_content": "Aplikasi parsing gratis yang berfungsi pada platform atau perangkat apa pun tanpa batasan apa pun.",
+    "title_1": "Parsing dokumen",
+    "words_for": "untuk",
+    "actions_alt": "Perizinan",
+    "actions_title": "Siap untuk memulai?",
+    "actions_description": "Coba fitur GroupDocs.Parser secara gratis atau minta lisensi",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "overview_title": "GroupDocs.Parser Ikhtisar",
+    "platforms_title": "Independensi platform",
+    "formats_title": "Format file yang didukung",
+    "formats_groups": {
+      "title_1": "Microsoft Office format",
+      "title_2": "Gambar & Format Lainnya",
+      "title_3": "Format lainnya",
+      "format_portable": "Portable",
+      "format_other_office": "Format kantor lainnya",
+      "format_images": "Gambar-gambar",
+      "format_web": "jaring",
+      "format_archives": "Arsip",
+      "format_ebooks": "Ebook"
+    },
+    "net": {
+      "title": "API asli .NET untuk Parsing Dokumen",
+      "title_2": "melalui .NET API",
+      "actions_main": "Gratis NuGet Unduh",
+      "code": {
+        "title": "Ekstrak teks dari file PDF di C#",
+        "instance": "Buat instance kelas Parser",
+        "extract": "Ekstrak teks ke pembaca",
+        "print_1": "Cetak teks dari dokumen",
+        "print_2": "Jika ekstraksi teks tidak didukung, pembacanya adalah null",
+        "not_supported": "Ekstraksi teks tidak didukung"
+      },
+      "overview_description": "API untuk melakukan penguraian dokumen di .NET aplikasi",
+      "overview_feature_1": {
+        "title": "Ekstrak data dari dokumen",
+        "description": ".NET API memungkinkan Anda mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat canggih ini membantu Anda mengakses dan memproses informasi berharga secara efisien yang terkandung dalam file ini untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
+      },
+      "overview_feature_2": {
+        "title": "Parsing dokumen",
+        "description": "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, kode batang, dan data dari formulir PDF. Parsing juga informasi yang diinginkan dari dokumen menggunakan templat khusus."
+      },
+      "overview_feature_3": {
+        "title": "Menyesuaikan hasil",
+        "description": ".NET API memungkinkan Anda mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Penurunan harga. Selain itu, API menawarkan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
+      },
+      "features": {
+        "title": "GroupDocs.Parser fitur",
+        "description": "Ekstrak data dari PDF, Dokumen Office, dan Gambar dengan cepat dan akurat.",
+        "feature_1": {
+          "title": "Ekstrak teks",
+          "content": "Ekstrak informasi tekstual dari berbagai format file seperti dokumen office, file, dan gambar agar mudah dibaca dan dianalisis."
+        },
+        "feature_2": {
+          "title": "Ekstrak gambar",
+          "content": "Ambil konten visual dari beragam sumber seperti dokumen kantor, file PDF untuk kemudahan akses dan penggunaan."
+        },
+        "feature_3": {
+          "title": "Pindai Kode QR",
+          "content": "Deteksi dan dekode kode QR yang ada dalam dokumen kantor, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
+        },
+        "feature_4": {
+          "title": "Ekstrak data dari lampiran dan arsip email",
+          "content": "Kumpulkan informasi berharga dari pesan email, lampiran file, dan sumber data terkompresi untuk analisis dan pemanfaatan yang efektif."
+        },
+        "feature_5": {
+          "title": "Ekstrak tabel",
+          "content": "Identifikasi dan ekstrak data tabel dari PDF dokumen untuk analisis dan penggunaan yang terorganisir."
+        },
+        "feature_6": {
+          "title": "Ekstrak hyperlink",
+          "content": "Temukan dan ekstrak hyperlink dan alamat email dalam dokumen atau file Office untuk akses yang efisien."
+        },
+        "feature_7": {
+          "title": "Parsing PDF Formulir",
+          "content": "PDF Formulir adalah dokumen digital yang menampilkan kolom yang dapat diisi untuk interaksi pengguna, sehingga memungkinkan mereka memasukkan informasi secara elektronik. .NET API dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
+        },
+        "feature_8": {
+          "title": "Parsing data berdasarkan templat",
+          "content": "Buat template khusus dan gunakan dengan .NET API untuk mengurai informasi spesifik dari file PDF, sehingga menyederhanakan proses ekstraksi data."
+        },
+        "feature_9": {
+          "title": "Cari teks dalam dokumen",
+          "content": "Temukan kata atau pola tertentu dalam dokumen dengan cepat."
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for .NET mendukung sistem operasi, kerangka kerja, dan pengelola paket berikut",
+      "formats_description": "GroupDocs.Parser for .NET mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/parser/net/supported-document-formats/).",
+      "code-samples": {
+        "title": "Contoh kode",
+        "description": "Beberapa kasus penggunaan operasi umum",
+        "sample1": {
+          "header": "Ekstrak gambar dari PDF dokumen",
+          "description": ".NET API memudahkan pengembang C# mengekstrak gambar dari dokumen dengan menerapkan beberapa langkah mudah.",
+          "title": "Ekstrak gambar dari PDF dokumen di C#",
+          "code": {
+            "header": "Ekstrak gambar dari PDF dokumen menggunakan GroupDocs.Parser API",
+            "instance": "Buat instance kelas Parser",
+            "extract": "Ekstrak gambar",
+            "check_null": "Periksa apakah ekstraksi gambar didukung",
+            "not_supported": "Ekstraksi gambar tidak didukung",
+            "iterate": "Ulangi gambar",
+            "print": "Cetak indeks halaman, persegi panjang dan jenis gambar:"
+          }
+        },
+        "sample2": {
+          "header": "Ekstrak kode batang dari gambar",
+          "description": ".NET API memudahkan pengembang C# mengekstrak kode batang dari dokumen dengan menerapkan beberapa langkah mudah.",
+          "title": "Ekstrak kode batang dari gambar",
+          "code": {
+            "header": "Ekstrak kode batang dari dokumen menggunakan GroupDocs.Parser API",
+            "instance": "Buat instance kelas Parser",
+            "check": "Periksa apakah file tersebut mendukung ekstraksi kode batang",
+            "not_supported": "File tidak mendukung ekstraksi kode batang.",
+            "extract": "Ekstrak kode batang dari file.",
+            "iterate": "Ulangi kode batang",
+            "print_page_index": "Cetak indeks halaman",
+            "print_value": "Cetak nilai kode batang"
+          }
+        }
+      }
+    },
+    "java": {
+      "title": "Java API untuk Mengurai Dokumen",
+      "title_2": "melalui Java API",
+      "actions_main": "Unduhan Maven Gratis",
+      "code": {
+        "title": "Ekstrak teks dari file PDF di Java",
+        "instance": "Buat instance kelas Parser",
+        "extract": "Ekstrak teks ke pembaca",
+        "print_1": "Cetak teks dari dokumen",
+        "print_2": "Jika ekstraksi teks tidak didukung, pembacanya adalah null",
+        "not_supported": "Ekstraksi teks tidak didukung"
+      },
+      "overview_description": "API untuk melakukan penguraian dokumen di Java aplikasi",
+      "overview_feature_1": {
+        "title": "Ekstrak data dari dokumen",
+        "description": "Java API memungkinkan Anda mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat canggih ini membantu Anda mengakses dan memproses informasi berharga secara efisien yang terkandung dalam file ini untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
+      },
+      "overview_feature_2": {
+        "title": "Parsing dokumen",
+        "description": "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, kode batang, dan data dari formulir PDF. Parsing juga informasi yang diinginkan dari dokumen menggunakan templat khusus."
+      },
+      "overview_feature_3": {
+        "title": "Menyesuaikan hasil",
+        "description": "Java API memungkinkan Anda mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Penurunan harga. Selain itu, API menawarkan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
+      },
+      "features": {
+        "title": "GroupDocs.Parser fitur",
+        "description": "Ekstrak data dari PDF, Dokumen Office, dan Gambar dengan cepat dan akurat.",
+        "feature_1": {
+          "title": "Ekstrak teks",
+          "content": "Ekstrak informasi tekstual dari berbagai format file seperti dokumen office, file, dan gambar agar mudah dibaca dan dianalisis."
+        },
+        "feature_2": {
+          "title": "Ekstrak gambar",
+          "content": "Ambil konten visual dari beragam sumber seperti dokumen kantor, file PDF untuk kemudahan akses dan penggunaan."
+        },
+        "feature_3": {
+          "title": "Pindai Kode QR",
+          "content": "Deteksi dan dekode kode QR yang ada dalam dokumen kantor, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
+        },
+        "feature_4": {
+          "title": "Ekstrak data dari lampiran dan arsip email",
+          "content": "Kumpulkan informasi berharga dari pesan email, lampiran file, dan sumber data terkompresi untuk analisis dan pemanfaatan yang efektif."
+        },
+        "feature_5": {
+          "title": "Ekstrak tabel",
+          "content": "Identifikasi dan ekstrak data tabel dari PDF dokumen untuk analisis dan penggunaan yang terorganisir."
+        },
+        "feature_6": {
+          "title": "Ekstrak hyperlink",
+          "content": "Temukan dan ekstrak hyperlink dan alamat email dalam dokumen atau file Office untuk akses yang efisien."
+        },
+        "feature_7": {
+          "title": "Parsing PDF Formulir",
+          "content": "PDF Formulir adalah dokumen digital yang menampilkan kolom yang dapat diisi untuk interaksi pengguna, sehingga memungkinkan mereka memasukkan informasi secara elektronik. Java API dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
+        },
+        "feature_8": {
+          "title": "Parsing data berdasarkan templat",
+          "content": "Buat template khusus dan gunakan dengan Java API untuk mengurai informasi spesifik dari file PDF, sehingga menyederhanakan proses ekstraksi data."
+        },
+        "feature_9": {
+          "title": "Cari teks dalam dokumen",
+          "content": "Temukan kata atau pola tertentu dalam dokumen dengan cepat."
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for Java mendukung sistem operasi, kerangka kerja, dan pengelola paket berikut",
+      "formats_description": "GroupDocs.Parser for Java mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/parser/java/supported-document-formats/).",
+      "code-samples": {
+        "title": "Contoh kode",
+        "description": "Beberapa kasus penggunaan operasi umum",
+        "sample1": {
+          "header": "Ekstrak gambar dari PDF dokumen",
+          "description": "Java API memudahkan Java pengembang mengekstrak gambar dari dokumen dengan menerapkan beberapa langkah mudah.",
+          "title": "Ekstrak gambar dari PDF dokumen di Java",
+          "code": {
+            "header": "Ekstrak gambar dari PDF dokumen menggunakan GroupDocs.Parser API",
+            "instance": "Buat instance kelas Parser",
+            "extract": "Ekstrak gambar",
+            "check_null": "Periksa apakah ekstraksi gambar didukung",
+            "not_supported": "Ekstraksi gambar tidak didukung",
+            "iterate": "Ulangi gambar",
+            "print": "Cetak indeks halaman, persegi panjang dan jenis gambar:"
+          }
+        },
+        "sample2": {
+          "header": "Ekstrak kode batang dari gambar",
+          "description": "Java API memudahkan Java pengembang mengekstrak kode batang dari dokumen dengan menerapkan beberapa langkah mudah.",
+          "title": "Ekstrak kode batang dari gambar",
+          "code": {
+            "header": "Ekstrak kode batang dari dokumen menggunakan GroupDocs.Parser API",
+            "instance": "Buat instance kelas Parser",
+            "check": "Periksa apakah file tersebut mendukung ekstraksi kode batang",
+            "not_supported": "File tidak mendukung ekstraksi kode batang.",
+            "extract": "Ekstrak kode batang dari file.",
+            "iterate": "Ulangi kode batang",
+            "print_page_index": "Cetak indeks halaman",
+            "print_value": "Cetak nilai kode batang"
+          }
+        }
+      }
+    }
+  }
+}

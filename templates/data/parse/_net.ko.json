@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "{{ProgLang}}의 문서에서 데이터 구문 분석",
+    "description": "{{ProgLang}}의 문서에서 데이터를 빠르게 구문 분석합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}의 문서에서 데이터 구문 분석",
+    "description": "몇 줄의 {{ProductName}} 코드로 문서에서 데이터를 구문 분석합니다.",
+    "button_label": "무료 평가판 다운로드"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API 참조",
+      "button_text_2": "코드 예제",
+      "button_text_3": "라이브 데모",
+      "button_text_4": "가격"
+    }
+  },
+  "about": {
+    "title": "{{ProductFullName}}의 템플릿으로 데이터 구문 분석",
+    "p1": "템플릿은 문서에서 데이터 추출의 효율성, 정확성 및 일관성을 크게 향상시킬 수 있습니다. {{ProductFullName}}는 템플릿 작업을 위한 강력한 솔루션을 제공합니다.",
+    "p2": "{{ProductFullName}}를 사용하면 PDF 및 Microsoft Word 문서를 포함하여 다양한 유형의 문서에 대한 템플릿을 쉽게 만들 수 있습니다. 여러 문서의 일괄 구문 분석을 위해 템플릿을 사용할 수도 있습니다.",
+    "p3": "{{ProductFullName}}의 템플릿 작업에 대한 모범 사례에는 배포 전에 고유 식별자를 사용하고 템플릿을 철저히 테스트하는 것이 포함됩니다. {{ProductFullName}}를 사용하면 데이터 추출을 최적화하고 더 나은 결과를 얻을 수 있습니다.",
+    "p4": "문서 파싱 작업을 단순화하고 생산성을 향상시키려면 지금 {{ProductFullName}}를 다운로드하고 사용해 보십시오. 시작하고 성공을 달성하는 데 도움이 되는 문서 및 지원 리소스를 사용할 수 있습니다.",
+    "p5": "[문서](https://docs.groupdocs.com/parser/{{ProductCode}}/working-with-templates/)에서 문서 파싱에 대해 자세히 알아보세요."
+  },
+  "more": {
+    "title_left": "시스템 요구 사항",
+    "content_left": {
+      "description": "{{ProductFullName}} API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 필수 구성 요소가 설치되어 있는지 확인하십시오.",
+      "step_1": "운영 체제: Microsoft Windows, Linux, MacOS",
+      "step_2": "개발 환경: {{DevEnv}}",
+      "step_3": "프레임워크",
+      "step_4": "[{{RepoName}}]({{RepoUrl}})에서 {{ProductFullName}}의 최신 버전을 다운로드하세요."
+    },
+    "title_right": "{{ProductFullName}}를 사용하는 이유",
+    "content_right": {
+      "p1": "지원되는 모든 문서에서 일반 텍스트 추출 지원",
+      "p2": "사용자 정의 템플릿을 통한 문서 분석",
+      "p3": "구조화된 텍스트 추출을 완벽하게 지원",
+      "p4": "키워드 및 정규 표현식을 통한 텍스트 검색",
+      "p5": "형식이 지정된 텍스트, 메타데이터, 이미지, 컨테이너 및 첨부 파일 추출",
+      "p6": "지원되는 일부 문서 형식의 목차 추출",
+      "p7": "PDF 문서에서 양식 데이터 구문 분석",
+      "p8": "문서에서 하이퍼링크 추출"
+    }
+  },
+  "demos": {
+    "title": "라이브 데모 - 온라인 문서에서 데이터 구문 분석",
+    "h1": "지금 바로 [GroupDocs.Parser 라이브 데모](https://products.groupdocs.app/parser/) 웹사이트를 방문하여 문서의 데이터를 구문 분석하세요.",
+    "h2": "라이브 데모에는 다음과 같은 이점이 있습니다."
+  },
+  "more_formats": {
+    "title": "다른 문서 형식의 데이터 구문 분석",
+    "content": "{{ProductName}} 문서는 파일 형식 및 이미지에 대한 API를 구문 분석합니다. 아래에 설명된 대로 널리 사용되는 일부 파일 형식에 대한 데이터를 추출합니다."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "head": {
+    "title": "{{ProgLang}} の {{EXT}} からテキストを抽出",
+    "description": "{{ProgLang}} のドキュメント ファイルからテキストをすばやく抽出します。"
+  },
+  "header": {
+    "title": "{{ProgLang}} の {{EXT}} からテキストを抽出します",
+    "description": "数行の {{ProductName}} コードを使用して、{{EXT}} からテキストを抽出します。",
+    "button_label": "無料トライアルをダウンロード"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "APIリファレンス",
+      "button_text_2": "コード例",
+      "button_text_3": "ライブデモ",
+      "button_text_4": "価格設定"
+    }
+  },
+  "about": {
+    "title": "{{EXT}} ファイル {{ProductName}} API からテキストを抽出するにはどうすればよいですか?",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) は、テキスト、画像、メタデータ抽出 API であり、50 を超える一般的なドキュメント タイプをサポートし、生​​の構造化および書式設定されたテキストを解析する機能を備えたビジネス アプリケーションの構築を支援します。また、事前定義されたテンプレートを使用したドキュメントの解析もサポートしており、請求書やその他の一般的なドキュメントから複雑なデータを迅速かつ正確に抽出できます。 GroupDocs.Parser for Java を使用すると、Word 処理ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、OneNote、PDF ファイル、ZIP アーカイブを含む、すべての一般的な形式のパスワードで保護されたファイルからテキストとメタデータを抽出できます。",
+    "h2": "GroupDocs.Parser API は、ファイル テキスト抽出機能を必要とする企業ソリューションに最適です。これらの API は、{{Runtime}} を含むすべての主要なオペレーティング システムおよびプラットフォームで十分にサポートされています。"
+  },
+  "steps": {
+    "title_left": "{{ProductName}} の {{EXT}} からテキストを抽出します",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) を使用すると、{{ProgLang}} 開発者は、いくつかの簡単な手順を実装することで、{{EXT}} ファイルからテキストを簡単に抽出できます。",
+      "step_1": "最初のドキュメントの [Parser](https://reference.groupdocs.com/java/parser/com.groupdocs.parser/Parser) オブジェクトをインスタンス化します。",
+      "step_2": "[getText](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getText--) メソッドを呼び出し、を取得します。[TextReader](https://reference.groupdocs.com/java/parser/com.groupdocs.parser.data/TextReader) オブジェクト;",
+      "step_3": "リーダーが *null* ではないかどうかを確認します (ドキュメントのテキスト抽出がサポートされています)。",
+      "step_4": "リーダーからのテキストを読みます。"
+    },
+    "title_right": "テキスト抽出の詳細については、こちらをご覧ください。",
+    "content_right": {
+      "step_1": "Accurate モードでテキストを抽出する方法",
+      "step_2": "Raw モードでテキストを抽出する方法"
+    },
+    "title_code": "{{ProgLang}} サンプルコードを使用して {{EXT}} ファイルからテキストを抽出する方法",
+    "code": {
+      "header": "GroupDocs.Parser API を使用して {{EXT}} ファイルからテキストを抽出します",
+      "instance": "Parserクラスのインスタンスを作成する",
+      "extract": "テキストをリーダーに抽出する",
+      "print_1": "ドキュメントからテキストを印刷する",
+      "print_2": "テキスト抽出がサポートされていない場合、リーダーは null になります",
+      "not_supported": "テキスト抽出はサポートされていません"
+    }
+  },
+  "more": {
+    "title_left": "システム要求",
+    "content_left": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "{{ProductFullName}} の最新バージョンを [{{RepoName}}]({{RepoUrl}}) からダウンロードします"
+    },
+    "title_right": "{{ProductFullName}} を使用する理由",
+    "content_right": {
+      "p1": "サポートされているドキュメントからのプレーン テキスト抽出のサポート",
+      "p2": "ユーザー定義のテンプレートを使用したドキュメントの解析",
+      "p3": "構造化テキスト抽出を完全にサポート",
+      "p4": "キーワードおよび正規表現によるテキスト検索",
+      "p5": "書式設定されたテキスト、メタデータ、画像、コンテナ、添付ファイルを抽出します",
+      "p6": "サポートされている一部のドキュメント形式の目次を抽出します",
+      "p7": "PDF ドキュメントからのフォーム データを解析する",
+      "p8": "ドキュメントからハイパーリンクを抽出する"
+    }
+  },
+  "demos": {
+    "title": "ライブデモ - {{EXT}} オンラインからテキストを抽出",
+    "h1": "[GroupDocs.Parser ライブ デモ](https://products.groupdocs.app/parser/text/{{ext}}) Web サイトにアクセスして、今すぐ {{EXT}} ファイルからテキストを抽出します。",
+    "h2": "ライブデモには次のようなメリットがあります。"
+  },
+  "more_formats": {
+    "title": "他のドキュメント形式からテキストを抽出する",
+    "content": "{{ProductName}} ファイル形式と画像のドキュメント解析とテキスト抽出 API。以下に示すように、いくつかの一般的なファイル形式のデータを抽出します。"
+  }
+}

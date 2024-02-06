@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "{{ProductName}} 経由で Excel、Word、PDF およびその他のドキュメントから画像を抽出するにはどうすればよいですか?",
+    "description": "{{ProductFullName}} API を使用すると、ソフトウェア開発者は、{{ProductName}} アプリ内の PDF、DOC、DOCX、PPT、PPTX、XLS、XLSX のドキュメントとメールから画像を解析して抽出できます。"
+  },
+  "header": {
+    "title": "{{ProductName}} Excel、Word、PowerPoint、PDF およびその他のドキュメントのページから画像を解析して抽出する API",
+    "description": "{{ProductFullName}} API を使用すると、プログラマーは PDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV、{358) から画像を抽出できます。 }、RTF & EPUB ドキュメント、または {{ProductName}} アプリケーション内のドキュメントのページ。",
+    "button_label": "無料トライアルをダウンロード"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "APIリファレンス",
+      "button_text_2": "コード例",
+      "button_text_3": "ライブデモ",
+      "button_text_4": "価格設定"
+    }
+  },
+  "about": {
+    "title": "{{ProductName}} API を介して {{EXT}} ドキュメントまたは特定のページから画像を抽出する方法を学ぶ",
+    "h1": "画像は一千の言葉に匹敵し、今日のビジュアル世界では魅力的なコンテンツを作成する際に無視することはできません。画像は、ユーザーの注意を引くだけでなく、情報伝達の優れたソースにもなります。多くの場合、文書、雑誌、プレゼンテーションから画像を取得して、別の場所で使用する必要があります。 {{ProductFullName}} は、ソフトウェア開発者やプログラマーが、さまざまな種類のドキュメントから画像やその他の情報を解析して抽出するためのソリューションを構築するのに役立つ強力な API です。また、PNG、JPEG、WebP、GIF、BMP およびその他の形式での画像の保存もサポートしています。 API には、PDF、Microsoft Office 形式などのいくつかの一般的なドキュメント形式のサポートが含まれています: Word (DOC、DOCX)、PowerPoint (PPT、PPTX)、{282 } (XLS、XLSX)、LibreOffice 形式、電子メール、電子ブックなど。また、ドキュメントの解析、プレーンテキストと構造化テキストの抽出、キーワードによるテキスト検索、メタデータや画像、コンテナや添付ファイルの抽出などに関連するいくつかの高度な機能のサポートも含まれています。"
+  },
+  "steps": {
+    "title_left": "{{ProductName}} の {{EXT}} から画像を抽出します",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) を使用すると、{{ProgLang}} 開発者は、いくつかの簡単な手順を実装することで、{{EXT}} ファイルから画像を簡単に抽出できます。",
+      "step_1": "最初のドキュメントの [Parser](https://reference.groupdocs.com/java/parser/com.groupdocs.parser/Parser) オブジェクトをインスタンス化します。",
+      "step_2": "[getImages](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getImages--) メソッドを呼び出して、画像オブジェクトのコレクションを取得します。",
+      "step_3": "リーダーが *null* ではないかどうかを確認します (ドキュメントの画像抽出がサポートされています)。",
+      "step_4": "コレクションを反復処理して、サイズ、画像タイプ、画像コンテンツを取得します。"
+    },
+    "title_right": "画像抽出について詳しくはこちら",
+    "content_right": {
+      "step_1": "文書から画像を抽出する方法",
+      "step_2": "ドキュメントページから画像を抽出する方法",
+      "step_3": "文書ページ領域から画像を抽出する方法",
+      "step_4": "画像をファイルに抽出する方法"
+    },
+    "title_code": "{{ProgLang}} サンプルコードを使用して {{EXT}} ファイルから画像を抽出する方法",
+    "code": {
+      "header": "GroupDocs.Parser API を使用して {{EXT}} ファイルから画像を抽出します",
+      "instance": "Parserクラスのインスタンスを作成する",
+      "extract": "画像の抽出",
+      "check_null": "画像抽出がサポートされているかどうかを確認する",
+      "not_supported": "画像の抽出はサポートされていません",
+      "iterate": "画像を反復処理する",
+      "print": "ページインデックス、四角形、および画像タイプを印刷します。"
+    }
+  },
+  "more": {
+    "title_left": "システム要求",
+    "content_left": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "{{ProductFullName}} の最新バージョンを [{{RepoName}}]({{RepoUrl}}) からダウンロードします"
+    },
+    "title_right": "{{ProductFullName}} を使用する理由",
+    "content_right": {
+      "p1": "サポートされているドキュメントからのプレーン テキスト抽出のサポート",
+      "p2": "ユーザー定義のテンプレートを使用したドキュメントの解析",
+      "p3": "構造化テキスト抽出を完全にサポート",
+      "p4": "キーワードおよび正規表現によるテキスト検索",
+      "p5": "書式設定されたテキスト、メタデータ、画像、コンテナ、添付ファイルを抽出します",
+      "p6": "サポートされている一部のドキュメント形式の目次を抽出します",
+      "p7": "PDF ドキュメントからのフォーム データを解析する",
+      "p8": "ドキュメントからハイパーリンクを抽出する"
+    }
+  },
+  "demos": {
+    "title": "ライブデモ - {{EXT}} オンラインから画像を抽出",
+    "h1": "[GroupDocs.Parser ライブ デモ](https://products.groupdocs.app/parser/images/{{ext}}) Web サイトにアクセスして、今すぐ {{EXT}} ファイルから画像を抽出してください。",
+    "h2": "ライブデモには次のようなメリットがあります。"
+  },
+  "more_formats": {
+    "title": "他のドキュメント形式から画像を抽出する",
+    "content": "{{ProductName}} ファイル形式と画像のドキュメント解析と画像抽出 API。以下に示すように、いくつかの一般的なファイル形式のデータを抽出します。"
+  }
+}

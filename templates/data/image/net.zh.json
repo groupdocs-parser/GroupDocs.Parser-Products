@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "通过 .NET 从 Excel、Word、PDF 和其他文档或页面中提取图像",
+    "description": "GroupDocs.Parser .NET API 使软件程序员能够从其 .NET 应用内的不同文档（例如 MS Excel、Word、PowerPoint、PDF 等）中提取图像。"
+  },
+  "header": {
+    "title": "通过 C#.NET API 从 PDF、DOCX、PPTX、MSG、XLSX 文档和页面中提取图像",
+    "description": "GroupDocs.Parser .NET API 允许程序员从 PDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV 中提取图像、ODT、RTF 和 EPUB 文档或文档页面。",
+    "button_label": "下载免费试用版"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API参考",
+      "button_text_2": "代码示例",
+      "button_text_3": "现场演示",
+      "button_text_4": "价钱"
+    }
+  },
+  "about": {
+    "title": "如何通过{{ProductName}}从{{EXT}}文件中提取图像？",
+    "h1": "图像可以用来以文字无法表达的方式传递信息。图像帮助我们吸引用户的注意力并轻松解释困难的概念。有时，在阅读文档、期刊或从演示文稿中受益时，我们经常会发现一些引人入胜的图像并想要下载它。 {{ProductFullName}} 是一个功能强大的 API，可帮助用户开发有用的应用程序，用于从不同类型的文档中提取图像并将其保存为 PNG、JPEG、WebP、GIF、BMP 和其他格式。该 API 支持从一些最常用的文件格式中提取文本和图像，例如 PDF、电子邮件、电子书、Microsoft Office 格式：Word (DOC、DOCX)、{ 284} (PPT、PPTX)、Excel (XLS、XLSX)、LibreOffice 格式等等。该 API 还完全支持文档解析、提取纯文本和结构化文本、按关键字进行文本搜索、提取元数据或图像、容器以及附件等等。"
+  },
+  "steps": {
+    "title_left": "从 {{ProductName}} 中的 {{EXT}} 中提取图像",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) 让 {{ProgLang}} 开发者只需执行几个简单的步骤即可轻松从 {{EXT}} 文件中提取图像。",
+      "step_1": "实例化初始文档的 [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) 对象；",
+      "step_2": "调用[GetImages](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/getimages)方法并获取图像对象集合；",
+      "step_3": "检查 reader 是否不为*null*（文档支持图像提取）；",
+      "step_4": "迭代集合并获取尺寸、图像类型和图像内容。"
+    },
+    "title_right": "了解有关图像提取的更多信息",
+    "content_right": {
+      "step_1": "如何从文档中提取图像",
+      "step_2": "如何从文档页面中提取图像",
+      "step_3": "如何从文档页面区域提取图像",
+      "step_4": "如何将图像提取到文件"
+    },
+    "title_code": "如何使用 {{ProgLang}} 示例代码从 {{EXT}} 文件中提取图像",
+    "code": {
+      "header": "使用 GroupDocs.Parser API 从 {{EXT}} 文件中提取图像",
+      "instance": "创建 Parser 类的实例",
+      "extract": "提取图像",
+      "check_null": "检查是否支持图像提取",
+      "not_supported": "不支持图像提取",
+      "iterate": "迭代图像",
+      "print": "打印页面索引、矩形和图像类型："
+    }
+  },
+  "more": {
+    "title_left": "系统要求",
+    "content_left": {
+      "description": "{{ProductFullName}} 所有主要平台和操作系统均支持 API。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "构架",
+      "step_4": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    },
+    "title_right": "为什么使用{{ProductFullName}}",
+    "content_right": {
+      "p1": "支持从任何支持的文档中提取纯文本",
+      "p2": "通过用户定义的模板解析文档",
+      "p3": "全面支持结构化文本提取",
+      "p4": "通过关键字和正则表达式进行文本搜索",
+      "p5": "提取格式化文本、元数据、图像、容器和附件",
+      "p6": "提取某些支持的文档格式的目录",
+      "p7": "从 PDF 文档解析表单数据",
+      "p8": "从文档中提取超链接"
+    }
+  },
+  "demos": {
+    "title": "现场演示 - 从 {{EXT}} 在线提取图像",
+    "h1": "立即访问 [GroupDocs.Parser 实时演示](https://products.groupdocs.app/parser/images/{{ext}}) 网站，从 {{EXT}} 文件中提取图像。",
+    "h2": "现场演示有以下好处。"
+  },
+  "more_formats": {
+    "title": "从其他文档格式中提取图像",
+    "content": "{{ProductName}} 用于文件格式和图像的文档解析和图像提取 API。提取一些流行文件格式的数据，如下所述。"
+  }
+}

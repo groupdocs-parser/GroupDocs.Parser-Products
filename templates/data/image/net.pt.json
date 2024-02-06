@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "Extraia imagens de Excel, Word, PDF e outro documento ou página via .NET",
+    "description": "GroupDocs.Parser .NET API permite que programadores de software extraiam imagens de diferentes documentos, como MS Excel, Word, PowerPoint, PDF e mais dentro de seus .NET aplicativos."
+  },
+  "header": {
+    "title": "Extraia imagens de documentos e páginas PDF, DOCX, PPTX, MSG, XLSX por meio da API C#.NET",
+    "description": "GroupDocs.Parser .NET API permite que os programadores extraiam imagens de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF e EPUB documentos ou páginas do documento.",
+    "button_label": "Baixe a avaliação gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referência de API",
+      "button_text_2": "Exemplos de código",
+      "button_text_3": "Demonstrações ao vivo",
+      "button_text_4": "Preços"
+    }
+  },
+  "about": {
+    "title": "Como extrair imagens de arquivos {{EXT}} via {{ProductName}}?",
+    "h1": "As imagens podem ser usadas para fornecer informações de uma forma que pode não ser expressa em palavras. As imagens nos ajudam a chamar a atenção do usuário e a explicar conceitos difíceis com facilidade. Às vezes, ao ler documentos, diários ou beneficiar de apresentações, muitas vezes encontrávamos algumas imagens fascinantes e queríamos baixá-las. {{ProductFullName}} é uma API poderosa que ajuda os usuários a desenvolver aplicativos úteis para extrair imagens de diferentes tipos de documentos e salvá-los em PNG, JPEG, WebP, GIF, BMP e outros formatos. A API incluiu suporte para extração de texto e imagens de alguns dos formatos de arquivo mais comumente usados, como PDF, e-mails, e-books, Microsoft Office formatos: Word (DOC, DOCX), { 284} (PPT, PPTX), Excel (XLS, XLSX), formatos do LibreOffice e muitos mais. A API também oferece suporte total à análise de documentos, extração de texto simples e estruturado, pesquisa de texto por palavras-chave, extração de metadados ou imagens, contêineres, bem como anexos e muito mais."
+  },
+  "steps": {
+    "title_left": "Extraia imagens de {{EXT}} em {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) facilita para desenvolvedores {{ProgLang}} extrair imagens de um arquivo {{EXT}} implementando algumas etapas fáceis.",
+      "step_1": "Instancie o objeto [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) para o documento inicial;",
+      "step_2": "Chame o método [GetImages](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/getimages) e obtenha uma coleção de objetos de imagem;",
+      "step_3": "Verifique se o leitor não é *nulo* (a extração de imagens é suportada para o documento);",
+      "step_4": "Itere pela coleção e obtenha tamanhos, tipos de imagens e conteúdos de imagens."
+    },
+    "title_right": "Saiba mais sobre a extração de imagens",
+    "content_right": {
+      "step_1": "Como extrair imagens de um documento",
+      "step_2": "Como extrair imagens da página do documento",
+      "step_3": "Como extrair imagens da área da página do documento",
+      "step_4": "Como extrair imagens para arquivos"
+    },
+    "title_code": "Como extrair imagens do arquivo {{EXT}} usando o código de exemplo {{ProgLang}}",
+    "code": {
+      "header": "Extraia imagens do arquivo {{EXT}} usando a API GroupDocs.Parser",
+      "instance": "Crie uma instância da classe Parser",
+      "extract": "Extrair imagens",
+      "check_null": "Verifique se a extração de imagens é suportada",
+      "not_supported": "A extração de imagens não é compatível",
+      "iterate": "Iterar sobre imagens",
+      "print": "Imprima um índice de página, retângulo e tipo de imagem:"
+    }
+  },
+  "more": {
+    "title_left": "Requisitos de sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs são suportadas em todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.",
+      "step_1": "Sistemas operacionais: Microsoft Windows, Linux, MacSO",
+      "step_2": "Ambientes de desenvolvimento: {{DevEnv}}",
+      "step_3": "Estruturas",
+      "step_4": "Baixe a versão mais recente de {{ProductFullName}} em [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Por que usar {{ProductFullName}}",
+    "content_right": {
+      "p1": "Suporte para extração de texto simples de qualquer documento suportado",
+      "p2": "Análise de documentos por meio de modelos definidos pelo usuário",
+      "p3": "Suporte total à extração de texto estruturado",
+      "p4": "Pesquisa de texto por palavra-chave e também por expressão regular",
+      "p5": "Extraia texto formatado, metadados, imagens, contêineres e anexos",
+      "p6": "Extraia o índice de alguns formatos de documento suportados",
+      "p7": "Analisar dados de formulário de PDF documentos",
+      "p8": "Extraia hiperlinks do documento"
+    }
+  },
+  "demos": {
+    "title": "Demonstrações ao vivo - Extraia imagens de {{EXT}} on-line",
+    "h1": "Extraia imagens do arquivo {{EXT}} agora mesmo visitando o site [GroupDocs.Parser Demonstrações ao vivo](https://products.groupdocs.app/parser/images/{{ext}}).",
+    "h2": "A demonstração ao vivo tem os seguintes benefícios."
+  },
+  "more_formats": {
+    "title": "Extraia imagens de outros formatos de documentos",
+    "content": "{{ProductName}} API de análise de documentos e extração de imagens para formatos de arquivo e imagens. Extraia dados para alguns dos formatos de arquivo populares conforme indicado abaixo."
+  }
+}

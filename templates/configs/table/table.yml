@@ -1,0 +1,5 @@
+inherits: ..\\products.yml
+
+dictionaries: [ "..\\..\\data\\table\\_{product}.{lang}.json", "..\\..\\data\\table\\_{product}.json", "..\\..\\data\\otherformats.json" ]
+
+outputPath: "{product}\\extract\\table.{lang}.md"

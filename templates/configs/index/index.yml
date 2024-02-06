@@ -1,7 +1,0 @@
-inherits: ..\\products.yml
-
-dimensions:  
-- alias:  operation
-  values: [parse] 
-
-outputPath: "parser\\_index.{lang}.md"

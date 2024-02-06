@@ -1,0 +1,78 @@
+{
+  "head": {
+    "title": "Ekstrak Teks dari {{EXT}} di {{ProgLang}}",
+    "description": "Ekstrak teks dengan cepat dari file dokumen di {{ProgLang}}."
+  },
+  "header": {
+    "title": "Ekstrak teks dari {{EXT}} Di {{ProgLang}}",
+    "description": "Ekstrak teks dari {{EXT}} dengan beberapa baris kode {{ProductName}}.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Bagaimana cara mengekstrak teks dari {{EXT}} file {{ProductName}} API?",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) adalah teks, metadata, dan API ekstraktor gambar untuk aplikasi bisnis yang dikembangkan menggunakan C#, ASP,.NET, dan teknologi .NET lainnya. Ini mendukung ekstraksi teks mentah, diformat & terstruktur serta metadata dari file format yang didukung. Melalui GroupDocs.Parser for .NET, aplikasi Anda juga dapat melakukan penguraian dokumen yang dilindungi sandi untuk format populer, seperti Word pemrosesan dokumen, Excel spreadsheet, PowerPoint presentasi, OneNote, PDF file, dan ZIP arsip .",
+    "h2": "GroupDocs.Parser API adalah pilihan yang tepat untuk solusi korporat yang membutuhkan fitur ekstraksi teks file. API ini didukung dengan baik di semua sistem operasi dan platform utama termasuk {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Ekstrak teks dari {{EXT}} di {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) memudahkan pengembang {{ProgLang}} untuk mengekstrak teks dari file {{EXT}} dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Membuat instance objek [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) untuk dokumen awal;",
+      "step_2": "Panggil metode [GetText](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/gettext) dan dapatkan [TextReader](https://docs.microsoft.com/en-us/dotnet/api/system.io.textreader?view=netframework-2.0) objek;",
+      "step_3": "Periksa apakah pembaca tidak *null* (ekstraksi teks didukung untuk dokumen);",
+      "step_4": "Membaca teks dari pembaca."
+    },
+    "title_right": "Pelajari lebih lanjut tentang ekstraksi teks",
+    "content_right": {
+      "step_1": "Cara mengekstrak teks dalam mode Akurat",
+      "step_2": "Cara mengekstrak teks dalam mode Raw"
+    },
+    "title_code": "Cara mengekstrak teks dari file {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "header": "Ekstrak teks dari file {{EXT}} menggunakan GroupDocs.Parser API",
+      "instance": "Buat instance kelas Parser",
+      "extract": "Ekstrak teks ke pembaca",
+      "print_1": "Cetak teks dari dokumen",
+      "print_2": "Jika ekstraksi teks tidak didukung, pembaca adalah null",
+      "not_supported": "Ekstraksi teks tidak didukung"
+    }
+  },
+  "more": {
+    "title_left": "Persyaratan sistem",
+    "content_left": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Mengapa Menggunakan {{ProductFullName}}",
+    "content_right": {
+      "p1": "Dukungan ekstraksi teks biasa dari dokumen yang didukung",
+      "p2": "Penguraian dokumen melalui templat yang ditentukan pengguna",
+      "p3": "Sepenuhnya mendukung ekstraksi teks terstruktur",
+      "p4": "Pencarian teks melalui kata kunci serta ekspresi reguler",
+      "p5": "Ekstrak teks yang diformat, metadata, gambar, wadah, dan lampiran",
+      "p6": "Ekstrak daftar isi untuk beberapa format dokumen yang didukung",
+      "p7": "Mengurai data formulir dari PDF dokumen",
+      "p8": "Ekstrak hyperlink dari dokumen"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung - Ekstrak teks dari {{EXT}} Online",
+    "h1": "Ekstrak teks dari file {{EXT}} sekarang juga dengan mengunjungi situs web [GroupDocs.Parser Demo Langsung](https://products.groupdocs.app/parser/text/{{ext}}).",
+    "h2": "Demo langsung memiliki manfaat berikut."
+  },
+  "more_formats": {
+    "title": "Ekstrak Teks Dari Format Dokumen Lain",
+    "content": "{{ProductName}} mengurai dokumen & API ekstraksi teks untuk format file dan gambar. Ekstrak data untuk beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

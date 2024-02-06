@@ -1,0 +1,79 @@
+{
+  "head": {
+    "title": "Extrayez les tables de PDF, DOCX, PPTX, XLSX, EPUB et plus via l'API Java",
+    "description": "GroupDocs.Parser Java L'API permet aux programmeurs d'extraire des tables de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF et de nombreux autres types de documents dans les applications Java."
+  },
+  "header": {
+    "title": "Extraire les tables des documents Excel, Word, PDF et PowerPoint via l'API Java",
+    "description": "GroupDocs.Parser Java L'API permet aux programmeurs d'extraire des tables de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF & EPUB documents ou pages.",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "Comment extraire des tables de fichiers {{EXT}} via l'API {{ProductName}} ?",
+    "h1": "Le tableau est la collection de cellules disposées en lignes et en colonnes. Les tableaux jouent un rôle très important dans le stockage et l'organisation de données détaillées ou compliquées permettant aux utilisateurs de les lire et de les visualiser facilement. Les tableaux peuvent être utilisés de plusieurs manières, telles que la création de listes, la comparaison d'informations, l'alignement de données, le regroupement d'informations, la mise en évidence de tendances ou de modèles dans les données, etc. {{ProductFullName}} est une API useufly qui permet aux programmeurs de logiciels de développer une solution pour extraire des tableaux, du texte et des images à partir de divers types de formats de documents pris en charge, tels que PDF, e-mails, livres électroniques, Word (DOC, { 318}), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), e-mails (EML, MSG) et bien d'autres. L'API {{ProductName}} a inclus plusieurs fonctionnalités importantes pour travailler avec des tableaux, telles que l'extraction de tous les tableaux d'un document, l'extraction d'un tableau d'une page particulière, l'obtention de données de cellule de tableau, l'obtention du nombre total de lignes et de colonnes d'un tableau, la hauteur de ligne, imprimer les données d'une table et peut-être plus."
+  },
+  "steps": {
+    "title_left": "Extraire les tables de {{EXT}} dans {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) permet aux développeurs {{ProgLang}} d'extraire facilement des tables d'un fichier {{EXT}} en mettant en œuvre quelques étapes simples.",
+      "step_1": "Instanciez l'objet [Parser](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/) pour le document initial ;",
+      "step_2": "Vérifiez si le document prend en charge l'extraction de table ;",
+      "step_3": "Instanciez [PageTableAreaOptions](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.options/pagetableareaoptions/) et [TemplateTableLayout](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.templates/templatetablelayout/) pour définir la disposition des tableaux",
+      "step_4": "Appelez la méthode [getTables](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) et obtenez la collection de [PageTableArea](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagetablearea/) objets ;",
+      "step_5": "Parcourez la collection et imprimez les cellules du tableau."
+    },
+    "title_right": "En savoir plus sur l'extraction des tables",
+    "content_right": {
+      "step_1": "Comment extraire des tableaux d'un document",
+      "step_2": "Comment extraire des tableaux d'une page de document"
+    },
+    "title_code": "Comment extraire des tables du fichier {{EXT}} à l'aide de l'exemple de code {{ProgLang}}",
+    "code": {
+      "header": "Extraire les tables du fichier {{EXT}} à l'aide de l'API GroupDocs.Parser",
+      "instance": "Créer une instance de la classe Parser",
+      "check": "Vérifiez si le document prend en charge l'extraction de table",
+      "not_supported": "Le document ne prend pas en charge l'extraction de tableaux.",
+      "layout": "Créer la disposition des tableaux",
+      "options": "Créer les options d'extraction de table",
+      "extract": "Extraire les tableaux du document.",
+      "iterate": "Itérer sur les tables",
+      "iterate_rows": "Itérer sur les lignes",
+      "iterate_columns": "Itérer sur les colonnes",
+      "cell": "Obtenir la cellule du tableau",
+      "print_cell": "Imprimer le texte de la cellule du tableau"
+    }
+  },
+  "more": {
+    "title_left": "Configuration requise",
+    "content_left": {
+      "description": "{{ProductFullName}} Les API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Pourquoi utiliser {{ProductFullName}}",
+    "content_right": {
+      "p1": "Prise en charge de l'extraction de texte brut à partir de tous les documents pris en charge",
+      "p2": "Analyse de documents via des modèles définis par l'utilisateur",
+      "p3": "Prise en charge complète de l'extraction de texte structuré",
+      "p4": "Recherche de texte par mot-clé ainsi que par expression régulière",
+      "p5": "Extraire du texte formaté, des métadonnées, des images, des conteneurs et des pièces jointes",
+      "p6": "Extraire la table des matières pour certains formats de document pris en charge",
+      "p7": "Analyser les données de formulaire de PDF documents",
+      "p8": "Extraire les hyperliens du document"
+    }
+  },
+  "more_formats": {
+    "title": "Extraire des tableaux d'autres formats de document",
+    "content": "API d'analyse de documents et d'extraction de tables {{ProductName}} pour les formats de fichiers et les images. Extrayez les données pour certains des formats de fichiers populaires comme indiqué ci-dessous."
+  }
+}

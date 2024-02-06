@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "从 {{ProgLang}} 中的文档解析数据",
+    "description": "快速解析 {{ProgLang}} 中文档的数据。"
+  },
+  "header": {
+    "title": "从 {{ProgLang}} 中的文档中解析数据",
+    "description": "使用几行 {{ProductName}} 代码解析文档中的数据。",
+    "button_label": "下载免费试用版"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API参考",
+      "button_text_2": "代码示例",
+      "button_text_3": "现场演示",
+      "button_text_4": "价钱"
+    }
+  },
+  "about": {
+    "title": "使用 {{ProductFullName}} 中的模板解析数据",
+    "p1": "模板可以极大地提高从文档中提取数据的效率、准确性和一致性。 {{ProductFullName}} 提供了使用模板的强大解决方案。",
+    "p2": "使用 {{ProductFullName}}，您可以轻松地为不同类型的文档创建模板，包括 PDF 和 Microsoft Word 文档。您还可以使用模板对多个文档进行批量解析。",
+    "p3": "在 {{ProductFullName}} 中使用模板的最佳做法包括使用唯一标识符并在部署之前彻底测试模板。使用 {{ProductFullName}}，您可以优化数据提取并获得更好的结果。",
+    "p4": "立即下载并尝试 {{ProductFullName}}，以简化您的文档解析任务并提高您的工作效率。我们的文档和支持资源可帮助您入门并取得成功。",
+    "p5": "要详细了解文档解析，请参阅[文档](https://docs.groupdocs.com/parser/{{ProductCode}}/working-with-templates/)。"
+  },
+  "more": {
+    "title_left": "系统要求",
+    "content_left": {
+      "description": "{{ProductFullName}} 所有主要平台和操作系统均支持 API。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "构架",
+      "step_4": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    },
+    "title_right": "为什么使用{{ProductFullName}}",
+    "content_right": {
+      "p1": "支持从任何支持的文档中提取纯文本",
+      "p2": "通过用户定义的模板解析文档",
+      "p3": "全面支持结构化文本提取",
+      "p4": "通过关键字和正则表达式进行文本搜索",
+      "p5": "提取格式化文本、元数据、图像、容器和附件",
+      "p6": "提取某些支持的文档格式的目录",
+      "p7": "从 PDF 文档解析表单数据",
+      "p8": "从文档中提取超链接"
+    }
+  },
+  "demos": {
+    "title": "现场演示 - 在线解析文档中的数据",
+    "h1": "立即访问 [GroupDocs.Parser 现场演示](https://products.groupdocs.app/parser/) 网站解析文档中的数据。",
+    "h2": "现场演示有以下好处。"
+  },
+  "more_formats": {
+    "title": "解析其他文档格式的数据",
+    "content": "{{ProductName}} 文档解析文件格式和图像的 API。提取一些流行文件格式的数据，如下所述。"
+  }
+}

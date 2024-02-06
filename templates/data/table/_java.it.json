@@ -1,0 +1,79 @@
+{
+  "head": {
+    "title": "Estrai tabelle da PDF, DOCX, PPTX, XLSX, EPUB e altro tramite API Java",
+    "description": "L'API GroupDocs.Parser Java consente ai programmatori di estrarre tabelle da PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF e molti altri tipi di documenti all'interno delle app Java."
+  },
+  "header": {
+    "title": "Estrai tabelle da documenti Excel, Word, PDF e PowerPoint tramite API Java",
+    "description": "L'API GroupDocs.Parser Java consente ai programmatori di estrarre tabelle da PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF e EPUB documenti o pagine.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codici",
+      "button_text_3": "Demo dal vivo",
+      "button_text_4": "Prezzi"
+    }
+  },
+  "about": {
+    "title": "Come estrarre tabelle da Excel, Word, PDF e altri documenti tramite l'API {{ProductName}}?",
+    "h1": "La tabella è la raccolta di celle disposte in righe e colonne. Le tabelle svolgono un ruolo molto importante nell'archiviazione e nell'organizzazione di dati dettagliati o complicati consentendo agli utenti di leggerli e visualizzarli facilmente. Le tabelle possono essere utilizzate in molti modi, ad esempio creare elenchi, confrontare informazioni, allineare dati, raggruppare informazioni, evidenziare tendenze o modelli nei dati e molto altro ancora. {{ProductFullName}} è un'API utile che consente ai programmatori di software di sviluppare soluzioni per estrarre tabelle, testo e immagini da vari tipi di formati di documenti supportati, come PDF, email, ebook, Word (DOC, { 318}), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), formati email (EML, MSG) e molti altri. L'API {{ProductName}} ha incluso diverse funzionalità importanti per lavorare con le tabelle, come estrarre tutte le tabelle da un documento, estrarre la tabella da una pagina particolare, ottenere i dati delle celle della tabella, ottenere il numero totale di righe e colonne di una tabella, ottenere l'altezza della riga, stampare i dati di una tabella e altro ancora."
+  },
+  "steps": {
+    "title_left": "Estrai tabelle dai documenti in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) consente agli sviluppatori di {{ProgLang}} di estrarre facilmente le tabelle dai documenti implementando alcuni semplici passaggi.",
+      "step_1": "Istanziare l'oggetto [Parser](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/) per il documento iniziale;",
+      "step_2": "Controlla se il documento supporta l'estrazione della tabella;",
+      "step_3": "Creare un'istanza di [PageTableAreaOptions](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.options/pagetableareaoptions/) e [TemplateTableLayout](https://reference.groupdocs.com/parser/java/com .groupdocs.parser.templates/templatetablelayout/) per impostare il layout delle tabelle",
+      "step_4": "Chiama il metodo [getTables](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getTables-com.groupdocs.parser.options.PageTableAreaOptions-) e ottieni la raccolta di [PageTableArea]( https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagetablearea/) oggetti;",
+      "step_5": "Scorrere la raccolta e stampare le celle della tabella."
+    },
+    "title_right": "Ulteriori informazioni sull'estrazione delle tabelle",
+    "content_right": {
+      "step_1": "Come estrarre le tabelle dal documento",
+      "step_2": "Come estrarre tabelle dalla pagina del documento"
+    },
+    "title_code": "Come estrarre tabelle dai documenti utilizzando il codice di esempio {{ProgLang}}",
+    "code": {
+      "header": "Estrai tabelle dai documenti utilizzando l'API GroupDocs.Parser",
+      "instance": "Crea un'istanza della classe Parser",
+      "check": "Controlla se il documento supporta l'estrazione della tabella",
+      "not_supported": "Il documento non supporta l'estrazione delle tabelle.",
+      "layout": "Creare il layout delle tabelle",
+      "options": "Crea le opzioni per l'estrazione della tabella",
+      "extract": "Estrai tabelle dal documento.",
+      "iterate": "Iterare sulle tabelle",
+      "iterate_rows": "Iterare sulle righe",
+      "iterate_columns": "Iterare sulle colonne",
+      "cell": "Ottieni la cella della tabella",
+      "print_cell": "Stampa il testo della cella della tabella"
+    }
+  },
+  "more": {
+    "title_left": "Requisiti di sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} Le API sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: sistema operativo Microsoft Windows, Linux, Mac",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Perché utilizzare {{ProductFullName}}",
+    "content_right": {
+      "p1": "Supporto per l'estrazione di testo normale da qualsiasi documento supportato",
+      "p2": "Analisi dei documenti tramite modelli definiti dall'utente",
+      "p3": "Supporta completamente l'estrazione del testo strutturato",
+      "p4": "Ricerca di testo tramite parole chiave ed espressioni regolari",
+      "p5": "Estrai testo formattato, metadati, immagini, contenitori e allegati",
+      "p6": "Estrai il sommario per alcuni formati di documento supportati",
+      "p7": "Analizza i dati del modulo da documenti PDF",
+      "p8": "Estrai collegamenti ipertestuali dal documento"
+    }
+  },
+  "more_formats": {
+    "title": "Estrai tabelle da altri formati di documento",
+    "content": "{{ProductName}} API di analisi e estrazione di documenti per formati di file e immagini. Estrai i dati per alcuni dei formati di file più diffusi come indicato di seguito."
+  }
+}

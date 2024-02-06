@@ -1,1 +1,1 @@
-HugoMarkupGenerator\Bin\net6.0\MarkupGenerator.Shell.exe -s ..\src -o ..\..\content
+HugoMarkupGenerator\Bin\net6.0\MarkupGenerator.Shell.exe -s ..\src\_index -o ..\..\content\

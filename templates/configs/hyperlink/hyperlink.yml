@@ -1,0 +1,5 @@
+inherits: ..\\products.yml
+
+dictionaries: [ "..\\..\\data\\hyperlink\\_{product}.{lang}.json", "..\\..\\data\\hyperlink\\_{product}.json", "..\\..\\data\\otherformats.json" ]
+
+outputPath: "{product}\\extract\\hyperlink.{lang}.md"

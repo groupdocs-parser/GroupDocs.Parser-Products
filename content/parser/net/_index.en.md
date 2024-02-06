@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-12-28T16:34:08
+date: 2024-02-03T08:11:54
 draft: false
 #operation: 
 #parsertype: 
@@ -227,14 +227,14 @@ code_samples:
         {{< landing/code title="Extract barcodes from images">}}
         ```csharp {style=abap}   
         // Create an instance of Parser class
-        using (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+        using (Parser parser = new Parser(filePath)) {
             // Check if the file supports barcode extracting
             if (!parser.Features.Barcodes) {
                 Console.WriteLine("The file doesn't support barcode extracting.");
                 return;
             }
 
-            // {index-content.net.code-samples.sample2.code.scan}
+            // Extract barcodes from the file.
             IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
 
             // Iterate over barcodes

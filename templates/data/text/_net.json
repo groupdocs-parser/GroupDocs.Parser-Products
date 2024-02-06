@@ -1,0 +1,78 @@
+{
+  "head": {
+    "title": "Extract Text from documents in {{ProgLang}}",
+    "description": "Quickly extract text from a documents file in {{ProgLang}}."
+  },
+  "header": {
+    "title": "Extract text from documents In {{ProgLang}}",
+    "description": "Extract text from documents with a few lines of {{ProductName}} code.",
+    "button_label": "Download Free Trial"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API Reference",
+      "button_text_2": "Code Examples",
+      "button_text_3": "Live Demos",
+      "button_text_4": "Pricing"
+    }
+  },
+  "about": {
+    "title": "How to extract a text from files {{ProductName}} API?",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) is a text, metadata and image extractor API for business applications developed using C#, ASP.NET, and other .NET technologies. It supports extraction of raw, formatted & structured text as well as metadata from the files of supported formats. Through GroupDocs.Parser for .NET, your applications can also perform parsing of password protected documents for popular formats, such as Word processing documents, Excel spreadsheets, PowerPoint presentations, OneNote, PDF files and ZIP archives.",
+    "h2": "GroupDocs.Parser API is a right choice for corporate solutions which needs file text extraction feature. These APIs are well supported on all major operating systems and platforms including {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Extract text from documents in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) makes it easy for {{ProgLang}} developers to extract a text from documents by implementing a few easy steps.",
+      "step_1": "Instantiate [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) object for the initial document;",
+      "step_2": "Call [GetText](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/gettext) method and obtain [TextReader](https://docs.microsoft.com/en-us/dotnet/api/system.io.textreader?view=netframework-2.0) object;",
+      "step_3": "Check if reader isn’t *null* (text extraction is supported for the document);",
+      "step_4": "Read a text from reader."
+    },
+    "title_right": "Learn more about the text extraction",
+    "content_right": {
+      "step_1": "How to extract text in Accurate mode",
+      "step_2": "How to extract text in Raw mode"
+    },
+    "title_code": "How to extract text from documents using {{ProgLang}} example code",
+    "code": {
+      "header": "Extract text from documents using GroupDocs.Parser API",
+      "instance": "Create an instance of Parser class",
+      "extract": "Extract a text into the reader",
+      "print_1": "Print a text from the document",
+      "print_2": "If text extraction isn't supported, a reader is null",
+      "not_supported": "Text extraction isn't supported"
+    }
+  },
+  "more": {
+    "title_left": "System Requirements",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development Environments: {{DevEnv}}",
+      "step_3": "Frameworks",
+      "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },    
+    "title_right": "Why Use {{ProductFullName}}",
+    "content_right": {
+      "p1": "Plain text extraction support from any supported documents",  
+      "p2": "Documents parsing via user-defined templates",
+      "p3": "Fully support structured text extraction",
+      "p4": "Text searching via keyword as well as regular expression",  
+      "p5": "Extract formatted text, metadata, images, containers, and attachments",
+      "p6": "Extract table of contents for some supported document formats",
+      "p7": "Parse form data from PDF documents",  
+      "p8": "Extract hyperlinks from the document"
+    }
+  },
+  "demos": {
+    "title": "Live Demos - Extract text from documents Online",
+    "h1": "Extract text from documents right now by visiting [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/text/) website.",
+    "h2": "The live demo has the following benefits."
+  },
+  "more_formats": {
+    "title": "Extract Text From Other Document Formats",
+    "content": "{{ProductName}} documents parse & text extraction API for file formats and images. Extract data for some of the popular file formats as stated below."
+  }
+}

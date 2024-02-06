@@ -1,0 +1,5 @@
+inherits: ..\\products.yml
+
+dictionaries: ["..\\..\\data\\_index\\{lang}.json"]
+
+outputPath: "parser\\net\\_index.{lang}.md"

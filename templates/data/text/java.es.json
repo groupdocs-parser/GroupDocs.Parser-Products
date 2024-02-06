@@ -1,0 +1,78 @@
+{
+  "head": {
+    "title": "Extraer texto de {{EXT}} en {{ProgLang}}",
+    "description": "Extraiga rápidamente texto de un archivo de documentos en {{ProgLang}}."
+  },
+  "header": {
+    "title": "Extraer texto de {{EXT}} en {{ProgLang}}",
+    "description": "Extraiga texto de {{EXT}} con unas pocas líneas de código {{ProductName}}.",
+    "button_label": "Descargue prueba gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referencia de la API",
+      "button_text_2": "Ejemplos de código",
+      "button_text_3": "demostraciones en vivo",
+      "button_text_4": "Precios"
+    }
+  },
+  "about": {
+    "title": "¿Cómo extraer un texto de {{EXT}} archivos {{ProductName}} API?",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) es una API de extracción de texto, imágenes y metadatos que admite más de 50 tipos de documentos populares para ayudar a crear aplicaciones comerciales con funciones de análisis de texto sin procesar, estructurado y formateado. También admite el análisis de documentos utilizando plantillas predefinidas y permite extraer datos complejos de facturas y otros documentos típicos con rapidez y precisión. GroupDocs.Parser for Java le permite extraer texto y metadatos de archivos protegidos con contraseña de todos los formatos populares, incluidos Word documentos de procesamiento, Excel hojas de cálculo, PowerPoint presentaciones, OneNote, PDF archivos y ZIP archivos.",
+    "h2": "GroupDocs.Parser La API es una opción adecuada para soluciones corporativas que necesitan la función de extracción de texto de archivos. Estas API son compatibles con todos los principales sistemas operativos y plataformas, incluido {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Extraer texto de {{EXT}} en {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) facilita a los desarrolladores de {{ProgLang}} extraer un texto de un archivo {{EXT}} mediante la implementación de unos sencillos pasos.",
+      "step_1": "Crear una instancia del objeto [Parser](https://reference.groupdocs.com/java/parser/com.groupdocs.parser/Parser) para el documento inicial;",
+      "step_2": "Llame al método [getText](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getText--) y obtenga [TextReader](https://reference.groupdocs.com/java/parser/com.groupdocs.parser.data/TextReader) objeto;",
+      "step_3": "Compruebe si el lector no es *null* (la extracción de texto es compatible con el documento);",
+      "step_4": "Leer un texto del lector."
+    },
+    "title_right": "Más información sobre la extracción de texto",
+    "content_right": {
+      "step_1": "Cómo extraer texto en modo Preciso",
+      "step_2": "Cómo extraer texto en modo Raw"
+    },
+    "title_code": "Cómo extraer texto del archivo {{EXT}} usando el código de ejemplo {{ProgLang}}",
+    "code": {
+      "header": "Extrae texto del archivo {{EXT}} usando la API GroupDocs.Parser",
+      "instance": "Crear una instancia de la clase Parser",
+      "extract": "Extraer un texto en el lector",
+      "print_1": "Imprimir un texto del documento",
+      "print_2": "Si no se admite la extracción de texto, un lector es nulo",
+      "not_supported": "No se admite la extracción de texto."
+    }
+  },
+  "more": {
+    "title_left": "Requisitos del sistema",
+    "content_left": {
+      "description": "{{ProductFullName}} Las API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Marcos",
+      "step_4": "Descarga la última versión de {{ProductFullName}} desde [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Por qué usar {{ProductFullName}}",
+    "content_right": {
+      "p1": "Compatibilidad con la extracción de texto sin formato de cualquier documento compatible",
+      "p2": "Análisis de documentos a través de plantillas definidas por el usuario",
+      "p3": "Totalmente compatible con la extracción de texto estructurado",
+      "p4": "Búsqueda de texto por palabra clave y expresión regular",
+      "p5": "Extraiga texto formateado, metadatos, imágenes, contenedores y archivos adjuntos",
+      "p6": "Extraiga la tabla de contenido para algunos formatos de documentos compatibles",
+      "p7": "Analizar datos de formulario de PDF documentos",
+      "p8": "Extraer hipervínculos del documento"
+    }
+  },
+  "demos": {
+    "title": "Demostraciones en vivo: extraiga texto de {{EXT}} en línea",
+    "h1": "Extraiga el texto del archivo {{EXT}} ahora mismo visitando el sitio web [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/text/{{ext}}).",
+    "h2": "La demostración en vivo tiene los siguientes beneficios."
+  },
+  "more_formats": {
+    "title": "Extraer texto de otros formatos de documentos",
+    "content": "{{ProductName}} API de análisis y extracción de texto de documentos para formatos de archivo e imágenes. Extraiga datos para algunos de los formatos de archivo populares como se indica a continuación."
+  }
+}

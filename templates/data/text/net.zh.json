@@ -1,0 +1,78 @@
+{
+  "head": {
+    "title": "从 {{ProgLang}} 中的 {{EXT}} 中提取文本",
+    "description": "从 {{ProgLang}} 中的文档文件中快速提取文本。"
+  },
+  "header": {
+    "title": "从 {{ProgLang}} 中的 {{EXT}} 中提取文本",
+    "description": "使用几行 {{ProductName}} 代码从 {{EXT}} 中提取文本。",
+    "button_label": "下载免费试用版"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API参考",
+      "button_text_2": "代码示例",
+      "button_text_3": "现场演示",
+      "button_text_4": "价钱"
+    }
+  },
+  "about": {
+    "title": "如何从 {{EXT}} 文件 {{ProductName}} API 中提取文本？",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) 是一个文本、元数据和图像提取器 API，适用于使用 C#、ASP.NET 和其他 .NET 技术开发的业务应用程序。它支持从支持格式的文件中提取原始、格式化和结构化文本以及元数据。通过 GroupDocs.Parser for .NET，您的应用程序还可以解析流行格式的受密码保护的文档，例如 Word 处理文档、Excel 电子表格、PowerPoint 演示文稿、OneNote、PDF 文件和 ZIP 存档。",
+    "h2": "GroupDocs.Parser API 是需要文件文本提取功能的企业解决方案的正确选择。这些 API 在所有主要操作系统和平台（包括 {{Runtime}}）上均得到良好支持。"
+  },
+  "steps": {
+    "title_left": "从 {{ProductName}} 中的 {{EXT}} 中提取文本",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) 让 {{ProgLang}} 开发者只需执行几个简单的步骤即可轻松从 {{EXT}} 文件中提取文本。",
+      "step_1": "实例化初始文档的 [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) 对象；",
+      "step_2": "调用 [GetText](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/gettext) 方法并获取 [TextReader](https://docs.microsoft.com/en-us/dotnet/api/system.io.textreader?view=netframework-2.0) 对象；",
+      "step_3": "检查 reader 是否不为*null*（文档支持文本提取）；",
+      "step_4": "阅读读者的文字。"
+    },
+    "title_right": "了解有关文本提取的更多信息",
+    "content_right": {
+      "step_1": "如何在精确模式下提取文本",
+      "step_2": "如何在原始模式下提取文本"
+    },
+    "title_code": "如何使用 {{ProgLang}} 示例代码从 {{EXT}} 文件中提取文本",
+    "code": {
+      "header": "使用 GroupDocs.Parser API 从 {{EXT}} 文件中提取文本",
+      "instance": "创建 Parser 类的实例",
+      "extract": "将文本提取到阅读器中",
+      "print_1": "打印文档中的文本",
+      "print_2": "如果不支持文本提取，则 reader 为空",
+      "not_supported": "不支持文本提取"
+    }
+  },
+  "more": {
+    "title_left": "系统要求",
+    "content_left": {
+      "description": "{{ProductFullName}} 所有主要平台和操作系统均支持 API。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "构架",
+      "step_4": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    },
+    "title_right": "为什么使用{{ProductFullName}}",
+    "content_right": {
+      "p1": "支持从任何支持的文档中提取纯文本",
+      "p2": "通过用户定义的模板解析文档",
+      "p3": "全面支持结构化文本提取",
+      "p4": "通过关键字和正则表达式进行文本搜索",
+      "p5": "提取格式化文本、元数据、图像、容器和附件",
+      "p6": "提取某些支持的文档格式的目录",
+      "p7": "从 PDF 文档解析表单数据",
+      "p8": "从文档中提取超链接"
+    }
+  },
+  "demos": {
+    "title": "现场演示 - 从 {{EXT}} 在线提取文本",
+    "h1": "立即访问 [GroupDocs.Parser 现场演示](https://products.groupdocs.app/parser/text/{{ext}}) 网站，从 {{EXT}} 文件中提取文本。",
+    "h2": "现场演示有以下好处。"
+  },
+  "more_formats": {
+    "title": "从其他文档格式中提取文本",
+    "content": "{{ProductName}} 用于文件格式和图像的文档解析和文本提取 API。提取一些流行文件格式的数据，如下所述。"
+  }
+}

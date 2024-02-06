@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "Extraire des images de Excel, Word, PDF et autre document ou page via .NET",
+    "description": "L'API GroupDocs.Parser .NET permet aux programmeurs de logiciels d'extraire des images de différents documents tels que MS Excel, Word, PowerPoint, PDF et plus dans leurs applications .NET."
+  },
+  "header": {
+    "title": "Extraire des images de PDF, DOCX, PPTX, MSG, XLSX documents et pages via l'API C#.NET",
+    "description": "GroupDocs.Parser .NET L'API permet aux programmeurs d'extraire des images de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF & EPUB documents ou pages de document.",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "Comment extraire des images de fichiers {{EXT}} via {{ProductName}} ?",
+    "h1": "Les images peuvent être utilisées pour fournir des informations d'une manière telle qu'elles ne peuvent pas être exprimées par des mots. Les images nous aident à attirer l'attention de l'utilisateur et expliquent facilement les concepts difficiles. Parfois, en lisant des documents, des revues ou en profitant de présentations, nous avons souvent trouvé des images fascinantes et avons voulu les télécharger. {{ProductFullName}} est une API puissante qui aide les utilisateurs à développer des applications utiles pour extraire des images de différents types de documents et les enregistrer en PNG, JPEG, WebP, GIF, BMP et d'autres formats. L'API a inclus des supports pour le texte ainsi que l'extraction d'images à partir de certains des formats de fichiers les plus couramment utilisés, tels que PDF, e-mails, ebooks, formats Microsoft Office : Word (DOC, DOCX), { 284} (PPT, PPTX), Excel (XLS, XLSX), formats LibreOffice et bien d'autres. L'API prend également entièrement en charge l'analyse de documents, l'extraction de texte brut et structuré, la recherche de texte par mots-clés, l'extraction de métadonnées ou d'images, de conteneurs ainsi que de pièces jointes et bien d'autres."
+  },
+  "steps": {
+    "title_left": "Extraire des images de {{EXT}} dans {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) permet aux développeurs {{ProgLang}} d'extraire facilement des images d'un fichier {{EXT}} en mettant en œuvre quelques étapes simples.",
+      "step_1": "Instanciez l'objet [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) pour le document initial ;",
+      "step_2": "Appelez la méthode [GetImages](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser/methods/getimages) et obtenez la collection d'objets image ;",
+      "step_3": "Vérifiez si le lecteur n'est pas *null* (l'extraction d'images est prise en charge pour le document) ;",
+      "step_4": "Parcourez la collection et obtenez les tailles, les types d'images et le contenu des images."
+    },
+    "title_right": "En savoir plus sur l'extraction d'images",
+    "content_right": {
+      "step_1": "Comment extraire des images d'un document",
+      "step_2": "Comment extraire des images d'une page de document",
+      "step_3": "Comment extraire des images de la zone de page de document",
+      "step_4": "Comment extraire des images dans des fichiers"
+    },
+    "title_code": "Comment extraire des images du fichier {{EXT}} à l'aide de l'exemple de code {{ProgLang}}",
+    "code": {
+      "header": "Extraire des images du fichier {{EXT}} à l'aide de l'API GroupDocs.Parser",
+      "instance": "Créer une instance de la classe Parser",
+      "extract": "Extraire des images",
+      "check_null": "Vérifiez si l'extraction d'images est prise en charge",
+      "not_supported": "L'extraction d'images n'est pas prise en charge",
+      "iterate": "Itérer sur les images",
+      "print": "Imprimer un index de page, un rectangle et un type d'image :"
+    }
+  },
+  "more": {
+    "title_left": "Configuration requise",
+    "content_left": {
+      "description": "{{ProductFullName}} Les API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Pourquoi utiliser {{ProductFullName}}",
+    "content_right": {
+      "p1": "Prise en charge de l'extraction de texte brut à partir de tous les documents pris en charge",
+      "p2": "Analyse de documents via des modèles définis par l'utilisateur",
+      "p3": "Prise en charge complète de l'extraction de texte structuré",
+      "p4": "Recherche de texte par mot-clé ainsi que par expression régulière",
+      "p5": "Extraire du texte formaté, des métadonnées, des images, des conteneurs et des pièces jointes",
+      "p6": "Extraire la table des matières pour certains formats de document pris en charge",
+      "p7": "Analyser les données de formulaire de PDF documents",
+      "p8": "Extraire les hyperliens du document"
+    }
+  },
+  "demos": {
+    "title": "Démos en direct - Extraire des images de {{EXT}} en ligne",
+    "h1": "Extrayez des images du fichier {{EXT}} dès maintenant en visitant le site Web [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/images/{{ext}}).",
+    "h2": "La démo en direct présente les avantages suivants."
+  },
+  "more_formats": {
+    "title": "Extraire des images d'autres formats de documents",
+    "content": "{{ProductName}} API d'analyse de documents et d'extraction d'images pour les formats de fichiers et les images. Extrayez les données pour certains des formats de fichiers populaires comme indiqué ci-dessous."
+  }
+}

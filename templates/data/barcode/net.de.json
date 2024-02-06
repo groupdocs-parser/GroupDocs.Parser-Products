@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": ".NET-API zum Extrahieren von Barcodes aus PDF, DOCX, PPTX, XLSX, EPUB und mehr",
+    "description": "Mit der API GroupDocs.Parser .NET können Softwareentwickler Barcodes aus PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX extrahieren. CSV-, ODT-, RTF- und EPUB-Dokumente in .NET Apps."
+  },
+  "header": {
+    "title": "Extrahieren Sie Barcodes aus Excel-, Word-, PDF- und PowerPoint-Dokumenten über die C#.NET-API",
+    "description": "Mit der API GroupDocs.Parser .NET können Programmierer Barcodes aus PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX und CSV extrahieren , ODT, RTF & EPUB Dokumente oder Seitenbereich.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Wie extrahiere ich Barcodes aus {{EXT}}-Dateien mit der {{ProductName}}-API?",
+    "h1": "Barcodes sind maschinenlesbare Darstellungen von Ziffern und Zeichen, die weltweit häufig in vielen Zusammenhängen verwendet werden, beispielsweise beim Scannen und Identifizieren von Produkten, bei der Verfolgung von Autoteilen, bei der Bestandsverwaltung usw. {{ProductFullName}} ist eine leistungsstarke API, die Entwicklern hilft, Lösungen zum Extrahieren von Text, Bildern und Barcodes aus verschiedenen Arten unterstützter Dokumentformate zu entwickeln, wie z. B. PDF, E-Mails, E-Books, Microsoft Office-Formate: Word ({ 377}, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), E-Mail-Formate (EML, MSG) und viele mehr. Die {{ProductName}}-API bietet Unterstützung für mehrere erweiterte Funktionen zum Parsen von Dokumenten, wie z. B. die Suche nach Text anhand von Schlüsselwörtern, die genaue Textextraktion, die Extraktion von HTML- oder Markdown-formatiertem Text, die Extraktion von Textbereichen mit Koordinaten, die Extraktion von Metadaten oder Barcodes usw."
+  },
+  "steps": {
+    "title_left": "Barcodes aus {{EXT}} in {{ProductName}} extrahieren",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) erleichtert {{ProgLang}}-Entwicklern das Extrahieren von Barcodes aus einer {{EXT}}-Datei durch die Implementierung einiger einfacher Schritte.",
+      "step_1": "Instanziieren Sie das [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser)-Objekt für das ursprüngliche Dokument.",
+      "step_2": "Überprüfen Sie, ob die Datei das Extrahieren von Barcodes unterstützt.",
+      "step_3": "Rufen Sie die Methode [GetBarcodes](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getbarcodes) auf und erhalten Sie eine Sammlung von [PageBarcodeArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagebarcodearea) Objekte ab;",
+      "step_4": "Durchlaufen Sie die Sammlung und erhalten Sie einen Barcode-Wert."
+    },
+    "title_right": "Erfahren Sie mehr über die Barcode-Extraktion",
+    "content_right": {
+      "step_1": "So extrahieren Sie Barcodes aus einem Dokument",
+      "step_2": "So extrahieren Sie Barcodes von einer Dokumentseite",
+      "step_3": "So extrahieren Sie Barcodes aus dem Seitenbereich eines Dokuments"
+    },
+    "title_code": "So extrahieren Sie Barcodes aus der Datei {{EXT}} mithilfe des Beispielcodes {{ProgLang}}",
+    "code": {
+      "header": "Extrahieren Sie Barcodes aus der Datei {{EXT}} mit der API GroupDocs.Parser",
+      "instance": "Erstellen Sie eine Instanz der Parser-Klasse",
+      "check": "Überprüfen Sie, ob die Datei das Extrahieren von Barcodes unterstützt",
+      "not_supported": "Die Datei unterstützt das Extrahieren von Barcodes nicht.",
+      "extract": "Barcodes aus der Datei extrahieren.",
+      "iterate": "Über Barcodes iterieren",
+      "print_page_index": "Drucken Sie den Seitenindex",
+      "print_value": "Drucken Sie den Barcode-Wert"
+    }
+  },
+  "more": {
+    "title_left": "System Anforderungen",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmenwerke",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter."
+    },
+    "title_right": "Warum {{ProductFullName}} verwenden?",
+    "content_right": {
+      "p1": "Unterstützung für die Extraktion von Klartext aus allen unterstützten Dokumenten",
+      "p2": "Parsen von Dokumenten über benutzerdefinierte Vorlagen",
+      "p3": "Vollständige Unterstützung der strukturierten Textextraktion",
+      "p4": "Textsuche über Schlüsselwörter sowie reguläre Ausdrücke",
+      "p5": "Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge",
+      "p6": "Extrahieren Sie das Inhaltsverzeichnis für einige unterstützte Dokumentformate",
+      "p7": "Analysieren Sie Formulardaten aus PDF-Dokumenten",
+      "p8": "Extrahieren Sie Hyperlinks aus dem Dokument"
+    }
+  },
+  "demos": {
+    "title": "Live-Demos – Barcodes online aus Dokumenten extrahieren",
+    "h1": "Extrahieren Sie jetzt Barcodes aus Dokumenten, indem Sie die Website [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/barcodes/) besuchen.",
+    "h2": "Die Live-Demo bietet folgende Vorteile."
+  },
+  "more_formats": {
+    "title": "Extrahieren Sie Barcodes aus anderen Dokumentformaten",
+    "content": "{{ProductName}} API zum Parsen und Extrahieren von Barcodes für Dateiformate und Bilder. Extrahieren Sie Daten für einige der gängigen Dateiformate, wie unten aufgeführt."
+  }
+}

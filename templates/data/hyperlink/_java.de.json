@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Extrahieren Sie Hyperlinks aus Dokumenten in {{ProgLang}}",
+    "description": "Mit der {{ProductFullName}}-API können Entwickler Hyperlinks aus Dokumenten, Dokumentseiten oder bestimmten Seitenbereichen von Excel, PowerPoint, PDF, Outlook und mehr extrahieren."
+  },
+  "header": {
+    "title": "{{ProductName}} API zum Extrahieren von Hyperlinks aus Dokumenten, Seiten oder bestimmten Seitenbereichen",
+    "description": "Die API {{ProductFullName}} erleichtert Entwicklern die Arbeit, indem sie ihnen das Extrahieren von Hyperlinks aus Dokumenten, der Dokumentseite oder einem bestimmten Seitenbereich von PDF, DOCX, PPTX, EML, MSG, XLS, {322 ermöglicht }, CSV, RTF, EPUB und viele mehr.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Wie kann ich Hyperlinks aus Dokumenten über die {{ProductName}}-API analysieren und extrahieren?",
+    "h1": "Ein Hyperlink ist ein Textstück, ein Bild oder ein Symbol, das auf ein gesamtes Dokument oder auf einen bestimmten Teil innerhalb eines Dokuments verweist. Durch die Verwendung von Hyperlinks können Benutzer zu einer Webseite oder einem Dokument navigieren. Oft ist es erforderlich, Hyperlinks aus einem Dokument zu extrahieren und diese für den Zugriff auf ein externes Dokument oder eine Webseite zu verwenden. {{ProductFullName}} ist eine faszinierende API zur Extraktion von Dokumententexten, die vollständige Funktionalität für die Implementierung von Text- und Metadatenextraktionslösungen bietet. Es unterstützt die Extraktion von Text und Hyperlinks aus den Formaten PDF, E-Mails, E-Books und Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel ( XLS, XLSX), LibreOffice-Formate und viele mehr. Es unterstützt mehrere erweiterte Funktionen zum Parsen von Dokumenten, zum Extrahieren von einfachem und strukturiertem Text, zur Textsuche nach Schlüsselwörtern, zum Extrahieren von Metadaten oder Bildern, Containern sowie Anhängen und vielem mehr."
+  },
+  "steps": {
+    "title_left": "Extrahieren Sie Hyperlinks aus Dokumenten in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) erleichtert {{ProgLang}} Entwicklern das Extrahieren von Hyperlinks aus Dokumenten durch die Implementierung einiger einfacher Schritte.",
+      "step_1": "Instanziieren Sie das [Parser](https://reference.groupdocs.com/java/parser/com.groupdocs.parser/Parser)-Objekt für das ursprüngliche Dokument.",
+      "step_2": "Überprüfen Sie, ob das Dokument die Hyperlink-Extraktion unterstützt.",
+      "step_3": "Rufen Sie die Methode [getHyperlinks](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getHyperlinks--) auf und rufen Sie die Sammlung von [PageHyperlinkArea](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/PageHyperlinkArea) Objekte ab;",
+      "step_4": "Durchlaufen Sie die Sammlung und erhalten Sie einen Hyperlinktext und eine URL."
+    },
+    "title_right": "Erfahren Sie mehr über die Extraktion von Hyperlinks",
+    "content_right": {
+      "step_1": "So extrahieren Sie Hyperlinks aus einem Dokument",
+      "step_2": "So extrahieren Sie Hyperlinks von einer Dokumentseite",
+      "step_3": "So extrahieren Sie Hyperlinks aus dem Seitenbereich des Dokuments"
+    },
+    "title_code": "So extrahieren Sie Hyperlinks aus Dokumenten mithilfe von {{ProgLang}}-Beispielcode",
+    "code": {
+      "header": "Extrahieren Sie Hyperlinks aus Dokumenten mithilfe der GroupDocs.Parser-API",
+      "instance": "Erstellen Sie eine Instanz der Parser-Klasse",
+      "check": "Überprüfen Sie, ob das Dokument die Hyperlink-Extraktion unterstützt",
+      "not_supported": "Das Dokument unterstützt die Hyperlink-Extraktion nicht.",
+      "extract": "Extrahieren Sie Hyperlinks aus dem Dokument",
+      "iterate": "Iterieren Sie über Hyperlinks",
+      "print_text": "Drucken Sie den Hyperlinktext aus",
+      "print_url": "Drucken Sie die Hyperlink-URL aus"
+    }
+  },
+  "more": {
+    "title_left": "System Anforderungen",
+    "content_left": {
+      "description": "{{ProductFullName}} APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmenwerke",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter."
+    },
+    "title_right": "Warum {{ProductFullName}} verwenden?",
+    "content_right": {
+      "p1": "Unterstützung für die Extraktion von Klartext aus allen unterstützten Dokumenten",
+      "p2": "Parsen von Dokumenten über benutzerdefinierte Vorlagen",
+      "p3": "Vollständige Unterstützung der strukturierten Textextraktion",
+      "p4": "Textsuche über Schlüsselwörter sowie reguläre Ausdrücke",
+      "p5": "Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge",
+      "p6": "Extrahieren Sie das Inhaltsverzeichnis für einige unterstützte Dokumentformate",
+      "p7": "Analysieren Sie Formulardaten aus PDF-Dokumenten",
+      "p8": "Extrahieren Sie Hyperlinks aus dem Dokument"
+    }
+  },
+  "more_formats": {
+    "title": "Extrahieren Sie Hyperlinks aus anderen Dokumentformaten",
+    "content": "{{ProductName}} API zum Parsen und Extrahieren von Hyperlinks für Dateiformate und Bilder. Extrahieren Sie Daten für einige der gängigen Dateiformate, wie unten aufgeführt."
+  }
+}

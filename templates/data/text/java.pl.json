@@ -1,0 +1,78 @@
+{
+  "head": {
+    "title": "Wyodrębnij tekst z {{EXT}} w {{ProgLang}}",
+    "description": "Szybko wyodrębnij tekst z pliku dokumentów w aplikacji {{ProgLang}}."
+  },
+  "header": {
+    "title": "Wyodrębnij tekst z {{EXT}} w {{ProgLang}}",
+    "description": "Wyodrębnij tekst z {{EXT}} za pomocą kilku linii kodu {{ProductName}}.",
+    "button_label": "Pobierz darmową wersję próbną"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Dokumentacja API",
+      "button_text_2": "Przykłady kodu",
+      "button_text_3": "Demo na żywo",
+      "button_text_4": "cennik"
+    }
+  },
+  "about": {
+    "title": "Jak wyodrębnić tekst z API {{EXT}} plików {{ProductName}}?",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) to interfejs API do wyodrębniania tekstu, obrazów i metadanych, obsługujący ponad 50 popularnych typów dokumentów, ułatwiający tworzenie aplikacji biznesowych z funkcjami analizowania tekstu surowego, strukturalnego i sformatowanego. Obsługuje także analizowanie dokumentów przy użyciu predefiniowanych szablonów i umożliwia szybkie i dokładne wydobywanie złożonych danych z faktur i innych typowych dokumentów. GroupDocs.Parser for Java umożliwia wyodrębnianie tekstu i metadanych z plików chronionych hasłem we wszystkich popularnych formatach, w tym Word dokumentów przetwarzających, Excel arkuszy kalkulacyjnych, PowerPoint prezentacji, plików OneNote, PDF i ZIP archiwów.",
+    "h2": "API GroupDocs.Parser to właściwy wybór dla rozwiązań korporacyjnych, które wymagają funkcji ekstrakcji tekstu z pliku. Te interfejsy API są dobrze obsługiwane na wszystkich głównych systemach operacyjnych i platformach, w tym na platformie {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Wyodrębnij tekst z {{EXT}} w {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) ułatwia programistom {{ProgLang}} wyodrębnienie tekstu z pliku {{EXT}} poprzez wykonanie kilku prostych kroków.",
+      "step_1": "Utwórz instancję obiektu [Parser](https://reference.groupdocs.com/java/parser/com.groupdocs.parser/Parser) dla dokumentu początkowego;",
+      "step_2": "Wywołaj metodę [getText](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getText--) i uzyskaj [TextReader](https://reference.groupdocs.com/java /parser/com.groupdocs.parser.data/TextReader) obiekt;",
+      "step_3": "Sprawdź, czy czytnik nie jest *null* (dla dokumentu obsługiwane jest wyodrębnianie tekstu);",
+      "step_4": "Przeczytaj wiadomość od czytelnika."
+    },
+    "title_right": "Dowiedz się więcej o wyodrębnianiu tekstu",
+    "content_right": {
+      "step_1": "Jak wyodrębnić tekst w trybie dokładnym",
+      "step_2": "Jak wyodrębnić tekst w trybie surowym"
+    },
+    "title_code": "Jak wyodrębnić tekst z pliku {{EXT}} przy użyciu przykładowego kodu {{ProgLang}}",
+    "code": {
+      "header": "Wyodrębnij tekst z pliku {{EXT}} przy użyciu interfejsu API GroupDocs.Parser",
+      "instance": "Utwórz instancję klasy Parser",
+      "extract": "Wyodrębnij tekst do czytnika",
+      "print_1": "Wydrukuj tekst z dokumentu",
+      "print_2": "Jeśli wyodrębnianie tekstu nie jest obsługiwane, czytnik ma wartość null",
+      "not_supported": "Wyodrębnianie tekstu nie jest obsługiwane"
+    }
+  },
+  "more": {
+    "title_left": "wymagania systemowe",
+    "content_left": {
+      "description": "{{ProductFullName}} Interfejsy API są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że w systemie zainstalowano następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Ramy",
+      "step_4": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Dlaczego warto używać {{ProductFullName}}",
+    "content_right": {
+      "p1": "Obsługa wyodrębniania zwykłego tekstu z dowolnych obsługiwanych dokumentów",
+      "p2": "Analizowanie dokumentów za pomocą szablonów zdefiniowanych przez użytkownika",
+      "p3": "W pełni obsługuje wyodrębnianie tekstu strukturalnego",
+      "p4": "Wyszukiwanie tekstu za pomocą słów kluczowych i wyrażeń regularnych",
+      "p5": "Wyodrębnij sformatowany tekst, metadane, obrazy, kontenery i załączniki",
+      "p6": "Wyodrębnij spis treści dla niektórych obsługiwanych formatów dokumentów",
+      "p7": "Analizuj dane formularzy z PDF dokumentów",
+      "p8": "Wyodrębnij hiperłącza z dokumentu"
+    }
+  },
+  "demos": {
+    "title": "Demo na żywo — wyodrębnij tekst z usługi {{EXT}} Online",
+    "h1": "Wyodrębnij teraz tekst z pliku {{EXT}}, odwiedzając witrynę [GroupDocs.Parser Prezentacje na żywo](https://products.groupdocs.app/parser/text/{{ext}}).",
+    "h2": "Demo na żywo ma następujące zalety."
+  },
+  "more_formats": {
+    "title": "Wyodrębnij tekst z innych formatów dokumentów",
+    "content": "{{ProductName}} API analizowania dokumentów i ekstrakcji tekstu dla formatów plików i obrazów. Wyodrębnij dane dla niektórych popularnych formatów plików, jak opisano poniżej."
+  }
+}

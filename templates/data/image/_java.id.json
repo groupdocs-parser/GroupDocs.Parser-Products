@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "Bagaimana cara Mengekstrak Gambar dari Excel, Word, PDF & Dokumen Lain melalui {{ProductName}}?",
+    "description": "{{ProductFullName}} API memungkinkan pengembang perangkat lunak mengurai & mengekstrak gambar dari PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX dokumen & Email di dalam {{ProductName}} Aplikasi."
+  },
+  "header": {
+    "title": "{{ProductName}} API untuk Parse & Ekstrak Gambar dari Excel, Word, PowerPoint, PDF & Halaman Dokumen Lainnya",
+    "description": "{{ProductFullName}} API memungkinkan programmer mengekstrak gambar dari PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, {358 }, RTF & EPUB dokumen atau Halaman dokumen di dalam {{ProductName}} aplikasi.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Pelajari Cara Mengekstrak Gambar dari {{EXT}} Dokumen atau Halaman Tertentu melalui {{ProductName}} API",
+    "h1": "Gambar bernilai ribuan kata dan tidak dapat diabaikan di dunia visual saat ini sambil membuat konten yang menarik. Gambar dapat menjadi sumber komunikasi informasi yang hebat serta menarik perhatian pengguna. Seringkali diperlukan untuk mendapatkan gambar dari dokumen, jurnal atau presentasi dan menggunakannya di tempat lain. {{ProductFullName}} adalah API andal yang membantu pengembang dan pemrogram perangkat lunak membangun solusi untuk menguraikan dan mengekstrak gambar atau informasi lain dari berbagai jenis dokumen. Ini juga mendukung penyimpanan gambar dalam PNG, JPEG, WebP, GIF, BMP dan format lainnya. API telah menyertakan dukungan untuk beberapa format dokumen populer, seperti format PDF, Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), {282 } (XLS, XLSX), format LibreOffice, Email, Ebook, dan banyak lagi. Itu juga termasuk dukungan untuk beberapa fitur lanjutan yang terkait dengan penguraian dokumen, mengekstraksi teks biasa dan terstruktur, pencarian teks dengan kata kunci, mengekstrak metadata atau gambar, wadah serta lampiran dan banyak lagi."
+  },
+  "steps": {
+    "title_left": "Ekstrak gambar dari dokumen di {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) memudahkan pengembang {{ProgLang}} untuk mengekstrak gambar dari dokumen dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Membuat instance objek [Parser](https://reference.groupdocs.com/java/parser/com.groupdocs.parser/Parser) untuk dokumen awal;",
+      "step_2": "Panggil metode [getImages](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getImages--) dan dapatkan kumpulan objek gambar;",
+      "step_3": "Periksa apakah pembaca tidak *null* (ekstraksi gambar didukung untuk dokumen);",
+      "step_4": "Ulangi koleksi dan dapatkan ukuran, jenis gambar, dan konten gambar."
+    },
+    "title_right": "Pelajari lebih lanjut tentang ekstraksi gambar",
+    "content_right": {
+      "step_1": "Cara mengekstrak gambar dari dokumen",
+      "step_2": "Cara mengekstrak gambar dari halaman dokumen",
+      "step_3": "Cara mengekstrak gambar dari area halaman dokumen",
+      "step_4": "Cara mengekstrak gambar ke file"
+    },
+    "title_code": "Cara mengekstrak gambar dari dokumen menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "header": "Ekstrak gambar dari dokumen menggunakan GroupDocs.Parser API",
+      "instance": "Buat instance kelas Parser",
+      "extract": "Ekstrak gambar",
+      "check_null": "Periksa apakah ekstraksi gambar didukung",
+      "not_supported": "Ekstraksi gambar tidak didukung",
+      "iterate": "Ulangi gambar",
+      "print": "Cetak indeks halaman, persegi panjang, dan jenis gambar:"
+    }
+  },
+  "more": {
+    "title_left": "Persyaratan sistem",
+    "content_left": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Mengapa Menggunakan {{ProductFullName}}",
+    "content_right": {
+      "p1": "Dukungan ekstraksi teks biasa dari dokumen yang didukung",
+      "p2": "Penguraian dokumen melalui templat yang ditentukan pengguna",
+      "p3": "Sepenuhnya mendukung ekstraksi teks terstruktur",
+      "p4": "Pencarian teks melalui kata kunci serta ekspresi reguler",
+      "p5": "Ekstrak teks yang diformat, metadata, gambar, wadah, dan lampiran",
+      "p6": "Ekstrak daftar isi untuk beberapa format dokumen yang didukung",
+      "p7": "Mengurai data formulir dari PDF dokumen",
+      "p8": "Ekstrak hyperlink dari dokumen"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung - Ekstrak gambar dari dokumen Online",
+    "h1": "Ekstrak gambar dari dokumen sekarang juga dengan mengunjungi situs web [GroupDocs.Parser Demo Langsung](https://products.groupdocs.app/parser/images/).",
+    "h2": "Demo langsung memiliki manfaat berikut."
+  },
+  "more_formats": {
+    "title": "Ekstrak Gambar Dari Format Dokumen Lain",
+    "content": "{{ProductName}} penguraian dokumen & API ekstraksi gambar untuk format file dan gambar. Ekstrak data untuk beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

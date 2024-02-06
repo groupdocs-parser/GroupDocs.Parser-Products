@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": "Extrayez les codes-barres de Excel, Word, PDF et d'autres documents via l'API {{ProductName}}",
+    "description": "{{ProductFullName}} permet aux développeurs de logiciels d'extraire les codes-barres de PDF, MS Excel, Word, PowerPoint, Outlook, OneNote et d'autres documents dans les applications {{ProductName}}."
+  },
+  "header": {
+    "title": "Comment extraire les codes-barres de PDF, DOCX, PPTX, EML, MSG, XLSX et EPUB via l'API {ProductName}}",
+    "description": "L'API {{ProductFullName}} permet aux développeurs de logiciels d'extraire les codes-barres de PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint( PPT, { 330}), Outlook (EML, MSG) et de nombreux autres documents Zone de page.",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "Comment extraire les codes-barres de l'API {{EXT}} fichiers {{ProductName}} ?",
+    "h1": "L'image des codes-barres se compose d'une série de lignes noires parallèles et d'espaces blancs de largeurs variables qui peuvent être utilisés pour coder des informations dans un motif visuel. Il a été introduit dans les années 1970 et fait maintenant partie intégrante des entreprises commerciales. {{ProductFullName}} est une API puissante qui permet aux programmeurs de logiciels de créer des applications pour analyser différents types de documents et en extraire du texte, des images et des codes-barres. Il a inclus la prise en charge de certains des types de documents les plus courants tels que PDF, les e-mails, les livres électroniques, les formats Microsoft Office : Word (DOC, DOCX), PowerPoint (PPT, {330 }), Excel (XLS, XLSX), e-mails (EML, MSG) et bien d'autres. L'API {{ProductName}} inclut la prise en charge de plusieurs fonctionnalités importantes liées à l'analyse de documents et à l'extraction de données, telles que l'extraction de texte brut, l'extraction de texte structuré, l'extraction de texte au format Markdown, l'extraction de texte d'une page ou d'une zone de page spécifique, l'extraction de code-barres d'un document, l'extraction métadonnées ou images et bien d'autres."
+  },
+  "steps": {
+    "title_left": "Extraire les codes-barres de {{EXT}} dans {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) permet aux développeurs {{ProgLang}} d'extraire facilement les codes-barres d'un fichier {{EXT}} en mettant en œuvre quelques étapes simples.",
+      "step_1": "Instanciez l'objet [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) pour le document initial ;",
+      "step_2": "Vérifiez si le fichier prend en charge l'extraction de code-barres ;",
+      "step_3": "Appelez la méthode [getBarcodes](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getBarcodes--) et obtenez la collection de [PageBarcodeArea](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagebarcodearea/) objets ;",
+      "step_4": "Parcourez la collection et obtenez une valeur de code-barres."
+    },
+    "title_right": "En savoir plus sur l'extraction de code-barres",
+    "content_right": {
+      "step_1": "Comment extraire les codes-barres d'un document",
+      "step_2": "Comment extraire les codes-barres de la page du document",
+      "step_3": "Comment extraire les codes-barres de la zone de page du document"
+    },
+    "title_code": "Comment extraire les codes-barres du fichier {{EXT}} à l'aide de l'exemple de code {{ProgLang}}",
+    "code": {
+      "header": "Extraire les codes-barres du fichier {{EXT}} à l'aide de l'API GroupDocs.Parser",
+      "instance": "Créer une instance de la classe Parser",
+      "check": "Vérifiez si le fichier prend en charge l'extraction de code-barres",
+      "not_supported": "Le fichier ne prend pas en charge l'extraction de code-barres.",
+      "extract": "Extrayez les codes-barres du fichier.",
+      "iterate": "Itérer sur les codes-barres",
+      "print_page_index": "Imprimer l'index des pages",
+      "print_value": "Imprimer la valeur du code-barres"
+    }
+  },
+  "more": {
+    "title_left": "Configuration requise",
+    "content_left": {
+      "description": "{{ProductFullName}} Les API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Pourquoi utiliser {{ProductFullName}}",
+    "content_right": {
+      "p1": "Prise en charge de l'extraction de texte brut à partir de tous les documents pris en charge",
+      "p2": "Analyse de documents via des modèles définis par l'utilisateur",
+      "p3": "Prise en charge complète de l'extraction de texte structuré",
+      "p4": "Recherche de texte par mot-clé ainsi que par expression régulière",
+      "p5": "Extraire du texte formaté, des métadonnées, des images, des conteneurs et des pièces jointes",
+      "p6": "Extraire la table des matières pour certains formats de document pris en charge",
+      "p7": "Analyser les données de formulaire de PDF documents",
+      "p8": "Extraire les hyperliens du document"
+    }
+  },
+  "demos": {
+    "title": "Démos en direct - Extrayez les codes-barres de {{EXT}} en ligne",
+    "h1": "Extrayez les codes-barres du fichier {{EXT}} dès maintenant en visitant le site Web [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/barcodes/{{ext}}).",
+    "h2": "La démo en direct présente les avantages suivants."
+  },
+  "more_formats": {
+    "title": "Extraire les codes-barres d'autres formats de documents",
+    "content": "API d'analyse de documents et d'extraction de codes-barres {{ProductName}} pour les formats de fichiers et les images. Extrayez les données pour certains des formats de fichiers populaires comme indiqué ci-dessous."
+  }
+}

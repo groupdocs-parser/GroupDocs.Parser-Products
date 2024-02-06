@@ -1,0 +1,15 @@
+inherits: ..\\products.yml
+
+dimensions:  
+- alias: ext
+  values: ["excel", "image", "onenote", "visio", "web", "word", "worksheet", "chm", "csv", "doc", "docm", "docx", "dot", "dotm", "dotx", "eml", "emlx", "epub", "fb2", "md", "mhtml", "msg", "odp", "ods", "odt", "one", "otp", "ots", "ott", "pdf", "pot", "potx", "pps", "ppsm", "ppsx", "ppt", "pptm", "pptx", "rtf", "txt", "xhtml", "xla", "xlam", "xls", "xlsx", "xlsb", "xlsm", "xlsm", "xlt", "xltm", "xltx", "xml"]
+
+generationRules:
+  exclude:
+    - ext[excel, image, onenote, visio, web, word, worksheet]
+  include:
+##  - ext[odt]
+
+dictionaries: [ "..\\..\\data\\text\\{product}.{lang}.json", "..\\..\\data\\text\\{product}.json", "..\\..\\data\\otherformats.json" ]
+
+outputPath: "{product}\\extract\\text\\{ext}.{lang}.md"

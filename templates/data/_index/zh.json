@@ -1,0 +1,247 @@
+{
+  "index-content": {
+    "head_title": ".NET、Java、云 API 和在线文档解析器应用",
+    "head_description": "获取适用于 .NET、Java 和基于云的应用程序的一体化文档解析解决方案。使用简单的拖放功能在线从文档格式中提取数据",
+    "title": "文档解析解决方案",
+    "description": "使用我们为程序员和最终用户提供的灵活 API 和基于应用程序的解决方案，从任何平台上的文档和图像中提取数据。",
+    "api_high_title": "GroupDocs.Parser High Code API 包括",
+    "api_high_label": "查看所有 High Code API",
+    "api_high_1_content": "原生 .NET API，用于从 Microsoft Office、PDF、图像以及 .NET 应用程序中的各种其他格式提取文本、图像、元数据。",
+    "api_high_2_content": "使 Java 应用程序能够在安装了 JDK 的任何操作系统上从各种文档和图像中提取数据。",
+    "api_low_title": "GroupDocs.Parser Low Code API 包括",
+    "api_low_label": "查看所有 Low Code API",
+    "api_low_1_content": "使用 cURL REST完整的文档解析 API 从所有流行的文档格式中提取数据，包括 PDF、Word、Excel 和图像。",
+    "api_low_2_content": "通过 .NET SDK 轻松使用 Parser RESTful API 从 .NET 应用程序中的多种文档格式中提取数据。",
+    "api_low_3_content": "使用专为 Java 设计的文档解析 SDK 在您的 Java 应用程序中实现高级文档解析功能。",
+    "api_nocode_title": "GroupDocs.Parser No Code 应用包括",
+    "api_nocodelabel": "查看所有 No Code 个应用程序",
+    "api_nocode_1_content": "免费在线应用程序可解析 Word、Excel、PowerPoint、PDF 及 30 多种文档类型。",
+    "api_nocode_2_content": "直接从网络浏览器解析 Word 文档以提取图像、文本或元数据。",
+    "api_nocode_3_content": "免费的 PDF 解析应用程序，可在任何平台或设备上运行，没有任何限制。",
+    "title_1": "解析文档",
+    "words_for": "为了",
+    "actions_alt": "许可",
+    "actions_title": "准备好开始了吗？",
+    "actions_description": "免费试用 GroupDocs.Parser 功能或申请许可",
+    "release_title": "版本 {0} 已发布",
+    "release_notes": "看看有什么新鲜事",
+    "release_downloads": "下载",
+    "code_more": "更多示例",
+    "overview_title": "GroupDocs.Parser 概述",
+    "platforms_title": "平台独立性",
+    "formats_title": "支持的文件格式",
+    "formats_groups": {
+      "title_1": "Microsoft Office 格式",
+      "title_2": "图像和其他格式",
+      "title_3": "其他格式",
+      "format_portable": "Portable",
+      "format_other_office": "其他办公形式",
+      "format_images": "图片",
+      "format_web": "网络",
+      "format_archives": "档案",
+      "format_ebooks": "电子书"
+    },
+    "net": {
+      "title": "用于文档解析的本机 .NET API",
+      "title_2": "通过 .NET API",
+      "actions_main": "免费NuGet下载",
+      "code": {
+        "title": "使用 C# 从 PDF 文件中提取文本",
+        "instance": "创建 Parser 类的实例",
+        "extract": "将文本提取到阅读器中",
+        "print_1": "打印文档中的文本",
+        "print_2": "如果不支持文本提取，则 reader 为空",
+        "not_supported": "不支持文本提取"
+      },
+      "overview_description": "用于在 .NET 应用程序中执行文档解析的 API",
+      "overview_feature_1": {
+        "title": "从文档中提取数据",
+        "description": ".NET API 使您能够从各种文件格式（例如 Office 文档、电子邮件、附件和存档）中检索文本、元数据和图像。这个强大的工具可帮助您有效地访问和处理这些文件中包含的有价值的信息，用于数据分析、搜索引擎索引或内容管理系统等各种应用程序。"
+      },
+      "overview_feature_2": {
+        "title": "解析文档",
+        "description": "从PDF表单中提取各种元素，例如超链接、表格、二维码、条形码和数据。还可以使用自定义模板从文档中解析任何所需的信息。"
+      },
+      "overview_feature_3": {
+        "title": "定制结果",
+        "description": ".NET API 可让您检索各种格式的数据，例如原始格式、结构化格式、HTML 或 Markdown 格式。此外，API 还提供搜索功能，用于在文档文本中查找特定单词或短语。"
+      },
+      "features": {
+        "title": "GroupDocs.Parser 功能",
+        "description": "快速准确地从 PDF、Office 文档和图像中提取数据。",
+        "feature_1": {
+          "title": "提取文本",
+          "content": "从各种文件格式（例如 Office 文档、PDF 文件和图像）中提取文本信息，以便于阅读和分析。"
+        },
+        "feature_2": {
+          "title": "提取图像",
+          "content": "从办公文档、PDF 文件等不同来源检索可视内容，以便于访问和使用。"
+        },
+        "feature_3": {
+          "title": "扫描二维码",
+          "content": "检测和解码办公文档、PDF 文件或视觉内容中存在的 QR 码，以实现高效的信息检索。"
+        },
+        "feature_4": {
+          "title": "从电子邮件附件和档案中提取数据",
+          "content": "从电子邮件、文件附件和压缩数据源中收集有价值的信息，以便进行有效分析和利用。"
+        },
+        "feature_5": {
+          "title": "提取表格",
+          "content": "从 PDF 文档中识别并提取表格数据，以便进行有组织的分析和使用。"
+        },
+        "feature_6": {
+          "title": "提取超链接",
+          "content": "找到并提取 Office 文档或 PDF 文件中的超链接和电子邮件地址，以便高效访问。"
+        },
+        "feature_7": {
+          "title": "解析 PDF 表单",
+          "content": "PDF 表单是数字文档，具有用于用户交互的可填写字段，允许用户以电子方式输入信息。 .NET API 可用于从这些表单中提取数据，以便进行高效处理。"
+        },
+        "feature_8": {
+          "title": "通过模板解析数据",
+          "content": "创建自定义模板并通过 .NET API 使用它们来解析 PDF 文件中的特定信息，从而简化数据提取过程。"
+        },
+        "feature_9": {
+          "title": "在文档中搜索文本",
+          "content": "快速定位文档中的特定单词或模式。"
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for .NET 支持以下操作系统、框架和软件包管理器",
+      "formats_description": "GroupDocs.Parser for .NET 支持以下[文件格式](https://docs.groupdocs.com/parser/net/supported-document-formats/) 的操作。",
+      "code-samples": {
+        "title": "代码示例",
+        "description": "典型 GroupDocs.Parser for .NET 操作的一些用例",
+        "sample1": {
+          "header": "从 PDF 文档中提取图像",
+          "description": ".NET API 使 C# 开发者只需执行几个简单的步骤即可轻松从文档中提取图像。",
+          "title": "使用 C# 从 PDF 文档中提取图像",
+          "code": {
+            "header": "使用 GroupDocs.Parser API 从 PDF 文档中提取图像",
+            "instance": "创建 Parser 类的实例",
+            "extract": "提取图像",
+            "check_null": "检查是否支持图像提取",
+            "not_supported": "不支持图像提取",
+            "iterate": "迭代图像",
+            "print": "打印页面索引、矩形和图像类型："
+          }
+        },
+        "sample2": {
+          "header": "从图像中提取条形码",
+          "description": ".NET API 使 C# 开发者只需执行几个简单的步骤即可轻松从文档中提取条形码。",
+          "title": "从图像中提取条形码",
+          "code": {
+            "header": "使用 GroupDocs.Parser API 从文档中提取条形码",
+            "instance": "创建 Parser 类的实例",
+            "check": "检查文件是否支持条形码提取",
+            "not_supported": "该文件不支持条形码提取。",
+            "extract": "从文件中提取条形码。",
+            "iterate": "迭代条形码",
+            "print_page_index": "打印页面索引",
+            "print_value": "打印条形码值"
+          }
+        }
+      }
+    },
+    "java": {
+      "title": "Java 用于解析文档的 API",
+      "title_2": "通过 Java API",
+      "actions_main": "免费 Maven 下载",
+      "code": {
+        "title": "从 Java 中的 PDF 文件中提取文本",
+        "instance": "创建 Parser 类的实例",
+        "extract": "将文本提取到阅读器中",
+        "print_1": "打印文档中的文本",
+        "print_2": "如果不支持文本提取，则 reader 为空",
+        "not_supported": "不支持文本提取"
+      },
+      "overview_description": "用于在 Java 应用程序中执行文档解析的 API",
+      "overview_feature_1": {
+        "title": "从文档中提取数据",
+        "description": "Java API 使您能够从各种文件格式（例如 Office 文档、电子邮件、附件和存档）中检索文本、元数据和图像。这个强大的工具可帮助您有效地访问和处理这些文件中包含的有价值的信息，用于数据分析、搜索引擎索引或内容管理系统等各种应用程序。"
+      },
+      "overview_feature_2": {
+        "title": "解析文档",
+        "description": "从PDF表单中提取各种元素，例如超链接、表格、二维码、条形码和数据。还可以使用自定义模板从文档中解析任何所需的信息。"
+      },
+      "overview_feature_3": {
+        "title": "定制结果",
+        "description": "Java API 可让您检索各种格式的数据，例如原始格式、结构化格式、HTML 或 Markdown 格式。此外，API 还提供搜索功能，用于在文档文本中查找特定单词或短语。"
+      },
+      "features": {
+        "title": "GroupDocs.Parser 功能",
+        "description": "快速准确地从 PDF、Office 文档和图像中提取数据。",
+        "feature_1": {
+          "title": "提取文本",
+          "content": "从各种文件格式（例如 Office 文档、PDF 文件和图像）中提取文本信息，以便于阅读和分析。"
+        },
+        "feature_2": {
+          "title": "提取图像",
+          "content": "从办公文档、PDF 文件等不同来源检索可视内容，以便于访问和使用。"
+        },
+        "feature_3": {
+          "title": "扫描二维码",
+          "content": "检测和解码办公文档、PDF 文件或视觉内容中存在的 QR 码，以实现高效的信息检索。"
+        },
+        "feature_4": {
+          "title": "从电子邮件附件和档案中提取数据",
+          "content": "从电子邮件、文件附件和压缩数据源中收集有价值的信息，以便进行有效分析和利用。"
+        },
+        "feature_5": {
+          "title": "提取表格",
+          "content": "从 PDF 文档中识别并提取表格数据，以便进行有组织的分析和使用。"
+        },
+        "feature_6": {
+          "title": "提取超链接",
+          "content": "找到并提取 Office 文档或 PDF 文件中的超链接和电子邮件地址，以便高效访问。"
+        },
+        "feature_7": {
+          "title": "解析 PDF 表单",
+          "content": "PDF 表单是数字文档，具有用于用户交互的可填写字段，允许用户以电子方式输入信息。 Java API 可用于从这些表单中提取数据，以便进行高效处理。"
+        },
+        "feature_8": {
+          "title": "通过模板解析数据",
+          "content": "创建自定义模板并通过 Java API 使用它们来解析 PDF 文件中的特定信息，从而简化数据提取过程。"
+        },
+        "feature_9": {
+          "title": "在文档中搜索文本",
+          "content": "快速定位文档中的特定单词或模式。"
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for Java 支持以下操作系统、框架和软件包管理器",
+      "formats_description": "GroupDocs.Parser for Java 支持以下[文件格式](https://docs.groupdocs.com/parser/java/supported-document-formats/) 的操作。",
+      "code-samples": {
+        "title": "代码示例",
+        "description": "典型 GroupDocs.Parser for Java 操作的一些用例",
+        "sample1": {
+          "header": "从 PDF 文档中提取图像",
+          "description": "Java API 使 Java 开发者只需执行几个简单的步骤即可轻松从文档中提取图像。",
+          "title": "从 Java 中的 PDF 个文档中提取图像",
+          "code": {
+            "header": "使用 GroupDocs.Parser API 从 PDF 文档中提取图像",
+            "instance": "创建 Parser 类的实例",
+            "extract": "提取图像",
+            "check_null": "检查是否支持图像提取",
+            "not_supported": "不支持图像提取",
+            "iterate": "迭代图像",
+            "print": "打印页面索引、矩形和图像类型："
+          }
+        },
+        "sample2": {
+          "header": "从图像中提取条形码",
+          "description": "Java API 使 Java 开发者只需执行几个简单的步骤即可轻松从文档中提取条形码。",
+          "title": "从图像中提取条形码",
+          "code": {
+            "header": "使用 GroupDocs.Parser API 从文档中提取条形码",
+            "instance": "创建 Parser 类的实例",
+            "check": "检查文件是否支持条形码提取",
+            "not_supported": "该文件不支持条形码提取。",
+            "extract": "从文件中提取条形码。",
+            "iterate": "迭代条形码",
+            "print_page_index": "打印页面索引",
+            "print_value": "打印条形码值"
+          }
+        }
+      }
+    }
+  }
+}

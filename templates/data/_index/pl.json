@@ -1,0 +1,247 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java, interfejsy Cloud API i aplikacje do analizowania dokumentów online",
+    "head_description": "Uzyskaj kompleksowe rozwiązanie do analizowania dokumentów dla aplikacji .NET, Java i opartych na chmurze. Wyodrębnij dane z formatów dokumentów online za pomocą prostej funkcji przeciągania i upuszczania",
+    "title": "Rozwiązanie do analizy dokumentów",
+    "description": "Wyodrębniaj dane z dokumentów i obrazów na dowolnej platformie, korzystając z naszych elastycznych interfejsów API i rozwiązań opartych na aplikacjach dla programistów i użytkowników końcowych.",
+    "api_high_title": "GroupDocs.Parser High Code Interfejsy API Uwzględnij",
+    "api_high_label": "Wyświetl wszystkie interfejsy API High Code",
+    "api_high_1_content": "Natywny interfejs API .NET do wyodrębniania tekstu, obrazów, metadanych z Microsoft Office, PDF, obrazów i różnych innych formatów w aplikacjach .NET.",
+    "api_high_2_content": "Zwiększ możliwości aplikacji Java dzięki ekstrakcji danych z szerokiej gamy dokumentów i obrazów w dowolnym systemie operacyjnym z zainstalowanym pakietem JDK.",
+    "api_low_title": "GroupDocs.Parser Low Code Interfejsy API Uwzględnij",
+    "api_low_label": "Wyświetl wszystkie interfejsy API Low Code",
+    "api_low_1_content": "Pracuj z interfejsem API RESTpełnego analizowania dokumentów cURL, aby wyodrębniać dane ze wszystkich popularnych formatów dokumentów, w tym PDF, Word, Excel i obrazów.",
+    "api_low_2_content": "Z łatwością korzystaj z pełnego interfejsu API analizatora RESTz pakietem SDK .NET, aby wyodrębniać dane z wielu formatów dokumentów w aplikacjach .NET.",
+    "api_low_3_content": "Implementuj zaawansowane funkcje analizowania dokumentów w aplikacjach Java za pomocą specjalnie zaprojektowanego zestawu SDK do analizowania dokumentów dla Java.",
+    "api_nocode_title": "GroupDocs.Parser No Code Aplikacje obejmują",
+    "api_nocodelabel": "Wyświetl wszystkie aplikacje No Code",
+    "api_nocode_1_content": "Bezpłatna aplikacja online do analizowania dokumentów Word, Excel, PowerPoint, PDF i ponad 30 innych typów dokumentów.",
+    "api_nocode_2_content": "Analizuj dokumenty bezpośrednio w przeglądarce internetowej, aby wyodrębnić obrazy, tekst lub metadane.",
+    "api_nocode_3_content": "Bezpłatna aplikacja do analizowania danych PDF, która działa na dowolnej platformie i urządzeniu bez żadnych ograniczeń.",
+    "title_1": "Analizuj dokumenty",
+    "words_for": "Do",
+    "actions_alt": "Koncesjonowanie",
+    "actions_title": "Gotowy żeby zacząć?",
+    "actions_description": "Wypróbuj funkcje GroupDocs.Parser za darmo lub poproś o licencję",
+    "release_title": "Wydano wersję {0}",
+    "release_notes": "Zobacz co nowego",
+    "release_downloads": "Pliki do pobrania",
+    "code_more": "Więcej przykładów",
+    "overview_title": "GroupDocs.Parser Przegląd",
+    "platforms_title": "Niezależność platformy",
+    "formats_title": "Obsługiwane formaty plików",
+    "formats_groups": {
+      "title_1": "formaty Microsoft Office",
+      "title_2": "Obrazy i inne formaty",
+      "title_3": "Inne formaty",
+      "format_portable": "Portable",
+      "format_other_office": "Inne formaty biurowe",
+      "format_images": "Obrazy",
+      "format_web": "Sieć",
+      "format_archives": "Archiwa",
+      "format_ebooks": "E-booki"
+    },
+    "net": {
+      "title": "Natywny interfejs API .NET do analizowania dokumentów",
+      "title_2": "poprzez interfejs API .NET",
+      "actions_main": "Bezpłatne pobieranie NuGet",
+      "code": {
+        "title": "Wyodrębnij tekst z plików PDF w języku C#",
+        "instance": "Utwórz instancję klasy Parser",
+        "extract": "Wyodrębnij tekst do czytnika",
+        "print_1": "Wydrukuj tekst z dokumentu",
+        "print_2": "Jeśli wyodrębnianie tekstu nie jest obsługiwane, czytnik ma wartość null",
+        "not_supported": "Wyodrębnianie tekstu nie jest obsługiwane"
+      },
+      "overview_description": "API do wykonywania analizowania dokumentów w aplikacjach .NET",
+      "overview_feature_1": {
+        "title": "Wyodrębnij dane z dokumentów",
+        "description": "Interfejs API .NET umożliwia pobieranie tekstu, metadanych i obrazów z szerokiej gamy formatów plików, takich jak dokumenty pakietu Office, wiadomości e-mail, załączniki i archiwa. To potężne narzędzie pomaga efektywnie uzyskiwać dostęp do cennych informacji zawartych w tych plikach i je przetwarzać na potrzeby różnych zastosowań, takich jak analiza danych, indeksowanie w wyszukiwarkach czy systemy zarządzania treścią."
+      },
+      "overview_feature_2": {
+        "title": "Analizuj dokumenty",
+        "description": "Wyodrębnij różne elementy, takie jak hiperłącza, tabele, kody QR, kody kreskowe i dane z formularzy PDF. Analizuj także dowolne informacje z dokumentów, korzystając z niestandardowych szablonów."
+      },
+      "overview_feature_3": {
+        "title": "Dostosowywanie wyników",
+        "description": ".NET Interfejs API umożliwia pobieranie danych w różnych formatach, np. surowych, strukturalnych, HTML lub Markdown. Dodatkowo API oferuje funkcję wyszukiwania pozwalającą na odnalezienie określonych słów lub fraz w tekście dokumentów."
+      },
+      "features": {
+        "title": "Funkcje GroupDocs.Parser",
+        "description": "Szybko i dokładnie wyodrębniaj dane z PDF e-maili, dokumentów pakietu Office i obrazów.",
+        "feature_1": {
+          "title": "Wyodrębnij tekst",
+          "content": "Wyodrębniaj informacje tekstowe z różnych formatów plików, takich jak dokumenty biurowe, pliki PDF i obrazy, aby ułatwić ich czytelność i analizę."
+        },
+        "feature_2": {
+          "title": "Wyodrębnij obrazy",
+          "content": "Pobieraj treści wizualne z różnych źródeł, takich jak dokumenty biurowe i pliki, aby uzyskać wygodny dostęp i z nich korzystać."
+        },
+        "feature_3": {
+          "title": "Zeskanuj kody QR",
+          "content": "Wykrywaj i dekoduj kody QR znajdujące się w dokumentach biurowych, plikach PDF lub treściach wizualnych w celu wydajnego wyszukiwania informacji."
+        },
+        "feature_4": {
+          "title": "Wyodrębniaj dane z załączników i archiwów wiadomości e-mail",
+          "content": "Zbieraj cenne informacje z wiadomości e-mail, załączników plików i skompresowanych źródeł danych w celu skutecznej analizy i wykorzystania."
+        },
+        "feature_5": {
+          "title": "Wyodrębnij tabele",
+          "content": "Identyfikuj i wyodrębniaj dane tabelaryczne z dokumentów w celu zorganizowanej analizy i wykorzystania."
+        },
+        "feature_6": {
+          "title": "Wyodrębnij hiperłącza",
+          "content": "Znajdź i wyodrębnij hiperłącza i adresy e-mail w dokumentach biurowych lub plikach PDF, aby uzyskać do nich efektywny dostęp."
+        },
+        "feature_7": {
+          "title": "Przeanalizuj formularze",
+          "content": "PDF Formularze to dokumenty cyfrowe zawierające pola do wypełnienia, umożliwiające interakcję użytkownika, umożliwiające elektroniczne wprowadzanie informacji. Do wyodrębnienia danych z tych formularzy w celu wydajnego przetwarzania można wykorzystać interfejs API."
+        },
+        "feature_8": {
+          "title": "Analizuj dane według szablonów",
+          "content": "Twórz niestandardowe szablony i wykorzystuj je za pomocą interfejsu API .NET do analizowania określonych informacji z plików PDF, upraszczając procesy wyodrębniania danych."
+        },
+        "feature_9": {
+          "title": "Wyszukaj tekst w dokumentach",
+          "content": "Szybko lokalizuj określone słowa lub wzorce w dokumentach."
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for .NET obsługuje następujące systemy operacyjne, struktury i menedżery pakietów",
+      "formats_description": "GroupDocs.Parser for .NET obsługuje operacje na następujących [formatach plików] (https://docs.groupdocs.com/parser/net/supported-document-formats/).",
+      "code-samples": {
+        "title": "Próbka kodu",
+        "description": "Niektóre przypadki użycia typowych operacji",
+        "sample1": {
+          "header": "Wyodrębnij obrazy z dokumentów PDF",
+          "description": "Interfejs API .NET ułatwia programistom języka C# wyodrębnianie obrazów z dokumentów poprzez wykonanie kilku prostych kroków.",
+          "title": "Wyodrębnij obrazy z dokumentów PDF w języku C#",
+          "code": {
+            "header": "Wyodrębnij obrazy z dokumentów PDF przy użyciu interfejsu API GroupDocs.Parser",
+            "instance": "Utwórz instancję klasy Parser",
+            "extract": "Wyodrębnij obrazy",
+            "check_null": "Sprawdź, czy obsługiwana jest ekstrakcja obrazów",
+            "not_supported": "Wyodrębnianie obrazów nie jest obsługiwane",
+            "iterate": "Iteruj po obrazach",
+            "print": "Wydrukuj indeks strony, prostokąt i typ obrazu:"
+          }
+        },
+        "sample2": {
+          "header": "Wyodrębnij kody kreskowe z obrazów",
+          "description": "Interfejs API .NET ułatwia programistom języka C# wyodrębnianie kodów kreskowych z dokumentów poprzez wykonanie kilku prostych kroków.",
+          "title": "Wyodrębnij kody kreskowe z obrazów",
+          "code": {
+            "header": "Wyodrębnij kody kreskowe z dokumentów za pomocą interfejsu API GroupDocs.Parser",
+            "instance": "Utwórz instancję klasy Parser",
+            "check": "Sprawdź, czy plik obsługuje wyodrębnianie kodów kreskowych",
+            "not_supported": "Plik nie obsługuje wyodrębniania kodów kreskowych.",
+            "extract": "Wyodrębnij kody kreskowe z pliku.",
+            "iterate": "Iteruj po kodach kreskowych",
+            "print_page_index": "Wydrukuj indeks strony",
+            "print_value": "Wydrukuj wartość kodu kreskowego"
+          }
+        }
+      }
+    },
+    "java": {
+      "title": "Java API do analizowania dokumentów",
+      "title_2": "poprzez API Java",
+      "actions_main": "Bezpłatne pobieranie Mavena",
+      "code": {
+        "title": "Wyodrębnij tekst z plików PDF w Java",
+        "instance": "Utwórz instancję klasy Parser",
+        "extract": "Wyodrębnij tekst do czytnika",
+        "print_1": "Wydrukuj tekst z dokumentu",
+        "print_2": "Jeśli wyodrębnianie tekstu nie jest obsługiwane, czytnik ma wartość null",
+        "not_supported": "Wyodrębnianie tekstu nie jest obsługiwane"
+      },
+      "overview_description": "API do wykonywania analizowania dokumentów w aplikacjach Java",
+      "overview_feature_1": {
+        "title": "Wyodrębnij dane z dokumentów",
+        "description": "Interfejs API Java umożliwia pobieranie tekstu, metadanych i obrazów z szerokiej gamy formatów plików, takich jak dokumenty pakietu Office, wiadomości e-mail, załączniki i archiwa. To potężne narzędzie pomaga efektywnie uzyskiwać dostęp do cennych informacji zawartych w tych plikach i je przetwarzać na potrzeby różnych zastosowań, takich jak analiza danych, indeksowanie w wyszukiwarkach czy systemy zarządzania treścią."
+      },
+      "overview_feature_2": {
+        "title": "Analizuj dokumenty",
+        "description": "Wyodrębnij różne elementy, takie jak hiperłącza, tabele, kody QR, kody kreskowe i dane z formularzy PDF. Analizuj także dowolne informacje z dokumentów, korzystając z niestandardowych szablonów."
+      },
+      "overview_feature_3": {
+        "title": "Dostosowywanie wyników",
+        "description": "Interfejs API Java umożliwia pobieranie danych w różnych formatach, np. surowych, strukturalnych, HTML lub Markdown. Dodatkowo API oferuje funkcję wyszukiwania pozwalającą na odnalezienie określonych słów lub fraz w tekście dokumentów."
+      },
+      "features": {
+        "title": "Funkcje GroupDocs.Parser",
+        "description": "Szybko i dokładnie wyodrębniaj dane z PDF e-maili, dokumentów pakietu Office i obrazów.",
+        "feature_1": {
+          "title": "Wyodrębnij tekst",
+          "content": "Wyodrębniaj informacje tekstowe z różnych formatów plików, takich jak dokumenty biurowe, pliki PDF i obrazy, aby ułatwić ich czytelność i analizę."
+        },
+        "feature_2": {
+          "title": "Wyodrębnij obrazy",
+          "content": "Pobieraj treści wizualne z różnych źródeł, takich jak dokumenty biurowe i pliki, aby uzyskać wygodny dostęp i z nich korzystać."
+        },
+        "feature_3": {
+          "title": "Zeskanuj kody QR",
+          "content": "Wykrywaj i dekoduj kody QR znajdujące się w dokumentach biurowych, plikach PDF lub treściach wizualnych w celu wydajnego wyszukiwania informacji."
+        },
+        "feature_4": {
+          "title": "Wyodrębniaj dane z załączników i archiwów wiadomości e-mail",
+          "content": "Zbieraj cenne informacje z wiadomości e-mail, załączników plików i skompresowanych źródeł danych w celu skutecznej analizy i wykorzystania."
+        },
+        "feature_5": {
+          "title": "Wyodrębnij tabele",
+          "content": "Identyfikuj i wyodrębniaj dane tabelaryczne z dokumentów w celu zorganizowanej analizy i wykorzystania."
+        },
+        "feature_6": {
+          "title": "Wyodrębnij hiperłącza",
+          "content": "Znajdź i wyodrębnij hiperłącza i adresy e-mail w dokumentach biurowych lub plikach PDF, aby uzyskać do nich efektywny dostęp."
+        },
+        "feature_7": {
+          "title": "Przeanalizuj formularze",
+          "content": "PDF Formularze to dokumenty cyfrowe zawierające pola do wypełnienia, umożliwiające interakcję użytkownika, umożliwiające elektroniczne wprowadzanie informacji. Do wyodrębnienia danych z tych formularzy w celu wydajnego przetwarzania można wykorzystać interfejs API Java."
+        },
+        "feature_8": {
+          "title": "Analizuj dane według szablonów",
+          "content": "Twórz niestandardowe szablony i wykorzystuj je za pomocą interfejsu API Java do analizowania określonych informacji z plików PDF, upraszczając procesy wyodrębniania danych."
+        },
+        "feature_9": {
+          "title": "Wyszukaj tekst w dokumentach",
+          "content": "Szybko lokalizuj określone słowa lub wzorce w dokumentach."
+        }
+      },
+      "platforms_description": "GroupDocs.Parser for Java obsługuje następujące systemy operacyjne, frameworki i menedżery pakietów",
+      "formats_description": "GroupDocs.Parser for Java obsługuje operacje na następujących [formatach plików] (https://docs.groupdocs.com/parser/java/supported-document-formats/).",
+      "code-samples": {
+        "title": "Próbka kodu",
+        "description": "Niektóre przypadki użycia typowych operacji",
+        "sample1": {
+          "header": "Wyodrębnij obrazy z dokumentów PDF",
+          "description": "Interfejs API Java ułatwia programistom Java wyodrębnianie obrazów z dokumentów poprzez wykonanie kilku prostych kroków.",
+          "title": "Wyodrębnij obrazy z dokumentów PDF w Java",
+          "code": {
+            "header": "Wyodrębnij obrazy z dokumentów PDF przy użyciu interfejsu API GroupDocs.Parser",
+            "instance": "Utwórz instancję klasy Parser",
+            "extract": "Wyodrębnij obrazy",
+            "check_null": "Sprawdź, czy obsługiwana jest ekstrakcja obrazów",
+            "not_supported": "Wyodrębnianie obrazów nie jest obsługiwane",
+            "iterate": "Iteruj po obrazach",
+            "print": "Wydrukuj indeks strony, prostokąt i typ obrazu:"
+          }
+        },
+        "sample2": {
+          "header": "Wyodrębnij kody kreskowe z obrazów",
+          "description": "Interfejs API Java ułatwia programistom Java wyodrębnianie kodów kreskowych z dokumentów poprzez wykonanie kilku prostych kroków.",
+          "title": "Wyodrębnij kody kreskowe z obrazów",
+          "code": {
+            "header": "Wyodrębnij kody kreskowe z dokumentów za pomocą interfejsu API GroupDocs.Parser",
+            "instance": "Utwórz instancję klasy Parser",
+            "check": "Sprawdź, czy plik obsługuje wyodrębnianie kodów kreskowych",
+            "not_supported": "Plik nie obsługuje wyodrębniania kodów kreskowych.",
+            "extract": "Wyodrębnij kody kreskowe z pliku.",
+            "iterate": "Iteruj po kodach kreskowych",
+            "print_page_index": "Wydrukuj indeks strony",
+            "print_value": "Wydrukuj wartość kodu kreskowego"
+          }
+        }
+      }
+    }
+  }
+}

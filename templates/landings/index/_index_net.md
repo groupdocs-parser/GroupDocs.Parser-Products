@@ -227,14 +227,14 @@ code_samples:
         {{< landing/code title="<% "{index-content.net.code-samples.sample2.title}" %>">}}
         ```csharp {style=abap}   
         // <% "{index-content.net.code-samples.sample2.code.instance}" %>
-        using (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+        using (Parser parser = new Parser(filePath)) {
             // <% "{index-content.net.code-samples.sample2.code.check}" %>
             if (!parser.Features.Barcodes) {
                 Console.WriteLine("<% "{index-content.net.code-samples.sample2.code.not_supported}" %>");
                 return;
             }
 
-            // <% "{index-content.net.code-samples.sample2.code.scan}" %>
+            // <% "{index-content.net.code-samples.sample2.code.extract}" %>
             IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
 
             // <% "{index-content.net.code-samples.sample2.code.iterate}" %>

@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": ".NET API untuk Mengekstrak Kode Batang dari PDF, DOCX, PPTX, XLSX, EPUB & Lainnya",
+    "description": "GroupDocs.Parser .NET API memungkinkan pengembang perangkat lunak mengekstrak kode batang dari PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB dokumen di dalam .NET Apps."
+  },
+  "header": {
+    "title": "Ekstrak Barcode dari Excel, Word, PDF & PowerPoint Dokumen melalui C#.NET API",
+    "description": "GroupDocs.Parser .NET API memungkinkan pemrogram mengekstrak kode batang dari PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF & EPUB dokumen atau area halaman.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Bagaimana cara Mengekstrak Kode Batang dari {{EXT}} file {{ProductName}} API?",
+    "h1": "Barcode adalah representasi angka dan karakter yang dapat dibaca mesin yang umum digunakan di seluruh Dunia dalam banyak konteks, seperti pemindaian dan identifikasi produk, pelacakan suku cadang mobil, manajemen inventaris, dan sebagainya. {{ProductFullName}} adalah API andal yang membantu pengembang mengembangkan solusi untuk mengekstraksi teks, gambar, dan kode batang dari berbagai jenis format dokumen yang didukung, seperti format PDF, Email, Ebook, Microsoft Office: Word ({ 377}, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), format Email (EML, MSG) dan banyak lagi. {{ProductName}} API telah menyertakan dukungan untuk beberapa fitur penguraian dokumen tingkat lanjut seperti menelusuri teks dengan kata kunci, ekstraksi teks akurat, ekstraksi teks berformat HTML atau Markdown, ekstraksi area teks dengan koordinat, mengekstrak metadata atau kode batang, dan sebagainya."
+  },
+  "steps": {
+    "title_left": "Ekstrak kode batang dari {{EXT}} di {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) memudahkan pengembang {{ProgLang}} untuk mengekstrak kode batang dari file {{EXT}} dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Membuat instance objek [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) untuk dokumen awal;",
+      "step_2": "Periksa apakah file tersebut mendukung ekstraksi kode batang;",
+      "step_3": "Panggil metode [GetBarcodes](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getbarcodes) dan dapatkan kumpulan [PageBarcodeArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagebarcodearea) objek;",
+      "step_4": "Iterasi melalui koleksi dan dapatkan nilai barcode."
+    },
+    "title_right": "Pelajari lebih lanjut tentang ekstraksi kode batang",
+    "content_right": {
+      "step_1": "Cara mengekstrak barcode dari dokumen",
+      "step_2": "Cara mengekstrak kode batang dari halaman dokumen",
+      "step_3": "Cara mengekstrak barcode dari area halaman dokumen"
+    },
+    "title_code": "Cara mengekstrak kode batang dari file {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "header": "Ekstrak kode batang dari file {{EXT}} menggunakan GroupDocs.Parser API",
+      "instance": "Buat instance kelas Parser",
+      "check": "Periksa apakah file mendukung ekstraksi kode batang",
+      "not_supported": "File tidak mendukung ekstraksi kode batang.",
+      "extract": "Ekstrak barcode dari file.",
+      "iterate": "Ulangi kode batang",
+      "print_page_index": "Cetak indeks halaman",
+      "print_value": "Cetak nilai barcode"
+    }
+  },
+  "more": {
+    "title_left": "Persyaratan sistem",
+    "content_left": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_right": "Mengapa Menggunakan {{ProductFullName}}",
+    "content_right": {
+      "p1": "Dukungan ekstraksi teks biasa dari dokumen yang didukung",
+      "p2": "Penguraian dokumen melalui templat yang ditentukan pengguna",
+      "p3": "Sepenuhnya mendukung ekstraksi teks terstruktur",
+      "p4": "Pencarian teks melalui kata kunci serta ekspresi reguler",
+      "p5": "Ekstrak teks yang diformat, metadata, gambar, wadah, dan lampiran",
+      "p6": "Ekstrak daftar isi untuk beberapa format dokumen yang didukung",
+      "p7": "Mengurai data formulir dari PDF dokumen",
+      "p8": "Ekstrak hyperlink dari dokumen"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung - Ekstrak kode batang dari dokumen Online",
+    "h1": "Ekstrak kode batang dari dokumen sekarang juga dengan mengunjungi situs web [GroupDocs.Parser Demo Langsung](https://products.groupdocs.app/parser/barcodes/).",
+    "h2": "Demo langsung memiliki manfaat berikut."
+  },
+  "more_formats": {
+    "title": "Ekstrak Barcode Dari Format Dokumen Lain",
+    "content": "{{ProductName}} API penguraian dokumen & kode batang untuk format file dan gambar. Ekstrak data untuk beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

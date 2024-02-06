@@ -1,0 +1,80 @@
+{
+  "head": {
+    "title": ".NET 用于从 PDF、DOCX、PPTX、XLSX、EPUB 等提取条形码的 API",
+    "description": "GroupDocs.Parser .NET API 允许软件开发者从 PDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、 .NET 个应用内的 CSV、ODT、RTF 和 EPUB 文档。"
+  },
+  "header": {
+    "title": "通过 C#.NET API 从 Excel、Word、PDF 和 PowerPoint 文档中提取条形码",
+    "description": "GroupDocs.Parser .NET API 允许程序员从 PDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV 中提取条形码、ODT、RTF 和 EPUB 文档或页面区域。",
+    "button_label": "下载免费试用版"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API参考",
+      "button_text_2": "代码示例",
+      "button_text_3": "现场演示",
+      "button_text_4": "价钱"
+    }
+  },
+  "about": {
+    "title": "如何从{{EXT}}文件{{ProductName}} API中提取条形码？",
+    "h1": "条形码是数字和字符的机器可读表示形式，在世界各地的许多环境中普遍使用，例如产品扫描和识别、汽车零部件跟踪、库存管理等。 {{ProductFullName}} 是一个功能强大的 API，可帮助开发者开发从不同类型的受支持文档格式（例如 PDF、电子邮件、电子书、Microsoft Office 格式）中提取文本、图像和条形码的解决方案：Word ({ 377}、DOCX)、PowerPoint (PPT、PPTX)、Excel (XLS、XLSX)、电子邮件 (EML、MSG) 格式等等。 {{ProductName}} API 支持多种高级文档解析功能，例如按关键字搜索文本、准确的文本提取、HTML 或 Markdown 格式的文本提取、带坐标的文本区域提取、提取元数据或条形码等。"
+  },
+  "steps": {
+    "title_left": "从{{ProductName}}中的{{EXT}}中提取条形码",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/parser/{{ProductCode}}/) 让 {{ProgLang}} 开发者只需执行几个简单的步骤即可轻松从 {{EXT}} 文件中提取条形码。",
+      "step_1": "实例化初始文档的 [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) 对象；",
+      "step_2": "检查文件是否支持条码提取；",
+      "step_3": "调用 [GetBarcodes](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getbarcodes) 方法并获取  的集合 [PageBarcodeArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagebarcodearea) 对象；",
+      "step_4": "迭代集合并获取条形码值。"
+    },
+    "title_right": "了解有关条形码提取的更多信息",
+    "content_right": {
+      "step_1": "如何从文档中提取条形码",
+      "step_2": "如何从文档页面中提取条形码",
+      "step_3": "如何从文档页面区域提取条形码"
+    },
+    "title_code": "如何使用 {{ProgLang}} 示例代码从 {{EXT}} 文件中提取条形码",
+    "code": {
+      "header": "使用 GroupDocs.Parser API 从 {{EXT}} 文件中提取条形码",
+      "instance": "创建 Parser 类的实例",
+      "check": "检查文件是否支持条形码提取",
+      "not_supported": "该文件不支持条形码提取。",
+      "extract": "从文件中提取条形码。",
+      "iterate": "迭代条形码",
+      "print_page_index": "打印页面索引",
+      "print_value": "打印条形码值"
+    }
+  },
+  "more": {
+    "title_left": "系统要求",
+    "content_left": {
+      "description": "{{ProductFullName}} 所有主要平台和操作系统均支持 API。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "构架",
+      "step_4": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    },
+    "title_right": "为什么使用{{ProductFullName}}",
+    "content_right": {
+      "p1": "支持从任何支持的文档中提取纯文本",
+      "p2": "通过用户定义的模板解析文档",
+      "p3": "全面支持结构化文本提取",
+      "p4": "通过关键字和正则表达式进行文本搜索",
+      "p5": "提取格式化文本、元数据、图像、容器和附件",
+      "p6": "提取某些支持的文档格式的目录",
+      "p7": "从 PDF 文档解析表单数据",
+      "p8": "从文档中提取超链接"
+    }
+  },
+  "demos": {
+    "title": "现场演示 - 在线从文档中提取条形码",
+    "h1": "立即访问 [GroupDocs.Parser 现场演示](https://products.groupdocs.app/parser/barcodes/) 网站，从文档中提取条形码。",
+    "h2": "现场演示有以下好处。"
+  },
+  "more_formats": {
+    "title": "从其他文档格式中提取条形码",
+    "content": "{{ProductName}} 针对文件格式和图像的文档解析和条形码提取 API。提取一些流行文件格式的数据，如下所述。"
+  }
+}
