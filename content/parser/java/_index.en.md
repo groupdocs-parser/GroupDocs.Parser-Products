@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-03T08:11:54
+date: 2024-02-13T17:01:03
 draft: false
 #operation: 
 #parsertype: 
 #fileformat: 
 #productName: Java
-lang: en
+lang: "en"
 #productCode: java
 #otherformats: 
 #breadcrumb: Put  parser on  for Java
@@ -52,19 +52,15 @@ code:
   content: |
     ```java {style=abap}  
     // Create an instance of Parser class
-    try (Parser parser = new Parser(filePath)) {
+    try (Parser parser = new Parser(fileName)) {
         // Extract a text into the reader
         try (TextReader reader = parser.getText()) {
             // Print a text from the document
-            // If text extraction isn't supported, a reader is null
-            if (reader == null) {
-              System.out.println("Text extraction isn't supported");
-            }
-            else {
-              System.out.println(reader.readToEnd()); 
-            }
+            System.out.println(reader == null 
+                    ? "" 
+                    : reader.readToEnd());
         }
-    }    
+    } 
     ```
 
 ############################# Overview ############################
@@ -185,12 +181,12 @@ features:
     # feature loop
     - icon: "pdf"
       title: "Parse PDF Forms"
-      content: "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. .NET API can be utilized to extract data from these forms for efficient processing."
+      content: "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. Java API can be utilized to extract data from these forms for efficient processing."
 
     # feature loop
     - icon: "template"
       title: "Parse data by templates"
-      content: "Create custom templates and utilize them with .NET API to parse specific information from PDF files, simplifying data extraction processes."
+      content: "Create custom templates and utilize them with Java API to parse specific information from PDF files, simplifying data extraction processes."
 
     # feature loop
     - icon: "search"
@@ -210,18 +206,17 @@ code_samples:
         {{< landing/code title="Extract images from PDF documents in Java">}}
         ```java {style=abap}
         // Create an instance of Parser class
-        try (Parser parser = new Parser(filePath)) {
+        try (Parser parser = new Parser(fileName)) {
             // Extract images
             Iterable<PageImageArea> images = parser.getImages();
             // Check if images extraction is supported
-            if (images == null) {
-                System.out.println("Images extraction isn't supported");
-                return;
-            }
-            // Iterate over images
-            for (PageImageArea image : images) {
-                // Print a page index, rectangle and image type:
-                System.out.println(String.format("Page: %d, R: %s, Type: %s", image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
+            if (images != null) {
+                int imageIndex = 0;
+                // Iterate over images
+                for (PageImageArea image : images) {
+                    // Save the image to the file
+                    image.save(String.format("%s%s", imageIndex, image.getFileType().getExtension()));
+                }
             }
         }
         ```
@@ -233,22 +228,18 @@ code_samples:
         {{< landing/code title="Extract barcodes from images">}}
         ```java {style=abap}   
         // Create an instance of Parser class
-        try (Parser parser = new Parser(filePath)) {
+        try (Parser parser = new Parser(fileName)) {
             // // Check if the file supports barcode extracting
             if (!parser.getFeatures().isBarcodes()) {
-                System.out.println("The file doesn't support barcode extracting.");
-                return;
-            }
-
-            // Extract barcodes from the file.
-            Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
-
-            // Iterate over barcodes
-            for (PageBarcodeArea barcode : barcodes) {
-                // Print the page index
-                System.out.println("Page: " + barcode.getPage().getIndex());
-                // Print the barcode value
-                System.out.println("Value: " + barcode.getValue());
+                // Extract barcodes from the file.
+                Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
+                // Iterate over barcodes
+                for (PageBarcodeArea barcode : barcodes) {
+                    // Print the page index
+                    System.out.println("Page: " + barcode.getPage().getIndex());
+                    // Print the barcode value
+                    System.out.println("Value: " + barcode.getValue());
+                }
             }
         }
         ```

@@ -7,7 +7,7 @@ draft: false
 #parsertype: <% get "Parsertype" %>
 #fileformat: <% get "Fileformat" %>
 #productName: <% get "ProductName" %>
-lang: <% lower ( get "lang") %>
+lang: "<% lower ( get "lang") %>"
 #productCode: <% lower ( get "ProductCode") %>
 #otherformats: <% get "OtherFormats" %>
 #breadcrumb: Put <% get "Parsertype" %> parser on <% get "Fileformat" %> for <% get "ProgLang" %>
@@ -51,20 +51,16 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // <% "{index-content.java.code.instance}" %>
-    try (Parser parser = new Parser(filePath)) {
-        // <% "{index-content.java.code.extract}" %>
+    // Create an instance of Parser class
+    try (Parser parser = new Parser(fileName)) {
+        // Extract a text into the reader
         try (TextReader reader = parser.getText()) {
-            // <% "{index-content.java.code.print_1}" %>
-            // <% "{index-content.java.code.print_2}" %>
-            if (reader == null) {
-              System.out.println("<% "{index-content.java.code.not_supported}" %>");
-            }
-            else {
-              System.out.println(reader.readToEnd()); 
-            }
+            // Print a text from the document
+            System.out.println(reader == null 
+                    ? "" 
+                    : reader.readToEnd());
         }
-    }    
+    } 
     ```
 
 ############################# Overview ############################
@@ -154,53 +150,53 @@ features:
   items:
     # feature loop
     - icon: "text"
-      title: "<% "{index-content.net.features.feature_1.title}" %>"
-      content: "<% "{index-content.net.features.feature_1.content}" %>"
+      title: "<% "{index-content.java.features.feature_1.title}" %>"
+      content: "<% "{index-content.java.features.feature_1.content}" %>"
 
     # feature loop
     - icon: "image"
-      title: "<% "{index-content.net.features.feature_2.title}" %>"
-      content: "<% "{index-content.net.features.feature_2.content}" %>"
+      title: "<% "{index-content.java.features.feature_2.title}" %>"
+      content: "<% "{index-content.java.features.feature_2.content}" %>"
 
     # feature loop
     - icon: "qr"
-      title: "<% "{index-content.net.features.feature_3.title}" %>"
-      content: "<% "{index-content.net.features.feature_3.content}" %>"
+      title: "<% "{index-content.java.features.feature_3.title}" %>"
+      content: "<% "{index-content.java.features.feature_3.content}" %>"
 
     # feature loop
     - icon: "email"
-      title: "<% "{index-content.net.features.feature_4.title}" %>"
-      content: "<% "{index-content.net.features.feature_4.content}" %>"
+      title: "<% "{index-content.java.features.feature_4.title}" %>"
+      content: "<% "{index-content.java.features.feature_4.content}" %>"
 
     # feature loop
     - icon: "table"
-      title: "<% "{index-content.net.features.feature_5.title}" %>"
-      content: "<% "{index-content.net.features.feature_5.content}" %>"
+      title: "<% "{index-content.java.features.feature_5.title}" %>"
+      content: "<% "{index-content.java.features.feature_5.content}" %>"
 
     # feature loop
     - icon: "hyperlink"
-      title: "<% "{index-content.net.features.feature_6.title}" %>"
-      content: "<% "{index-content.net.features.feature_6.content}" %>"
+      title: "<% "{index-content.java.features.feature_6.title}" %>"
+      content: "<% "{index-content.java.features.feature_6.content}" %>"
 
     # feature loop
     - icon: "pdf"
-      title: "<% "{index-content.net.features.feature_7.title}" %>"
-      content: "<% "{index-content.net.features.feature_7.content}" %>"
+      title: "<% "{index-content.java.features.feature_7.title}" %>"
+      content: "<% "{index-content.java.features.feature_7.content}" %>"
 
     # feature loop
     - icon: "template"
-      title: "<% "{index-content.net.features.feature_8.title}" %>"
-      content: "<% "{index-content.net.features.feature_8.content}" %>"
+      title: "<% "{index-content.java.features.feature_8.title}" %>"
+      content: "<% "{index-content.java.features.feature_8.content}" %>"
 
     # feature loop
     - icon: "search"
-      title: "<% "{index-content.net.features.feature_9.title}" %>"
-      content: "<% "{index-content.net.features.feature_9.content}" %>"
+      title: "<% "{index-content.java.features.feature_9.title}" %>"
+      content: "<% "{index-content.java.features.feature_9.content}" %>"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "<% "{index-content.net.code-samples.title}" %>"
+  title: "<% "{index-content.java.code-samples.title}" %>"
   description: "<% "{index-content.java.code-samples.description}" %>"
   items:
     # code sample loop
@@ -209,19 +205,18 @@ code_samples:
         <% "{index-content.java.code-samples.sample1.description}" %>
         {{< landing/code title="<% "{index-content.java.code-samples.sample1.title}" %>">}}
         ```java {style=abap}
-        // <% "{index-content.java.code-samples.sample1.code.instance}" %>
-        try (Parser parser = new Parser(filePath)) {
-            // <% "{index-content.java.code-samples.sample1.code.extract}" %>
+        // Create an instance of Parser class
+        try (Parser parser = new Parser(fileName)) {
+            // Extract images
             Iterable<PageImageArea> images = parser.getImages();
-            // <% "{index-content.java.code-samples.sample1.code.check_null}" %>
-            if (images == null) {
-                System.out.println("<% "{index-content.java.code-samples.sample1.code.not_supported}" %>");
-                return;
-            }
-            // <% "{index-content.java.code-samples.sample1.code.iterate}" %>
-            for (PageImageArea image : images) {
-                // <% "{index-content.java.code-samples.sample1.code.print}" %>
-                System.out.println(String.format("Page: %d, R: %s, Type: %s", image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
+            // Check if images extraction is supported
+            if (images != null) {
+                int imageIndex = 0;
+                // Iterate over images
+                for (PageImageArea image : images) {
+                    // Save the image to the file
+                    image.save(String.format("%s%s", imageIndex, image.getFileType().getExtension()));
+                }
             }
         }
         ```
@@ -232,23 +227,19 @@ code_samples:
         <% "{index-content.java.code-samples.sample2.description}" %>
         {{< landing/code title="<% "{index-content.java.code-samples.sample2.title}" %>">}}
         ```java {style=abap}   
-        // <% "{index-content.java.code-samples.sample2.code.instance}" %>
-        try (Parser parser = new Parser(filePath)) {
-            // // <% "{index-content.java.code-samples.sample2.code.check}" %>
+        // Create an instance of Parser class
+        try (Parser parser = new Parser(fileName)) {
+            // // Check if the file supports barcode extracting
             if (!parser.getFeatures().isBarcodes()) {
-                System.out.println("<% "{index-content.java.code-samples.sample2.code.not_supported}" %>");
-                return;
-            }
-
-            // <% "{index-content.java.code-samples.sample2.code.extract}" %>
-            Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
-
-            // <% "{index-content.java.code-samples.sample2.code.iterate}" %>
-            for (PageBarcodeArea barcode : barcodes) {
-                // <% "{index-content.java.code-samples.sample2.code.print_page_index}" %>
-                System.out.println("Page: " + barcode.getPage().getIndex());
-                // <% "{index-content.java.code-samples.sample2.code.print_value}" %>
-                System.out.println("Value: " + barcode.getValue());
+                // Extract barcodes from the file.
+                Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
+                // Iterate over barcodes
+                for (PageBarcodeArea barcode : barcodes) {
+                    // Print the page index
+                    System.out.println("Page: " + barcode.getPage().getIndex());
+                    // Print the barcode value
+                    System.out.println("Value: " + barcode.getValue());
+                }
             }
         }
         ```

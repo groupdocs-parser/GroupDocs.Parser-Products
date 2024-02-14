@@ -4,6 +4,9 @@
     "head_description": "Uzyskaj kompleksowe rozwiązanie do analizowania dokumentów dla aplikacji .NET, Java i opartych na chmurze. Wyodrębnij dane z formatów dokumentów online za pomocą prostej funkcji przeciągania i upuszczania",
     "title": "Rozwiązanie do analizy dokumentów",
     "description": "Wyodrębniaj dane z dokumentów i obrazów na dowolnej platformie, korzystając z naszych elastycznych interfejsów API i rozwiązań opartych na aplikacjach dla programistów i użytkowników końcowych.",
+    "description_1": "Solidne API do ekstrakcji danych z różnych formatów plików.",
+    "description_2": "Analizuj dokumenty przy minimalnym wysiłku związanym z kodowaniem.",
+    "description_3": "Dostosuj wyniki analizowania.",
     "api_high_title": "GroupDocs.Parser High Code Interfejsy API Uwzględnij",
     "api_high_label": "Wyświetl wszystkie interfejsy API High Code",
     "api_high_1_content": "Natywny interfejs API .NET do wyodrębniania tekstu, obrazów, metadanych z Microsoft Office, PDF, obrazów i różnych innych formatów w aplikacjach .NET.",
@@ -29,6 +32,9 @@
     "code_more": "Więcej przykładów",
     "overview_title": "GroupDocs.Parser Przegląd",
     "platforms_title": "Niezależność platformy",
+    "actions_description_index": "Wypróbuj bezpłatnie funkcje GroupDocs.Parser na swojej platformie",
+    "formats_title_index": "Obsługiwanych jest ponad 50 formatów plików",
+    "formats_description_index": "GroupDocs.Parser umożliwia operacje parsera w różnych rodzinach formatów.",
     "formats_title": "Obsługiwane formaty plików",
     "formats_groups": {
       "title_1": "formaty Microsoft Office",
@@ -40,6 +46,111 @@
       "format_web": "Sieć",
       "format_archives": "Archiwa",
       "format_ebooks": "E-booki"
+    },
+    "features": {
+      "title": "GroupDocs.Parser w skrócie",
+      "description": "API do analizowania danych w PDF, Word, Excel i nie tylko.",
+      "feature_1": {
+        "title": "Wyodrębnij tekst",
+        "content": "Wyodrębnij informacje tekstowe z różnych formatów plików."
+      },
+      "feature_2": {
+        "title": "Wyodrębnij obrazy",
+        "content": "Pobieraj treści wizualne z różnych źródeł."
+      },
+      "feature_3": {
+        "title": "Analizuj dane według szablonów",
+        "content": "Twórz niestandardowe szablony i wykorzystuj je do analizowania określonych informacji."
+      },
+      "feature_4": {
+        "title": "Przeanalizuj formularze",
+        "content": "PDF Formularze to dokumenty cyfrowe zawierające pola do wypełnienia, umożliwiające interakcję użytkownika."
+      }
+    },
+    "metrics": {
+      "title": "Szczegółowe wskaźniki i statystyki",
+      "description": "Zapoznaj się z dogłębną analizą naszych kluczowych danych liczbowych, oferując kompleksowe wskaźniki i wgląd w statystyki dotyczące naszych osiągnięć, wpływu i ekspansji.",
+      "item_1": {
+        "title": "Obsługiwane formaty",
+        "description": "Interfejs API obsługuje ponad 50 najczęściej używanych formatów plików i dokumentów."
+      },
+      "item_2": {
+        "title": "NuGet pobrań",
+        "description": "Aplikacja GroupDocs.Parser for .NET została pobrana ponad 800 000 za pośrednictwem menedżera pakietów NuGet."
+      },
+      "item_3": {
+        "title": "Pobieranie Mavena",
+        "description": "GroupDocs.Parser for Java zgromadził ponad 15 000 pobrań z naszego repozytorium Maven."
+      }
+    },
+    "customers": {
+      "title": "Nasi zadowoleni klienci",
+      "description": "Biblioteki GroupDocs są zatrudniane przez znane i cenione na całym świecie marki."
+    },
+    "platforms": {
+      "title": "Niezależność platformy",
+      "head_title": "Wybierz swoją platformę",
+      "description": "Biblioteka GroupDocs.Parser obsługuje następujące systemy operacyjne i frameworki:",
+      "learn_more": "Ucz się więcej"
+    },
+    "faq": {
+      "title": "Często Zadawane Pytania",
+      "description": "Odpowiedzi na najczęściej zadawane pytania.",
+      "item_1": {
+        "question": "Czy biblioteka GroupDocs.Parser potrzebuje innego oprogramowania innej firmy do manipulowania dokumentami?",
+        "answer": "GroupDocs.Parser nie wymaga instalowania żadnego zewnętrznego oprogramowania, takiego jak Adobe Acrobat, Microsoft Office ani żadnego innego."
+      },
+      "item_2": {
+        "question": "Czy mogę wypróbować bibliotekę GroupDocs.Parser przed jej zakupem?",
+        "answer": "Tak, możesz wypróbować GroupDocs.Parser bez kupowania licencji. Po zainstalowaniu bez licencji biblioteka działa w trybie próbnym. W tym trybie do powstałego dokumentu dodawane są plakietki próbne, które są przycinane do pierwszych 3 stron. Jeśli chcesz przetestować GroupDocs.Parser bez ograniczeń wersji próbnej, możesz także poprosić o 30-dniową licencję tymczasową. Więcej szczegółów znajdziesz w [purchase.groupdocs.com/temporary-license/](https://purchase.groupdocs.com/temporary-license/)"
+      },
+      "item_3": {
+        "question": "Jakie posiadasz licencje?",
+        "answer": "Oferujemy kilka typów licencji dostosowanych do potrzeb konkretnych programistów lub firm. Rodzaje licencji zależą od liczby programistów, liczby lokalizacji witryn programistów i tego, czy musisz dostarczać nasz SDK/API swoim klientom końcowym. Alternatywnie możesz wybrać licencje licznikowe oparte na miesięcznym wykorzystaniu produktu. Dowiedz się więcej na [purchase.groupdocs.com/policies/](https://purchase.groupdocs.com/policies/)"
+      }
+    },
+    "cloud_links": {
+      "title": "GroupDocs.Parser interfejsy API o niskim kodzie",
+      "description": "Włącz funkcje analizatora dokumentów do dowolnej aplikacji, korzystając z naszego interfejsu API opartego na chmurze REST.",
+      "item_1": {
+        "content": "Polecenia cURL dla RESTpełnego parsera dokumentów Cloud API do analizowania dokumentów w szerokim zakresie obsługiwanych popularnych formatów plików."
+      },
+      "item_2": {
+        "content": "Wyodrębniaj obrazy, tekst, informacje o dokumentach, a nawet analizuj dowolny dokument według szablonu zdefiniowanego przez użytkownika w aplikacjach Microsoft .NET."
+      },
+      "item_3": {
+        "content": "Cloud SDK dla programistów Java do analizowania dokumentów, wyodrębniania informacji o dokumentach i danych w aplikacjach opartych na Java."
+      }
+    },
+    "app_links": {
+      "title": "GroupDocs.Parser Aplikacje NoCode",
+      "description": "Aplikacja internetowa umożliwiająca analizę ponad 50 popularnych formatów plików bezpośrednio w przeglądarce.",
+      "item_1": {
+        "content": "Bezpłatna aplikacja online do analizowania dokumentów Word, Excel, PowerPoint, PDF i ponad 30 innych typów dokumentów."
+      },
+      "item_2": {
+        "content": "Analizuj dokumenty bezpośrednio w przeglądarce internetowej, aby wyodrębnić obrazy, tekst lub metadane."
+      },
+      "item_3": {
+        "content": "Bezpłatna aplikacja do analizowania danych PDF, która działa na dowolnej platformie i urządzeniu bez żadnych ograniczeń."
+      }
+    },
+    "code_samples": {
+      "title": "GroupDocs.Parser próbki kodu",
+      "description": "Niektóre przypadki użycia typowych operacji GroupDocs.Parser w językach C# i Java.",
+      "sample1": {
+        "title": "Jak wyodrębnić tekst z dokumentów PDF",
+        "description": "Interfejs API GroupDocs.Parser ułatwia programistom języka C# wyodrębnianie tekstu z dokumentów poprzez wykonanie kilku prostych kroków.",
+        "code": {
+          "header": "Wyodrębnij obrazy z dokumentów PDF przy użyciu interfejsu API GroupDocs.Parser",
+          "instance": "Utwórz instancję klasy Parser",
+          "extract": "Wyodrębnij obrazy",
+          "check_null": "Sprawdź, czy obsługiwana jest ekstrakcja obrazów",
+          "not_supported": "Wyodrębnianie obrazów nie jest obsługiwane",
+          "iterate": "Iteruj po obrazach",
+          "print": "Wydrukuj indeks strony, prostokąt i typ obrazu:"
+        }
+      }
     },
     "net": {
       "title": "Natywny interfejs API .NET do analizowania dokumentów",

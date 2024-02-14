@@ -4,6 +4,9 @@
     "head_description": ".NET、Java、およびクラウドベースのアプリケーション向けのオールインワンの文書解析ソリューションを入手します。シンプルなドラッグ アンド ドロップ機能を使用してオンラインでドキュメント形式からデータを抽出します",
     "title": "文書解析ソリューション",
     "description": "プログラマーとエンドユーザー向けの柔軟な API とアプリベースのソリューションを使用して、あらゆるプラットフォーム上のドキュメントや画像からデータを抽出します。",
+    "description_1": "さまざまなファイル形式からデータを抽出するための堅牢な API。",
+    "description_2": "最小限のコーディング作業でドキュメントを解析します。",
+    "description_3": "解析結果をカスタマイズします。",
     "api_high_title": "GroupDocs.Parser High Code API には以下が含まれます",
     "api_high_label": "すべての High Code API を表示",
     "api_high_1_content": ".NET アプリケーションの Microsoft Office、PDF、画像、その他のさまざまな形式からテキスト、画像、メタデータを抽出するネイティブ .NET API。",
@@ -29,17 +32,125 @@
     "code_more": "他の例",
     "overview_title": "GroupDocs.Parser 概要",
     "platforms_title": "プラットフォームの独立性",
+    "actions_description_index": "お使いのプラットフォームで GroupDocs.Parser 機能を無料でお試しください",
+    "formats_title_index": "50以上のファイル形式をサポート",
+    "formats_description_index": "GroupDocs.Parser により、さまざまな形式ファミリー内でのパーサー操作が可能になります。",
     "formats_title": "サポートされているファイル形式",
     "formats_groups": {
       "title_1": "Microsoft Office 形式",
       "title_2": "画像とその他の形式",
-      "title_3": "その他のフォーマット",
+      "title_3": "その他の形式",
       "format_portable": "Portable",
       "format_other_office": "その他のオフィス形式",
       "format_images": "画像",
       "format_web": "ウェブ",
       "format_archives": "アーカイブ",
       "format_ebooks": "電子書籍"
+    },
+    "features": {
+      "title": "GroupDocs.Parser の概要",
+      "description": "PDF、Word、Excel などのデータ解析用の API。",
+      "feature_1": {
+        "title": "テキストを抽出する",
+        "content": "さまざまなファイル形式からテキスト情報を抽出します。"
+      },
+      "feature_2": {
+        "title": "画像の抽出",
+        "content": "さまざまなソースからビジュアル コンテンツを取得します。"
+      },
+      "feature_3": {
+        "title": "テンプレートによるデータの解析",
+        "content": "カスタム テンプレートを作成し、それを利用して特定の情報を解析します。"
+      },
+      "feature_4": {
+        "title": "PDF フォームを解析する",
+        "content": "PDF フォームは、ユーザー操作のための入力可能なフィールドを備えたデジタル ドキュメントです。"
+      }
+    },
+    "metrics": {
+      "title": "詳細な指標と統計的洞察",
+      "description": "当社の主要な数値を徹底的に分析し、当社の業績、影響力、拡大に関する包括的な指標と統計的洞察を提供します。",
+      "item_1": {
+        "title": "サポートされている形式",
+        "description": "API は、最も広く使用されている 50 以上のファイルおよびドキュメント形式に対応しています。"
+      },
+      "item_2": {
+        "title": "NuGet ダウンロード",
+        "description": "GroupDocs.Parser for .NET は、NuGet パッケージ マネージャーを通じて 80 万件を超えるダウンロードを受け取りました。"
+      },
+      "item_3": {
+        "title": "Mavenのダウンロード",
+        "description": "GroupDocs.Parser for Java は、Maven リポジトリからの累計ダウンロード数が 15,000 を超えています。"
+      }
+    },
+    "customers": {
+      "title": "幸せなお客様",
+      "description": "GroupDocs ライブラリは、世界中の世界的に有名な著名なブランドによって採用されています。"
+    },
+    "platforms": {
+      "title": "プラットフォームの独立性",
+      "head_title": "プラットフォームを選択してください",
+      "description": "GroupDocs.Parser ライブラリは、次のオペレーティング システムとフレームワークをサポートしています。",
+      "learn_more": "もっと詳しく知る"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "よくある質問への回答。",
+      "item_1": {
+        "question": "GroupDocs.Parser ライブラリでは、ドキュメントを操作するために他のサードパーティ ソフトウェアが必要ですか?",
+        "answer": "GroupDocs.Parser では、Adobe Acrobat、Microsoft Office などの外部ソフトウェアをインストールする必要はありません。"
+      },
+      "item_2": {
+        "question": "GroupDocs.Parser ライブラリを購入する前に試すことはできますか?",
+        "answer": "はい、ライセンスを購入せずに GroupDocs.Parser を試すことができます。ライセンスなしでインストールすると、ライブラリは試用モードで動作します。このモードでは、結果のドキュメントにトライアルバッジが追加され、最初の 3 ページがトリミングされます。試用版の制限なしで GroupDocs.Parser をテストしたい場合は、30 日間の一時ライセンスをリクエストすることもできます。詳細については、を参照してください。 [purchase.groupdocs.com/temporary-license/](https://purchase.groupdocs.com/temporary-license/)"
+      },
+      "item_3": {
+        "question": "どのようなライセンスを持っていますか?",
+        "answer": "特定の開発者や企業のニーズに合わせて、いくつかのライセンス タイプを提供しています。ライセンスの種類は、開発者の数、開発者サイトの場所の数、および SDK/API をエンド顧客に提供する必要があるかどうかによって異なります。あるいは、製品の毎月の使用量に基づいて従量制ライセンスを選択することもできます。詳細については、こちらをご覧ください [purchase.groupdocs.com/policies/](https://purchase.groupdocs.com/policies/)"
+      }
+    },
+    "cloud_links": {
+      "title": "GroupDocs.Parser ローコード API",
+      "description": "クラウドベースの REST API を使用して、ドキュメント パーサー機能を任意のアプリケーションに組み込みます。",
+      "item_1": {
+        "content": "RESTサポートされている一般的なファイル形式の幅広いドキュメントを解析するためのフル ドキュメント パーサー Cloud API 用の cURL コマンド。"
+      },
+      "item_2": {
+        "content": "Microsoft .NET アプリケーションのユーザー定義テンプレートによって、画像、テキスト、ドキュメント情報を抽出したり、ドキュメントを解析したりすることもできます。"
+      },
+      "item_3": {
+        "content": "Java 開発者がドキュメントを解析し、Java ベースのアプリケーション内のドキュメント情報とデータを抽出するための Cloud SDK。"
+      }
+    },
+    "app_links": {
+      "title": "GroupDocs.Parser NoCode アプリ",
+      "description": "50 を超える一般的なファイル形式の解析をブラウザで直接実行できる Web ベースのアプリケーション。",
+      "item_1": {
+        "content": "Word、Excel、PowerPoint、PDF など 30 種類以上のドキュメント タイプを解析する無料のオンライン アプリ。"
+      },
+      "item_2": {
+        "content": "Web ブラウザから直接 Word ドキュメントを解析して、画像、テキスト、またはメタデータを抽出します。"
+      },
+      "item_3": {
+        "content": "無料の PDF 解析アプリは、あらゆるプラットフォームやデバイスで制限なく動作します。"
+      }
+    },
+    "code_samples": {
+      "title": "GroupDocs.Parser コードサンプル",
+      "description": "C# および Java での典型的な GroupDocs.Parser 操作のいくつかの使用例。",
+      "sample1": {
+        "title": "PDF ドキュメントからテキストを抽出する方法",
+        "description": "GroupDocs.Parser API を使用すると、C# 開発者はいくつかの簡単な手順を実装することで、ドキュメントからテキストを簡単に抽出できます。",
+        "code": {
+          "header": "GroupDocs.Parser API を使用して PDF ドキュメントから画像を抽出する",
+          "instance": "Parserクラスのインスタンスを作成する",
+          "extract": "画像の抽出",
+          "check_null": "画像抽出がサポートされているかどうかを確認する",
+          "not_supported": "画像の抽出はサポートされていません",
+          "iterate": "画像を反復処理する",
+          "print": "ページインデックス、四角形、および画像タイプを印刷します。"
+        }
+      }
     },
     "net": {
       "title": "ドキュメント解析用のネイティブ .NET API",

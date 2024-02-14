@@ -4,6 +4,9 @@
     "head_description": "Holen Sie sich eine All-in-One-Lösung zum Parsen von Dokumenten für .NET, Java und cloudbasierte Anwendungen. Extrahieren Sie Daten aus Dokumentformaten online mit der einfachen Drag-and-Drop-Funktion",
     "title": "Lösung zum Parsen von Dokumenten",
     "description": "Extrahieren Sie Daten aus Dokumenten und Bildern auf jeder Plattform mit unseren flexiblen APIs und App-basierten Lösungen für Programmierer und Endbenutzer.",
+    "description_1": "Robuste API zur Datenextraktion aus verschiedenen Dateiformaten.",
+    "description_2": "Analysieren Sie Dokumente mit minimalem Programmieraufwand.",
+    "description_3": "Parsing-Ergebnisse anpassen.",
     "api_high_title": "GroupDocs.Parser High Code APIs enthalten",
     "api_high_label": "Alle High Code APIs anzeigen",
     "api_high_1_content": "Native .NET-API zum Extrahieren von Text, Bildern, Metadaten aus Microsoft Office, PDF, Bildern und verschiedenen anderen Formaten in .NET-Anwendungen.",
@@ -11,7 +14,7 @@
     "api_low_title": "GroupDocs.Parser Low Code APIs enthalten",
     "api_low_label": "Alle Low Code APIs anzeigen",
     "api_low_1_content": "Arbeiten Sie mit der cURL RESTFull Document Parsing API, um Daten aus allen gängigen Dokumentformaten zu extrahieren, einschließlich PDF, Word, Excel und Bildern.",
-    "api_low_2_content": "Verwenden Sie die Parser-fähige API ganz einfach mit dem .NET SDK, um Daten aus einer Reihe von Dokumentformaten in .NET Anwendungen zu extrahieren.",
+    "api_low_2_content": "Verwenden Sie die Parser-fähige API problemlos mit dem .NET SDK, um Daten aus einer Reihe von Dokumentformaten in .NET Anwendungen zu extrahieren.",
     "api_low_3_content": "Implementieren Sie erweiterte Dokument-Parsing-Funktionen in Ihren Java-Anwendungen mit dem speziell entwickelten Dokument-Parsing-SDK für Java.",
     "api_nocode_title": "GroupDocs.Parser No Code Apps enthalten",
     "api_nocodelabel": "Alle No Code Apps anzeigen",
@@ -29,6 +32,9 @@
     "code_more": "Mehr Beispiele",
     "overview_title": "GroupDocs.Parser Übersicht",
     "platforms_title": "Plattformunabhängigkeit",
+    "actions_description_index": "Testen Sie die Funktionen von GroupDocs.Parser kostenlos auf Ihrer Plattform",
+    "formats_title_index": "Über 50 Dateiformate werden unterstützt",
+    "formats_description_index": "GroupDocs.Parser ermöglicht Parser-Operationen innerhalb verschiedener Formatfamilien.",
     "formats_title": "Unterstützte Dateiformate",
     "formats_groups": {
       "title_1": "Microsoft Office Formate",
@@ -41,9 +47,114 @@
       "format_archives": "Archiv",
       "format_ebooks": "E-Books"
     },
+    "features": {
+      "title": "GroupDocs.Parser auf einen Blick",
+      "description": "API zum Parsen von Daten über PDF, Word, Excel und mehr.",
+      "feature_1": {
+        "title": "Text extrahieren",
+        "content": "Extrahieren Sie Textinformationen aus verschiedenen Dateiformaten."
+      },
+      "feature_2": {
+        "title": "Bilder extrahieren",
+        "content": "Rufen Sie visuelle Inhalte aus verschiedenen Quellen ab."
+      },
+      "feature_3": {
+        "title": "Analysieren Sie Daten nach Vorlagen",
+        "content": "Erstellen Sie benutzerdefinierte Vorlagen und nutzen Sie diese zum Analysieren spezifischer Informationen."
+      },
+      "feature_4": {
+        "title": "Analysieren Sie PDF-Formulare",
+        "content": "PDF Formulare sind digitale Dokumente mit ausfüllbaren Feldern für die Benutzerinteraktion."
+      }
+    },
+    "metrics": {
+      "title": "Detaillierte Kennzahlen und statistische Erkenntnisse",
+      "description": "Entdecken Sie eine gründliche Analyse unserer Schlüsselzahlen, die umfassende Kennzahlen und statistische Einblicke in unsere Erfolge, unseren Einfluss und unsere Expansion bietet.",
+      "item_1": {
+        "title": "Unterstützte Formate",
+        "description": "Die API unterstützt mehr als 50 der am häufigsten verwendeten Datei- und Dokumentformate."
+      },
+      "item_2": {
+        "title": "NuGet Downloads",
+        "description": "GroupDocs.Parser for .NET hat über den Paketmanager NuGet über 800.000 Downloads erhalten."
+      },
+      "item_3": {
+        "title": "Maven-Downloads",
+        "description": "GroupDocs.Parser for Java hat über 15.000 Downloads aus unserem Maven-Repository gesammelt."
+      }
+    },
+    "customers": {
+      "title": "Unsere zufriedenen Kunden",
+      "description": "GroupDocs Bibliotheken werden von weltweit bekannten und angesehenen Marken auf der ganzen Welt eingesetzt."
+    },
+    "platforms": {
+      "title": "Plattformunabhängigkeit",
+      "head_title": "Wählen Sie Ihre Plattform",
+      "description": "Die GroupDocs.Parser-Bibliothek unterstützt die folgenden Betriebssysteme und Frameworks:",
+      "learn_more": "Erfahren Sie mehr"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Antworten auf die am häufigsten gestellten Fragen.",
+      "item_1": {
+        "question": "Benötigt die GroupDocs.Parser-Bibliothek weitere Software von Drittanbietern, um Dokumente zu bearbeiten?",
+        "answer": "Für GroupDocs.Parser ist keine Installation externer Software wie Adobe Acrobat, Microsoft Office oder andere erforderlich."
+      },
+      "item_2": {
+        "question": "Kann ich die GroupDocs.Parser-Bibliothek testen, bevor ich sie kaufe?",
+        "answer": "Ja, Sie können GroupDocs.Parser ausprobieren, ohne eine Lizenz zu kaufen. Nach der Installation ohne Lizenz funktioniert die Bibliothek im Testmodus. In diesem Modus werden dem resultierenden Dokument Testabzeichen hinzugefügt und es wird auf die ersten drei Seiten zugeschnitten. Wenn Sie GroupDocs.Parser ohne die Einschränkungen der Testversion testen möchten, können Sie auch eine 30-tägige temporäre Lizenz anfordern. Weitere Einzelheiten finden Sie unter [purchase.groupdocs.com/temporary-license/](https://purchase.groupdocs.com/temporary-license/)"
+      },
+      "item_3": {
+        "question": "Welche Lizenzen haben Sie?",
+        "answer": "Wir bieten verschiedene Lizenztypen an, um den Anforderungen bestimmter Entwickler oder Unternehmen gerecht zu werden. Die Lizenztypen hängen von der Anzahl der Entwickler, der Anzahl der Standorte der Entwicklerstandorte und davon ab, ob Sie Ihren Endkunden unser SDK/API bereitstellen müssen. Alternativ können Sie getaktete Lizenzen basierend auf der monatlichen Nutzung des Produkts wählen. Erfahren Sie mehr unter [purchase.groupdocs.com/policies/](https://purchase.groupdocs.com/policies/)"
+      }
+    },
+    "cloud_links": {
+      "title": "GroupDocs.Parser Low-Code-APIs",
+      "description": "Integrieren Sie Dokumentparser-Funktionen mithilfe unserer cloudbasierten REST-API in jede Anwendung.",
+      "item_1": {
+        "content": "cURL-Befehle für die RESTvollständige Dokumentenparser-Cloud-API zum Parsen von Dokumenten in einer Vielzahl unterstützter gängiger Dateiformate."
+      },
+      "item_2": {
+        "content": "Extrahieren Sie Bilder, Text, Dokumentinformationen oder analysieren Sie jedes Dokument anhand einer benutzerdefinierten Vorlage in Ihren Microsoft .NET-Anwendungen."
+      },
+      "item_3": {
+        "content": "Cloud SDK für Java-Entwickler zum Analysieren von Dokumenten, Extrahieren von Dokumentinformationen und Daten in Java-basierten Anwendungen."
+      }
+    },
+    "app_links": {
+      "title": "GroupDocs.Parser NoCode-Apps",
+      "description": "Webbasierte Anwendung, mit der Sie die Analyse von mehr als 50 gängigen Dateiformaten direkt in Ihrem Browser durchführen können.",
+      "item_1": {
+        "content": "Kostenlose Online-App zum Parsen von Word, Excel, PowerPoint, PDF und über 30 weiteren Dokumenttypen."
+      },
+      "item_2": {
+        "content": "Analysieren Sie Word Dokumente direkt in Ihrem Webbrowser, um Bilder, Text oder Metadaten zu extrahieren."
+      },
+      "item_3": {
+        "content": "Kostenlose PDF-Parsing-App, die auf jeder Plattform und jedem Gerät ohne Einschränkungen funktioniert."
+      }
+    },
+    "code_samples": {
+      "title": "GroupDocs.Parser Codebeispiele",
+      "description": "Einige Anwendungsfälle typischer GroupDocs.Parser-Operationen in C# und Java.",
+      "sample1": {
+        "title": "So extrahieren Sie Text aus PDF-Dokumenten",
+        "description": "Die GroupDocs.Parser-API erleichtert C#-Entwicklern das Extrahieren von Text aus Dokumenten durch die Implementierung einiger einfacher Schritte.",
+        "code": {
+          "header": "Extrahieren Sie Bilder aus PDF-Dokumenten mithilfe der GroupDocs.Parser-API",
+          "instance": "Erstellen Sie eine Instanz der Parser-Klasse",
+          "extract": "Bilder extrahieren",
+          "check_null": "Überprüfen Sie, ob die Bildextraktion unterstützt wird",
+          "not_supported": "Das Extrahieren von Bildern wird nicht unterstützt",
+          "iterate": "Über Bilder iterieren",
+          "print": "Drucken Sie einen Seitenindex, ein Rechteck und einen Bildtyp:"
+        }
+      }
+    },
     "net": {
       "title": "Native .NET API für das Parsen von Dokumenten",
-      "title_2": "über .NET API",
+      "title_2": "über die .NET API",
       "actions_main": "Kostenloser NuGet-Download",
       "code": {
         "title": "Text aus PDF-Dateien in C# extrahieren",
@@ -135,7 +246,7 @@
             "check": "Überprüfen Sie, ob die Datei das Extrahieren von Barcodes unterstützt",
             "not_supported": "Die Datei unterstützt das Extrahieren von Barcodes nicht.",
             "extract": "Barcodes aus der Datei extrahieren.",
-            "iterate": "Iterieren Sie über Barcodes",
+            "iterate": "Über Barcodes iterieren",
             "print_page_index": "Drucken Sie den Seitenindex",
             "print_value": "Drucken Sie den Barcode-Wert"
           }
@@ -236,7 +347,7 @@
             "check": "Überprüfen Sie, ob die Datei das Extrahieren von Barcodes unterstützt",
             "not_supported": "Die Datei unterstützt das Extrahieren von Barcodes nicht.",
             "extract": "Barcodes aus der Datei extrahieren.",
-            "iterate": "Iterieren Sie über Barcodes",
+            "iterate": "Über Barcodes iterieren",
             "print_page_index": "Drucken Sie den Seitenindex",
             "print_value": "Drucken Sie den Barcode-Wert"
           }

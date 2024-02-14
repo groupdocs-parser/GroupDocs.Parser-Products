@@ -13,7 +13,7 @@ lang: <% lower ( get "lang") %>
 #breadcrumb: Put <% get "Parsertype" %> parser on <% get "Fileformat" %> for <% get "ProgLang" %>
 product: "Parser"
 product_tag: "parser"
-platform: "Net"
+platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
@@ -46,17 +46,14 @@ code:
   install: "dotnet add package GroupDocs.Parser"
   content: |
     ```csharp {style=abap}   
-    // <% "{index-content.net.code.instance}" %>
-    using (Parser parser = new Parser(filePath)) {
-        // <% "{index-content.net.code.extract}" %>
-        using (TextReader reader = parser.GetText()) {
-            // <% "{index-content.net.code.print_1}" %>
-            // <% "{index-content.net.code.print_2}" %>
-            if (reader == null) {
-              Console.WriteLine("<% "{index-content.net.code.not_supported}" %>");
-            } else {
-              Console.WriteLine(reader.ReadToEnd());
-            }
+    // Create an instance of Parser class
+    using (var parser = new Parser(fileName))
+    {
+        // Extract a text into the reader
+        using (var textReader = parser.GetText())
+        {
+            // Print a text from the document
+            Console.WriteLine(textReader?.ReadToEnd());
         }
     }
     ```
@@ -203,19 +200,23 @@ code_samples:
         <% "{index-content.net.code-samples.sample1.description}" %>
         {{< landing/code title="<% "{index-content.net.code-samples.sample1.title}" %>">}}
         ```csharp {style=abap}
-        // <% "{index-content.net.code-samples.sample1.code.instance}" %>
-        using (Parser parser = new Parser(filePath)) {
-            // <% "{index-content.net.code-samples.sample1.code.extract}" %>
-            IEnumerable<PageImageArea> images = parser.GetImages();
-            // <% "{index-content.net.code-samples.sample1.code.check_null}" %>
-            if (images == null) {
-                Console.WriteLine("<% "{index-content.net.code-samples.sample1.code.not_supported}" %>");
-                return;
-            }
-            // <% "{index-content.net.code-samples.sample1.code.iterate}" %>
-            foreach (PageImageArea image in images) {
-                // <% "{index-content.net.code-samples.sample1.code.print}" %>
-                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", image.Page.Index, image.Rectangle, image.FileType));
+        // Create an instance of Parser class
+        using (var parser = new Parser(fileName))
+        {
+            // Extract images
+            var images = parser.GetImages();
+
+            // Check if images extraction is supported
+            if (images != null)
+            {
+                var imageIndex = 0;
+
+                // Iterate over images
+                foreach (var image in images)
+                {
+                    // Save the image to the file
+                    image.Save($"{++imageIndex}{image.FileType.Extension}");
+                }
             }
         }
         ```
@@ -226,23 +227,23 @@ code_samples:
         <% "{index-content.net.code-samples.sample2.description}" %>
         {{< landing/code title="<% "{index-content.net.code-samples.sample2.title}" %>">}}
         ```csharp {style=abap}   
-        // <% "{index-content.net.code-samples.sample2.code.instance}" %>
-        using (Parser parser = new Parser(filePath)) {
-            // <% "{index-content.net.code-samples.sample2.code.check}" %>
-            if (!parser.Features.Barcodes) {
-                Console.WriteLine("<% "{index-content.net.code-samples.sample2.code.not_supported}" %>");
-                return;
-            }
+        // Create an instance of Parser class
+        using (var parser = new Parser(fileName))
+        {
+            // Check if the file supports barcode extracting
+            if (parser.Features.Barcodes)
+            {
+                // Extract barcodes from the file.
+                var barcodes = parser.GetBarcodes();
 
-            // <% "{index-content.net.code-samples.sample2.code.extract}" %>
-            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
-
-            // <% "{index-content.net.code-samples.sample2.code.iterate}" %>
-            foreach (PageBarcodeArea barcode in barcodes) {
-                // <% "{index-content.net.code-samples.sample2.code.print_page_index}" %>
-                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-                // <% "{index-content.net.code-samples.sample2.code.print_value}" %>
-                Console.WriteLine("Value: " + barcode.Value);
+                // Iterate over barcodes
+                foreach (var barcode in barcodes)
+                {
+                    // Print the page index
+                    Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                    // Print the barcode value
+                    Console.WriteLine("Value: " + barcode.Value);
+                }
             }
         }
         ```

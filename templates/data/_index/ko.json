@@ -4,6 +4,9 @@
     "head_description": ".NET, Java 및 클라우드 기반 애플리케이션을 위한 올인원 문서 구문 분석 솔루션을 받으세요. 간단한 드래그 앤 드롭 기능을 사용하여 온라인으로 문서 형식에서 데이터 추출",
     "title": "문서분석 솔루션",
     "description": "프로그래머와 최종 사용자를 위한 유연한 API와 앱 기반 솔루션을 사용하여 모든 플랫폼의 문서와 이미지에서 데이터를 추출합니다.",
+    "description_1": "다양한 파일 형식에서 데이터를 추출하기 위한 강력한 API입니다.",
+    "description_2": "최소한의 코딩 노력으로 문서를 구문 분석합니다.",
+    "description_3": "구문 분석 결과를 사용자 정의합니다.",
     "api_high_title": "GroupDocs.Parser High Code API에는 다음이 포함됩니다.",
     "api_high_label": "모든 High Code API 보기",
     "api_high_1_content": ".NET 애플리케이션의 Microsoft Office, PDF, 이미지 및 기타 다양한 형식에서 텍스트, 이미지, 메타데이터를 추출하는 기본 .NET API입니다.",
@@ -29,6 +32,9 @@
     "code_more": "더 많은 예",
     "overview_title": "GroupDocs.Parser 개요",
     "platforms_title": "플랫폼 독립성",
+    "actions_description_index": "귀하의 플랫폼에서 무료로 GroupDocs.Parser 기능을 사용해 보세요",
+    "formats_title_index": "50개 이상의 파일 형식 지원",
+    "formats_description_index": "GroupDocs.Parser은 다양한 형식 계열 내에서 파서 작업을 활성화합니다.",
     "formats_title": "지원되는 파일 형식",
     "formats_groups": {
       "title_1": "Microsoft Office 형식",
@@ -40,6 +46,111 @@
       "format_web": "편물",
       "format_archives": "아카이브",
       "format_ebooks": "전자책"
+    },
+    "features": {
+      "title": "GroupDocs.Parser 개요",
+      "description": "PDF, Word, Excel 등의 데이터 구문 분석을 위한 API입니다.",
+      "feature_1": {
+        "title": "텍스트 추출",
+        "content": "다양한 파일 형식에서 텍스트 정보를 추출합니다."
+      },
+      "feature_2": {
+        "title": "이미지 추출",
+        "content": "다양한 소스에서 시각적 콘텐츠를 검색합니다."
+      },
+      "feature_3": {
+        "title": "템플릿으로 데이터 구문 분석",
+        "content": "사용자 정의 템플릿을 만들고 이를 활용하여 특정 정보를 구문 분석합니다."
+      },
+      "feature_4": {
+        "title": "PDF 양식 구문 분석",
+        "content": "PDF 양식은 사용자 상호작용을 위해 입력 가능한 필드가 포함된 디지털 문서입니다."
+      }
+    },
+    "metrics": {
+      "title": "자세한 지표 및 통계적 통찰력",
+      "description": "당사의 성과, 영향력 및 확장에 대한 포괄적인 지표와 통계적 통찰력을 제공하는 주요 수치에 대한 철저한 분석을 살펴보세요.",
+      "item_1": {
+        "title": "지원되는 형식",
+        "description": "API는 가장 널리 사용되는 50개 이상의 파일 및 문서 형식을 수용합니다."
+      },
+      "item_2": {
+        "title": "NuGet 다운로드",
+        "description": "GroupDocs.Parser for .NET는 NuGet 패키지 관리자를 통해 80만 건이 넘는 다운로드를 받았습니다."
+      },
+      "item_3": {
+        "title": "메이븐 다운로드",
+        "description": "GroupDocs.Parser for Java는 Maven 저장소에서 15,000회가 넘는 다운로드를 누적했습니다."
+      }
+    },
+    "customers": {
+      "title": "우리의 행복한 고객",
+      "description": "GroupDocs 라이브러리는 전 세계적으로 세계적으로 유명하고 뛰어난 브랜드에서 사용됩니다."
+    },
+    "platforms": {
+      "title": "플랫폼 독립성",
+      "head_title": "플랫폼을 선택하세요",
+      "description": "GroupDocs.Parser 라이브러리는 다음 운영 체제 및 프레임워크를 지원합니다.",
+      "learn_more": "더 알아보기"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "가장 자주 묻는 질문에 대한 답변입니다.",
+      "item_1": {
+        "question": "문서를 조작하려면 GroupDocs.Parser 라이브러리에 다른 타사 소프트웨어가 필요합니까?",
+        "answer": "GroupDocs.Parser은 Adobe Acrobat, Microsoft Office 등과 같은 외부 소프트웨어를 설치할 필요가 없습니다."
+      },
+      "item_2": {
+        "question": "구매하기 전에 GroupDocs.Parser 라이브러리를 사용해 볼 수 있나요?",
+        "answer": "예, 라이센스를 구매하지 않고도 GroupDocs.Parser을 사용해 볼 수 있습니다. 라이센스 없이 설치하면 라이브러리는 평가판 모드에서 작동합니다. 이 모드에서는 결과 문서에 평가판 배지가 추가되고 처음 3페이지로 잘립니다. 평가판의 제한 없이 GroupDocs.Parser을 테스트하고 싶다면 30일 임시 라이센스를 요청할 수도 있습니다. 자세한 내용은 다음을 참조하세요. [purchase.groupdocs.com/temporary-license/](https://purchase.groupdocs.com/temporary-license/)"
+      },
+      "item_3": {
+        "question": "어떤 라이선스를 갖고 있나요?",
+        "answer": "우리는 특정 개발자나 회사의 요구에 맞게 여러 가지 라이선스 유형을 제공합니다. 라이선스 유형은 개발자 수, 개발자 사이트 위치 수, 최종 고객에게 SDK/API를 제공해야 하는지 여부에 따라 달라집니다. 또는 제품의 월별 사용량을 기준으로 측정 라이센스를 선택할 수 있습니다. 자세히 알아보기 [purchase.groupdocs.com/policies/](https://purchase.groupdocs.com/policies/)"
+      }
+    },
+    "cloud_links": {
+      "title": "GroupDocs.Parser 로우 코드 API",
+      "description": "클라우드 기반 REST API를 사용하여 모든 애플리케이션에 문서 파서 기능을 통합합니다.",
+      "item_1": {
+        "content": "지원되는 광범위한 파일 형식에 걸쳐 문서를 파싱하는 전체 문서 파서 Cloud API용 cURL 명령입니다."
+      },
+      "item_2": {
+        "content": "이미지, 텍스트, 문서 정보를 추출하거나 Microsoft .NET 애플리케이션에서 사용자 정의 템플릿으로 모든 문서를 구문 분석할 수도 있습니다."
+      },
+      "item_3": {
+        "content": "Java 개발자가 문서를 구문 분석하고 Java 기반 애플리케이션 내에서 문서 정보 및 데이터를 추출하기 위한 Cloud SDK입니다."
+      }
+    },
+    "app_links": {
+      "title": "GroupDocs.Parser NoCode 앱",
+      "description": "브라우저에서 직접 50개 이상의 널리 사용되는 파일 형식에 대한 구문 분석을 수행할 수 있는 웹 기반 애플리케이션입니다.",
+      "item_1": {
+        "content": "Word, Excel, PowerPoint, PDF 외 30개 이상의 문서 유형을 구문 분석하는 무료 온라인 앱입니다."
+      },
+      "item_2": {
+        "content": "웹 브라우저에서 직접 Word 문서를 구문 분석하여 이미지, 텍스트 또는 메타데이터를 추출합니다."
+      },
+      "item_3": {
+        "content": "모든 플랫폼이나 기기에서 제한 없이 작동하는 무료 PDF 구문 분석 앱입니다."
+      }
+    },
+    "code_samples": {
+      "title": "GroupDocs.Parser 코드 샘플",
+      "description": "C# 및 Java의 일반적인 GroupDocs.Parser 작업의 일부 사용 사례입니다.",
+      "sample1": {
+        "title": "PDF 문서에서 텍스트를 추출하는 방법",
+        "description": "GroupDocs.Parser API를 사용하면 C# 개발자가 몇 가지 간단한 단계를 구현하여 문서에서 텍스트를 쉽게 추출할 수 있습니다.",
+        "code": {
+          "header": "GroupDocs.Parser API를 사용하여 PDF 문서에서 이미지 추출",
+          "instance": "Parser 클래스의 인스턴스 생성",
+          "extract": "이미지 추출",
+          "check_null": "이미지 추출이 지원되는지 확인",
+          "not_supported": "이미지 추출은 지원되지 않습니다.",
+          "iterate": "이미지 반복",
+          "print": "페이지 색인, 직사각형 및 이미지 유형을 인쇄합니다."
+        }
+      }
     },
     "net": {
       "title": "문서 구문 분석을 위한 기본 .NET API",
@@ -64,7 +175,7 @@
       },
       "overview_feature_3": {
         "title": "결과 맞춤설정",
-        "description": ".NET API를 사용하면 원시, 구조적, HTML 또는 마크다운과 같은 다양한 형식의 데이터를 검색할 수 있습니다. 또한 API는 문서 텍스트 내에서 특정 단어나 문구를 찾는 검색 기능을 제공합니다."
+        "description": ".NET API를 사용하면 원시, 구조화, HTML 또는 마크다운과 같은 다양한 형식의 데이터를 검색할 수 있습니다. 또한 API는 문서 텍스트 내에서 특정 단어나 문구를 찾는 검색 기능을 제공합니다."
       },
       "features": {
         "title": "GroupDocs.Parser 기능",

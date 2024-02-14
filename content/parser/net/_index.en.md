@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-03T08:11:54
+date: 2024-02-13T17:01:03
 draft: false
 #operation: 
 #parsertype: 
@@ -13,7 +13,7 @@ lang: en
 #breadcrumb: Put  parser on  for Java
 product: "Parser"
 product_tag: "parser"
-platform: "Net"
+platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
@@ -47,16 +47,13 @@ code:
   content: |
     ```csharp {style=abap}   
     // Create an instance of Parser class
-    using (Parser parser = new Parser(filePath)) {
+    using (var parser = new Parser(fileName))
+    {
         // Extract a text into the reader
-        using (TextReader reader = parser.GetText()) {
+        using (var textReader = parser.GetText())
+        {
             // Print a text from the document
-            // If text extraction isn't supported, a reader is null
-            if (reader == null) {
-              Console.WriteLine("Text extraction isn't supported");
-            } else {
-              Console.WriteLine(reader.ReadToEnd());
-            }
+            Console.WriteLine(textReader?.ReadToEnd());
         }
     }
     ```
@@ -204,18 +201,22 @@ code_samples:
         {{< landing/code title="Extract images from PDF documents in C#">}}
         ```csharp {style=abap}
         // Create an instance of Parser class
-        using (Parser parser = new Parser(filePath)) {
+        using (var parser = new Parser(fileName))
+        {
             // Extract images
-            IEnumerable<PageImageArea> images = parser.GetImages();
+            var images = parser.GetImages();
+
             // Check if images extraction is supported
-            if (images == null) {
-                Console.WriteLine("Images extraction isn't supported");
-                return;
-            }
-            // Iterate over images
-            foreach (PageImageArea image in images) {
-                // Print a page index, rectangle and image type:
-                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", image.Page.Index, image.Rectangle, image.FileType));
+            if (images != null)
+            {
+                var imageIndex = 0;
+
+                // Iterate over images
+                foreach (var image in images)
+                {
+                    // Save the image to the file
+                    image.Save($"{++imageIndex}{image.FileType.Extension}");
+                }
             }
         }
         ```
@@ -227,22 +228,22 @@ code_samples:
         {{< landing/code title="Extract barcodes from images">}}
         ```csharp {style=abap}   
         // Create an instance of Parser class
-        using (Parser parser = new Parser(filePath)) {
+        using (var parser = new Parser(fileName))
+        {
             // Check if the file supports barcode extracting
-            if (!parser.Features.Barcodes) {
-                Console.WriteLine("The file doesn't support barcode extracting.");
-                return;
-            }
+            if (parser.Features.Barcodes)
+            {
+                // Extract barcodes from the file.
+                var barcodes = parser.GetBarcodes();
 
-            // Extract barcodes from the file.
-            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
-
-            // Iterate over barcodes
-            foreach (PageBarcodeArea barcode in barcodes) {
-                // Print the page index
-                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-                // Print the barcode value
-                Console.WriteLine("Value: " + barcode.Value);
+                // Iterate over barcodes
+                foreach (var barcode in barcodes)
+                {
+                    // Print the page index
+                    Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                    // Print the barcode value
+                    Console.WriteLine("Value: " + barcode.Value);
+                }
             }
         }
         ```

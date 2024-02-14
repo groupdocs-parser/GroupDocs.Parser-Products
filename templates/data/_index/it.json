@@ -4,6 +4,9 @@
     "head_description": "Ottieni una soluzione all-in-one per l'analisi dei documenti per .NET, Java e applicazioni basate su cloud. Estrai dati da formati di documenti online utilizzando la semplice funzionalità di trascinamento della selezione",
     "title": "Soluzione per l'analisi dei documenti",
     "description": "Estrai dati da documenti e immagini su qualsiasi piattaforma utilizzando le nostre API flessibili e soluzioni basate su app per programmatori e utenti finali.",
+    "description_1": "API robusta per l'estrazione dei dati da vari formati di file.",
+    "description_2": "Analizza i documenti con uno sforzo di codifica minimo.",
+    "description_3": "Personalizza i risultati dell'analisi.",
     "api_high_title": "GroupDocs.Parser High Code Le API includono",
     "api_high_label": "Visualizza tutte le API High Code",
     "api_high_1_content": "API .NET nativa per estrarre testo, immagini, metadati da Microsoft Office, PDF, immagini e vari altri formati nelle applicazioni .NET.",
@@ -21,7 +24,7 @@
     "title_1": "Analizzare i documenti",
     "words_for": "per",
     "actions_alt": "Licenza",
-    "actions_title": "Pronti per iniziare?",
+    "actions_title": "Pronto per iniziare?",
     "actions_description": "Prova gratuitamente le funzionalità di GroupDocs.Parser o richiedi una licenza",
     "release_title": "Rilasciata la versione {0}",
     "release_notes": "Scopri le novità",
@@ -29,6 +32,9 @@
     "code_more": "Altri esempi",
     "overview_title": "GroupDocs.Parser Panoramica",
     "platforms_title": "Indipendenza dalla piattaforma",
+    "actions_description_index": "Prova gratuitamente le funzionalità di GroupDocs.Parser sulla tua piattaforma",
+    "formats_title_index": "Sono supportati oltre 50 formati di file",
+    "formats_description_index": "GroupDocs.Parser consente operazioni di parser all'interno di varie famiglie di formati.",
     "formats_title": "Formati di file supportati",
     "formats_groups": {
       "title_1": "Microsoft Office formati",
@@ -40,6 +46,111 @@
       "format_web": "ragnatela",
       "format_archives": "Archivi",
       "format_ebooks": "Ebook"
+    },
+    "features": {
+      "title": "GroupDocs.Parser a colpo d'occhio",
+      "description": "API per l'analisi dei dati su PDF, Word, Excel e altro ancora.",
+      "feature_1": {
+        "title": "Estrai testo",
+        "content": "Estrarre informazioni testuali da vari formati di file."
+      },
+      "feature_2": {
+        "title": "Estrai immagini",
+        "content": "Recupera contenuti visivi da diverse fonti."
+      },
+      "feature_3": {
+        "title": "Analizzare i dati in base ai modelli",
+        "content": "Crea modelli personalizzati e utilizzali per analizzare informazioni specifiche."
+      },
+      "feature_4": {
+        "title": "Analizza moduli PDF",
+        "content": "PDF I moduli sono documenti digitali con campi compilabili per l'interazione dell'utente."
+      }
+    },
+    "metrics": {
+      "title": "Metriche dettagliate e approfondimenti statistici",
+      "description": "Esplora un'analisi approfondita delle nostre cifre chiave, offrendo metriche complete e approfondimenti statistici sui nostri risultati, influenza ed espansione.",
+      "item_1": {
+        "title": "Formati supportati",
+        "description": "L'API supporta più di 50 dei formati di file e documenti più utilizzati."
+      },
+      "item_2": {
+        "title": "NuGet download",
+        "description": "GroupDocs.Parser for .NET ha ricevuto oltre 800.000 download tramite il gestore pacchetti NuGet."
+      },
+      "item_3": {
+        "title": "Download di Maven",
+        "description": "GroupDocs.Parser for Java ha accumulato oltre 15.000 download dal nostro repository Maven."
+      }
+    },
+    "customers": {
+      "title": "I nostri clienti felici",
+      "description": "GroupDocs biblioteche sono impiegate da marchi distinti e rinomati a livello globale in tutto il mondo."
+    },
+    "platforms": {
+      "title": "Indipendenza dalla piattaforma",
+      "head_title": "Scegli la tua piattaforma",
+      "description": "La libreria GroupDocs.Parser supporta i seguenti sistemi operativi e framework:",
+      "learn_more": "Saperne di più"
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "description": "Risposte alle domande più frequenti.",
+      "item_1": {
+        "question": "La biblioteca GroupDocs.Parser necessita di altri software di terze parti per manipolare i documenti?",
+        "answer": "GroupDocs.Parser non richiede l'installazione di alcun software esterno come Adobe Acrobat, Microsoft Office o qualsiasi altro."
+      },
+      "item_2": {
+        "question": "Posso provare la libreria GroupDocs.Parser prima di acquistarla?",
+        "answer": "Sì, puoi provare GroupDocs.Parser senza acquistare una licenza. Una volta installata senza licenza, la libreria funziona in modalità di prova. In questa modalità, i badge di prova vengono aggiunti al documento risultante e questo viene tagliato alle prime 3 pagine. Se desideri testare GroupDocs.Parser senza le limitazioni della versione di prova, puoi anche richiedere una licenza temporanea di 30 giorni. Per maggiori dettagli, vedere [purchase.groupdocs.com/temporary-license/](https://purchase.groupdocs.com/temporary-license/)"
+      },
+      "item_3": {
+        "question": "Che licenze hai?",
+        "answer": "Offriamo diversi tipi di licenza per soddisfare le esigenze di particolari sviluppatori o aziende. I tipi di licenza dipendono dal numero di sviluppatori, dal numero di ubicazioni dei siti degli sviluppatori e dalla necessità di fornire il nostro SDK/API ai tuoi clienti finali. In alternativa, puoi scegliere licenze a consumo in base all'utilizzo mensile del prodotto. Scopri di più su [purchase.groupdocs.com/policies/](https://purchase.groupdocs.com/policies/)"
+      }
+    },
+    "cloud_links": {
+      "title": "GroupDocs.Parser API a basso codice",
+      "description": "Incorpora funzionalità di analisi dei documenti in qualsiasi applicazione utilizzando la nostra API REST basata su cloud.",
+      "item_1": {
+        "content": "Comandi cURL per l'API Cloud del parser di documenti completo per analizzare i documenti in un'ampia gamma di formati di file più diffusi supportati."
+      },
+      "item_2": {
+        "content": "Estrai immagini, testo, informazioni sui documenti o addirittura analizza qualsiasi documento in base a un modello definito dall'utente nelle tue applicazioni Microsoft .NET."
+      },
+      "item_3": {
+        "content": "Cloud SDK per consentire agli sviluppatori di Java di analizzare documenti, estrarre informazioni e dati sui documenti all'interno di applicazioni basate su Java."
+      }
+    },
+    "app_links": {
+      "title": "GroupDocs.Parser App NoCode",
+      "description": "Applicazione basata sul Web che ti consente di eseguire l'analisi di oltre 50 formati di file popolari direttamente nel tuo browser.",
+      "item_1": {
+        "content": "App online gratuita per analizzare Word, Excel, PowerPoint, PDF e oltre 30 tipi di documenti."
+      },
+      "item_2": {
+        "content": "Analizza i documenti Word direttamente dal tuo browser web per estrarre immagini, testo o metadati."
+      },
+      "item_3": {
+        "content": "App di analisi PDF gratuita che funziona su qualsiasi piattaforma o dispositivo senza limitazioni."
+      }
+    },
+    "code_samples": {
+      "title": "GroupDocs.Parser esempi di codice",
+      "description": "Alcuni casi d'uso delle tipiche operazioni GroupDocs.Parser in C# e Java.",
+      "sample1": {
+        "title": "Come estrarre testo da documenti PDF",
+        "description": "L'API GroupDocs.Parser semplifica agli sviluppatori C# l'estrazione del testo dai documenti implementando alcuni semplici passaggi.",
+        "code": {
+          "header": "Estrai immagini da documenti PDF utilizzando l'API GroupDocs.Parser",
+          "instance": "Crea un'istanza della classe Parser",
+          "extract": "Estrai immagini",
+          "check_null": "Controlla se l'estrazione delle immagini è supportata",
+          "not_supported": "L'estrazione delle immagini non è supportata",
+          "iterate": "Itera sulle immagini",
+          "print": "Stampa un indice di pagina, un rettangolo e un tipo di immagine:"
+        }
+      }
     },
     "net": {
       "title": "API nativa .NET per l'analisi dei documenti",
@@ -60,7 +171,7 @@
       },
       "overview_feature_2": {
         "title": "Analizzare i documenti",
-        "description": "Estrai vari elementi come collegamenti ipertestuali, tabelle, codici QR, codici a barre e dati da moduli PDF. Analizza anche tutte le informazioni desiderate dai documenti utilizzando modelli personalizzati."
+        "description": "Estrai vari elementi come collegamenti ipertestuali, tabelle, codici QR, codici a barre e dati dai moduli PDF. Analizza anche tutte le informazioni desiderate dai documenti utilizzando modelli personalizzati."
       },
       "overview_feature_3": {
         "title": "Personalizzazione dei risultati",
@@ -161,7 +272,7 @@
       },
       "overview_feature_2": {
         "title": "Analizzare i documenti",
-        "description": "Estrai vari elementi come collegamenti ipertestuali, tabelle, codici QR, codici a barre e dati da moduli PDF. Analizza anche tutte le informazioni desiderate dai documenti utilizzando modelli personalizzati."
+        "description": "Estrai vari elementi come collegamenti ipertestuali, tabelle, codici QR, codici a barre e dati dai moduli PDF. Analizza anche tutte le informazioni desiderate dai documenti utilizzando modelli personalizzati."
       },
       "overview_feature_3": {
         "title": "Personalizzazione dei risultati",
