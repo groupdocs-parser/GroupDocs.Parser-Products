@@ -1,124 +1,154 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:09
 draft: false
-path: "de/parser/net/extract/image/fb2/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: 
 
 ############################# Head ############################
-head_title: "Extrahieren Sie Bilder aus Excel, Word, PDF und anderen Dokumenten oder Seiten über .NET"
-head_description: "Die GroupDocs.Parser .NET-API ermöglicht Softwareprogrammierern, Bilder aus verschiedenen Dokumenten wie MS Excel, Word, PowerPoint, PDF und mehr in ihren .NET-Apps zu extrahieren."
+head_title: "{head.title}"
+head_description: "{head.description}"
 
 ############################# Header ############################
-title: "Extrahieren Sie Bilder aus PDF-, DOCX-, PPTX-, MSG-, XLSX-Dokumenten und -Seiten über die C#.NET-API"
-description: "GroupDocs.Parser .NET API ermöglicht Programmierern das Extrahieren von Bildern aus PDF-, DOC-, DOCX-, PPT-, PPTX-, EML-, MSG-, XLS-, XLSX-, CSV-, ODT-, RTF- und EPUB-Dokumenten oder Dokumentseiten."
-
-######################### Download Button #######################
+title: "{header.title}"
+description: "{header.description}"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "{header.button_label}"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "{submenu.content_middle.button_text_1}"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "{submenu.content_middle.button_text_2}"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "{submenu.content_middle.button_text_3}"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "{submenu.content_middle.button_text_4}"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "Wie extrahiere ich Bilder aus Dokumenten oder Seitenbereichen über .NET?"
+    title: "{about.title}"
     content: |
-       Bilder können verwendet werden, um Informationen so zu vermitteln, dass sie mit Worten nicht ausgedrückt werden können. Bilder helfen uns, die Aufmerksamkeit des Benutzers zu erregen und schwierige Konzepte mit Leichtigkeit zu erklären. Manchmal fanden wir beim Lesen von Dokumenten, Zeitschriften oder Präsentationen faszinierende Bilder und wollten sie herunterladen. GroupDocs.Parser für .NET ist eine leistungsstarke API, die Benutzern hilft, nützliche Anwendungen zum Extrahieren von Bildern aus verschiedenen Dokumententypen zu entwickeln und sie in PNG, JPEG, WebP, GIF, BMP und anderen Formaten zu speichern. Die API hat Unterstützung für die Text- und Bildextraktion aus einigen der am häufigsten verwendeten Dateiformate wie PDF, E-Mails, E-Books, Microsoft Office-Formate: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS , XLSX), LibreOffice-Formate und viele mehr. Die API unterstützt auch das Parsing von Dokumenten, das Extrahieren von einfachem und strukturiertem Text, die Textsuche nach Schlüsselwörtern, das Extrahieren von Metadaten oder Bildern, Containern sowie Anhängen und vieles mehr.
+        {about.h1}
+        
+        {about.h2}
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "Bilder aus FB2 -Dokumenten über C# extrahieren"
-      content_left: |
-       Mit GroupDocs.Parser .NET API können Softwareentwickler Bilder aus FB2 -Dokumenten extrahieren. Das folgende C# .NET-Codebeispiel zeigt, wie Bilder in einem FB2 -Dokument extrahiert werden. 
-
-      title_right: "So extrahieren Sie Bilder über .NET"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * check if images extraction is supported 
-        * Iterate over images in the document
-        * Call [getImages](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getimages) method extract all images from the whole document.
-        * Print all images
-
-      gisthash: "6bc9e8fea228c9e1b99425b338bb0f00"
-      gistfile: "images_extraction_form_documents.cs"
-
-    - title_left: "Bildextraktion aus der Seite des FB2 -Dokuments über C#"
-      content_left: |
-       GroupDocs.Parser .NET ermöglicht Softwareentwicklern, Bilder aus der Seite von FB2 -Dokumenten zu extrahieren. Der folgende C# .NET-Code zeigt, wie die Bildextraktion in einem FB2 -Dokument erreicht werden kann. 
-
-      title_right: "Datei-Image über .NET extrahieren"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Überprüfen Sie das Dokument auf Unterstützung für die Bildextraktion
-        * Erhalten Sie Dokumentinformationen, indem Sie [GetDocumentInfo](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getdocumentinfo) aufrufen. 
-        * Dokument auf vorhandene Seiten prüfen
-        * Iterieren Sie über Seiten und drucken Sie eine Seitenzahl
-        * Rufen Sie die Methode [getImages(Int32)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/2) auf, um alle Bilder aus dem gesamten Dokument zu extrahieren.
-        * Iterieren Sie über Bilder und drucken Sie die Bilder
-     
-      gisthash: "2000d476c202a688677f57a2fbd7ceab"
-      gistfile: "images_extraction_form_documents_page.cs"
-      
-    - title_left: "So extrahieren Sie ein Bild aus dem Seitenbereich für FB2 -Dokumente"
-      content_left: |
-       Die GroupDocs.Parser .NET API unterstützt vollständig die Extraktion von Bildern aus FB2 -Dokumenten mit ein paar Zeilen .NET-Code. Das folgende .NET-Codebeispiel zeigt, wie Sie Bilder aus einem FB2 -Dokumentseitenbereich extrahieren.
-
-      title_right: "Extrahieren Sie Bilder aus einem Dateiseitenbereich über .NET"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Passen Sie die Erstellung von Optionen an, die für die Bildextraktion verwendet werden können
-        * Überprüfen Sie das Dokument auf Unterstützung für die Bildextraktion
-        * Extrahieren Sie Bilder aus der linken oberen Ecke einer Seite, indem Sie die Methode [getImages(options)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/3) mithilfe von Customize Options aufrufen .
-        * Iterieren Sie über Bilder und drucken Sie die Bilder
-     
-      gisthash: "ea6c6b8fa613384f1e7f637dabcb7bca"
-      gistfile: "extract_images_form_documents_page_area.cs"
-
-    - title_left: "So extrahieren und speichern Sie Bilder über C# .NET in einer Datei"
-      content_left: |
-       GroupDocs.Parser .NET API ermöglicht es Softwareentwicklern, Bilder aus einem Dokument zu extrahieren und es mit nur wenigen Zeilen .NET-Code in einer Datei zu speichern. Das folgende Beispiel zeigt, wie Sie Bilder aus einem FB2 -Dokument extrahieren und den Bildinhalt in der Datei speichern.
-
-      title_right: "Speichern Sie Bilder über .NET in einer Datei"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) class
-        * Bilder aus Dokument extrahieren
-        * Rufen Sie die Methode [getImages](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getimages) auf, um alle Bilder aus dem gesamten Dokument zu extrahieren.
-        * Überprüfen Sie das Dokument auf Unterstützung für die Bildextraktion
-        * Extrahieren Sie Bilder aus der linken oberen Ecke einer Seite, indem Sie die Methode [getImages(options)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/3) mithilfe von Customize Options aufrufen .
-        * Option Erstellung zum Speichern von Bildern im PNG-Format
-        * Iterieren Sie über Bilder und speichern Sie das Bild in der PNG-Datei
-     
-      gisthash: "bc242d5ff4050564fa275858ffa7d34f"
-      gistfile: "images_saving_to_files.cs"
-
-    - title_left: "System Anforderungen"
-      content_left: |
-        GroupDocs.Parser .NET-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Eine vollständige Anleitung zu den Systemanforderungen finden Sie unter [Systemanforderungen](hhttps://docs.groupdocs.com/parser/net/system-requirements/). Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem installiert sind System:
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Entwicklungsumgebung: Visual Studio, Xamarin, MonoDevelop usw
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Holen Sie sich die neueste Version der GroupDocs.Assembly .NET-APIs von [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)
+    title_left: "{steps.title_left}"
+    content_left: |
+        {steps.content_left.description}
         
-      title_right: "Warum GroupDocs.Parser verwenden"
-      content_right: |
-        * Unterstützung der Klartextextraktion aus allen unterstützten Dokumenten
-        * Dokumente parsen über benutzerdefinierte Vorlagen.
-        * Vollständige Unterstützung der strukturierten Textextraktion
-        * Textsuche über Schlüsselwörter sowie reguläre Ausdrücke
-        * Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge.
-        * Inhaltsverzeichnis für einige unterstützte Dokumentformate extrahieren.
-        * Analysieren Sie Formulardaten aus PDF-Dokumenten.
-        * Hyperlinks aus dem Dokument extrahieren
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
 
+    title_right: "{steps.title_right}"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-from-document/">{steps.content_right.step_1}</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-from-document-page/">{steps.content_right.step_2}</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-from-document-page-area/">{steps.content_right.step_3}</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-to-files/">{steps.content_right.step_4}</a>
+         
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="{steps.title_code}">}}
+
+        ```csharp    
+        // {steps.code.header}
+        // {steps.code.instance}
+        using (Parser parser = new Parser(filePath)) {
+            // {steps.code.extract}
+            IEnumerable<PageImageArea> images = parser.GetImages();
+            // {steps.code.check_null}
+            if (images == null) {
+                Console.WriteLine("{steps.code.not_supported}");
+                return;
+            }
+            // {steps.code.iterate}
+            foreach (PageImageArea image in images) {
+                // {steps.code.print}
+                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", image.Page.Index, image.Rectangle, image.FileType));
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "{more.title_left}"
+    content_left: |
+        {more.content_left.description}
+        
+        * {more.content_left.step_1}
+        * {more.content_left.step_2}
+        * {more.content_left.step_3}
+        * {more.content_left.step_4}
+
+    title_right: "{more.title_right}"
+    content_right: |
+        * {more.content_right.p1}    
+        * {more.content_right.p2}    
+        * {more.content_right.p3}    
+        * {more.content_right.p4}    
+        * {more.content_right.p5}    
+        * {more.content_right.p6}    
+        * {more.content_right.p7}    
+        * {more.content_right.p8}   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "{demos.title}"
+    content: |
+       {demos.h1}
+       {demos.h2}
         
-
-more_formats:
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "{more_formats.title}"
+    content: |
+        {more_formats.content}
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

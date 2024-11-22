@@ -1,105 +1,157 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:05
 draft: false
-path: "zh/parser/java/extract/barcode/ots/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: 
 
 ############################# Head ############################
 head_title: "通过 Java API 从 Excel、Word、PDF 和其他文档中提取条形码"
-head_description: "GroupDocs.Parser Java API 使软件开发人员能够从 Java 应用程序中的 PDF、MS Excel、Word、PowerPoint、Outlook、OneNote 和更多文档中提取条形码。"
+head_description: "GroupDocs.Parser for Java 使软件开发人员能够从 Java 应用内的 PDF、MS Excel、Word、PowerPoint、Outlook、OneNote 及更多文档中提取条形码。"
 
 ############################# Header ############################
-title: "如何通过 Java API 从 PDF、DOCX、PPTX、EML、MSG、XLSX 和 EPUB 中提取条形码"
-description: "GroupDocs.Parser Java API 使软件开发人员能够从 PDF、Word（DOC、DOCX）、Excel（XLS、XLSX）、PowerPoint（PPT、PPTX）、Outlook（EML、MSG）和许多其他文档页面区域中提取条形码。"
-
-######################### Download Button #######################
+title: "如何通过 {ProductName}} API 从 PDF、DOCX、PPTX、EML、MSG、XLSX 和 EPUB 中提取条形码"
+description: "GroupDocs.Parser for Java API 使软件开发者能够从 PDF、Word (DOC、DOCX)、Excel (XLS、XLSX)、PowerPoint( PPT、{ 330})、Outlook (EML、MSG) 和许多其他文档页面区域。"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "下载免费试用版"
+    link: "https://downloads.groupdocs.com/parser/java"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-java.png"
+        product: "GroupDocs.Parser"
+        platform: "Java"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/java"
+              text: "API参考"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "代码示例"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "现场演示"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/java"
+              text: "价钱"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/java"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "了解如何通过 Java 从 Excel、Word、PDF 和其他文档中提取条形码？"
+    title: "如何从OTS文件Java API中提取条形码？"
     content: |
-      条形码图像由一系列平行的黑线和不同宽度的空白空间组成，可用于将信息编码为视觉图案。 它于 1970 年代推出，现在已成为商业企业的通用部分。 GroupDocs.Parser for Java 是一个强大的 API，允许软件程序员构建应用程序来解析不同类型的文档并从中提取文本、图像和条形码。 它支持一些最常见的文档类型，例如 PDF、电子邮件、电子书、Microsoft Office 格式：Word（DOC、DOCX）、PowerPoint（PPT、PPTX）、Excel（XLS、XLSX）、电子邮件（EML、MSG） ) 格式等等。 Java API 包含对与文档解析和数据提取相关的几个重要功能的支持，例如纯文本提取、结构化文本提取、提取 markdown 格式文本、从特定页面或页面区域提取文本、从文档中提取条形码、提取元数据或 图像等等。
+        条形码图像由一系列平行的黑线和不同宽度的空白组成，可用于将信息编码为视觉图案。它于 20 世纪 70 年代引入，现已成为商业企业的普遍组成部分。 GroupDocs.Parser for Java 是一个功能强大的 API，允许软件程序员构建用于解析不同类型文档并从中提取文本、图像和条形码的应用程序。它支持一些最常见的文档类型，例如 PDF、电子邮件、电子书、Microsoft Office 格式：Word (DOC、DOCX)、PowerPoint (PPT、{330 })、Excel (XLS、XLSX)、电子邮件 (EML、MSG) 格式等等。 Java API 支持与文档解析和数据提取相关的多项重要功能，例如纯文本提取、结构化文本提取、提取 Markdown 格式文本、从特定页面或页面区域提取文本、从文档中提取条形码、提取元数据或图像等等。
+        
+        
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "如何通过 Java 从 OTS 文档中提取条形码"
-      content_left: |
-       GroupDocs.Parser Java API 使程序员能够轻松地从 OTS 文档中提取条形码。 以下 Java 代码示例演示了如何以最少的工作量和成本提取 OTS 文档中的条形码图像。 
-
-      title_right: "通过 Java 从文档中提取条形码"
-      content_right: |
-        * 创建 [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) 的实例
-        * 检查是否支持条码提取
-        * 调用 [GetBarcodes](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()) 方法从整个文档中提取所有条形码。
-        * 遍历文档中的条码
-        * 打印所有条码及其价值
-
-      gisthash: "bb2393a5db93e1795d41d908ad23e158"
-      gistfile: "barcode_extraction_form_documents.java"
-
-    - title_left: "通过 Java 从 OTS 文档页面获取条形码"
-      content_left: |
-       GroupDocs.Parser Java 使软件开发人员能够轻松地从 OTS 文档的页面解析和获取条形码。 以下 Java 代码显示了如何从 OTS 文档中的特定文档页面中提取条形码。 
-
-      title_right: "如何从文件页面获取条形码"
-      content_right: |
-        * 创建 [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) 的实例
-        * 检查文档以获取条码提取支持
-        * 调用 [GetBarcodes](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes(int)) 方法从文档第 2 页提取所条码。
-        * 遍历页面的条形码
-        * 打印页码和条码值
-     
-      gisthash: "ff09980eef6df60d5a3272b91b5607cf"
-      gistfile: "barcodes_extraction_form_documents_page.java"
-      
-    - title_left: "如何从 OTS 文档页面区域提取条形码"
-      content_left: |
-       GroupDocs.Parser Java API 完全支持轻松地从 OTS 文档中提取条形码。 以下 Java 代码示例显示如何从 OTS 文档页面区域执行条形码提取。
-
-      title_right: "通过 Java 从文件页面区域中提取条形码"
-      content_right: |
-        * 创建 [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) 的实例
-        *自定义可用于条码提取的选项创建
-        * 检查文档以获取条码提取支持
-        * 调用 [GetBarcodes](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes(int)) 方法从文档第 2 页提取所有条码。
-        * 遍历文档中的条码
-        * 打印页码和条码值
-     
-      gisthash: "1737589e775a06a6300245cea525dac0"
-      gistfile: "barcodes_extraction_from_documents_page_area.java"
-
-    - title_left: "系统要求"
-      content_left: |
-        所有主要平台和操作系统都支持 Java 的 GroupDocs.Parser。 它可以生成 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice 和 50 多种其他格式的文档。 有关完整的系统要求指南，请在执行以下代码之前访问系统要求，请确保您的系统上安装了以下先决条件：
-        * 操作系统：Microsoft Windows、Linux、MacOS
-        * Java 版本支持：J2SE 7.0 (1.7)、J2SE 8.0 (1.8) 或以上
-        * 从 GroupDocs [Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser) 获取最新版本的 GroupDocs.Parser Java API
+    title_left: "从Java中的OTS中提取条形码"
+    content_left: |
+        [GroupDocs.Parser for Java](/zh/parser/java/) 让 Java 开发者只需执行几个简单的步骤即可轻松从 OTS 文件中提取条形码。
         
-      title_right: "为什么使用 GroupDocs.Parser"
-      content_right: |
-        * 从任何支持的文档中提取纯文本。
-        * 目录提取支持
-        * 提取格式化文本、元数据、图像、容器和附件。
-        * 通过用户定义的模板解析文档。
-        *使用关键字或正则表达式搜索文本。
-        * 结构化文本提取支持
-        * 提取一些支持的文档格式的目录。
-        * 从 PDF 文档中解析表单数据。
+        * 实例化初始文档的 [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) 对象；
+        * 检查文件是否支持条码提取；
+        * 调用 [getBarcodes](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getBarcodes--) 方法并获取  的集合 [PageBarcodeArea](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagebarcodearea/) 对象；
+        * 迭代集合并获取条形码值。
 
+    title_right: "了解有关条形码提取的更多信息"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/java/extract-barcodes-from-document/">如何从文档中提取条形码</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-barcodes-from-document-page/">如何从文档页面中提取条形码</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-barcodes-from-document-page-area/">如何从文档页面区域提取条形码</a>
+    
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="如何使用 Java 示例代码从 OTS 文件中提取条形码">}}
+
+        ```java    
+        // 使用 GroupDocs.Parser API 从 OTS 文件中提取条形码
+        // 创建 Parser 类的实例
+        try (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+            // // 检查文件是否支持条形码提取
+            if (!parser.getFeatures().isBarcodes()) {
+                System.out.println("该文件不支持条形码提取。");
+                return;
+            }
+
+            // {steps.code.scan}
+            Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
+
+            // 迭代条形码
+            for (PageBarcodeArea barcode : barcodes) {
+                // 打印页面索引
+                System.out.println("Page: " + barcode.getPage().getIndex());
+                // 打印条形码值
+                System.out.println("Value: " + barcode.getValue());
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "系统要求"
+    content_left: |
+        GroupDocs.Parser for Java 所有主要平台和操作系统均支持 API。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。
+        
+        * 操作系统：Microsoft Windows、Linux、MacOS
+        * 开发环境：NetBeans, Intellij IDEA, Eclipse, etc.
+        * 构架
+        * 从 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser) 下载最新版本的 GroupDocs.Parser for Java
+
+    title_right: "为什么使用GroupDocs.Parser for Java"
+    content_right: |
+        * 支持从任何支持的文档中提取纯文本    
+        * 通过用户定义的模板解析文档    
+        * 全面支持结构化文本提取    
+        * 通过关键字和正则表达式进行文本搜索    
+        * 提取格式化文本、元数据、图像、容器和附件    
+        * 提取某些支持的文档格式的目录    
+        * 从 PDF 文档解析表单数据    
+        * 从文档中提取超链接   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "现场演示 - 从 OTS 在线提取条形码"
+    content: |
+       立即访问 [GroupDocs.Parser 现场演示](https://products.groupdocs.app/parser/barcodes/ots) 网站，从 OTS 文件中提取条形码。
+       现场演示有以下好处。
         
-
-more_formats:
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "从其他文档格式中提取条形码"
+    content: |
+        Java 针对文件格式和图像的文档解析和条形码提取 API。提取一些流行文件格式的数据，如下所述。
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

@@ -1,123 +1,154 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:09
 draft: false
-path: "ja/parser/net/extract/image/ost/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST EML EMLX MSG ONE 
+otherformats: 
 
 ############################# Head ############################
-head_title: ".NETを介してExcel、Word、PDF、その他のドキュメントまたはページから画像を抽出する "
-head_description: "GroupDocs.Parser .NET APIを使用すると、ソフトウェアプログラマーは、.NETアプリ内のMS Excel、Word、PowerPoint、PDFなどのさまざまなドキュメントから画像を抽出できます。"
+head_title: "{head.title}"
+head_description: "{head.description}"
 
 ############################# Header ############################
-title: "C＃.NET APIを介してPDF、DOCX、PPTX、MSG、XLSXドキュメントおよびページから画像を抽出する"
-description: "GroupDocs.Parser .NET APIを使用すると、プログラマーはPDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV、ODT、RTF、EPUBドキュメントまたはドキュメントのページから画像を抽出できます。"
-
-######################### Download Button #######################
+title: "{header.title}"
+description: "{header.description}"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "{header.button_label}"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "{submenu.content_middle.button_text_1}"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "{submenu.content_middle.button_text_2}"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "{submenu.content_middle.button_text_3}"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "{submenu.content_middle.button_text_4}"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: ".NETを介してドキュメントまたはページ領域から画像を抽出する方法は？"
+    title: "{about.title}"
     content: |
-       画像は、言葉では表現できないような方法で情報を配信するために使用できます。 画像は、ユーザーの注意を引き付け、難しい概念を簡単に説明するのに役立ちます。 文書やジャーナルを読んだり、プレゼンテーションの恩恵を受けたりしているときに、魅力的な画像を見つけてダウンロードしたいと思うことがよくありました。 GroupDocs.Parser for .NETは、ユーザーがさまざまな種類のドキュメントから画像を抽出し、PNG、JPEG、WebP、GIF、BMPなどの形式で保存するための便利なアプリケーションを開発するのに役立つ強力なAPIです。 APIには、PDF、電子メール、電子ブック、Microsoft Office形式（Word（DOC、DOCX）、PowerPoint（PPT、PPTX）、Excel（XLS））など、最も一般的に使用されるファイル形式からのテキストおよび画像抽出のサポートが含まれています。 、XLSX）、LibreOffice形式など。 APIは、ドキュメントの解析、プレーンテキストと構造化テキストの抽出、キーワードによるテキスト検索、メタデータまたは画像の抽出、コンテナ、添付ファイルなどを完全にサポートします。
+        {about.h1}
+        
+        {about.h2}
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "C＃を介してOSTドキュメントから画像を抽出する "
-      content_left: |
-       GroupDocs.Parser .NET APIを使用すると、ソフトウェア開発者はOSTドキュメントから画像を抽出できます。 次のC＃.NETコード例は、OSTドキュメント内の画像を抽出する方法を示しています。 
-
-      title_right: ".NETを介して画像を抽出する方法"
-      content_right: |
-        * [パーサー](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) クラスのインスタンスを作成します
-        * 画像抽出がサポートされているかどうかを確認します
-        * ドキュメント内の画像を繰り返します
-        * [getImages](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getimages) メソッドを呼び出して、ドキュメント全体からすべての画像を抽出します。
-        * すべての画像を印刷する
-
-      gisthash: "6bc9e8fea228c9e1b99425b338bb0f00"
-      gistfile: "images_extraction_form_documents.cs"
-
-    - title_left: "OSTドキュメントのページからのC＃による画像の抽出"
-      content_left: |
-       GroupDocs.Parser .NETを使用すると、ソフトウェア開発者はOSTドキュメントのページから画像を抽出できます。 以下のC＃.NETコードは、OSTドキュメント内で画像抽出を実現する方法を示しています。
-
-      title_right: ".NETを介してファイルイメージを抽出する"
-      content_right: |
-        * [パーサー](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) クラスのインスタンスを作成します  
-        * 画像抽出のサポートについてはドキュメントを確認してください
-        * [GetDocumentInfo](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getdocumentinfo) を呼び出してドキュメント情報を取得します
-        * 既存のページのドキュメントを確認してください
-        * ページを繰り返し、ページ番号を印刷する
-        * [getImages](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getimages) メソッドを呼び出して、ドキュメント全体からすべての画像を抽出します。
-        * 画像を繰り返し、画像を印刷します
-     
-      gisthash: "2000d476c202a688677f57a2fbd7ceab"
-      gistfile: "images_extraction_form_documents_page.cs"
-      
-    - title_left: "OSTドキュメントページ領域から画像を抽出する方法"
-      content_left: |
-       GroupDocs.Parser .NET APIは、数行の.NETコードを使用して、OSTドキュメントからの画像の抽出を完全にサポートします。 次の.NETコード例は、OSTドキュメントページ領域から画像を抽出する方法を示しています。
-
-      title_right: ".NETを介してファイルページ領域から画像を抽出する"
-      content_right: |
-        * [パーサー](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) クラスのインスタンスを作成します  
-        * 画像抽出に使用できるオプションの作成をカスタマイズする
-        * 画像抽出のサポートについてはドキュメントを確認してください
-        * [getImages(options)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/3) メソッドを呼び出して、ページの左上隅から画像を抽出します。 オプション。
-        * 画像を繰り返し、画像を印刷します
-     
-      gisthash: "ea6c6b8fa613384f1e7f637dabcb7bca"
-      gistfile: "extract_images_form_documents_page_area.cs"
-
-    - title_left: "C＃.NETを介して画像を抽出してファイルに保存する方法」"
-      content_left: |
-       GroupDocs.Parser .NET APIを使用すると、ソフトウェア開発者はドキュメントから画像を抽出し、わずか数行の.NETコードでファイルに保存できます。 次の例は、OSTドキュメントから画像を抽出し、画像の内容をファイルに保存する方法を示しています。
-
-      title_right: "Save Images to a File via .NET"
-      content_right: |
-        * [パーサー](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) クラスのインスタンスを作成します  
-        * ドキュメントから画像を抽出する
-        * 画像抽出のサポートについてはドキュメントを確認してください
-        * [getImages(options)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/3) メソッドを呼び出して、ページの左上隅から画像を抽出します。 オプション。
-        * PNG形式で画像を保存するためのオプション作成
-        * 画像を繰り返し、画像をPNGファイルに保存します
-     
-      gisthash: "bc242d5ff4050564fa275858ffa7d34f"
-      gistfile: "images_saving_to_files.cs"
-
-    - title_left: "システム要求"
-      content_left: |
-       GroupDocs.Parser for .NETは、すべての主要なプラットフォームとオペレーティングシステムで完全にサポートされています。 完全なシステム要件ガイドについては、[システム要件]（hhttps：//docs.groupdocs.com/parser/net/system-requirements/）にアクセスしてください。以下のコードを実行する前に、次の前提条件がインストールされていることを確認してください。 システム：
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelopなど
-        * フレームワーク：.NETフレームワーク、.NET標準、.NETコア、モノラル
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)から最新バージョンのGroupDocs.Parser.NETAPIを入手します。
+    title_left: "{steps.title_left}"
+    content_left: |
+        {steps.content_left.description}
         
-      title_right: "GroupDocs.Parserを使用する理由"
-      content_right: |
-        * サポートされているドキュメントからのプレーンテキスト抽出のサポート
-        * ユーザー定義のテンプレートを介して解析するドキュメント。
-        * 構造化テキスト抽出を完全にサポート
-        * キーワードおよび正規表現によるテキスト検索
-        * フォーマットされたテキスト、メタデータ、画像、コンテナ、および添付ファイルを抽出します。
-        * サポートされている一部のドキュメント形式の目次を抽出します。
-        * PDFドキュメントからフォームデータを解析します。
-        * ドキュメントからハイパーリンクを抽出します
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
 
+    title_right: "{steps.title_right}"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-from-document/">{steps.content_right.step_1}</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-from-document-page/">{steps.content_right.step_2}</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-from-document-page-area/">{steps.content_right.step_3}</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-to-files/">{steps.content_right.step_4}</a>
+         
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="{steps.title_code}">}}
+
+        ```csharp    
+        // {steps.code.header}
+        // {steps.code.instance}
+        using (Parser parser = new Parser(filePath)) {
+            // {steps.code.extract}
+            IEnumerable<PageImageArea> images = parser.GetImages();
+            // {steps.code.check_null}
+            if (images == null) {
+                Console.WriteLine("{steps.code.not_supported}");
+                return;
+            }
+            // {steps.code.iterate}
+            foreach (PageImageArea image in images) {
+                // {steps.code.print}
+                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", image.Page.Index, image.Rectangle, image.FileType));
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "{more.title_left}"
+    content_left: |
+        {more.content_left.description}
+        
+        * {more.content_left.step_1}
+        * {more.content_left.step_2}
+        * {more.content_left.step_3}
+        * {more.content_left.step_4}
+
+    title_right: "{more.title_right}"
+    content_right: |
+        * {more.content_right.p1}    
+        * {more.content_right.p2}    
+        * {more.content_right.p3}    
+        * {more.content_right.p4}    
+        * {more.content_right.p5}    
+        * {more.content_right.p6}    
+        * {more.content_right.p7}    
+        * {more.content_right.p8}   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "{demos.title}"
+    content: |
+       {demos.h1}
+       {demos.h2}
         
-
-more_formats:
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "{more_formats.title}"
+    content: |
+        {more_formats.content}
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

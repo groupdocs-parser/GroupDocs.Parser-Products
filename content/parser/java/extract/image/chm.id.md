@@ -1,119 +1,154 @@
 ---
-layout: "auto-gen-gist"
+############################# Static ############################
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:09
 draft: false
-path: "parser/java/extract/image/chm"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: 
 
-head_title: "Bagaimana Mengekstrak Gambar dari Excel, Word, PDF & Dokumen Lain melalui Java?"
-head_description: "GroupDocs.Parser Java API memungkinkan pengembang perangkat lunak untuk mengurai & mengekstrak gambar dari PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX dokumen & Email di dalam Aplikasi Java."
+############################# Head ############################
+head_title: "{head.title}"
+head_description: "{head.description}"
 
-title: "Java API untuk Mengurai & Mengekstrak Gambar dari Excel, Word, PowerPoint, PDF & Halaman Dokumen Lainnya"
-description: "GroupDocs.Parser Java API memungkinkan pemrogram untuk mengekstrak gambar dari dokumen PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB atau Halaman dokumen di dalam aplikasi Java."
-
+############################# Header ############################
+title: "{header.title}"
+description: "{header.description}"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "{header.button_label}"
+    link: "https://downloads.groupdocs.com/parser/java"
 
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-java.png"
+        product: "GroupDocs.Parser"
+        platform: "Java"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/java"
+              text: "{submenu.content_middle.button_text_1}"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "{submenu.content_middle.button_text_2}"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "{submenu.content_middle.button_text_3}"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/java"
+              text: "{submenu.content_middle.button_text_4}"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/java"
+        link_buy: "https://purchase.groupdocs.com"
+
+############################# About ############################
 about:
     enable: true
-    title: "Pelajari Cara Mengekstrak Gambar dari Dokumen atau Halaman Tertentu melalui Java API?"
+    title: "{about.title}"
     content: |
-       Sebuah Gambar bernilai ribuan kata dan tidak dapat diabaikan di dunia visual saat ini sambil membuat konten yang menarik. Gambar dapat menjadi sumber komunikasi informasi yang hebat serta menarik perhatian pengguna. Seringkali diperlukan untuk mendapatkan gambar dari dokumen, jurnal atau presentasi dan menggunakannya di tempat lain. GroupDocs.Parser untuk Java adalah API yang kuat yang membantu pengembang perangkat lunak dan pemrogram untuk membangun solusi untuk parsing dan mengekstrak gambar atau informasi lain dari berbagai jenis dokumen. Ini juga mendukung penyimpanan gambar dalam PNG, JPEG, WebP, GIF, BMP dan format lainnya. API telah menyertakan dukungan untuk beberapa format dokumen populer, seperti PDF, format Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), format LibreOffice, Email, Ebooks, dan banyak lagi . Ini juga termasuk dukungan untuk beberapa fitur lanjutan yang terkait dengan penguraian dokumen, mengekstraksi teks biasa dan terstruktur, pencarian teks dengan kata kunci, mengekstrak metadata atau gambar, wadah serta lampiran dan banyak lagi.
+        {about.h1}
+        
+        {about.h2}
 
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "Cara Mengekstrak gambar dari CHM Dokumen"
-      content_left: |
-       GroupDocs.Parser Java telah menyertakan fungsionalitas untuk mengekstraksi gambar dari dokumen CHM. Contoh kode Java berikut menunjukkan bagaimana gambar dapat diekstraksi dari dokumen CHM dengan mudah. 
-
-      title_right: "Dapatkan Gambar dari Dokumen melalui Java"
-      content_right: |
-        * Buat instance [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) 
-        * Periksa apakah dokumen mendukung ekstraksi gambar
-        * Panggil metode [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) mengekstrak semua gambar dari seluruh dokumen.
-        * Ekstrak semua gambar dari dokumen
-        * Ulangi gambar dan Cetak jenis gambar
-
-      gisthash: "b13e690d2593f92081abd99948363e06"
-      gistfile: "extract_images_form_documents.java"
-
-    - title_left: "Ekstraksi Gambar dari Halaman Dokumen CHM"
-      content_left: |
-       GroupDocs.Parser Java API memungkinkan pengembang perangkat lunak untuk mengekstrak gambar dari dokumen CHM dengan beberapa baris kode. Kode Java di bawah ini menunjukkan ekstraksi gambar dari dokumen CHM. 
-
-      title_right: "Cara Mengekstrak File Gambar melalui Java"
-      content_right: |
-        * Buat instance [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) 
-        * Periksa apakah dokumen mendukung ekstraksi gambar
-        * Dapatkan info dokumen dengan memanggil metode [getDocumentInfo](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getDocumentInfo()).
-        * Periksa dokumen untuk keberadaan halaman
-        * Ulangi halaman dan Cetak nomor halaman
-        * Panggil metode [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) mengekstrak semua gambar dari seluruh dokumen.
-        * Ulangi gambar dan Cetak jenis gambar
-     
-      gisthash: "68450336a57c5d8df06b4ef1ea69b29f"
-      gistfile: "extract_images_form_documents_page.java"
-      
-    - title_left: "Cara Mengekstrak Gambar dari Area Halaman Dokumen CHM"
-      content_left: |
-       GroupDocs.Parser Java API telah menyediakan dukungan lengkap untuk mengekstrak dari halaman dokumen CHM dengan mudah. Kode Java berikut menunjukkan bagaimana pemrogram dapat mengekstrak gambar dari area halaman dokumen CHM di dalam aplikasi Java mereka sendiri.
-
-      title_right: "Ekstrak Gambar menggunakan Java?"
-      content_right: |
-        * Buat instance [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) 
-        * Buat opsi yang digunakan untuk ekstraksi gambar
-        * Periksa dokumen untuk dukungan ekstraksi gambar
-        * Panggil metode [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) untuk mengekstrak gambar dari sudut kiri atas halaman.
-        * Ulangi gambar dan Cetak URL gambar
-     
-      gisthash: "40143a56569ae88e7e7c972ccca041b5"
-      gistfile: "extract_images_form_documents_page_area.java"
-
-    - title_left: "Cara Mengekstrak Gambar ke File melalui Java API"
-      content_left: |
-       GroupDocs.Parser Java API memungkinkan ekstraksi gambar dari dokumen CHM dan menyimpan konten gambar ke file. Kode Java berikut menunjukkan bagaimana programmer dapat mengekstrak gambar dari ke file pilihan mereka di dalam aplikasi Java mereka sendiri.
-
-      title_right: "Ekstrak Gambar membentuk Dokumen ke File"
-      content_right: |
-        * Buat instance [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) 
-        * Periksa dokumen untuk dukungan ekstraksi gambar
-        * Panggil metode [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) untuk mengekstrak gambar dari sudut kiri atas halaman.
-        * Buat opsi untuk menyimpan gambar dalam format file yang didukung 
-        * Ulangi gambar dan Cetak URL gambar
-     
-      gisthash: "6faeafc93e4412265b7439209828950b"
-      gistfile: "images_saving_to_files.java"
-
-    - title_left: "Persyaratan sistem"
-      content_left: |
-        GroupDocs.Parser untuk Java didukung di semua platform dan sistem operasi utama. Itu dapat menghasilkan dokumen dalam Microsoft Word, Excel, PowerPoint, Outlook, OpenOffice & 50+ format lainnya. Untuk panduan persyaratan sistem lengkap, silakan kunjungi persyaratan sistem sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda:
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Dukungan Versi Java: J2SE 7.0 (1.7), J2SE 8.0 (1.8) atau lebih tinggi
-        * Dapatkan versi terbaru GroupDocs.Assembly Java API dari GroupDocs [Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser)
+    title_left: "{steps.title_left}"
+    content_left: |
+        {steps.content_left.description}
         
-      title_right: "Mengapa Menggunakan GroupDocs.Parser"
-      content_right: |
-        * Ekstrak teks biasa dari salah satu dokumen yang didukung.
-        * Daftar isi dukungan ekstraksi
-        * Ekstrak teks yang diformat, metadata, gambar, wadah, dan lampiran.
-        * Penguraian dokumen melalui templat yang ditentukan pengguna.
-        * Cari Teks menggunakan kata kunci atau ekspresi reguler. 
-        * Dukungan ekstraksi teks terstruktur
-        * Ekstrak daftar isi untuk beberapa format dokumen yang didukung.
-        * Parsing data formulir dari dokumen PDF.
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
 
+    title_right: "{steps.title_right}"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document/">{steps.content_right.step_1}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document-page/">{steps.content_right.step_2}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document-page-area/">{steps.content_right.step_3}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-to-files/">{steps.content_right.step_4}</a>
+         
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="{steps.title_code}">}}
+
+        ```java    
+        // {steps.code.header}
+        // {steps.code.instance}
+        try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
+            // {steps.code.extract}
+            Iterable<PageImageArea> images = parser.getImages();
+            // {steps.code.check_null}
+            if (images == null) {
+                System.out.println("{steps.code.not_supported}");
+                return;
+            }
+            // {steps.code.iterate}
+            for (PageImageArea image : images) {
+                // {steps.code.print}
+                System.out.println(String.format("Page: %d, R: %s, Type: %s", image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "{more.title_left}"
+    content_left: |
+        {more.content_left.description}
+        
+        * {more.content_left.step_1}
+        * {more.content_left.step_2}
+        * {more.content_left.step_3}
+        * {more.content_left.step_4}
+
+    title_right: "{more.title_right}"
+    content_right: |
+        * {more.content_right.p1}    
+        * {more.content_right.p2}    
+        * {more.content_right.p3}    
+        * {more.content_right.p4}    
+        * {more.content_right.p5}    
+        * {more.content_right.p6}    
+        * {more.content_right.p7}    
+        * {more.content_right.p8}   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "{demos.title}"
+    content: |
+       {demos.h1}
+       {demos.h2}
         
-
+############################# About Formats ############################
 about_formats:
     enable: true
 
-
+############################# More Formats ############################
 more_formats:
     enable: true
+    title: "{more_formats.title}"
+    content: |
+        {more_formats.content}
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

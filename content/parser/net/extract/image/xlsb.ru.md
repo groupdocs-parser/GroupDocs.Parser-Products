@@ -1,124 +1,154 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:09
 draft: false
-path: "ru/parser/net/extract/image/xlsb/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: 
 
 ############################# Head ############################
-head_title: "Извлечение изображений из Excel, Word, PDF и других документов или страниц через .NET"
-head_description: "GroupDocs.Parser .NET API позволяет программистам извлекать изображения из различных документов, таких как MS Excel, Word, PowerPoint, PDF и других, в свои приложения .NET."
+head_title: "{head.title}"
+head_description: "{head.description}"
 
 ############################# Header ############################
-title: "Извлечение изображений из документов и страниц PDF, DOCX, PPTX, MSG, XLSX через C#.NET API"
-description: "GroupDocs.Parser .NET API позволяет программистам извлекать изображения из документов PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF и EPUB или страниц документа."
-
-######################### Download Button #######################
+title: "{header.title}"
+description: "{header.description}"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "{header.button_label}"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "{submenu.content_middle.button_text_1}"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "{submenu.content_middle.button_text_2}"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "{submenu.content_middle.button_text_3}"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "{submenu.content_middle.button_text_4}"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "Как извлечь изображения из документов или области страницы через .NET?"
+    title: "{about.title}"
     content: |
-       Изображения могут использоваться для передачи информации таким образом, что ее невозможно выразить словами. Изображения помогают нам привлечь внимание пользователя и с легкостью объясняют сложные концепции. Иногда, читая документы, журналы или пользуясь презентациями, мы часто находили интересные изображения и хотели их скачать. GroupDocs.Parser для .NET — это мощный API, который помогает пользователям разрабатывать полезные приложения для извлечения изображений из различных типов документов и сохранения их в форматах PNG, JPEG, WebP, GIF, BMP и других. API поддерживает извлечение текста и изображений из некоторых наиболее часто используемых форматов файлов, таких как PDF, электронные письма, электронные книги, форматы Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS). , XLSX), форматы LibreOffice и многие другие. API также полностью поддерживает синтаксический анализ документов, извлечение простого и структурированного текста, поиск текста по ключевым словам, извлечение метаданных или изображений, контейнеров, а также вложений и многое другое.
+        {about.h1}
+        
+        {about.h2}
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "Извлечение изображений из XLSBDocuments с помощью C# "
-      content_left: |
-       API GroupDocs.Parser .NET позволяет разработчикам программного обеспечения извлекать изображения из XLSBdocuments. В следующем примере кода C# .NET показано, как извлекать изображения из XLSBdocument.
-
-      title_right: "Как извлечь изображения через .NET"
-      content_right: |
-        * Создайте экземпляр [Парсера](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * проверьте, поддерживается ли извлечение изображений
-        * Перебор изображений в документе
-        * Вызовите метод [getImages](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getimages), чтобы извлечь все изображения из всего документа.
-        * Распечатать все изображения
-
-      gisthash: "6bc9e8fea228c9e1b99425b338bb0f00"
-      gistfile: "images_extraction_form_documents.cs"
-
-    - title_left: "Извлечение изображений со страницы XLSBDocument с помощью C#"
-      content_left: |
-       GroupDocs.Parser .NET позволяет разработчикам программного обеспечения извлекать изображения со страницы XLSBdocuments. В приведенном ниже коде C# .NET показано, как можно добиться извлечения изображений внутри документа XLSB. 
-
-      title_right: "Извлечь образ файла через .NET"
-      content_right: |
-        * Создайте экземпляр [Парсера](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)  
-        * проверьте, поддерживается ли извлечение изображений
-        * Получите информацию о документе, вызвав [GetDocumentInfo](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getdocumentinfo) 
-        * Проверить документ на наличие существующих страниц
-        * Перебирать страницы и печатать номер страницы
-        * Вызов метода [getImages(Int32)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/2) извлекает все изображения из всего документа.
-        * Перебирать изображения и распечатывать изображения
-     
-      gisthash: "2000d476c202a688677f57a2fbd7ceab"
-      gistfile: "images_extraction_form_documents_page.cs"
-      
-    - title_left: "Как извлечь изображение из области страницы XLSBDocuments"
-      content_left: |
-       GroupDocs.Parser .NET API полностью поддерживает извлечение изображений из XLSBdocuments с помощью нескольких строк кода .NET. В следующем примере кода .NET показано, как выполнить извлечение изображений из области страницы XLSBdocument.
-
-      title_right: "Извлечение изображений из области файловой страницы через .NET"
-      content_right: |
-        * Создайте экземпляр [Парсера](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)   
-        * настроить создание параметров, которые можно использовать для извлечения изображений
-        * проверьте, поддерживается ли извлечение изображений
-        * Извлеките изображения из верхнего левого угла страницы, вызвав метод [getImages(options)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/3) с помощью настройки параметров. .
-        * Перебирать изображения и распечатывать изображения
-     
-      gisthash: "ea6c6b8fa613384f1e7f637dabcb7bca"
-      gistfile: "extract_images_form_documents_page_area.cs"
-
-    - title_left: "Как извлечь и сохранить изображение в файл с помощью C# .NET"
-      content_left: |
-       GroupDocs.Parser .NET API позволяет разработчикам программного обеспечения извлекать изображения из документа и сохранять их в файл с помощью всего пары строк кода .NET. В следующем примере показано, как выполнить извлечение изображений из XLSBdocument и сохранить содержимое изображения в файл. 
-
-      title_right: "Сохранение изображений в файл через .NET"
-      content_right: |
-        * Создайте экземпляр [Парсера](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Извлечь изображения из документа
-        * Вызовите метод [getImages](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getimages), чтобы извлечь все изображения из всего документа.
-        * проверьте, поддерживается ли извлечение изображений
-        * Извлеките изображения из верхнего левого угла страницы, вызвав метод [getImages(options)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/3) с помощью настройки параметров. .
-        * опция Создание для сохранения изображений в формате PNG
-        * Переберите изображения и сохраните изображение в файл PNG.
-     
-      gisthash: "bc242d5ff4050564fa275858ffa7d34f"
-      gistfile: "images_saving_to_files.cs"
-
-    - title_left: "Системные Требования"
-      content_left: |
-        API GroupDocs.Assembly .NET поддерживаются на всех основных платформах и операционных системах. Полное руководство по системным требованиям можно найти на странице [системные требования](hhttps://docs.groupdocs.com/parser/net/system-requirements/). Перед выполнением приведенного ниже кода убедитесь, что на вашем компьютере установлены следующие предварительные компоненты. система:
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среда разработки: Visual Studio, Xamarin, MonoDevelop и т. д.
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию API GroupDocs.Assembly .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)
+    title_left: "{steps.title_left}"
+    content_left: |
+        {steps.content_left.description}
         
-      title_right: "Зачем использовать GroupDocs.Assembly"
-      content_right: |
-        * Поддержка извлечения простого текста из любых поддерживаемых документов
-        * Парсинг документов по пользовательским шаблонам.
-        * Полностью поддерживает извлечение структурированного текста
-        * Текстовый поиск по ключевому слову, а также регулярное выражение
-        * Извлечение форматированного текста, метаданных, изображений, контейнеров и вложений.
-        * Извлечение оглавления для некоторых поддерживаемых форматов документов.
-        * Анализировать данные формы из PDF-документов.
-        * Извлечение гиперссылок из документа
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
 
+    title_right: "{steps.title_right}"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-from-document/">{steps.content_right.step_1}</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-from-document-page/">{steps.content_right.step_2}</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-from-document-page-area/">{steps.content_right.step_3}</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-images-to-files/">{steps.content_right.step_4}</a>
+         
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="{steps.title_code}">}}
+
+        ```csharp    
+        // {steps.code.header}
+        // {steps.code.instance}
+        using (Parser parser = new Parser(filePath)) {
+            // {steps.code.extract}
+            IEnumerable<PageImageArea> images = parser.GetImages();
+            // {steps.code.check_null}
+            if (images == null) {
+                Console.WriteLine("{steps.code.not_supported}");
+                return;
+            }
+            // {steps.code.iterate}
+            foreach (PageImageArea image in images) {
+                // {steps.code.print}
+                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", image.Page.Index, image.Rectangle, image.FileType));
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "{more.title_left}"
+    content_left: |
+        {more.content_left.description}
+        
+        * {more.content_left.step_1}
+        * {more.content_left.step_2}
+        * {more.content_left.step_3}
+        * {more.content_left.step_4}
+
+    title_right: "{more.title_right}"
+    content_right: |
+        * {more.content_right.p1}    
+        * {more.content_right.p2}    
+        * {more.content_right.p3}    
+        * {more.content_right.p4}    
+        * {more.content_right.p5}    
+        * {more.content_right.p6}    
+        * {more.content_right.p7}    
+        * {more.content_right.p8}   
+
+############################# Demos ############################
 demos:
     enable: true
-
-
-more_formats:
+    title: "{demos.title}"
+    content: |
+       {demos.h1}
+       {demos.h2}
+        
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "{more_formats.title}"
+    content: |
+        {more_formats.content}
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

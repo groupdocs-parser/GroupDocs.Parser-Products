@@ -1,105 +1,157 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:05
 draft: false
-path: "ko/parser/net/extract/barcode/txt/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: 
 
 ############################# Head ############################
-head_title: "PDF, DOCX, PPTX, XLSX, EPUB 등에서 바코드를 추출하는 .NET API "
-head_description: "GroupDocs.Parser .NET API를 사용하면 소프트웨어 개발자가 .NET 앱 내의 PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF 및 EPUB 문서에서 바코드를 추출할 수 있습니다."
+head_title: ".NET PDF, DOCX, PPTX, XLSX, EPUB 등에서 바코드를 추출하는 API"
+head_description: "GroupDocs.Parser .NET API를 통해 소프트웨어 개발자는 PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, .NET 앱 내의 CSV, ODT, RTF 및 EPUB 문서."
 
 ############################# Header ############################
 title: "C#.NET API를 통해 Excel, Word, PDF 및 PowerPoint 문서에서 바코드 추출"
-description: "GroupDocs.Parser .NET API를 사용하면 프로그래머가 PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF 및 EPUB 문서 또는 AEA 페이지에서 바코드를 추출할 수 있습니다."
-
-######################### Download Button #######################
+description: "GroupDocs.Parser .NET API를 통해 프로그래머는 PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV에서 바코드를 추출할 수 있습니다. , ODT, RTF & EPUB 문서 또는 페이지 영역."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "무료 평가판 다운로드"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "API 참조"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "코드 예제"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "라이브 데모"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "가격"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: ".NET API를 통해 Excel, Word, PDF 및 기타 문서에서 바코드를 추출하는 방법은 무엇입니까?"
+    title: "TXT 파일 .NET API에서 바코드를 추출하는 방법은 무엇입니까?"
     content: |
-       바코드는 제품 스캐닝 및 식별, 자동차 부품 추적, 재고 관리 등과 같은 다양한 맥락에서 전 세계적으로 일반적으로 사용되는 숫자와 문자의 기계 판독 가능 표현입니다. .NET용 GroupDocs.Parser는 개발자가 PDF, 이메일, 전자책, Microsoft Office 형식과 같은 다양한 유형의 지원 문서 형식에서 텍스트, 이미지 및 바코드를 추출하는 솔루션을 개발하는 데 도움이 되는 강력한 API입니다. Word(DOC, DOCX ), PowerPoint(PPT, PPTX), Excel(XLS, XLSX), 이메일(EML, MSG) 형식 등. API에는 키워드로 텍스트 검색, 정확한 텍스트 추출, HTML 또는 Markdown 형식의 텍스트 추출, 좌표가 있는 텍스트 영역 추출, 메타데이터 또는 바코드 추출 등과 같은 여러 고급 문서 구문 분석 기능에 대한 지원이 포함되었습니다. 
+        바코드는 제품 스캐닝 및 식별, 자동차 부품 추적, 재고 관리 등과 같은 많은 맥락에서 전 세계적으로 일반적으로 사용되는 숫자 및 문자의 기계 판독 가능 표현입니다. GroupDocs.Parser for .NET는 개발자가 PDF, 이메일, 전자책, Microsoft Office 형식과 같은 다양한 유형의 지원되는 문서 형식에서 텍스트, 이미지 및 바코드를 추출하기 위한 솔루션을 개발하는 데 도움이 되는 강력한 API입니다. Word ({ 377}, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), 이메일(EML, MSG) 형식 등. .NET API에는 키워드로 텍스트 검색, 정확한 텍스트 추출, HTML 또는 Markdown 형식의 텍스트 추출, 좌표를 사용한 텍스트 영역 추출, 메타데이터 또는 바코드 추출 등과 같은 여러 고급 문서 구문 분석 기능에 대한 지원이 포함되어 있습니다.
+        
+        
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "C# .NET을 통해 TXT 문서에서 바코드를 추출하는 방법 "
-      content_left: |
-       GroupDocs.Parser .NET API를 사용하면 소프트웨어 개발자가 TXT 문서에서 바코드를 쉽게 추출할 수 있습니다. 다음 C# .NET 코드 예제는 TXT 문서에서 바코드를 추출하는 방법을 보여줍니다. 
-
-      title_right: "문서에서 바코드 추출"
-      content_right: |
-        * [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) 인스턴스 생성
-        * 바코드 추출이 지원되는지 확인
-        * [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) 메소드를 호출하여 전체 문서에서 모든 바코드를 추출합니다.
-        * 문서의 바코드를 반복
-        * 페이지 인덱스 및 바코드 값 인쇄
-
-      gisthash: "f9329c432da312e75f5f1c3702c02c52"
-      gistfile: "barcode_extraction_form_documents.cs"
-
-    - title_left: ".NET을 통해 TXT 문서 페이지에서 바코드 추출"
-      content_left: |
-       GroupDocs.Parser .NET을 사용하면 소프트웨어 프로그래머가 TXT 문서 페이지에서 바코드를 추출할 수 있습니다. 아래 C# .NET 코드는 TXT 문서 내에서 바코드 추출을 달성하는 방법을 보여줍니다. 
-
-      title_right: "C# .NET을 통해 바코드 추출"
-      content_right: |
-        * [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) 인스턴스 생성
-        * 바코드 추출 지원 문서 확인
-        * [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) 메소드를 호출하여 전체 문서에서 모든 바코드를 추출합니다.
-        * 페이지를 반복하고 페이지 번호 인쇄
-        * 페이지 인덱스 및 바코드 값 인쇄
-     
-      gisthash: "80779aaa36b7d11b69c29296cfa73bd1"
-      gistfile: "barcodes_extraction_form_documents_page.cs"
-      
-    - title_left: ".NET을 통해 TXT 문서의 페이지 영역에서 바코드 가져오기"
-      content_left: |
-       GroupDocs.Parser .NET은 몇 줄의 .NET 코드를 사용하여 TXT 문서에서 바코드 추출을 완벽하게 지원하는 강력한 API입니다. 다음 .NET 코드 예제는 TXT 문서 페이지 영역에서 바코드 추출을 수행하는 방법을 보여줍니다.
-
-      title_right: "TXT 페이지 영역에서 바코드 추출 "
-      content_right: |
-        * [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) 인스턴스 생성
-        * 바코드 추출 지원 문서 확인
-        * 바코드 추출에 사용할 수 있는 사용자 지정 옵션 만들기
-        * 사용자 정의 옵션을 사용하여 [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) 메소드를 호출하여 페이지의 오른쪽 상단 모서리에서 바코드를 추출합니다.
-        * 페이지 인덱스 및 바코드 값 인쇄
-     
-      gisthash: "932e868be1c52982f8c2ced2fc4c0640"
-      gistfile: "barcodes_extraction_from_documents_page_area.cs"
-
-    - title_left: "시스템 요구 사항"
-      content_left: |
-        .NET용 GroupDocs.Parser는 모든 주요 플랫폼 및 운영 체제에서 완벽하게 지원됩니다. 전체 시스템 요구 사항 가이드를 보려면 [시스템 요구 사항](hhttps://docs.groupdocs.com/parser/net/system-requirements/)을 방문하십시오. 아래 코드를 실행하기 전에 다음 전제 조건이 컴퓨터에 설치되어 있는지 확인하십시오. 체계:
-        * 운영 체제: 마이크로소프트 윈도우, 리눅스, 맥OS
-        * 개발 환경: Visual Studio, Xamarin, MonoDevelop 등
-        * 프레임워크: .NET Framework, .NET Standard, .NET Core, Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)에서 최신 버전의 GroupDocs.Parser .NET API 다운로드
+    title_left: ".NET의 TXT에서 바코드 추출"
+    content_left: |
+        [GroupDocs.Parser for .NET](/ko/parser/net/)를 사용하면 C# 개발자가 몇 가지 간단한 단계를 구현하여 TXT 파일에서 바코드를 쉽게 추출할 수 있습니다.
         
-      title_right: "GroupDocs.Parser를 사용하는 이유"
-      content_right: |
-        * 지원되는 모든 문서에서 일반 텍스트 추출 지원
-        * 사용자 정의 템플릿을 통한 문서 구문 분석.
-        * 구조화된 텍스트 추출을 완벽하게 지원
-        * 키워드 및 정규식을 통한 텍스트 검색
-        * 형식이 지정된 텍스트, 메타데이터, 이미지, 컨테이너 및 첨부 파일을 추출합니다.
-        * 지원되는 일부 문서 형식의 목차를 추출합니다.
-        * PDF 문서에서 양식 데이터를 구문 분석합니다.
-        * 문서에서 하이퍼링크 추출
+        * 초기 문서에 대한 [파서](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) 개체를 인스턴스화합니다.
+        * 파일이 바코드 추출을 지원하는지 확인하십시오.
+        * [GetBarcodes](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getbarcodes) 메서드를 호출하고 [PageBarcodeArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagebarcodearea) 개체;
+        * 컬렉션을 반복하고 바코드 값을 가져옵니다.
 
+    title_right: "바코드 추출에 대해 자세히 알아보기"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/">문서에서 바코드를 추출하는 방법</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page/">문서 페이지에서 바코드를 추출하는 방법</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page-area/">문서 페이지 영역에서 바코드를 추출하는 방법</a>
+    
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="C# 예제 코드를 사용하여 TXT 파일에서 바코드를 추출하는 방법">}}
+
+        ```csharp    
+        // GroupDocs.Parser API를 사용하여 TXT 파일에서 바코드 추출
+        // Parser 클래스의 인스턴스 생성
+        using (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+            // 파일이 바코드 추출을 지원하는지 확인
+            if (!parser.Features.Barcodes) {
+                Console.WriteLine("파일이 바코드 추출을 지원하지 않습니다.");
+                return;
+            }
+
+            // {steps.code.scan}
+            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
+
+            // 바코드 반복
+            foreach (PageBarcodeArea barcode in barcodes) {
+                // 페이지 색인 인쇄
+                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                // 바코드 값 인쇄
+                Console.WriteLine("Value: " + barcode.Value);
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "시스템 요구 사항"
+    content_left: |
+        GroupDocs.Parser for .NET API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 필수 구성 요소가 설치되어 있는지 확인하십시오.
+        
+        * 운영 체제: Microsoft Windows, Linux, MacOS
+        * 개발 환경: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * 프레임워크
+        * [Nuget](https://www.nuget.org/packages/groupdocs.parser)에서 GroupDocs.Parser for .NET의 최신 버전을 다운로드하세요.
+
+    title_right: "GroupDocs.Parser for .NET를 사용하는 이유"
+    content_right: |
+        * 지원되는 모든 문서에서 일반 텍스트 추출 지원    
+        * 사용자 정의 템플릿을 통한 문서 분석    
+        * 구조화된 텍스트 추출을 완벽하게 지원    
+        * 키워드 및 정규 표현식을 통한 텍스트 검색    
+        * 형식이 지정된 텍스트, 메타데이터, 이미지, 컨테이너 및 첨부 파일 추출    
+        * 지원되는 일부 문서 형식의 목차 추출    
+        * PDF 문서에서 양식 데이터 구문 분석    
+        * 문서에서 하이퍼링크 추출   
+
+############################# Demos ############################
 demos:
     enable: true
-      
-
-more_formats:
+    title: "라이브 데모 - 온라인 문서에서 바코드 추출"
+    content: |
+       지금 바로 [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/barcodes/) 웹사이트를 방문하여 문서에서 바코드를 추출하세요.
+       라이브 데모에는 다음과 같은 이점이 있습니다.
+        
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "다른 문서 형식에서 바코드 추출"
+    content: |
+        .NET 파일 형식 및 이미지에 대한 문서 구문 분석 및 바코드 추출 API. 아래에 설명된 대로 널리 사용되는 일부 파일 형식에 대한 데이터를 추출합니다.
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

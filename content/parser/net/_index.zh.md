@@ -1,362 +1,252 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2024-02-13T17:01:03
 draft: false
-
+#operation: 
+#parsertype: 
+#fileformat: 
+#productName: Java
+lang: zh
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  parser on  for Java
 product: "Parser"
 product_tag: "parser"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET 解析 API 从 PDF Word Excel 中提取文本图像元数据"
-head_description: "C# .NET 文档解析 API，用于从数据库、PDF、Word、Excel、演示文稿、Web、电子邮件、EPUB 和 zip 文件格式中提取文本、图像、元数据和编码."
+head_title: ".NET、Java、云 API 和在线文档解析器应用"
+head_description: "获取适用于 .NET、Java 和基于云的应用程序的一体化文档解析解决方案。使用简单的拖放功能在线从文档格式中提取数据"
 
 ############################# Header ############################
-title: ".NET API 来提取文档数据"
-description: "从 .NET 应用程序中的文档、电子表格、演示文稿、电子邮件和档案中提取图像、原始或格式化文本和元数据。"
-button:
-    enable: true
+title: "解析文档<br>通过 .NET API"
+description: "使用我们为程序员和最终用户提供的灵活 API 和基于应用程序的解决方案，从任何平台上的文档和图像中提取数据。"
+words:
+  for: "为了"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Parser for .NET"
-        image: "/border/groupdocs-parser-net.svg"
-        product: "GroupDocs.Parser"
-        platform: ".NET"
+actions:
+  main: "免费NuGet下载"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Parser"
+  alt: "许可"
+  alt_link: "https://purchase.groupdocs.com/pricing/parser/net"
+  title: "准备好开始了吗？"
+  description: "免费试用 GroupDocs.Parser 功能或申请许可"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概述"
+release:
+  title: "版本 {0} 已发布"
+  notes: "看看有什么新鲜事"
+  downloads: "下载"
 
-            # button loop
-            - link: "#features"
-              text: "特征"
+code:
+  title: "使用 C# 从 PDF 文件中提取文本"
+  more: "更多示例"
+  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET"
+  install: "dotnet add package GroupDocs.Parser"
+  content: |
+    ```csharp {style=abap}   
+    // Create an instance of Parser class
+    using (var parser = new Parser(fileName))
+    {
+        // Extract a text into the reader
+        using (var textReader = parser.GetText())
+        {
+            // Print a text from the document
+            Console.WriteLine(textReader?.ReadToEnd());
+        }
+    }
+    ```
 
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/parser"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/parser/net"
-              text: "价钱"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/parser"
-        link_learn: "https://docs.groupdocs.com/parser/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# 概述 ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Parser for .NET 是一个文本、元数据和图像提取器 API，用于使用 C#、ASP.NET 和其他 .NET 技术开发的业务应用程序。它支持从支持格式的文件中提取原始、格式化和结构化文本以及元数据。通过 GroupDocs.Parser for .NET，您的应用程序还可以对流行格式的受密码保护的文档进行解析，例如文字处理文档、Excel 电子表格、PowerPoint 演示文稿、OneNote、PDF 文件和 ZIP 档案。
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          以下是 .NET 的 GroupDocs.Parser 的概述：
-      
-        left:
-          enable: true
-          icon: "fas fa-tools"
-          title: "特征"
-          content: |
-            * 提取图像
-            * 提取原始文本
-            * 提取格式化文本
-            * 提取结构化文本
-            * 提取元数据
-            * 从 ZIP 文件中的文件中提取
-            * 搜索提取
-            * 使用文本格式化程序提取
-            * 检测编码标准
-            * 检测媒体类型
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "API"
-          content: |
-            * 获取输入文件
-            * 获取原始或格式化文本
-            * 获取元数据
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Parser for .NET 支持以下 [文档文件格式](https://docs.groupdocs.com/parser/net/supported-document-formats/)：
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "文本提取"
-              content: |
-                * **文本**：DOC、DOCX、DOT、DOTM、DOTX、DOCM、RTF、ODT、OTT、TXT、MD、WordprocessingML (XML)
-                * **电子表格**：XLS、XLSX、CSV、XLSM、XLSB、ODS、SpreadsheetML (XML)、XLT、XLTX、XLTM、OTS、XLA、XLAM、TSV
-                * **演示文稿**：PPT、PPTX、PPTM、PPS、PPSX、PPSM、POT、POTX、POTM、ODP、OTP
-                * **OneNote**：一个
-                * **电子邮件**：MSG、EML、EMLX、PST、OST、MS EXCHANGE SERVER、POP、IMAP
-                * **电子出版**：EPUB、FB2
-                * **便携式文档**：PDF、PDF 包、加密 PDF
-                * **基于DOM的**：XML、HTML、XHTML、MHTML
-                * **压缩和包装**：ZIP、CHM
-                * **数据库**：ADO.NET
-
-            # table loop
-            - title: "编码检测"
-              content: |
-                * **BOM**：UTF32 LE、UTF32 BE、UTF16 LE、UTF16 BE、UTF8 和 UTF7
-                * **内容**：UTF32 LE、UTF32 BE、UTF16 LE、UTF16 BE、UTF8 和 ANSI
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "元数据提取"
-              content: |
-                * **文本**：DOC、DOCX、DOT、DOTX、DOTM、OTT、ODT
-                * **电子表格**：XLS、XLSX、XLT、XLTX、XLTM、XLA、XLAM、OTS、ODS
-                * **演示文稿**：PPT、PPTX、POT、POTX、POTM、PPSM、PPTM、OTP、ODP
-                * **电子邮件**：味精、EML、EMLX
-                * **电子出版**：EPUB、FB2
-                * **其他**：PDF
-
-            # table loop
-            - title: "Text & 元数据提取"
-              content: |
-                * **模板**：DOTX、POTX
-                * **启用宏的模板**：DOTM、POTM、PPSM、PPTM
-                * **OpenDocument 模板**：OTT
-
-            # table loop
-            - title: "图像提取"
-              content: |
-                * **文本**：DOC、DOCX、DOCM、RTF、DOT、DOTM、DOTX、ODT
-                * **电子表格**：XLS、XLSX、XLSM、XLSB、ODS、XLT、XLTM、XLTX
-                * **演示文稿**：PPT、PPTX、PPTM、ODP、POT、POTM、POTX、PPS、PPSX、PPSM
-                * **便携式文档**：PDF、POT、POTM、POTX
-                * **电子书**：CHM、EPUB、FB2
-                * **标记**：HTML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Parser for .NET 支持以下操作系统、框架和包管理器:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "操作系统"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "支持的框架"
-              content: |
-                * .NET Framework 2.0 或更高版本
-                * Mono 框架 1.2 或更高版本
-                * .NET 标准 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "包管理器"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "开发环境"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-############################# 特征 ############################
-features:
-    enable: true
-    title: "GroupDocs.Parser for .NET 特征"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "统计单个或多个文件中的单词出现次数"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "从 Excel 工作表和演示模板中提取文本和元数据"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "在不安装文档阅读器的情况下从文件或流中提取文本内容"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "使用快速或标准文本提取模式从文档中获取格式化文本"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "检测受密码保护的 XML 文档的媒体类型并从中提取文本"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "以编程方式从电子邮件和附件中获取格式化文本"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "从 OneNote 文档的单页或多页中提取文本"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "从 PDF、MS Word、Excel 和演示文档中提取数据"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "从 PDF 表单中提取数据并从简单的 PDF 文件或 PDF 组合文档中提取文本"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "从 PowerPoint 演示文稿中获取格式化文本或从特定幻灯片中删除文本"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "从 Excel 电子表格的单元格、行和列中收集原始或格式化文本"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "从 Word 文档中提取原始或 HTML 格式的文本"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "HTML Formatter 支持段落、超链接、字体、标题、列表和表格的格式化"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "从 EPUB、CHM、Markdown 和 FB2 文件中提取单个句子或整个文本"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "摘自数据库、PDF、EPUB、CHM 和文字处理文档的目录"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "提取具有完整内容结构的文本并从文档中摘录突出显示的文本"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "从文档中获取文本区域进行分析并从支持的文档格式中提取元数据"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "从支持的格式中获取所有或选定的图像并旋转提取的图像"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "从 Zip 档案和 OST 容器中的文件中取出文本并检测 ZIP 容器项目的文件类型"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "从电子邮件容器（Exchange Web 服务器、POP3、IMAP）获取数据"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "在文档中搜索简单文本、整个单词和正则表达式"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "准备文档模板，从文档中提取数据并分析数据字段和表格"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "在文档中搜索和提取突出显示的表达式"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "使用纯文本格式化程序（简单和 ASCII）或 Markdown 格式化程序获取文本"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Markdown Formatter 支持字体、超链接、标题、列表和表格的格式化"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "使用边缘、角度和交叉点执行自定义格式以格式化纯文本"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "通过列分隔符移动表格布局和检测矩形区域中的表格"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "从 Microsoft Office 文件格式中的形状、艺术字对象和文本框中提取文本"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "将图像提取到文件 - 保存为 JPG、PNG、GIF、BMP、PNG 或 WEBP 格式"
-
-    more_feature:
-      # more_feature_loop
-      - title: "从文档中提取文本"
-        content: |
-          使用 GroupDocs.Parser for .NET API 从文档中提取文本很简单，只需几行代码即可实现：
-
-          ```cs
-          // 创建 Parser 类的实例
-          using(Parser parser = new Parser("sample.docx"))
-          {
-            // 将文本提取到阅读器中
-            using(TextReader reader = parser.GetText())
-            {
-              // 打印文档中的文本
-              // 如果不支持文本提取，则 reader 为 null
-              Console.WriteLine(reader == null ? "Text extraction isn't supported." : reader.ReadToEnd());
-            }
-          }
-          ```
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Parser 为其他流行的开发环境提供文档查看 API"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Parser for Java"
-          image: "/border/groupdocs-parser-java.svg"
-          product: "GroupDocs.Parser"
-          platform: "Java"
-          link: "/parser/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Parser 概述"
+  description: "用于在 .NET 应用程序中执行文档解析的 API"
+  features:
+    # feature loop
+    - title: "从文档中提取数据"
+      content: ".NET API 使您能够从各种文件格式（例如 Office 文档、电子邮件、附件和存档）中检索文本、元数据和图像。这个强大的工具可帮助您有效地访问和处理这些文件中包含的有价值的信息，以用于各种应用程序，例如数据分析、搜索引擎索引或内容管理系统。"
+
+    # feature loop
+    - title: "解析文档"
+      content: "从PDF表单中提取各种元素，例如超链接、表格、二维码、条形码和数据。还可以使用自定义模板从文档中解析任何所需的信息。"
+
+    # feature loop
+    - title: "定制结果"
+      content: ".NET API 可让您检索各种格式的数据，例如原始格式、结构化格式、HTML 或 Markdown 格式。此外，API 还提供搜索功能，用于在文档文本中查找特定单词或短语。"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "平台独立性"
+  description: "GroupDocs.Parser for .NET 支持以下操作系统、框架和软件包管理器"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "支持的文件格式"
+  description: |
+    GroupDocs.Parser for .NET 支持以下[文件格式](https://docs.groupdocs.com/parser/net/supported-document-formats/) 的操作。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office 格式
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### 图像和其他格式
+        * **Portable:** PDF
+        * **图片:** JPG, BMP, PNG, TIFF, GIF
+        * **其他办公形式:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### 其他格式
+        * **网络:** HTML, MHTML
+        * **档案:** ZIP, TAR, 7Z
+        * **电子书:** CHM, EPUB, FB2, MOBI
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Parser 功能"
+  description: "快速准确地从 PDF、Office 文档和图像中提取数据。"
+
+  items:
+    # feature loop
+    - icon: "text"
+      title: "提取文本"
+      content: "从各种文件格式（例如 Office 文档、PDF 文件和图像）中提取文本信息，以便于阅读和分析。"
+
+    # feature loop
+    - icon: "image"
+      title: "提取图像"
+      content: "从办公文档、PDF 文件等不同来源检索视觉内容，以便于访问和使用。"
+
+    # feature loop
+    - icon: "qr"
+      title: "扫描二维码"
+      content: "检测和解码办公文档、PDF 文件或视觉内容中存在的 QR 码，以实现高效的信息检索。"
+
+    # feature loop
+    - icon: "email"
+      title: "从电子邮件附件和档案中提取数据"
+      content: "从电子邮件、文件附件和压缩数据源中收集有价值的信息，以便进行有效分析和利用。"
+
+    # feature loop
+    - icon: "table"
+      title: "提取表格"
+      content: "从 PDF 文档中识别并提取表格数据，以便进行有组织的分析和使用。"
+
+    # feature loop
+    - icon: "hyperlink"
+      title: "提取超链接"
+      content: "找到并提取 Office 文档或 PDF 文件中的超链接和电子邮件地址，以便高效访问。"
+
+    # feature loop
+    - icon: "pdf"
+      title: "解析 PDF 表单"
+      content: "PDF 表单是数字文档，具有用于用户交互的可填写字段，允许用户以电子方式输入信息。 .NET API 可用于从这些表单中提取数据，以便进行高效处理。"
+
+    # feature loop
+    - icon: "template"
+      title: "通过模板解析数据"
+      content: "创建自定义模板并通过 .NET API 使用它们来解析 PDF 文件中的特定信息，从而简化数据提取过程。"
+
+    # feature loop
+    - icon: "search"
+      title: "在文档中搜索文本"
+      content: "快速定位文档中的特定单词或模式。"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "代码示例"
+  description: "典型 GroupDocs.Parser for .NET 操作的一些用例"
+  items:
+    # code sample loop
+    - title: "从 PDF 文档中提取图像"
+      content: |
+        .NET API 使 C# 开发者只需执行几个简单的步骤即可轻松从文档中提取图像。
+        {{< landing/code title="使用 C# 从 PDF 文档中提取图像">}}
+        ```csharp {style=abap}
+        // Create an instance of Parser class
+        using (var parser = new Parser(fileName))
+        {
+            // Extract images
+            var images = parser.GetImages();
+
+            // Check if images extraction is supported
+            if (images != null)
+            {
+                var imageIndex = 0;
+
+                // Iterate over images
+                foreach (var image in images)
+                {
+                    // Save the image to the file
+                    image.Save($"{++imageIndex}{image.FileType.Extension}");
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "从图像中提取条形码"
+      content: |
+        .NET API 使 C# 开发者只需执行几个简单的步骤即可轻松从文档中提取条形码。
+        {{< landing/code title="从图像中提取条形码">}}
+        ```csharp {style=abap}   
+        // Create an instance of Parser class
+        using (var parser = new Parser(fileName))
+        {
+            // Check if the file supports barcode extracting
+            if (parser.Features.Barcodes)
+            {
+                // Extract barcodes from the file.
+                var barcodes = parser.GetBarcodes();
+
+                // Iterate over barcodes
+                foreach (var barcode in barcodes)
+                {
+                    // Print the page index
+                    Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                    // Print the barcode value
+                    Console.WriteLine("Value: " + barcode.Value);
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

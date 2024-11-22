@@ -1,109 +1,157 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:04
 draft: false
-path: "parser/net/extract/barcode/xlsm/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm
 
 ############################# Head ############################
-head_title: ".NET API to Extract Barcodes from PDF, DOCX, PPTX, XLSX, EPUB & More "
+head_title: ".NET API to Extract Barcodes from PDF, DOCX, PPTX, XLSX, EPUB & More"
 head_description: "GroupDocs.Parser .NET API allow software developers to extract barcodes from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB documents inside .NET Apps."
 
 ############################# Header ############################
 title: "Extract Barcodes from Excel, Word, PDF & PowerPoint Documents via C#.NET API"
-description: "GroupDocs.Parser .NET API allows programmers to extract barcodes from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB documents or page aea."
-
-######################### Download Button #######################
+description: "GroupDocs.Parser .NET API allows programmers to extract barcodes from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB documents or page area."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Download Free Trial"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "API Reference"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "Code Examples"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "Live Demos"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "Pricing"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "How to Extract Barcodes from Excel, Word, PDF & Other Documents via .NET API?"
+    title: "How to Extract Barcodes from XLSM files .NET API?"
     content: |
-       Barcodes are machine-readable representation of numerals and characters that are commonly used across the World in many contexts, such as product scanning and identification, automobile parts tracking, inventory management and so on.  GroupDocs.Parser for .NET is a powerful API that help developers to develop solution for extracting text, images and barcodes from different types of supported documents formats, such as such as PDF, Emails, Ebooks, Microsoft Office formats: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), Emails (EML, MSG)  formats and many more. The API has included support for several advanced documents parsing features such as searching text by keywords, accurate text extraction, HTML or Markdown formatted text extraction, text areas extraction with coordinates, extract metadata or barcodes and so on.  
+        Barcodes are machine-readable representation of numerals and characters that are commonly used across the World in many contexts, such as product scanning and identification, automobile parts tracking, inventory management and so on. GroupDocs.Parser for .NET is a powerful API that help developers to develop solution for extracting text, images and barcodes from different types of supported documents formats, such as such as PDF, Emails, Ebooks, Microsoft Office formats: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), Emails (EML, MSG) formats and many more. The .NET API has included support for several advanced documents parsing features such as searching text by keywords, accurate text extraction, HTML or Markdown formatted text extraction, text areas extraction with coordinates, extract metadata or barcodes and so on.
+        
+        
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "How to Extract Barcodes from XLSM Documents via C# .NET "
-      content_left: |
-       GroupDocs.Parser .NET API helps software developers to extract Barcodes from XLSM documents with ease. The following C# .NET code example demonstrates how to extract barcodes from a XLSM document. 
-
-      title_right: "Barcodes Extraction from Documents"
-      content_right: |
-        * Create an instance of [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) 
-        * check if barcodes extraction is supported 
-        * Call [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) method to extract all barcodes from the whole document.
-        * Iterate over barcodes in the document
-        * Print page index and barcode value
-
-      gisthash: "f9329c432da312e75f5f1c3702c02c52"
-      gistfile: "barcode_extraction_form_documents.cs"
-
-    - title_left: "Barcodes Extraction from XLSM Document's Page via .NET"
-      content_left: |
-       GroupDocs.Parser .NET enables software programmers to extract barcodes from XLSM documents's page. The below C# .NET code shows how barcodes extraction can be achived  inside a XLSM document. 
-
-      title_right: "Extract Barcodes via C# .NET"
-      content_right: |
-        * Create an instance of [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)  
-        * Check document for barcodes extraction support
-        * Call [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) method to extract all barcodes from the whole document.
-        * Iterate over pages and Print a page number
-        * Print page index and barcode value
-     
-      gisthash: "80779aaa36b7d11b69c29296cfa73bd1"
-      gistfile: "barcodes_extraction_form_documents_page.cs"
-      
-    - title_left: "Get Barcodes from XLSM Document's Page Area via .NET"
-      content_left: |
-       GroupDocs.Parser .NET is a powerful  API that provides complete support for barcodes extraction from XLSM documents using a couple of lines of .NET code. The following .NET code example shows how to perform barcodes extraction from a XLSM document page area.
-
-      title_right: "Extract Barcodes from XLSM Page Area "
-      content_right: |
-        * Create an instance of [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)   
-        * Check document for barcodes extraction support
-        * create a customize Options that can be used for barcodes extraction
-        * Extract barcodes from the upper-right corner of a page by calling [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) method using customize Options.
-        * Print page index and barcode value
-     
-      gisthash: "932e868be1c52982f8c2ced2fc4c0640"
-      gistfile: "barcodes_extraction_from_documents_page_area.cs"
-
-    - title_left: "System Requirements"
-      content_left: |
-        GroupDocs.Parser for .NET is fully supported on all major platforms and operating systems. For complete system requirements guide, please visit [system requirements](hhttps://docs.groupdocs.com/parser/net/system-requirements/) Before executing the code below, please make sure that you have the following prerequisites installled on your system:
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environment:  Visual Studio, Xamarin, MonoDevelop etc
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Get the latest version of GroupDocs.Parser .NET APIs from [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)
+    title_left: "Extract barcodes from XLSM in .NET"
+    content_left: |
+        [GroupDocs.Parser for .NET](/parser/net/) makes it easy for C# developers to extract barcodes from a XLSM file by implementing a few easy steps.
         
-      title_right: "Why Use GroupDocs.Parser"
-      content_right: |
-        * Plain text extraction support  from any supported documents
-        * Documents parsing via user-defined templates.
-        * Fully support structured text extraction
-        * Text searching via keyword as well as regular expression
-        * Extract formatted text, metadata, images, containers, and attachments.
-        * Extract table of contents for some supported document formats.
-        * Parse form data from PDF documents.
-        * Extract hyperlinks from the document
+        * Instantiate [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) object for the initial document;
+        * Check if the file supports barcode extracting;
+        * Call [GetBarcodes](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getbarcodes) method and obtain collection of [PageBarcodeArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagebarcodearea) objects;
+        * Iterate through the collection and get a barcode value.
 
+    title_right: "Learn more about the barcode extraction"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/">How to extract barcodes from document</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page/">How to extract barcodes from document page</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page-area/">How to extract barcodes from document page area</a>
+    
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="How to extract barcodes from XLSM file using C# example code">}}
+
+        ```csharp    
+        // Extract barcodes from XLSM file using GroupDocs.Parser API
+        // Create an instance of Parser class
+        using (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+            // Check if the file supports barcode extracting
+            if (!parser.Features.Barcodes) {
+                Console.WriteLine("The file doesn't support barcode extracting.");
+                return;
+            }
+
+            // {steps.code.scan}
+            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
+
+            // Iterate over barcodes
+            foreach (PageBarcodeArea barcode in barcodes) {
+                // Print the page index
+                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                // Print the barcode value
+                Console.WriteLine("Value: " + barcode.Value);
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "System Requirements"
+    content_left: |
+        GroupDocs.Parser for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks
+        * Download the latest version of GroupDocs.Parser for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.parser)
+
+    title_right: "Why Use GroupDocs.Parser for .NET"
+    content_right: |
+        * Plain text extraction support from any supported documents    
+        * Documents parsing via user-defined templates    
+        * Fully support structured text extraction    
+        * Text searching via keyword as well as regular expression    
+        * Extract formatted text, metadata, images, containers, and attachments    
+        * Extract table of contents for some supported document formats    
+        * Parse form data from PDF documents    
+        * Extract hyperlinks from the document   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "Live Demos - Extract barcodes from documents Online"
+    content: |
+       Extract barcodes from documents right now by visiting [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/barcodes/) website.
+       The live demo has the following benefits.
         
-
+############################# About Formats ############################
 about_formats:
     enable: true
 
-
+############################# More Formats ############################
 more_formats:
     enable: true
+    title: "Extract Barcodes From Other Document Formats"
+    content: |
+        .NET documents parse & barcode extracting API for file formats and images. Extract data for some of the popular file formats as stated below.
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

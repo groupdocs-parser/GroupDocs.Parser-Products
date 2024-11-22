@@ -1,361 +1,252 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2024-02-13T17:01:03
 draft: false
-
+#operation: 
+#parsertype: 
+#fileformat: 
+#productName: Java
+lang: es
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  parser on  for Java
 product: "Parser"
 product_tag: "parser"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "API de análisis de .NET, extraiga metadatos de imágenes de texto de PDF Word Excel"
-head_description: "API de análisis de documentos C# .NET para extraer texto, imágenes, metadatos y codificación de bases de datos, PDF, Word, Excel, presentaciones, web, correo electrónico, EPUB y formatos de archivo zip."
+head_title: ".NET, Java, API en la nube y aplicaciones de análisis de documentos en línea"
+head_description: "Obtenga una solución de análisis de documentos todo en uno para .NET, Java y aplicaciones basadas en la nube. Extraiga datos de formatos de documentos en línea usando la función simple de arrastrar y soltar"
 
 ############################# Header ############################
-title: ".NET API para extraer datos de documentos"
-description: "Extraiga imágenes, texto sin formato o formateado y metadatos de documentos, hojas de cálculo, presentaciones, correos electrónicos y archivos desde aplicaciones .NET."
-button:
-    enable: true
+title: "Analizar documentos<br>a través de .NET API"
+description: "Extraiga datos de documentos e imágenes en cualquier plataforma utilizando nuestras API flexibles y soluciones basadas en aplicaciones para programadores y usuarios finales."
+words:
+  for: "para"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Parser for .NET"
-        image: "/border/groupdocs-parser-net.svg"
-        product: "GroupDocs.Parser"
-        platform: ".NET"
+actions:
+  main: "Descarga gratuita NuGet"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Parser"
+  alt: "Licencia"
+  alt_link: "https://purchase.groupdocs.com/pricing/parser/net"
+  title: "¿Listo para comenzar?"
+  description: "Pruebe GroupDocs.Parser funciones gratis o solicite una licencia"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Visión de conjunto"
+release:
+  title: "Versión {0} lanzada"
+  notes: "Ver qué hay de nuevo"
+  downloads: "Descargas"
 
-            # button loop
-            - link: "#features"
-              text: "Características"
+code:
+  title: "Extraiga texto de PDF archivos en C#"
+  more: "Más ejemplos"
+  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET"
+  install: "dotnet add package GroupDocs.Parser"
+  content: |
+    ```csharp {style=abap}   
+    // Create an instance of Parser class
+    using (var parser = new Parser(fileName))
+    {
+        // Extract a text into the reader
+        using (var textReader = parser.GetText())
+        {
+            // Print a text from the document
+            Console.WriteLine(textReader?.ReadToEnd());
+        }
+    }
+    ```
 
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/parser"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/parser/net"
-              text: "Precios"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/parser"
-        link_learn: "https://docs.groupdocs.com/parser/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# Visión de conjunto ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Parser para .NET es una API de extracción de texto, metadatos e imágenes para aplicaciones comerciales desarrolladas con C#, ASP.NET y otras tecnologías .NET. Admite la extracción de texto sin procesar, formateado y estructurado, así como metadatos de los archivos de formatos admitidos. A través de GroupDocs.Parser para .NET, sus aplicaciones también pueden analizar documentos protegidos con contraseña para formatos populares, como documentos de procesamiento de Word, hojas de cálculo de Excel, presentaciones de PowerPoint, OneNote, archivos PDF y archivos ZIP.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          A continuación se muestra una descripción general de GroupDocs.Parser para .NET:
-      
-        left:
-          enable: true
-          icon: "fas fa-tools"
-          title: "Características"
-          content: |
-            * Extraer imágenes
-            * Extraer texto sin procesar
-            * Extraer texto formateado
-            * Extraer texto estructurado
-            * Extraer metadatos
-            * Extraer de archivos dentro del archivo ZIP
-            * Extraer por búsqueda
-            * Extraer con formateadores de texto
-            * Estándar de codificación de detección
-            * Detectar tipo de medio
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "la API"
-          content: |
-            * Obtiene el archivo de entrada
-            * Obtiene texto sin procesar o formateado
-            * Obtiene metadatos
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Parser para .NET admite los siguientes [formatos de archivo de documento] (https://docs.groupdocs.com/parser/net/supported-document-formats/):
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Extracción de texto"
-              content: |
-                * **Texto**: DOC, DOCX, DOT, DOTM, DOTX, DOCM, RTF, ODT, OTT, TXT, MD, WordprocessingML (XML)
-                * **Hojas de cálculo**: XLS, XLSX, CSV, XLSM, XLSB, ODS, SpreadsheetML (XML), XLT, XLTX, XLTM, OTS, XLA, XLAM, TSV
-                * **Presentaciones**: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX, POTM, ODP, OTP
-                * **Una Nota**: UNO
-                * **Correo electrónico**: MSG, EML, EMLX, PST, OST, MS EXCHANGE SERVER, POP, IMAP
-                * **Publicación electrónica**: EPUB, FB2
-                * **Documento portátil**: PDF, cartera PDF, PDF encriptado
-                * **Basado en DOM**: XML, HTML, XHTML, MHTML
-                * **Compresión y embalaje**: ZIP, CHM
-                * **Base de datos**: ADO.NET
-
-            # table loop
-            - title: "Detección de codificación"
-              content: |
-                * **BOM**: UTF32 LE, UTF32 BE, UTF16 LE, UTF16 BE, UTF8, and UTF7
-                * **Content**: UTF32 LE, UTF32 BE, UTF16 LE, UTF16 BE, UTF8, and ANSI
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Extracción de metadatos"
-              content: |
-                * **Texto**: DOC, DOCX, DOT, DOTX, DOTM, OTT, ODT
-                * **Hojas de cálculo**: XLS, XLSX, XLT, XLTX, XLTM, XLA, XLAM, OTS, ODS
-                * **Presentaciones**: PPT, PPTX, POT, POTX, POTM, PPSM, PPTM, OTP, ODP
-                * **Correo electrónico**: MSG, EML, EMLX
-                * **Publicación electrónica**: EPUB, FB2
-                * **Otro**: PDF
-
-            # table loop
-            - title: "Text & Extracción de metadatos"
-              content: |
-                * **Plantilla**: DOTX, POTX
-                * **Plantilla habilitada para macros**: DOTM, POTM, PPSM, PPTM
-                * **Plantilla de documento abierto**: OTT
-
-            # table loop
-            - title: "Extracción de imagen"
-              content: |
-                * **Texto**: DOC, DOCX, DOCM, RTF, DOT, DOTM, DOTX, ODT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, ODS, XLT, XLTM, XLTX
-                * **Presentaciones**: PPT, PPTX, PPTM, ODP, POT, POTM, POTX, PPS, PPSX, PPSM
-                * **Documento portátil**: PDF, POT, POTM, POTX
-                * **Libro electrónico**: CHM, EPUB, FB2
-                * **Marcado**: HTML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Parser for .NET apoya siguiendo Sistemas operativos, Frameworks & Gerente de empaquetacións:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sistemas operativos"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Marcos compatibles"
-              content: |
-                * .NET Framework 2.0 o superior
-                * Mono Framework 1.2 o superior
-                * .NET estándar 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Gerente de empaquetación"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Entornos de desarrollo"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-############################# Características ############################
-features:
-    enable: true
-    title: "GroupDocs.Parser for .NET Características"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Cuente estadísticamente la ocurrencia de palabras en archivos únicos o múltiples"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Extraiga texto y metadatos de hojas de cálculo y plantillas de presentación de Excel"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Extraiga contenido de texto de un archivo o secuencia sin instalar el lector de documentos"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Obtenga texto formateado de un documento usando el modo de extracción de texto rápido o estándar"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Detecte el tipo de medio de documentos XML protegidos con contraseña y extraiga texto de ellos"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Obtenga texto formateado programáticamente desde correos electrónicos y archivos adjuntos"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Sacar texto de una o varias páginas de un documento de OneNote"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Extraiga datos de PDF, MS Word, Excel y documentos de presentación"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Extraiga datos de los formularios PDF y extraiga texto de un archivo PDF simple o un documento de cartera PDF"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Obtenga texto formateado de una presentación de PowerPoint o elimine el texto de una diapositiva específica"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Reúna texto sin formato o con formato de celdas, filas y columnas de la hoja de cálculo de Excel"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Extraiga texto sin procesar o con formato HTML de un documento de Word"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "El formateador HTML admite formato de párrafo, hipervínculo, fuente, encabezados, listas y tablas"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Extraiga una sola oración o texto completo de archivos EPUB, CHM, Markdown y FB2"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Extracto del índice de la base de datos, PDF, EPUB, CHM y documentos de procesamiento de textos"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Saque el texto con su estructura de contenido intacta y extraiga el texto resaltado de los documentos"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Obtenga el área de texto de los documentos para el análisis y extraiga los metadatos de los formatos de documentos admitidos"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Obtenga todas las imágenes o las seleccionadas de los formatos admitidos y gire las imágenes extraídas"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Extraiga texto de archivos dentro de archivos comprimidos y contenedores OST y detecte tipos de archivos de elementos de contenedores ZIP"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Obtener datos del contenedor de correo electrónico (Exchange Web Server, POP3, IMAP)"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Busque texto simple, palabra completa y expresión regular dentro de los documentos"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Prepare la plantilla del documento, extraiga datos del documento y analice campos y tablas de datos"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Buscar y extraer expresiones resaltadas en documentos"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Obtener texto con el formateador de texto sin formato (simple y ASCII) o con el formateador Markdown"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Markdown Formatter admite formato de fuente, hipervínculos, encabezados, listas y tablas"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Aplicar formato personalizado con bordes, ángulos e intersecciones para dar formato a texto sin formato"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Mueva el diseño de la tabla y detecte las tablas en un área rectangular por separadores de columnas"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Extract Text from Shapes, WordArt Objects & Text Boxes within oficina de Microsoft File Formats"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Extraer imágenes to Files – Save to JPG, PNG, GIF, BMP, PNG or WEBP Formats"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Extraer texto de un documento"
-        content: |
-          Usar GroupDocs.Parser para .NET API para extraer texto de un documento es simple y se logra con solo unas pocas líneas de código:
-
-          ```cs
-          using(Parser parser = new Parser("sample.docx"))
-          {
-            // Extraer texto en el lector
-            using(TextReader reader = parser.GetText())
-            {
-              // Imprimir texto del documento
-              // Si no se admite la extracción de texto, el lector es nulo
-              Console.WriteLine(reader == null ? "Text extraction isn't supported." : reader.ReadToEnd());
-            }
-          }
-          ```
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Parser ofrece API de visualización de documentos para otros entornos de desarrollo populares"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Parser for Java"
-          image: "/border/groupdocs-parser-java.svg"
-          product: "GroupDocs.Parser"
-          platform: "Java"
-          link: "/parser/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Parser Descripción general"
+  description: "API para realizar análisis de documentos en .NET aplicaciones"
+  features:
+    # feature loop
+    - title: "Extraer datos de documentos"
+      content: ".NET La API le permite recuperar texto, metadatos e imágenes de una amplia gama de formatos de archivo, como documentos de Office, correos electrónicos, archivos adjuntos y archivos. Esta poderosa herramienta lo ayuda a acceder y procesar de manera eficiente información valiosa contenida en estos archivos para diversas aplicaciones como análisis de datos, indexación de motores de búsqueda o sistemas de administración de contenido."
+
+    # feature loop
+    - title: "Analizar documentos"
+      content: "Extraiga varios elementos como hipervínculos, tablas, códigos QR, códigos de barras y datos de PDF formularios. Analice también cualquier información deseada de los documentos utilizando plantillas personalizadas."
+
+    # feature loop
+    - title: "Personalización de resultados"
+      content: ".NET API le permite recuperar datos en varios formatos, como sin formato, estructurado, HTML o Markdown. Además, API ofrece una función de búsqueda para localizar palabras o frases específicas dentro del texto de los documentos."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independencia de plataforma"
+  description: "GroupDocs.Parser for .NET es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Formatos de archivo admitidos"
+  description: |
+    GroupDocs.Parser for .NET admite operaciones con los siguientes [formatos de archivo](https://docs.groupdocs.com/parser/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formatos
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Imágenes y otros formatos
+        * **Portable:** PDF
+        * **Imágenes:** JPG, BMP, PNG, TIFF, GIF
+        * **Otros formatos de oficina:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Otros formatos
+        * **Web:** HTML, MHTML
+        * **Archivo:** ZIP, TAR, 7Z
+        * **Libros electrónicos:** CHM, EPUB, FB2, MOBI
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Parser características"
+  description: "Extraiga datos de PDFs, documentos de Office e imágenes de forma rápida y precisa."
+
+  items:
+    # feature loop
+    - icon: "text"
+      title: "Extraer texto"
+      content: "Extraiga información textual de varios formatos de archivo, como documentos de Office, PDF archivos e imágenes para facilitar la lectura y el análisis."
+
+    # feature loop
+    - icon: "image"
+      title: "Extraer imágenes"
+      content: "Recupere contenido visual de diversas fuentes, como documentos de Office y archivos PDF para acceder y utilizar cómodamente."
+
+    # feature loop
+    - icon: "qr"
+      title: "Escanear códigos QR"
+      content: "Detecte y decodifique códigos QR presentes en documentos de Office, PDF archivos o contenido visual para una recuperación eficiente de la información."
+
+    # feature loop
+    - icon: "email"
+      title: "Extraiga datos de archivos adjuntos y archivos de correo electrónico"
+      content: "Recopile información valiosa de mensajes de correo electrónico, archivos adjuntos y fuentes de datos comprimidos para un análisis y utilización eficaces."
+
+    # feature loop
+    - icon: "table"
+      title: "Extraer tablas"
+      content: "Identifique y extraiga datos tabulares de PDF documentos para su análisis y uso organizados."
+
+    # feature loop
+    - icon: "hyperlink"
+      title: "Extraer hipervínculos"
+      content: "Localice y extraiga hipervínculos y direcciones de correo electrónico dentro de documentos de Office o archivos PDF para un acceso eficiente."
+
+    # feature loop
+    - icon: "pdf"
+      title: "Analizar PDF formularios"
+      content: "PDF Los formularios son documentos digitales que presentan campos que se pueden completar para la interacción del usuario, lo que les permite ingresar información electrónicamente. .NET Se puede utilizar API para extraer datos de estos formularios para un procesamiento eficiente."
+
+    # feature loop
+    - icon: "template"
+      title: "Analizar datos por plantillas"
+      content: "Cree plantillas personalizadas y utilícelas con .NET API para analizar información específica de PDF archivos, simplificando los procesos de extracción de datos."
+
+    # feature loop
+    - icon: "search"
+      title: "Buscar un texto en documentos"
+      content: "Localice rápidamente palabras o patrones específicos dentro de los documentos."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Ejemplo de código"
+  description: "Algunos casos prácticos de operaciones GroupDocs.Parser for .NET típicas"
+  items:
+    # code sample loop
+    - title: "Extraer imágenes de PDF documentos"
+      content: |
+        .NET La API facilita a los desarrolladores de C# la extracción de imágenes de documentos mediante la implementación de unos sencillos pasos.
+        {{< landing/code title="Extraiga imágenes de PDF documentos en C#">}}
+        ```csharp {style=abap}
+        // Create an instance of Parser class
+        using (var parser = new Parser(fileName))
+        {
+            // Extract images
+            var images = parser.GetImages();
+
+            // Check if images extraction is supported
+            if (images != null)
+            {
+                var imageIndex = 0;
+
+                // Iterate over images
+                foreach (var image in images)
+                {
+                    // Save the image to the file
+                    image.Save($"{++imageIndex}{image.FileType.Extension}");
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Extraer códigos de barras de imágenes"
+      content: |
+        .NET La API facilita a los desarrolladores de C# la extracción de códigos de barras de documentos mediante la implementación de unos sencillos pasos.
+        {{< landing/code title="Extraer códigos de barras de imágenes">}}
+        ```csharp {style=abap}   
+        // Create an instance of Parser class
+        using (var parser = new Parser(fileName))
+        {
+            // Check if the file supports barcode extracting
+            if (parser.Features.Barcodes)
+            {
+                // Extract barcodes from the file.
+                var barcodes = parser.GetBarcodes();
+
+                // Iterate over barcodes
+                foreach (var barcode in barcodes)
+                {
+                    // Print the page index
+                    Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                    // Print the barcode value
+                    Console.WriteLine("Value: " + barcode.Value);
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

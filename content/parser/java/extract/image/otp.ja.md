@@ -1,121 +1,154 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:09
 draft: false
-path: "ja/parser/java/extract/image/otp/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP PST OST EML EMLX MSG ONE 
+otherformats: 
 
 ############################# Head ############################
-head_title: "Javaを介してExcel、Word、PDF、その他のドキュメントから画像を抽出する方法は？"
-head_description: "GroupDocs.Parser Java APIを使用すると、ソフトウェア開発者は、Java Apps内のPDF、DOC、DOCX、PPT、PPTX、XLS、XLSXドキュメント、および電子メールから画像を解析および抽出できます。"
+head_title: "{head.title}"
+head_description: "{head.description}"
 
 ############################# Header ############################
-title: "Excel、Word、PowerPoint、PDF、その他のドキュメントページから画像を解析および抽出するためのJava API"
-description: "GroupDocs.Parser Java APIを使用すると、プログラマーは、PDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV、ODT、RTF、EPUBドキュメント、またはJavaアプリケーション内のドキュメントのページから画像を抽出できます。"
-
-######################### Download Button #######################
+title: "{header.title}"
+description: "{header.description}"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "{header.button_label}"
+    link: "https://downloads.groupdocs.com/parser/java"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-java.png"
+        product: "GroupDocs.Parser"
+        platform: "Java"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/java"
+              text: "{submenu.content_middle.button_text_1}"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "{submenu.content_middle.button_text_2}"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "{submenu.content_middle.button_text_3}"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/java"
+              text: "{submenu.content_middle.button_text_4}"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/java"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "Java APIを介してドキュメントまたは特定のページから画像を抽出する方法を学びますか？"
+    title: "{about.title}"
     content: |
-       画像は千の言葉の価値があり、魅力的なコンテンツを作成している間、今日の視覚的な世界では無視できません。画像は、情報コミュニケーションの優れた情報源であるだけでなく、ユーザーの注意を引くこともできます。多くの場合、ドキュメント、ジャーナル、またはプレゼンテーションから画像を取得し、それらを別の場所で使用する必要があります。 GroupDocs.Parser for Javaは、ソフトウェア開発者やプログラマーが多数の種類のドキュメントから画像やその他の情報を解析および抽出するためのソリューションを構築するのに役立つ強力なAPIです。また、PNG、JPEG、WebP、GIF、BMPおよびその他の形式での画像の保存もサポートしています。 APIには、PDF、Microsoft Office形式（Word（DOC、DOCX）、PowerPoint（PPT、PPTX）、Excel（XLS、XLSX）、LibreOffice形式、電子メール、電子書籍など）などの一般的なドキュメント形式のサポートが含まれています。 。また、ドキュメントの解析、プレーンテキストと構造化テキストの抽出、キーワードによるテキスト検索、メタデータまたは画像の抽出、コンテナ、添付ファイルなどに関連するいくつかの高度な機能のサポートも含まれています。
+        {about.h1}
+        
+        {about.h2}
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "OTPドキュメントから画像を抽出する方法"
-      content_left: |
-       GroupDocs.Parser Javaには、OTPドキュメントから画像を抽出する機能が含まれています。 次のJavaコード例は、OTPドキュメントから画像を簡単に抽出する方法を示しています。 
-
-      title_right: "Javaを介してドキュメントから画像を取得する"
-      content_right: |
-        * [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) クラスのインスタンスを作成します
-        * ドキュメントが画像抽出をサポートしているかどうかを確認します
-        * [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) メソッドを呼び出して、ドキュメント全体からすべての画像を抽出します。
-        * ドキュメントからすべての画像を抽出します
-        * 画像を繰り返し、画像タイプを印刷します
-
-      gisthash: "b13e690d2593f92081abd99948363e06"
-      gistfile: "extract_images_form_documents.java"
-
-    - title_left: "OTP ドキュメントページからの画像の抽出"
-      content_left: |
-       GroupDocs.Parser Java APIを使用すると、ソフトウェア開発者は数行のコードでOTPドキュメントから画像を抽出できます。 以下のJavaコードは、OTPドキュメントからの画像の抽出を示しています。
-
-      title_right: "Javaを介してファイルイメージを抽出する方法"
-      content_right: |
-        * [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) クラスのインスタンスを作成します
-        * ドキュメントが画像抽出をサポートしているかどうかを確認します
-        * [getDocumentInfo](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getDocumentInfo()) メソッドを呼び出してドキュメント情報を取得します。
-        *ページの存在についてドキュメントを確認してください
-        * ページを繰り返し、ページ番号を印刷する
-        * [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) メソッドを呼び出して、ドキュメント全体からすべての画像を抽出します。
-        * 画像を繰り返し表示し、画像タイプを印刷します
-     
-      gisthash: "68450336a57c5d8df06b4ef1ea69b29f"
-      gistfile: "extract_images_form_documents_page.java"
-      
-    - title_left: "OTPドキュメントページ領域から画像を抽出する方法"
-      content_left: |
-       GroupDocs.Parser Java APIは、OTPドキュメントのページの使いやすさから抽出するための完全なサポートを提供しました。 次のJavaコードは、プログラマーが自分のJavaアプリ内のOTPドキュメントページ領域から画像を抽出する方法を示しています。
-
-      title_right: "Javaを使用して画像を抽出しますか？"
-      content_right: |
-        * [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) クラスのインスタンスを作成します
-        * 画像抽出に使用されるオプションを作成します
-        * 画像抽出のサポートについてはドキュメントを確認してください
-        * [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) メソッドを呼び出して、ドキュメント全体からすべての画像を抽出します。
-        * 画像を繰り返し、画像のURLを印刷します
-     
-      gisthash: "40143a56569ae88e7e7c972ccca041b5"
-      gistfile: "extract_images_form_documents_page_area.java"
-
-    - title_left: "JavaAPIを介して画像をファイルに抽出する方法"
-      content_left: |
-       GroupDocs.Parser Java APIを使用すると、OTPドキュメントから画像を抽出し、画像の内容をファイルに保存できます。 次のJavaコードは、プログラマーが自分のJavaアプリ内で選択したファイルから画像を抽出する方法を示しています。
-
-      title_right: "ドキュメントからファイルに画像を抽出する"
-      content_right: |
-        * [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser) クラスのインスタンスを作成します
-        * 画像抽出のサポートについてはドキュメントを確認してください
-        * [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) メソッドを呼び出して、ドキュメント全体からすべての画像を抽出します。
-        * サポートされているファイル形式で画像を保存するオプションを作成します
-        * 画像を繰り返し、画像のURLを印刷します
-     
-      gisthash: "6faeafc93e4412265b7439209828950b"
-      gistfile: "images_saving_to_files.java"
-
-    - title_left: "システム要求"
-      content_left: |
-        GroupDocs.Parser for Javaは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。 Microsoft Word、Excel、PowerPoint、Outlook、OpenOffice、その他50以上の形式でドキュメントを生成できます。 完全なシステム要件ガイドについては、以下のコードを実行する前にシステム要件にアクセスしてください。システムに次の前提条件がインストールされていることを確認してください。
-         * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-         * Javaバージョンのサポート：J2SE 7.0（1.7）、J2SE 8.0（1.8）以降
-         * GroupDocs [Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser) から最新バージョンのGroupDocs.AssemblyJavaAPIを入手します。
+    title_left: "{steps.title_left}"
+    content_left: |
+        {steps.content_left.description}
         
-      title_right: "GroupDocs.Parserを使用する理由"
-      content_right: |
-        * サポートされているドキュメントのいずれかからプレーンテキストを抽出します。
-        * 目次抽出のサポート
-        * フォーマットされたテキスト、メタデータ、画像、コンテナ、および添付ファイルを抽出します。
-        * ユーザー定義のテンプレートを介して解析するドキュメント。
-        * キーワードまたは正規表現を使用してテキストを検索します。
-        * 構造化テキスト抽出のサポート
-        * サポートされている一部のドキュメント形式の目次を抽出します。
-        * PDFドキュメントからフォームデータを解析します。
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
 
+    title_right: "{steps.title_right}"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document/">{steps.content_right.step_1}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document-page/">{steps.content_right.step_2}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document-page-area/">{steps.content_right.step_3}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-to-files/">{steps.content_right.step_4}</a>
+         
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="{steps.title_code}">}}
+
+        ```java    
+        // {steps.code.header}
+        // {steps.code.instance}
+        try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
+            // {steps.code.extract}
+            Iterable<PageImageArea> images = parser.getImages();
+            // {steps.code.check_null}
+            if (images == null) {
+                System.out.println("{steps.code.not_supported}");
+                return;
+            }
+            // {steps.code.iterate}
+            for (PageImageArea image : images) {
+                // {steps.code.print}
+                System.out.println(String.format("Page: %d, R: %s, Type: %s", image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "{more.title_left}"
+    content_left: |
+        {more.content_left.description}
+        
+        * {more.content_left.step_1}
+        * {more.content_left.step_2}
+        * {more.content_left.step_3}
+        * {more.content_left.step_4}
+
+    title_right: "{more.title_right}"
+    content_right: |
+        * {more.content_right.p1}    
+        * {more.content_right.p2}    
+        * {more.content_right.p3}    
+        * {more.content_right.p4}    
+        * {more.content_right.p5}    
+        * {more.content_right.p6}    
+        * {more.content_right.p7}    
+        * {more.content_right.p8}   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "{demos.title}"
+    content: |
+       {demos.h1}
+       {demos.h2}
         
-
-more_formats:
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "{more_formats.title}"
+    content: |
+        {more_formats.content}
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

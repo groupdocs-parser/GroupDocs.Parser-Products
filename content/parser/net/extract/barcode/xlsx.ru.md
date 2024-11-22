@@ -1,105 +1,157 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:04
 draft: false
-path: "ru/parser/net/extract/barcode//xlsx/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
 
 ############################# Head ############################
-head_title: ".NET API для извлечения штрих-кодов из PDF, DOCX, PPTX, XLSX, EPUB и др. "
-head_description: "GroupDocs.Parser .NET API позволяет разработчикам программного обеспечения извлекать штрих-коды из документов PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF и EPUB в приложениях .NET."
+head_title: "Извлечение штрих-кодов из XLSX через C# API"
+head_description: "GroupDocs.Parser for .NET API позволяет разработчикам программного обеспечения извлекать штрих-коды из XLSX и других документов в приложениях C#."
 
 ############################# Header ############################
-title: "Извлечение штрих-кодов из документов Excel, Word, PDF и PowerPoint через C#.NET API"
-description: "API GroupDocs.Parser .NET позволяет программистам извлекать штрих-коды из документов PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF и EPUB или страниц aea."
-
-######################### Download Button #######################
+title: "Как извлечь штрих-коды из XLSX через C# API"
+description: "GroupDocs.Parser for .NET API позволяет разработчикам программного обеспечения извлекать штрих-коды из XLSX и многих других документов."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Скачать бесплатную пробную версию"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "Справочник по API"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "Примеры кода"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "Живые демонстрации"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "Цены"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "Как извлечь штрих-коды из Excel, Word, PDF и других документов через .NET API?"
+    title: "Как извлечь штрих-коды из XLSX файлов .NET API?"
     content: |
-       Штрих-коды представляют собой машиночитаемое представление цифр и символов, которые обычно используются во всем мире во многих контекстах, таких как сканирование и идентификация продуктов, отслеживание автомобильных запчастей, управление запасами и так далее. GroupDocs.Parser для .NET — это мощный API, который помогает разработчикам разрабатывать решение для извлечения текста, изображений и штрих-кодов из различных типов поддерживаемых форматов документов, таких как PDF, электронные письма, электронные книги, форматы Microsoft Office: Word (DOC, DOCX ), форматы PowerPoint (PPT, PPTX), Excel (XLS, XLSX), электронные письма (EML, MSG) и многие другие. API включает поддержку нескольких расширенных функций анализа документов, таких как поиск текста по ключевым словам, точное извлечение текста, извлечение текста в формате HTML или Markdown, извлечение текстовых областей с координатами, извлечение метаданных или штрих-кодов и т. д. 
+        Штрих-коды представляют собой машиночитаемое представление цифр и символов, которые широко используются во всем мире во многих контекстах, таких как извлечение и идентификация продуктов, отслеживание автомобильных запчастей, управление запасами и т. д. GroupDocs.Parser for .NET — это мощный API, который помогает разработчикам разрабатывать решения для извлечения текста, изображений и штрих-кодов из различных типов поддерживаемых форматов документов, таких как PDF, электронные письма, электронные книги, форматы Microsoft Office: Word (DOC, DOCX) , PowerPoint (PPT, PPTX), Excel (XLS, XLSX), электронные письма (EML, MSG) и многие другие форматы. API .NET включает поддержку нескольких расширенных функций анализа документов, таких как поиск текста по ключевым словам, точное извлечение текста, извлечение текста в формате HTML или Markdown, извлечение текстовых областей с координатами, извлечение метаданных или штрих-кодов и т. д.
+        
+        
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "Как извлечь штрих-коды из документов XLSX с помощью C# .NET "
-      content_left: |
-       API GroupDocs.Parser .NET помогает разработчикам программного обеспечения с легкостью извлекать штрих-коды из документов XLSX. В следующем примере кода C# .NET показано, как извлечь штрих-коды из документа XLSX. 
-
-      title_right: "Извлечение штрих-кодов из документов"
-      content_right: |
-        * Создайте экземпляр [Парсера](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * проверьте, поддерживается ли извлечение штрих-кодов
-        * Вызовите метод [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes), чтобы извлечь все штрих-коды из всего документа.
-        * Перебирать штрих-коды в документе
-        * Распечатать индекс страницы и значение штрих-кода
-
-      gisthash: "f9329c432da312e75f5f1c3702c02c52"
-      gistfile: "barcode_extraction_form_documents.cs"
-
-    - title_left: "Извлечение штрих-кодов со страницы документа XLSX через .NET"
-      content_left: |
-       GroupDocs.Parser .NET позволяет программистам извлекать штрих-коды со страницы документов XLSX. В приведенном ниже коде C# .NET показано, как можно добиться извлечения штрих-кодов внутри документа XLSX. 
-
-      title_right: "Извлечение штрих-кодов с помощью C# .NET"
-      content_right: |
-        * Создайте экземпляр [Парсера](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Проверьте документ на поддержку извлечения штрих-кодов
-        * Вызовите метод [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes), чтобы извлечь все штрих-коды из всего документа.
-        * Перебирать страницы и печатать номер страницы
-        * Распечатать индекс страницы и значение штрих-кода
-     
-      gisthash: "80779aaa36b7d11b69c29296cfa73bd1"
-      gistfile: "barcodes_extraction_form_documents_page.cs"
-      
-    - title_left: "Получите штрих-коды из XLSX области страницы документа через .NET"
-      content_left: |
-       GroupDocs.Parser .NET — это мощный API, обеспечивающий полную поддержку извлечения штрих-кодов из документов XLSX с помощью пары строк кода .NET. В следующем примере кода .NET показано, как выполнить извлечение штрих-кодов из области страницы документа XLSX.
-
-      title_right: "Извлечение штрих-кодов из XLSX области страницы "
-      content_right: |
-        * Создайте экземпляр [Парсера](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Проверьте документ на поддержку извлечения штрих-кодов
-        * создать настраиваемые параметры, которые можно использовать для извлечения штрих-кодов
-        * Извлечение штрих-кодов из правого верхнего угла страницы путем вызова метода [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) с использованием параметров настройки.
-        * Распечатать индекс страницы и значение штрих-кода
-     
-      gisthash: "932e868be1c52982f8c2ced2fc4c0640"
-      gistfile: "barcodes_extraction_from_documents_page_area.cs"
-
-    - title_left: "Системные Требования"
-      content_left: |
-        API GroupDocs.Assembly .NET поддерживаются на всех основных платформах и операционных системах. Полное руководство по системным требованиям можно найти на странице [системные требования](hhttps://docs.groupdocs.com/parser/net/system-requirements/). Перед выполнением приведенного ниже кода убедитесь, что на вашем компьютере установлены следующие предварительные компоненты. система:
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среда разработки: Visual Studio, Xamarin, MonoDevelop и т. д.
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию API GroupDocs.Assembly .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)
+    title_left: "Извлечь штрих-коды из XLSX в .NET"
+    content_left: |
+        [GroupDocs.Parser for .NET](/ru/parser/net/) позволяет разработчикам C# извлекать штрих-коды из файла XLSX, выполняя несколько простых шагов. .
         
-      title_right: "Зачем использовать GroupDocs.Assembly"
-      content_right: |
-        * Поддержка извлечения простого текста из любых поддерживаемых документов
-        * Парсинг документов по пользовательским шаблонам.
-        * Полностью поддерживает извлечение структурированного текста
-        * Текстовый поиск по ключевому слову, а также регулярное выражение
-        * Извлечение форматированного текста, метаданных, изображений, контейнеров и вложений.
-        * Извлечение оглавления для некоторых поддерживаемых форматов документов.
-        * Анализировать данные формы из PDF-документов.
-        * Извлечение гиперссылок из документа
+        * Создать объект [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) для исходного документа;
+        * Проверьте, поддерживает ли файл извлечение штрих-кода;
+        * Вызовите метод [GetBarcodes](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getbarcodes) и получите коллекцию [PageBarcodeArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagebarcodearea) объектов;
+        * Переберите коллекцию и получите значение штрих-кода.
 
+    title_right: "Узнать больше про извлечение штрих-кодов"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/">Как извлечь штрих-коды из документа в C#</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page/">Как извлечь штрих-коды из страницы документа в C#</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page-area/">Как извлечь штрих-коды из области страницы документа в C#</a>
+    
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="Как извлекать штрих-коды из файла XLSX, используя пример кода C#">}}
+
+        ```csharp    
+        // Извлечь штрих-коды из файла XLSX с помощью API GroupDocs.Parser
+        // Создайте экземпляр класса Parser
+        using (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+            // Проверьте, поддерживает ли файл извлечение штрих-кода.
+            if (!parser.Features.Barcodes) {
+                Console.WriteLine("Файл не поддерживает извлечение штрих-кода.");
+                return;
+            }
+
+            // Извлекайте штрих-коды из файла.
+            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
+
+            // Итерация по штрих-кодам
+            foreach (PageBarcodeArea barcode in barcodes) {
+                // Распечатать индекс страницы
+                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                // Распечатать значение штрих-кода
+                Console.WriteLine("Value: " + barcode.Value);
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "Системные Требования"
+    content_left: |
+        GroupDocs.Parser for .NET API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Фреймворки
+        * Загрузите последнюю версию GroupDocs.Parser for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.parser)
+
+    title_right: "Зачем использовать GroupDocs.Parser for .NET"
+    content_right: |
+        * Поддержка извлечения простого текста из любых поддерживаемых документов    
+        * Парсинг документов по пользовательским шаблонам    
+        * Полная поддержка извлечения структурированного текста    
+        * Текстовый поиск по ключевому слову и регулярному выражению    
+        * Извлечение форматированного текста, метаданных, изображений, контейнеров и вложений    
+        * Извлечение оглавления для некоторых поддерживаемых форматов документов    
+        * Парсинг данных форм из PDF-документов    
+        * Извлечение гиперссылок из документа   
+
+############################# Demos ############################
 demos:
     enable: true
-
-
-more_formats:
+    title: "Демонстрации в реальном времени — извлечение штрих-кодов из XLSX в Интернете"
+    content: |
+       Извлекайте штрих-коды из файла XLSX прямо сейчас, посетив веб-сайт [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/barcodes/xlsx).
+       Живая демонстрация имеет следующие преимущества.
+        
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Извлечение штрих-кодов из других форматов документов"
+    content: |
+        .NET API анализа документов и извлечения штрих-кодов для форматов файлов и изображений. Извлеките данные для некоторых популярных форматов файлов, как указано ниже.
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

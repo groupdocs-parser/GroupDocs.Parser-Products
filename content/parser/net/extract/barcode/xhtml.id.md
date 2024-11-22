@@ -1,103 +1,157 @@
 ---
-layout: "auto-gen-gist"
+############################# Static ############################
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:04
 draft: false
-path: "parser/net/extract/barcode/xhtml/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: 
 
-head_title: ".NET API untuk Mengekstrak Barcode dari PDF, DOCX, PPTX, XLSX, EPUB & Lainnya "
-head_description: "GroupDocs.Parser .NET API memungkinkan pengembang perangkat lunak mengekstrak barcode dari dokumen PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB di dalam .NET Apps."
+############################# Head ############################
+head_title: ".NET API untuk Mengekstrak Kode Batang dari PDF, DOCX, PPTX, XLSX, EPUB & Lainnya"
+head_description: "GroupDocs.Parser .NET API memungkinkan pengembang perangkat lunak mengekstrak kode batang dari PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB dokumen di dalam .NET Apps."
 
+############################# Header ############################
 title: "Ekstrak Barcode dari Excel, Word, PDF & PowerPoint Dokumen melalui C#.NET API"
-description: "GroupDocs.Parser .NET API memungkinkan pemrogram untuk mengekstrak barcode dari dokumen PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB atau halaman aea."
-
+description: "GroupDocs.Parser .NET API memungkinkan pemrogram mengekstrak kode batang dari PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF & EPUB dokumen atau area halaman."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Unduh Uji Coba Gratis"
+    link: "https://downloads.groupdocs.com/parser/net"
 
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "Referensi API"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "Contoh Kode"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "Demo Langsung"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "Harga"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
+
+############################# About ############################
 about:
     enable: true
-    title: "Bagaimana Mengekstrak Barcode dari Excel, Word, PDF & Dokumen Lain melalui .NET API?"
+    title: "Bagaimana cara Mengekstrak Kode Batang dari XHTML file .NET API?"
     content: |
-       Barcode adalah representasi angka dan karakter yang dapat dibaca mesin yang umum digunakan di seluruh Dunia dalam banyak konteks, seperti pemindaian dan identifikasi produk, pelacakan suku cadang mobil, manajemen inventaris, dan sebagainya. GroupDocs.Parser untuk .NET adalah API canggih yang membantu pengembang mengembangkan solusi untuk mengekstrak teks, gambar, dan kode batang dari berbagai jenis format dokumen yang didukung, seperti PDF, Email, Ebook, format Microsoft Office: Word (DOC, DOCX ), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), format Email (EML, MSG) dan banyak lagi. API telah menyertakan dukungan untuk beberapa fitur penguraian dokumen tingkat lanjut seperti mencari teks dengan kata kunci, ekstraksi teks yang akurat, ekstraksi teks berformat HTML atau Markdown, ekstraksi area teks dengan koordinat, mengekstrak metadata atau kode batang, dan sebagainya.  
+        Barcode adalah representasi angka dan karakter yang dapat dibaca mesin yang umum digunakan di seluruh Dunia dalam banyak konteks, seperti pemindaian dan identifikasi produk, pelacakan suku cadang mobil, manajemen inventaris, dan sebagainya. GroupDocs.Parser for .NET adalah API andal yang membantu pengembang mengembangkan solusi untuk mengekstraksi teks, gambar, dan kode batang dari berbagai jenis format dokumen yang didukung, seperti format PDF, Email, Ebook, Microsoft Office: Word ({ 377}, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), format Email (EML, MSG) dan banyak lagi. .NET API telah menyertakan dukungan untuk beberapa fitur penguraian dokumen tingkat lanjut seperti menelusuri teks dengan kata kunci, ekstraksi teks akurat, ekstraksi teks berformat HTML atau Markdown, ekstraksi area teks dengan koordinat, mengekstrak metadata atau kode batang, dan sebagainya.
+        
+        
 
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "Cara Mengekstrak Barcode dari Dokumen XHTML melalui C# .NET "
-      content_left: |
-       GroupDocs.Parser .NET API membantu pengembang perangkat lunak mengekstrak Barcode dari dokumen XHTML dengan mudah. Contoh kode C# .NET berikut menunjukkan cara mengekstrak kode batang dari dokumen XHTML. 
-
-      title_right: "Ekstraksi Barcode dari Dokumen"
-      content_right: |
-        * Buat instance [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) 
-        * periksa apakah ekstraksi barcode didukung 
-        * Panggil metode [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) untuk mengekstrak semua kode batang dari seluruh dokumen.
-        * Ulangi kode batang dalam dokumen
-        * Cetak indeks halaman dan nilai barcode
-
-      gisthash: "f9329c432da312e75f5f1c3702c02c52"
-      gistfile: "barcode_extraction_form_documents.cs"
-
-    - title_left: "Ekstraksi Barcode dari Halaman Dokumen XHTML melalui .NET"
-      content_left: |
-       GroupDocs.Parser .NET memungkinkan pemrogram perangkat lunak mengekstrak kode batang dari halaman dokumen XHTML. Kode C# .NET di bawah ini menunjukkan bagaimana ekstraksi barcode dapat dilakukan di dalam dokumen XHTML. 
-
-      title_right: "Ekstrak Barcode melalui C# .NET"
-      content_right: |
-        * Buat instance [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)  
-        * Periksa dokumen untuk dukungan ekstraksi barcode
-        * Panggil metode [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) untuk mengekstrak semua kode batang dari seluruh dokumen.
-        * Ulangi halaman dan Cetak nomor halaman
-        * Cetak indeks halaman dan nilai barcode
-     
-      gisthash: "80779aaa36b7d11b69c29296cfa73bd1"
-      gistfile: "barcodes_extraction_form_documents_page.cs"
-      
-    - title_left: "Dapatkan Barcode dari Area Halaman Dokumen XHTML melalui .NET"
-      content_left: |
-       GroupDocs.Parser .NET adalah API yang kuat yang menyediakan dukungan lengkap untuk ekstraksi barcode dari dokumen XHTML menggunakan beberapa baris kode .NET. Contoh kode .NET berikut menunjukkan cara melakukan ekstraksi kode batang dari area halaman dokumen XHTML.
-
-      title_right: "Ekstrak Barcode dari XHTML Page Area "
-      content_right: |
-        * Buat instance [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)   
-        * Periksa dokumen untuk dukungan ekstraksi barcode
-        * buat Opsi penyesuaian yang dapat digunakan untuk ekstraksi kode batang
-        * Ekstrak kode batang dari sudut kanan atas halaman dengan memanggil metode [getBarcodes](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getBarcodes) menggunakan Opsi penyesuaian.
-        * Cetak indeks halaman dan nilai barcode
-     
-      gisthash: "932e868be1c52982f8c2ced2fc4c0640"
-      gistfile: "barcodes_extraction_from_documents_page_area.cs"
-
-    - title_left: "Persyaratan sistem"
-      content_left: |
-        GroupDocs.Parser untuk .NET didukung penuh pada semua platform utama dan sistem operasi. Untuk panduan persyaratan sistem lengkap, silakan kunjungi [persyaratan sistem](hhttps://docs.groupdocs.com/parser/net/system-requirements/) Sebelum menjalankan kode di bawah, pastikan Anda telah menginstal prasyarat berikut di sistem:
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop dll
-        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
-        * Dapatkan versi terbaru GroupDocs.Parser .NET API dari [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)
+    title_left: "Ekstrak kode batang dari XHTML di .NET"
+    content_left: |
+        [GroupDocs.Parser for .NET](/id/parser/net/) memudahkan pengembang C# untuk mengekstrak kode batang dari file XHTML dengan menerapkan beberapa langkah mudah.
         
-      title_right: "Mengapa Menggunakan GroupDocs.Parser"
-      content_right: |
-        * Dukungan ekstraksi teks biasa dari dokumen yang didukung
-        * Penguraian dokumen melalui templat yang ditentukan pengguna.
-        * Sepenuhnya mendukung ekstraksi teks terstruktur
-        * Pencarian teks melalui kata kunci serta ekspresi reguler
-        * Ekstrak teks yang diformat, metadata, gambar, wadah, dan lampiran.
-        * Ekstrak daftar isi untuk beberapa format dokumen yang didukung.
-        * Parsing data formulir dari dokumen PDF.
-        * Ekstrak hyperlink dari dokumen
+        * Membuat instance objek [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) untuk dokumen awal;
+        * Periksa apakah file tersebut mendukung ekstraksi kode batang;
+        * Panggil metode [GetBarcodes](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getbarcodes) dan dapatkan kumpulan [PageBarcodeArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagebarcodearea) objek;
+        * Iterasi melalui koleksi dan dapatkan nilai barcode.
 
+    title_right: "Pelajari lebih lanjut tentang ekstraksi kode batang"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/">Cara mengekstrak barcode dari dokumen</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page/">Cara mengekstrak kode batang dari halaman dokumen</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page-area/">Cara mengekstrak barcode dari area halaman dokumen</a>
+    
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="Cara mengekstrak kode batang dari file XHTML menggunakan kode contoh C#">}}
+
+        ```csharp    
+        // Ekstrak kode batang dari file XHTML menggunakan GroupDocs.Parser API
+        // Buat instance kelas Parser
+        using (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+            // Periksa apakah file mendukung ekstraksi kode batang
+            if (!parser.Features.Barcodes) {
+                Console.WriteLine("File tidak mendukung ekstraksi kode batang.");
+                return;
+            }
+
+            // {steps.code.scan}
+            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
+
+            // Ulangi kode batang
+            foreach (PageBarcodeArea barcode in barcodes) {
+                // Cetak indeks halaman
+                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                // Cetak nilai barcode
+                Console.WriteLine("Value: " + barcode.Value);
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "Persyaratan sistem"
+    content_left: |
+        GroupDocs.Parser for .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.
+        
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Kerangka kerja
+        * Unduh versi terbaru GroupDocs.Parser for .NET dari [Nuget](https://www.nuget.org/packages/groupdocs.parser)
+
+    title_right: "Mengapa Menggunakan GroupDocs.Parser for .NET"
+    content_right: |
+        * Dukungan ekstraksi teks biasa dari dokumen yang didukung    
+        * Penguraian dokumen melalui templat yang ditentukan pengguna    
+        * Sepenuhnya mendukung ekstraksi teks terstruktur    
+        * Pencarian teks melalui kata kunci serta ekspresi reguler    
+        * Ekstrak teks yang diformat, metadata, gambar, wadah, dan lampiran    
+        * Ekstrak daftar isi untuk beberapa format dokumen yang didukung    
+        * Mengurai data formulir dari PDF dokumen    
+        * Ekstrak hyperlink dari dokumen   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "Demo Langsung - Ekstrak kode batang dari dokumen Online"
+    content: |
+       Ekstrak kode batang dari dokumen sekarang juga dengan mengunjungi situs web [GroupDocs.Parser Demo Langsung](https://products.groupdocs.app/parser/barcodes/).
+       Demo langsung memiliki manfaat berikut.
         
-
+############################# About Formats ############################
 about_formats:
     enable: true
 
-
+############################# More Formats ############################
 more_formats:
     enable: true
+    title: "Ekstrak Barcode Dari Format Dokumen Lain"
+    content: |
+        .NET API penguraian dokumen & kode batang untuk format file dan gambar. Ekstrak data untuk beberapa format file populer seperti yang dinyatakan di bawah ini.
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

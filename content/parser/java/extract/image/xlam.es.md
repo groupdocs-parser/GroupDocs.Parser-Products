@@ -1,123 +1,154 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:09
 draft: false
-path: "es/parser/java/extract/image/xlam/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: 
 
 ############################# Head ############################
-head_title: "Extraiga imágenes de Excel, Word, PDF y otros documentos o páginas a través de .NET "
-head_description: "Extraiga imágenes de Excel, Word, PDF y otros documentos o páginas a través de .NET"
+head_title: "{head.title}"
+head_description: "{head.description}"
 
 ############################# Header ############################
-title: "Extraiga imágenes de Excel, Word, PDF y otros documentos o páginas a través de .NET"
-description: "GroupDocs.Parser .NET API permite a los programadores extraer imágenes de documentos o páginas de documentos PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF y EPUB."
-
-######################### Download Button #######################
+title: "{header.title}"
+description: "{header.description}"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "{header.button_label}"
+    link: "https://downloads.groupdocs.com/parser/java"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-java.png"
+        product: "GroupDocs.Parser"
+        platform: "Java"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/java"
+              text: "{submenu.content_middle.button_text_1}"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "{submenu.content_middle.button_text_2}"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "{submenu.content_middle.button_text_3}"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/java"
+              text: "{submenu.content_middle.button_text_4}"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/java"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "¿Cómo extraer imágenes de documentos o área de página a través de .NET?"
+    title: "{about.title}"
     content: |
-       Las imágenes se pueden usar para entregar información de tal manera que no se pueda expresar con palabras. Las imágenes nos ayudan a captar la atención del usuario y explican conceptos difíciles con facilidad. A veces, mientras leíamos documentos, diarios o nos beneficiábamos de presentaciones, a menudo encontrábamos algunas imágenes fascinantes y queríamos descargarlas. GroupDocs.Parser para .NET es una potente API que ayuda a los usuarios a desarrollar aplicaciones útiles para extraer imágenes de diferentes tipos de documentos y guardarlas en PNG, JPEG, WebP, GIF, BMP y otros formatos. La API ha incluido soporte para la extracción de texto e imágenes de algunos de los formatos de archivo más utilizados, como PDF, correos electrónicos, libros electrónicos, formatos de Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS , XLSX), formatos de LibreOffice y muchos más. La API también es totalmente compatible con el análisis de documentos, la extracción de texto sin formato y estructurado, la búsqueda de texto por palabras clave, la extracción de metadatos o imágenes, contenedores y archivos adjuntos y mucho más.
+        {about.h1}
+        
+        {about.h2}
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "Extraiga imágenes de XLAM Documentos a través de C# "
-      content_left: |
-       GroupDocs.Parser .NET API permite a los desarrolladores de software extraer imágenes de XLAM documentos. El siguiente ejemplo de código C# .NET demuestra cómo extraer imágenes dentro de un documento XLAM.
-
-      title_right: "Cómo extraer imágenes a través de .NET"
-      content_right: |
-        * Cree una instancia de [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * compruebe si se admite la extracción de imágenes
-        * Iterar sobre imágenes en el documento
-        * Llamar al método [getImages](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getimages) para extraer todas las imágenes de todo el documento.
-        * Imprimir todas las imágenes
-
-      gisthash: "6bc9e8fea228c9e1b99425b338bb0f00"
-      gistfile: "images_extraction_form_documents.cs"
-
-    - title_left: "Extracción de imágenes de la página del documento XLAM a través de C#"
-      content_left: |
-       GroupDocs.Parser .NET permite a los desarrolladores de software extraer imágenes de la página de documentos XLAM. El siguiente código C# .NET muestra cómo se puede lograr la extracción de imágenes dentro de un documento XLAM.
-
-      title_right: "Extraer imagen de archivo a través de .NET"
-      content_right: |
-        * Cree una instancia de [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Verifique el documento para soporte de extracción de imágenes
-        * Obtenga información del documento llamando a [GetDocumentInfo](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getdocumentinfo)
-        * Consultar documento por páginas existentes
-        * Iterar sobre páginas e imprimir un número de página
-        * Llame al método [getImages(Int32)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/2) para extraer todas las imágenes de todo el documento.
-        * Iterar sobre imágenes e imprimir las imágenes
-     
-      gisthash: "2000d476c202a688677f57a2fbd7ceab"
-      gistfile: "images_extraction_form_documents_page.cs"
-      
-    - title_left: "Cómo extraer una imagen del área de la página de documentos XLAM"
-      content_left: |
-       GroupDocs.Parser .NET API es totalmente compatible con la extracción de imágenes de documentos XLAM usando un par de líneas de código .NET. El siguiente ejemplo de código .NET muestra cómo realizar la extracción de imágenes desde un área de página de documento XLAM.
-
-      title_right: "Extraiga imágenes de un área de página de archivo a través de .NET"
-      content_right: |
-        * Cree una instancia de [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * personalizar la creación de opciones que se pueden usar para la extracción de imágenes
-        * Verifique el documento para soporte de extracción de imágenes
-        * Extraiga imágenes de la esquina superior izquierda de una página llamando al método [getImages(options)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/3) usando personalizar Opciones.
-        * Iterar sobre imágenes e imprimir las imágenes
-     
-      gisthash: "ea6c6b8fa613384f1e7f637dabcb7bca"
-      gistfile: "extract_images_form_documents_page_area.cs"
-
-    - title_left: "Cómo extraer y guardar una imagen en un archivo a través de C# .NET"
-      content_left: |
-       GroupDocs.Parser .NET API permite a los desarrolladores de software extraer imágenes de un documento y guardarlas en un archivo con solo un par de líneas de código .NET. El siguiente ejemplo demuestra cómo realizar la extracción de imágenes de un documento XLAM y guardar el contenido de la imagen en el archivo.
-
-      title_right: "Guardar imágenes en un archivo a través de .NET"
-      content_right: |
-        * Crear una instancia de la clase [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Extraer imágenes del documento
-        * Llamar al método [getImages](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getimages) para extraer todas las imágenes de todo el documento.
-        * Verifique el documento para soporte de extracción de imágenes
-        * Extraiga imágenes de la esquina superior izquierda de una página llamando al método [getImages(options)](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/getimages/methods/3) usando personalizar Opciones.
-        * opción Creación para guardar imágenes en formato PNG
-        * Iterar sobre imágenes y guardar la imagen en el archivo PNG
-     
-      gisthash: "bc242d5ff4050564fa275858ffa7d34f"
-      gistfile: "images_saving_to_files.cs"
-
-    - title_left: "Requisitos del sistema"
-      content_left: |
-       GroupDocs.Parser para Java es compatible con todas las principales plataformas y sistemas operativos. Puede generar documentos en Microsoft Word, Excel, PowerPoint, Outlook, OpenOffice y más de 50 formatos. Para obtener una guía completa de requisitos del sistema, visite los requisitos del sistema antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema:
-         * Sistemas Operativos: Microsoft Windows, Linux, Mac OS
-         * Compatibilidad con versiones de Java: J2SE 7.0 (1.7), J2SE 8.0 (1.8) o superior
-         * Obtenga la última versión de GroupDocs.Parser Java API de GroupDocs [Repositorio](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser)
+    title_left: "{steps.title_left}"
+    content_left: |
+        {steps.content_left.description}
         
-      title_right: "Por qué usar GroupDocs.Parser"
-      content_right: |
-        * Extraiga un texto sin formato de cualquiera de los documentos admitidos.
-        * Soporte de extracción de tabla de contenido
-        * Extraiga texto formateado, metadatos, imágenes, contenedores y archivos adjuntos.
-        * Análisis de documentos a través de plantillas definidas por el usuario.
-        * Buscar texto usando palabras clave o expresiones regulares.
-        * Soporte de extracción de texto estructurado
-        * Extraiga la tabla de contenido para algunos formatos de documentos compatibles.
-        * Analizar datos de formularios de documentos PDF.
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
 
+    title_right: "{steps.title_right}"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document/">{steps.content_right.step_1}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document-page/">{steps.content_right.step_2}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document-page-area/">{steps.content_right.step_3}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-to-files/">{steps.content_right.step_4}</a>
+         
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="{steps.title_code}">}}
+
+        ```java    
+        // {steps.code.header}
+        // {steps.code.instance}
+        try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
+            // {steps.code.extract}
+            Iterable<PageImageArea> images = parser.getImages();
+            // {steps.code.check_null}
+            if (images == null) {
+                System.out.println("{steps.code.not_supported}");
+                return;
+            }
+            // {steps.code.iterate}
+            for (PageImageArea image : images) {
+                // {steps.code.print}
+                System.out.println(String.format("Page: %d, R: %s, Type: %s", image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "{more.title_left}"
+    content_left: |
+        {more.content_left.description}
+        
+        * {more.content_left.step_1}
+        * {more.content_left.step_2}
+        * {more.content_left.step_3}
+        * {more.content_left.step_4}
+
+    title_right: "{more.title_right}"
+    content_right: |
+        * {more.content_right.p1}    
+        * {more.content_right.p2}    
+        * {more.content_right.p3}    
+        * {more.content_right.p4}    
+        * {more.content_right.p5}    
+        * {more.content_right.p6}    
+        * {more.content_right.p7}    
+        * {more.content_right.p8}   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "{demos.title}"
+    content: |
+       {demos.h1}
+       {demos.h2}
         
-
-more_formats:
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "{more_formats.title}"
+    content: |
+        {more_formats.content}
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

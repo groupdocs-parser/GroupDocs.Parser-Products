@@ -1,305 +1,252 @@
 ---
-layout: "product"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "landing"
+date: 2024-02-13T17:01:03
 draft: false
-
+#operation: 
+#parsertype: 
+#fileformat: 
+#productName: Java
+lang: id
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  parser on  for Java
 product: "Parser"
 product_tag: "parser"
 platform: ".NET"
 platform_tag: "net"
 
-head_title: ".NET Parsing API, ekstrak Metadata Gambar Teks dari PDF Word Excel"
-head_description: "C# .NET document parsing API untuk mengekstrak teks, gambar, metadata & encoding dari database, PDF, Word, Excel, presentasi, web, email, EPUB & format file zip."
+############################# Head ############################
+head_title: ".NET, Java, Cloud API & Aplikasi Parser Dokumen Online"
+head_description: "Dapatkan solusi penguraian dokumen lengkap untuk .NET, Java dan aplikasi berbasis cloud. Ekstrak data dari format dokumen online menggunakan fitur drag and drop sederhana"
 
-title: ".NET API untuk Mengekstrak Data Dokumen"
-description: "Ekstrak gambar, teks mentah atau diformat, dan metadata dari dokumen, spreadsheet, presentasi, email & arsip dari dalam aplikasi .NET."
-button:
-    enable: true
+############################# Header ############################
+title: "Parsing dokumen<br>melalui .NET API"
+description: "Ekstrak data dari dokumen dan gambar pada platform apa pun menggunakan API fleksibel dan solusi berbasis aplikasi kami untuk pemrogram dan pengguna akhir."
+words:
+  for: "untuk"
 
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Parser for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-net.png"
-        product: "GroupDocs.Parser"
-        platform: ".NET"
+actions:
+  main: "Gratis NuGet Unduh"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Parser"
+  alt: "Perizinan"
+  alt_link: "https://purchase.groupdocs.com/pricing/parser/net"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Parser secara gratis atau minta lisensi"
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "Ringkasan"
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
 
-            - link: "#features"
-              text: "Fitur"
+code:
+  title: "Ekstrak teks dari file PDF di C#"
+  more: "Lebih banyak contoh"
+  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET"
+  install: "dotnet add package GroupDocs.Parser"
+  content: |
+    ```csharp {style=abap}   
+    // Create an instance of Parser class
+    using (var parser = new Parser(fileName))
+    {
+        // Extract a text into the reader
+        using (var textReader = parser.GetText())
+        {
+            // Print a text from the document
+            Console.WriteLine(textReader?.ReadToEnd());
+        }
+    }
+    ```
 
-            - link: "#support"
-              text: "Mendukung"
-
-            - link: "https://products.groupdocs.app/parser"
-              text: "Demo Langsung"
-
-            - link: "https://purchase.groupdocs.com/pricing/parser/net"
-              text: "Harga"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/parser"
-        link_learn: "https://docs.groupdocs.com/parser/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Parser untuk .NET adalah API ekstraktor teks, metadata, dan gambar untuk aplikasi bisnis yang dikembangkan menggunakan C#, ASP.NET, dan teknologi .NET lainnya. Ini mendukung ekstraksi teks mentah, diformat & terstruktur serta metadata dari file format yang didukung. Melalui GroupDocs.Parser untuk .NET, aplikasi Anda juga dapat melakukan penguraian dokumen yang dilindungi kata sandi untuk format populer, seperti dokumen pemrosesan Word, spreadsheet Excel, presentasi PowerPoint, OneNote, file PDF, dan arsip ZIP.
-    tabs:
-      enable: true
-      
-      tab_one:
-        description: |
-          Berikut ini adalah ikhtisar GroupDocs.Parser untuk .NET:
-      
-        left:
-          enable: true
-          icon: "fas fa-tools"
-          title: "Fitur"
-          content: |
-            * Ekstrak Gambar
-            * Ekstrak Teks Mentah
-            * Ekstrak Teks Terformat
-            * Ekstrak Teks Terstruktur
-            * Ekstrak Metadata
-            * Ekstrak dari File dalam file ZIP
-            * Ekstrak dengan Mencari
-            * Ekstrak dengan Pemformat Teks
-            * Deteksi Standar Pengkodean
-            * Deteksi Jenis Media
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "API"
-          content: |
-            * Mendapat File Masukan
-            * Mengambil Teks Mentah atau Terformat
-            * Mengambil Metadata
-      
-      tab_two:
-        description: |
-          GroupDocs.Parser untuk .NET mendukung [format file dokumen](https://docs.groupdocs.com/parser/net/supported-document-formats/ berikut):
-
-        left:
-          enable: true
-          table:
-            - title: "Ekstraksi Teks"
-              content: |
-                * **Teks**: DOC, DOCX, DOT, DOTM, DOTX, DOCM, RTF, ODT, OTT, TXT, MD, WordprocessingML (XML)
-                * **Spreadsheet**: XLS, XLSX, CSV, XLSM, XLSB, ODS, SpreadsheetML (XML), XLT, XLTX, XLTM, OTS, XLA,, XLAM, TSV
-                * **Presentasi**: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX, POTM, ODP, OTP
-                * **OneNote**: SATU
-                * **Email**: MSG, EML, EMLX, PST, OST, MS EXCHANGE SERVER, POP, IMAP
-                * **Penerbitan Elektronik**: EPUB, FB2
-                * **Dokumen Portabel**: PDF, Portofolio PDF, PDF Terenkripsi
-                * **Berbasis DOM**: XML, HTML, XHTML, MHTML
-                * **Kompresi & Kemasan**: ZIP, CHM
-                * **Database**: ADO.NET
-
-            - title: "Deteksi Pengkodean"
-              content: |
-                * **BOM**: UTF32 LE, UTF32 BE, UTF16 LE, UTF16 BE, UTF8, dan UTF7
-                * **Konten**: UTF32 LE, UTF32 BE, UTF16 LE, UTF16 BE, UTF8, dan ANSI
-
-        right:
-          enable: true
-          table:
-            - title: "Ekstraksi Metadata"
-              content: |
-                * **Teks**: DOC, DOCX, DOT, DOTX, DOTM, OTT, ODT
-                * **Spreadsheet**: XLS, XLSX, XLT, XLTX, XLTM, XLA, XLAM, OTS, ODS
-                * **Presentasi**: PPT, PPTX, POT, POTX, POTM, PPSM, PPTM, OTP, ODP
-                * **Email**: MSG, EML, EMLX
-                * **Penerbitan Elektronik**: EPUB, FB2
-                * **Lainnya**: PDF
-
-            - title: "Ekstraksi Teks & Metadata"
-              content: |
-                * **Templat**: DOTX, POTX
-                * **Template Berkemampuan Makro**: DOTM, POTM, PPSM, PPTM
-                * **Template OpenDocument**: OTT
-
-            - title: "Ekstraksi Gambar"
-              content: |
-                * **Teks**: DOC, DOCX, DOCM, RTF, DOT, DOTM, DOTX, ODT
-                * **Spreadsheet**: XLS, XLSX, XLSM, XLSB, ODS, XLT, XLTM, XLTX
-                * **Presentasi**: PPT, PPTX, PPTM, ODP, POT, POTM, POTX, PPS, PPSX, PPSM
-                * **Dokumen Portabel**: PDF, POT, POTM, POTX
-                * **Ebook**: CHM, EPUB, FB2
-                * **Markup**: HTML
-
-      tab_three:
-        description: |
-          GroupDocs.Parser untuk .NET mendukung Sistem Operasi, Kerangka & Manajer Paket berikut:
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Desktop Windows
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            - icon: "fas fa-code"
-              title: "Kerangka yang Didukung"
-              content: |
-                * .NET Framework 2.0 atau lebih tinggi
-                * Kerangka Mono 1.2 atau lebih tinggi
-                * .NET Standar 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-box"
-              title: "Manajer Paket"
-              content: |
-                * NuGet
-
-            - icon: "fas fa-tools"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-features:
-    enable: true
-    title: "GroupDocs.Parser untuk .NET Fitur"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "Hitung Secara Statistik Kemunculan Kata dalam Satu atau Beberapa File"
-
-      - icon: "fas fa-eye"
-        content: "Ekstrak Teks dan Metadata dari Lembar Kerja Excel dan Template Presentasi"
-
-      - icon: "fas fa-bolt"
-        content: "Ekstrak Konten Teks dari File atau Aliran tanpa Menginstal Pembaca Dokumen"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "Dapatkan Teks Terformat dari Dokumen menggunakan Mode Ekstraksi Teks Cepat atau Standar"
-
-      - icon: "fas fa-code"
-        content: "Deteksi Jenis Media Dokumen XML yang Dilindungi Kata Sandi & Tarik Teks darinya"
-
-      - icon: "fas fa-cloud"
-        content: "Secara terprogram Dapatkan Teks Terformat dari Dalam Email & Lampiran"
-
-      - icon: "fas fa-remove-format"
-        content: "Gambarkan Teks dari Satu atau Beberapa Halaman Dokumen OneNote"
-
-      - icon: "fas fa-comment-slash"
-        content: "Ekstrak Data dari PDF, MS Word, Excel, dan Dokumen Presentasi"
-
-      - icon: "fas fa-location-arrow"
-        content: "Ekstrak Data dari Formulir PDF & Keluarkan Teks dari File PDF Sederhana atau Dokumen Portofolio PDF"
-
-      - icon: "fas fa-border-all"
-        content: "Dapatkan Teks Terformat dari Presentasi PowerPoint atau Keluarkan Teks dari Slide Tertentu"
-
-      - icon: "fas fa-wrench"
-        content: "Kumpulkan Teks Mentah atau Diformat dari Sel, Baris, dan Kolom dari Excel Spreadsheet"
-
-      - icon: "fas fa-columns"
-        content: "Ekstrak Teks Berformat Mentah atau HTML dari Dokumen Word"
-
-      - icon: "fas fa-file-word"
-        content: "HTML Formatter Mendukung Pemformatan Paragraf, Hyperlink, Font, Judul, Daftar & Tabel"
-
-      - icon: "fas fa-envelope"
-        content: "Tarik Satu Kalimat atau Seluruh Teks dari File EPUB, CHM, Penurunan Harga & FB2"
-
-      - icon: "fas fa-print"
-        content: "Kutipan Daftar Isi dari Database, PDF, EPUB, CHM & Dokumen Pengolah Kata"
-
-      - icon: "fas fa-file-archive"
-        content: "Tarik Teks dengan Struktur Kontennya Utuh & Kutipan Teks yang Disorot dari Dokumen"
-
-      - icon: "fas fa-lock"
-        content: "Dapatkan Area Teks dari Dokumen untuk Analisis & Gambarkan Metadata dari Format Dokumen yang Didukung"
-
-      - icon: "fas fa-file-code"
-        content: "Dapatkan Semua atau Gambar yang Dipilih dari Format yang Didukung & Putar Gambar yang Diekstraksi"
-      
-      - icon: "fas fa-fill-drip"
-        content: "Keluarkan Teks dari File dalam Arsip Zip & Kontainer OST & Deteksi jenis file Item Kontainer ZIP"
-
-      - icon: "fas fa-file-excel"
-        content: "Dapatkan Data dari Wadah Email (Exchange Web Server, POP3, IMAP)"
-
-      - icon: "fas fa-heading"
-        content: "Cari Teks Sederhana, Seluruh Kata & Ekspresi Reguler dalam Dokumen"
-
-      - icon: "fas fa-project-diagram"
-        content: "Siapkan Template Dokumen, Ekstrak Data dari Dokumen dan Analisis Bidang & Tabel Data"
-
-      - icon: "fas fa-cube"
-        content: "Cari dan Ekstrak Ekspresi yang Disorot dalam Dokumen"
-
-      - icon: "fab fa-uncharted"
-        content: "Dapatkan Teks dengan Pemformat Teks Biasa (Sederhana & ASCII) atau dengan Pemformat Penurunan Harga"
-
-      - icon: "fab fa-uncharted"
-        content: "Pemformat Penurunan Harga Mendukung Pemformatan Font, Hyperlink, Judul, Daftar & Tabel"
-
-      - icon: "fab fa-uncharted"
-        content: "Lakukan Pemformatan Kustom dengan Tepi, Sudut, dan Persimpangan untuk Memformat Teks Biasa"
-
-      - icon: "fab fa-uncharted"
-        content: "Pindahkan Tata Letak Tabel & Deteksi Tabel di Area Persegi Panjang dengan Pemisah Kolom"
-
-      - icon: "fab fa-uncharted"
-        content: "Ekstrak Teks dari Bentuk, Objek WordArt & Kotak Teks dalam Format File Microsoft Office"
-
-      - icon: "fab fa-uncharted"
-        content: "Ekstrak Gambar ke File – Simpan ke Format JPG, PNG, GIF, BMP, PNG atau WEBP"
-
-    more_feature:
-      - title: "Mengekstrak Teks dari Dokumen"
-        content: |
-          Menggunakan GroupDocs.Parser untuk .NET API untuk mengekstrak teks dari dokumen sederhana dan dicapai hanya dengan beberapa baris kode:
-
-          ```cs
-          // Buat turunan dari kelas Parser
-          using(Parser parser = new Parser("sample.docx"))
-          {
-            // Ekstrak teks ke dalam pembaca
-            using(TextReader reader = parser.GetText())
-            {
-              // Mencetak teks dari dokumen
-              // Jika ekstraksi teks tidak didukung, pembaca adalah null
-              Console.WriteLine(reader == null ? "Text extraction isn't supported." : reader.ReadToEnd());
-            }
-          }
-          ```
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Parser menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        - img_alt: "GroupDocs.Parser for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-java.png"
-          product: "GroupDocs.Parser"
-          platform: "Java"
-          link: "/parser/java/"
-
-back_to_top:
   enable: true
+  title: "GroupDocs.Parser Ikhtisar"
+  description: "API untuk melakukan penguraian dokumen di .NET aplikasi"
+  features:
+    # feature loop
+    - title: "Ekstrak data dari dokumen"
+      content: ".NET API memungkinkan Anda mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat canggih ini membantu Anda mengakses dan memproses informasi berharga secara efisien yang terkandung dalam file ini untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
+
+    # feature loop
+    - title: "Parsing dokumen"
+      content: "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, kode batang, dan data dari formulir PDF. Parsing juga informasi yang diinginkan dari dokumen menggunakan templat khusus."
+
+    # feature loop
+    - title: "Menyesuaikan hasil"
+      content: ".NET API memungkinkan Anda mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Penurunan harga. Selain itu, API menawarkan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independensi platform"
+  description: "GroupDocs.Parser for .NET mendukung sistem operasi, kerangka kerja, dan pengelola paket berikut"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    GroupDocs.Parser for .NET mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/parser/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office format
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Gambar & Format Lainnya
+        * **Portable:** PDF
+        * **Gambar-gambar:** JPG, BMP, PNG, TIFF, GIF
+        * **Format kantor lainnya:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Format lainnya
+        * **jaring:** HTML, MHTML
+        * **Arsip:** ZIP, TAR, 7Z
+        * **Ebook:** CHM, EPUB, FB2, MOBI
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Parser fitur"
+  description: "Ekstrak data dari PDF, Dokumen Office, dan Gambar dengan cepat dan akurat."
+
+  items:
+    # feature loop
+    - icon: "text"
+      title: "Ekstrak teks"
+      content: "Ekstrak informasi tekstual dari berbagai format file seperti dokumen office, file, dan gambar agar mudah dibaca dan dianalisis."
+
+    # feature loop
+    - icon: "image"
+      title: "Ekstrak gambar"
+      content: "Ambil konten visual dari beragam sumber seperti dokumen kantor, file PDF untuk kemudahan akses dan penggunaan."
+
+    # feature loop
+    - icon: "qr"
+      title: "Pindai Kode QR"
+      content: "Deteksi dan dekode kode QR yang ada dalam dokumen kantor, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
+
+    # feature loop
+    - icon: "email"
+      title: "Ekstrak data dari lampiran dan arsip email"
+      content: "Kumpulkan informasi berharga dari pesan email, lampiran file, dan sumber data terkompresi untuk analisis dan pemanfaatan yang efektif."
+
+    # feature loop
+    - icon: "table"
+      title: "Ekstrak tabel"
+      content: "Identifikasi dan ekstrak data tabel dari PDF dokumen untuk analisis dan penggunaan yang terorganisir."
+
+    # feature loop
+    - icon: "hyperlink"
+      title: "Ekstrak hyperlink"
+      content: "Temukan dan ekstrak hyperlink dan alamat email dalam dokumen atau file Office untuk akses yang efisien."
+
+    # feature loop
+    - icon: "pdf"
+      title: "Parsing PDF Formulir"
+      content: "PDF Formulir adalah dokumen digital yang menampilkan kolom yang dapat diisi untuk interaksi pengguna, sehingga memungkinkan mereka memasukkan informasi secara elektronik. .NET API dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
+
+    # feature loop
+    - icon: "template"
+      title: "Parsing data berdasarkan templat"
+      content: "Buat template khusus dan gunakan dengan .NET API untuk mengurai informasi spesifik dari file PDF, sehingga menyederhanakan proses ekstraksi data."
+
+    # feature loop
+    - icon: "search"
+      title: "Cari teks dalam dokumen"
+      content: "Temukan kata atau pola tertentu dalam dokumen dengan cepat."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan operasi umum"
+  items:
+    # code sample loop
+    - title: "Ekstrak gambar dari PDF dokumen"
+      content: |
+        .NET API memudahkan pengembang C# mengekstrak gambar dari dokumen dengan menerapkan beberapa langkah mudah.
+        {{< landing/code title="Ekstrak gambar dari PDF dokumen di C#">}}
+        ```csharp {style=abap}
+        // Create an instance of Parser class
+        using (var parser = new Parser(fileName))
+        {
+            // Extract images
+            var images = parser.GetImages();
+
+            // Check if images extraction is supported
+            if (images != null)
+            {
+                var imageIndex = 0;
+
+                // Iterate over images
+                foreach (var image in images)
+                {
+                    // Save the image to the file
+                    image.Save($"{++imageIndex}{image.FileType.Extension}");
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Ekstrak kode batang dari gambar"
+      content: |
+        .NET API memudahkan pengembang C# mengekstrak kode batang dari dokumen dengan menerapkan beberapa langkah mudah.
+        {{< landing/code title="Ekstrak kode batang dari gambar">}}
+        ```csharp {style=abap}   
+        // Create an instance of Parser class
+        using (var parser = new Parser(fileName))
+        {
+            // Check if the file supports barcode extracting
+            if (parser.Features.Barcodes)
+            {
+                // Extract barcodes from the file.
+                var barcodes = parser.GetBarcodes();
+
+                // Iterate over barcodes
+                foreach (var barcode in barcodes)
+                {
+                    // Print the page index
+                    Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                    // Print the barcode value
+                    Console.WriteLine("Value: " + barcode.Value);
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

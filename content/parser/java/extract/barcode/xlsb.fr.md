@@ -1,105 +1,157 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:04
 draft: false
-path: "fr/parser/java/extract/barcode/xlsb/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: odt one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx
 
 ############################# Head ############################
-head_title: "Extraire les codes-barres d'Excel, Word, PDF et autres documents via l'API Java "
-head_description: "L'API Java GroupDocs.Parser permet aux développeurs de logiciels d'extraire des codes-barres à partir de PDF, MS Excel, Word, PowerPoint, Outlook, OneNote et d'autres documents dans les applications Java."
+head_title: "Extrayez les codes-barres de Excel, Word, PDF et d'autres documents via l'API Java"
+head_description: "GroupDocs.Parser for Java permet aux développeurs de logiciels d'extraire les codes-barres de PDF, MS Excel, Word, PowerPoint, Outlook, OneNote et d'autres documents dans les applications Java."
 
 ############################# Header ############################
-title: "Comment extraire des codes-barres de PDF, DOCX, PPTX, EML, MSG, XLSX et EPUB via l'API Java"
-description: "L'API Java GroupDocs.Parser permet aux développeurs de logiciels d'extraire des codes-barres de PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint (PPT, PPTX), Outlook (EML, MSG) et de nombreux autres documents."
-
-######################### Download Button #######################
+title: "Comment extraire les codes-barres de PDF, DOCX, PPTX, EML, MSG, XLSX et EPUB via l'API {ProductName}}"
+description: "L'API GroupDocs.Parser for Java permet aux développeurs de logiciels d'extraire les codes-barres de PDF, Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint( PPT, { 330}), Outlook (EML, MSG) et de nombreux autres documents Zone de page."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Télécharger la version d'essai gratuite"
+    link: "https://downloads.groupdocs.com/parser/java"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-java.png"
+        product: "GroupDocs.Parser"
+        platform: "Java"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/java"
+              text: "Référence API"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "Exemples de codes"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "Démos en direct"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/java"
+              text: "Tarification"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/java"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "Apprenez à extraire des codes-barres d'Excel, Word, PDF et autres documents via Java ?"
+    title: "Comment extraire les codes-barres de l'API XLSB fichiers Java ?"
     content: |
-       L'image des codes à barres se compose d'une série de lignes noires parallèles et d'espaces blancs de largeurs variables qui peuvent être utilisés pour coder des informations dans un motif visuel. Il a été introduit dans les années 1970 et fait maintenant partie intégrante des entreprises commerciales. GroupDocs.Parser for Java est une API puissante qui permet aux programmeurs de logiciels de créer des applications pour analyser différents types de documents et en extraire du texte, des images et des codes-barres. Il a inclus la prise en charge de certains des types de documents les plus courants tels que PDF, e-mails, livres électroniques, formats Microsoft Office : Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), e-mails (EML, MSG ) et bien d'autres. L'API Java inclut la prise en charge de plusieurs fonctionnalités importantes liées à l'analyse de documents et à l'extraction de données, telles que l'extraction de texte brut, l'extraction de texte structuré, l'extraction de texte au format Markdown, l'extraction de texte d'une page ou d'une zone de page spécifique, l'extraction de code-barres d'un document, l'extraction de métadonnées ou photos et bien d'autres. 
+        L'image des codes-barres se compose d'une série de lignes noires parallèles et d'espaces blancs de largeurs variables qui peuvent être utilisés pour coder des informations dans un motif visuel. Il a été introduit dans les années 1970 et fait maintenant partie intégrante des entreprises commerciales. GroupDocs.Parser for Java est une API puissante qui permet aux programmeurs de logiciels de créer des applications pour analyser différents types de documents et en extraire du texte, des images et des codes-barres. Il a inclus la prise en charge de certains des types de documents les plus courants tels que PDF, les e-mails, les livres électroniques, les formats Microsoft Office : Word (DOC, DOCX), PowerPoint (PPT, {330 }), Excel (XLS, XLSX), e-mails (EML, MSG) et bien d'autres. L'API Java inclut la prise en charge de plusieurs fonctionnalités importantes liées à l'analyse de documents et à l'extraction de données, telles que l'extraction de texte brut, l'extraction de texte structuré, l'extraction de texte au format Markdown, l'extraction de texte d'une page ou d'une zone de page spécifique, l'extraction de code-barres d'un document, l'extraction métadonnées ou images et bien d'autres.
+        
+        
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "Comment extraire les codes-barres de XLSB Documents via Java"
-      content_left: |
-       L'API Java GroupDocs.Parser permet aux programmeurs d'extraire facilement les codes-barres des documents XLSB. L'exemple de code Java suivant montre comment extraire des images de codes-barres dans un document XLSB avec un minimum d'effort et de coût. 
-
-      title_right: "Extraire les codes-barres de Docs via Java"
-      content_right: |
-        * Créez une instance de [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)
-        * vérifier si l'extraction des codes-barres est prise en charge
-        * Appelez la méthode [GetBarcodes](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes()) pour extraire tous les codes-barres de l'ensemble du document.
-        * Itérer sur les codes-barres dans le document
-        * Imprimez tous les codes à barres et sa valeur
-
-      gisthash: "bb2393a5db93e1795d41d908ad23e158"
-      gistfile: "barcode_extraction_form_documents.java"
-
-    - title_left: "Obtenez des codes-barres à partir de la page de XLSB Document via Java"
-      content_left: |
-       GroupDocs.Parser Java permet aux développeurs de logiciels d'analyser et d'obtenir facilement des codes-barres à partir d'une page de documents XLSB. Le code Java suivant montre comment l'extraction de code-barres peut être réalisée à partir d'une page de document spécifique dans un document XLSB. 
-
-      title_right: "Comment obtenir un code-barres à partir d'une page de fichier"
-      content_right: |
-        * Créez une instance de [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)
-        * Vérifiez le document pour le support d'extraction de codes à barres
-        * Appelez la méthode [GetBarcodes](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes(int)) pour extraire tous les codes-barres de la 2ème page du document.
-        * Itérer sur les pages pour les codes à barres
-        * Imprimer le numéro de page et la valeur des codes-barres
-     
-      gisthash: "ff09980eef6df60d5a3272b91b5607cf"
-      gistfile: "barcodes_extraction_form_documents_page.java"
-      
-    - title_left: "Comment extraire les codes-barres de la zone de page XLSB Documents"
-      content_left: |
-       L'API Java GroupDocs.Parser prend entièrement en charge l'extraction de codes-barres à partir de documents XLSB en toute simplicité. L'exemple de code Java suivant montre comment effectuer une extraction de codes-barres à partir d'une zone de page de document XLSB.
-
-      title_right: "Extraire le code-barres d'une zone de page de fichier via Java"
-      content_right: |
-        * Créez une instance de [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)
-        * personnaliser la création d'options pouvant être utilisées pour l'extraction de codes-barres
-        * Vérifiez le document pour le support d'extraction de codes à barres
-        * Appelez la méthode [GetBarcodes](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getBarcodes(int)) pour extraire tous les codes-barres de la 2ème page du document.
-        * Itérer sur les codes-barres dans le document
-        * Imprimer le numéro de page et la valeur des codes-barres
-     
-      gisthash: "1737589e775a06a6300245cea525dac0"
-      gistfile: "barcodes_extraction_from_documents_page_area.java"
-
-    - title_left: "System Anforderungen"
-      content_left: |
-        GroupDocs.Parser für Java wird auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Es kann Dokumente in Microsoft Word, Excel, PowerPoint, Outlook, OpenOffice und über 50 anderen Formaten erstellen. Um einen vollständigen Leitfaden zu den Systemanforderungen zu erhalten, besuchen Sie bitte die Systemanforderungen, bevor Sie den folgenden Code ausführen. Stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind:
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Unterstützung für Java-Versionen: J2SE 7.0 (1.7), J2SE 8.0 (1.8) oder höher
-        * Holen Sie sich die neueste Version der GroupDocs.Parser-Java-APIs von GroupDocs [Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser)
+    title_left: "Extraire les codes-barres de XLSB dans Java"
+    content_left: |
+        [GroupDocs.Parser for Java](/fr/parser/java/) permet aux développeurs Java d'extraire facilement les codes-barres d'un fichier XLSB en mettant en œuvre quelques étapes simples.
         
-      title_right: "Warum GroupDocs.Parser verwenden"
-      content_right: |
-        * Extrahieren Sie einen einfachen Text aus einem der unterstützten Dokumente.
-        * Unterstützung zum Extrahieren von Inhaltsverzeichnissen
-        * Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge.
-        * Dokumente parsen über benutzerdefinierte Vorlagen.
-        * Suchen Sie Text mit Schlüsselwörtern oder regulären Ausdrücken.
-        * Unterstützung für die Extraktion von strukturiertem Text
-        * Inhaltsverzeichnis für einige unterstützte Dokumentformate extrahieren.
-        * Analysieren Sie Formulardaten aus PDF-Dokumenten.
+        * Instanciez l'objet [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) pour le document initial ;
+        * Vérifiez si le fichier prend en charge l'extraction de code-barres ;
+        * Appelez la méthode [getBarcodes](https://reference.groupdocs.com/parser/java/com.groupdocs.parser/parser/#getBarcodes--) et obtenez la collection de [PageBarcodeArea](https://reference.groupdocs.com/parser/java/com.groupdocs.parser.data/pagebarcodearea/) objets ;
+        * Parcourez la collection et obtenez une valeur de code-barres.
 
+    title_right: "En savoir plus sur l'extraction de code-barres"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/java/extract-barcodes-from-document/">Comment extraire les codes-barres d'un document</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-barcodes-from-document-page/">Comment extraire les codes-barres de la page du document</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-barcodes-from-document-page-area/">Comment extraire les codes-barres de la zone de page du document</a>
+    
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="Comment extraire les codes-barres du fichier XLSB à l'aide de l'exemple de code Java">}}
+
+        ```java    
+        // Extraire les codes-barres du fichier XLSB à l'aide de l'API GroupDocs.Parser
+        // Créer une instance de la classe Parser
+        try (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+            // // Vérifiez si le fichier prend en charge l'extraction de code-barres
+            if (!parser.getFeatures().isBarcodes()) {
+                System.out.println("Le fichier ne prend pas en charge l'extraction de code-barres.");
+                return;
+            }
+
+            // {steps.code.scan}
+            Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
+
+            // Itérer sur les codes-barres
+            for (PageBarcodeArea barcode : barcodes) {
+                // Imprimer l'index des pages
+                System.out.println("Page: " + barcode.getPage().getIndex());
+                // Imprimer la valeur du code-barres
+                System.out.println("Value: " + barcode.getValue());
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "Configuration requise"
+    content_left: |
+        GroupDocs.Parser for Java Les API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
+        
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : NetBeans, Intellij IDEA, Eclipse, etc.
+        * Cadres
+        * Téléchargez la dernière version de GroupDocs.Parser for Java depuis [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser)
+
+    title_right: "Pourquoi utiliser GroupDocs.Parser for Java"
+    content_right: |
+        * Prise en charge de l'extraction de texte brut à partir de tous les documents pris en charge    
+        * Analyse de documents via des modèles définis par l'utilisateur    
+        * Prise en charge complète de l'extraction de texte structuré    
+        * Recherche de texte par mot-clé ainsi que par expression régulière    
+        * Extraire du texte formaté, des métadonnées, des images, des conteneurs et des pièces jointes    
+        * Extraire la table des matières pour certains formats de document pris en charge    
+        * Analyser les données de formulaire de PDF documents    
+        * Extraire les hyperliens du document   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "Démos en direct - Extrayez les codes-barres de XLSB en ligne"
+    content: |
+       Extrayez les codes-barres du fichier XLSB dès maintenant en visitant le site Web [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/barcodes/xlsb).
+       La démo en direct présente les avantages suivants.
         
-
-more_formats:
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Extraire les codes-barres d'autres formats de documents"
+    content: |
+        API d'analyse de documents et d'extraction de codes-barres Java pour les formats de fichiers et les images. Extrayez les données pour certains des formats de fichiers populaires comme indiqué ci-dessous.
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

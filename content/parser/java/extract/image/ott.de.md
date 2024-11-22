@@ -1,121 +1,154 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:09
 draft: false
-path: "de/parser/java/extract/image/ott/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT  PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: 
 
 ############################# Head ############################
-head_title: "Wie extrahiert man Bilder aus Excel, Word, PDF und anderen Dokumenten über Java?"
-head_description: "GroupDocs.Parser Java API ermöglicht Softwareentwicklern das Parsen und Extrahieren von Bildern aus PDF-, DOC-, DOCX-, PPT-, PPTX-, XLS-, XLSX-Dokumenten, Seitenbereichen und E-Mails in Java-Apps."
+head_title: "{head.title}"
+head_description: "{head.description}"
 
 ############################# Header ############################
-title: "Java-API zum Analysieren und Extrahieren von Bildern aus Excel-, Word-, PowerPoint-, PDF- und anderen Dokumentseiten"
-description: "GroupDocs.Parser Java API ermöglicht Programmierern das Extrahieren von Bildern aus PDF-, DOC-, DOCX-, PPT-, PPTX-, EML-, MSG-, XLS-, XLSX-, CSV-, ODT-, RTF- und EPUB-Dokumenten oder Dokumentenseiten in Java-Anwendungen."
-
-######################### Download Button #######################
+title: "{header.title}"
+description: "{header.description}"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "{header.button_label}"
+    link: "https://downloads.groupdocs.com/parser/java"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-java.png"
+        product: "GroupDocs.Parser"
+        platform: "Java"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/java"
+              text: "{submenu.content_middle.button_text_1}"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "{submenu.content_middle.button_text_2}"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "{submenu.content_middle.button_text_3}"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/java"
+              text: "{submenu.content_middle.button_text_4}"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/java"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "Erfahren Sie, wie Sie Bilder aus Dokumenten oder einer bestimmten Seite über die Java-API extrahieren."
+    title: "{about.title}"
     content: |
-       Ein Bild sagt mehr als tausend Worte und kann in der heutigen visuellen Welt bei der Erstellung ansprechender Inhalte nicht ignoriert werden. Bilder können eine großartige Quelle für die Informationskommunikation sein und die Aufmerksamkeit des Benutzers auf sich ziehen. Oft ist es notwendig, Bilder aus Dokumenten, Journalen oder Präsentationen zu bekommen und sie woanders zu verwenden. GroupDocs.Parser für Java ist eine leistungsstarke API, die Softwareentwicklern und Programmierern hilft, Lösungen zum Parsen und Extrahieren von Bildern oder anderen Informationen aus zahlreichen Dokumenttypen zu entwickeln. Es unterstützt auch das Speichern von Bildern in PNG, JPEG, WebP, GIF, BMP und anderen Formaten. Die API hat Unterstützung für einige gängige Dokumentenformate wie PDF, Microsoft Office-Formate: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), LibreOffice-Formate, E-Mails, E-Books und viele mehr . Es hat auch Unterstützung für einige erweiterte Funktionen im Zusammenhang mit dem Parsen von Dokumenten, dem Extrahieren von einfachem und strukturiertem Text, der Textsuche nach Schlüsselwörtern, dem Extrahieren von Metadaten oder Bildern, Containern sowie Anhängen und vielem mehr enthalten.
+        {about.h1}
+        
+        {about.h2}
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "So extrahieren Sie Bilder aus OTT-Dokumenten"
-      content_left: |
-       GroupDocs.Parser Java enthält Funktionen zum Extrahieren von Bildern aus OTT-Dokumenten. Das folgende Java-Codebeispiel zeigt, wie Bilder problemlos aus dem OTT-Dokument extrahiert werden können.
-
-      title_right: "Holen Sie sich Bilder aus Dokumenten über Java"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)
-        * Überprüfen Sie, ob das Dokument die Bildextraktion unterstützt
-        * Rufen Sie die Methode [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) auf, um alle Bilder aus dem gesamten Dokument zu extrahieren.
-        * Extrahieren Sie alle Bilder aus dem Dokument
-        * Iterieren Sie über Bilder und drucken Sie den Bildtyp
-
-      gisthash: "b13e690d2593f92081abd99948363e06"
-      gistfile: "extract_images_form_documents.java"
-
-    - title_left: "Bildextraktion aus OTT-Dokumentenseite"
-      content_left: |
-       GroupDocs.Parser Java API ermöglicht es Softwareentwicklern, Bilder aus OTT-Dokumenten mit ein paar Codezeilen zu extrahieren. Der folgende Java-Code zeigt die Bildextraktion aus einem OTT-Dokument.
-
-      title_right: "So extrahieren Sie Datei-Images über Java"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)
-        * Überprüfen Sie, ob das Dokument die Bildextraktion unterstützt
-        * Erhalten Sie Dokumentinformationen, indem Sie die Methode [getDocumentInfo](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getDocumentInfo()) aufrufen.
-        * Überprüfen Sie das Dokument auf das Vorhandensein von Seiten
-        * Iterieren Sie über Seiten und drucken Sie eine Seitenzahl
-        * Rufen Sie die Methode [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) auf, um alle Bilder aus dem gesamten Dokument zu extrahieren.
-        * Bilder durchlaufen und Bildtyp drucken
-     
-      gisthash: "68450336a57c5d8df06b4ef1ea69b29f"
-      gistfile: "extract_images_form_documents_page.java"
-      
-    - title_left: "So extrahieren Sie Bilder aus dem OTT-Dokumentseitenbereich"
-      content_left: |
-       GroupDocs.Parser Java API bietet vollständige Unterstützung für das einfache Extrahieren von OTT-Dokumentseiten. Der folgende Java-Code zeigt, wie Programmierer Bilder aus einem OTT-Dokumentseitenbereich in ihren eigenen Java-Apps extrahieren können.
-
-      title_right: "Bilder mit Java extrahieren?"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)
-        * Erstellen Sie die Optionen, die für die Bildextraktion verwendet werden
-        * Überprüfen Sie das Dokument auf Unterstützung für die Bildextraktion
-        * Rufen Sie die Methode [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) auf, um Bilder aus der oberen linken Ecke einer Seite zu extrahieren.
-        * Iterieren Sie über Bilder und drucken Sie die Bild-URL
-     
-      gisthash: "40143a56569ae88e7e7c972ccca041b5"
-      gistfile: "extract_images_form_documents_page_area.java"
-
-    - title_left: "So extrahieren Sie Bilder über die Java-API in eine Datei"
-      content_left: |
-       GroupDocs.Parser Java API ermöglicht das Extrahieren von Bildern aus OTT-Dokumenten und das Speichern von Bildinhalten in einer Datei. Der folgende Java-Code zeigt, wie Programmierer Bilder aus einer Datei ihrer Wahl in ihren eigenen Java-Apps extrahieren können.
-
-      title_right: "Bilder aus einem Dokument in eine Datei extrahieren"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser)
-        * Überprüfen Sie das Dokument auf Unterstützung für die Bildextraktion
-        * Rufen Sie die Methode [getImages()](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getImages()) auf, um Bilder aus der oberen linken Ecke einer Seite zu extrahieren.
-        * Erstellen Sie die Optionen zum Speichern von Bildern im unterstützten Dateiformat
-        * Iterieren Sie über Bilder und drucken Sie die Bild-URL
-     
-      gisthash: "6faeafc93e4412265b7439209828950b"
-      gistfile: "images_saving_to_files.java"
-
-    - title_left: "System Anforderungen"
-      content_left: |
-        GroupDocs.Parser für Java wird auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Es kann Dokumente in Microsoft Word, Excel, PowerPoint, Outlook, OpenOffice und über 50 anderen Formaten erstellen. Um einen vollständigen Leitfaden zu den Systemanforderungen zu erhalten, besuchen Sie bitte die Systemanforderungen, bevor Sie den folgenden Code ausführen. Stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind:
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Unterstützung für Java-Versionen: J2SE 7.0 (1.7), J2SE 8.0 (1.8) oder höher
-        * Holen Sie sich die neueste Version der GroupDocs.Parser-Java-APIs von GroupDocs [Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser)
+    title_left: "{steps.title_left}"
+    content_left: |
+        {steps.content_left.description}
         
-      title_right: "Warum GroupDocs.Parser verwenden"
-      content_right: |
-        * Extrahieren Sie einen einfachen Text aus einem der unterstützten Dokumente.
-        * Unterstützung zum Extrahieren von Inhaltsverzeichnissen
-        * Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge.
-        * Dokumente parsen über benutzerdefinierte Vorlagen.
-        * Suchen Sie Text mit Schlüsselwörtern oder regulären Ausdrücken.
-        * Unterstützung für die Extraktion von strukturiertem Text
-        * Inhaltsverzeichnis für einige unterstützte Dokumentformate extrahieren.
-        * Analysieren Sie Formulardaten aus PDF-Dokumenten.
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
 
+    title_right: "{steps.title_right}"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document/">{steps.content_right.step_1}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document-page/">{steps.content_right.step_2}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-from-document-page-area/">{steps.content_right.step_3}</a>
+        * <a href="https://docs.groupdocs.com/parser/java/extract-images-to-files/">{steps.content_right.step_4}</a>
+         
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="{steps.title_code}">}}
+
+        ```java    
+        // {steps.code.header}
+        // {steps.code.instance}
+        try (Parser parser = new Parser(Constants.SampleImagesPdf)) {
+            // {steps.code.extract}
+            Iterable<PageImageArea> images = parser.getImages();
+            // {steps.code.check_null}
+            if (images == null) {
+                System.out.println("{steps.code.not_supported}");
+                return;
+            }
+            // {steps.code.iterate}
+            for (PageImageArea image : images) {
+                // {steps.code.print}
+                System.out.println(String.format("Page: %d, R: %s, Type: %s", image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "{more.title_left}"
+    content_left: |
+        {more.content_left.description}
+        
+        * {more.content_left.step_1}
+        * {more.content_left.step_2}
+        * {more.content_left.step_3}
+        * {more.content_left.step_4}
+
+    title_right: "{more.title_right}"
+    content_right: |
+        * {more.content_right.p1}    
+        * {more.content_right.p2}    
+        * {more.content_right.p3}    
+        * {more.content_right.p4}    
+        * {more.content_right.p5}    
+        * {more.content_right.p6}    
+        * {more.content_right.p7}    
+        * {more.content_right.p8}   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "{demos.title}"
+    content: |
+       {demos.h1}
+       {demos.h2}
         
-
-more_formats:
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "{more_formats.title}"
+    content: |
+        {more_formats.content}
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

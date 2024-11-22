@@ -1,94 +1,163 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:11
 draft: false
-path: "ru/parser/net/extract/table/odt/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
 
 ############################# Head ############################
-head_title: "Извлечение таблиц из PDF, DOCX, PPTX, XLSX, EPUB и других файлов через C#.NET API"
-head_description: "GroupDocs.Parser .NET API позволяет программистам извлекать таблицы из PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF и многих других типов документов в приложениях .NET."
+head_title: "Извлечение таблиц из ODT и других файлов через .NET C# API"
+head_description: "GroupDocs.Parser for .NET API позволяет программистам извлекать таблицы из PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF и многих других типов документов в приложениях .NET."
 
 ############################# Header ############################
-title: "Извлечение штрих-кодов из документов Excel, Word, PDF и PowerPoint через C#.NET API"
-description: "API GroupDocs.Parser .NET позволяет программистам извлекать штрих-коды из документов или страниц PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF и EPUB."
-
-######################### Download Button #######################
+title: "Извлечение таблиц из ODT через .NET C# API"
+description: "GroupDocs.Parser for .NET API позволяет программистам извлекать таблицы из документов или страниц PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF и EPUB."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Скачать бесплатную пробную версию"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "Справочник по API"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "Примеры кода"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "Живые демонстрации"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "Цены"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "Как извлечь штрих-коды из Excel, Word, PDF и других документов через .NET API?"
+    title: "Как извлечь таблицы из файлов ODT с помощью API .NET?"
     content: |
-     Таблица представляет собой набор ячеек, расположенных в строках и столбцах. Таблицы играют очень важную роль в хранении, а также организации подробных или сложных данных, позволяя пользователям легко читать и просматривать их. Таблицы можно использовать по-разному, например, для создания списков, сравнения информации, выравнивания данных, группировки информации, выделения тенденций или закономерностей в данных и многих других. GroupDocs.Parser для .NET — это полезный API, который позволяет программистам разрабатывать решения для извлечения таблиц, текста и изображений из различных типов поддерживаемых форматов документов, таких как PDF, электронные письма, электронные книги, Word (DOC, DOCX), PowerPoint. (PPT, PPTX), Excel (XLS, XLSX), форматы электронной почты (EML, MSG) и многие другие. Java API включает несколько важных функций для работы с таблицами, таких как извлечение всех таблиц из документов, извлечение таблицы с определенной страницы, получение данных ячеек таблицы, получение общего количества строк и столбцов таблицы, получение высоты строки, печать данных. стола и может больше.
+        Таблица представляет собой набор ячеек, расположенных в строках и столбцах. Таблицы играют очень важную роль в хранении, а также организации подробных или сложных данных, позволяя пользователям легко читать и просматривать их. Таблицы можно использовать по-разному, например, для создания списков, сравнения информации, выравнивания данных, группировки информации, выделения тенденций или закономерностей в данных и многих других. GroupDocs.Parser for .NET — это полезный API, который позволяет программистам разрабатывать решения для извлечения таблиц, текста и изображений из различных типов поддерживаемых форматов документов, таких как PDF, электронные письма, электронные книги, Word (DOC, DOCX), PowerPoint ( PPT, PPTX), Excel (XLS, XLSX), электронные письма (EML, MSG) и многие другие. .NET API включает в себя несколько важных функций для работы с таблицами, таких как извлечение всех таблиц из документов, извлечение таблицы с определенной страницы, получение данных ячейки таблицы, получение общего количества строк и столбцов таблицы, получение строки высота, печать данных таблицы и многое другое.
+        
+        
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "Как извлечь таблицы из документов ODT с помощью C# .NET "
-      content_left: |
-       GroupDocs.Parser .NET API помогает разработчикам программного обеспечения извлекать таблицы из документов ODT всего за пару строк кода. В следующем примере кода C# .NET показано, как разработчики могут извлекать таблицы из документа ODT. 
-
-      title_right: "Извлечение таблиц из документов"
-      content_right: |
-        * Создайте экземпляр [Парсера](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * проверьте, поддерживается ли извлечение таблиц
-        * Создавать раскладку столов
-        * Создайте параметры для извлечения таблицы
-        * Вызов метода [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions)) для извлечения таблиц из весь документ.
-        * Перебирать строки и столбцы
-        * извлечь и распечатать текст ячейки таблицы
-
-      gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
-      gistfile: "tables_extraction_form_documents.cs"
-
-    - title_left: "Используйте .NET API для извлечения таблиц со страницы документа ODT"
-      content_left: |
-       GroupDocs.Parser .NET позволяет разработчикам программного обеспечения извлекать таблицы со страницы документов ODT. В следующем коде C# .NET показано, как программисты могут выполнять извлечение штрих-кодов из документа ODT.
-
-      title_right: "Извлечение штрих-кодов с помощью C# .NET"
-      content_right: |
-        * Создайте экземпляр [Парсера](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * проверьте, поддерживается ли извлечение таблиц
-        * Создавать раскладку столов
-        * Создать параметры для извлечения таблицы со страницы документа
-        * Вызов метода [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions)) для извлечения таблиц из весь документ.
-        * Итерация по таблицам, строкам и столбцам
-        * извлечь и распечатать текст ячейки таблицы
-     
-      gisthash: "2dc42054bba3abdc297c63f4534281d8"
-      gistfile: "tables_extraction_form_documents_page.cs"
-      
-    - title_left: "Системные Требования"
-      content_left: |
-        GroupDocs.Parser для .NET полностью поддерживается на всех основных платформах и операционных системах. Полное руководство по системным требованиям можно найти на странице [системные требования](hhttps://docs.groupdocs.com/parser/net/system-requirements/). Перед выполнением приведенного ниже кода убедитесь, что на вашем компьютере установлены следующие предварительные компоненты. система:
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среда разработки: Visual Studio, Xamarin, MonoDevelop и т. д.
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию API GroupDocs.Parser .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)
+    title_left: "Извлечь таблицы из ODT в .NET"
+    content_left: |
+        [GroupDocs.Parser for .NET](/ru/parser/net/) позволяет разработчикам C# извлекать таблицы из файла ODT, выполняя несколько простых шагов.
         
-      title_right: "Зачем использовать GroupDocs.Parser"
-      content_right: |
-        * Поддержка извлечения простого текста из любых поддерживаемых документов
-        * Парсинг документов по пользовательским шаблонам.
-        * Полностью поддерживает извлечение структурированного текста
-        * Текстовый поиск по ключевому слову, а также регулярное выражение
-        * Извлечение форматированного текста, метаданных, изображений, контейнеров и вложений.
-        * Извлечение оглавления для некоторых поддерживаемых форматов документов.
-        * Анализировать данные формы из PDF-документов.
-        * Извлечение гиперссылок из документа
+        * Создать объект [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) для исходного документа;
+        * Проверьте, поддерживает ли документ извлечение таблицы;
+        * Создайте экземпляры классов [PageTableAreaOptions](https://reference.groupdocs.com/parser/net/groupdocs.parser.options/pagetableareaoptions/) и [TemplateTableLayout](https://reference.groupdocs.com/parser/net/groupdocs.parser.templates/templatetablelayout/) для задания макета таблиц
+        * Вызовите метод [GetTables](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gettables) и получите коллекцию [PageTableArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagetablearea) объектов;
 
-demos:
+    title_right: "Узнать больше про извлечение таблиц"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-tables-from-document/">Как извлечь таблицы из документа в C#</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-tables-from-document-page/">Как извлечь таблицы из страницы документа в C#</a>
+ 
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="Как извлечь таблицы из файла ODT, используя пример кода C#">}}
+
+        ```csharp    
+        // Извлечение таблиц из файла ODT с помощью API GroupDocs.Parser
+        // Создайте экземпляр класса Parser
+        using (Parser parser = new Parser(filePath)) {
+            // Проверьте, поддерживает ли документ извлечение таблицы
+            if (!parser.Features.Tables) {
+                Console.WriteLine("Документ не поддерживает извлечение таблиц.");
+                return;
+            }
+            // Создадим раскладку столов
+            TemplateTableLayout layout = new TemplateTableLayout(
+                new double[] { 50, 95, 275, 415, 485, 545 },
+                new double[] { 325, 340, 365, 395 });
+            // Создайте параметры для извлечения таблицы
+            PageTableAreaOptions options = new PageTableAreaOptions(layout);
+            // Извлечение таблиц из документа.
+            IEnumerable<PageTableArea> tables = parser.GetTables(options);
+            // Итерация по таблицам
+            foreach (PageTableArea t in tables) {
+                // Перебирать строки
+                for (int row = 0; row < t.RowCount; row++) {
+                    // Итерация по столбцам
+                    for (int column = 0; column < t.ColumnCount; column++) {
+                        // Получить ячейку таблицы
+                        PageTableAreaCell cell = t[row, column];
+                        if (cell != null) {
+                            // Распечатать текст ячейки таблицы
+                            Console.Write(cell.Text);
+                            Console.Write(" | ");
+                        }
+                    }
+                    Console.WriteLine();
+                }
+                Console.WriteLine();
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "Системные Требования"
+    content_left: |
+        GroupDocs.Parser for .NET API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Фреймворки
+        * Загрузите последнюю версию GroupDocs.Parser for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.parser)
+
+    title_right: "Зачем использовать GroupDocs.Parser for .NET"
+    content_right: |
+        * Поддержка извлечения простого текста из любых поддерживаемых документов    
+        * Парсинг документов по пользовательским шаблонам    
+        * Полная поддержка извлечения структурированного текста    
+        * Текстовый поиск по ключевому слову и регулярному выражению    
+        * Извлечение форматированного текста, метаданных, изображений, контейнеров и вложений    
+        * Извлечение оглавления для некоторых поддерживаемых форматов документов    
+        * Парсинг данных форм из PDF-документов    
+        * Извлечение гиперссылок из документа   
+
+############################# About Formats ############################
+about_formats:
     enable: true
 
-
+############################# More Formats ############################
 more_formats:
     enable: true
+    title: "Извлечение таблиц из других форматов документов"
+    content: |
+        .NET API анализа документов и сканирования таблиц форматов файлов и изображений. Извлеките данные для некоторых популярных форматов файлов, как указано ниже.
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

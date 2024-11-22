@@ -1,0 +1,117 @@
+---
+############################# Static ############################
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:10
+draft: false
+otherformats: 
+
+############################# Head ############################
+head_title: "Java の PPSX からのデータを解析する"
+head_description: "Java のドキュメントからのデータを迅速に解析します。"
+
+############################# Header ############################
+title: "PPSX からのデータを Java で解析する"
+description: "数行の Java コードを使用して、PPSX からのデータを解析します。"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+    icon: "fas fa-arrow-down"
+    label: "無料トライアルをダウンロード"
+    link: "https://downloads.groupdocs.com/parser/java"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-java.png"
+        product: "GroupDocs.Parser"
+        platform: "Java"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/java"
+              text: "APIリファレンス"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "コード例"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "ライブデモ"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/java"
+              text: "価格設定"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/java"
+        link_buy: "https://purchase.groupdocs.com"
+
+############################# About ############################
+about:
+    enable: true
+    title: "GroupDocs.Parser for Java のテンプレートを使用してデータを解析する"
+    content: |
+        テンプレートを使用すると、ドキュメントからのデータ抽出の効率、精度、一貫性が大幅に向上します。 GroupDocs.Parser for Java は、テンプレートを操作するための強力なソリューションを提供します。
+        
+        GroupDocs.Parser for Java を使用すると、PDF や Microsoft Word ドキュメントなど、さまざまな種類のドキュメントのテンプレートを簡単に作成できます。テンプレートを使用して複数のドキュメントをバッチ解析することもできます。
+
+        GroupDocs.Parser for Java でテンプレートを操作するためのベスト プラクティスには、一意の識別子の使用と、展開前にテンプレートを徹底的にテストすることが含まれます。 GroupDocs.Parser for Java を使用すると、データ抽出を最適化し、より良い結果を達成できます。
+
+        今すぐ GroupDocs.Parser for Java をダウンロードして試して、ドキュメント解析タスクを簡素化し、生産性を向上させてください。開始して成功を達成するために、当社のドキュメントとサポート リソースをご利用いただけます。
+
+        ドキュメント解析の詳細については、[ドキュメント](https://docs.groupdocs.com/parser/java/working-with-templates/) をご覧ください。
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "システム要求"
+    content_left: |
+        GroupDocs.Parser for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。
+        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, Intellij IDEA, Eclipse, etc.
+        * フレームワーク
+        * GroupDocs.Parser for Java の最新バージョンを [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-parser) からダウンロードします
+
+    title_right: "GroupDocs.Parser for Java を使用する理由"
+    content_right: |
+        * サポートされているドキュメントからのプレーン テキスト抽出のサポート    
+        * ユーザー定義のテンプレートを使用したドキュメントの解析    
+        * 構造化テキスト抽出を完全にサポート    
+        * キーワードおよび正規表現によるテキスト検索    
+        * 書式設定されたテキスト、メタデータ、画像、コンテナ、添付ファイルを抽出します    
+        * サポートされている一部のドキュメント形式の目次を抽出します    
+        * PDF ドキュメントからのフォーム データを解析する    
+        * ドキュメントからハイパーリンクを抽出する           
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "ライブ デモ - PPSX オンラインからのデータを解析する"
+    content: |
+       [GroupDocs.Parser ライブ デモ](https://products.groupdocs.app/parser/ppsx) Web サイトにアクセスして、今すぐ PPSX ファイルのデータを解析してください。
+       ライブデモには次のようなメリットがあります。
+        
+############################# About Formats ############################
+about_formats:
+    enable: true
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "他のドキュメント形式からのデータを解析する"
+    content: |
+        Java ドキュメントは、ファイル形式と画像の API を解析します。以下に示すように、いくつかの一般的なファイル形式のデータを抽出します。
+
+############################# Back to top ###############################
+back_to_top:
+    enable: true
+---

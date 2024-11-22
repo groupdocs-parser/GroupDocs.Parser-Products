@@ -1,338 +1,248 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2024-02-13T17:01:03
 draft: false
-
+#operation: 
+#parsertype: 
+#fileformat: 
+#productName: Java
+lang: "de"
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  parser on  for Java
 product: "Parser"
 product_tag: "parser"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java-API zum Analysieren von Text, Bildern und Metadaten aus PDF, Word, Excel, HTML"
-head_description: "Java-Dokument-Parser-API zum Extrahieren von Text, Bildern, Metadaten und Kodierungen aus Datenbanken, Word, Excel, Präsentationen, PDF-, E-Mail-, EPUB- und ZIP-Dateien."
+head_title: ".NET, Java, Cloud-APIs und Online-Dokumentparser-Apps"
+head_description: "Holen Sie sich eine All-in-One-Lösung zum Parsen von Dokumenten für .NET, Java und cloudbasierte Anwendungen. Extrahieren Sie Daten aus Dokumentformaten online mit der einfachen Drag-and-Drop-Funktion"
 
 ############################# Header ############################
-title: "Java-Parser-API zum Extrahieren von Daten"
-description: "Java-API zum Analysieren und Extrahieren von Bildern und Text mit Metadaten aus Dokumenten, Präsentationen, Archiven und E-Mails."
-button:
-    enable: true
+title: "Dokumente analysieren<br>über Java API"
+description: "Extrahieren Sie Daten aus Dokumenten und Bildern auf jeder Plattform mit unseren flexiblen APIs und App-basierten Lösungen für Programmierer und Endbenutzer."
+words:
+  for: "für"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Parser for Java"
-        image: "/border/groupdocs-parser-java.svg"
-        product: "GroupDocs.Parser"
-        platform: "Java"
+actions:
+  main: "Kostenloser Maven-Download"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/"
+  alt: "Lizenzierung"
+  alt_link: "https://purchase.groupdocs.com/pricing/parser/java"
+  title: "Bereit anzufangen?"
+  description: "Testen Sie die Funktionen von GroupDocs.Parser kostenlos oder fordern Sie eine Lizenz an"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Überblick"
+release:
+  title: "Version {0} veröffentlicht"
+  notes: "Schau was neu ist"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#features"
-              text: "Merkmale"
+code:
+  title: "Text aus PDF-Dateien in Java extrahieren"
+  more: "Mehr Beispiele"
+  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-parser</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // Create an instance of Parser class
+    try (Parser parser = new Parser(fileName)) {
+        // Extract a text into the reader
+        try (TextReader reader = parser.getText()) {
+            // Print a text from the document
+            System.out.println(reader == null 
+                    ? "" 
+                    : reader.readToEnd());
+        }
+    } 
+    ```
 
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/parser"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/parser/java"
-              text: "Preisgestaltung"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/parser"
-        link_learn: "https://docs.groupdocs.com/parser/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# Überblick ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Parser für Java ist eine Text-, Bild- und Metadaten-Extraktions-API, die mehr als 50 gängige Dokumenttypen unterstützt, um die Erstellung von Geschäftsanwendungen mit Funktionen zum Analysieren von rohem, strukturiertem und formatiertem Text zu unterstützen. Es unterstützt auch das Parsen von Dokumenten mit vordefinierten Vorlagen und ermöglicht das schnelle und genaue Extrahieren komplexer Daten aus Rechnungen und anderen typischen Dokumenten. Mit GroupDocs.Parser für Java können Sie Text und Metadaten aus passwortgeschützten Dateien aller gängigen Formate extrahieren, darunter Textverarbeitungsdokumente, Excel-Tabellen, PowerPoint-Präsentationen, OneNote, PDF-Dateien und ZIP-Archive.
-    tabs:
-      enable: true     
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Nachfolgend finden Sie eine Übersicht über GroupDocs.Parser für Java:
-
-        left:
-          enable: true
-          icon: "fas fa-tools"
-          title: "Merkmale"
-          content: |
-            * Bilder extrahieren
-            * Rohtext extrahieren
-            * Formatierten Text extrahieren
-            * Strukturierten Text extrahieren
-            * Metadaten extrahieren
-            * Auszug aus Dateien in ZIP-Datei
-            * Durch Suchen extrahieren
-            * Mit Textformatierern extrahieren
-            * Kodierungsstandard erkennen
-            * Medientyp erkennen
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Die API"
-          content: |
-            * Ruft Eingabedatei ab
-            * Ruft rohen oder formatierten Text ab
-            * Ruft Metadaten ab
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Parser for Java unterstützt folgende [Dokumentdateiformate](https://docs.groupdocs.com/parser/java/supported-document-formats/):
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Textextraktion"
-              content: |
-                * **Text**: DOC, DOCX, DOT, DOTM, DOTX, DOCM, RTF, ODT, OTT, TXT, MD, WordprocessingML (XML)
-                * **Spreadsheets**: XLS, XLSX, CSV, XLSM, XLSB, ODS, SpreadsheetML (XML), XLT, XLTX, XLTM, OTS, XLA,, XLAM, TSV
-                * **Präsentationen**: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX, POTM, ODP, OTP
-                * **OneNote**: EINS
-                * **E-Mail**: MSG, EML, EMLX, PST, OST, MS EXCHANGE SERVER, POP, IMAP
-                * **Elektronische Veröffentlichung**: EPUB, FB2
-                * **Portables Dokument**: PDF, PDF-Portfolio, verschlüsseltes PDF
-                * **DOM-basiert**: XML, HTML, XHTML, MHTML
-                * **Komprimierung & Verpackung**: ZIP, CHM
-                * **Datenbank**: ADO.NET
-
-            # table loop
-            - title: "Kodierungserkennung"
-              content: |
-                * **BOM**: UTF32 LE, UTF32 BE, UTF16 LE, UTF16 BE, UTF8 und UTF7
-                * **Inhalt**: UTF32 LE, UTF32 BE, UTF16 LE, UTF16 BE, UTF8 und ANSI
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Metadatenextraktion"
-              content: |
-                * **Text**: DOC, DOCX, DOT, DOTX, DOTM, OTT, ODT
-                * **Tabellenkalkulationen**: XLS, XLSX, XLT, XLTX, XLTM, XLA, XLAM, OTS, ODS
-                * **Präsentationen**: PPT, PPTX, POT, POTX, POTM, PPSM, PPTM, OTP, ODP
-                * **E-Mail**: MSG, EML, EMLX
-                * **Elektronische Veröffentlichung**: EPUB, FB2
-                * **Andere**: PDF
-
-            # table loop
-            - title: "Text & Metadatenextraktion"
-              content: |
-                * **Vorlage**: DOTX, POTX
-                * **Makrofähige Vorlage**: DOTM, POTM, PPSM, PPTM
-                * **OpenDocument-Vorlage**: OTT
-
-            # table loop
-            - title: "Bildextraktion"
-              content: |
-                * **Text**: DOC, DOCX, DOCM, RTF, DOT, DOTM, DOTX, ODT
-                * **Tabellen**: XLS, XLSX, XLSM, XLSB, ODS, XLT, XLTM, XLTX
-                * **Präsentationen**: PPT, PPTX, PPTM, ODP, POT, POTM, POTX, PPS, PPSX, PPSM
-                * **Portables Dokument**: PDF, POT, POTM, POTX
-                * **Ebook**: CHM, EPUB, FB2
-                * **Auszeichnung**: HTML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Parser for Java unterstützt das Folgen Betriebssysteme:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Betriebssysteme"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Unterstützte Frameworks"
-              content: |
-                * Java 7 (1.7) und höher
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Entwicklungsumgebungen"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build-Automatisierungstool"
-              content: |
-                * Maven
-
-############################# Merkmale ############################
-features:
-    enable: true
-    title: "GroupDocs.Parser for Java Merkmale"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Zählen Sie das Wortvorkommen für einzelne oder mehrere Dokumente statistisch"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Extrahieren Sie Text und Metadaten aus Excel-Tabellen und PowerPoint-Präsentationsvorlagen"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Text aus einer Datei oder einem Stream abrufen, ohne Document Reader zu installieren"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Pull Out Formatted Text from a Document Using Fast or Standard Textextraktion Mode"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Erkennen Sie den Medientyp passwortgeschützter XML-Dokumente und extrahieren Sie Text daraus"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Holen Sie formatierten Text aus PowerPoint-Präsentationen, E-Mails und Anhängen programmgesteuert"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Vertreiben Sie Text aus einzelnen oder mehreren Seiten eines OneNote-Dokuments"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Ziehen Sie Rohtext aus einer einfachen PDF-Datei oder einem PDF-Portfolio-Dokument heraus"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Extrahieren Sie Daten aus PDF-, MS Word-, Excel- und Präsentationsdokumenten"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Extrahieren Sie rohen oder formatierten Text aus Zellen, Zeilen und Spalten aus einer Excel-Tabelle"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Sammeln Sie rohen oder HTML-formatierten Text aus Word-Dokumenten und extrahieren Sie markierten Text aus Dokumenten"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Holen Sie sich Daten aus den PDF-Formularen und erhalten Sie eine formatierte Tabelle aus einem PDF- oder Word-Dokument"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Ziehen Sie einzelne Sätze oder ganzen Text aus EPUB-, CHM-, Markdown- und FB2-Dateien heraus"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Excerpt Table of Contents from Datenbanks, PDF, EPUB, CHM & Word Processing Documents"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Textbereich aus Dokumenten zur Analyse abrufen und Text mit intakter Inhaltsstruktur herausziehen"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Abrufen von Metadaten aus unterstützten Dokumentformaten"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Alle oder ausgewählte Bilder aus unterstützten Formaten herausziehen und extrahierte Bilder drehen"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Extract Text from Files within Zip Archives & OST Containers – Medientyp erkennens for Zip Container Items"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Abrufen von Daten aus E-Mail-Container (Exchange-Webserver, POP3, IMAP)"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Finden Sie einfachen Text, ganze Wörter und reguläre Ausdrücke in Dokumenten"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Dokumentvorlage vorbereiten, Daten aus Dokument extrahieren und Datenfelder und Tabellen analysieren"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Hervorgehobene Ausdrücke in Dokumenten suchen und extrahieren"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Ziehen Sie Text mit dem Nur-Text-Formatierer (einfach und ASCII) oder benutzerdefinierter Formatierung mit Kanten, Winkeln und Schnittpunkten heraus"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Abrufen und formatieren Sie Text (Schriftarten, Hyperlinks, Überschriften, Listen und Tabellen) mit dem Markdown-Formatierer"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Holen Sie sich Text mit HTML-Formatierer und wenden Sie den Formatierer auf Absatz, Hyperlink, Schriftart, Überschriften, Listen und Tabellen an"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Tabellenlayout verschieben und Tabellen in einem rechteckigen Bereich anhand von Spaltentrennzeichen erkennen"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Extrahieren Sie Text aus Formen, WordArt-Objekten und Textfeldern in Microsoft Office-Dateiformaten"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Extract Text from Email Servers and Datenbanks via JDBC"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Holen Sie sich Text mit Nur-Text- oder HTML-Formatierern"
-        content: |
-          Mit GroupDocs.Parser für Java können Sie verschiedene Formatierer auf Text und HTML anwenden. Sie können Text mit Plain Text Formatter sowohl für Einfach als auch für ASCII abrufen. Sie können auch Text mit HTML-Formatierer abrufen und Formatierungen auf Absätze, Hyperlinks, Schriftarten, Überschriften, Listen und Tabellen anwenden.
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Parser bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Parser for .NET"
-          image: "/border/groupdocs-parser-net.svg"
-          product: "GroupDocs.Parser"
-          platform: ".NET"
-          link: "/parser/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Parser Übersicht"
+  description: "API zum Durchführen der Dokumentenanalyse in Java-Anwendungen"
+  features:
+    # feature loop
+    - title: "Extrahieren Sie Daten aus Dokumenten"
+      content: "Mit der Java-API können Sie Text, Metadaten und Bilder aus einer Vielzahl von Dateiformaten wie Office-Dokumenten, E-Mails, Anhängen und Archiven abrufen. Dieses leistungsstarke Tool hilft Ihnen, effizient auf die in diesen Dateien enthaltenen wertvollen Informationen zuzugreifen und diese für verschiedene Anwendungen wie Datenanalyse, Suchmaschinenindizierung oder Content-Management-Systeme zu verarbeiten."
+
+    # feature loop
+    - title: "Dokumente analysieren"
+      content: "Extrahieren Sie verschiedene Elemente wie Hyperlinks, Tabellen, QR-Codes, Barcodes und Daten aus PDF-Formularen. Analysieren Sie außerdem alle gewünschten Informationen aus Dokumenten mithilfe benutzerdefinierter Vorlagen."
+
+    # feature loop
+    - title: "Anpassen der Ergebnisse"
+      content: "Mit der Java API können Sie Daten in verschiedenen Formaten abrufen, z. B. roh, strukturiert, HTML oder Markdown. Darüber hinaus bietet die API eine Suchfunktion zum Auffinden bestimmter Wörter oder Phrasen im Text von Dokumenten."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Plattformunabhängigkeit"
+  description: "GroupDocs.Parser for Java unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Unterstützte Dateiformate"
+  description: |
+    GroupDocs.Parser for Java unterstützt Vorgänge mit den folgenden [Dateiformaten](https://docs.groupdocs.com/parser/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office Formate
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Bilder und andere Formate
+        * **Portable:** PDF
+        * **Bilder:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Andere Büroformate:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Andere Formate
+        * **Netz:** HTML, MHTML
+        * **Archiv:** ZIP, TAR, 7Z
+        * **E-Books:** CHM, EPUB, FB2, MOBI
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Parser Funktionen"
+  description: "Extrahieren Sie Daten aus PDFs, Office-Dokumenten und Bildern schnell und genau."
+
+  items:
+    # feature loop
+    - icon: "text"
+      title: "Text extrahieren"
+      content: "Extrahieren Sie Textinformationen aus verschiedenen Dateiformaten wie Office-Dokumenten, PDF-Dateien und Bildern für eine einfache Lesbarkeit und Analyse."
+
+    # feature loop
+    - icon: "image"
+      title: "Bilder extrahieren"
+      content: "Rufen Sie visuelle Inhalte aus verschiedenen Quellen wie Office-Dokumenten und PDF Dateien ab, um bequem darauf zuzugreifen und sie zu verwenden."
+
+    # feature loop
+    - icon: "qr"
+      title: "QR-Codes scannen"
+      content: "Erkennen und dekodieren Sie QR-Codes in Bürodokumenten, PDF Dateien oder visuellen Inhalten für einen effizienten Informationsabruf."
+
+    # feature loop
+    - icon: "email"
+      title: "Extrahieren Sie Daten aus E-Mail-Anhängen und Archiven"
+      content: "Sammeln Sie wertvolle Informationen aus E-Mail-Nachrichten, Dateianhängen und komprimierten Datenquellen für eine effektive Analyse und Nutzung."
+
+    # feature loop
+    - icon: "table"
+      title: "Tabellen extrahieren"
+      content: "Identifizieren und extrahieren Sie tabellarische Daten aus PDF Dokumenten zur organisierten Analyse und Verwendung."
+
+    # feature loop
+    - icon: "hyperlink"
+      title: "Extrahieren Sie Hyperlinks"
+      content: "Suchen und extrahieren Sie Hyperlinks und E-Mail-Adressen in Office-Dokumenten oder PDF-Dateien für einen effizienten Zugriff."
+
+    # feature loop
+    - icon: "pdf"
+      title: "Analysieren Sie PDF-Formulare"
+      content: "PDF Formulare sind digitale Dokumente mit ausfüllbaren Feldern für die Benutzerinteraktion, die es ihnen ermöglichen, Informationen elektronisch einzugeben. Mithilfe der Java-API können Daten aus diesen Formularen für eine effiziente Verarbeitung extrahiert werden."
+
+    # feature loop
+    - icon: "template"
+      title: "Analysieren Sie Daten nach Vorlagen"
+      content: "Erstellen Sie benutzerdefinierte Vorlagen und nutzen Sie diese mit der Java-API, um bestimmte Informationen aus PDF-Dateien zu analysieren und so Datenextraktionsprozesse zu vereinfachen."
+
+    # feature loop
+    - icon: "search"
+      title: "Suchen Sie einen Text in Dokumenten"
+      content: "Finden Sie schnell bestimmte Wörter oder Muster in Dokumenten."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Codebeispiel"
+  description: "Einige Anwendungsfälle typischer GroupDocs.Parser for Java-Vorgänge"
+  items:
+    # code sample loop
+    - title: "Extrahieren Sie Bilder aus PDF-Dokumenten"
+      content: |
+        Die Java-API erleichtert Java-Entwicklern das Extrahieren von Bildern aus Dokumenten durch die Implementierung einiger einfacher Schritte.
+        {{< landing/code title="Extrahieren Sie Bilder aus PDF Dokumenten in Java">}}
+        ```java {style=abap}
+        // Create an instance of Parser class
+        try (Parser parser = new Parser(fileName)) {
+            // Extract images
+            Iterable<PageImageArea> images = parser.getImages();
+            // Check if images extraction is supported
+            if (images != null) {
+                int imageIndex = 0;
+                // Iterate over images
+                for (PageImageArea image : images) {
+                    // Save the image to the file
+                    image.save(String.format("%s%s", imageIndex, image.getFileType().getExtension()));
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Barcodes aus Bildern extrahieren"
+      content: |
+        Die Java-API erleichtert Java-Entwicklern das Extrahieren von Barcodes aus Dokumenten durch die Implementierung einiger einfacher Schritte.
+        {{< landing/code title="Barcodes aus Bildern extrahieren">}}
+        ```java {style=abap}   
+        // Create an instance of Parser class
+        try (Parser parser = new Parser(fileName)) {
+            // // Check if the file supports barcode extracting
+            if (!parser.getFeatures().isBarcodes()) {
+                // Extract barcodes from the file.
+                Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
+                // Iterate over barcodes
+                for (PageBarcodeArea barcode : barcodes) {
+                    // Print the page index
+                    System.out.println("Page: " + barcode.getPage().getIndex());
+                    // Print the barcode value
+                    System.out.println("Value: " + barcode.getValue());
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

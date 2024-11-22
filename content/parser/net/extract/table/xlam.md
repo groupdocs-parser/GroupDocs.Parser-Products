@@ -1,95 +1,163 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:11
 draft: false
-path: "zh/parser/net/extract/table/xlam/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: odp ods odt one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx
 
 ############################# Head ############################
-head_title: "通过 C#.NET API 从 PDF、DOCX、PPTX、XLSX、EPUB 等中提取表格"
-head_description: "GroupDocs.Parser .NET API 使程序员能够从 PDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV、ODT、RTF 和 .NET 应用程序中的许多其他文档类型中提取表格。"
+head_title: "Extract Tables from PDF, DOCX, PPTX, XLSX, EPUB & More via C#.NET API"
+head_description: "GroupDocs.Parser .NET API enables progreammers to extract tables from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & many other documents types inside .NET Apps."
 
 ############################# Header ############################
-title: "通过 C#.NET API 从 Excel、Word、PDF 和 PowerPoint 文档中提取条形码"
-description: "GroupDocs.Parser .NET API 允许程序员从 PDF、DOC、DOCX、PPT、PPTX、EML、MSG、XLS、XLSX、CSV、ODT、RTF 和 EPUB 文档或页面中提取条形码。"
-
-######################### Download Button #######################
+title: "Extract Tables from Excel, Word, PDF & PowerPoint Documents via C#.NET API"
+description: "GroupDocs.Parser .NET API allows programmers to extract tables from PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF & EPUB documents or pages."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Download Free Trial"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "API Reference"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "Code Examples"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "Live Demos"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "Pricing"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "如何通过 .NET API 从 Excel、Word、PDF 和其他文档中提取条形码？"
+    title: "How to Extract Tables from XLAM files via .NET API?"
     content: |
-     表格是按行和列排列的单元格的集合。 表格在存储和组织详细或复杂的数据方面起着非常重要的作用，使用户可以轻松阅读和查看它。 表格可以以多种方式使用，例如制作列表、比较信息、对齐数据、分组信息、突出显示数据中的趋势或模式等等。 GroupDocs.Parser for .NET 是一个有用的 API，它允许软件程序员开发用于从各种支持的文档格式（例如 PDF、电子邮件、电子书、Word（DOC、DOCX）、PowerPoint 等）中提取表格、文本和图像的解决方案 （PPT、PPTX）、Excel（XLS、XLSX）、电子邮件（EML、MSG）格式等等。 Java API 包含了处理表格的几个重要功能，例如从文档中提取所有表格、从特定页面提取表格、获取表格单元格数据、获取表格行和列的总数、获取行高、打印数据 一张桌子，可能更多。
+        Table is the collection of cells arranged in rows and columns. Tables play a very important role in storing as well as organizing detailed or complicated data allowing the users to easily read and view it. Tables can be used in many ways, such as making lists, comparing information, align data, group information, highlight trends or patterns in data and many more. GroupDocs.Parser for .NET is a useufly API that allows software programmers to develop solution for extracting tables, text and images from various kinds of supported documents formats, such as such as PDF, Emails, Ebooks, Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), Emails (EML, MSG) formats and many more. The .NET API has included several important features for working with tables, such as extract all tables from a documents, extract table from a particular page, get table cell data, get total number of a table rows and columns, get row height, print data of a table and may more.
+        
+        
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "如何通过 C# .NET 从 XLAM 文档中提取表格"
-      content_left: |
-       GroupDocs.Parser .NET API 可帮助软件开发人员从 XLAM 文档中提取表格，只需几行代码。 以下 C# .NET 代码示例演示了开发人员如何从 XLAM 文档中提取表。 
-
-      title_right: "从文档中提取表格"
-      content_right: |
-        * 创建 [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) 的实例
-        * 检查是否支持表格提取
-        * 创建表格布局
-        * 创建表格提取的选项
-        * 调用 [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions)) 方法提取表格 整个文档。
-        * 遍历行和列
-        * 提取和打印表格单元格文本
-
-      gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
-      gistfile: "tables_extraction_form_documents.cs"
-
-    - title_left: "使用 .NET API 从 XLAM 文档的页面中提取表格"
-      content_left: |
-       GroupDocs.Parser .NET 使软件开发人员能够从 XLAM 文档的页面中提取表格。 以下 C# .NET 代码显示了程序员如何在 XLAM 文档中执行条形码提取。 
-
-      title_right: "通过 C# .NET 提取条形码"
-      content_right: |
-        * 创建 [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser) 的实例
-        * 检查是否支持表格提取
-        * 创建表格布局
-        * 创建从文档页面提取表格的选项
-        * 调用 [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions)) 方法提取表格 整个文档。
-        * 遍历表、行和列
-        * 提取和打印表格单元格文本
-     
-      gisthash: "2dc42054bba3abdc297c63f4534281d8"
-      gistfile: "tables_extraction_form_documents_page.cs"
-      
-    - title_left: "System Requirements"
-      content_left: |
-        所有主要平台和操作系统都完全支持用于 .NET 的 GroupDocs.Parser。 如需完整的系统要求指南，请访问 [系统要求](https://docs.groupdocs.com/parser/net/system-requirements/) 在执行以下代码之前，请确保您已安装以下先决条件 系统:
-        * 操作系统：Microsoft Windows、Linux、MacOS
-        * 开发环境：Visual Studio、Xamarin、MonoDevelop 等
-        * 框架：.NET Framework、.NET Standard、.NET Core、Mono
-        * 从 [NuGet](https://www.nuget.org/packages/GroupDocs.parser/) 获取最新版本的 GroupDocs.Parser .NET API
+    title_left: "Extract tables from XLAM in .NET"
+    content_left: |
+        [GroupDocs.Parser for .NET](/parser/net/) makes it easy for C# developers to extract tables from a XLAM file by implementing a few easy steps.
         
-      title_right: "为什么使用 GroupDocs.Parser"
-      content_right: |
-        * 从任何受支持的文档中提取纯文本支持
-        * 通过用户定义的模板解析文档。
-        * 完全支持结构化文本提取
-        * 通过关键字和正则表达式进行文本搜索
-        * 提取格式化文本、元数据、图像、容器和附件。
-        * 提取一些支持的文档格式的目录。
-        * 从 PDF 文档中解析表单数据。
-        * 从文档中提取超链接
+        * Instantiate [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) object for the initial document;
+        * Check if the document supports table extraction;
+        * Instantiate [PageTableAreaOptions](https://reference.groupdocs.com/parser/net/groupdocs.parser.options/pagetableareaoptions/) and [TemplateTableLayout](https://reference.groupdocs.com/parser/net/groupdocs.parser.templates/templatetablelayout/) classes to set the layout of tables
+        * Call [GetTables](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gettables) method and obtain collection of [PageTableArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagetablearea) objects;
 
-demos:
+    title_right: "Learn more about the tables extraction"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-tables-from-document/">How to extract tables from document</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-tables-from-document-page/">How to extract tables from document page</a>
+ 
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="How to extract tables from XLAM file using C# example code">}}
+
+        ```csharp    
+        // Extract tables from XLAM file using GroupDocs.Parser API
+        // Create an instance of Parser class
+        using (Parser parser = new Parser(filePath)) {
+            // Check if the document supports table extraction
+            if (!parser.Features.Tables) {
+                Console.WriteLine("Document isn't supports tables extraction.");
+                return;
+            }
+            // Create the layout of tables
+            TemplateTableLayout layout = new TemplateTableLayout(
+                new double[] { 50, 95, 275, 415, 485, 545 },
+                new double[] { 325, 340, 365, 395 });
+            // Create the options for table extraction
+            PageTableAreaOptions options = new PageTableAreaOptions(layout);
+            // Extract tables from the document.
+            IEnumerable<PageTableArea> tables = parser.GetTables(options);
+            // Iterate over tables
+            foreach (PageTableArea t in tables) {
+                // Iterate over rows
+                for (int row = 0; row < t.RowCount; row++) {
+                    // Iterate over columns
+                    for (int column = 0; column < t.ColumnCount; column++) {
+                        // Get the table cell
+                        PageTableAreaCell cell = t[row, column];
+                        if (cell != null) {
+                            // Print the table cell text
+                            Console.Write(cell.Text);
+                            Console.Write(" | ");
+                        }
+                    }
+                    Console.WriteLine();
+                }
+                Console.WriteLine();
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "System Requirements"
+    content_left: |
+        GroupDocs.Parser for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks
+        * Download the latest version of GroupDocs.Parser for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.parser)
+
+    title_right: "Why Use GroupDocs.Parser for .NET"
+    content_right: |
+        * Plain text extraction support from any supported documents    
+        * Documents parsing via user-defined templates    
+        * Fully support structured text extraction    
+        * Text searching via keyword as well as regular expression    
+        * Extract formatted text, metadata, images, containers, and attachments    
+        * Extract table of contents for some supported document formats    
+        * Parse form data from PDF documents    
+        * Extract hyperlinks from the document   
+
+############################# About Formats ############################
+about_formats:
     enable: true
 
-
-
+############################# More Formats ############################
 more_formats:
     enable: true
+    title: "Extract Tables From Other Document Formats"
+    content: |
+        .NET documents parse & table scanning API for file formats and images. Extract data for some of the popular file formats as stated below.
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

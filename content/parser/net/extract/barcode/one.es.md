@@ -1,107 +1,157 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:04
 draft: false
-path: "es/parser/net/extract/one/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSM XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG 
+otherformats: ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx
 
 ############################# Head ############################
-head_title: ".NET API para analizar y extraer hipervínculos de documentos, páginas o área de página"
-head_description: "GroupDocs.Parser .NET API permite a los programadores de software extraer hipervínculos de documentos, páginas o áreas de página de PDF, DOCX, XLSX, CSV, PPTX, EML, MSG, EPUB y muchos más."
+head_title: ".NET API para extraer códigos de barras de PDF, DOCX, PPTX, XLSX, EPUB y más"
+head_description: "GroupDocs.Parser .NET API permite a los desarrolladores de software extraer códigos de barras de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF y EPUB documentos dentro de .NET aplicaciones."
 
 ############################# Header ############################
-title: "Extraiga hipervínculos de documentos, páginas o áreas de páginas específicas a través de la API de C#/VB.NET"
-description: "GroupDocs.Parser .NET API permite a los desarrolladores de software analizar y extraer hipervínculos de documentos, páginas o páginas Área de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF, EPUB y muchos otros documentos."
-
-######################### Download Button #######################
+title: "Extraiga códigos de barras de documentos Excel, Word, PDF y PowerPoint a través de la API C#.NET"
+description: "GroupDocs.Parser .NET API permite a los programadores extraer códigos de barras de PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV , ODT, RTF y EPUB documentos o área de página."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Descargue prueba gratis"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "Referencia de la API"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "Ejemplos de código"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "demostraciones en vivo"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "Precios"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "¿Cómo analizar y extraer hipervínculos de documentos o páginas a través de .NET?"
+    title: "¿Cómo extraer códigos de barras de ONE archivos .NET API?"
     content: |
-       Un hipervínculo es un fragmento de texto, una imagen o un icono que apunta a un documento completo o a una parte particular dentro de un documento. El uso de hipervínculos permite a los usuarios navegar a una página web o documento. A menudo se requiere extraer hipervínculos de un documento y usarlo para acceder a documentos externos o páginas web. GroupDocs.Parser .NET API es una fascinante API de extracción de texto de documentos que proporciona una funcionalidad completa para implementar soluciones de extracción de texto y metadatos. Admite la extracción de texto e hipervínculos de PDF, correos electrónicos, libros electrónicos, formatos de Microsoft Office: Word (DOC, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), formatos de LibreOffice y muchos más. Admite varias funciones avanzadas para el análisis de documentos, la extracción de texto sin formato y estructurado, la búsqueda de texto por palabras clave, la extracción de metadatos o imágenes, los contenedores y los archivos adjuntos, y mucho más.
+        Los códigos de barras son representaciones legibles por máquina de números y caracteres que se usan comúnmente en todo el mundo en muchos contextos, como el escaneo e identificación de productos, el seguimiento de piezas de automóviles, la gestión de inventario, etc. GroupDocs.Parser for .NET es una potente API que ayuda a los desarrolladores a desarrollar una solución para extraer texto, imágenes y códigos de barras de diferentes tipos de formatos de documentos admitidos, como PDF, correos electrónicos, libros electrónicos, Microsoft Office formatos: Word ({ 377}, DOCX), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), formatos de correo electrónico (EML, MSG) y muchos más. La API .NET ha incluido compatibilidad con varias funciones avanzadas de análisis de documentos, como la búsqueda de texto por palabras clave, la extracción precisa de texto, la extracción de texto con formato HTML o Markdown, la extracción de áreas de texto con coordenadas, la extracción de metadatos o códigos de barras, etc.
+        
+        
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "Extraiga hipervínculos de ONE Documentos a través de .NET"
-      content_left: |
-       GroupDocs.Parser .NET brinda soporte completo para extraer hipervínculos de documentos ONE. El siguiente ejemplo de código C# .NET demuestra cómo extraer hipervínculos dentro de un documento ONE. 
-
-      title_right: "Cómo extraer hipervínculos"
-      content_right: |
-        * Cree una instancia de [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Verifique el documento para soporte de extracción de hipervínculos
-        * Extraer hipervínculos del documento
-        * Llamar al método [GetHyperlinks](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks) para extraer todos los hipervínculos de todo el documento.
-        * Iterar sobre hipervínculos e imprimir la URL del hipervínculo
-
-      gisthash: "35be3a09e0135c65be790c42c5c86d37"
-      gistfile: "Extract_hyperlinks_form_documents.cs"
-
-    - title_left: "Extraer hipervínculos de la página de documentos ONE"
-      content_left: |
-       GroupDocs.Parser .NET permite a los desarrolladores de software extraer hipervínculos de documentos ONE con un par de líneas de código. El siguiente código C# .NET muestra la extracción de hipervínculos dentro de un documento ONE. 
-
-      title_right: "Extraer hipervínculos a través de .NET"
-      content_right: |
-        * Cree una instancia de [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Verifique el documento para soporte de extracción de hipervínculos
-        * Obtenga información del documento llamando a [GetDocumentInfo](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getdocumentinfo)
-        * Iterar sobre páginas e imprimir un número de página
-        * Extraer hipervínculos del documento
-        * Llamar al método [GetHyperlinks](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gethyperlinks) para extraer todos los hipervínculos de todo el documento.
-        * Iterar sobre hipervínculos e imprimir la URL del hipervínculo
-     
-      gisthash: "e71f8e39ba36ebf97034dfbf6fceeec1"
-      gistfile: "hyperlinks_extraction_form_documents_page.cs"
-      
-    - title_left: "Extraer hipervínculos del área de la página de documentos ONE"
-      content_left: |
-       GroupDocs.Parser .NET API es totalmente compatible con la extracción de hipervínculos de documentos ONE con facilidad. El siguiente ejemplo de código .NET demuestra cómo extraer hipervínculos de un área de página de documento ONE.
-
-      title_right: "Cómo extraer hipervínculos usando .NET"
-      content_right: |
-        * Cree una instancia de [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Verifique el documento para soporte de extracción de hipervínculos
-        * Crear las opciones que se utilizan para la extracción de hipervínculos
-        * Llame al método [GetHyperlinks](https://apireference.groupdocs.com/parser/net/groupdocs.parser.parser/gethyperlinks/methods/1) para extraer hipervínculos de una página de documento.
-        * Iterar sobre hipervínculos e imprimir la URL del hipervínculo
-     
-      gisthash: "eefbede6f391ea44ddb6901edb353950"
-      gistfile: "hyperlinks_extraction_from__documents_page_area.cs"
-
-    - title_left: "Requisitos del sistema"
-      content_left: |
-       Las API de GroupDocs.Assembly .NET son compatibles con todas las principales plataformas y sistemas operativos. Para obtener una guía completa de requisitos del sistema, visite [requisitos del sistema] (hhttps://docs.groupdocs.com/parser/net/system-requirements/) Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema:
-        * Sistemas Operativos: Microsoft Windows, Linux, Mac OS
-        * Entorno de desarrollo: Visual Studio, Xamarin, MonoDevelop, etc.
-        * Marcos: .NET Framework, .NET Standard, .NET Core, Mono
-        * Obtenga la última versión de las API GroupDocs.Assembly .NET de [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)
+    title_left: "Extraer códigos de barras de ONE en .NET"
+    content_left: |
+        [GroupDocs.Parser for .NET](/es/parser/net/) facilita a los desarrolladores de C# la extracción de códigos de barras de un archivo ONE mediante la implementación de unos sencillos pasos.
         
-      title_right: "Por qué usar GroupDocs.Assembly"
-      content_right: |
-        * Compatibilidad con la extracción de texto sin formato de cualquier documento compatible
-        * Análisis de documentos a través de plantillas definidas por el usuario.
-        * Totalmente compatible con la extracción de texto estructurado
-        * Búsqueda de texto por palabra clave y expresión regular
-        * Extraiga texto formateado, metadatos, imágenes, contenedores y archivos adjuntos.
-        * Extraiga la tabla de contenido para algunos formatos de documentos compatibles.
-        * Analizar datos de formularios de documentos PDF.
-        * Extraer hipervínculos del documento
+        * Crear una instancia del objeto [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser) para el documento inicial;
+        * Compruebe si el archivo admite la extracción de código de barras;
+        * Llame al método [GetBarcodes](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/getbarcodes) y obtenga la colección de [PageBarcodeArea](https://reference.groupdocs.com/parser/net/groupdocs.parser.data/pagebarcodearea) objetos;
+        * Iterar a través de la colección y obtener un valor de código de barras.
 
+    title_right: "Más información sobre la extracción de códigos de barras"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/">Cómo extraer códigos de barras del documento</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page/">Cómo extraer códigos de barras de la página del documento</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-barcodes-from-document-page-area/">Cómo extraer códigos de barras del área de la página del documento</a>
+    
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="Cómo extraer códigos de barras del archivo ONE usando el código de ejemplo C#">}}
+
+        ```csharp    
+        // Extraiga códigos de barras del archivo ONE usando la API GroupDocs.Parser
+        // Crear una instancia de la clase Parser
+        using (Parser parser = new Parser(Constants.SamplePdfWithBarcodes)) {
+            // Compruebe si el archivo admite la extracción de código de barras
+            if (!parser.Features.Barcodes) {
+                Console.WriteLine("El archivo no admite la extracción de código de barras.");
+                return;
+            }
+
+            // {steps.code.scan}
+            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
+
+            // Iterar sobre códigos de barras
+            foreach (PageBarcodeArea barcode in barcodes) {
+                // Imprimir el índice de la página
+                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                // Imprimir el valor del código de barras
+                Console.WriteLine("Value: " + barcode.Value);
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "Requisitos del sistema"
+    content_left: |
+        GroupDocs.Parser for .NET Las API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
+        
+        * Sistemas operativos: Microsoft Windows, Linux, MacOS
+        * Entornos de desarrollo: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Marcos
+        * Descarga la última versión de GroupDocs.Parser for .NET desde [Nuget](https://www.nuget.org/packages/groupdocs.parser)
+
+    title_right: "Por qué usar GroupDocs.Parser for .NET"
+    content_right: |
+        * Compatibilidad con la extracción de texto sin formato de cualquier documento compatible    
+        * Análisis de documentos a través de plantillas definidas por el usuario    
+        * Totalmente compatible con la extracción de texto estructurado    
+        * Búsqueda de texto por palabra clave y expresión regular    
+        * Extraiga texto formateado, metadatos, imágenes, contenedores y archivos adjuntos    
+        * Extraiga la tabla de contenido para algunos formatos de documentos compatibles    
+        * Analizar datos de formulario de PDF documentos    
+        * Extraer hipervínculos del documento   
+
+############################# Demos ############################
 demos:
     enable: true
+    title: "Demostraciones en vivo: extraiga códigos de barras de documentos en línea"
+    content: |
+       Extraiga los códigos de barras de los documentos ahora mismo visitando el sitio web [GroupDocs.Parser Live Demos](https://products.groupdocs.app/parser/barcodes/).
+       La demostración en vivo tiene los siguientes beneficios.
         
-
-more_formats:
+############################# About Formats ############################
+about_formats:
     enable: true
 
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Extraiga códigos de barras de otros formatos de documentos"
+    content: |
+        .NET análisis de documentos y API de extracción de código de barras para formatos de archivo e imágenes. Extraiga datos para algunos de los formatos de archivo populares como se indica a continuación.
 
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

@@ -1,288 +1,248 @@
 ---
-layout: "product"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "landing"
+date: 2024-02-13T17:01:03
 draft: false
-
+#operation: 
+#parsertype: 
+#fileformat: 
+#productName: Java
+lang: "id"
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  parser on  for Java
 product: "Parser"
 product_tag: "parser"
 platform: "Java"
 platform_tag: "java"
 
-head_title: "Java API untuk Mengurai Teks, Gambar & Metadata dari PDF Word Excel HTML"
-head_description: "API pengurai dokumen Java untuk mengekstrak teks, gambar, metadata & penyandian dari database, Word, Excel, presentasi, PDF, email, EPUB, dan file ZIP."
+############################# Head ############################
+head_title: ".NET, Java, Cloud API & Aplikasi Parser Dokumen Online"
+head_description: "Dapatkan solusi penguraian dokumen lengkap untuk .NET, Java dan aplikasi berbasis cloud. Ekstrak data dari format dokumen online menggunakan fitur drag and drop sederhana"
 
-title: "Java Parser API untuk Mengekstrak Data"
-description: "Java API untuk mengurai & mengekstrak gambar dan teks dengan metadata dari dokumen, presentasi, arsip & email."
-button:
-    enable: true
+############################# Header ############################
+title: "Parsing dokumen<br>melalui Java API"
+description: "Ekstrak data dari dokumen dan gambar pada platform apa pun menggunakan API fleksibel dan solusi berbasis aplikasi kami untuk pemrogram dan pengguna akhir."
+words:
+  for: "untuk"
 
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Parser for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-java.png"
-        product: "GroupDocs.Parser"
-        platform: "Java"
+actions:
+  main: "Unduhan Maven Gratis"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/"
+  alt: "Perizinan"
+  alt_link: "https://purchase.groupdocs.com/pricing/parser/java"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Parser secara gratis atau minta lisensi"
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "Ringkasan"
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
 
-            - link: "#features"
-              text: "Fitur"
+code:
+  title: "Ekstrak teks dari file PDF di Java"
+  more: "Lebih banyak contoh"
+  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-parser</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // Create an instance of Parser class
+    try (Parser parser = new Parser(fileName)) {
+        // Extract a text into the reader
+        try (TextReader reader = parser.getText()) {
+            // Print a text from the document
+            System.out.println(reader == null 
+                    ? "" 
+                    : reader.readToEnd());
+        }
+    } 
+    ```
 
-            - link: "#support"
-              text: "Mendukung"
-
-            - link: "https://products.groupdocs.app/parser"
-              text: "Demo Langsung"
-
-            - link: "https://purchase.groupdocs.com/pricing/parser/java"
-              text: "Harga"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/parser"
-        link_learn: "https://docs.groupdocs.com/parser/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Parser untuk Java adalah API ekstraktor teks, gambar, dan metadata, mendukung lebih dari 50 jenis dokumen populer untuk membantu membangun aplikasi bisnis dengan fitur penguraian teks mentah, terstruktur & terformat. Ini juga mendukung penguraian dokumen menggunakan templat yang telah ditentukan sebelumnya dan memungkinkan penggalian data kompleks dari faktur dan dokumen tipikal lainnya dengan kecepatan dan akurasi. GroupDocs.Parser untuk Java memungkinkan Anda mengekstrak teks dan metadata dari file yang dilindungi kata sandi dari semua format populer termasuk dokumen pemrosesan Word, spreadsheet Excel, presentasi PowerPoint, OneNote, file PDF, dan arsip ZIP.
-    tabs:
-      enable: true     
-      
-      tab_one:
-        description: |
-          Berikut ini adalah ikhtisar GroupDocs.Parser untuk Java:
-
-        left:
-          enable: true
-          icon: "fas fa-tools"
-          title: "Fitur"
-          content: |
-            * Ekstrak Gambar
-            * Ekstrak Teks Mentah
-            * Ekstrak Teks Terformat
-            * Ekstrak Teks Terstruktur
-            * Ekstrak Metadata
-            * Ekstrak dari File dalam file ZIP
-            * Ekstrak dengan Mencari
-            * Ekstrak dengan Pemformat Teks
-            * Deteksi Standar Pengkodean
-            * Deteksi Jenis Media
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "API"
-          content: |
-            * Mendapat File Masukan
-            * Mengambil Teks Mentah atau Terformat
-            * Mengambil Metadata
-      
-      tab_two:
-        description: |
-          GroupDocs.Parser untuk Java mendukung [format file dokumen](https://docs.groupdocs.com/parser/java/supported-document-formats/ berikut):
-
-        left:
-          enable: true
-          table:
-            - title: "Ekstraksi Teks"
-              content: |
-                * **Teks**: DOC, DOCX, DOT, DOTM, DOTX, DOCM, RTF, ODT, OTT, TXT, MD, WordprocessingML (XML)
-                * **Spreadsheet**: XLS, XLSX, CSV, XLSM, XLSB, ODS, SpreadsheetML (XML), XLT, XLTX, XLTM, OTS, XLA,, XLAM, TSV
-                * **Presentasi**: PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX, POTM, ODP, OTP
-                * **OneNote**: SATU
-                * **Email**: MSG, EML, EMLX, PST, OST, MS EXCHANGE SERVER, POP, IMAP
-                * **Penerbitan Elektronik**: EPUB, FB2
-                * **Dokumen Portabel**: PDF, Portofolio PDF, PDF Terenkripsi
-                * **Berbasis DOM**: XML, HTML, XHTML, MHTML
-                * **Kompresi & Kemasan**: ZIP, CHM
-                * **Database**: ADO.NET
-
-            - title: "Deteksi Pengkodean"
-              content: |
-                * **BOM**: UTF32 LE, UTF32 BE, UTF16 LE, UTF16 BE, UTF8, dan UTF7
-                * **Konten**: UTF32 LE, UTF32 BE, UTF16 LE, UTF16 BE, UTF8, dan ANSI
-
-        right:
-          enable: true
-          table:
-            - title: "Ekstraksi Metadata"
-              content: |
-                * **Teks**: DOC, DOCX, DOT, DOTX, DOTM, OTT, ODT
-                * **Spreadsheet**: XLS, XLSX, XLT, XLTX, XLTM, XLA, XLAM, OTS, ODS
-                * **Presentasi**: PPT, PPTX, POT, POTX, POTM, PPSM, PPTM, OTP, ODP
-                * **Email**: MSG, EML, EMLX
-                * **Penerbitan Elektronik**: EPUB, FB2
-                * **Lainnya**: PDF
-
-            - title: "Ekstraksi Teks & Metadata"
-              content: |
-                * **Templat**: DOTX, POTX
-                * **Template Berkemampuan Makro**: DOTM, POTM, PPSM, PPTM
-                * **Template OpenDocument**: OTT
-
-            - title: "Ekstraksi Gambar"
-              content: |
-                * **Teks**: DOC, DOCX, DOCM, RTF, DOT, DOTM, DOTX, ODT
-                * **Spreadsheet**: XLS, XLSX, XLSM, XLSB, ODS, XLT, XLTM, XLTX
-                * **Presentasi**: PPT, PPTX, PPTM, ODP, POT, POTM, POTX, PPS, PPSX, PPSM
-                * **Dokumen Portabel**: PDF, POT, POTM, POTX
-                * **Ebook**: CHM, EPUB, FB2
-                * **Markup**: HTML
-
-      tab_three:
-        description: |
-          GroupDocs.Parser untuk Java mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            - icon: "fas fa-code"
-              title: "Kerangka yang Didukung"
-              content: |
-                * Java 7 (1.7) ke atas
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-cogs"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            - icon: "fas fa-tools"
-              title: "Bangun Alat Otomatisasi"
-              content: |
-                * Maven
-
-features:
-    enable: true
-    title: "GroupDocs.Parser untuk Fitur Java"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "Hitung Kemunculan Kata untuk Satu atau Beberapa Dokumen Secara Statistik"
-
-      - icon: "fas fa-eye"
-        content: "Ekstrak Teks dan Metadata dari Excel Spreadsheets dan PowerPoint Presentation Templates"
-
-      - icon: "fas fa-bolt"
-        content: "Ambil Teks dari File atau Aliran, Tanpa Menginstal Pembaca Dokumen"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "Tarik Teks Terformat dari Dokumen Menggunakan Mode Ekstraksi Teks Cepat atau Standar"
-
-      - icon: "fas fa-code"
-        content: "Deteksi Jenis Media Dokumen XML yang Dilindungi Kata Sandi & Ekstrak Teks dari Mereka"
-
-      - icon: "fas fa-cloud"
-        content: "Ambil Teks Terformat dari Presentasi PowerPoint, Email & Lampiran Secara Terprogram"
-
-      - icon: "fas fa-remove-format"
-        content: "Keluarkan Teks dari Satu atau Beberapa Halaman Dokumen OneNote"
-
-      - icon: "fas fa-comment-slash"
-        content: "Tarik Teks Mentah dari File PDF Sederhana atau Dokumen Portofolio PDF"
-
-      - icon: "fas fa-location-arrow"
-        content: "Ekstrak Data dari PDF, MS Word, Excel dan Dokumen Presentasi"
-
-      - icon: "fas fa-border-all"
-        content: "Ekstrak Teks Mentah atau Diformat dari Sel, Baris Dan Kolom dari Excel Spreadsheet"
-
-      - icon: "fas fa-wrench"
-        content: "Kumpulkan Teks Berformat Mentah atau HTML dari Dokumen Word & Kutipan Teks yang Disorot dari Dokumen"
-
-      - icon: "fas fa-columns"
-        content: "Dapatkan Data dari Formulir PDF & Dapatkan Tabel Berformat Dari Dokumen PDF atau Word"
-
-      - icon: "fas fa-file-word"
-        content: "Tarik Satu Kalimat atau Seluruh Teks dari File EPUB, CHM, Penurunan Harga & FB2"
-
-      - icon: "fas fa-envelope"
-        content: "Kutipan Daftar Isi dari Database, PDF, EPUB, CHM & Dokumen Pengolah Kata"
-
-      - icon: "fas fa-print"
-        content: "Ambil Area Teks dari Dokumen untuk Analisis & Tarik Teks dengan Struktur Kontennya yang Utuh"
-
-      - icon: "fas fa-file-archive"
-        content: "Dapatkan Metadata dari Format Dokumen yang Didukung"
-
-      - icon: "fas fa-lock"
-        content: "Gambar Semua atau Gambar yang Dipilih dari Format yang Didukung & Putar Gambar yang Diekstrak"
-
-      - icon: "fas fa-file-code"
-        content: "Ekstrak Teks dari File dalam Arsip Zip & Kontainer OST – Deteksi Jenis Media untuk Item Kontainer Zip"
-      
-      - icon: "fas fa-fill-drip"
-        content: "Ambil Data dari Wadah Email (Exchange Web Server, POP3, IMAP)"
-
-      - icon: "fas fa-file-excel"
-        content: "Keluarkan Teks dari Wadah Basis Data dengan Cara Cepat, Andal, dan Efisien"
-
-      - icon: "fas fa-heading"
-        content: "Temukan Teks Sederhana, Seluruh Kata & Ekspresi Reguler dalam Dokumen"
-
-      - icon: "fas fa-project-diagram"
-        content: "Siapkan Template Dokumen, Ekstrak Data dari Dokumen dan Analisis Bidang & Tabel Data"
-
-      - icon: "fas fa-cube"
-        content: "Cari & Ekstrak Ekspresi yang Disorot dalam Dokumen"
-
-      - icon: "fab fa-uncharted"
-        content: "Tarik Teks dengan Pemformat Teks Biasa (Sederhana & ASCII) atau Pemformatan Kustom dengan Tepi, Sudut, & Persimpangan"
-
-      - icon: "fab fa-uncharted"
-        content: "Ambil & Format Teks (Font, Hyperlink, Judul, Daftar & Tabel) dengan Formatter Penurunan Harga"
-
-      - icon: "fab fa-uncharted"
-        content: "Dapatkan Teks dengan Formatter HTML & Terapkan Formatter ke Paragraf, Hyperlink, Font, Judul, Daftar & Tabel"
-
-      - icon: "fab fa-uncharted"
-        content: "Pindahkan Tata Letak Tabel & Deteksi Tabel di Area Persegi Panjang dengan Pemisah Kolom"
-
-      - icon: "fab fa-uncharted"
-        content: "Ekstrak Teks dari Bentuk, Objek WordArt & Kotak Teks dalam Format File Microsoft Office"
-
-      - icon: "fab fa-uncharted"
-        content: "Ekstrak Gambar ke File – Simpan ke Format JPG, PNG, GIF, BMP, PNG atau WEBP"
-
-      - icon: "fab fa-uncharted"
-        content: "Ekstrak Teks dari Server Email dan Database melalui JDBC"
-
-    more_feature:
-      - title: "Dapatkan Teks dengan Pemformat Teks Biasa atau HTML"
-        content: |
-          Dengan GroupDocs.Parser untuk Java, Anda dapat menerapkan berbagai formatter ke Teks dan HTML. Anda dapat menarik teks dengan Pemformat Teks Biasa untuk Sederhana dan ASCII. Anda juga bisa mendapatkan Teks dengan HTML Formatter dan menerapkan pemformatan ke paragraf, hyperlink, font, heading, daftar, dan tabel.
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Parser menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        - img_alt: "GroupDocs.Parser for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-parser-net.png"
-          product: "GroupDocs.Parser"
-          platform: ".NET"
-          link: "/parser/net/"
-
-back_to_top:
   enable: true
+  title: "GroupDocs.Parser Ikhtisar"
+  description: "API untuk melakukan penguraian dokumen di Java aplikasi"
+  features:
+    # feature loop
+    - title: "Ekstrak data dari dokumen"
+      content: "Java API memungkinkan Anda mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat canggih ini membantu Anda mengakses dan memproses informasi berharga secara efisien yang terkandung dalam file ini untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
+
+    # feature loop
+    - title: "Parsing dokumen"
+      content: "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, kode batang, dan data dari formulir PDF. Parsing juga informasi yang diinginkan dari dokumen menggunakan templat khusus."
+
+    # feature loop
+    - title: "Menyesuaikan hasil"
+      content: "Java API memungkinkan Anda mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Penurunan harga. Selain itu, API menawarkan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independensi platform"
+  description: "GroupDocs.Parser for Java mendukung sistem operasi, kerangka kerja, dan pengelola paket berikut"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    GroupDocs.Parser for Java mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/parser/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office format
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Gambar & Format Lainnya
+        * **Portable:** PDF
+        * **Gambar-gambar:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Format kantor lainnya:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Format lainnya
+        * **jaring:** HTML, MHTML
+        * **Arsip:** ZIP, TAR, 7Z
+        * **Ebook:** CHM, EPUB, FB2, MOBI
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Parser fitur"
+  description: "Ekstrak data dari PDF, Dokumen Office, dan Gambar dengan cepat dan akurat."
+
+  items:
+    # feature loop
+    - icon: "text"
+      title: "Ekstrak teks"
+      content: "Ekstrak informasi tekstual dari berbagai format file seperti dokumen office, file, dan gambar agar mudah dibaca dan dianalisis."
+
+    # feature loop
+    - icon: "image"
+      title: "Ekstrak gambar"
+      content: "Ambil konten visual dari beragam sumber seperti dokumen kantor, file PDF untuk kemudahan akses dan penggunaan."
+
+    # feature loop
+    - icon: "qr"
+      title: "Pindai Kode QR"
+      content: "Deteksi dan dekode kode QR yang ada dalam dokumen kantor, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
+
+    # feature loop
+    - icon: "email"
+      title: "Ekstrak data dari lampiran dan arsip email"
+      content: "Kumpulkan informasi berharga dari pesan email, lampiran file, dan sumber data terkompresi untuk analisis dan pemanfaatan yang efektif."
+
+    # feature loop
+    - icon: "table"
+      title: "Ekstrak tabel"
+      content: "Identifikasi dan ekstrak data tabel dari PDF dokumen untuk analisis dan penggunaan yang terorganisir."
+
+    # feature loop
+    - icon: "hyperlink"
+      title: "Ekstrak hyperlink"
+      content: "Temukan dan ekstrak hyperlink dan alamat email dalam dokumen atau file Office untuk akses yang efisien."
+
+    # feature loop
+    - icon: "pdf"
+      title: "Parsing PDF Formulir"
+      content: "PDF Formulir adalah dokumen digital yang menampilkan kolom yang dapat diisi untuk interaksi pengguna, sehingga memungkinkan mereka memasukkan informasi secara elektronik. Java API dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
+
+    # feature loop
+    - icon: "template"
+      title: "Parsing data berdasarkan templat"
+      content: "Buat template khusus dan gunakan dengan Java API untuk mengurai informasi spesifik dari file PDF, sehingga menyederhanakan proses ekstraksi data."
+
+    # feature loop
+    - icon: "search"
+      title: "Cari teks dalam dokumen"
+      content: "Temukan kata atau pola tertentu dalam dokumen dengan cepat."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan operasi umum"
+  items:
+    # code sample loop
+    - title: "Ekstrak gambar dari PDF dokumen"
+      content: |
+        Java API memudahkan Java pengembang mengekstrak gambar dari dokumen dengan menerapkan beberapa langkah mudah.
+        {{< landing/code title="Ekstrak gambar dari PDF dokumen di Java">}}
+        ```java {style=abap}
+        // Create an instance of Parser class
+        try (Parser parser = new Parser(fileName)) {
+            // Extract images
+            Iterable<PageImageArea> images = parser.getImages();
+            // Check if images extraction is supported
+            if (images != null) {
+                int imageIndex = 0;
+                // Iterate over images
+                for (PageImageArea image : images) {
+                    // Save the image to the file
+                    image.save(String.format("%s%s", imageIndex, image.getFileType().getExtension()));
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Ekstrak kode batang dari gambar"
+      content: |
+        Java API memudahkan Java pengembang mengekstrak kode batang dari dokumen dengan menerapkan beberapa langkah mudah.
+        {{< landing/code title="Ekstrak kode batang dari gambar">}}
+        ```java {style=abap}   
+        // Create an instance of Parser class
+        try (Parser parser = new Parser(fileName)) {
+            // // Check if the file supports barcode extracting
+            if (!parser.getFeatures().isBarcodes()) {
+                // Extract barcodes from the file.
+                Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
+                // Iterate over barcodes
+                for (PageBarcodeArea barcode : barcodes) {
+                    // Print the page index
+                    System.out.println("Page: " + barcode.getPage().getIndex());
+                    // Print the barcode value
+                    System.out.println("Value: " + barcode.getValue());
+                }
+            }
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

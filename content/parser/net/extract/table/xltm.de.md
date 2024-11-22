@@ -1,94 +1,163 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-gist"
+layout: "auto-gen-parser"
+date: 2024-02-13T17:01:11
 draft: false
-path: "de/parser/net/extract/table/xltm/"
-otherformats: DOC DOT DOCX DOCM DOTX DOTM TXT ODT OTT RTF PDF XHTML MHTML MD XML EPUB FB2 CHM XLS XLT XLSX XLSB XLTX XLTM ODS CSV OTS XLA XLAM PPT PPTX  PPS POT PPSX PPTM POTX PPSM ODP OTP PST OST EML EMLX MSG ONE 
+otherformats: pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx
 
 ############################# Head ############################
 head_title: "Extrahieren Sie Tabellen aus PDF, DOCX, PPTX, XLSX, EPUB und mehr über die C#.NET-API"
-head_description: "GroupDocs.Parser .NET API Programmierern das Extrahieren von Tabellen aus PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX, CSV, ODT, RTF und anderen vielen Dokumenttypen innerhalb von .NET Apps."
+head_description: "Mit der API GroupDocs.Parser .NET können Programmierer Tabellen aus PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX und CSV extrahieren , ODT, RTF und viele andere Dokumenttypen in .NET Apps."
 
 ############################# Header ############################
-title: "Extrahieren Sie Barcodes aus Excel-, Word-, PDF- und PowerPoint-Dokumenten über die C#.NET-API"
-description: "GroupDocs.Parser .NET API ermöglicht Programmierern das Extrahieren von Barcodes aus PDF-, DOC-, DOCX-, PPT-, PPTX-, EML-, MSG-, XLS-, XLSX-, CSV-, ODT-, RTF- und EPUB-Dokumenten oder -Seiten."
-
-######################### Download Button #######################
+title: "Extrahieren Sie Tabellen aus Excel-, Word-, PDF- und PowerPoint-Dokumenten über die C#.NET-API"
+description: "Mit der API GroupDocs.Parser .NET können Programmierer Tabellen aus PDF, DOC, DOCX, PPT, PPTX, EML, MSG, XLS, XLSX und CSV extrahieren , ODT, RTF & EPUB Dokumente oder Seiten."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Download kostenlose Testversion"
+    link: "https://downloads.groupdocs.com/parser/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Parser for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-parser-net.png"
+        product: "GroupDocs.Parser"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/parser/net"
+              text: "API-Referenz"
+
+            # button loop
+            - link: "https://github.com/groupdocs-parser"
+              text: "Codebeispiele"
+
+            # button loop
+            - link: "https://products.groupdocs.app/parser/family"
+              text: "Live-Demos"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/parser/net"
+              text: "Preisgestaltung"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/parser"
+        link_learn: "https://docs.groupdocs.com/parser/net"
+        link_buy: "https://purchase.groupdocs.com"
 
 ############################# About ############################
 about:
     enable: true
-    title: "Wie extrahiert man Barcodes aus Excel, Word, PDF und anderen Dokumenten über die .NET-API?"
+    title: "Wie extrahiere ich Tabellen aus XLTM-Dateien über die .NET-API?"
     content: |
-     Tabelle ist die Sammlung von Zellen, die in Zeilen und Spalten angeordnet sind. Tabellen spielen eine sehr wichtige Rolle beim Speichern und Organisieren detaillierter oder komplizierter Daten, damit die Benutzer sie leicht lesen und anzeigen können. Tabellen können auf vielfältige Weise verwendet werden, z. B. um Listen zu erstellen, Informationen zu vergleichen, Daten auszurichten, Informationen zu gruppieren, Trends oder Muster in Daten hervorzuheben und vieles mehr. GroupDocs.Parser für .NET ist eine nützliche API, die es Softwareprogrammierern ermöglicht, Lösungen zum Extrahieren von Tabellen, Text und Bildern aus verschiedenen Arten von unterstützten Dokumentenformaten wie PDF, E-Mails, E-Books, Word (DOC, DOCX) und PowerPoint zu entwickeln (PPT, PPTX), Excel (XLS, XLSX), E-Mail-Formate (EML, MSG) und viele mehr. Die Java-API enthält mehrere wichtige Funktionen für die Arbeit mit Tabellen, z. B. das Extrahieren aller Tabellen aus einem Dokument, das Extrahieren einer Tabelle von einer bestimmten Seite, das Abrufen von Tabellenzellendaten, das Abrufen der Gesamtzahl von Tabellenzeilen und -spalten, das Abrufen der Zeilenhöhe und das Drucken von Daten eines Tisches und vieles mehr.
+        Eine Tabelle ist die Sammlung von Zellen, die in Zeilen und Spalten angeordnet sind. Tabellen spielen eine sehr wichtige Rolle beim Speichern und Organisieren detaillierter oder komplizierter Daten, damit die Benutzer sie leicht lesen und anzeigen können. Tabellen können auf vielfältige Weise verwendet werden, z. B. zum Erstellen von Listen, zum Vergleichen von Informationen, zum Ausrichten von Daten, zum Gruppieren von Informationen, zum Hervorheben von Trends oder Mustern in Daten und vielem mehr. GroupDocs.Parser for .NET ist eine nützliche API, die es Softwareprogrammierern ermöglicht, Lösungen zum Extrahieren von Tabellen, Text und Bildern aus verschiedenen Arten unterstützter Dokumentformate zu entwickeln, wie z. B. PDF, E-Mails, E-Books, Word (DOC, { 318}), PowerPoint (PPT, PPTX), Excel (XLS, XLSX), E-Mail-Formate (EML, MSG) und viele mehr. Die .NET-API enthält mehrere wichtige Funktionen für die Arbeit mit Tabellen, z. B. das Extrahieren aller Tabellen aus einem Dokument, das Extrahieren einer Tabelle aus einer bestimmten Seite, das Abrufen von Tabellenzellendaten, das Abrufen der Gesamtzahl der Tabellenzeilen und -spalten sowie das Abrufen der Zeilenhöhe. Daten einer Tabelle drucken und vieles mehr.
+        
+        
 
-############################# content ############################
+############################# Steps ############################
 steps:
     enable: true
-    block:
-    - title_left: "So extrahieren Sie Tabellen aus XLTM-Dokumenten über C# .NET "
-      content_left: |
-       GroupDocs.Parser .NET API hilft Softwareentwicklern, Tabellen aus XLTM-Dokumenten mit nur wenigen Codezeilen zu extrahieren. Das folgende C# .NET-Codebeispiel zeigt, wie Entwickler Tabellen aus einem XLTM-Dokument extrahieren können. 
-
-      title_right: "Tabellenextraktion aus Dokumenten"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Überprüfen Sie, ob die Extraktion von Tabellen unterstützt wird
-        * Erstellen Sie das Layout von Tabellen
-        * Erstellen Sie die Optionen für die Tabellenextraktion
-        * Rufen Sie die Methode [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions)) auf, um Tabellen aus der zu extrahieren ganzes Dokument.
-        * Über Zeilen und Spalten iterieren
-        * Tabellenzellentext extrahieren und drucken
-
-      gisthash: "dda6d3d4866e63ae1614d86dd847fecd"
-      gistfile: "tables_extraction_form_documents.cs"
-
-    - title_left: "Verwenden Sie die .NET-API, um Tabellen aus der Seite des XLTM-Dokuments zu extrahieren"
-      content_left: |
-       GroupDocs.Parser .NET ermöglicht Softwareentwicklern, Tabellen aus der Seite von XLTM-Dokumenten zu extrahieren. Der folgende C# .NET-Code zeigt, wie Programmierer eine Barcode-Extraktion innerhalb eines XLTM-Dokuments durchführen können. 
-
-      title_right: "Barcodes über C# .NET extrahieren"
-      content_right: |
-        * Erstellen Sie eine Instanz von [Parser](https://apireference.groupdocs.com/parser/net/groupdocs.parser/parser)
-        * Überprüfen Sie, ob die Extraktion von Tabellen unterstützt wird
-        * Erstellen Sie das Layout von Tabellen
-        * Erstellen Sie die Optionen für die Tabellenextraktion von der Dokumentseite
-        * Rufen Sie die Methode [getTables(options)](https://apireference.groupdocs.com/parser/java/com.groupdocs.parser/Parser#getTables(com.groupdocs.parser.options.PageTableAreaOptions)) auf, um Tabellen aus der zu extrahieren ganzes Dokument.
-        * Iterieren Sie über Tabellen, Zeilen und Spalten
-        * Tabellenzellentext extrahieren und drucken
-     
-      gisthash: "2dc42054bba3abdc297c63f4534281d8"
-      gistfile: "tables_extraction_form_documents_page.cs"
-      
-    - title_left: "System Anforderungen"
-      content_left: |
-        GroupDocs.Parser für .NET wird auf allen wichtigen Plattformen und Betriebssystemen vollständig unterstützt. Eine vollständige Anleitung zu den Systemanforderungen finden Sie unter [Systemanforderungen](hhttps://docs.groupdocs.com/parser/net/system-requirements/). Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem installiert sind System:
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Entwicklungsumgebung: Visual Studio, Xamarin, MonoDevelop usw
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Holen Sie sich die neueste Version der GroupDocs.Parser .NET-APIs von [NuGet](https://www.nuget.org/packages/GroupDocs.parser/)
+    title_left: "Tabellen aus XLTM in .NET extrahieren"
+    content_left: |
+        [GroupDocs.Parser for .NET](/de/parser/net/) erleichtert C#-Entwicklern das Extrahieren von Tabellen aus einer XLTM-Datei durch die Implementierung einiger einfacher Schritte.
         
-      title_right: "Warum GroupDocs.Parser verwenden"
-      content_right: |
-        * Unterstützung der Klartextextraktion aus allen unterstützten Dokumenten
-        * Dokumente parsen über benutzerdefinierte Vorlagen.
-        * Vollständige Unterstützung der strukturierten Textextraktion
-        * Textsuche über Schlüsselwörter sowie reguläre Ausdrücke
-        * Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge.
-        * Inhaltsverzeichnis für einige unterstützte Dokumentformate extrahieren.
-        * Analysieren Sie Formulardaten aus PDF-Dokumenten.
-        * Hyperlinks aus dem Dokument extrahieren
+        * Instanziieren Sie das [Parser](https://reference.groupdocs.com/net/parser/groupdocs.parser/parser)-Objekt für das ursprüngliche Dokument.
+        * Überprüfen Sie, ob das Dokument die Tabellenextraktion unterstützt;
+        * Instanziieren Sie [PageTableAreaOptions](https://reference.groupdocs.com/parser/net/groupdocs.parser.options/pagetableareaoptions/) und [TemplateTableLayout](https://reference.groupdocs.com/parser/net/groupdocs.parser .templates/templatetablelayout/)-Klassen zum Festlegen des Layouts von Tabellen
+        * Rufen Sie die Methode [GetTables](https://reference.groupdocs.com/parser/net/groupdocs.parser/parser/methods/gettables) auf und rufen Sie die Sammlung von [PageTableArea](https://reference.groupdocs.com/parser/) ab.net/groupdocs.parser.data/pagetablearea) Objekte ab;
 
-demos:
+    title_right: "Erfahren Sie mehr über die Tabellenextraktion"
+    content_right: |
+        * <a href="https://docs.groupdocs.com/parser/net/extract-tables-from-document/">So extrahieren Sie Tabellen aus einem Dokument</a>
+        * <a href="https://docs.groupdocs.com/parser/net/extract-tables-from-document-page/">So extrahieren Sie Tabellen aus einer Dokumentseite</a>
+ 
+    code: |
+     {{% parser/additional-styles %}}
+     {{< parser/code-parser title="So extrahieren Sie Tabellen aus der Datei XLTM mithilfe des Beispielcodes C#">}}
+
+        ```csharp    
+        // Extrahieren Sie Tabellen aus der Datei XLTM mit der API GroupDocs.Parser
+        // Erstellen Sie eine Instanz der Parser-Klasse
+        using (Parser parser = new Parser(filePath)) {
+            // Überprüfen Sie, ob das Dokument die Tabellenextraktion unterstützt
+            if (!parser.Features.Tables) {
+                Console.WriteLine("Das Dokument unterstützt die Tabellenextraktion nicht.");
+                return;
+            }
+            // Erstellen Sie das Layout der Tabellen
+            TemplateTableLayout layout = new TemplateTableLayout(
+                new double[] { 50, 95, 275, 415, 485, 545 },
+                new double[] { 325, 340, 365, 395 });
+            // Erstellen Sie die Optionen für die Tabellenextraktion
+            PageTableAreaOptions options = new PageTableAreaOptions(layout);
+            // Extrahieren Sie Tabellen aus dem Dokument.
+            IEnumerable<PageTableArea> tables = parser.GetTables(options);
+            // Über Tabellen iterieren
+            foreach (PageTableArea t in tables) {
+                // Über Zeilen iterieren
+                for (int row = 0; row < t.RowCount; row++) {
+                    // Über Spalten iterieren
+                    for (int column = 0; column < t.ColumnCount; column++) {
+                        // Holen Sie sich die Tabellenzelle
+                        PageTableAreaCell cell = t[row, column];
+                        if (cell != null) {
+                            // Drucken Sie den Text der Tabellenzelle
+                            Console.Write(cell.Text);
+                            Console.Write(" | ");
+                        }
+                    }
+                    Console.WriteLine();
+                }
+                Console.WriteLine();
+            }
+        }
+        ```
+     {{< /parser/code-parser >}}
+
+############################# More ############################
+more:
+    enable: true
+    title_left: "System Anforderungen"
+    content_left: |
+        GroupDocs.Parser for .NET APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Rahmenwerke
+        * Laden Sie die neueste Version von GroupDocs.Parser for .NET von [Nuget](https://www.nuget.org/packages/groupdocs.parser) herunter.
+
+    title_right: "Warum GroupDocs.Parser for .NET verwenden?"
+    content_right: |
+        * Unterstützung für die Extraktion von Klartext aus allen unterstützten Dokumenten    
+        * Parsen von Dokumenten über benutzerdefinierte Vorlagen    
+        * Vollständige Unterstützung der strukturierten Textextraktion    
+        * Textsuche über Schlüsselwörter sowie reguläre Ausdrücke    
+        * Extrahieren Sie formatierten Text, Metadaten, Bilder, Container und Anhänge    
+        * Extrahieren Sie das Inhaltsverzeichnis für einige unterstützte Dokumentformate    
+        * Analysieren Sie Formulardaten aus PDF-Dokumenten    
+        * Extrahieren Sie Hyperlinks aus dem Dokument   
+
+############################# About Formats ############################
+about_formats:
     enable: true
 
-
+############################# More Formats ############################
 more_formats:
     enable: true
+    title: "Extrahieren Sie Tabellen aus anderen Dokumentformaten"
+    content: |
+        .NET API zum Parsen und Scannen von Dokumenten für Dateiformate und Bilder. Extrahieren Sie Daten für einige der gängigen Dateiformate, wie unten aufgeführt.
 
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---
