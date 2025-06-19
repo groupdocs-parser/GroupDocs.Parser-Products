@@ -1,0 +1,438 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java, Node.js, Python APIs & Online Metadata Manipulation Apps by {{NameCompany}}",
+    "head_description": "Document Metadata APIs native to C# .NET & Java. Read, write, edit & compare meta information of all popular formats. Analyze & export metadata.",
+    "title": "Document Metadata Management Solution",
+    "description_0": "APIs and apps to read, edit, replace and remove metadata of documents, images and other file formats on popular platforms.",
+    "description_1": "Add hidden metadata information to your business files and documents.",
+    "description_2": "Modify or remove metadata that already presented in your documents.",
+    "description_3": "Collect and analyze information about documents & files metadata.",
+    "words_for": "for",
+    "release_title": "Version {0} released",
+    "release_notes": "See what’s new",
+    "release_downloads": "Downloads",
+    "code_more": "More examples",
+    "overview_title": "{{ProdShortName}} at a glance",
+    "formats_title": "Supported file formats",
+    "platforms": {
+      "title": "Platform Independence",
+      "head_title": "Choose your platform",
+      "description": "{{ProdShortName}} is compatible with the wide range of operating systems and frameworks:",
+      "learn_more": "Learn more",
+      "any_other_text_editor": "Any other text editor"
+    },
+    "features": {
+      "title": "{{ProdShortName}} features review",
+      "description": "Our solution is designed to manipulate metadata in many popular file formats including images and office documents.",
+      "feature_1": {
+        "title": "Protect business information",
+        "content": "Add hidden metadata to your sensitive files and documents."
+      },
+      "feature_2": {
+        "title": "Control document metadata",
+        "content": "Collect detailed information about metadata contained by documents."
+      },
+      "feature_3": {
+        "title": "Manipulate metadata information",
+        "content": "Modify content or delete metadata in many supported file formats."
+      },
+      "feature_4": {
+        "title": "Various additional features",
+        "content": "Get document preview, extract metadata packages etc."
+      }
+    },
+    "formats": {
+      "title": "More than 70 formats are supported",
+      "description": "{{ProdShortName}} helps to control metadata in popular document and file formats."
+    },
+    "code_samples": {
+      "title": "Code samples",
+      "index_title": "Protect documents using metadata",
+      "index_description": "{{ProdShortName}} typical operations code examples.",
+      "more_examples": "More examples",
+      "sample_index": {
+        "title": "How to extract text from PDF documents",
+        "content": "{{ProdShortName}} API makes it easy for developers to extract text from documents by implementing a few easy steps.",
+        "comment_1": "Create an instance of {{textParser}} class passing desired file",
+        "comment_2": "Extract a text to {{textReader}}",
+        "comment_3": "Process the extracted text"
+      },
+      "sample_1": {
+        "code_title": "Extract images from PDF documents in {{ProgLang}}",
+        "comment_1": "Create an instance of {{textParser}} class",
+        "comment_2": "Extract images",
+        "comment_3": "Check if something is extracted",
+        "comment_4": "Iterate over images",
+        "comment_5": "Print a page index, rectangle and image type"
+      },
+      "sample_2": {
+        "code_title": "Extract barcodes from images in {{ProgLang}}",
+        "comment_1": "Load source image to {{textParser}}",
+        "comment_2": "Check if the file supports barcode extracting",
+        "comment_3": "Extract barcodes from the file",
+        "comment_4": "Iterate over barcodes",
+        "comment_5": "Print the page index",
+        "comment_6": "Print the barcode value"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} achievements",
+      "description": "Discover the Key Metrics of Our Library's Accomplishments",
+      "item_1": {
+        "title": "Supported formats",
+        "description": "{{ProdShortName}} supports metadata manipulation for more than 70 popular file formats."
+      },
+      "item_2": {
+        "title": "NuGet downloads",
+        "description": "{{ProdShortName}} for .NET NuGet package was downloaded more than 700,000 times."
+      },
+      "item_3": {
+        "title": "Maven downloads",
+        "description": "{{ProdShortName}} has 15,000 downloads on Maven. Powerful Java Metadata Management."
+      },
+      "item_4": {
+        "title": "Happy customers",
+        "description": "As famous companies as individual developers prefer {{NameCompany}} products to build innovative solutions."
+      }
+    },
+    "customers": {
+      "title": "Our happy customers",
+      "description": "{{NameCompany}} products trusted by many customers globally and used in many competitive business solutions worldwide."
+    },
+    "actions": {
+      "alt": "Licensing",
+      "title": "Ready to start?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "description_index": "Try {{ProdShortName}} features for free in your applications"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "Have questions about our product? We have answers!",
+      "item_1": {
+        "question": "Does {{ProdShortName}} require third-party software for document metadata processing?",
+        "answer": "{{ProdShortName}} operates independently; no external libraries like Microsoft Office or Adobe Acrobat are necessary."
+      },
+      "item_2": {
+        "question": "Can I try out {{ProdShortName}} features before purchasing?",
+        "answer": "Absolutely! {{ProdShortName}} offers a free trial. Install it and explore its capabilities. However, please note that trial versions add 'trial badges' to your documents, and only process the first 3 pages. For the complete experience, get a free 30-day temporary license for full functionality. Check out the details [here]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "What types of licenses are available?",
+        "answer": "Looking for a {{ProdShortName}} license? We've got you covered with various options. Choose from licenses tailored to your needs, based on factors like the number of developers on your team, deployment locations (e.g., single office or remote workplaces), and whether end-customer distribution requires sharing the SDK/API with clients. Alternatively, opt for a monthly usage license, where you pay based on your usage with metered plans. Explore further and find the perfect fit [here]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} Low Code APIs Include",
+      "description": "Manage sensitive metadata in business files within your application using our cloud-based REST API.",
+      "item_1": {
+        "content": "Work with cURL RESTful metadata manipulation APIs to manage metadata information of PDF, Word, Excel, Presentations, images and multimedia file in your applications."
+      },
+      "item_2": {
+        "content": "Use metadata REST API with .NET SDK to add, edit, extract, search and delete metadata from document formats within .NET applications."
+      },
+      "item_3": {
+        "content": "Enhance your Java applications with powerful metadata management features using Metadata SDK for Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} No Code Apps Include",
+      "description": "Access {{NameCompany}} web application for managing document metadata. Process over 70 popular file formats in your favorite browser FOR FREE.",
+      "item_1": {
+        "content": "Free app to view & edit metadata of Word, Excel, PDF, PowerPoint and more than 70 document types."
+      },
+      "item_2": {
+        "content": "Free online metadata viewer & editor for MS Word documents."
+      },
+      "item_3": {
+        "content": "View or edit Metadata information of PDF documents online."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Office formats",
+      "title_2": "Media & Graphics",
+      "title_3": "Other",
+      "format_portable": "Portable",
+      "format_video": "Video",
+      "format_audio": "Audio",
+      "format_fonts": "Fonts",
+      "format_project": "Project",
+      "format_others": "Others",
+      "format_popular_images": "Popular image formats",
+      "format_multi_images": "Multi-page images"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}} Metadata Reader, Viewer, Extractor, Remover & Exporter API",
+    "head_description": "{{ProgLang}} {{EnvNameShort}} metadata API to read, write, edit, analyze, search, extract, remove, compare & export metadata of PDF Word Excel PPTX Outlook Audio Video & Images.",
+    "title": "{{EnvNameShort}} API to Manage & Manipulate Metadata",
+    "description": "Build {{EnvNameShort}} Applications to Read, Edit, Remove, Retrieve, Search, Compare, Replace and Export Metadata Information of all Popular Documents & Image File Formats.",
+    "actions_main": "Free NuGet Download",
+    "code_title": "Quickly Fetching Metadata Properties",
+    "code_comment_1": "Pass source file to {{textParser}} instance",
+    "code_comment_2": "Pass document text to {{textReader}}",
+    "code_comment_3": "Process document text",
+    "overview_description": "Following is an overview of {{ProdFullName}}",
+    "overview_feature_1": {
+      "title": "{{ProgLang}} applications integration",
+      "description": "{{ProdFullName}} API is easy to integrate with {{ProgLang}}, {{AspNet}} and other {{EnvNameShort}} based applications to help your end-users manipulate metadata from a range of images, documents and other media file formats without installing any external software. The {{EnvNameShort}} metadata library supports building tools to quickly add metadata viewer, editor, remover, extractor, comparison and exporter functionalities within a number of industry standard document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video and metafiles."
+    },
+    "overview_feature_2": {
+      "title": "Various metadata types",
+      "description": "The Metadata API is very flexible and easy to operate with. It gets the document file as input, analyses the metadata information, allows to perform supported meta data operations and save the modified file to access quickly in future use. It works with most notable metadata standards such as built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 and custom metadata properties. Through {{ProdFullName}} API, you can also compare two documents to identify differences and similarities present in their metadata properties. You can also export metadata of required documents to Excel, CSV or DataSet."
+    },
+    "overview_feature_3": {
+      "title": "All popular environments are supported",
+      "description": "{{ProdFullName}} can be used to develop applications in any development environment that targets {{EnvNameShort}} platform. It is compatible with all {{EnvNameShort}} based languages and supports popular operating systems (Windows, Linux, MacOS) where {{Mono}} or {{EnvNameShort}} frameworks (including {{CoreNet}}) can be installed."
+    },
+    "features": {
+      "title": "{{ProdFullName}} features",
+      "description": "Use Metadata to Protect PDF, Office, Images and other formats",
+      "feature_1": {
+        "title": "Identify Built-in & Custom Metadata",
+        "content": "Many file formats have mandatory metadata. Manipulate them as well as custom metadata for your own aims"
+      },
+      "feature_2": {
+        "title": "Find Photos Made on Specific Camera",
+        "content": "Get info about photos stored in metadata, including camera manufacturer, model, resolution, etc"
+      },
+      "feature_3": {
+        "title": "Ability to Detect/Remove Digital Signatures",
+        "content": "Find all digital metadata in your business files and remove what you need"
+      },
+      "feature_4": {
+        "title": "Photo Location",
+        "content": "Import image metadata properties and remove location info from photos"
+      },
+      "feature_5": {
+        "title": "Metadata Search",
+        "content": "Search metadata properties of files and enumerate any type of metadata"
+      },
+      "feature_6": {
+        "title": "Clean Business Data",
+        "content": "Remove metadata and comments from reports and documents"
+      },
+      "feature_7": {
+        "title": "Document Previews",
+        "content": "Generate image previews for EPUB, CAD, EML, and MSG files"
+      },
+      "feature_8": {
+        "title": "Matroska Multimedia Support",
+        "content": "Read Matroska subtitles and retrieve metadata of audio and video files"
+      },
+      "feature_9": {
+        "title": "Get Metadata of Archive Formats & Torrents",
+        "content": "Manipulate metadata of archive files like .ZIP and files with torrent data"
+      },
+      "feature_10": {
+        "title": "Run-time Recognition of Document File Type",
+        "content": "Our solution provides the ability to detect file or stream type before metadata processing"
+      },
+      "feature_11": {
+        "title": "Analyze Metadata Distinctions",
+        "content": "Compare metadata properties of supported formats and identify differences or similarities"
+      },
+      "feature_12": {
+        "title": "Reducing Memory Consumption of Documents & Images",
+        "content": "Clean documents and images from extra hidden data"
+      },
+      "feature_13": {
+        "title": "Control Office Documents",
+        "content": "Retrieve and remove hidden data in Microsoft Word, Excel, PowerPoint, and PDF files"
+      },
+      "feature_14": {
+        "title": "Replace Metadata Properties of Supported File Formats",
+        "content": "It is completely possible to get a list of suitable document metadata and replace the content of each entry"
+      },
+      "feature_15": {
+        "title": "TIFF Image Support",
+        "content": "Add, update, and delete IPTC metadata packages in TIFF images"
+      },
+      "feature_16": {
+        "title": "Microsoft Excel Support",
+        "content": "Extract metadata from Microsoft Excel files starting from Excel 95"
+      },
+      "feature_17": {
+        "title": "PNG Image Support",
+        "content": "Extract text metadata from PNG image files"
+      },
+      "feature_18": {
+        "title": "MIME Type Detection",
+        "content": "Detect the MIME type of a specific file or file stream"
+      },
+      "feature_19": {
+        "title": "Image Previews",
+        "content": "Retrieve thumbnails and render image previews for supported formats"
+      },
+      "feature_20": {
+        "title": "Matroska Multimedia Security",
+        "content": "Identify password protection and support for the Matroska multimedia container"
+      },
+      "feature_21": {
+        "title": "Built-In Metadata Support",
+        "content": "Use a defined key to read metadata properties of supported formats"
+      },
+      "feature_22": {
+        "title": "EXIF Image Metadata",
+        "content": "Update EXIF metadata properties in WEBP, PNG, and PSD files"
+      },
+      "feature_23": {
+        "title": "Emails & Fonts Support",
+        "content": "Read metadata of email messages and parse OpenType font files"
+      },
+      "feature_24": {
+        "title": "Multimedia Files Processing",
+        "content": "Extract XMP metadata properties in MOV, MP3, and WEBP files"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supports following Operating Systems, Frameworks & Package Managers:",
+    "formats_description": "{{ProdFullName}} supports following [document file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "code_title_sample_1": "Extract images from PDF documents",
+    "code_samples_sample_1_content": "{{ProdFullName}} makes it easy for {{ProgLang}} developers to extract images from [documents]({{Sample1Url}}):",
+    "code_title_sample_2": "Extract barcodes from images",
+    "code_samples_sample_2_content": "Use our {{EnvNameShort}} API to extract [barcodes]({{Sample2Url}}) from images:"
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}} Metadata API – View, Read, Export, Edit, Remove Document Metadata",
+    "head_description": "{{EnvNameShort}} metadata API to view, read, edit, analyze, find, delete, compare & export metadata of PDF Word Excel PPTX Outlook Visio Audio Video & Image documents.",
+    "title": "Metadata Manipulation API for {{EnvNameShort}}",
+    "description": "Develop {{EnvNameShort}} Applications to Create, View, Access, Update, Delete, Search, Compare, Replace & Export Metadata of Popular Documents & Image Formats.",
+    "actions_main": "Free Download from Maven",
+    "code_title": "Efficiently Fetch Metadata Properties",
+    "code_comment_1": "Pass source file to {{textParser}} instance",
+    "code_comment_2": "Pass document text to {{textReader}}",
+    "code_comment_3": "Process document text",
+    "overview_description": "Library designed for metadata manipulation via {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Control files & documents metadata",
+      "description": "{{ProdFullName}} is an advanced metadata management API to manipulate metadata information of documents, images, archives, torrents and various other file formats. Developers can now enhance the functionality of their {{EnvNameShort}} applications by easily incorporating metadata viewing, modifying, deleting, extracting, searching, comparing, replacing and exporting features within all popular business document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations & slides, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video, OpenType fonts and metafiles."
+    },
+    "overview_feature_2": {
+      "title": "Manipulate built-in metadata",
+      "description": "The {{EnvNameShort}} metadata library offers you features such as metadata search, replace metadata properties, compare metadata of supported file formats to identify similarities as well as differences. You can also edit or modify metadata for better information management and export retrieved metadata information to Excel file, CSV file and DataSet. The API offers comprehensive support to work with all commonly used metadata standards like built-in, XMP, EXIF and custom metadata properties within supported document formats."
+    },
+    "overview_feature_3": {
+      "title": "Broad Platform Support",
+      "description": "{{ProdFullName}} is compatible with all {{EnvNameShort}} versions and supports popular operating systems (Windows, Linux, MacOS) that are capable to run {{EnvNameShort}} runtime."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Features",
+      "description": "Protect your PDF, Office documents, and images metadata",
+      "feature_1": {
+        "title": "EXIF Images Metadata",
+        "content": "Update EXIF metadata properties in WEBP, PNG, and PSD files"
+      },
+      "feature_2": {
+        "title": "Get File Metadata",
+        "content": "Search properties of document, EXIF, and XMP metadata"
+      },
+      "feature_3": {
+        "title": "Clean Office Formats",
+        "content": "Access and delete hidden data in Microsoft Word, Excel, PowerPoint, and PDF files"
+      },
+      "feature_4": {
+        "title": "Metadata Export",
+        "content": "Export metadata of supported file formats to Excel, CSV, or DataSet"
+      },
+      "feature_5": {
+        "title": "PNG Image Support",
+        "content": "Extract text metadata from PNG image files"
+      },
+      "feature_6": {
+        "title": "Remove Digital Signatures",
+        "content": "Identify and delete digital signatures in Word, Excel, and PDF files"
+      },
+      "feature_7": {
+        "title": "Built-In Metadata Support",
+        "content": "Read metadata property using a defined key for any supported format"
+      },
+      "feature_8": {
+        "title": "Image Previews",
+        "content": "Generate image previews for EPUB, CAD, EML, and MSG files"
+      },
+      "feature_9": {
+        "title": "File Content Optimization",
+        "content": "Reduce memory consumption of PDF, Excel, and image formats"
+      },
+      "feature_10": {
+        "title": "Matroska Multimedia Support",
+        "content": "Read Matroska subtitles and retrieve metadata of audio and video files"
+      },
+      "feature_11": {
+        "title": "Replace Metadata Content",
+        "content": "Replace metadata properties of Word, Excel, PowerPoint, and PDF files"
+      },
+      "feature_12": {
+        "title": "Clean Business Data",
+        "content": "Delete metadata and comments from reports and documents"
+      },
+      "feature_13": {
+        "title": "Photo Location",
+        "content": "Manipulate image metadata properties and delete photo location information"
+      },
+      "feature_14": {
+        "title": "Analyze Metadata Distinctions",
+        "content": "Identify differences or similarities in metadata of supported formats by comparison"
+      },
+      "feature_15": {
+        "title": "Password Protection",
+        "content": "Detect document password protection in Word, Excel, PowerPoint, and PDF files"
+      },
+      "feature_16": {
+        "title": "Archive & Torrents Support",
+        "content": "Manipulate built-in and custom metadata and fetch metadata of torrents and archive formats"
+      },
+      "feature_17": {
+        "title": "EXIF Image Metadata",
+        "content": "Add or update XMP and EXIF metadata properties of arbitrary types using the Search API"
+      },
+      "feature_18": {
+        "title": "Detect Document File Type at Run-time",
+        "content": "Our solution provides the ability to detect file or stream type before metadata processing"
+      },
+      "feature_19": {
+        "title": "Font Metadata Support",
+        "content": "Supports enumeration of any metadata type and reads metadata of OpenType font files"
+      },
+      "feature_20": {
+        "title": "Email Metadata Support",
+        "content": "Get and delete metadata of email messages and remove attachments"
+      },
+      "feature_21": {
+        "title": "Microsoft Excel Support",
+        "content": "Metadata extraction from Microsoft Excel files starting from Excel 95"
+      },
+      "feature_22": {
+        "title": "Matroska Multimedia Previews",
+        "content": "Fetch thumbnails and image previews of supported formats with Matroska multimedia container support"
+      },
+      "feature_23": {
+        "title": "Microsoft Project Support",
+        "content": "Read metadata from encrypted Microsoft Project files"
+      },
+      "feature_24": {
+        "title": "TIFF Support",
+        "content": "Add, update, and delete IPTC metadata packages in TIFF images"
+      },
+      "feature_25": {
+        "title": "JPEG Support",
+        "content": "Add, update, and remove EXIF metadata packages in JPEG2000 images"
+      },
+      "feature_26": {
+        "title": "Multimedia Files Support",
+        "content": "Extract XMP metadata properties in MOV, MP3, and WEBP files"
+      },
+      "feature_27": {
+        "title": "HEIC Media Support",
+        "content": "Read EXIF tags and XMP metadata properties from HEIC/HEIF image formats"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supports various operating systems and package managers.",
+    "formats_description": "{{ProdFullName}} enables processing of a wide range of file formats. [See the complete list]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "code_title_sample_1": "Extract images from PDF documents",
+    "code_samples_sample_1_content": "{{ProdFullName}} makes it easy for {{ProgLang}} developers to extract images from [documents]({{Sample1Url}}):",
+    "code_title_sample_2": "Extract barcodes from images",
+    "code_samples_sample_2_content": "Use our {{EnvNameShort}} API to extract [barcodes]({{Sample2Url}}) from images:"
+  }
+}

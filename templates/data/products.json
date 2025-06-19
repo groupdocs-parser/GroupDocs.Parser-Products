@@ -1,0 +1,62 @@
+{
+  "products": {
+    "nameCompany": "GroupDocs",
+    "nameProduct": "Parser",
+    "productShortName": "GroupDocs.Parser",
+    "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
+    "pricingUrl": "https://purchase.groupdocs.com/pricing/parser/net/",
+    "textParser": "Parser",
+    "textReader": "TextReader",
+    "aspNet": "ASP.NET",
+    "coreNet": ".NET Core",
+    "mono": "Mono",
+    "net": {
+      "environmentName": ".NET",
+      "environmentNameShort": ".NET",
+      "productCode": "net",
+      "productPlatformLink": "/parser/net/",
+      "productFullName": "GroupDocs.Parser for .NET",
+
+      "programmingLanguage": "C#",
+      "srcFileExt": ".cs",
+      "syntax": "csharp",
+      "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+
+      "productUrl": "https://products.groupdocs.com/parser/net/",
+      "packageStoreName": "Nuget",
+      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Parser",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/parser/net/",
+      "docsUrl": "https://docs.groupdocs.com/parser/net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/parser/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/parser/net/extract-images-from-documents/",
+      "sample2Url": "https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/",
+
+      "more_link": "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/parser/net/"
+    },
+    "java": {
+      "environmentName": "Java",
+      "environmentNameShort": "Java",
+      "productCode": "java",
+      "productPlatformLink": "/parser/java/",
+      "productFullName": "GroupDocs.Parser for Java",
+
+      "programmingLanguage": "Java",
+      "srcFileExt": ".java",
+      "syntax": "java",
+      "runtime": "Java runtime: J2SE 6.0 and above",
+
+      "productUrl": "https://products.groupdocs.com/parser/java/",
+      "packageStoreName": "Maven",
+      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/parser/java/",
+      "docsUrl": "https://docs.groupdocs.com/parser/java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/parser/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/parser/java/extract-images-from-documents/",
+      "sample2Url": "https://docs.groupdocs.com/parser/java/extract-barcodes-from-document/",
+
+      "more_link": "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Java/",
+      "release_downloads": "https://releases.groupdocs.com/parser/java/"
+    }
+  }
+}
