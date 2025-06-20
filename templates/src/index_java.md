@@ -125,40 +125,31 @@ formats:
   enable: true
   title: "<% "{index-content.formats_title}" %>"
   description: |
-    <% "{index-content-java.formats_description}" %>
+    <% "{index-content-net.formats_description}" %>
   groups:
     # group loop
     - color: "green"
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
-        * **<% "{index-content.formats_groups.format_portable}" %>:** PDF 
-        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-        * **OpenDocument:** ODT, ODS
-        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
     # group loop
     - color: "blue"
       content: |
         ### <% "{index-content.formats_groups.title_2}" %>
-        * **<% "{index-content.formats_groups.format_video}" %>:** AVI, MOV, QT, FLV
-        * **<% "{index-content.formats_groups.format_popular_images}" %>:** JPG, JPEG, JPE, JP2, PNG, BMP
-        * **<% "{index-content.formats_groups.format_multi_images}" %>:** GIF, WEBP, TIFF, DJVU, DJV, DICOM
-        * **<% "{index-content.formats_groups.format_audio}" %>:** MP3, WAV
-        * **Matroska Media Container:** MKV, MKA, MK3D, WEBM
-        * **AutoCAD:** DWG, DXF
-        * **Photoshop:** PSD
+        * **<% "{index-content.formats_groups.format_portable}" %>:** PDF 
+        * **<% "{index-content.formats_groups.format_images}" %>:** JPG, BMP, PNG, TIFF, GIF
+        * **<% "{index-content.formats_groups.format_other_office}" %>:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
         ### <% "{index-content.formats_groups.title_3}" %>
-        * **Outlook:** MSG, EML, EMLX, PST, OS
-        * **<% "{index-content.formats_groups.format_fonts}" %>:** OTF, OTC, TTF, TTC
-        * **<% "{index-content.formats_groups.format_project}" %>:** MPP
-        * **Metafiles:** EMF, WMF
-        * **vCard:** VCF, VCR
-        * **OneNote:** ONE
-        * **<% "{index-content.formats_groups.format_others}" %>:** EPUB, ZIP, TORRENT, ASF
+        * **<% "{index-content.formats_groups.format_other_web}" %>:** HTML, MHTML 
+        * **<% "{index-content.formats_groups.format_other_archives}" %>:** ZIP, TAR, 7Z 
+        * **<% "{index-content.formats_groups.format_other_ebooks}" %>:** CHM, EPUB, FB2, MOBI 
+        
+        
 
 ############################# Features ############################
 features:
@@ -168,139 +159,50 @@ features:
 
   items:
     # feature loop
-    - icon: "image_frame"
-      title: "<% "{index-content-java.features.feature_1.title}" %>"
-      content: "<% "{index-content-java.features.feature_1.content}" %>"
+    - icon: "text"
+      title: "<% "{index-content-net.features.feature_1.title}" %>"
+      content: "<% "{index-content-net.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "detect"
-      title: "<% "{index-content-java.features.feature_2.title}" %>"
-      content: "<% "{index-content-java.features.feature_2.content}" %>"
+    - icon: "image"
+      title: "<% "{index-content-net.features.feature_2.title}" %>"
+      content: "<% "{index-content-net.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "hidden_print"
-      title: "<% "{index-content-java.features.feature_3.title}" %>"
-      content: "<% "{index-content-java.features.feature_3.content}" %>"
-
-    # feature loop
-    - icon: "get"
-      title: "<% "{index-content-java.features.feature_4.title}" %>"
-      content: "<% "{index-content-java.features.feature_4.content}" %>"
-
-    # feature loop
-    - icon: "image_frame"
-      title: "<% "{index-content-java.features.feature_5.title}" %>"
-      content: "<% "{index-content-java.features.feature_5.content}" %>"
-
-    # feature loop
-    - icon: "remove"
-      title: "<% "{index-content-java.features.feature_6.title}" %>"
-      content: "<% "{index-content-java.features.feature_6.content}" %>"
-
-    # feature loop
-    - icon: "metadata_style"
-      title: "<% "{index-content-java.features.feature_7.title}" %>"
-      content: "<% "{index-content-java.features.feature_7.content}" %>"
-
-    # feature loop
-    - icon: "preview"
-      title: "<% "{index-content-java.features.feature_8.title}" %>"
-      content: "<% "{index-content-java.features.feature_8.content}" %>"
-
-    # feature loop
-    - icon: "pdf_objects"
-      title: "<% "{index-content-java.features.feature_9.title}" %>"
-      content: "<% "{index-content-java.features.feature_9.content}" %>"
-
-    # feature loop
-    - icon: "metadata_text_search"
-      title: "<% "{index-content-java.features.feature_10.title}" %>"
-      content: "<% "{index-content-java.features.feature_10.content}" %>"
-
-    # feature loop
-    - icon: "manipulate"
-      title: "<% "{index-content-java.features.feature_11.title}" %>"
-      content: "<% "{index-content-java.features.feature_11.content}" %>"
-
-    # feature loop
-    - icon: "remove"
-      title: "<% "{index-content-java.features.feature_12.title}" %>"
-      content: "<% "{index-content-java.features.feature_12.content}" %>"
-
-    # feature loop
-    - icon: "image_frame"
-      title: "<% "{index-content-java.features.feature_13.title}" %>"
-      content: "<% "{index-content-java.features.feature_13.content}" %>"
-
-    # feature loop
-    - icon: "compare"
-      title: "<% "{index-content-java.features.feature_14.title}" %>"
-      content: "<% "{index-content-java.features.feature_14.content}" %>"
-
-    # feature loop
-    - icon: "unreadable_characters"
-      title: "<% "{index-content-java.features.feature_15.title}" %>"
-      content: "<% "{index-content-java.features.feature_15.content}" %>"
-
-    # feature loop
-    - icon: "document_info"
-      title: "<% "{index-content-java.features.feature_16.title}" %>"
-      content: "<% "{index-content-java.features.feature_16.content}" %>"
-
-    # feature loop
-    - icon: "image_only"
-      title: "<% "{index-content-java.features.feature_17.title}" %>"
-      content: "<% "{index-content-java.features.feature_17.content}" %>"
-
-    # feature loop
-    - icon: "detect"
-      title: "<% "{index-content-java.features.feature_18.title}" %>"
-      content: "<% "{index-content-java.features.feature_18.content}" %>"
-
-    # feature loop
-    - icon: "metadata_style"
-      title: "<% "{index-content-java.features.feature_19.title}" %>"
-      content: "<% "{index-content-java.features.feature_19.content}" %>"
+    - icon: "qr"
+      title: "<% "{index-content-net.features.feature_3.title}" %>"
+      content: "<% "{index-content-net.features.feature_3.content}" %>"
 
     # feature loop
     - icon: "email"
-      title: "<% "{index-content-java.features.feature_20.title}" %>"
-      content: "<% "{index-content-java.features.feature_20.content}" %>"
+      title: "<% "{index-content-net.features.feature_4.title}" %>"
+      content: "<% "{index-content-net.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "export"
-      title: "<% "{index-content-java.features.feature_21.title}" %>"
-      content: "<% "{index-content-java.features.feature_21.content}" %>"
+    - icon: "table"
+      title: "<% "{index-content-net.features.feature_5.title}" %>"
+      content: "<% "{index-content-net.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "preview"
-      title: "<% "{index-content-java.features.feature_22.title}" %>"
-      content: "<% "{index-content-java.features.feature_22.content}" %>"
+    - icon: "hyperlink"
+      title: "<% "{index-content-net.features.feature_6.title}" %>"
+      content: "<% "{index-content-net.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "unreadable_characters"
-      title: "<% "{index-content-java.features.feature_23.title}" %>"
-      content: "<% "{index-content-java.features.feature_23.content}" %>"
+    - icon: "pdf"
+      title: "<% "{index-content-net.features.feature_7.title}" %>"
+      content: "<% "{index-content-net.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "image_only"
-      title: "<% "{index-content-java.features.feature_24.title}" %>"
-      content: "<% "{index-content-java.features.feature_24.content}" %>"
+    - icon: "template"
+      title: "<% "{index-content-net.features.feature_8.title}" %>"
+      content: "<% "{index-content-net.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "metadata_image_search"
-      title: "<% "{index-content-java.features.feature_25.title}" %>"
-      content: "<% "{index-content-java.features.feature_25.content}" %>"
+    - icon: "search"
+      title: "<% "{index-content-net.features.feature_9.title}" %>"
+      content: "<% "{index-content-net.features.feature_9.content}" %>"
 
-    # feature loop
-    - icon: "export"
-      title: "<% "{index-content-java.features.feature_26.title}" %>"
-      content: "<% "{index-content-java.features.feature_26.content}" %>"
-
-    # feature loop
-    - icon: "image_only"
-      title: "<% "{index-content-java.features.feature_27.title}" %>"
-      content: "<% "{index-content-java.features.feature_27.content}" %>"
 
 ############################# Code samples ############################
 code_samples:

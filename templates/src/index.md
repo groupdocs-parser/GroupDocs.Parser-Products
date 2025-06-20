@@ -24,8 +24,6 @@ description:  |
 
   <% "{index-content.description_2}" %>
 
-  <% "{index-content.description_3}" %>
-
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
@@ -46,7 +44,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    .NET Core 3.0 or higher <br> .NET 5.0 or higher <br> .NET Standard 2.1
+                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
       
           # features loop
           - rows: "1"
@@ -61,7 +59,7 @@ supported_platforms:
           # features loop
           - rows: "1"
             content: |
-                    70+ file formats
+                    50+ file formats
       
 
     # items loop
@@ -75,7 +73,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    J2SE 7.0 or higher <br> Kotlin
+                    Java 8 or higher <br> Kotlin
       
           # features loop
           - rows: "1"
@@ -90,7 +88,7 @@ supported_platforms:
           # features loop
           - rows: "1"
             content: |
-                    70+ file formats
+                    50+ file formats
 
 ############################# Features ###############################
 features:
@@ -100,22 +98,22 @@ features:
 
   items:
     # items loop
-    - icon: "protect"
+    - icon: "text"
       title: "<% "{index-content.features.feature_1.title}" %>"
       content: "<% "{index-content.features.feature_1.content}" %>"
 
     # items loop
-    - icon: "control"
+    - icon: "image"
       title: "<% "{index-content.features.feature_2.title}" %>"
       content: "<% "{index-content.features.feature_2.content}" %>"
 
     # items loop
-    - icon: "manipulate"
+    - icon: "template"
       title: "<% "{index-content.features.feature_3.title}" %>"
       content: "<% "{index-content.features.feature_3.content}" %>"
 
     # items loop
-    - icon: "additional"
+    - icon: "pdf"
       title: "<% "{index-content.features.feature_4.title}" %>"
       content: "<% "{index-content.features.feature_4.content}" %>"
 
@@ -185,17 +183,17 @@ metrics:
 
   items:
     # items loop
-    - number: "70+"
+    - number: "50+"
       title: "<% "{index-content.metrics.item_1.title}" %>"
       content: "<% "{index-content.metrics.item_1.description}" %>"
 
     # items loop
-    - number: "700k"
+    - number: "1600k"
       title: "<% "{index-content.metrics.item_2.title}" %>"
       content: "<% "{index-content.metrics.item_2.description}" %>"
 
     # items loop
-    - number: "15k"
+    - number: "18k"
       title: "<% "{index-content.metrics.item_3.title}" %>"
       content: "<% "{index-content.metrics.item_3.description}" %>"
 

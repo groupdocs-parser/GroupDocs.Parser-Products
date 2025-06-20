@@ -12,3 +12,4 @@
 <% set "Mono" (dict "products.mono") %>
 <% set "textParser" (dict "products.textParser") %>
 <% set "textReader" (dict "products.textReader") %>
+<% set "PackageStoreName" (dict "products.{product}.packageStoreName") %>
