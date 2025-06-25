@@ -1,0 +1,56 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Parse PDF",
+        "description": "(Portable Document Format)"
+      },
+      "docx": {
+        "name": "Parse DOCX",
+        "description": "(Office 2007+ Word Document)"
+      },
+      "pptx": {
+        "name": "Parse PPTX",
+        "description": "(Open XML presentation Format)"
+      },
+      "xlsx": {
+        "name": "Parse XLSX",
+        "description": "(Open XML Workbook)"
+      },
+      "txt": {
+        "name": "Parse TXT",
+        "description": "(Text file)"
+      },
+      "rtf": {
+        "name": "Parse RTF",
+        "description": "(Rich Text Format)"
+      },
+      "xml": {
+        "name": "Parse XML",
+        "description": "(eXtensible Markup Language)"
+      },
+      "epub": {
+        "name": "Parse EPUB",
+        "description": "(Open eBook File)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copy",
+      "copy_tip": "click to copy",
+      "copy_done": "copied",
+      "links": {
+        "title_1": "More examples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "comment_1": "{{PackageStoreName}} download",
+      "comment_2": "Licensing"
+    },
+    "texts": {
+      "learn_more": "Learn more"
+    }
+  }
+}

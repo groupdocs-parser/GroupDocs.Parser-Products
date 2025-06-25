@@ -33,7 +33,7 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/metadata/<% get "ProdCode" %>/"
+    link: "/parser/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
     picture: "about_parser.svg" # 480 X 400
     content: |
@@ -59,7 +59,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-metadata</artifactId>
+              <artifactId>groupdocs-parser</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>

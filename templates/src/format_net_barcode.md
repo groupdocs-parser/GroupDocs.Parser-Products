@@ -33,7 +33,7 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/metadata/<% get "ProdCode" %>/"
+    link: "/parser/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
     picture: "about_parser.svg" # 480 X 400
     content: |
@@ -56,7 +56,7 @@ steps:
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Metadata"
+        command: "dotnet add package GroupDocs.Parser"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,20 +70,22 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        using (var metadata = new GroupDocs.Metadata.Metadata("input.<% get "fileformat" %>"))
-        {
+        using (Parser parser = new Parser("input.<% get "fileformat" %>")) {
+
             // <% "{examples.comment_2}" %>
-            var affected = metadata.AddProperties(p => p.Tags.Contains(
-              GroupDocs.Metadata.Tagging.Tags.Person.Creator), 
-              new GroupDocs.Metadata.Common.PropertyValue("test content author"));
-            
-            // <% "{examples.comment_3}" %>
-            Console.WriteLine("Affected properties: {0}", affected);
-            
+            if (!parser.Features.Barcodes) {
+                Console.WriteLine("<% "{examples.comment_3}" %>");
+                return;
+            }
+
             // <% "{examples.comment_4}" %>
-            metadata.Save("output.<% get "fileformat" %>");
+            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes();
+
+            foreach (PageBarcodeArea barcode in barcodes) {
+                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                Console.WriteLine("Value: " + barcode.Value);
+            }
         }
-        
         ```  
 
 ############################# More features ############################
@@ -113,29 +115,28 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        
-            using (Metadata metadata = new Metadata("input.tiff"))
+        //  <% "{more_features.code_1.comment_1}" %>
+        using (Parser parser = new Parser("input.pdf"))
+        {
+            // <% "{more_features.code_1.comment_2}" %>
+            if (!parser.Features.Barcodes)
             {
-                IExif root = metadata.GetRootPackage() as IExif;
-                if (root != null)
-                {
-                    //  <% "{more_features.code_1.comment_1}" %>
-                    if (root.ExifPackage == null)
-                    {
-                        root.ExifPackage = new ExifPackage();
-                    }
-
-                    //  <% "{more_features.code_1.comment_2}" %>
-                    root.ExifPackage.Set(new TiffAsciiTag(TiffTagID.Artist, "test artist"));
-
-                    //  <% "{more_features.code_1.comment_3}" %>
-                    //  <% "{more_features.code_1.comment_4}" %>
-                    root.ExifPackage.Set(new TiffAsciiTag((TiffTagID)65523, "custom"));
-
-                    metadata.Save("output.tiff");
-                }
+                return;
             }
 
+            // <% "{more_features.code_1.comment_3}" %>
+            BarcodeOptions options = new BarcodeOptions(QualityMode.Low, QualityMode.Low, "QR");
+
+            // <% "{more_features.code_1.comment_4}" %>
+            IEnumerable<PageBarcodeArea> barcodes = parser.GetBarcodes(options);
+
+            // <% "{more_features.code_1.comment_5}" %>
+            foreach (PageBarcodeArea barcode in barcodes)
+            {
+                Console.WriteLine("Page: " + barcode.Page.Index.ToString());
+                Console.WriteLine("Value: " + barcode.Value);
+            }
+        }
         ```
         {{< /landing/code >}}
 
