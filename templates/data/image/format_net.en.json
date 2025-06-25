@@ -1,60 +1,60 @@
 {
   "head": {
-    "title": "Extract barcodes from {{FileFormatUp}} files in {{ProgLang}} apps",
-    "description": "Use {{ProdShortName}} to detect and extract barcode data from {{FileFormatUp}} files in {{ProgLang}} without additional software."
+    "title": "Extract images from {{FileFormatUp}} files in {{ProgLang}} apps",
+    "description": "Use {{ProdShortName}} to detect and extract images from {{FileFormatUp}} files in {{ProgLang}} without additional tools."
   },
   "header": {
-    "title": "Extract barcodes from {{FileFormatUp}} using {{ProgLang}}",
-    "description": "Easily detect and extract barcode information from PDF, Word, Excel, and image files using {{ProdShortName}} in your {{EnvNameShort}} applications.",
+    "title": "Extract images from {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Easily locate and extract embedded images from PDFs, Word documents, Excel sheets, and other file types using {{ProdShortName}} in your {{EnvNameShort}} apps.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
   },
   "about": {
     "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdShortName}}]({{PlatformLink}}) is a powerful document parsing API for {{EnvName}} developers. It enables the extraction of text, images, structured content, and barcodes from various file formats including PDF, Word, Excel, JPG, PNG, and more — all without relying on external tools."
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) is a robust document parsing library for {{EnvName}} developers. It allows you to extract images, text, hyperlinks, and structured data from popular file formats like PDF, DOCX, XLSX, PPTX, and others — all without needing any third-party applications."
   },
   "formats": {
-    "title": "Supported formats for barcode extraction",
-    "description": "{{ProdShortName}} supports barcode detection in a wide range of document and image formats. See below for commonly supported file types."
+    "title": "Supported formats for image extraction",
+    "description": "{{ProdShortName}} enables accurate image extraction from a wide range of document and image formats. Check the list below for commonly supported types."
   },
   "examples": {
-    "comment_1": "Load the document with images",
-    "comment_2": "Extract images from the document",
-    "comment_3": "Skip if there no images extracted",
-    "comment_4": "Process images"
+    "comment_1": "Open the document containing images using {{textParser}}",
+    "comment_2": "Extract all embedded images from the file",
+    "comment_3": "Handle cases where no images are found",
+    "comment_4": "Process or save the retrieved images"
   },
   "steps": {
-    "title": "Steps to extract barcodes from {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps to extract images from {{FileformatCap}} in {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you easily extract images data from {{FileFormatUp}} files by following these simple steps:",
-      "step_1": "Load the {{FileFormatUp}} file using a {{textParser}} instance.",
-      "step_2": "Get images from the document.",
-      "step_3": "Use images in desired way."
+      "title": "With [{{ProdShortName}}]({{PlatformLink}}), you can extract images from {{FileFormatUp}} documents in your {{EnvName}} projects in just a few steps:",
+      "step_1": "Initialize the {{textParser}} with the {{FileFormatUp}} file.",
+      "step_2": "Retrieve image elements from the document.",
+      "step_3": "Use the extracted images as needed in your workflow."
     }
   },
   "more_features": {
-    "title": "Advanced document parsing features",
-    "description": "Beyond barcode extraction, {{ProdShortName}} allows you to extract plain text, images, and structured data to support advanced automation and data processing workflows.",
-    "image_description": "Barcode recognition and document parsing",
+    "title": "Comprehensive document content extraction",
+    "description": "{{ProdShortName}} offers more than just image extraction — you can also extract raw text, hyperlinks, metadata, and structured content for advanced automation scenarios.",
+    "image_description": "Image extraction and document parsing workflow",
     "feature_1": {
-      "title": "Support for multiple barcode formats",
-      "content": "Recognize common barcode types including QR Code, Code 128, Data Matrix, EAN, Aztec, and more."
+      "title": "Extract images from multiple formats",
+      "content": "Pull out embedded images from a variety of file formats, including DOCX, PDF, PPTX, XLSX, and image files like PNG, JPG, and TIFF."
     },
     "feature_2": {
-      "title": "Extract barcodes from documents and images",
-      "content": "Read barcodes from PDF, Word, Excel documents, and image formats like JPEG, PNG, and BMP."
+      "title": "Preserve original image quality",
+      "content": "Images are extracted with high fidelity, maintaining their original resolution, format, and color profile."
     },
     "feature_3": {
-      "title": "Customizable extraction settings",
-      "content": "Configure detection options such as scanning regions and processing multi-page documents."
+      "title": "Advanced extraction options",
+      "content": "Customize image extraction with filtering by page, format, or resolution, and support for multi-page documents."
     },
     "code_1": {
-      "title": "How to save images from a PDF to local disk",
-      "content": "This example demonstrates how to extract images from a PDF file and save them as particular files.",
-      "comment_1": "Pass the PDF path to the {{textParser}} class",
-      "comment_2": "Extract images from document",
-      "comment_3": "Provide the options to save images in PNG format",
-      "comment_4": "Save images to disk"
+      "title": "How to extract and save images from a PDF document",
+      "content": "This example demonstrates how to extract all image assets from a PDF file and save them to the local file system.",
+      "comment_1": "Load the PDF using the {{textParser}} class",
+      "comment_2": "Extract embedded images from the file",
+      "comment_3": "Set output format and image options (e.g., PNG)",
+      "comment_4": "Write the extracted images to disk"
     }
   }
 }

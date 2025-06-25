@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "Overview of {{ProdFullName}} API",
-    "content": "[{{ProdShortName}}]({{PlatformLink}}) provides a comprehensive solution for document parsing in {{EnvName}}. It enables developers to extract barcodes, text, images, and structured information from multiple file formats like PDF, Word, Excel, PNG, JPG, and others—without needing third-party libraries."
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) provides a comprehensive solution for document parsing in {{EnvName}}. It enables developers to extract barcodes, text, images, and structured information from multiple file formats like PDF, Word, Excel, PowerPoint, and others—without needing third-party libraries."
   },
   "formats": {
     "title": "File formats supported for barcode reading",
