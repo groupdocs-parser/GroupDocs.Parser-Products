@@ -132,15 +132,11 @@ more_features:
             // <% "{more_features.code_1.comment_4}" %>
             IEnumerable<PageHyperlinkArea> hyperlinks = parser.GetHyperlinks(options);
 
-            // Iterate over hyperlinks
+            // <% "{more_features.code_1.comment_5}" %>
             foreach (PageHyperlinkArea h in hyperlinks)
             {
-                // Print the hyperlink text
                 Console.WriteLine(h.Text);
-                // Print the hyperlink URL
                 Console.WriteLine(h.Url);
-
-                Console.WriteLine();
             }
         }
         ```

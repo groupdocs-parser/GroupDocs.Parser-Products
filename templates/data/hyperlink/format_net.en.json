@@ -1,62 +1,62 @@
 {
   "head": {
-    "title": "Extract barcodes from {{FileFormatUp}} files in {{ProgLang}} apps",
-    "description": "Use {{ProdShortName}} to detect and extract barcode data from {{FileFormatUp}} files in {{ProgLang}} without additional software."
+    "title": "Extract hyperlinks from {{FileFormatUp}} files in {{ProgLang}} apps",
+    "description": "Use {{ProdShortName}} to detect and extract hyperlinks from {{FileFormatUp}} files in {{ProgLang}} without additional tools or software."
   },
   "header": {
-    "title": "Extract barcodes from {{FileFormatUp}} using {{ProgLang}}",
-    "description": "Easily detect and extract barcode information from PDF, Word, Excel, and image files using {{ProdShortName}} in your {{EnvNameShort}} applications.",
+    "title": "Extract hyperlinks from {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Easily detect and extract URLs and hyperlinks from PDF, Word, Excel, and other document types using {{ProdShortName}} in your {{EnvNameShort}} applications.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
   },
   "about": {
     "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdShortName}}]({{PlatformLink}}) is a powerful document parsing API for {{EnvName}} developers. It enables the extraction of text, images, structured content, and barcodes from various file formats including PDF, Word, Excel, JPG, PNG, and more — all without relying on external tools."
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) is a versatile document parsing API for {{EnvName}} developers. It supports extracting hyperlinks, text, images, and structured content from various file formats such as PDF, Word, Excel, HTML, and more—without relying on external software."
   },
   "formats": {
-    "title": "Supported formats for barcode extraction",
-    "description": "{{ProdShortName}} supports barcode detection in a wide range of document and image formats. See below for commonly supported file types."
+    "title": "Supported formats for hyperlink extraction",
+    "description": "{{ProdShortName}} can extract hyperlinks from a wide variety of document types. See below for commonly supported formats."
   },
   "examples": {
-    "comment_1": "Load the document containing barcodes using the {{textParser}} class",
-    "comment_2": "Check if the document supports hyperlink extraction",
-    "comment_3": "Document isn't supports hyperlink extraction",
-    "comment_4": "Retrieve and process the extracted hyper-links"
+    "comment_1": "Load the document containing hyperlinks using the {{textParser}} class",
+    "comment_2": "Verify that the file supports hyperlink extraction",
+    "comment_3": "Hyperlink extraction is not available for the file",
+    "comment_4": "Retrieve and process the extracted hyperlinks"
   },
   "steps": {
-    "title": "Steps to extract hyper-links from {{FileformatCap}} using {{ProgLang}}",
+    "title": "Steps to extract hyperlinks from {{FileformatCap}} in {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you easily extract hyper-links from {{FileFormatUp}} files in {{EnvName}} applications by following these simple steps:",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables {{EnvName}} developers to extract hyperlinks from {{FileFormatUp}} files by following these simple steps:",
       "step_1": "Load the {{FileFormatUp}} file using a {{textParser}} instance.",
-      "step_2": "Verify that the document supports hyper-link extraction.",
-      "step_3": "Retrieve the list of hyper-links from the document.",
-      "step_4": "Process extracted hyper-links accordingly to your intentions."
+      "step_2": "Check if the document supports hyperlink extraction.",
+      "step_3": "Retrieve the list of hyperlinks from the document.",
+      "step_4": "Loop through the results and work with the extracted URLs."
     }
   },
   "more_features": {
-    "title": "Advanced document parsing features",
-    "description": "Beyond barcode extraction, {{ProdShortName}} allows you to extract plain text, images, and structured data to support advanced automation and data processing workflows.",
-    "image_description": "Barcode recognition and document parsing",
+    "title": "Advanced document parsing capabilities",
+    "description": "In addition to hyperlink extraction, {{ProdShortName}} allows you to extract text, metadata, images, and structured data—supporting powerful data processing workflows.",
+    "image_description": "Hyperlink detection and document parsing",
     "feature_1": {
-      "title": "Support for multiple barcode formats",
-      "content": "Recognize common barcode types including QR Code, Code 128, Data Matrix, EAN, Aztec, and more."
+      "title": "Hyperlink detection from documents",
+      "content": "Quickly extract URLs and link annotations from documents like PDFs, Word files, spreadsheets, and more."
     },
     "feature_2": {
-      "title": "Extract barcodes from documents and images",
-      "content": "Read barcodes from PDF, Word, Excel documents, and image formats like JPEG, PNG, and BMP."
+      "title": "Support for web and embedded links",
+      "content": "Detect and extract both standard web URLs and embedded document links across multiple formats."
     },
     "feature_3": {
-      "title": "Customizable extraction settings",
-      "content": "Configure detection options such as scanning regions and processing multi-page documents."
+      "title": "Flexible parsing options",
+      "content": "Customize extraction settings for scanning specific sections or pages to improve performance and accuracy."
     },
     "code_1": {
-      "title": "How to extract hyper-links from a DOCX page area",
-      "content": "This example demonstrates how to extract hyper-links from an area of a DOCX document.",
-      "comment_1": "Load the document to {{textParser}} instance",
-      "comment_2": "Skip if hyper-links extraction is not supported",
-      "comment_3": "Define a search area on a page",
-      "comment_4": "Extract hyper-links from the area",
-      "comment_5": "Process the list of extracted barcodes"
+      "title": "How to extract hyperlinks from a PDF using link options",
+      "content": "This code example shows how to extract all hyperlinks from a PDF file using custom options.",
+      "comment_1": "Initialize the {{textParser}} with the PDF document",
+      "comment_2": "Check if hyperlink extraction is supported",
+      "comment_3": "Set link extraction options to narrow results",
+      "comment_4": "Extract hyperlink data from the document",
+      "comment_5": "Handle the list of extracted links"
     }
   }
 }
