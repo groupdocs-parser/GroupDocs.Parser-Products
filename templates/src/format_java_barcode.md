@@ -84,19 +84,23 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        try (Metadata metadata = new Metadata("input.<% get "fileformat" %>"))
+        try (Parser parser = new Parser("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
-            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), 
-                new PropertyValue(new Date()));
-
-            // <% "{examples.comment_3}" %>
-            System.out.println(String.format("Affected properties: %s", affected));
+            if (!parser.getFeatures().isBarcodes())
+            {
+                System.out.println("<% "{examples.comment_3}" %>");
+                return;
+            }
 
             // <% "{examples.comment_4}" %>
-            metadata.save("output.<% get "fileformat" %>");
+            Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
+            for(PageBarcodeArea barcode : barcodes)
+            {
+                System.out.println("Page: " + barcode.getPage().getIndex());
+                System.out.println("Value: " + barcode.getValue());
+            }
         }
-        
         ```            
 
 ############################# More features ############################
@@ -126,23 +130,27 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        
-        try (Metadata metadata = new Metadata("input.tiff")) {
-            IExif root = (IExif) metadata.getRootPackage();
-
-            //  <% "{more_features.code_1.comment_1}" %>
-            if (root.getExifPackage() == null) {
-                root.setExifPackage(new ExifPackage());
+        //  <% "{more_features.code_1.comment_1}" %>
+        try (Parser parser = new Parser("input.pdf"))
+        {
+            // <% "{more_features.code_1.comment_2}" %>
+            if (!parser.getFeatures().isBarcodes())
+            {
+                return;
             }
 
-            //  <% "{more_features.code_1.comment_2}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.Artist, "Artist's name"));
+            // <% "{more_features.code_1.comment_3}" %>
+            BarcodeOptions options = new BarcodeOptions(QualityMode.Low, QualityMode.Low, "QR");
 
-            //  <% "{more_features.code_1.comment_3}" %>
-            //  <% "{more_features.code_1.comment_4}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
+            // <% "{more_features.code_1.comment_4}" %>
+            Iterable<PageBarcodeArea> barcodes = parser.getBarcodes(options);
 
-            metadata.save("output.tiff");
+            // <% "{more_features.code_1.comment_5}" %>
+            for (PageBarcodeArea barcode : barcodes)
+            {
+                System.out.println("Page: " + String.valueOf(barcode.getPage().getIndex()));
+                System.out.println("Value: " + barcode.getValue());
+            }
         }
         ```
         {{< /landing/code >}}
