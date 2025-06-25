@@ -33,7 +33,7 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/metadata/<% get "ProdCode" %>/"
+    link: "/parser/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
     picture: "about_parser.svg" # 480 X 400
     content: |
@@ -49,7 +49,6 @@ steps:
       1. <% "{steps.content.step_1}" %>
       2. <% "{steps.content.step_2}" %>
       3. <% "{steps.content.step_3}" %>
-      4. <% "{steps.content.step_4}" %>
    
     code:
       platform: "net"
@@ -59,7 +58,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-metadata</artifactId>
+              <artifactId>groupdocs-parser</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -84,19 +83,22 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        try (Metadata metadata = new Metadata("input.<% get "fileformat" %>"))
+        try (Parser parser = new Parser("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
-            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), 
-                new PropertyValue(new Date()));
+            Iterable<PageImageArea> images = parser.getImages();
 
             // <% "{examples.comment_3}" %>
-            System.out.println(String.format("Affected properties: %s", affected));
+            if (images == null) {
+                return;
+            }
 
             // <% "{examples.comment_4}" %>
-            metadata.save("output.<% get "fileformat" %>");
+            for (PageImageArea image : images) {
+                System.out.println(String.format("Page: %d, R: %s, Type: %s", image.getPage().getIndex(), 
+                    image.getRectangle(), image.getFileType()));
+            }
         }
-        
         ```            
 
 ############################# More features ############################
@@ -104,7 +106,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/parser/features_extract-image.webp" # 500x500 px
+  image: "/img/parser/features_extract-barcode.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -126,23 +128,22 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        
-        try (Metadata metadata = new Metadata("input.tiff")) {
-            IExif root = (IExif) metadata.getRootPackage();
+        //  <% "{more_features.code_1.comment_1}" %>
+        try (Parser parser = new Parser("input.pdf"))
+        {
+            // <% "{more_features.code_1.comment_2}" %>
+            Iterable<PageImageArea> images = parser.getImages();
 
-            //  <% "{more_features.code_1.comment_1}" %>
-            if (root.getExifPackage() == null) {
-                root.setExifPackage(new ExifPackage());
+            // <% "{more_features.code_1.comment_3}" %>
+            ImageOptions options = new ImageOptions(ImageFormat.Png);
+
+            // <% "{more_features.code_1.comment_4}" %>
+            int imageNumber = 0;
+            for (PageImageArea image : images)
+            {
+                image.save(Constants.getOutputFilePath(String.format("%d.png", imageNumber)), options);
+                imageNumber++;
             }
-
-            //  <% "{more_features.code_1.comment_2}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.Artist, "Artist's name"));
-
-            //  <% "{more_features.code_1.comment_3}" %>
-            //  <% "{more_features.code_1.comment_4}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
-
-            metadata.save("output.tiff");
         }
         ```
         {{< /landing/code >}}
