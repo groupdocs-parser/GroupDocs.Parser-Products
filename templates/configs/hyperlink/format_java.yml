@@ -1,0 +1,19 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [java]
+- alias:  operation
+  values: [hyperlink]
+- alias:  url
+  values: [extract-hyperlink]
+- alias:  fileformat
+  values: [docx, pptx, xlsx, pdf, txt, rtf, xml, epub]
+
+generationRules:
+  include:
+  - fileformat[docx, pptx, xlsx, pdf, txt, rtf, xml, epub]
+  
+outputPath: "parser\\{product}\\{url}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

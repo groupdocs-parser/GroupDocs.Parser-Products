@@ -230,7 +230,8 @@ code_samples:
             // <% "{index-content.code_samples.sample_1.comment_4}" %>
             for (PageImageArea image : images) {
                 // <% "{index-content.code_samples.sample_1.comment_5}" %>
-                System.out.println(String.format("Page: %d, R: %s, Type: %s", image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
+                System.out.println(String.format("Page: %d, R: %s, Type: %s", 
+                    image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
             }
         }
         ```

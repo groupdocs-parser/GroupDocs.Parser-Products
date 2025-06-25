@@ -224,7 +224,8 @@ code_samples:
             foreach (PageImageArea image in images)
             {
                 // <% "{index-content.code_samples.sample_1.comment_5}" %>
-                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", image.Page.Index, image.Rectangle, image.FileType));
+                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", 
+                    image.Page.Index, image.Rectangle, image.FileType));
             }
         }
         ```
