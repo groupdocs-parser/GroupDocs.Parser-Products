@@ -1,21 +1,21 @@
 {
   "head": {
-    "title": "Extract barcodes from {{FileFormatUp}} files in {{ProgLang}} apps",
-    "description": "Use {{ProdShortName}} to detect and extract barcode data from {{FileFormatUp}} files in {{ProgLang}} without additional software."
+    "title": "Parse data from {{FileFormatUp}} files in {{ProgLang}} apps",
+    "description": "Use {{ProdShortName}} to extract text, images, tables, and other data from {{FileFormatUp}} files in {{ProgLang}} without relying on third-party tools."
   },
   "header": {
-    "title": "Extract barcodes from {{FileFormatUp}} using {{ProgLang}}",
-    "description": "Easily detect and extract barcode information from PDF, Word, Excel, and image files using {{ProdShortName}} in your {{EnvNameShort}} applications.",
+    "title": "Parse {{FileFormatUp}} documents using {{ProgLang}}",
+    "description": "Efficiently extract text, metadata, tables, and images from PDF, Word, Excel, and image files using {{ProdShortName}} in your {{EnvNameShort}} projects.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
   },
   "about": {
     "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdShortName}}]({{PlatformLink}}) is a powerful document parsing API for {{EnvName}} developers. It enables the extraction of text, images, structured content, and barcodes from various file formats including PDF, Word, Excel, PowerPoint, and more — all without relying on external tools."
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) is a feature-rich document parsing API designed for {{EnvName}} developers. It supports extracting plain and structured text, metadata, images, tables, and barcodes from popular formats like PDF, DOCX, XLSX, PPTX, and more — all without additional software dependencies."
   },
   "formats": {
-    "title": "Supported formats for barcode extraction",
-    "description": "{{ProdShortName}} supports barcode detection in a wide range of document and image formats. See below for commonly supported file types."
+    "title": "Supported formats for data extraction",
+    "description": "{{ProdShortName}} enables parsing across a broad set of document and image formats. Explore the supported file types commonly used in data extraction workflows."
   },
   "examples": {
     "comment_1": "Load your document into {{textParser}}",
@@ -25,34 +25,34 @@
     "comment_5": "Text extraction is unsupported for this format"
   },
   "steps": {
-    "title": "Steps to extract text from {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps to extract data from {{FileformatCap}} in {{ProgLang}}",
     "content": {
-      "title": "You can extract clean and structured text from {{FileFormatUp}} documents in {{EnvName}} apps with [{{ProdShortName}}]({{PlatformLink}}) by following these steps:",
-      "step_1": "Open the {{FileFormatUp}} document using a {{textParser}} instance.",
-      "step_2": "Extract the text from the file content.",
-      "step_3": "Check the result to confirm text extraction was successful.",
-      "step_4": "Use the extracted text in your business logic, indexing, or data pipelines."
+      "title": "Follow these steps to parse content from {{FileFormatUp}} documents in your {{EnvName}} apps using [{{ProdShortName}}]({{PlatformLink}}):",
+      "step_1": "Load the {{FileFormatUp}} document using a {{textParser}} instance.",
+      "step_2": "Extract the desired content such as text, tables, or metadata.",
+      "step_3": "Verify that the extracted data is valid.",
+      "step_4": "Use the parsed output in your downstream processing, automation, or business systems."
     }
   },
   "more_features": {
-    "title": "Advanced document parsing features",
-    "description": "Beyond barcode extraction, {{ProdShortName}} allows you to extract plain text, images, and structured data to support advanced automation and data processing workflows.",
-    "image_description": "Barcode recognition and document parsing",
+    "title": "Comprehensive document parsing capabilities",
+    "description": "{{ProdShortName}} enables more than just barcode reading — it supports full-text extraction, image parsing, metadata access, and structured data processing for advanced automation and data analysis.",
+    "image_description": "Document content extraction and parsing capabilities",
     "feature_1": {
-      "title": "Support for multiple barcode formats",
-      "content": "Recognize common barcode types including QR Code, Code 128, Data Matrix, EAN, Aztec, and more."
+      "title": "Support for diverse file content types",
+      "content": "Extract data including text, images, tables, and fields from document formats like PDF, Word, Excel, HTML, and more."
     },
     "feature_2": {
-      "title": "Extract barcodes from documents and images",
-      "content": "Read barcodes from PDF, Word, Excel documents, and image formats like JPEG, PNG, and BMP."
+      "title": "Work with both scanned and digital files",
+      "content": "Parse data from scanned documents and born-digital files alike, with support for OCR and layout-aware extraction."
     },
     "feature_3": {
-      "title": "Customizable extraction settings",
-      "content": "Configure detection options such as scanning regions and processing multi-page documents."
+      "title": "Configurable extraction parameters",
+      "content": "Adjust parsing logic with flexible options like page range selection, region targeting, and field detection templates."
     },
     "code_1": {
       "title": "How to parse PDF using templates",
-      "content": "This example demonstrates how to extract data from a PDF file using specific templates.",
+      "content": "This example shows how to extract structured data from a PDF using a predefined parsing template with {{ProdShortName}}.",
       "comment_1": "Load the PDF file with the {{textParser}} class",
       "comment_2": "Parse the document by the template",
       "comment_3": "Check if form extraction is supported",
