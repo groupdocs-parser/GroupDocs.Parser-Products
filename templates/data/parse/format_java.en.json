@@ -1,61 +1,63 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+    "title": "Read barcodes from {{FileFormatUp}} files in {{ProgLang}} apps",
+    "description": "With {{ProdShortName}}, extract barcode data from {{FileFormatUp}} documents using {{ProgLang}} without any external tools."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "title": "Read barcodes from {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Extract barcode content from PDF, Word, Excel, and image files using {{ProdShortName}} in your {{EnvNameShort}} applications.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+    "title": "Overview of {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) provides a comprehensive solution for document parsing in {{EnvName}}. It enables developers to extract barcodes, text, images, and structured information from multiple file formats like PDF, Word, Excel, PowerPoint, and others—without needing third-party libraries."
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "File formats supported for barcode reading",
+    "description": "{{ProdShortName}} can read barcodes from many document and image types. Below are some of the commonly supported formats."
   },
   "examples": {
-    "comment_1": "load the file in an instance of {{TextMetadata}} class",
-    "comment_2": "add a property containing the content author",
-    "comment_3": "process operation results",
-    "comment_4": "save the file with updated metadata"
+    "comment_1": "Initialize {{textParser}} with your document",
+    "comment_2": "Read and extract all textual data",
+    "comment_3": "Return null if text content is missing",
+    "comment_4": "Integrate the extracted text into your workflow",
+    "comment_5": "Skip unsupported text extraction formats"
   },
   "steps": {
-    "title": "Steps for adding Metadata to {{FileFormatUp}} in {{ProgLang}}",
+    "title": "How to retrieve text from {{FileformatCap}} using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy for {{EnvName}} developers to add metadata details to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
-      "step_1": "Load {{FileFormatUp}} with an instance of {{TextMetadata}} class.",
-      "step_2": "Use {{TextMetadataAddProperties}} method to add the properties.",
-      "step_3": "Use a predicate to find desired metadata properties.",
-      "step_4": "Save the changes back in {{FileFormatUp}} format."
+      "title": "Follow the steps below to extract text from {{FileFormatUp}} files using [{{ProdShortName}}]({{PlatformLink}}) within your {{EnvName}} project:",
+      "step_1": "Load the {{FileFormatUp}} document using the {{textParser}} class.",
+      "step_2": "Perform text extraction from the file content.",
+      "step_3": "Check if the text was successfully retrieved.",
+      "step_4": "Use the text data in search, analytics, or automation systems."
     }
   },
   "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
-    "image_description": "Metadata Functionality",
+    "title": "More parsing capabilities",
+    "description": "{{ProdShortName}} goes beyond barcode extraction—it also lets you extract plain text, images, and structured elements to support data-driven workflows.",
+    "image_description": "Barcode and data extraction features",
     "feature_1": {
-      "title": "Metadata Access",
-      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+      "title": "Wide barcode format support",
+      "content": "Detect standard barcode formats including QR Code, Code 39, Data Matrix, EAN, Aztec, and others."
     },
     "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+      "title": "Read barcodes from multiple sources",
+      "content": "Extract barcode information from Office documents, PDFs, and image files like PNG, JPG, and BMP."
     },
     "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+      "title": "Custom barcode reading setup",
+      "content": "Fine-tune barcode extraction with options for targeting specific regions and multi-page files."
     },
     "code_1": {
-      "title": "How to add custom metadata to TIFF image",
-      "content": "This code sample demonstrates how to add a custom tag to an EXIF package",
-      "comment_1": "Set the EXIF package if it's missing",
-      "comment_2": "Add a known property",
-      "comment_3": "Add a fully custom property (which is not described in the EXIF specification)",
-      "comment_4": "Please note that the chosen ID may intersect with the IDs used by some third party tools"
+      "title": "Example: extract barcodes from PDF with options",
+      "content": "This sample demonstrates barcode extraction from a PDF document using custom settings.",
+      "comment_1": "Initialize parser with PDF document",
+      "comment_2": "Ensure the document supports barcode reading",
+      "comment_3": "Apply filtering with barcode options",
+      "comment_4": "Extract barcodes using the parser",
+      "comment_5": "Handle each barcode result"
     }
   }
 }

@@ -33,7 +33,7 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/metadata/<% get "ProdCode" %>/"
+    link: "/parser/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
     picture: "about_parser.svg" # 480 X 400
     content: |
@@ -59,7 +59,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-metadata</artifactId>
+              <artifactId>groupdocs-parser</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -84,19 +84,18 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        try (Metadata metadata = new Metadata("input.<% get "fileformat" %>"))
+        // <% "{examples.comment_1}" %>
+        try (Parser parser = new Parser("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
-            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), 
-                new PropertyValue(new Date()));
-
-            // <% "{examples.comment_3}" %>
-            System.out.println(String.format("Affected properties: %s", affected));
-
-            // <% "{examples.comment_4}" %>
-            metadata.save("output.<% get "fileformat" %>");
+            try (TextReader reader = parser.getText())
+            {
+                // <% "{examples.comment_3}" %>
+                // <% "{examples.comment_4}" %>
+                System.out.println(reader == null ? 
+                    "<% "{examples.comment_5}" %>" : reader.readToEnd());
+            }
         }
-        
         ```            
 
 ############################# More features ############################
@@ -126,23 +125,39 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        
-        try (Metadata metadata = new Metadata("input.tiff")) {
-            IExif root = (IExif) metadata.getRootPackage();
+        //  <% "{more_features.code_1.comment_1}" %>
+        try (Parser parser = new Parser("input.pdf"))
+        {
+            // <% "{more_features.code_1.comment_2}" %>
+            DocumentData data = parser.parseByTemplate(GetTemplate());
 
-            //  <% "{more_features.code_1.comment_1}" %>
-            if (root.getExifPackage() == null) {
-                root.setExifPackage(new ExifPackage());
+            // <% "{more_features.code_1.comment_3}" %>
+            if (data == null) {
+                return;
             }
 
-            //  <% "{more_features.code_1.comment_2}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.Artist, "Artist's name"));
+            // <% "{more_features.code_1.comment_4}" %>
+            for (int i = 0; i < data.getCount(); i++) {
+                System.out.print(data.get(i).getName() + ": ");
+                PageTextArea area = data.get(i).getPageArea() instanceof PageTextArea
+                        ? (PageTextArea) data.get(i).getPageArea() : null;
+                System.out.println(area == null ? "Not a template field" : area.getText());
+            }
+        }
 
-            //  <% "{more_features.code_1.comment_3}" %>
-            //  <% "{more_features.code_1.comment_4}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
+        private static Template GetTemplate()
+        {
+            // <% "{more_features.code_1.comment_5}" %>
+            TemplateTableParameters detailsTableParameters = 
+                new TemplateTableParameters(new Rectangle(new Point(35, 320), new Size(530, 55)), null);
 
-            metadata.save("output.tiff");
+            TemplateItem[] templateItems = new TemplateItem[]
+            {
+                new TemplateTable(detailsTableParameters, "details", null)
+            };
+
+            Template template = new Template(java.util.Arrays.asList(templateItems));
+            return template;
         }
         ```
         {{< /landing/code >}}
