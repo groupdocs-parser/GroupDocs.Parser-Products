@@ -33,7 +33,7 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/metadata/<% get "ProdCode" %>/"
+    link: "/parser/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
     picture: "about_parser.svg" # 480 X 400
     content: |
@@ -59,7 +59,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-metadata</artifactId>
+              <artifactId>groupdocs-parser</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -84,19 +84,30 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        try (Metadata metadata = new Metadata("input.<% get "fileformat" %>"))
+        try (Parser parser = new Parser("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
-            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), 
-                new PropertyValue(new Date()));
-
-            // <% "{examples.comment_3}" %>
-            System.out.println(String.format("Affected properties: %s", affected));
+            if (!parser.getFeatures().isTables()) {
+                System.out.println("<% "{examples.comment_3}" %>");
+                return;
+            }
 
             // <% "{examples.comment_4}" %>
-            metadata.save("output.<% get "fileformat" %>");
+            TemplateTableLayout layout = new TemplateTableLayout(
+                    java.util.Arrays.asList(new Double[]{50.0, 95.0, 275.0, 415.0, 485.0, 545.0}),
+                    java.util.Arrays.asList(new Double[]{325.0, 340.0, 365.0, 395.0}));
+
+            // <% "{examples.comment_5}" %>
+            PageTableAreaOptions options = new PageTableAreaOptions(layout);
+
+            //  <% "{examples.comment_6}" %>
+            Iterable<PageTableArea> tables = parser.getTables(options);
+
+            //  <% "{examples.comment_7}" %>
+            for (PageTableArea t : tables) {
+            {
+            }
         }
-        
         ```            
 
 ############################# More features ############################
@@ -104,7 +115,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/parser/features_extract-table.webp" # 500x500 px
+  image: "/img/parser/features_extract-barcode.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -126,23 +137,46 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        
-        try (Metadata metadata = new Metadata("input.tiff")) {
-            IExif root = (IExif) metadata.getRootPackage();
-
-            //  <% "{more_features.code_1.comment_1}" %>
-            if (root.getExifPackage() == null) {
-                root.setExifPackage(new ExifPackage());
+        //  <% "{more_features.code_1.comment_1}" %>
+        try (Parser parser = new Parser("input.pdf"))
+        {
+            // <% "{more_features.code_1.comment_2}" %>
+            if (!parser.getFeatures().isTables())
+            {
+                return;
             }
 
-            //  <% "{more_features.code_1.comment_2}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.Artist, "Artist's name"));
+            // <% "{more_features.code_1.comment_3}" %>
+            TemplateTableLayout layout = new TemplateTableLayout(
+                    java.util.Arrays.asList(new Double[]{50.0, 95.0, 275.0, 415.0, 485.0, 545.0}),
+                    java.util.Arrays.asList(new Double[]{325.0, 340.0, 365.0, 395.0}));
 
-            //  <% "{more_features.code_1.comment_3}" %>
-            //  <% "{more_features.code_1.comment_4}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
+            // <% "{more_features.code_1.comment_4}" %>
+            PageTableAreaOptions options = new PageTableAreaOptions(layout);
 
-            metadata.save("output.tiff");
+            // <% "{more_features.code_1.comment_5}" %>
+            Iterable<PageTableArea> tables = parser.getTables(options);
+
+            // <% "{more_features.code_1.comment_6}" %>
+            for (PageTableArea t : tables)
+            {
+                // <% "{more_features.code_1.comment_7}" %>
+                for (int row = 0; row < t.getRowCount(); row++)
+                {
+                    // <% "{more_features.code_1.comment_8}" %>
+                    for (int column = 0; column < t.getColumnCount(); column++) 
+                    {
+                        // <% "{more_features.code_1.comment_9}" %>
+                        PageTableAreaCell cell = t.getCell(row, column);
+                        if (cell != null)
+                        {
+                            // <% "{more_features.code_1.comment_10}" %>
+                            System.out.print(cell.getText());
+                            System.out.print(" | ");
+                        }
+                    }
+                }
+            }
         }
         ```
         {{< /landing/code >}}
