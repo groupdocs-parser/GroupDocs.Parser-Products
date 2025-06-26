@@ -1,62 +1,70 @@
 {
   "head": {
-    "title": "Read barcodes from {{FileFormatUp}} files in {{ProgLang}} apps",
-    "description": "With {{ProdShortName}}, extract barcode data from {{FileFormatUp}} documents using {{ProgLang}} without any external tools."
+    "title": "Retrieve tables from {{FileFormatUp}} documents in {{ProgLang}} apps",
+    "description": "Extract structured tabular data from {{FileFormatUp}} files in {{ProgLang}} applications using {{ProdShortName}}—no external tools needed."
   },
   "header": {
-    "title": "Read barcodes from {{FileFormatUp}} using {{ProgLang}}",
-    "description": "Extract barcode content from PDF, Word, Excel, and image files using {{ProdShortName}} in your {{EnvNameShort}} applications.",
+    "title": "Retrieve table data from {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Seamlessly detect and extract tables from formats like PDF, DOCX, and XLSX with {{ProdShortName}} in your {{EnvNameShort}} workflows.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
   },
   "about": {
-    "title": "Overview of {{ProdFullName}} API",
-    "content": "[{{ProdShortName}}]({{PlatformLink}}) provides a comprehensive solution for document parsing in {{EnvName}}. It enables developers to extract barcodes, text, images, and structured information from multiple file formats like PDF, Word, Excel, PowerPoint, and others—without needing third-party libraries."
+    "title": "Introduction to {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) is a feature-rich content extraction API for {{EnvName}} platforms. It allows developers to accurately parse tables, text, graphics, links, and structured data from PDFs, Word documents, Excel sheets, PowerPoint presentations, and more—without requiring third-party plugins."
   },
   "formats": {
-    "title": "File formats supported for barcode reading",
-    "description": "{{ProdShortName}} can read barcodes from many document and image types. Below are some of the commonly supported formats."
+    "title": "Document types supported for table extraction",
+    "description": "{{ProdShortName}} provides reliable table detection across multiple file types. Here's a list of the most widely supported document formats for extracting tables."
   },
   "examples": {
-    "comment_1": "Open a document containing barcodes using {{textParser}}",
-    "comment_2": "Check barcode support for the file",
-    "comment_3": "Handle unsupported file types",
-    "comment_4": "Extract and use barcode data"
+    "comment_1": "Load the input document with {{textParser}} that includes table elements",
+    "comment_2": "Verify that the document type allows table recognition",
+    "comment_3": "Add logic for files that don’t support tables",
+    "comment_4": "Define rules for interpreting table structure",
+    "comment_5": "Set parameters to extract tables",
+    "comment_6": "Run table extraction on the loaded document",
+    "comment_7": "Process each extracted table from the result"
   },
   "steps": {
-    "title": "How to read barcodes from {{FileformatCap}} in {{ProgLang}}",
+    "title": "How to retrieve tables from {{FileformatCap}} in {{ProgLang}}",
     "content": {
-      "title": "With [{{ProdShortName}}]({{PlatformLink}}), {{EnvName}} developers can extract barcodes from {{FileFormatUp}} documents in just a few steps:",
-      "step_1": "Load the {{FileFormatUp}} document using {{textParser}}.",
-      "step_2": "Verify the document supports barcode extraction.",
-      "step_3": "Use the API to retrieve barcode data.",
-      "step_4": "Loop through the barcode results and apply them as needed."
+      "title": "To parse tables from {{FileFormatUp}} documents using [{{ProdShortName}}]({{PlatformLink}}), follow these easy steps in your {{EnvName}} environment:",
+      "step_1": "Create a {{textParser}} instance and load the target {{FileFormatUp}} file.",
+      "step_2": "Verify that the file supports structured table extraction.",
+      "step_3": "Use the API to retrieve table elements from the document.",
+      "step_4": "Leverage the extracted data in analytics, reporting, or automation systems."
     }
   },
   "more_features": {
-    "title": "More parsing capabilities",
-    "description": "{{ProdShortName}} goes beyond barcode extraction—it also lets you extract plain text, images, and structured elements to support data-driven workflows.",
-    "image_description": "Barcode and data extraction features",
+    "title": "Advanced content extraction tools",
+    "description": "Beyond reading tables, {{ProdShortName}} supports capturing plain text, visual elements, embedded metadata, and structured objects to enhance document processing tasks.",
+    "image_description": "Extracting structured content and tabular data",
     "feature_1": {
-      "title": "Wide barcode format support",
-      "content": "Detect standard barcode formats including QR Code, Code 39, Data Matrix, EAN, Aztec, and others."
+      "title": "Precise table parsing across formats",
+      "content": "Support for extracting tables from standard document types like PDF, Word, Excel, and HTML with high accuracy."
     },
     "feature_2": {
-      "title": "Read barcodes from multiple sources",
-      "content": "Extract barcode information from Office documents, PDFs, and image files like PNG, JPG, and BMP."
+      "title": "Read tabular structures from diverse sources",
+      "content": "Retrieve table data from spreadsheets, documents, and reports while preserving the structure and alignment."
     },
     "feature_3": {
-      "title": "Custom barcode reading setup",
-      "content": "Fine-tune barcode extraction with options for targeting specific regions and multi-page files."
+      "title": "Customizable table extraction settings",
+      "content": "Control layout detection, manage headers and footers, and fine-tune extraction with flexible configuration options."
     },
     "code_1": {
-      "title": "Example: extract barcodes from PDF with options",
-      "content": "This sample demonstrates barcode extraction from a PDF document using custom settings.",
-      "comment_1": "Initialize parser with PDF document",
-      "comment_2": "Ensure the document supports barcode reading",
-      "comment_3": "Apply filtering with barcode options",
-      "comment_4": "Extract barcodes using the parser",
-      "comment_5": "Handle each barcode result"
+      "title": "Sample: extract tables from an Excel document",
+      "content": "This example shows how to extract and loop through table content in an Excel (XLSX) file using {{ProdShortName}}.",
+      "comment_1": "Initialize {{textParser}} with the Excel file",
+      "comment_2": "Exit if table extraction isn’t supported for this format",
+      "comment_3": "Apply rules to locate table layout",
+      "comment_4": "Configure settings for table extraction",
+      "comment_5": "Invoke the extraction process",
+      "comment_6": "Loop over all parsed table structures",
+      "comment_7": "Iterate over each row within the table",
+      "comment_8": "Process each cell in the current row",
+      "comment_9": "Access and read the current cell's content",
+      "comment_10": "Output the textual value of each table cell"
     }
   }
 }

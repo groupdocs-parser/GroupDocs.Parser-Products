@@ -115,7 +115,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/parser/features_extract-barcode.webp" # 500x500 px
+  image: "/img/parser/features_extract-table.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
