@@ -1,63 +1,63 @@
 {
   "head": {
-    "title": "Extract barcodes from {{FileFormatUp}} files in {{ProgLang}} apps",
-    "description": "Use {{ProdShortName}} to detect and extract barcode data from {{FileFormatUp}} files in {{ProgLang}} without additional software."
+    "title": "Extract text from {{FileFormatUp}} files in {{ProgLang}} apps",
+    "description": "Use {{ProdShortName}} to extract plain or structured text from {{FileFormatUp}} files in {{ProgLang}} applications without needing external tools."
   },
   "header": {
-    "title": "Extract barcodes from {{FileFormatUp}} using {{ProgLang}}",
-    "description": "Easily detect and extract barcode information from PDF, Word, Excel, and image files using {{ProdShortName}} in your {{EnvNameShort}} applications.",
+    "title": "Extract text from {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Quickly extract readable and structured text from PDFs, Word, Excel, and other file types using {{ProdShortName}} in your {{EnvNameShort}} solutions.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
   },
   "about": {
     "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdShortName}}]({{PlatformLink}}) is a powerful document parsing API for {{EnvName}} developers. It enables the extraction of text, images, structured content, and barcodes from various file formats including PDF, Word, Excel, PowerPoint, and more — all without relying on external tools."
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) is a high-performance document parsing API for {{EnvName}} developers. It simplifies extracting text, images, tables, and structured content from multiple file formats including PDF, DOCX, XLSX, PPTX, and more—without depending on third-party libraries."
   },
   "formats": {
-    "title": "Supported formats for barcode extraction",
-    "description": "{{ProdShortName}} supports barcode detection in a wide range of document and image formats. See below for commonly supported file types."
+    "title": "Supported formats for text extraction",
+    "description": "{{ProdShortName}} enables text extraction from a wide array of document and image types. Explore the commonly supported formats listed below."
   },
   "examples": {
-    "comment_1": "Load the document to the {{textParser}}",
-    "comment_2": "Get document text",
-    "comment_3": "If there no text result is null",
-    "comment_4": "Use the text for further processing",
-    "comment_5": "Text extraction isn't supported"
+    "comment_1": "Load your document into {{textParser}}",
+    "comment_2": "Extract all text content from the file",
+    "comment_3": "If the text is unavailable, the result will be null",
+    "comment_4": "Use the extracted text in your application",
+    "comment_5": "Text extraction is unsupported for this format"
   },
   "steps": {
-    "title": "Steps to extract barcodes from {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps to extract text from {{FileformatCap}} in {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you easily extract barcode data from {{FileFormatUp}} files in {{EnvName}} applications by following these simple steps:",
-      "step_1": "Load the {{FileFormatUp}} to a {{textParser}} instance.",
-      "step_2": "Extract all the text.",
-      "step_3": "Check if the text was extracted.",
-      "step_4": "Use the text for your business purposes."
+      "title": "You can extract clean and structured text from {{FileFormatUp}} documents in {{EnvName}} apps with [{{ProdShortName}}]({{PlatformLink}}) by following these steps:",
+      "step_1": "Open the {{FileFormatUp}} document using a {{textParser}} instance.",
+      "step_2": "Extract the text from the file content.",
+      "step_3": "Check the result to confirm text extraction was successful.",
+      "step_4": "Use the extracted text in your business logic, indexing, or data pipelines."
     }
   },
   "more_features": {
-    "title": "Advanced document parsing features",
-    "description": "Beyond barcode extraction, {{ProdShortName}} allows you to extract plain text, images, and structured data to support advanced automation and data processing workflows.",
-    "image_description": "Barcode recognition and document parsing",
+    "title": "Comprehensive content extraction features",
+    "description": "In addition to plain text, {{ProdShortName}} can extract images, structured elements, and metadata to support content analysis, transformation, and automation.",
+    "image_description": "Text recognition and structured document parsing",
     "feature_1": {
-      "title": "Support for multiple barcode formats",
-      "content": "Recognize common barcode types including QR Code, Code 128, Data Matrix, EAN, Aztec, and more."
+      "title": "Text extraction across various file types",
+      "content": "Get plain or structured text from formats like PDF, DOCX, XLSX, PPTX, HTML, and image-based files."
     },
     "feature_2": {
-      "title": "Extract barcodes from documents and images",
-      "content": "Read barcodes from PDF, Word, Excel documents, and image formats like JPEG, PNG, and BMP."
+      "title": "Process text from documents and visuals",
+      "content": "Extract text from scanned images, presentations, spreadsheets, and digital documents while preserving structure."
     },
     "feature_3": {
-      "title": "Customizable extraction settings",
-      "content": "Configure detection options such as scanning regions and processing multi-page documents."
+      "title": "Advanced text extraction configuration",
+      "content": "Customize how text is detected—define page ranges, layout regions, and adjust output for maximum accuracy."
     },
     "code_1": {
-      "title": "How to get text area rectangles from a PPTX files",
-      "content": "This example demonstrates how to extract text with area rectangles from a PowerPoint presentations.",
-      "comment_1": "Load the PPTX file with the {{textParser}} class",
-      "comment_2": "Extract text areas",
-      "comment_3": "Return if text areas are not supported",
-      "comment_4": "Iterate over page text areas",
-      "comment_5": "Process a page index, rectangle and text area value"
+      "title": "How to extract text areas from a PPTX file",
+      "content": "This code sample shows how to retrieve text content along with area coordinates from a PowerPoint file using {{ProdShortName}}.",
+      "comment_1": "Load the PowerPoint presentation with {{textParser}}",
+      "comment_2": "Extract all text area rectangles from the document",
+      "comment_3": "Exit if text area extraction is not available",
+      "comment_4": "Loop through each page's text areas",
+      "comment_5": "Access page index, area rectangle, and text value"
     }
   }
 }
