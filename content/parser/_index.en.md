@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-02-13T17:01:03
+date:  2025-06-26T17:35:47
 draft: false
 
 product: "Parser"
@@ -15,7 +15,7 @@ head_description: "Get all-in-one document parsing solution for .NET, Java and c
 
 ############################# Header ############################
 title: "Document Parsing Solution"
-description: |
+description:  |
   Robust API for data extraction from various file formats.
 
   Parse documents with minimal coding effort.
@@ -26,36 +26,33 @@ description: |
 supported_platforms:
   enable: true
   head_title: "Choose your platform"
-  title: "Platform independence"
+  title: "Platform Independence"
   description: "GroupDocs.Parser library supports the following operating systems and frameworks:"
   details_link_title: "Learn more"
 
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Parser for .NET 
+      description: GroupDocs.Parser .NET 
       color: "blue"
       tag: "net"
       link: "/parser/net/"
       features_link: "https://docs.groupdocs.com/parser/net/system-requirements/"
       features:
           # features loop
-          - rows: "4"
+          - rows: "3"
             content: |
-                    .NET Framework 4.6.2 or higher
-                    .NET Core 2.0 or higher
-                    .NET 6.0 or higher
+                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
       
           # features loop
           - rows: "1"
             content: |
-                    Windows, Linux, Mac OS
+                    Windows <br> Linux <br> Mac OS
       
           # features loop
-          - rows: "3"
+          - rows: "4"
             content: |
-                    Microsoft Visual Studio
-                    JetBrains Rider
+                    Microsoft Visual Studio <br> JetBrains Rider <br> Microsoft Visual Code
       
           # features loop
           - rows: "1"
@@ -65,29 +62,26 @@ supported_platforms:
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Parser for Java
+      description: GroupDocs.Parser Java
       color: "red"
       tag: "java"
       link: "/parser/java/"
       features_link: "https://docs.groupdocs.com/parser/java/system-requirements/"
       features:
           # features loop
-          - rows: "4"
+          - rows: "3"
             content: |
-                    Java 8 or higher
-                    Kotlin
+                    Java 8 or higher <br> Kotlin
       
           # features loop
           - rows: "1"
             content: |
-                    Windows, Linux, Mac OS
+                    Windows <br> Linux <br> Mac OS
       
           # features loop
-          - rows: "3"
+          - rows: "4"
             content: |
-                    IntelliJ IDEA
-                    Eclipse
-                    NetBeans
+                    IntelliJ IDEA <br> Eclipse <br> NetBeans
       
           # features loop
           - rows: "1"
@@ -98,100 +92,113 @@ supported_platforms:
 features:
   enable: true
   title: "GroupDocs.Parser at a glance"
-  description: "API for data parsing across PDF, Word, Excel and more."
+  description: "API for data parsing across PDF, Word, Excel and more"
 
   items:
     # items loop
     - icon: "text"
       title: "Extract text"
-      content: "Extract textual information from various file formats."
+      content: "Extract textual information from various file formats"
 
     # items loop
     - icon: "image"
       title: "Extract images"
-      content: "Retrieve visual content from diverse sources."
+      content: "Retrieve visual content from diverse sources"
 
     # items loop
     - icon: "template"
       title: "Parse data by templates"
-      content: "Create custom templates and utilize them to parse specific information."
+      content: "Create custom templates and utilize them to parse specific information"
 
     # items loop
     - icon: "pdf"
       title: "Parse PDF Forms"
-      content: "PDF Forms are digital documents featuring fillable fields for user interaction."
+      content: "PDF Forms are digital documents featuring fillable fields for user interaction"
 
 ############################# Code Samples ###############################
 code_samples:
   enable: true
   title: "GroupDocs.Parser code samples"
-  description: "Some use cases of typical GroupDocs.Parser operations in C# and Java."
+  description: "Some use cases of typical GroupDocs.Parser operations in C# and Java"
 
   items:
     # items loop
     - title: "How to extract text from PDF documents"
-      content: "GroupDocs.Parser API makes it easy for C# developers to extract text from documents by implementing a few easy steps."
+      content: "GroupDocs.Parser API makes it easy to extract text from documents by implementing a few steps."
       samples:
           # samples loop
           - language: "C#"
             color: "blue"
             content: |
-              <pre>
-              // Create an instance of Parser class
-              using (var parser = new Parser(fileName))
-              {
-                  // Extract a text into the reader
-                  using (var textReader = parser.GetText())
-                  {
-                      // Print a text from the document
-                      Console.WriteLine(textReader?.ReadToEnd());
-                  }
-              }
-              </pre>
+                    <code class="language-csharp" data-lang="csharp">
+
+                        // Create an instance of Parser class passing desired file
+                        using (var parser = new Parser("source.pdf"))
+                        {
+                            // Extract a text to {{textReader}}
+                            using (var textReader = parser.GetText())
+                            {
+                                // Process the extracted text
+                                Console.WriteLine(textReader?.ReadToEnd());
+                            }
+                        }     
+                        
+                    </code>
+
           # samples loop
           - language: "Java"
             color: "red"
             content: |
-              <pre>
-              // Create an instance of Parser class
-              try (Parser parser = new Parser(fileName)) {
-                  // Extract a text into the reader
-                  try (TextReader reader = parser.getText()) {
-                      // Print a text from the document
-                      System.out.println(reader == null 
-                              ? "" 
-                              : reader.readToEnd());
-                  }
-              }
-              <pre>
+                    <code class="language-java" data-lang="java">
+
+                        // Create an instance of Parser class passing desired file
+                        try (Parser parser = new Parser("source.pdf"))
+                        {
+                            // Extract a text to {{textReader}}
+                            try (TextReader reader = parser.getText())
+                            {
+                                // Process the extracted text
+                                System.out.println(reader == null 
+                                        ? "" 
+                                        : reader.readToEnd());
+                            }
+                        }  
+
+                    </code>
+
 
 ############################# Supported Formats ###############################
 formats:
   enable: true
   title: "50+ file formats supported"
-  description: "GroupDocs.Parser enables parser operations within various format families."
+  description: "GroupDocs.Parser enables parser operations within various format families"
 
 ############################# Metrics ###############################
 metrics:
-  enable: false
-  title: "Detailed metrics and statistical insights"
-  description: "Explore a thorough analysis of our key figures, offering comprehensive metrics and statistical insights into our accomplishments, influence, and expansion."
+  enable: true
+  title: "GroupDocs.Parser achievements"
+  description: "Discover the Key Metrics of Our Library's Accomplishments"
 
   items:
     # items loop
     - number: "50+"
       title: "Supported formats"
-      content: "The API accommodates more than 50 of the most widely used file and document formats."
+      content: "GroupDocs.Parser supports operations with more than 50 popular file formats."
 
     # items loop
-    - number: "700k"
+    - number: "1600k"
       title: "NuGet downloads"
-      content: "GroupDocs.Parser for .NET has received over 800K downloads through the NuGet package manager."
+      content: "GroupDocs.Parser for .NET NuGet package was downloaded more than 1,600,000 times."
 
     # items loop
-    - number: "15k"
+    - number: "18k"
       title: "Maven downloads"
-      content: "GroupDocs.Parser for Java has accumulated over 15K downloads from our Maven repository."
+      content: "GroupDocs.Parser has 18,000 downloads on Maven. Powerful Java Parsing Features."
+
+    # items loop
+    - number: "140+"
+      title: "Happy customers"
+      content: "As famous companies as individual developers prefer GroupDocs products to build innovative solutions."
 
 
 ############################# Customers ###############################
@@ -257,7 +264,7 @@ actions:
     # items loop
     - title: "Java"
       color: "red"
-      link: "/parser/java/"   
+      link: "/parser/java/"
 
 ############################# FAQ ###############################
 faq:
@@ -267,22 +274,22 @@ faq:
 
   items:
     # items loop
-    - question: "Does the GroupDocs.Parser library need any other third-party software to manipulate documents?"
+    - question: "Does GroupDocs.Parser library need any other third-party software to manipulate documents?"
       answer: "GroupDocs.Parser does not require any external software to be installed such as Adobe Acrobat, Microsoft Office, or any other."
 
     # items loop
     - question: "Can I try the GroupDocs.Parser library before purchasing it?"
-      answer: "Yes, you can try GroupDocs.Parser without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Parser without the limitations of the trial version, you can also request a 30-day temporary license. For more details, see [purchase.groupdocs.com/temporary-license/](https://purchase.groupdocs.com/temporary-license/)"
+      answer: "Yes, you can try GroupDocs.Parser without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Parser without the limitations of the trial version, you can also request a 30-day temporary license. For more details, [see](https://purchase.groupdocs.com/temporary-license/)"
 
     # items loop
     - question: "What licenses do you have?"
-      answer: "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more at [purchase.groupdocs.com/policies/](https://purchase.groupdocs.com/policies/)"
+      answer: "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more [here](https://purchase.groupdocs.com/pricing/parser/net/)"
 
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
   title: "GroupDocs.Parser low code APIs"
-  description: "Incorporate document parser capabilities into any application using our cloud-based REST API."
+  description: "Incorporate document parser capabilities into any application using our cloud-based REST API"
   
   items:
     # items loop
@@ -306,13 +313,13 @@ cloud_links:
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Parser NoCode apps"
-  description: "Web-based application that enables you to perform parse across more than 50 popular file formats directly in your browser."
+  title: "GroupDocs.Parser No Code Apps"
+  description: "Web-based application that enables you to perform parse across more than 50 popular file formats directly in your browser. "
 
   items:
     # items loop
     - title: "GroupDocs.Parser Total"
-      content: "Free online app to parse Word, Excel, PowerPoint, PDF & 30+ more document types."
+      content: "Free online app to parse Word, Excel, PowerPoint, PDF & 50+ more document types."
       icon: "groupdocs_parser-app"
       link: "https://products.groupdocs.app/parser/total"
 
@@ -326,7 +333,10 @@ app_links:
     - title: "GroupDocs.Parser PDF"
       content: "Free PDF parsing app that works on any platform or device without any limitations."
       icon: "groupdocs_pdf-app"
-      link: "https://products.groupdocs.app/parser/pdf"     
+      link: "https://products.groupdocs.app/parser/pdf"
+
+
+      
 
 
 ---

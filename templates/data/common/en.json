@@ -17,6 +17,18 @@
         "name": "Parse XLSX",
         "description": "(Open XML Workbook)"
       },
+      "odt": {
+        "name": "Parse ODT",
+        "description": "(OpenDocument text doc)"
+      },
+      "ods": {
+        "name": "Parse ODS",
+        "description": "(OpenDocument spreadsheet)"
+      },
+      "odp": {
+        "name": "Parse ODP",
+        "description": "(OpenDocument presentation)"
+      },
       "txt": {
         "name": "Parse TXT",
         "description": "(Text file)"
@@ -32,6 +44,10 @@
       "epub": {
         "name": "Parse EPUB",
         "description": "(Open eBook File)"
+      },
+      "fb2": {
+        "name": "Parse FB2",
+        "description": "(FictionBook eBook)"
       }
     },
     "format-code": {

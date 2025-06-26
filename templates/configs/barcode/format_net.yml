@@ -8,11 +8,11 @@ dimensions:
 - alias:  url
   values: [extract-barcode]
 - alias:  fileformat
-  values: [docx, pptx, xlsx, pdf, txt, rtf, xml, epub]
+  values: [docx, pptx, xlsx, pdf, odt, ods, odp, epub, fb2]
 
 generationRules:
   include:
-  - fileformat[docx, pptx, xlsx, pdf, txt, rtf, xml, epub]
+  - fileformat[docx, pptx, xlsx, pdf, odt, ods, odp, epub, fb2]
   
 outputPath: "parser\\{product}\\{url}\\{fileformat}.{lang}.md"
 

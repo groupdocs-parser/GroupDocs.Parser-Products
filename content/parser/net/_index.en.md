@@ -1,36 +1,40 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-13T17:01:03
+date: 2025-06-26T17:35:47
 draft: false
-#operation: 
-#parsertype: 
-#fileformat: 
-#productName: Java
+
 lang: en
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  parser on  for Java
 product: "Parser"
 product_tag: "parser"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & Online Document Parser Apps"
-head_description: "Get all-in-one document parsing solution for .NET, Java and cloud-based applications. Extract data from document formats online using simple drag and drop feature"
+head_title: "GroupDocs.Parser for .NET Document Parsing Apps"
+head_description: "Get all-in-one document parsing solution for .NET applications. Extract data from document formats online using simple drag and drop feature"
 
 ############################# Header ############################
-title: "Parse documents<br>via .NET API"
+title: "Parse documents via .NET API"
 description: "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
 words:
   for: "for"
 
 actions:
-  main: "Free NuGet Download"
+  main: "Nuget Download"
   main_link: "https://www.nuget.org/packages/GroupDocs.Parser"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/parser/net"
+  alt_link: "https://purchase.groupdocs.com/pricing/parser/net/"
   title: "Ready to get started?"
   description: "Try GroupDocs.Parser features for free or request a license"
 
@@ -40,33 +44,33 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Extract text from PDF files in C#"
+  title: "Quickly Parse Document Content"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET"
+  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/"
   install: "dotnet add package GroupDocs.Parser"
   content: |
     ```csharp {style=abap}   
-    // Create an instance of Parser class
-    using (var parser = new Parser(fileName))
+    // Pass source file to Parser instance
+    using (var parser = new Parser("source.pdf"))
     {
-        // Extract a text into the reader
+        // Pass document text to TextReader
         using (var textReader = parser.GetText())
         {
-            // Print a text from the document
+            // Process document text
             Console.WriteLine(textReader?.ReadToEnd());
         }
-    }
+    }  
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Parser Overview"
+  title: "GroupDocs.Parser at a glance"
   description: "API for performing document parsing in .NET applications"
   features:
     # feature loop
     - title: "Extract data from documents"
-      content: ".NET API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
+      content: "GroupDocs.Parser for .NET API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
 
     # feature loop
     - title: "Parse documents"
@@ -79,7 +83,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Platform independence"
+  title: "Platform Independence"
   description: "GroupDocs.Parser for .NET supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
@@ -118,29 +122,31 @@ formats:
     - color: "green"
       content: |
         ### Microsoft Office formats
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
         ### Images & Other Formats
-        * **Portable:** PDF
+        * **Portable:** PDF 
         * **Images:** JPG, BMP, PNG, TIFF, GIF
         * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
         ### Other formats
-        * **Web:** HTML, MHTML
-        * **Archives:** ZIP, TAR, 7Z
-        * **Ebooks:** CHM, EPUB, FB2, MOBI
+        * **Web:** HTML, MHTML 
+        * **Archives:** ZIP, TAR, 7Z 
+        * **e-Books:** CHM, EPUB, FB2, MOBI 
+        
+        
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Parser features"
-  description: "Extract data from PDFs, Office Documents, and Images swiftly and accurately."
+  title: "GroupDocs.Parser for .NET features"
+  description: "Extract data from PDFs, Office Documents, and Images swiftly and accurately"
 
   items:
     # feature loop
@@ -188,35 +194,36 @@ features:
       title: "Search a text in documents"
       content: "Quickly locate specific words or patterns within documents."
 
+
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Code sample"
+  title: "Code samples"
   description: "Some use cases of typical GroupDocs.Parser for .NET operations"
   items:
     # code sample loop
     - title: "Extract images from PDF documents"
       content: |
-        .NET API makes it easy for C# developers to extract images from documents by implementing a few easy steps.
+        GroupDocs.Parser for .NET makes it easy for C# developers to extract images from [documents](https://docs.groupdocs.com/parser/net/extract-images-from-documents/):
         {{< landing/code title="Extract images from PDF documents in C#">}}
         ```csharp {style=abap}
         // Create an instance of Parser class
-        using (var parser = new Parser(fileName))
+        using (var parser = new Parser("source.pptx"))
         {
             // Extract images
             var images = parser.GetImages();
 
-            // Check if images extraction is supported
-            if (images != null)
+            // Check if something is extracted
+            if (images == null)
             {
-                var imageIndex = 0;
-
-                // Iterate over images
-                foreach (var image in images)
-                {
-                    // Save the image to the file
-                    image.Save($"{++imageIndex}{image.FileType.Extension}");
-                }
+                return;
+            }
+            // Iterate over images
+            foreach (PageImageArea image in images)
+            {
+                // Print a page index, rectangle and image type
+                Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", 
+                    image.Page.Index, image.Rectangle, image.FileType));
             }
         }
         ```
@@ -224,16 +231,16 @@ code_samples:
     # code sample loop
     - title: "Extract barcodes from images"
       content: |
-        .NET API makes it easy for C# developers to extract barcodes from documents by implementing a few easy steps.
-        {{< landing/code title="Extract barcodes from images">}}
+        Use our .NET API to extract [barcodes](https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/) from images:
+        {{< landing/code title="Extract barcodes from images in C#">}}
         ```csharp {style=abap}   
-        // Create an instance of Parser class
-        using (var parser = new Parser(fileName))
+        // Load source image to Parser
+        using (var parser = new Parser("source.jpg"))
         {
             // Check if the file supports barcode extracting
             if (parser.Features.Barcodes)
             {
-                // Extract barcodes from the file.
+                // Extract barcodes from the file
                 var barcodes = parser.GetBarcodes();
 
                 // Iterate over barcodes
