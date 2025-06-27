@@ -20,7 +20,7 @@
   "examples": {
     "comment_1": "Load the document containing barcodes using the {{textParser}} class",
     "comment_2": "Verify that the file supports barcode extraction",
-    "comment_3": "Handle cases where barcode extraction is not supported",
+    "comment_3": "Barcode extraction is not supported",
     "comment_4": "Retrieve and process the extracted barcodes"
   },
   "steps": {

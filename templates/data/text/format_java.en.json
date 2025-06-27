@@ -40,7 +40,7 @@
     "image_description": "Extract and structure text content from documents",
     "feature_1": {
       "title": "Works across numerous document formats",
-      "content": "Capture both raw and structured text from DOCX, XLSX, PPTX, PDF, HTML, and various image-based documents."
+      "content": "Capture both raw and structured text from DOCX, XLSX, PPTX, PDF, HTML, and various formats."
     },
     "feature_2": {
       "title": "Extract text from visual and textual content",

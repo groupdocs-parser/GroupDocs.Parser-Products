@@ -4,7 +4,7 @@
     "description": "Leverage {{ProdShortName}} to parse and retrieve structured data, text, tables, and images from {{FileFormatUp}} files in {{ProgLang}}, without needing external tools."
   },
   "header": {
-    "title": "Extract and parse {{FileFormatUp}} documents in {{ProgLang}}",
+    "title": "Extract data from {{FileFormatUp}} documents in {{ProgLang}}",
     "description": "Seamlessly extract structured content such as text, metadata, tables, and graphics from PDFs, Word, Excel, and image-based documents using {{ProdShortName}} in your {{EnvNameShort}} apps.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
@@ -36,7 +36,7 @@
   },
   "more_features": {
     "title": "Versatile document parsing functionality",
-    "description": "{{ProdShortName}} does more than just barcode extraction—it supports full parsing of textual content, metadata, images, and structured formats to power intelligent automation and data-driven applications.",
+    "description": "{{ProdShortName}} does more than just text extraction—it supports full parsing of barcodes, metadata, images, tables and other data to power intelligent automation and data-driven applications.",
     "image_description": "Visual overview of document data parsing and extraction",
     "feature_1": {
       "title": "Extract from multiple file formats",

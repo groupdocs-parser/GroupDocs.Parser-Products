@@ -56,7 +56,7 @@
       "title": "How to extract tables from Excel spreadsheets",
       "content": "This code sample shows how to read and iterate through table data in an XLSX file using {{ProdShortName}}.",
       "comment_1": "Open the Excel file using the {{textParser}} API",
-      "comment_2": "Exit if tables cannot be extracted from the format",
+      "comment_2": "Exit if tables cannot be extracted from the file",
       "comment_3": "Use layout rules to locate tabular content",
       "comment_4": "Set up extraction parameters for tables",
       "comment_5": "Perform the table extraction operation",

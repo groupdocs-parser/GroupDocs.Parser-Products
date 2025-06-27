@@ -54,7 +54,7 @@
       "content": "This sample demonstrates how to extract all links from a PDF file using link extraction settings.",
       "comment_1": "Open the PDF using the {{textParser}} class",
       "comment_2": "Verify that hyperlink support is enabled for this document",
-      "comment_3": "Apply options to filter the type of links",
+      "comment_3": "Apply options to filter links",
       "comment_4": "Use the parser to get hyperlink data",
       "comment_5": "Iterate through the links and handle them accordingly"
     }

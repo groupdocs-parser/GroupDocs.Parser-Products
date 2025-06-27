@@ -56,7 +56,7 @@
       "title": "Sample: extract tables from an Excel document",
       "content": "This example shows how to extract and loop through table content in an Excel (XLSX) file using {{ProdShortName}}.",
       "comment_1": "Initialize {{textParser}} with the Excel file",
-      "comment_2": "Exit if table extraction isn’t supported for this format",
+      "comment_2": "Exit if table extraction isn’t supported for this document",
       "comment_3": "Apply rules to locate table layout",
       "comment_4": "Configure settings for table extraction",
       "comment_5": "Invoke the extraction process",

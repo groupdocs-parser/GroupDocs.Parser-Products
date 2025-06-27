@@ -84,7 +84,6 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        // <% "{examples.comment_1}" %>
         try (Parser parser = new Parser("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>

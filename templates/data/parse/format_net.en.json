@@ -36,7 +36,7 @@
   },
   "more_features": {
     "title": "Comprehensive document parsing capabilities",
-    "description": "{{ProdShortName}} enables more than just barcode reading — it supports full-text extraction, image parsing, metadata access, and structured data processing for advanced automation and data analysis.",
+    "description": "{{ProdShortName}} enables more than just text reading — it supports barcode extraction, image parsing, metadata access, and structured data processing for advanced automation and data analysis.",
     "image_description": "Document content extraction and parsing capabilities",
     "feature_1": {
       "title": "Support for diverse file content types",
