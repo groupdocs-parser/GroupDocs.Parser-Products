@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Menganalisis PDF",
+        "description": "(Format Dokumen Portabel)"
+      },
+      "docx": {
+        "name": "Menganalisis DOCX",
+        "description": "(Dokumen Word Office 2007+)"
+      },
+      "pptx": {
+        "name": "Menganalisis PPTX",
+        "description": "(Format Presentasi Open XML)"
+      },
+      "xlsx": {
+        "name": "Menganalisis XLSX",
+        "description": "(Workbook Open XML)"
+      },
+      "odt": {
+        "name": "Menganalisis ODT",
+        "description": "(Dokumen teks OpenDocument)"
+      },
+      "ods": {
+        "name": "Menganalisis ODS",
+        "description": "(Spreadsheet OpenDocument)"
+      },
+      "odp": {
+        "name": "Menganalisis ODP",
+        "description": "(Presentasi OpenDocument)"
+      },
+      "txt": {
+        "name": "Menganalisis TXT",
+        "description": "(File Teks)"
+      },
+      "rtf": {
+        "name": "Menganalisis RTF",
+        "description": "(Format Teks Kaya)"
+      },
+      "xml": {
+        "name": "Menganalisis XML",
+        "description": "(Bahasa Markup yang Dapat Diperluas)"
+      },
+      "epub": {
+        "name": "Menganalisis EPUB",
+        "description": "(File eBook Terbuka)"
+      },
+      "fb2": {
+        "name": "Menganalisis FB2",
+        "description": "(eBook FictionBook)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Salin",
+      "copy_tip": "klik untuk menyalin",
+      "copy_done": "disalin",
+      "links": {
+        "title_1": "Lebih banyak contoh",
+        "title_2": "Dokumentasi"
+      }
+    },
+    "format-actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "Unduh {{PackageStoreName}}",
+      "comment_2": "Lisensi"
+    },
+    "texts": {
+      "learn_more": "Pelajari lebih lanjut"
+    }
+  }
+}

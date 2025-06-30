@@ -24,7 +24,7 @@
     "comment_4": "Retrieve and process the extracted barcodes"
   },
   "steps": {
-    "title": "Steps to extract barcodes from {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps to extract barcodes from {{FileFormatCap}} in {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you easily extract barcode data from {{FileFormatUp}} files in {{EnvName}} applications by following these simple steps:",
       "step_1": "Load the {{FileFormatUp}} file using a {{textParser}} instance.",

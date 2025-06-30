@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "{{ProgLang}}アプリで{{FileFormatUp}}ファイルからバーコードを抽出する",
+    "description": "{{ProdShortName}}を使用して、{{ProgLang}}での{{FileFormatUp}}ファイルからバーコードデータを検出および抽出します。追加のソフトウェアは不要です。"
+  },
+  "header": {
+    "title": "{{ProgLang}}を使用して{{FileFormatUp}}からバーコードを抽出する",
+    "description": "{{ProdShortName}}を使用して、PDF、Word、Excel、および画像ファイルからバーコード情報を検出し抽出します。これをあなたの{{EnvNameShort}}アプリケーションで実行してください。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} APIについて",
+    "content": "[{{ProdShortName}}]({{PlatformLink}})は、{{EnvName}}開発者向けの強力な文書解析APIです。PDF、Word、Excel、PowerPointなどのさまざまなファイル形式からテキスト、画像、構造化されたコンテンツ、およびバーコードを抽出することができます。すべて外部ツールに依存せずに行われます。"
+  },
+  "formats": {
+    "title": "バーコード抽出に対応したフォーマット",
+    "description": "{{ProdShortName}}は、多種多様なドキュメントおよび画像フォーマットでのバーコード検出をサポートしています。一般的にサポートされているファイルタイプは以下をご覧ください。"
+  },
+  "examples": {
+    "comment_1": "{{textParser}}クラスを使用してバーコードを含むドキュメントをロードします。",
+    "comment_2": "ファイルがバーコード抽出をサポートしていることを確認します。",
+    "comment_3": "バーコード抽出はサポートされていません。",
+    "comment_4": "抽出したバーコードを取得して処理します。"
+  },
+  "steps": {
+    "title": "{{ProgLang}}で{{FileFormatCap}}からバーコードを抽出する手順",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})を使用すると、次の簡単な手順に従って{{EnvName}}アプリケーション内の{{FileFormatUp}}ファイルからバーコードデータを抽出できます。",
+      "step_1": "{{textParser}}インスタンスを使用して{{FileFormatUp}}ファイルをロードします。",
+      "step_2": "ドキュメントがバーコード抽出をサポートしていることを確認します。",
+      "step_3": "ドキュメントからバーコードのリストを取得します。",
+      "step_4": "結果を反復処理し、抽出したバーコード値を使用します。"
+    }
+  },
+  "more_features": {
+    "title": "高度な文書解析機能",
+    "description": "バーコード抽出に加えて、{{ProdShortName}}は、プレーンテキスト、画像、および構造化データを抽出し、高度な自動化およびデータ処理ワークフローをサポートします。",
+    "image_description": "バーコード認識と文書解析",
+    "feature_1": {
+      "title": "複数のバーコードフォーマットのサポート",
+      "content": "QRコード、Code 128、Data Matrix、EAN、Aztecなどの一般的なバーコードタイプを認識します。"
+    },
+    "feature_2": {
+      "title": "文書と画像からのバーコードの抽出",
+      "content": "PDF、Word、Excel文書やJPEG、PNG、BMPなどの画像フォーマットからバーコードを読み取ります。"
+    },
+    "feature_3": {
+      "title": "カスタマイズ可能な抽出設定",
+      "content": "スキャン領域や複数ページの文書を処理するなどの検出オプションを設定します。"
+    },
+    "code_1": {
+      "title": "バーコードオプションを使用してPDFからバーコードを抽出する方法",
+      "content": "この例では、特定のバーコード抽出オプションを使用してPDFファイルからバーコードを抽出する方法を示します。",
+      "comment_1": "{{textParser}}クラスを使用してPDFファイルをロードします。",
+      "comment_2": "バーコード抽出がサポートされていることを確認します。",
+      "comment_3": "バーコードオプションを使用して結果をフィルタリングします。",
+      "comment_4": "ドキュメントからバーコードデータを取得します。",
+      "comment_5": "抽出したバーコードのリストを処理します。"
+    }
+  }
+}

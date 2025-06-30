@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Phân tích PDF",
+        "description": "(Định dạng tài liệu di động)"
+      },
+      "docx": {
+        "name": "Phân tích DOCX",
+        "description": "(Tài liệu Microsoft Word 2007+)"
+      },
+      "pptx": {
+        "name": "Phân tích PPTX",
+        "description": "(Định dạng trình bày Open XML)"
+      },
+      "xlsx": {
+        "name": "Phân tích XLSX",
+        "description": "(Sổ làm việc Open XML)"
+      },
+      "odt": {
+        "name": "Phân tích ODT",
+        "description": "(Tài liệu văn bản OpenDocument)"
+      },
+      "ods": {
+        "name": "Phân tích ODS",
+        "description": "(Bảng tính OpenDocument)"
+      },
+      "odp": {
+        "name": "Phân tích ODP",
+        "description": "(Trình bày OpenDocument)"
+      },
+      "txt": {
+        "name": "Phân tích TXT",
+        "description": "(Tập tin văn bản)"
+      },
+      "rtf": {
+        "name": "Phân tích RTF",
+        "description": "(Định dạng văn bản phong phú)"
+      },
+      "xml": {
+        "name": "Phân tích XML",
+        "description": "(Ngôn ngữ đánh dấu mở rộng)"
+      },
+      "epub": {
+        "name": "Phân tích EPUB",
+        "description": "(Tập tin eBook mở)"
+      },
+      "fb2": {
+        "name": "Phân tích FB2",
+        "description": "(eBook FictionBook)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Sao chép",
+      "copy_tip": "nhấp để sao chép",
+      "copy_done": "đã sao chép",
+      "links": {
+        "title_1": "Nhiều ví dụ hơn",
+        "title_2": "Tài liệu"
+      }
+    },
+    "format-actions": {
+      "title": "Bạn đã sẵn sàng bắt đầu chưa?",
+      "description": "Thử nghiệm các tính năng của {{ProdShortName}} miễn phí hoặc yêu cầu cấp giấy phép",
+      "comment_1": "Tải xuống {{PackageStoreName}}",
+      "comment_2": "Cấp phép"
+    },
+    "texts": {
+      "learn_more": "Tìm hiểu thêm"
+    }
+  }
+}

@@ -24,7 +24,7 @@
     "comment_4": "Retrieve and process the extracted hyperlinks"
   },
   "steps": {
-    "title": "Steps to extract hyperlinks from {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps to extract hyperlinks from {{FileFormatCap}} in {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) enables {{EnvName}} developers to extract hyperlinks from {{FileFormatUp}} files by following these simple steps:",
       "step_1": "Load the {{FileFormatUp}} file using a {{textParser}} instance.",

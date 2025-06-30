@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Recupere texto de arquivos {{FileFormatUp}} em aplicações {{ProgLang}}",
+    "description": "Utilize {{ProdShortName}} para extrair conteúdo textual não estruturado ou estruturado de documentos {{FileFormatUp}} em {{ProgLang}}, sem depender de bibliotecas externas."
+  },
+  "header": {
+    "title": "Recupere texto de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Extraia texto legível ou estruturado de arquivos como PDF, Word, Excel e mais usando {{ProdShortName}} em seus projetos de desenvolvimento {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Versão de Avaliação Gratuita"
+  },
+  "about": {
+    "title": "Apresentando a API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) é um parser de documentos robusto e escalável projetado para desenvolvedores {{EnvName}}. Ele oferece recursos para extrair com precisão texto, tabelas, imagens e componentes estruturados de vários formatos, incluindo PDF, DOCX, XLSX, PPTX e outros—sem depender de utilitários externos."
+  },
+  "formats": {
+    "title": "Tipos de arquivos suportados para extração de texto",
+    "description": "{{ProdShortName}} é capaz de extrair conteúdo textual de numerosos formatos de arquivos e imagens. Abaixo estão os tipos mais comumente usados que ele suporta."
+  },
+  "examples": {
+    "comment_1": "Inicialize {{textParser}} com seu documento",
+    "comment_2": "Leia e extraia todos os dados textuais",
+    "comment_3": "Retorne nulo se o conteúdo textual estiver ausente",
+    "comment_4": "Integre o texto extraído ao seu fluxo de trabalho",
+    "comment_5": "Ignore formatos de extração de texto não suportados"
+  },
+  "steps": {
+    "title": "Como recuperar texto de {{FileFormatCap}} usando {{ProgLang}}",
+    "content": {
+      "title": "Siga os passos abaixo para extrair texto de arquivos {{FileFormatUp}} usando [{{ProdShortName}}]({{PlatformLink}}) dentro do seu projeto {{EnvName}}:",
+      "step_1": "Carregue o documento {{FileFormatUp}} usando a classe {{textParser}}.",
+      "step_2": "Realize a extração de texto do conteúdo do arquivo.",
+      "step_3": "Verifique se o texto foi recuperado com sucesso.",
+      "step_4": "Use os dados textuais em sistemas de pesquisa, análise ou automação."
+    }
+  },
+  "more_features": {
+    "title": "Funcionalidade avançada de extração de texto",
+    "description": "{{ProdShortName}} vai além da extração simples de texto—suportando a recuperação de imagens, metadados e dados estruturados para aprimorar tarefas de processamento de conteúdo.",
+    "image_description": "Extraia e estruture o conteúdo textual de documentos",
+    "feature_1": {
+      "title": "Funciona em numerosos formatos de documentos",
+      "content": "Capture tanto texto bruto quanto estruturado de DOCX, XLSX, PPTX, PDF, HTML e vários outros formatos."
+    },
+    "feature_2": {
+      "title": "Extraia texto de conteúdo visual e textual",
+      "content": "Analise texto de documentos digitalizados, slides, planilhas e outros tipos de arquivos enquanto preserva a estrutura lógica."
+    },
+    "feature_3": {
+      "title": "Controle detalhado sobre o processo de extração",
+      "content": "Configurar faixas de páginas, zonas de layout e parâmetros de precisão para uma análise de texto refinada."
+    },
+    "code_1": {
+      "title": "Exemplo: Extraindo regiões de texto de um documento PPTX",
+      "content": "Este exemplo demonstra a extração de blocos de texto junto com suas coordenadas espaciais de uma apresentação PowerPoint usando {{ProdShortName}}.",
+      "comment_1": "Carregue seu arquivo PPTX com a API {{textParser}}",
+      "comment_2": "Obtenha todas as zonas de texto retangulares",
+      "comment_3": "Saia se este recurso não for suportado",
+      "comment_4": "Itere pelas áreas de texto por página",
+      "comment_5": "Processar cada bloco de texto com seu número de página e retângulo delimitador"
+    }
+  }
+}

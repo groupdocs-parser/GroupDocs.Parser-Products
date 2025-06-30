@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Extraer texto de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}}",
+    "description": "Utiliza {{ProdShortName}} para extraer texto plano o estructurado de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}} sin necesidad de herramientas externas."
+  },
+  "header": {
+    "title": "Extraer texto de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Extrae rápidamente texto legible y estructurado de PDFs, Word, Excel y otros tipos de archivos utilizando {{ProdShortName}} en tus soluciones {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratuita"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) es una API de análisis de documentos de alto rendimiento para desarrolladores de {{EnvName}}. Simplifica la extracción de texto, imágenes, tablas y contenido estructurado de múltiples formatos de archivo, incluyendo PDF, DOCX, XLSX, PPTX y más, sin depender de bibliotecas de terceros."
+  },
+  "formats": {
+    "title": "Formatos compatibles para extracción de texto",
+    "description": "{{ProdShortName}} permite la extracción de texto de una amplia variedad de tipos de documentos e imágenes. Explora los formatos comúnmente soportados que se enumeran a continuación."
+  },
+  "examples": {
+    "comment_1": "Carga tu documento en {{textParser}}",
+    "comment_2": "Extrae todo el contenido de texto del archivo",
+    "comment_3": "Si el texto no está disponible, el resultado será nulo",
+    "comment_4": "Utiliza el texto extraído en tu aplicación",
+    "comment_5": "La extracción de texto no es compatible con este formato"
+  },
+  "steps": {
+    "title": "Pasos para extraer texto de {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "Puedes extraer texto limpio y estructurado de documentos {{FileFormatUp}} en aplicaciones {{EnvName}} con [{{ProdShortName}}]({{PlatformLink}}) siguiendo estos pasos:",
+      "step_1": "Abre el documento {{FileFormatUp}} utilizando una instancia de {{textParser}}.",
+      "step_2": "Extrae el texto del contenido del archivo.",
+      "step_3": "Verifica el resultado para confirmar que la extracción de texto fue exitosa.",
+      "step_4": "Utiliza el texto extraído en tu lógica empresarial, indexación o tuberías de datos."
+    }
+  },
+  "more_features": {
+    "title": "Características integrales de extracción de contenido",
+    "description": "Además del texto plano, {{ProdShortName}} puede extraer imágenes, elementos estructurados y metadatos para apoyar el análisis, transformación y automatización de contenido.",
+    "image_description": "Reconocimiento de texto y análisis de documentos estructurados",
+    "feature_1": {
+      "title": "Extracción de texto en varios tipos de archivos",
+      "content": "Obtén texto plano o estructurado de formatos como PDF, DOCX, XLSX, PPTX, HTML y otros formatos."
+    },
+    "feature_2": {
+      "title": "Proceso de texto de documentos y visuales",
+      "content": "Extrae texto de imágenes escaneadas, presentaciones, hojas de cálculo y documentos digitales mientras preservas la estructura."
+    },
+    "feature_3": {
+      "title": "Configuración avanzada de extracción de texto",
+      "content": "Personaliza cómo se detecta el texto: define rangos de páginas, regiones de diseño y ajusta la salida para una precisión máxima."
+    },
+    "code_1": {
+      "title": "Cómo extraer áreas de texto de un archivo PPTX",
+      "content": "Este ejemplo de código muestra cómo recuperar el contenido de texto junto con las coordenadas de área de un archivo de PowerPoint utilizando {{ProdShortName}}.",
+      "comment_1": "Cargar la presentación de PowerPoint con {{textParser}}",
+      "comment_2": "Extraer todos los rectángulos de áreas de texto del documento",
+      "comment_3": "Salir si la extracción de áreas de texto no está disponible",
+      "comment_4": "Iterar a través de las áreas de texto de cada página",
+      "comment_5": "Acceder al índice de la página, rectángulo de área y valor de texto"
+    }
+  }
+}

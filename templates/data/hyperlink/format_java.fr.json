@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Extraire des hyperliens des fichiers {{FileFormatUp}} dans des applications {{ProgLang}}",
+    "description": "Utilisez {{ProdShortName}} pour trouver et extraire des liens URL à partir de documents {{FileFormatUp}} dans des projets {{ProgLang}}—aucun logiciel supplémentaire requis."
+  },
+  "header": {
+    "title": "Extraire des hyperliens des {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Extrayez des liens web et des hyperliens de fichiers PDF, documents Word, feuilles Excel, et d'autres documents en utilisant {{ProdShortName}} dans votre environnement {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'Essai Gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) est une API robuste d'extraction de contenu conçue pour les développeurs {{EnvName}}. Elle offre des outils pour extraire des hyperliens, des données structurées, des images et du texte à partir de formats populaires tels que DOCX, XLSX, PDF, HTML, et plus—sans avoir besoin de plugins externes."
+  },
+  "formats": {
+    "title": "Formats de documents prenant en charge l'extraction d'hyperliens",
+    "description": "Avec {{ProdShortName}}, vous pouvez extraire des hyperliens de nombreux formats de fichiers couramment utilisés. Voici une liste de formats généralement pris en charge."
+  },
+  "examples": {
+    "comment_1": "Chargez le fichier pouvant contenir des hyperliens en utilisant le {{textParser}}",
+    "comment_2": "Vérifiez si le format du document prend en charge l'analyse des hyperliens",
+    "comment_3": "L'extraction des hyperliens n'est pas disponible pour le fichier",
+    "comment_4": "Extraire et utiliser les données des hyperliens du document"
+  },
+  "steps": {
+    "title": "Comment extraire des hyperliens des {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilite l'extraction d'hyperliens des fichiers {{FileFormatUp}} dans les applications {{EnvName}} avec ces étapes de base :",
+      "step_1": "Ouvrez le fichier {{FileFormatUp}} en utilisant une instance de {{textParser}}.",
+      "step_2": "Assurez-vous que l'extraction des hyperliens est disponible pour le format de fichier.",
+      "step_3": "Extraire tous les hyperliens en utilisant la méthode appropriée.",
+      "step_4": "Parcourez les résultats et traitez chaque lien selon vos besoins."
+    }
+  },
+  "more_features": {
+    "title": "Outils complets de parsing de documents",
+    "description": "En plus d'extraire des hyperliens, {{ProdShortName}} vous permet de collecter d'autres contenus utiles tels que du texte brut, des médias intégrés et des données structurées pour une utilisation dans des flux de travail automatisés.",
+    "image_description": "Extraction d'hyperliens et analyse de documents",
+    "feature_1": {
+      "title": "Détection précise des liens",
+      "content": "Capturer tous les types d'hyperliens à partir de différentes mises en page de documents, y compris le texte cliquable et les URL cachées."
+    },
+    "feature_2": {
+      "title": "Fonctionne avec des documents et du contenu web",
+      "content": "Extraire des liens à partir de fichiers PDF, DOCX, XLSX, HTML et d'images contenant des hyperliens intégrés."
+    },
+    "feature_3": {
+      "title": "Comportement d'extraction personnalisé",
+      "content": "Affinez la manière dont les hyperliens sont extraits en utilisant des options telles que les plages de pages, les types de liens ou les filtres de contenu."
+    },
+    "code_1": {
+      "title": "Exemple : extraction d'hyperliens d'un PDF avec des options personnalisées",
+      "content": "Cet exemple montre comment extraire tous les liens d'un fichier PDF en utilisant des paramètres d'extraction des liens.",
+      "comment_1": "Ouvrez le PDF en utilisant la classe {{textParser}}",
+      "comment_2": "Vérifiez que le support des hyperliens est activé pour ce document",
+      "comment_3": "Appliquez des options pour filtrer les liens",
+      "comment_4": "Utilisez le parser pour obtenir les données des hyperliens",
+      "comment_5": "Itérez à travers les liens et gérez-les en conséquence"
+    }
+  }
+}

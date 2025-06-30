@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Парсинг PDF",
+        "description": "(Формат переносимого документа)"
+      },
+      "docx": {
+        "name": "Парсинг DOCX",
+        "description": "(Документ Word 2007+)"
+      },
+      "pptx": {
+        "name": "Парсинг PPTX",
+        "description": "(Формат презентации Open XML)"
+      },
+      "xlsx": {
+        "name": "Парсинг XLSX",
+        "description": "(Рабочая книга Open XML)"
+      },
+      "odt": {
+        "name": "Парсинг ODT",
+        "description": "(Текстовый документ OpenDocument)"
+      },
+      "ods": {
+        "name": "Парсинг ODS",
+        "description": "(Электронная таблица OpenDocument)"
+      },
+      "odp": {
+        "name": "Парсинг ODP",
+        "description": "(Презентация OpenDocument)"
+      },
+      "txt": {
+        "name": "Парсинг TXT",
+        "description": "(Текстовый файл)"
+      },
+      "rtf": {
+        "name": "Парсинг RTF",
+        "description": "(Формат Rich Text)"
+      },
+      "xml": {
+        "name": "Парсинг XML",
+        "description": "(Расширяемый язык разметки)"
+      },
+      "epub": {
+        "name": "Парсинг EPUB",
+        "description": "(Файл открытой электронной книги)"
+      },
+      "fb2": {
+        "name": "Парсинг FB2",
+        "description": "(Электронная книга FictionBook)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копировать",
+      "copy_tip": "Нажмите для копирования",
+      "copy_done": "Скопировано",
+      "links": {
+        "title_1": "Больше примеров",
+        "title_2": "Документация"
+      }
+    },
+    "format-actions": {
+      "title": "Готовы начать?",
+      "description": "Попробуйте функции {{ProdShortName}} бесплатно или запросите лицензию",
+      "comment_1": "Скачивание {{PackageStoreName}}",
+      "comment_2": "Лицензирование"
+    },
+    "texts": {
+      "learn_more": "Узнать больше"
+    }
+  }
+}

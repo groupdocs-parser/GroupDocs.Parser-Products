@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Lire les codes-barres des fichiers {{FileFormatUp}} dans les applications {{ProgLang}}",
+    "description": "Avec {{ProdShortName}}, extrayez les données des codes-barres à partir de documents {{FileFormatUp}} en utilisant {{ProgLang}} sans outils externes."
+  },
+  "header": {
+    "title": "Lire les codes-barres des fichiers {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Extrayez le contenu des codes-barres à partir de fichiers PDF, Word, Excel et d'images en utilisant {{ProdShortName}} dans vos applications {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger la version d'essai gratuite"
+  },
+  "about": {
+    "title": "Vue d'ensemble de l'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) offre une solution complète pour l'analyse de documents dans {{EnvName}}. Il permet aux développeurs d'extraire des codes-barres, du texte, des images et des informations structurées à partir de plusieurs formats de fichier tels que PDF, Word, Excel, PowerPoint et d'autres—sans avoir besoin de bibliothèques tierces."
+  },
+  "formats": {
+    "title": "Formats de fichiers pris en charge pour la lecture de codes-barres",
+    "description": "{{ProdShortName}} peut lire les codes-barres à partir de nombreux types de documents et d'images. Voici quelques-uns des formats couramment pris en charge."
+  },
+  "examples": {
+    "comment_1": "Ouvrez un document contenant des codes-barres à l'aide de {{textParser}}",
+    "comment_2": "Vérifiez la prise en charge des codes-barres pour le fichier",
+    "comment_3": "Gérez les types de fichiers non pris en charge",
+    "comment_4": "Extrayez et utilisez les données des codes-barres"
+  },
+  "steps": {
+    "title": "Comment lire des codes-barres à partir de {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "Avec [{{ProdShortName}}]({{PlatformLink}}), les développeurs {{EnvName}} peuvent extraire des codes-barres des documents {{FileFormatUp}} en quelques étapes :",
+      "step_1": "Chargez le document {{FileFormatUp}} à l'aide de {{textParser}}.",
+      "step_2": "Vérifiez que le document prend en charge l'extraction de codes-barres.",
+      "step_3": "Utilisez l'API pour récupérer les données des codes-barres.",
+      "step_4": "Parcourez les résultats des codes-barres et appliquez-les selon vos besoins."
+    }
+  },
+  "more_features": {
+    "title": "Autres capacités d'analyse",
+    "description": "{{ProdShortName}} va au-delà de l'extraction de codes-barres—il vous permet également d'extraire du texte brut, des images et des éléments structurés pour soutenir des flux de travail basés sur les données.",
+    "image_description": "Fonctionnalités d'extraction de codes-barres et de données",
+    "feature_1": {
+      "title": "Large prise en charge des formats de codes-barres",
+      "content": "Détectez les formats de codes-barres standards, y compris QR Code, Code 39, Data Matrix, EAN, Aztec, et d'autres."
+    },
+    "feature_2": {
+      "title": "Lire des codes-barres à partir de plusieurs sources",
+      "content": "Extrayez les informations des codes-barres à partir de documents Office, de fichiers PDF et d'images telles que PNG, JPG et BMP."
+    },
+    "feature_3": {
+      "title": "Configuration de lecture des codes-barres personnalisée",
+      "content": "Affinez l'extraction des codes-barres avec des options pour cibler des régions spécifiques et des fichiers multi-pages."
+    },
+    "code_1": {
+      "title": "Exemple : extraire des codes-barres d'un PDF avec des options",
+      "content": "Cet exemple démontre l'extraction de codes-barres à partir d'un document PDF en utilisant des paramètres personnalisés.",
+      "comment_1": "Initialisez le parser avec un document PDF",
+      "comment_2": "Assurez-vous que le document prend en charge la lecture des codes-barres",
+      "comment_3": "Appliquez un filtre avec des options de codes-barres",
+      "comment_4": "Extrayez les codes-barres à l'aide du parser",
+      "comment_5": "Gérez chaque résultat de code-barres"
+    }
+  }
+}

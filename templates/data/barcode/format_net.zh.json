@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "在 {{ProgLang}} 应用中从 {{FileFormatUp}} 文件提取条形码",
+    "description": "使用 {{ProdShortName}} 检测并提取 {{ProgLang}} 中 {{FileFormatUp}} 文件的条形码数据，无需额外的软件。"
+  },
+  "header": {
+    "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 提取条形码",
+    "description": "在您的 {{EnvNameShort}} 应用中，利用 {{ProdShortName}} 检测并提取 PDF、Word、Excel 和图像文件中的条形码信息。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) 是一个强大的文档解析 API，专为 {{EnvName}} 开发者设计。它能够从多种文件格式中提取文本、图像、结构化内容和条形码，包括 PDF、Word、Excel、PowerPoint 等，全部操作无需依赖外部工具。"
+  },
+  "formats": {
+    "title": "条形码提取支持的格式",
+    "description": "{{ProdShortName}} 支持多种文档和图像格式中的条形码检测。请查看下面常用的文件类型。"
+  },
+  "examples": {
+    "comment_1": "使用 {{textParser}} 类加载包含条形码的文档",
+    "comment_2": "验证文件是否支持条形码提取",
+    "comment_3": "不支持条形码提取",
+    "comment_4": "获取并处理提取的条形码"
+  },
+  "steps": {
+    "title": "在 {{ProgLang}} 中从 {{FileFormatCap}} 提取条形码的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使您能够通过以下简单步骤在 {{EnvName}} 应用中提取 {{FileFormatUp}} 文件的条形码数据：",
+      "step_1": "使用 {{textParser}} 实例加载 {{FileFormatUp}} 文件。",
+      "step_2": "验证文档是否支持条形码提取。",
+      "step_3": "从文档中检索条形码列表。",
+      "step_4": "遍历结果并使用提取的条形码值。"
+    }
+  },
+  "more_features": {
+    "title": "高级文档解析功能",
+    "description": "除了条形码提取，{{ProdShortName}} 还允许您提取纯文本、图像和结构化数据，以支持高级自动化和数据处理工作流程。",
+    "image_description": "条形码识别和文档解析",
+    "feature_1": {
+      "title": "支持多种条形码格式",
+      "content": "识别常见的条形码类型，包括 QR 码、Code 128、Data Matrix、EAN、Aztec 等。"
+    },
+    "feature_2": {
+      "title": "从文档和图像中提取条形码",
+      "content": "从 PDF、Word、Excel 文档，及 JPEG、PNG、BMP 等图像格式中读取条形码。"
+    },
+    "feature_3": {
+      "title": "可定制的提取设置",
+      "content": "配置检测选项，例如扫描区域和处理多页文档。"
+    },
+    "code_1": {
+      "title": "如何使用条形码选项从 PDF 中提取条形码",
+      "content": "本示例演示如何使用特定的条形码提取选项从 PDF 文件中提取条形码。",
+      "comment_1": "使用 {{textParser}} 类加载 PDF 文件",
+      "comment_2": "确认支持条形码提取",
+      "comment_3": "使用条形码选项过滤结果",
+      "comment_4": "从文档中检索条形码数据",
+      "comment_5": "处理提取的条形码列表"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "在{{ProgLang}}应用程序中从{{FileFormatUp}}文件提取图像",
+    "description": "使用{{ProdShortName}}在{{ProgLang}}中检测并提取{{FileFormatUp}}文件中的图像，无需额外工具。"
+  },
+  "header": {
+    "title": "使用{{ProgLang}}从{{FileFormatUp}}提取图像",
+    "description": "使用{{ProdShortName}}，能够方便地定位并提取PDF、Word文档、Excel表格及其他文件类型中的嵌入图像，适用于您的{{EnvNameShort}}应用程序。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载试用"
+  },
+  "about": {
+    "title": "关于{{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}})是一个强大的文档解析库，专为{{EnvName}}开发者设计。它允许从流行文件格式（如PDF、DOCX、XLSX、PPTX等）中提取图像、文本、超链接和结构化数据，无需任何第三方应用程序。"
+  },
+  "formats": {
+    "title": "支持的图像提取格式",
+    "description": "{{ProdShortName}}能够准确地从多种文档和图像格式中提取图像。请查看下面的常见支持类型列表。"
+  },
+  "examples": {
+    "comment_1": "使用{{textParser}}打开包含图像的文档",
+    "comment_2": "从文件中提取所有嵌入的图像",
+    "comment_3": "处理未找到图像的情况",
+    "comment_4": "处理或保存检索到的图像"
+  },
+  "steps": {
+    "title": "在{{ProgLang}}中从{{FileFormatCap}}提取图像的步骤",
+    "content": {
+      "title": "借助[{{ProdShortName}}]({{PlatformLink}})，您可以在数个步骤中从{{FileFormatUp}}文档中提取图像：",
+      "step_1": "用{{FileFormatUp}}文件初始化{{textParser}}。",
+      "step_2": "从文档中获取图像元素。",
+      "step_3": "按需在您的工作流程中使用提取的图像。"
+    }
+  },
+  "more_features": {
+    "title": "全面的文档内容提取",
+    "description": "{{ProdShortName}}不仅提供图像提取功能，还支持提取原始文本、超链接、元数据和结构化内容，满足高级自动化场景的需求。",
+    "image_description": "图像提取和文档解析工作流",
+    "feature_1": {
+      "title": "从多种格式中提取图像",
+      "content": "从多种文件格式（包括DOCX、PDF、PPTX、XLSX以及图像文件如PNG、JPG和TIFF）中提取嵌入图像。"
+    },
+    "feature_2": {
+      "title": "保持原始图像质量",
+      "content": "图像以高保真度提取，保持原始分辨率、格式和色彩配置文件。"
+    },
+    "feature_3": {
+      "title": "高级提取选项",
+      "content": "通过按页、格式或分辨率筛选定制图像提取，并支持多页文档。"
+    },
+    "code_1": {
+      "title": "如何从PDF文档中提取和保存图像",
+      "content": "本示例演示如何从PDF文件中提取所有图像资源并保存到本地文件系统。",
+      "comment_1": "使用{{textParser}}类加载PDF",
+      "comment_2": "从文件中提取嵌入图像",
+      "comment_3": "设置输出格式和图像选项（例如，PNG）",
+      "comment_4": "将提取的图像写入磁盘"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "在{{ProgLang}}应用程序中从{{FileFormatUp}}文件提取图像",
+    "description": "使用{{ProdShortName}}，您可以在{{ProgLang}}中轻松地从{{FileFormatUp}}文件中提取图像，无需第三方工具。"
+  },
+  "header": {
+    "title": "使用{{ProgLang}}从{{FileFormatUp}}提取图像",
+    "description": "使用{{ProdShortName}}在您的{{EnvNameShort}}开发环境中从PDF、Word、Excel等文件中检索嵌入的图像。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用"
+  },
+  "about": {
+    "title": "{{ProdFullName}}是什么？",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) 是一个功能丰富的解析API，专为{{EnvName}}开发者量身定制。它能够从各种文件格式中提取图像、文本、链接和结构化元素，包括DOCX、XLSX、PDF、PNG、JPG等，无需依赖外部库或应用程序。"
+  },
+  "formats": {
+    "title": "支持图像提取的文件类型",
+    "description": "{{ProdShortName}}支持在广泛的文档和图像之间进行图像提取。探索下面常见的支持格式。"
+  },
+  "examples": {
+    "comment_1": "初始化解析器并使用{{textParser}}加载包含图像的文档",
+    "comment_2": "收集文档中嵌入的所有图像元素",
+    "comment_3": "如果文档没有图像，则跳过处理",
+    "comment_4": "根据需要处理每一张图像"
+  },
+  "steps": {
+    "title": "如何在{{ProgLang}}中从{{FileFormatCap}}提取图像",
+    "content": {
+      "title": "按照以下步骤使用[{{ProdShortName}}]({{PlatformLink}})在您的{{EnvName}}应用程序中提取{{FileFormatUp}}文档的图像：",
+      "step_1": "创建一个{{textParser}}实例并加载{{FileFormatUp}}文件。",
+      "step_2": "从加载的文档中提取图像数据。",
+      "step_3": "根据需要使用或导出提取的图像。"
+    }
+  },
+  "more_features": {
+    "title": "更多文档解析功能",
+    "description": "除了图像提取外，{{ProdShortName}}还允许您提取原始内容，如文本、链接、元数据和结构化数据，以便进行处理和分析。",
+    "image_description": "从文档中提取图像和内容",
+    "feature_1": {
+      "title": "支持多种格式",
+      "content": "从不同类型的文档中提取图像，包括PDF、DOCX、PPTX、XLSX，以及PNG、JPEG和GIF等图像格式。"
+    },
+    "feature_2": {
+      "title": "保持图像清晰度和分辨率",
+      "content": "所有提取的图像均保留其原始分辨率和文件类型，以确保一致的质量和可用性。"
+    },
+    "feature_3": {
+      "title": "灵活的配置选项",
+      "content": "通过按类型、大小、页面索引或文件格式过滤图像，自定义图像提取过程。"
+    },
+    "code_1": {
+      "title": "从PDF文件中提取并保存图像",
+      "content": "本示例演示如何从PDF文档中提取图像，并单独将其保存在您的设备上。",
+      "comment_1": "使用{{textParser}}打开PDF文件",
+      "comment_2": "从文档内容中获取图像",
+      "comment_3": "设置输出参数，例如格式（如JPEG或PNG）",
+      "comment_4": "将提取的图像保存到本地目录"
+    }
+  }
+}

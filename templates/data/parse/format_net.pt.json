@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Extraia dados de arquivos {{FileFormatUp}} em aplicativos {{ProgLang}}",
+    "description": "Use {{ProdShortName}} para extrair texto, imagens, tabelas e outros dados de arquivos {{FileFormatUp}} em {{ProgLang}} sem depender de ferramentas de terceiros."
+  },
+  "header": {
+    "title": "Analise documentos {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Extraia de forma eficiente texto, metadados, tabelas e imagens de arquivos PDF, Word, Excel e de imagem usando {{ProdShortName}} em seus projetos {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Versão de Avaliação Grátis"
+  },
+  "about": {
+    "title": "Sobre a API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) é uma API de análise de documentos rica em recursos, projetada para desenvolvedores {{EnvName}}. Ela suporta a extração de texto puro e estruturado, metadados, imagens, tabelas e códigos de barras de formatos populares como PDF, DOCX, XLSX, PPTX, entre outros — tudo isso sem dependências de software adicionais."
+  },
+  "formats": {
+    "title": "Formatos suportados para extração de dados",
+    "description": "{{ProdShortName}} permite a análise de um amplo conjunto de formatos de documentos e imagens. Explore os tipos de arquivos suportados comumente utilizados em fluxos de trabalho de extração de dados."
+  },
+  "examples": {
+    "comment_1": "Carregue seu documento no {{textParser}}",
+    "comment_2": "Extraia todo o conteúdo de texto do arquivo",
+    "comment_3": "Se o texto não estiver disponível, o resultado será nulo",
+    "comment_4": "Use o texto extraído em sua aplicação",
+    "comment_5": "A extração de texto não é suportada para este formato"
+  },
+  "steps": {
+    "title": "Passos para extrair dados de {{FileFormatCap}} em {{ProgLang}}",
+    "content": {
+      "title": "Siga estas etapas para analisar o conteúdo de documentos {{FileFormatUp}} em seus aplicativos {{EnvName}} usando [{{ProdShortName}}]({{PlatformLink}}):",
+      "step_1": "Carregue o documento {{FileFormatUp}} usando uma instância de {{textParser}}.",
+      "step_2": "Extraia o conteúdo desejado, como texto, tabelas ou metadados.",
+      "step_3": "Verifique se os dados extraídos são válidos.",
+      "step_4": "Utilize a saída analisada em seu processamento subsequente, automação ou sistemas empresariais."
+    }
+  },
+  "more_features": {
+    "title": "Capacidades abrangentes de análise de documentos",
+    "description": "{{ProdShortName}} oferece mais do que apenas leitura de texto — ele suporta extração de códigos de barras, análise de imagens, acesso a metadados e processamento de dados estruturados para automação e análise de dados avançadas.",
+    "image_description": "Capacidades de extração e análise de conteúdo do documento",
+    "feature_1": {
+      "title": "Suporte a diversos tipos de conteúdo de arquivos",
+      "content": "Extraia dados, incluindo texto, imagens, tabelas e campos de formatos de documento como PDF, Word, Excel, HTML e mais."
+    },
+    "feature_2": {
+      "title": "Trabalhe com arquivos digitalizados e digitais",
+      "content": "Analise dados de documentos digitalizados e arquivos nativos, com suporte para OCR e extração orientada a layout."
+    },
+    "feature_3": {
+      "title": "Parâmetros de extração configuráveis",
+      "content": "Ajuste a lógica de análise com opções flexíveis, como seleção de intervalo de páginas, direcionamento de regiões e modelos de detecção de campos."
+    },
+    "code_1": {
+      "title": "Como analisar PDF usando templates",
+      "content": "Este exemplo mostra como extrair dados estruturados de um PDF usando um template de análise predefinido com {{ProdShortName}}.",
+      "comment_1": "Carregue o arquivo PDF com a classe {{textParser}}",
+      "comment_2": "Analise o documento com base no template",
+      "comment_3": "Verifique se a extração de formulários é suportada",
+      "comment_4": "Processar os campos obtidos",
+      "comment_5": "Crie parâmetros de detector para a tabela 'Detalhes'"
+    }
+  }
+}

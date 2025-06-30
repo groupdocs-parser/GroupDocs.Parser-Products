@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Analizar PDF",
+        "description": "(Formato de documento portátil)"
+      },
+      "docx": {
+        "name": "Analizar DOCX",
+        "description": "(Documento Word 2007+)"
+      },
+      "pptx": {
+        "name": "Analizar PPTX",
+        "description": "(Formato de presentación Open XML)"
+      },
+      "xlsx": {
+        "name": "Analizar XLSX",
+        "description": "(Libro de trabajo Open XML)"
+      },
+      "odt": {
+        "name": "Analizar ODT",
+        "description": "(Documento de texto OpenDocument)"
+      },
+      "ods": {
+        "name": "Analizar ODS",
+        "description": "(Hoja de cálculo OpenDocument)"
+      },
+      "odp": {
+        "name": "Analizar ODP",
+        "description": "(Presentación OpenDocument)"
+      },
+      "txt": {
+        "name": "Analizar TXT",
+        "description": "(Archivo de texto)"
+      },
+      "rtf": {
+        "name": "Analizar RTF",
+        "description": "(Formato de texto enriquecido)"
+      },
+      "xml": {
+        "name": "Analizar XML",
+        "description": "(Lenguaje de marcado extensible)"
+      },
+      "epub": {
+        "name": "Analizar EPUB",
+        "description": "(Archivo de eBook abierto)"
+      },
+      "fb2": {
+        "name": "Analizar FB2",
+        "description": "(eBook FictionBook)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "copy_tip": "haga clic para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Más ejemplos",
+        "title_2": "Documentación"
+      }
+    },
+    "format-actions": {
+      "title": "¿Listo para comenzar?",
+      "description": "Pruebe las características de {{ProdShortName}} gratis o solicite una licencia",
+      "comment_1": "Descarga de {{PackageStoreName}}",
+      "comment_2": "Licenciamiento"
+    },
+    "texts": {
+      "learn_more": "Aprender más"
+    }
+  }
+}

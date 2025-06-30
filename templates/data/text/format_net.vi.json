@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Trích xuất văn bản từ các tệp {{FileFormatUp}} trong ứng dụng {{ProgLang}}",
+    "description": "Sử dụng {{ProdShortName}} để trích xuất văn bản đơn giản hoặc có cấu trúc từ các tệp {{FileFormatUp}} trong các ứng dụng {{ProgLang}} mà không cần công cụ bên ngoài."
+  },
+  "header": {
+    "title": "Trích xuất văn bản từ {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Nhanh chóng trích xuất văn bản có thể đọc và có cấu trúc từ PDFs, Word, Excel và các loại tệp khác bằng cách sử dụng {{ProdShortName}} trong các giải pháp {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải Xuống Phiên Bản Dùng Thử Miễn Phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) là một API phân tích tài liệu hiệu suất cao dành cho các nhà phát triển {{EnvName}}. Nó đơn giản hóa việc trích xuất văn bản, hình ảnh, bảng và nội dung có cấu trúc từ nhiều định dạng tệp bao gồm PDF, DOCX, XLSX, PPTX và hơn thế nữa—không phụ thuộc vào thư viện bên thứ ba."
+  },
+  "formats": {
+    "title": "Các định dạng được hỗ trợ cho việc trích xuất văn bản",
+    "description": "{{ProdShortName}} cho phép trích xuất văn bản từ nhiều loại tài liệu và hình ảnh. Khám phá các định dạng thường được hỗ trợ được liệt kê dưới đây."
+  },
+  "examples": {
+    "comment_1": "Tải tài liệu của bạn vào {{textParser}}",
+    "comment_2": "Trích xuất tất cả nội dung văn bản từ tệp",
+    "comment_3": "Nếu văn bản không khả dụng, kết quả sẽ là null",
+    "comment_4": "Sử dụng văn bản đã trích xuất trong ứng dụng của bạn",
+    "comment_5": "Việc trích xuất văn bản không được hỗ trợ cho định dạng này"
+  },
+  "steps": {
+    "title": "Các bước để trích xuất văn bản từ {{FileFormatCap}} trong {{ProgLang}}",
+    "content": {
+      "title": "Bạn có thể trích xuất văn bản sạch và có cấu trúc từ tài liệu {{FileFormatUp}} trong các ứng dụng {{EnvName}} với [{{ProdShortName}}]({{PlatformLink}}) bằng cách làm theo các bước sau:",
+      "step_1": "Mở tài liệu {{FileFormatUp}} bằng một thể hiện {{textParser}}.",
+      "step_2": "Trích xuất văn bản từ nội dung của tệp.",
+      "step_3": "Kiểm tra kết quả để xác nhận việc trích xuất văn bản thành công.",
+      "step_4": "Sử dụng văn bản đã trích xuất trong logic doanh nghiệp, lập chỉ mục, hoặc các pipeline dữ liệu."
+    }
+  },
+  "more_features": {
+    "title": "Các tính năng trích xuất nội dung toàn diện",
+    "description": "Ngoài văn bản đơn giản, {{ProdShortName}} còn có thể trích xuất hình ảnh, các yếu tố có cấu trúc, và siêu dữ liệu để hỗ trợ phân tích nội dung, chuyển đổi, và tự động hóa.",
+    "image_description": "Nhận diện văn bản và phân tích tài liệu có cấu trúc",
+    "feature_1": {
+      "title": "Trích xuất văn bản từ nhiều loại tệp",
+      "content": "Nhận văn bản đơn giản hoặc có cấu trúc từ các định dạng như PDF, DOCX, XLSX, PPTX, HTML và các định dạng khác."
+    },
+    "feature_2": {
+      "title": "Xử lý văn bản từ tài liệu và hình ảnh",
+      "content": "Trích xuất văn bản từ hình ảnh quét, bài thuyết trình, bảng tính và tài liệu kỹ thuật số trong khi vẫn giữ nguyên cấu trúc."
+    },
+    "feature_3": {
+      "title": "Cấu hình trích xuất văn bản nâng cao",
+      "content": "Tùy chỉnh cách phát hiện văn bản—xác định các khoảng trang, khu vực bố cục và điều chỉnh đầu ra để đạt độ chính xác tối đa."
+    },
+    "code_1": {
+      "title": "Cách trích xuất các khu vực văn bản từ tệp PPTX",
+      "content": "Mẫu mã này cho thấy cách lấy nội dung văn bản cùng với tọa độ khu vực từ một tệp PowerPoint bằng cách sử dụng {{ProdShortName}}.",
+      "comment_1": "Tải bài thuyết trình PowerPoint với {{textParser}}",
+      "comment_2": "Trích xuất tất cả hình chữ nhật khu vực văn bản từ tài liệu",
+      "comment_3": "Thoát nếu không có trích xuất khu vực văn bản",
+      "comment_4": "Lặp qua các khu vực văn bản của từng trang",
+      "comment_5": "Truy cập chỉ số trang, hình chữ nhật khu vực, và giá trị văn bản"
+    }
+  }
+}

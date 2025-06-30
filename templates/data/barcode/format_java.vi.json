@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Đọc mã vạch từ các tệp {{FileFormatUp}} trong ứng dụng {{ProgLang}}",
+    "description": "Với {{ProdShortName}}, trích xuất dữ liệu mã vạch từ tài liệu {{FileFormatUp}} bằng {{ProgLang}} mà không cần công cụ bên ngoài."
+  },
+  "header": {
+    "title": "Đọc mã vạch từ {{FileFormatUp}} sử dụng {{ProgLang}}",
+    "description": "Trích xuất nội dung mã vạch từ các tệp PDF, Word, Excel và hình ảnh bằng {{ProdShortName}} trong các ứng dụng {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải Xuống Phiên Bản Dùng Thử Miễn Phí"
+  },
+  "about": {
+    "title": "Tổng quan về API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) cung cấp giải pháp toàn diện cho việc phân tích tài liệu trong {{EnvName}}. Nó cho phép các nhà phát triển trích xuất mã vạch, văn bản, hình ảnh và thông tin có cấu trúc từ nhiều định dạng tệp như PDF, Word, Excel, PowerPoint và các định dạng khác—không cần thư viện bên thứ ba."
+  },
+  "formats": {
+    "title": "Các định dạng tệp hỗ trợ đọc mã vạch",
+    "description": "{{ProdShortName}} có thể đọc mã vạch từ nhiều loại tài liệu và hình ảnh khác nhau. Dưới đây là một số định dạng phổ biến được hỗ trợ."
+  },
+  "examples": {
+    "comment_1": "Mở tài liệu chứa mã vạch bằng {{textParser}}",
+    "comment_2": "Kiểm tra hỗ trợ mã vạch cho tệp",
+    "comment_3": "Xử lý các loại tệp không được hỗ trợ",
+    "comment_4": "Trích xuất và sử dụng dữ liệu mã vạch"
+  },
+  "steps": {
+    "title": "Cách đọc mã vạch từ {{FileFormatCap}} trong {{ProgLang}}",
+    "content": {
+      "title": "Với [{{ProdShortName}}]({{PlatformLink}}), các nhà phát triển {{EnvName}} có thể trích xuất mã vạch từ tài liệu {{FileFormatUp}} chỉ trong vài bước:",
+      "step_1": "Tải tài liệu {{FileFormatUp}} bằng {{textParser}}.",
+      "step_2": "Xác minh tài liệu có hỗ trợ trích xuất mã vạch.",
+      "step_3": "Sử dụng API để lấy dữ liệu mã vạch.",
+      "step_4": "Lặp qua các kết quả mã vạch và áp dụng chúng khi cần."
+    }
+  },
+  "more_features": {
+    "title": "Nhiều khả năng phân tích hơn",
+    "description": "{{ProdShortName}} không chỉ dừng lại ở việc trích xuất mã vạch—nó còn cho phép bạn trích xuất văn bản thuần túy, hình ảnh và các yếu tố có cấu trúc để hỗ trợ các quy trình dựa trên dữ liệu.",
+    "image_description": "Các tính năng trích xuất mã vạch và dữ liệu",
+    "feature_1": {
+      "title": "Hỗ trợ nhiều định dạng mã vạch",
+      "content": "Phát hiện các định dạng mã vạch tiêu chuẩn bao gồm QR Code, Code 39, Data Matrix, EAN, Aztec và nhiều định dạng khác."
+    },
+    "feature_2": {
+      "title": "Đọc mã vạch từ nhiều nguồn khác nhau",
+      "content": "Trích xuất thông tin mã vạch từ tài liệu Office, PDF và các tệp hình ảnh như PNG, JPG và BMP."
+    },
+    "feature_3": {
+      "title": "Cấu hình đọc mã vạch tùy chỉnh",
+      "content": "Tinh chỉnh việc trích xuất mã vạch với các tùy chọn nhằm mục tiêu các vùng cụ thể và các tệp nhiều trang."
+    },
+    "code_1": {
+      "title": "Ví dụ: trích xuất mã vạch từ PDF với tùy chọn",
+      "content": "Mẫu này trình bày việc trích xuất mã vạch từ tài liệu PDF bằng cách sử dụng các cài đặt tùy chỉnh.",
+      "comment_1": "Khởi tạo trình phân tích với tài liệu PDF",
+      "comment_2": "Đảm bảo tài liệu hỗ trợ đọc mã vạch",
+      "comment_3": "Áp dụng bộ lọc với các tùy chọn mã vạch",
+      "comment_4": "Trích xuất mã vạch bằng cách sử dụng trình phân tích",
+      "comment_5": "Xử lý từng kết quả mã vạch"
+    }
+  }
+}

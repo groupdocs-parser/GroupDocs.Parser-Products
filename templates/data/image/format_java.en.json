@@ -24,7 +24,7 @@
     "comment_4": "Handle each image as required"
   },
   "steps": {
-    "title": "How to extract images from {{FileformatCap}} in {{ProgLang}}",
+    "title": "How to extract images from {{FileFormatCap}} in {{ProgLang}}",
     "content": {
       "title": "Follow these steps to extract images from {{FileFormatUp}} documents using [{{ProdShortName}}]({{PlatformLink}}) in your {{EnvName}} application:",
       "step_1": "Create a {{textParser}} instance and load the {{FileFormatUp}} file.",

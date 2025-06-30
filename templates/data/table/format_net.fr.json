@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Extraire des tables à partir de fichiers {{FileFormatUp}} dans des applications {{ProgLang}}",
+    "description": "Utilisez {{ProdShortName}} pour localiser et extraire des données de table structurées à partir de fichiers {{FileFormatUp}} dans des applications {{ProgLang}} sans dépendances supplémentaires."
+  },
+  "header": {
+    "title": "Extraire des tables à partir de {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Identifiez et extrayez rapidement les structures de table à partir de PDF, Word, Excel et d'autres formats de fichiers à l'aide de {{ProdShortName}} dans vos projets {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'Essai Gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) est une API de parsing de documents complète conçue pour les développeurs {{EnvName}}. Elle permet l'extraction précise de texte, tableaux, images, hyperliens et autres éléments structurés à partir de formats tels que PDF, DOCX, XLSX, PPTX et bien d'autres — sans avoir besoin d'un logiciel tiers."
+  },
+  "formats": {
+    "title": "Formats pris en charge pour l'extraction de tables",
+    "description": "{{ProdShortName}} peut extraire des données de table à partir de divers types de documents. Voici les formats les plus couramment utilisés pour le parsing de tableaux structurés."
+  },
+  "examples": {
+    "comment_1": "Ouvrez le document contenant des données de table en utilisant {{textParser}}",
+    "comment_2": "Vérifiez si le format prend en charge la reconnaissance des tables",
+    "comment_3": "Gérez les documents qui ne prennent pas en charge le parsing des tables",
+    "comment_4": "Définissez comment la structure de la table doit être reconnue",
+    "comment_5": "Spécifiez les paramètres d'extraction pour les données de table",
+    "comment_6": "Extraire des tables à partir du contenu du fichier",
+    "comment_7": "Parcourez chaque table détectée"
+  },
+  "steps": {
+    "title": "Étapes pour extraire des tables à partir de {{FileFormatCap}} dans {{ProgLang}}",
+    "content": {
+      "title": "Suivez ces instructions pour extraire des tables à partir de fichiers {{FileFormatUp}} en utilisant [{{ProdShortName}}]({{PlatformLink}}) dans votre environnement {{EnvName}} :",
+      "step_1": "Initialisez une instance de {{textParser}} et chargez votre document {{FileFormatUp}}.",
+      "step_2": "Vérifiez si l'extraction de tables est supportée pour le format d'entrée.",
+      "step_3": "Extraire le contenu de la table depuis le fichier.",
+      "step_4": "Utilisez les données de la table structurée pour la génération de rapports, l'automatisation ou l'analyse."
+    }
+  },
+  "more_features": {
+    "title": "Capacités puissantes d'extraction de données",
+    "description": "En plus du parsing des tables, {{ProdShortName}} peut extraire un contenu riche tel que des blocs de texte, des images, des métadonnées et d'autres données structurées pour faciliter l'automatisation des documents.",
+    "image_description": "Reconnaissance des tables et extraction de contenu",
+    "feature_1": {
+      "title": "Détection de tables multi-formats précise",
+      "content": "Extraire des données tabulaires à partir de DOCX, XLSX, PDF, HTML et formats similaires avec une grande précision."
+    },
+    "feature_2": {
+      "title": "Analyser les structures de table à partir de fichiers",
+      "content": "Récupérer efficacement des données de table à partir de documents et de feuilles de calcul sans perte de formatage."
+    },
+    "feature_3": {
+      "title": "Configuration flexible pour l'extraction de tables",
+      "content": "Ajustez la détection de mise en page, l'alignement des colonnes et les options d'en-tête/pied de page pour un contrôle précis sur la sortie."
+    },
+    "code_1": {
+      "title": "Comment extraire des tables à partir de feuilles de calcul Excel",
+      "content": "Cet exemple de code montre comment lire et parcourir les données des tables dans un fichier XLSX en utilisant {{ProdShortName}}.",
+      "comment_1": "Ouvrez le fichier Excel en utilisant l'API {{textParser}}",
+      "comment_2": "Quittez si les tables ne peuvent pas être extraites du fichier",
+      "comment_3": "Utilisez des règles de mise en page pour localiser le contenu tabulaire",
+      "comment_4": "Configurez les paramètres d'extraction pour les tables",
+      "comment_5": "Effectuez l'opération d'extraction des tables",
+      "comment_6": "Parcourez chaque structure de table détectée",
+      "comment_7": "Parcourez chaque ligne dans la table",
+      "comment_8": "Parcourez les cellules de chaque ligne",
+      "comment_9": "Accédez à la cellule de table actuelle",
+      "comment_10": "Affichez le contenu texte de chaque cellule"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Trích xuất hình ảnh từ tệp {{FileFormatUp}} trong ứng dụng {{ProgLang}}",
+    "description": "Với {{ProdShortName}}, bạn có thể trích xuất hình ảnh từ tệp {{FileFormatUp}} trong {{ProgLang}} mà không cần công cụ bên thứ ba."
+  },
+  "header": {
+    "title": "Trích xuất hình ảnh từ {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Lấy hình ảnh nhúng từ các tệp như PDF, Word, Excel và nhiều hơn nữa bằng {{ProdShortName}} trong môi trường phát triển {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về bản dùng thử miễn phí"
+  },
+  "about": {
+    "title": "{{ProdFullName}} là gì?",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) là một API phân tích đầy đủ tính năng được thiết kế dành cho các nhà phát triển {{EnvName}}. Nó cho phép trích xuất hình ảnh, văn bản, liên kết và các thành phần có cấu trúc từ nhiều định dạng tệp khác nhau bao gồm DOCX, XLSX, PDF, PNG, JPG và nhiều định dạng khác — tất cả mà không cần thư viện hoặc ứng dụng bên ngoài."
+  },
+  "formats": {
+    "title": "Các loại tệp hỗ trợ trích xuất hình ảnh",
+    "description": "{{ProdShortName}} hỗ trợ trích xuất hình ảnh từ nhiều tài liệu và hình ảnh khác nhau. Khám phá các định dạng thường được hỗ trợ dưới đây."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo parser và tải tài liệu có hình ảnh bằng {{textParser}}",
+    "comment_2": "Thu thập tất cả các phần tử hình ảnh nhúng trong tài liệu",
+    "comment_3": "Bỏ qua xử lý nếu tài liệu không có hình ảnh",
+    "comment_4": "Xử lý mỗi hình ảnh theo yêu cầu"
+  },
+  "steps": {
+    "title": "Cách trích xuất hình ảnh từ {{FileFormatCap}} trong {{ProgLang}}",
+    "content": {
+      "title": "Thực hiện các bước sau để trích xuất hình ảnh từ tài liệu {{FileFormatUp}} bằng [{{ProdShortName}}]({{PlatformLink}}) trong ứng dụng {{EnvName}} của bạn:",
+      "step_1": "Tạo một thể hiện {{textParser}} và tải tệp {{FileFormatUp}}.",
+      "step_2": "Trích xuất dữ liệu hình ảnh từ tài liệu đã tải.",
+      "step_3": "Sử dụng hoặc xuất các hình ảnh đã trích xuất theo yêu cầu."
+    }
+  },
+  "more_features": {
+    "title": "Các khả năng phân tích tài liệu khác",
+    "description": "Ngoài việc trích xuất hình ảnh, {{ProdShortName}} còn cho phép bạn trích xuất nội dung thô như văn bản, liên kết, siêu dữ liệu, và dữ liệu có cấu trúc để xử lý và phân tích.",
+    "image_description": "Trích xuất hình ảnh và nội dung từ các tài liệu",
+    "feature_1": {
+      "title": "Hoạt động với nhiều định dạng khác nhau",
+      "content": "Trích xuất hình ảnh từ các loại tài liệu khác nhau bao gồm PDF, DOCX, PPTX, XLSX và các định dạng hình ảnh như PNG, JPEG và GIF."
+    },
+    "feature_2": {
+      "title": "Bảo tồn độ rõ nét và độ phân giải của hình ảnh",
+      "content": "Tất cả hình ảnh được trích xuất giữ nguyên độ phân giải và kiểu tệp gốc để đảm bảo chất lượng và khả năng sử dụng nhất quán."
+    },
+    "feature_3": {
+      "title": "Tùy chọn cấu hình linh hoạt",
+      "content": "Tùy chỉnh quy trình trích xuất hình ảnh bằng cách lọc hình ảnh theo loại, kích thước, chỉ số trang hoặc định dạng tệp."
+    },
+    "code_1": {
+      "title": "Trích xuất và lưu hình ảnh từ tệp PDF",
+      "content": "Ví dụ này cho thấy cách trích xuất hình ảnh từ một tài liệu PDF và lưu chúng riêng lẻ trên thiết bị của bạn.",
+      "comment_1": "Sử dụng {{textParser}} để mở tệp PDF",
+      "comment_2": "Lấy hình ảnh từ nội dung tài liệu",
+      "comment_3": "Đặt các tham số đầu ra như định dạng (ví dụ: JPEG hoặc PNG)",
+      "comment_4": "Lưu hình ảnh đã trích xuất vào một thư mục cục bộ"
+    }
+  }
+}

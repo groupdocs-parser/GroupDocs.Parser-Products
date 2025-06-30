@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-26T17:35:46
+date:  2025-06-30T10:25:50
 draft: false
 lang: en
 format: Xlsx
@@ -18,7 +18,7 @@ head_title: "Extract content from XLSX files in Java applications"
 head_description: "Leverage GroupDocs.Parser to parse and retrieve structured data, text, tables, and images from XLSX files in Java, without needing external tools."
 
 ############################# Header ############################
-title: "Extract and parse XLSX documents in Java" 
+title: "Extract data from XLSX documents in Java" 
 description: "Seamlessly extract structured content such as text, metadata, tables, and graphics from PDFs, Word, Excel, and image-based documents using GroupDocs.Parser in your Java apps."
 subtitle: "GroupDocs.Parser for Java" 
 
@@ -84,7 +84,6 @@ steps:
       content: |
         ```java {style=abap}
         // Initialize your Parser with the input document
-        // Initialize your Parser with the input document
         try (Parser parser = new Parser("input.xlsx"))
         {
             // Retrieve all available text content from the document
@@ -102,7 +101,7 @@ steps:
 more_features:
   enable: true
   title: "Versatile document parsing functionality"
-  description: "GroupDocs.Parser does more than just barcode extraction—it supports full parsing of textual content, metadata, images, and structured formats to power intelligent automation and data-driven applications."
+  description: "GroupDocs.Parser does more than just text extraction—it supports full parsing of barcodes, metadata, images, tables and other data to power intelligent automation and data-driven applications."
   image: "/img/parser/features_parse.webp" # 500x500 px
   image_description: "Visual overview of document data parsing and extraction"
   features:

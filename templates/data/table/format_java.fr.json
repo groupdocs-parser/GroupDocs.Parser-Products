@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Récupérer des tableaux à partir de documents {{FileFormatUp}} dans des applications {{ProgLang}}",
+    "description": "Extraire des données tabulaires structurées à partir de fichiers {{FileFormatUp}} dans des applications {{ProgLang}} en utilisant {{ProdShortName}}—sans outils externes."
+  },
+  "header": {
+    "title": "Récupérer des données de tableau à partir de {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Détectez et extrayez sans effort des tableaux à partir de formats tels que PDF, DOCX et XLSX avec {{ProdShortName}} dans vos workflows {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "Introduction à l'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) est une API riche en fonctionnalités pour l'extraction de contenu destinée aux plateformes {{EnvName}}. Elle permet aux développeurs d'analyser avec précision des tableaux, des textes, des graphiques, des liens et des données structurées à partir de PDF, de documents Word, de feuilles Excel, de présentations PowerPoint, et plus encore—sans nécessiter de plugins tiers."
+  },
+  "formats": {
+    "title": "Types de documents supportés pour l'extraction de tableaux",
+    "description": "{{ProdShortName}} offre une détection fiable des tableaux à travers plusieurs types de fichiers. Voici une liste des formats de documents les plus largement supportés pour l'extraction de tableaux."
+  },
+  "examples": {
+    "comment_1": "Charger le document d'entrée avec {{textParser}} contenant des éléments de tableau",
+    "comment_2": "Vérifier que le type de document permet la reconnaissance de tableaux",
+    "comment_3": "Ajouter une logique pour les fichiers qui ne supportent pas les tableaux",
+    "comment_4": "Définir des règles pour interpréter la structure des tableaux",
+    "comment_5": "Configurer les paramètres pour extraire les tableaux",
+    "comment_6": "Exécuter l'extraction de tableaux sur le document chargé",
+    "comment_7": "Traiter chaque tableau extrait du résultat"
+  },
+  "steps": {
+    "title": "Comment récupérer des tableaux à partir de {{FileFormatCap}} dans {{ProgLang}}",
+    "content": {
+      "title": "Pour analyser des tableaux à partir de documents {{FileFormatUp}} en utilisant [{{ProdShortName}}]({{PlatformLink}}), suivez ces étapes dans votre environnement {{EnvName}} :",
+      "step_1": "Créer une instance de {{textParser}} et charger le fichier {{FileFormatUp}} cible.",
+      "step_2": "Vérifier que le fichier supporte l'extraction structurée des tableaux.",
+      "step_3": "Utiliser l'API pour récupérer les éléments de tableau du document.",
+      "step_4": "Exploiter les données extraites dans des systèmes d'analytique, de reporting ou d'automatisation."
+    }
+  },
+  "more_features": {
+    "title": "Outils avancés d'extraction de contenu",
+    "description": "Au-delà de la lecture des tableaux, {{ProdShortName}} prend en charge la capture de texte brut, d'éléments visuels, de métadonnées intégrées et d'objets structurés pour améliorer les tâches de traitement de documents.",
+    "image_description": "Extraction de contenu structuré et de données tabulaires",
+    "feature_1": {
+      "title": "Analyse précise des tableaux à travers différents formats",
+      "content": "Support pour l'extraction de tableaux à partir de types de documents standards tels que PDF, Word, Excel et HTML avec une grande précision."
+    },
+    "feature_2": {
+      "title": "Lire des structures tabulaires à partir de diverses sources",
+      "content": "Récupérer des données de tableau à partir de feuilles de calcul, de documents et de rapports tout en préservant la structure et l'alignement."
+    },
+    "feature_3": {
+      "title": "Paramètres d'extraction de tableaux personnalisables",
+      "content": "Contrôler la détection de mise en page, gérer les en-têtes et pieds de page, et affiner l'extraction avec des options de configuration flexibles."
+    },
+    "code_1": {
+      "title": "Exemple : extraire des tableaux d'un document Excel",
+      "content": "Cet exemple montre comment extraire et parcourir le contenu des tableaux dans un fichier Excel (XLSX) en utilisant {{ProdShortName}}.",
+      "comment_1": "Initialiser {{textParser}} avec le fichier Excel",
+      "comment_2": "Quitter si l'extraction de tableaux n'est pas supportée pour ce document",
+      "comment_3": "Appliquer des règles pour localiser la mise en page des tableaux",
+      "comment_4": "Configurer les paramètres pour l'extraction des tableaux",
+      "comment_5": "Invoker le processus d'extraction",
+      "comment_6": "Parcourir toutes les structures de tableau analysées",
+      "comment_7": "Itérer sur chaque ligne dans le tableau",
+      "comment_8": "Traiter chaque cellule de la ligne actuelle",
+      "comment_9": "Accéder et lire le contenu de la cellule actuelle",
+      "comment_10": "Afficher la valeur textuelle de chaque cellule du tableau"
+    }
+  }
+}

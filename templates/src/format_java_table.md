@@ -7,7 +7,7 @@ layout: "format"
 date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
-format: <% get "FileformatCap" %>
+format: <% get "FileFormatCap" %>
 product: "Parser"
 product_tag: "parser"
 platform: "Java"
@@ -104,7 +104,7 @@ steps:
             Iterable<PageTableArea> tables = parser.getTables(options);
 
             //  <% "{examples.comment_7}" %>
-            for (PageTableArea t : tables) {
+            for (PageTableArea t : tables) 
             {
             }
         }

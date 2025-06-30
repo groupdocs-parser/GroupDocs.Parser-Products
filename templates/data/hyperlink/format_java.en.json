@@ -24,7 +24,7 @@
     "comment_4": "Extract and use hyperlink data from the document"
   },
   "steps": {
-    "title": "How to extract hyperlinks from {{FileformatCap}} in {{ProgLang}}",
+    "title": "How to extract hyperlinks from {{FileFormatCap}} in {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifies hyperlink extraction from {{FileFormatUp}} files in {{EnvName}} applications with these basic steps:",
       "step_1": "Open the {{FileFormatUp}} file using an instance of {{textParser}}.",

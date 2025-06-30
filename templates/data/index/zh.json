@@ -1,0 +1,303 @@
+{
+  "index-content": {
+    "head_title": ".NET、Java、云 API 和在线文档解析器应用程序",
+    "head_description": "为 .NET、Java 和基于云的应用程序提供一体化文档解析解决方案。使用简单的拖放功能从文档格式中提取数据",
+    "title": "文档解析解决方案",
+    "description_0": "用于从各种文件格式中提取数据的强大 API。",
+    "description_1": "以最小的编码工作量解析文档。",
+    "description_2": "自定义解析结果。",
+    "words_for": "用于",
+    "release_title": "版本 {0} 已发布",
+    "release_notes": "查看新功能",
+    "release_downloads": "下载",
+    "code_more": "更多示例",
+    "overview_title": "{{ProdShortName}} 一览",
+    "formats_title": "支持的文件格式",
+    "platforms": {
+      "title": "平台独立性",
+      "head_title": "选择您的平台",
+      "description": "{{ProdShortName}} 库支持以下操作系统和框架：",
+      "learn_more": "了解更多",
+      "any_other_text_editor": "任何其他文本编辑器"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 一览",
+      "description": "跨 PDF、Word、Excel 等进行数据解析的 API",
+      "feature_1": {
+        "title": "提取文本",
+        "content": "从各种文件格式中提取文本信息"
+      },
+      "feature_2": {
+        "title": "提取图像",
+        "content": "从不同来源检索视觉内容"
+      },
+      "feature_3": {
+        "title": "按模板解析数据",
+        "content": "创建自定义模板并利用它们解析特定信息"
+      },
+      "feature_4": {
+        "title": "解析 PDF 表单",
+        "content": "PDF 表单是带有可供用户交互填写的字段的数字文档"
+      }
+    },
+    "formats": {
+      "title": "支持 50 种以上文件格式",
+      "description": "{{ProdShortName}} 可在各种格式族中进行解析操作"
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "index_title": "{{ProdShortName}} 代码示例",
+      "index_description": "一些典型 {{ProdShortName}} 操作的用例，使用 C# 和 Java",
+      "more_examples": "更多示例",
+      "sample_index": {
+        "title": "如何从 PDF 文档中提取文本",
+        "content": "{{ProdShortName}} API 通过实现几个步骤使提取文本变得简单。",
+        "comment_1": "创建一个 {{textParser}} 类的实例并传入所需的文件",
+        "comment_2": "提取文本",
+        "comment_3": "处理提取的文本"
+      },
+      "sample_1": {
+        "code_title": "在 {{ProgLang}} 中从 PDF 文档中提取图像",
+        "comment_1": "创建一个 {{textParser}} 类的实例",
+        "comment_2": "提取图像",
+        "comment_3": "检查是否有图像被提取",
+        "comment_4": "遍历图像",
+        "comment_5": "打印页面索引、矩形和图像类型"
+      },
+      "sample_2": {
+        "code_title": "在 {{ProgLang}} 中从图像中提取条形码",
+        "comment_1": "将源图像加载到 {{textParser}}",
+        "comment_2": "检查文件是否支持条形码提取",
+        "comment_3": "从文件中提取条形码",
+        "comment_4": "遍历条形码",
+        "comment_5": "打印页面索引",
+        "comment_6": "打印条形码值"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} 成就",
+      "description": "发现我们的库成功的关键指标",
+      "item_1": {
+        "title": "支持的格式",
+        "description": "{{ProdShortName}} 支持操作超过 50 种流行的文件格式。"
+      },
+      "item_2": {
+        "title": "NuGet 下载量",
+        "description": "{{ProdShortName}} 的 .NET NuGet 包下载次数超过 1,600,000 次。"
+      },
+      "item_3": {
+        "title": "Maven 下载量",
+        "description": "{{ProdShortName}} 在 Maven 上有 18,000 次下载。强大的 Java 解析功能。"
+      },
+      "item_4": {
+        "title": "满意的客户",
+        "description": "许多知名公司和独立开发者都选择 {{NameCompany}} 产品来构建创新的解决方案。"
+      }
+    },
+    "customers": {
+      "title": "我们的满意客户",
+      "description": "{{NameCompany}} 库被全球众多知名品牌广泛使用。"
+    },
+    "actions": {
+      "alt": "许可",
+      "title": "准备开始吗？",
+      "description": "免费试用 {{ProdShortName}} 功能或申请许可证",
+      "description_index": "在您的平台上免费试用 {{ProdShortName}} 功能"
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "对常见问题的回答。",
+      "item_1": {
+        "question": "{{ProdShortName}} 库需要其他第三方软件来处理文档吗？",
+        "answer": "{{ProdShortName}} 无需安装任何外部软件，例如 Adobe Acrobat、Microsoft Office 或其他。"
+      },
+      "item_2": {
+        "question": "我可以在购买之前尝试 {{ProdShortName}} 库吗？",
+        "answer": "是的，您可以在未购买许可证的情况下尝试 {{ProdShortName}}。在未授权的情况下安装时，该库将以试用模式工作。在此模式下，试用徽章会添加到生成的文档中，并且文档被截断为前 3 页。如果您希望在没有试用版限制的情况下测试 GroupDocs.Parser，您还可以申请 30 天的临时许可证。有关更多详情，[请看]({{LicensingUrl}})"
+      },
+      "item_3": {
+        "question": "你们有什么许可证？",
+        "answer": "我们提供几种许可证类型，以满足特定开发者或公司的需求。许可证类型取决于开发者人数、开发者网站地点数量，以及是否需要将我们的 SDK/API 交付给最终客户。或者，您可以选择基于产品每月使用量的计量许可证。了解更多[在这里]({{PricingUrl}})"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 低代码 API",
+      "description": "利用我们的基于云的 REST API 将文档解析能力集成到任何应用程序中",
+      "item_1": {
+        "content": "用于 RESTful 文档解析器云 API 的 cURL 命令，可跨多种流行文件格式解析文档。"
+      },
+      "item_2": {
+        "content": "在您的 Microsoft .NET 应用程序中提取图像、文本、文档信息，或者通过用户定义的模板解析任何文档。"
+      },
+      "item_3": {
+        "content": "为 Java 开发人员提供的云 SDK，用于解析文档、提取文档信息和数据。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 无代码应用程序",
+      "description": "网页应用程序，使您能够直接在浏览器中解析超过 50 种流行文件格式。",
+      "item_1": {
+        "content": "免费的在线应用程序，用于解析 Word、Excel、PowerPoint、PDF 和 50 多种文档类型。"
+      },
+      "item_2": {
+        "content": "直接从您的网页浏览器解析 Word 文档，以提取图像、文本或元数据。"
+      },
+      "item_3": {
+        "content": "适用于任何平台或设备的免费 PDF 解析应用程序，没有任何限制。"
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office 格式",
+      "title_2": "图像与其他格式",
+      "title_3": "其他格式",
+      "format_portable": "可移植",
+      "format_images": "图像",
+      "format_other_office": "其他办公格式",
+      "format_other_web": "网络",
+      "format_other_archives": "档案",
+      "format_other_ebooks": "电子书"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{ProdFullName}} 文档解析应用程序",
+    "head_description": "为 {{EnvNameShort}} 应用程序提供一体化文档解析解决方案。使用简单的拖放功能在线提取文档格式中的数据",
+    "title": "通过 {{EnvNameShort}} API 解析文档",
+    "description": "使用我们的灵活 API 和基于应用的解决方案，从任何平台的文档和图像中提取数据。",
+    "actions_main": "{{PackageStoreName}} 下载",
+    "code_title": "快速解析文档内容",
+    "code_comment_1": "将源文件传递给 {{textParser}} 实例",
+    "code_comment_2": "将文档文本传递给 {{textReader}}",
+    "code_comment_3": "处理文档文本",
+    "overview_description": "在 {{EnvNameShort}} 应用程序中执行文档解析的 API",
+    "overview_feature_1": {
+      "title": "从文档中提取数据",
+      "description": "{{ProdFullName}} API 使您能够从各种文件格式（如办公文档、电子邮件、附件和档案）中检索文本、元数据和图像。这个强大的工具可以帮助您高效访问和处理这些文件中包含的有价值的信息，适用于数据分析、搜索引擎索引或内容管理系统等多种应用。"
+    },
+    "overview_feature_2": {
+      "title": "解析文档",
+      "description": "提取超链接、表格、二维码、条形码和 PDF 表单中的数据等各种元素。还可以使用自定义模板解析文档中的任何所需信息。"
+    },
+    "overview_feature_3": {
+      "title": "自定义结果",
+      "description": "{{EnvNameShort}} API 可以让您以原始、结构化、HTML 或 Markdown 等多种格式检索数据。此外，API 提供搜索功能，以便在文档的文本中查找特定单词或短语。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 功能",
+      "description": "快速准确地从 PDF、办公文档和图像中提取数据",
+      "feature_1": {
+        "title": "提取文本",
+        "content": "从各种文件格式（如办公文档、PDF 文件和图像）中提取文本信息，以便进行阅读和分析。"
+      },
+      "feature_2": {
+        "title": "提取图像",
+        "content": "从办公文档、PDF 文件等不同来源检索视觉内容，以便于访问和使用。"
+      },
+      "feature_3": {
+        "title": "扫描二维码",
+        "content": "检测并解码存在于办公文档、PDF 文件或视觉内容中的二维码，以便高效地获取信息。"
+      },
+      "feature_4": {
+        "title": "从电子邮件附件和档案中提取数据",
+        "content": "从电子邮件消息、文件附件和压缩数据源中收集有价值的信息，以便高效分析和利用。"
+      },
+      "feature_5": {
+        "title": "提取表格",
+        "content": "从 PDF 文档中识别并提取表格数据，以便进行有组织的分析和使用。"
+      },
+      "feature_6": {
+        "title": "提取超链接",
+        "content": "在办公文档或 PDF 文件中查找并提取超链接和电子邮件地址，以便高效访问。"
+      },
+      "feature_7": {
+        "title": "解析 PDF 表单",
+        "content": "PDF 表单是数字文档，具有可供用户交互填写的字段，允许他们以电子方式输入信息。可以利用 .NET API 提取这些表单中的数据，以便高效处理。"
+      },
+      "feature_8": {
+        "title": "按模板解析数据",
+        "content": "创建自定义模板，并结合 .NET API 使用，以从 PDF 文件中解析特定信息，从而简化数据提取流程。"
+      },
+      "feature_9": {
+        "title": "在文档中搜索文本",
+        "content": "快速定位文档中的特定单词或模式。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 支持以下操作系统、框架和包管理器",
+    "formats_description": "{{ProdFullName}} 支持与以下 [文件格式]({{SupportedFormatsUrl}}) 的操作。",
+    "code_samples_description": "一些典型 {{ProdFullName}} 操作的用例",
+    "code_title_sample_1": "从 PDF 文档中提取图像",
+    "code_samples_sample_1_content": "{{ProdFullName}} 简化了 {{ProgLang}} 开发人员从 [文档]({{Sample1Url}}) 中提取图像的过程：",
+    "code_title_sample_2": "从图像中提取条形码",
+    "code_samples_sample_2_content": "使用我们的 {{EnvNameShort}} API 从图像中提取 [条形码]({{Sample2Url}})："
+  },
+  "index-content-java": {
+    "head_title": "{{ProdFullName}} 文档解析应用程序",
+    "head_description": "为 {{EnvNameShort}} 应用程序提供一体化文档解析解决方案。使用简单的拖放功能在线提取文档格式中的数据",
+    "title": "通过 {{EnvNameShort}} API 解析文档",
+    "description": "使用我们的灵活 API 和基于应用的解决方案，从任何平台的文档和图像中提取数据。",
+    "actions_main": "{{PackageStoreName}} 下载",
+    "code_title": "快速获取文档内容",
+    "code_comment_1": "将源文件传递给 {{textParser}} 实例",
+    "code_comment_2": "将文档文本传递给 {{textReader}}",
+    "code_comment_3": "处理文档文本",
+    "overview_description": "在 {{EnvNameShort}} 应用程序中执行文档解析的 API",
+    "overview_feature_1": {
+      "title": "从文档中提取数据",
+      "description": "{{ProdFullName}} API 使您能够从各种文件格式（如办公文档、电子邮件、附件和档案）中检索文本、元数据和图像。这个强大的工具可以帮助您高效访问和处理这些文件中包含的有价值的信息，适用于数据分析、搜索引擎索引或内容管理系统等多种应用。"
+    },
+    "overview_feature_2": {
+      "title": "解析文档",
+      "description": "提取超链接、表格、二维码、条形码和 PDF 表单中的数据等各种元素。还可以使用自定义模板解析文档中的任何所需信息。"
+    },
+    "overview_feature_3": {
+      "title": "自定义结果",
+      "description": "{{EnvNameShort}} API 可以让您以原始、结构化、HTML 或 Markdown 等多种格式检索数据。此外，API 提供搜索功能，以便在文档的文本中查找特定单词或短语。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 功能",
+      "description": "快速准确地从 PDF、办公文档和图像中提取数据",
+      "feature_1": {
+        "title": "提取文本",
+        "content": "从各种文件格式（如办公文档、PDF 文件和图像）中提取文本信息，以便进行阅读和分析。"
+      },
+      "feature_2": {
+        "title": "提取图像",
+        "content": "从办公文档、PDF 文件等不同来源检索视觉内容，以便于访问和使用。"
+      },
+      "feature_3": {
+        "title": "扫描二维码",
+        "content": "检测并解码存在于办公文档、PDF 文件或视觉内容中的二维码，以便高效地获取信息。"
+      },
+      "feature_4": {
+        "title": "从电子邮件附件和档案中提取数据",
+        "content": "从电子邮件消息、文件附件和压缩数据源中收集有价值的信息，以便高效分析和利用。"
+      },
+      "feature_5": {
+        "title": "提取表格",
+        "content": "从 PDF 文档中识别并提取表格数据，以便进行有组织的分析和使用。"
+      },
+      "feature_6": {
+        "title": "提取超链接",
+        "content": "在办公文档或 PDF 文件中查找并提取超链接和电子邮件地址，以便高效访问。"
+      },
+      "feature_7": {
+        "title": "解析 PDF 表单",
+        "content": "PDF 表单是数字文档，具有可供用户交互填写的字段，允许他们以电子方式输入信息。可以利用 .NET API 提取这些表单中的数据，以便高效处理。"
+      },
+      "feature_8": {
+        "title": "按模板解析数据",
+        "content": "创建自定义模板，并结合 .NET API 使用，以从 PDF 文件中解析特定信息，从而简化数据提取流程。"
+      },
+      "feature_9": {
+        "title": "在文档中搜索文本",
+        "content": "快速定位文档中的特定单词或模式。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 支持以下操作系统、框架和包管理器",
+    "formats_description": "{{ProdFullName}} 支持与以下 [文件格式]({{SupportedFormatsUrl}}) 的操作。",
+    "code_samples_description": "一些典型 {{ProdFullName}} 操作的用例",
+    "code_title_sample_1": "从 PDF 文档中提取图像",
+    "code_samples_sample_1_content": "{{ProdFullName}} 简化了 {{ProgLang}} 开发人员从 [文档]({{Sample1Url}}) 中提取图像的过程：",
+    "code_title_sample_2": "从图像中提取条形码",
+    "code_samples_sample_2_content": "使用我们的 {{EnvNameShort}} API 从图像中提取 [条形码]({{Sample2Url}})："
+  }
+}

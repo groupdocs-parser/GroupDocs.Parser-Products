@@ -1,0 +1,12 @@
+inherits: ..\\languages-index.yml
+
+dimensions:  
+- alias:  operation
+  values: [index] 
+
+- alias: product
+  values: [net]
+
+dictionaries: [ ..\\..\\data\\products.json ]
+
+outputPath: "parser\\{product}\\_index.{lang}.md"

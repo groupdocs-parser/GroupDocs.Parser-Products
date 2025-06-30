@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Estrai collegamenti ipertestuali da file {{FileFormatUp}} in app {{ProgLang}}",
+    "description": "Utilizza {{ProdShortName}} per trovare ed estrarre collegamenti URL da documenti {{FileFormatUp}} nei progetti {{ProgLang}}—senza necessità di software aggiuntivo."
+  },
+  "header": {
+    "title": "Estrai collegamenti ipertestuali da {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Estrai collegamenti web e collegamenti ipertestuali da file PDF, documenti Word, fogli Excel e altri documenti utilizzando {{ProdShortName}} nel tuo ambiente {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica la Versione di Prova Gratuita"
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) è un'API robusta per l'estrazione di contenuti progettata per sviluppatori {{EnvName}}. Offre strumenti per estrarre collegamenti ipertestuali, dati strutturati, immagini e testo da formati popolari come DOCX, XLSX, PDF, HTML e altro—il tutto senza la necessità di plugin esterni."
+  },
+  "formats": {
+    "title": "Formati di documento che supportano l'estrazione di collegamenti ipertestuali",
+    "description": "Con {{ProdShortName}}, puoi estrarre collegamenti ipertestuali da molti formati file comunemente utilizzati. Di seguito è riportato un elenco di formati tipicamente supportati."
+  },
+  "examples": {
+    "comment_1": "Carica il file che può contenere collegamenti ipertestuali utilizzando {{textParser}}",
+    "comment_2": "Controlla se il formato del documento supporta l'analisi dei collegamenti ipertestuali",
+    "comment_3": "L'estrazione dei collegamenti ipertestuali non è disponibile per il file",
+    "comment_4": "Estrai e utilizza i dati dei collegamenti ipertestuali dal documento"
+  },
+  "steps": {
+    "title": "Come estrarre collegamenti ipertestuali da {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) semplifica l'estrazione di collegamenti ipertestuali da file {{FileFormatUp}} nelle applicazioni {{EnvName}} con questi passaggi fondamentali:",
+      "step_1": "Apri il file {{FileFormatUp}} utilizzando un'istanza di {{textParser}}.",
+      "step_2": "Assicurati che l'estrazione dei collegamenti ipertestuali sia disponibile per il formato del file.",
+      "step_3": "Estrai tutti i collegamenti ipertestuali utilizzando il metodo appropriato.",
+      "step_4": "Scorri i risultati e processa ogni collegamento come necessario."
+    }
+  },
+  "more_features": {
+    "title": "Strumenti completi per l'analisi dei documenti",
+    "description": "Oltre ad estrarre collegamenti ipertestuali, {{ProdShortName}} ti consente di raccogliere altri contenuti utili come testo semplice, media incorporati e dati strutturati per utilizzi in flussi di lavoro automatizzati.",
+    "image_description": "Estrazione di collegamenti ipertestuali e analisi dei documenti",
+    "feature_1": {
+      "title": "Rilevamento preciso dei collegamenti",
+      "content": "Cattura tutti i tipi di collegamenti ipertestuali da diversi layout di documenti, inclusi testi cliccabili e URL nascosti."
+    },
+    "feature_2": {
+      "title": "Funziona con documenti e contenuti web",
+      "content": "Estrai collegamenti da file PDF, DOCX, XLSX, HTML e file immagine che contengono collegamenti ipertestuali incorporati."
+    },
+    "feature_3": {
+      "title": "Comportamento di estrazione personalizzato",
+      "content": "Affina il modo in cui vengono estratti i collegamenti ipertestuali utilizzando opzioni come intervalli di pagina, tipi di collegamenti o filtri di contenuto."
+    },
+    "code_1": {
+      "title": "Esempio: estrazione di collegamenti ipertestuali da un PDF con opzioni personalizzate",
+      "content": "Questo esempio dimostra come estrarre tutti i collegamenti da un file PDF utilizzando impostazioni di estrazione dei collegamenti.",
+      "comment_1": "Apri il PDF utilizzando la classe {{textParser}}",
+      "comment_2": "Verifica che il supporto dei collegamenti ipertestuali sia abilitato per questo documento",
+      "comment_3": "Applica opzioni per filtrare i collegamenti",
+      "comment_4": "Usa il parser per ottenere i dati dei collegamenti ipertestuali",
+      "comment_5": "Itera tra i collegamenti e gestiscili di conseguenza"
+    }
+  }
+}

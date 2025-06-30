@@ -25,7 +25,7 @@
     "comment_5": "Text extraction is unsupported for this format"
   },
   "steps": {
-    "title": "Steps to extract text from {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps to extract text from {{FileFormatCap}} in {{ProgLang}}",
     "content": {
       "title": "You can extract clean and structured text from {{FileFormatUp}} documents in {{EnvName}} apps with [{{ProdShortName}}]({{PlatformLink}}) by following these steps:",
       "step_1": "Open the {{FileFormatUp}} document using a {{textParser}} instance.",

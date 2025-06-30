@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-26T17:35:46
+date:  2025-06-30T10:25:53
 draft: false
 lang: en
 format: Epub
@@ -87,7 +87,7 @@ steps:
 more_features:
   enable: true
   title: "Comprehensive document parsing capabilities"
-  description: "GroupDocs.Parser enables more than just barcode reading — it supports full-text extraction, image parsing, metadata access, and structured data processing for advanced automation and data analysis."
+  description: "GroupDocs.Parser enables more than just text reading — it supports barcode extraction, image parsing, metadata access, and structured data processing for advanced automation and data analysis."
   image: "/img/parser/features_parse.webp" # 500x500 px
   image_description: "Document content extraction and parsing capabilities"
   features:

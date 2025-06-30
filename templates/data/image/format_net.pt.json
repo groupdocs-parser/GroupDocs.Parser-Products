@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Extraia imagens de arquivos {{FileFormatUp}} em apps {{ProgLang}}",
+    "description": "Use {{ProdShortName}} para detectar e extrair imagens de arquivos {{FileFormatUp}} em {{ProgLang}} sem ferramentas adicionais."
+  },
+  "header": {
+    "title": "Extraia imagens de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Localize e extraia imagens incorporadas de PDFs, documentos do Word, planilhas do Excel e outros tipos de arquivo usando {{ProdShortName}} em seus apps {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Versão de Avaliação Gratuita"
+  },
+  "about": {
+    "title": "Sobre a API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) é uma biblioteca robusta de análise de documentos para desenvolvedores {{EnvName}}. Ela permite extrair imagens, texto, hiperlinks e dados estruturados de formatos de arquivo populares como PDF, DOCX, XLSX, PPTX e outros — tudo isso sem a necessidade de aplicativos de terceiros."
+  },
+  "formats": {
+    "title": "Formatos suportados para extração de imagens",
+    "description": "{{ProdShortName}} permite uma extração precisa de imagens de uma ampla gama de formatos de documentos e imagens. Verifique a lista abaixo dos tipos comumente suportados."
+  },
+  "examples": {
+    "comment_1": "Abra o documento contendo imagens usando {{textParser}}",
+    "comment_2": "Extraia todas as imagens incorporadas do arquivo",
+    "comment_3": "Trate casos em que nenhuma imagem é encontrada",
+    "comment_4": "Processar ou salvar as imagens recuperadas"
+  },
+  "steps": {
+    "title": "Etapas para extrair imagens de {{FileFormatCap}} em {{ProgLang}}",
+    "content": {
+      "title": "Com [{{ProdShortName}}]({{PlatformLink}}), você pode extrair imagens de documentos {{FileFormatUp}} em seus projetos {{EnvName}} em apenas algumas etapas:",
+      "step_1": "Inicialize o {{textParser}} com o arquivo {{FileFormatUp}}.",
+      "step_2": "Recupere elementos de imagem do documento.",
+      "step_3": "Use as imagens extraídas conforme necessário em seu fluxo de trabalho."
+    }
+  },
+  "more_features": {
+    "title": "Extração abrangente de conteúdo de documentos",
+    "description": "{{ProdShortName}} oferece mais do que apenas extração de imagens — você também pode extrair texto bruto, hiperlinks, metadados e conteúdo estruturado para cenários avançados de automação.",
+    "image_description": "Fluxo de trabalho de extração de imagens e análise de documentos",
+    "feature_1": {
+      "title": "Extraia imagens de múltiplos formatos",
+      "content": "Extraia imagens incorporadas de uma variedade de formatos de arquivo, incluindo DOCX, PDF, PPTX, XLSX e arquivos de imagem como PNG, JPG e TIFF."
+    },
+    "feature_2": {
+      "title": "Preservar a qualidade original da imagem",
+      "content": "As imagens são extraídas com alta fidelidade, mantendo sua resolução original, formato e perfil de cor."
+    },
+    "feature_3": {
+      "title": "Opções avançadas de extração",
+      "content": "Personalize a extração de imagens com filtragem por página, formato ou resolução, e suporte para documentos de várias páginas."
+    },
+    "code_1": {
+      "title": "Como extrair e salvar imagens de um documento PDF",
+      "content": "Este exemplo demonstra como extrair todos os ativos de imagem de um arquivo PDF e salvá-los no sistema de arquivos local.",
+      "comment_1": "Carregue o PDF usando a classe {{textParser}}",
+      "comment_2": "Extraia imagens incorporadas do arquivo",
+      "comment_3": "Defina o formato de saída e as opções de imagem (por exemplo, PNG)",
+      "comment_4": "Grave as imagens extraídas no disco"
+    }
+  }
+}

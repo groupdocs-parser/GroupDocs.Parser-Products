@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Tabellen aus {{FileFormatUp}}-Dokumenten in {{ProgLang}}-Anwendungen abrufen",
+    "description": "Extrahieren Sie strukturierte tabellarische Daten aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Anwendungen mit {{ProdShortName}} – keine externen Tools erforderlich."
+  },
+  "header": {
+    "title": "Tabellendaten aus {{FileFormatUp}} mit {{ProgLang}} abrufen",
+    "description": "Erkennen und extrahieren Sie nahtlos Tabellen aus Formaten wie PDF, DOCX und XLSX mit {{ProdShortName}} in Ihren {{EnvNameShort}}-Workflows.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Einführung in die {{ProdFullName}}-API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ist eine funktionsreiche API zur Inhaltsextraktion für {{EnvName}}-Plattformen. Sie ermöglicht Entwicklern, Tabellen, Texte, Grafiken, Links und strukturierte Daten aus PDFs, Word-Dokumenten, Excel-Tabellen, PowerPoint-Präsentationen und mehr präzise zu parsen – ohne dass Drittanbieter-Plugins erforderlich sind."
+  },
+  "formats": {
+    "title": "Unterstützte Dokumenttypen für die Tabellenerfassung",
+    "description": "{{ProdShortName}} bietet zuverlässige Tabellenerkennung über mehrere Dateitypen hinweg. Hier ist eine Liste der am häufigsten unterstützten Dokumentenformate zur Extraktion von Tabellen."
+  },
+  "examples": {
+    "comment_1": "Laden Sie das Eingabedokument mit {{textParser}}, das Tabellenelemente enthält.",
+    "comment_2": "Überprüfen Sie, ob der Dokumenttyp die Tabellenkennung zulässt.",
+    "comment_3": "Fügen Sie Logik für Dateien hinzu, die keine Tabellen unterstützen.",
+    "comment_4": "Definieren Sie Regeln zur Interpretation der Tabellenstruktur.",
+    "comment_5": "Legen Sie Parameter zum Extrahieren von Tabellen fest.",
+    "comment_6": "Führen Sie die Tabellenerfassung auf dem geladenen Dokument aus.",
+    "comment_7": "Verarbeiten Sie jede aus dem Ergebnis extrahierte Tabelle."
+  },
+  "steps": {
+    "title": "So extrahieren Sie Tabellen aus {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "Um Tabellen aus {{FileFormatUp}}-Dokumenten mit [{{ProdShortName}}]({{PlatformLink}}) zu parsen, folgen Sie diesen Schritten in Ihrer {{EnvName}}-Umgebung:",
+      "step_1": "Erstellen Sie eine {{textParser}}-Instanz und laden Sie die Ziel-{{FileFormatUp}}-Datei.",
+      "step_2": "Überprüfen Sie, ob die Datei die strukturierte Tabellenerfassung unterstützt.",
+      "step_3": "Verwenden Sie die API, um Tabellenelemente aus dem Dokument abzurufen.",
+      "step_4": "Nutzen Sie die extrahierten Daten in Analysen, Berichterstattung oder Automatisierungssystemen."
+    }
+  },
+  "more_features": {
+    "title": "Erweiterte Inhaltsextraktionswerkzeuge",
+    "description": "Neben der Lesung von Tabellen unterstützt {{ProdShortName}} die Erfassung von Plain Text, visuellen Elementen, eingebetteten Metadaten und strukturierten Objekten zur Optimierung von Dokumentenverarbeitungsaufgaben.",
+    "image_description": "Strukturierte Inhalte und tabellarische Daten extrahieren",
+    "feature_1": {
+      "title": "Präzise Tabellenerfassung über Formate hinweg",
+      "content": "Unterstützung der Tabellenerfassung aus Standarddokumenttypen wie PDF, Word, Excel und HTML mit hoher Genauigkeit."
+    },
+    "feature_2": {
+      "title": "Lesen tabellarischer Strukturen aus unterschiedlichen Quellen",
+      "content": "Rufen Sie Tabellendaten aus Tabellenkalkulationen, Dokumenten und Berichten ab und bewahren Sie die Struktur und Ausrichtung."
+    },
+    "feature_3": {
+      "title": "Anpassbare Einstellungen zur Tabellenerfassung",
+      "content": "Kontrollieren Sie die Layouterkennung, verwalten Sie Kopf- und Fußzeilen und optimieren Sie die Extraktion mit flexiblen Konfigurationsoptionen."
+    },
+    "code_1": {
+      "title": "Beispiel: Tabellen aus einem Excel-Dokument extrahieren",
+      "content": "Dieses Beispiel zeigt, wie Sie Tabelleninhalte in einer Excel (XLSX)-Datei mit {{ProdShortName}} extrahieren und durchlaufen.",
+      "comment_1": "Initialisieren Sie {{textParser}} mit der Excel-Datei.",
+      "comment_2": "Beenden Sie, wenn die Tabellenerfassung für dieses Dokument nicht unterstützt wird.",
+      "comment_3": "Anwenden von Regeln zur Bestimmung des Tabellenlayouts.",
+      "comment_4": "Einstellungen für die Tabellenerfassung konfigurieren.",
+      "comment_5": "Den Extraktionsprozess aufrufen.",
+      "comment_6": "Über alle geparsten Tabellenstrukturen iterieren.",
+      "comment_7": "Über jede Zeile innerhalb der Tabelle iterieren.",
+      "comment_8": "Jede Zelle in der aktuellen Zeile verarbeiten.",
+      "comment_9": "Auf den Inhalt der aktuellen Zelle zugreifen und ihn lesen.",
+      "comment_10": "Den Textwert jeder Tabellenzelle ausgeben."
+    }
+  }
+}

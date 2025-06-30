@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "在 {{ProgLang}} 应用中从 {{FileFormatUp}} 文件提取文本",
+    "description": "使用 {{ProdShortName}} 在 {{ProgLang}} 应用程序中提取 {{FileFormatUp}} 文件的纯文本或结构化文本，无需外部工具。"
+  },
+  "header": {
+    "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 提取文本",
+    "description": "使用 {{ProdShortName}} 快速提取 PDF、Word、Excel 及其他文件类型中的可读和结构化文本，适用于您的 {{EnvNameShort}} 解决方案。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 介绍",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) 是为 {{EnvName}} 开发者提供的高性能文档解析 API。它简化了从 PDF、DOCX、XLSX、PPTX 等多种文件格式中提取文本、图像、表格和结构化内容的过程，无需依赖第三方库。"
+  },
+  "formats": {
+    "title": "支持的文本提取格式",
+    "description": "{{ProdShortName}} 支持从多种文档和图像类型中提取文本。查看下面列出的常见支持格式。"
+  },
+  "examples": {
+    "comment_1": "将文档加载到 {{textParser}} 中",
+    "comment_2": "从文件中提取所有文本内容",
+    "comment_3": "如果文本不可用，结果将为 null",
+    "comment_4": "在您的应用中使用提取的文本",
+    "comment_5": "此格式不支持文本提取"
+  },
+  "steps": {
+    "title": "在 {{ProgLang}} 中从 {{FileFormatCap}} 提取文本的步骤",
+    "content": {
+      "title": "通过遵循以下步骤，您可以使用 [{{ProdShortName}}]({{PlatformLink}}) 从 {{FileFormatUp}} 文档中提取清晰的结构化文本：",
+      "step_1": "使用 {{textParser}} 实例打开 {{FileFormatUp}} 文档。",
+      "step_2": "从文件内容中提取文本。",
+      "step_3": "检查结果以确认文本提取成功。",
+      "step_4": "将提取的文本应用于业务逻辑、索引或数据管道。"
+    }
+  },
+  "more_features": {
+    "title": "全面的内容提取功能",
+    "description": "除了纯文本，{{ProdShortName}} 还可以提取图像、结构化元素和元数据，以支持内容分析、转换和自动化。",
+    "image_description": "文本识别和结构化文档解析",
+    "feature_1": {
+      "title": "跨多种文件类型提取文本",
+      "content": "从 PDF、DOCX、XLSX、PPTX、HTML 及其他格式中获取纯文本或结构化文本。"
+    },
+    "feature_2": {
+      "title": "处理文档和视觉文本",
+      "content": "从扫描的图像、演示文稿、电子表格和数字文档中提取文本，同时保留结构。"
+    },
+    "feature_3": {
+      "title": "高级文本提取配置",
+      "content": "自定义文本检测方式——定义页面范围、布局区域，并调整输出以实现最大准确性。"
+    },
+    "code_1": {
+      "title": "如何从 PPTX 文件提取文本区域",
+      "content": "此代码示例展示了如何使用 {{ProdShortName}} 从 PowerPoint 文件中检索文本内容及区域坐标。",
+      "comment_1": "使用 {{textParser}} 加载 PowerPoint 演示文稿",
+      "comment_2": "从文档中提取所有文本区域矩形",
+      "comment_3": "如果文本区域提取不可用则退出",
+      "comment_4": "遍历每个页面的文本区域",
+      "comment_5": "访问页面索引、区域矩形和文本值"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Ekstrak tabel dari file {{FileFormatUp}} dalam aplikasi {{ProgLang}}",
+    "description": "Gunakan {{ProdShortName}} untuk menemukan dan mengekstrak data tabel terstruktur dari file {{FileFormatUp}} dalam aplikasi {{ProgLang}} tanpa dependensi tambahan."
+  },
+  "header": {
+    "title": "Ekstrak tabel dari {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "description": "Identifikasi dengan cepat dan ekstrak struktur tabel dari PDF, Word, Excel, dan format file lainnya menggunakan {{ProdShortName}} dalam proyek {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) adalah API penguraian dokumen yang komprehensif dibangun untuk pengembang {{EnvName}}. API ini memungkinkan ekstraksi teks, tabel, gambar, hyperlink, dan elemen terstruktur lainnya secara akurat dari format seperti PDF, DOCX, XLSX, PPTX, dan banyak lagi—tanpa perlu perangkat lunak pihak ketiga."
+  },
+  "formats": {
+    "title": "Format yang didukung untuk ekstraksi tabel",
+    "description": "{{ProdShortName}} dapat mengekstrak data tabel dari berbagai jenis dokumen. Berikut adalah format yang paling sering digunakan untuk penguraian tabel terstruktur."
+  },
+  "examples": {
+    "comment_1": "Buka dokumen yang berisi data tabel menggunakan {{textParser}}",
+    "comment_2": "Periksa apakah format mendukung pengenalan tabel",
+    "comment_3": "Tangani dokumen yang tidak mendukung penguraian tabel",
+    "comment_4": "Tentukan bagaimana struktur tabel harus dikenali",
+    "comment_5": "Tentukan parameter ekstraksi untuk data tabel",
+    "comment_6": "Ekstrak tabel dari konten file",
+    "comment_7": "Jelajahi setiap tabel yang terdeteksi"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk ekstrak tabel dari {{FileFormatCap}} dalam {{ProgLang}}",
+    "content": {
+      "title": "Ikuti instruksi ini untuk mengekstrak tabel dari file {{FileFormatUp}} menggunakan [{{ProdShortName}}]({{PlatformLink}}) dalam lingkungan {{EnvName}} Anda:",
+      "step_1": "Inisialisasi instance {{textParser}} dan muat dokumen {{FileFormatUp}} Anda.",
+      "step_2": "Periksa apakah ekstraksi tabel didukung untuk format input.",
+      "step_3": "Ekstrak konten tabel dari file.",
+      "step_4": "Gunakan data tabel terstruktur untuk pelaporan, otomatisasi, atau analitik."
+    }
+  },
+  "more_features": {
+    "title": "Kemampuan ekstraksi data yang kuat",
+    "description": "Selain penguraian tabel, {{ProdShortName}} dapat mengekstrak konten kaya seperti blok teks, gambar, metadata, dan data terstruktur lainnya untuk memfasilitasi otomatisasi dokumen.",
+    "image_description": "Pengenalan tabel dan ekstraksi konten",
+    "feature_1": {
+      "title": "Deteksi tabel multi-format yang akurat",
+      "content": "Ekstrak data tabular dari DOCX, XLSX, PDF, HTML, dan format serupa dengan presisi tinggi."
+    },
+    "feature_2": {
+      "title": "Analisis struktur tabel dari file",
+      "content": "Ambil data tabel dari dokumen dan spreadsheet secara efisien tanpa kehilangan format."
+    },
+    "feature_3": {
+      "title": "Konfigurasi ekstraksi tabel yang fleksibel",
+      "content": "Sesuaikan deteksi tata letak, penyelarasan kolom, dan opsi header/footer untuk kontrol tepat atas hasil."
+    },
+    "code_1": {
+      "title": "Cara mengekstrak tabel dari spreadsheet Excel",
+      "content": "Contoh kode ini menunjukkan cara membaca dan menjelajahi data tabel dalam file XLSX menggunakan {{ProdShortName}}.",
+      "comment_1": "Buka file Excel menggunakan API {{textParser}}",
+      "comment_2": "Keluar jika tabel tidak dapat diekstrak dari file",
+      "comment_3": "Gunakan aturan tata letak untuk menemukan konten tabular",
+      "comment_4": "Atur parameter ekstraksi untuk tabel",
+      "comment_5": "Lakukan operasi ekstraksi tabel",
+      "comment_6": "Jelajahi setiap struktur tabel yang terdeteksi",
+      "comment_7": "Iterasi melalui setiap baris dalam tabel",
+      "comment_8": "Jelajahi sel-sel dalam setiap baris",
+      "comment_9": "Akses sel tabel saat ini",
+      "comment_10": "Tampilkan konten teks dari setiap sel"
+    }
+  }
+}

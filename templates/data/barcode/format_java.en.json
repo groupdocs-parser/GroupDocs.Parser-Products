@@ -24,7 +24,7 @@
     "comment_4": "Extract and use barcode data"
   },
   "steps": {
-    "title": "How to read barcodes from {{FileformatCap}} in {{ProgLang}}",
+    "title": "How to read barcodes from {{FileFormatCap}} in {{ProgLang}}",
     "content": {
       "title": "With [{{ProdShortName}}]({{PlatformLink}}), {{EnvName}} developers can extract barcodes from {{FileFormatUp}} documents in just a few steps:",
       "step_1": "Load the {{FileFormatUp}} document using {{textParser}}.",

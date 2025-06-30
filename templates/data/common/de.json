@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "PDF parsen",
+        "description": "(Portable Document Format)"
+      },
+      "docx": {
+        "name": "DOCX parsen",
+        "description": "(Office 2007+ Word-Dokument)"
+      },
+      "pptx": {
+        "name": "PPTX parsen",
+        "description": "(Open XML-Präsentationsformat)"
+      },
+      "xlsx": {
+        "name": "XLSX parsen",
+        "description": "(Open XML-Arbeitsmappe)"
+      },
+      "odt": {
+        "name": "ODT parsen",
+        "description": "(OpenDocument-Textdokument)"
+      },
+      "ods": {
+        "name": "ODS parsen",
+        "description": "(OpenDocument-Tabellenkalkulation)"
+      },
+      "odp": {
+        "name": "ODP parsen",
+        "description": "(OpenDocument-Präsentation)"
+      },
+      "txt": {
+        "name": "TXT parsen",
+        "description": "(Textdatei)"
+      },
+      "rtf": {
+        "name": "RTF parsen",
+        "description": "(Rich Text Format)"
+      },
+      "xml": {
+        "name": "XML parsen",
+        "description": "(eXtensible Markup Language)"
+      },
+      "epub": {
+        "name": "EPUB parsen",
+        "description": "(Open eBook-Datei)"
+      },
+      "fb2": {
+        "name": "FB2 parsen",
+        "description": "(FictionBook eBook)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Kopieren",
+      "copy_tip": "Klicken zum Kopieren",
+      "copy_done": "Kopiert",
+      "links": {
+        "title_1": "Weitere Beispiele",
+        "title_2": "Dokumentation"
+      }
+    },
+    "format-actions": {
+      "title": "Bereit, loszulegen?",
+      "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
+      "comment_1": "{{PackageStoreName}} herunterladen",
+      "comment_2": "Lizenzierung"
+    },
+    "texts": {
+      "learn_more": "Mehr erfahren"
+    }
+  }
+}

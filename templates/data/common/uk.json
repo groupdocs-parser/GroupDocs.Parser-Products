@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Парсинг PDF",
+        "description": "(Формат портативного документа)"
+      },
+      "docx": {
+        "name": "Парсинг DOCX",
+        "description": "(Документ Word Office 2007+)"
+      },
+      "pptx": {
+        "name": "Парсинг PPTX",
+        "description": "(Формат відкритої XML-презентації)"
+      },
+      "xlsx": {
+        "name": "Парсинг XLSX",
+        "description": "(Відкрите XML-робочий зошит)"
+      },
+      "odt": {
+        "name": "Парсинг ODT",
+        "description": "(Документ тексту OpenDocument)"
+      },
+      "ods": {
+        "name": "Парсинг ODS",
+        "description": "(Електронна таблиця OpenDocument)"
+      },
+      "odp": {
+        "name": "Парсинг ODP",
+        "description": "(Презентація OpenDocument)"
+      },
+      "txt": {
+        "name": "Парсинг TXT",
+        "description": "(Текстовий файл)"
+      },
+      "rtf": {
+        "name": "Парсинг RTF",
+        "description": "(Формат багатого тексту)"
+      },
+      "xml": {
+        "name": "Парсинг XML",
+        "description": "(Мова розмітки eXtensible)"
+      },
+      "epub": {
+        "name": "Парсинг EPUB",
+        "description": "(Відкритий файл eBook)"
+      },
+      "fb2": {
+        "name": "Парсинг FB2",
+        "description": "(eBook формату FictionBook)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копіювати",
+      "copy_tip": "натисніть, щоб скопіювати",
+      "copy_done": "скопійовано",
+      "links": {
+        "title_1": "Більше прикладів",
+        "title_2": "Документація"
+      }
+    },
+    "format-actions": {
+      "title": "Готові розпочати?",
+      "description": "Спробуйте можливості {{ProdShortName}} безкоштовно або запитайте ліцензію",
+      "comment_1": "Завантаження {{PackageStoreName}}",
+      "comment_2": "Ліцензування"
+    },
+    "texts": {
+      "learn_more": "Дізнатися більше"
+    }
+  }
+}

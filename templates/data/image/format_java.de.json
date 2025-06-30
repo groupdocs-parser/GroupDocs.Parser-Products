@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Bilder aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Anwendungen extrahieren",
+    "description": "{{ProdShortName}} ermöglicht Ihnen das Extrahieren von Bildern aus {{FileFormatUp}}-Dateien in {{ProgLang}} ohne zusätzliche Tools."
+  },
+  "header": {
+    "title": "Bilder aus {{FileFormatUp}} mithilfe von {{ProgLang}} extrahieren",
+    "description": "Extrahieren Sie eingebettete Bilder aus Dateien wie PDF, Word, Excel und mehr mit {{ProdShortName}} in Ihrer {{EnvNameShort}}-Entwicklungsumgebung.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Was ist {{ProdFullName}}?",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ist eine funktionsreiche Parsing-API, die speziell für Entwickler von {{EnvName}} entwickelt wurde. Sie ermöglicht das Extrahieren von Bildern, Text, Links und strukturierten Elementen aus verschiedenen Dateiformaten, einschließlich DOCX, XLSX, PDF, PNG, JPG und vielen anderen – ganz ohne externe Bibliotheken oder Anwendungen."
+  },
+  "formats": {
+    "title": "Unterstützte Dateitypen für die Bildextraktion",
+    "description": "{{ProdShortName}} unterstützt die Bildextraktion aus einer Vielzahl von Dokumenten und Bildern. Entdecken Sie die gängig unterstützten Formate unten."
+  },
+  "examples": {
+    "comment_1": "Parser initialisieren und das Dokument mit Bildern laden unter Verwendung von {{textParser}}",
+    "comment_2": "Alle im Dokument eingebetteten Bildelemente sammeln",
+    "comment_3": "Verarbeitung überspringen, wenn das Dokument keine Bilder enthält",
+    "comment_4": "Jedes Bild nach Bedarf behandeln"
+  },
+  "steps": {
+    "title": "So extrahieren Sie Bilder aus {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "Befolgen Sie diese Schritte, um Bilder aus {{FileFormatUp}}-Dokumenten mit [{{ProdShortName}}]({{PlatformLink}}) in Ihrer {{EnvName}}-Anwendung zu extrahieren:",
+      "step_1": "Erstellen Sie eine Instanz von {{textParser}} und laden Sie die {{FileFormatUp}}-Datei.",
+      "step_2": "Extrahieren Sie die Bilddaten aus dem geladenen Dokument.",
+      "step_3": "Verwenden oder exportieren Sie die extrahierten Bilder nach Bedarf."
+    }
+  },
+  "more_features": {
+    "title": "Weitere Dokumentenbearbeitungsfähigkeiten",
+    "description": "Zusätzlich zur Bildextraktion ermöglicht {{ProdShortName}} das Extrahieren von Rohdaten wie Text, Links, Metadaten und strukturierten Daten für die Verarbeitung und Analyse.",
+    "image_description": "Bilder und Inhalte aus Dokumenten extrahieren",
+    "feature_1": {
+      "title": "Funktioniert mit einer Vielzahl von Formaten",
+      "content": "Extrahieren Sie Bilder aus verschiedenen Dokumenttypen, einschließlich PDF, DOCX, PPTX, XLSX und Bildformaten wie PNG, JPEG und GIF."
+    },
+    "feature_2": {
+      "title": "Bildklarheit und -auflösung beibehalten",
+      "content": "Alle extrahierten Bilder behalten ihre ursprüngliche Auflösung und Dateityp, um konstante Qualität und Nutzbarkeit sicherzustellen."
+    },
+    "feature_3": {
+      "title": "Flexible Konfigurationsoptionen",
+      "content": "Passen Sie den Bildextraktionsprozess an, indem Sie Bilder nach Typ, Größe, Seitenindex oder Dateiformat filtern."
+    },
+    "code_1": {
+      "title": "Bilder aus PDF-Dateien extrahieren und speichern",
+      "content": "Dieses Beispiel zeigt, wie Sie Bilder aus einem PDF-Dokument extrahieren und sie einzeln auf Ihrem Gerät speichern.",
+      "comment_1": "Verwenden Sie {{textParser}}, um die PDF-Datei zu öffnen",
+      "comment_2": "Holen Sie die Bilder aus dem Dokumentinhalt",
+      "comment_3": "Legen Sie Ausgabeparameter wie Format (z. B. JPEG oder PNG) fest",
+      "comment_4": "Speichern Sie die extrahierten Bilder in einem lokalen Verzeichnis"
+    }
+  }
+}

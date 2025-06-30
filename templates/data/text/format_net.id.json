@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Ekstrak teks dari file {{FileFormatUp}} di aplikasi {{ProgLang}}",
+    "description": "Gunakan {{ProdShortName}} untuk mengekstrak teks biasa atau terstruktur dari file {{FileFormatUp}} dalam aplikasi {{ProgLang}} tanpa memerlukan alat eksternal."
+  },
+  "header": {
+    "title": "Ekstrak teks dari {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "description": "Ekstrak teks yang mudah dibaca dan terstruktur dari PDF, Word, Excel, dan berbagai jenis file lainnya menggunakan {{ProdShortName}} dalam solusi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) adalah API pemrosesan dokumen berkinerja tinggi untuk pengembang {{EnvName}}. Ini menyederhanakan ekstraksi teks, gambar, tabel, dan konten terstruktur dari berbagai format file termasuk PDF, DOCX, XLSX, PPTX, dan lainnya—tanpa bergantung pada pustaka pihak ketiga."
+  },
+  "formats": {
+    "title": "Format yang Didukung untuk Ekstraksi Teks",
+    "description": "{{ProdShortName}} memungkinkan ekstraksi teks dari berbagai jenis dokumen dan gambar. Jelajahi format-format yang umum didukung sebagaimana tertera di bawah."
+  },
+  "examples": {
+    "comment_1": "Muat dokumen Anda ke dalam {{textParser}}",
+    "comment_2": "Ekstrak semua konten teks dari file tersebut",
+    "comment_3": "Jika teks tidak tersedia, hasilnya akan bernilai null",
+    "comment_4": "Gunakan teks yang diekstrak di aplikasi Anda",
+    "comment_5": "Ekstraksi teks tidak didukung untuk format ini"
+  },
+  "steps": {
+    "title": "Langkah untuk mengekstrak teks dari {{FileFormatCap}} dalam {{ProgLang}}",
+    "content": {
+      "title": "Anda dapat mengekstrak teks yang bersih dan terstruktur dari dokumen {{FileFormatUp}} dalam aplikasi {{EnvName}} dengan [{{ProdShortName}}]({{PlatformLink}}) dengan mengikuti langkah-langkah berikut:",
+      "step_1": "Buka dokumen {{FileFormatUp}} menggunakan instance {{textParser}}.",
+      "step_2": "Ekstrak teks dari konten file.",
+      "step_3": "Periksa hasilnya untuk memastikan ekstraksi teks berhasil.",
+      "step_4": "Gunakan teks yang diekstrak dalam logika bisnis Anda, pengindeksan, atau jalur data."
+    }
+  },
+  "more_features": {
+    "title": "Fitur ekstraksi konten yang komprehensif",
+    "description": "Selain teks biasa, {{ProdShortName}} dapat mengekstrak gambar, elemen terstruktur, dan metadata untuk mendukung analisis konten, transformasi, dan otomatisasi.",
+    "image_description": "Pengenalan teks dan pemrosesan dokumen terstruktur",
+    "feature_1": {
+      "title": "Ekstraksi teks dari berbagai jenis file",
+      "content": "Dapatkan teks biasa atau terstruktur dari format seperti PDF, DOCX, XLSX, PPTX, HTML, dan format lainnya."
+    },
+    "feature_2": {
+      "title": "Proses teks dari dokumen dan visual",
+      "content": "Ekstrak teks dari gambar yang dipindai, presentasi, spreadsheet, dan dokumen digital sambil mempertahankan struktur."
+    },
+    "feature_3": {
+      "title": "Konfigurasi ekstraksi teks yang canggih",
+      "content": "Kustomisasi cara teks dideteksi—definisikan rentang halaman, wilayah tata letak, dan sesuaikan output untuk akurasi maksimum."
+    },
+    "code_1": {
+      "title": "Cara mengekstrak area teks dari file PPTX",
+      "content": "Contoh kode ini menunjukkan cara mengambil konten teks bersama dengan koordinat area dari file PowerPoint menggunakan {{ProdShortName}}.",
+      "comment_1": "Muat presentasi PowerPoint dengan {{textParser}}",
+      "comment_2": "Ekstrak semua rectangle area teks dari dokumen",
+      "comment_3": "Keluar jika ekstraksi area teks tidak tersedia",
+      "comment_4": "Loop melalui setiap area teks pada halaman",
+      "comment_5": "Akses indeks halaman, rectangle area, dan nilai teks"
+    }
+  }
+}

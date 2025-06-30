@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 앱에서 {{FileFormatUp}} 파일의 이미지를 추출하기",
+    "description": "{{ProdShortName}}를 사용하여 {{ProgLang}}에서 {{FileFormatUp}} 파일의 이미지 탐지 및 추출하세요. 추가 도구는 필요하지 않습니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 이미지 추출하기",
+    "description": "{{ProdShortName}}를 통해 PDF, 워드 문서, 엑셀 시트 및 기타 파일 유형에서 내장 이미지를 신속하게 찾고 추출할 수 있습니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 체험 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 소개",
+    "content": "[{{ProdShortName}}]({{PlatformLink}})는 {{EnvName}} 개발자를 위한 강력한 문서 파싱 라이브러리입니다. PDF, DOCX, XLSX, PPTX와 같은 인기 있는 파일 형식에서 이미지, 텍스트, 하이퍼링크 및 구조화된 데이터를 추출할 수 있으며, 타사 응용 프로그램이 필요 없습니다."
+  },
+  "formats": {
+    "title": "이미지 추출을 위한 지원 형식",
+    "description": "{{ProdShortName}}는 다양한 문서 및 이미지 형식에서 정확한 이미지 추출을 가능하게 합니다. 일반적으로 지원되는 유형을 아래 목록에서 확인하세요."
+  },
+  "examples": {
+    "comment_1": "{{textParser}}를 사용하여 이미지를 포함한 문서를 엽니다.",
+    "comment_2": "파일에서 모든 내장 이미지를 추출합니다.",
+    "comment_3": "이미지가 발견되지 않은 경우를 처리합니다.",
+    "comment_4": "가져온 이미지를 처리하거나 저장합니다."
+  },
+  "steps": {
+    "title": "{{ProgLang}}에서 {{FileFormatCap}}의 이미지를 추출하는 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})를 사용하여 {{EnvName}} 프로젝트에서 {{FileFormatUp}} 문서에서 이미지를 추출하는 단계는 다음과 같습니다:",
+      "step_1": "{{FileFormatUp}} 파일로 {{textParser}}를 초기화합니다.",
+      "step_2": "문서에서 이미지 요소를 가져옵니다.",
+      "step_3": "필요에 따라 추출된 이미지를 워크플로에 사용합니다."
+    }
+  },
+  "more_features": {
+    "title": "종합 문서 내용 추출",
+    "description": "{{ProdShortName}}는 이미지 추출 이상의 기능을 제공합니다. 원시 텍스트, 하이퍼링크, 메타데이터 및 구조화된 콘텐츠를 추출하여 고급 자동화 시나리오에 활용할 수 있습니다.",
+    "image_description": "이미지 추출 및 문서 파싱 워크플로",
+    "feature_1": {
+      "title": "다양한 형식에서 이미지 추출",
+      "content": "DOCX, PDF, PPTX, XLSX 및 PNG, JPG, TIFF와 같은 이미지 파일을 포함한 다양한 파일 형식에서 내장 이미지를 추출할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "원본 이미지 품질 유지",
+      "content": "이미지는 원래 해상도, 형식 및 색상 프로필을 유지하여 높은 충실도로 추출됩니다."
+    },
+    "feature_3": {
+      "title": "고급 추출 옵션",
+      "content": "페이지, 형식 또는 해상도별로 필터링하여 이미지 추출을 사용자 정의하며, 다중 페이지 문서도 지원합니다."
+    },
+    "code_1": {
+      "title": "PDF 문서에서 이미지를 추출하고 저장하는 방법",
+      "content": "이 예제는 PDF 파일에서 모든 이미지 자산을 추출하고 로컬 파일 시스템에 저장하는 방법을 보여줍니다.",
+      "comment_1": "{{textParser}} 클래스를 사용하여 PDF를 로드합니다.",
+      "comment_2": "파일에서 내장 이미지를 추출합니다.",
+      "comment_3": "출력 형식 및 이미지 옵션(예: PNG)을 설정합니다.",
+      "comment_4": "추출된 이미지를 디스크에 씁니다."
+    }
+  }
+}

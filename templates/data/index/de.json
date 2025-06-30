@@ -1,0 +1,303 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java, Cloud-APIs & Online-Dokumentenparser-Apps",
+    "head_description": "Erhalten Sie eine All-in-One-Lösung zum Dokumentenparsen für .NET, Java und cloudbasierte Anwendungen. Daten aus Dokumentformaten online mit einer einfachen Drag-and-Drop-Funktion extrahieren.",
+    "title": "Dokumentenverarbeitungslösung",
+    "description_0": "Robuste API zur Datenextraktion aus verschiedenen Dateiformaten.",
+    "description_1": "Dokumente mit minimalem Programmieraufwand parsen.",
+    "description_2": "Parsing-Ergebnisse anpassen.",
+    "words_for": "für",
+    "release_title": "Version {0} veröffentlicht",
+    "release_notes": "Siehe, was neu ist",
+    "release_downloads": "Downloads",
+    "code_more": "Weitere Beispiele",
+    "overview_title": "{{ProdShortName}} auf einen Blick",
+    "formats_title": "Unterstützte Dateiformate",
+    "platforms": {
+      "title": "Plattformunabhängigkeit",
+      "head_title": "Wählen Sie Ihre Plattform",
+      "description": "{{ProdShortName}}-Bibliothek unterstützt die folgenden Betriebssysteme und Frameworks:",
+      "learn_more": "Erfahren Sie mehr",
+      "any_other_text_editor": "Jeder andere Texteditor"
+    },
+    "features": {
+      "title": "{{ProdShortName}} auf einen Blick",
+      "description": "API zur Datenverarbeitung über PDF, Word, Excel und mehr",
+      "feature_1": {
+        "title": "Text extrahieren",
+        "content": "Textuelle Informationen aus verschiedenen Dateiformaten extrahieren"
+      },
+      "feature_2": {
+        "title": "Bilder extrahieren",
+        "content": "Visuelle Inhalte aus unterschiedlichen Quellen abrufen"
+      },
+      "feature_3": {
+        "title": "Daten durch Vorlagen parsen",
+        "content": "Erstellen Sie benutzerdefinierte Vorlagen und verwenden Sie diese, um spezifische Informationen zu extrahieren"
+      },
+      "feature_4": {
+        "title": "PDF-Formulare parsen",
+        "content": "PDF-Formulare sind digitale Dokumente mit ausfüllbaren Feldern zur Benutzerinteraktion"
+      }
+    },
+    "formats": {
+      "title": "Über 50 unterstützte Dateiformate",
+      "description": "{{ProdShortName}} ermöglicht Parser-Operationen innerhalb verschiedener Formatfamilien"
+    },
+    "code_samples": {
+      "title": "Codebeispiele",
+      "index_title": "{{ProdShortName}}-Codebeispiele",
+      "index_description": "Einige Anwendungsfälle typischer {{ProdShortName}}-Operationen in C# und Java",
+      "more_examples": "Weitere Beispiele",
+      "sample_index": {
+        "title": "Wie man Text aus PDF-Dokumenten extrahiert",
+        "content": "{{ProdShortName}}-API erleichtert das Extrahieren von Text aus Dokumenten durch die Implementierung einiger Schritte.",
+        "comment_1": "Erstellen Sie eine Instanz der {{textParser}}-Klasse und übergeben Sie die gewünschte Datei",
+        "comment_2": "Extrahieren Sie den Text",
+        "comment_3": "Verarbeiten Sie den extrahierten Text"
+      },
+      "sample_1": {
+        "code_title": "Bilder aus PDF-Dokumenten in {{ProgLang}} extrahieren",
+        "comment_1": "Erstellen Sie eine Instanz der {{textParser}}-Klasse",
+        "comment_2": "Bilder extrahieren",
+        "comment_3": "Überprüfen, ob etwas extrahiert wurde",
+        "comment_4": "Über Bilder iterieren",
+        "comment_5": "Seitenindex, Rechteck und Bildtyp ausgeben"
+      },
+      "sample_2": {
+        "code_title": "Barcode aus Bildern in {{ProgLang}} extrahieren",
+        "comment_1": "Laden Sie das Quellbild in {{textParser}}",
+        "comment_2": "Überprüfen, ob die Datei die Barcode-Extraktion unterstützt",
+        "comment_3": "Barcodes aus der Datei extrahieren",
+        "comment_4": "Über Barcodes iterieren",
+        "comment_5": "Seitenindex ausgeben",
+        "comment_6": "Barcode-Wert ausgeben"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}}-Erfolge",
+      "description": "Entdecken Sie die wichtigsten Kennzahlen der Erfolge unserer Bibliothek",
+      "item_1": {
+        "title": "Unterstützte Formate",
+        "description": "{{ProdShortName}} unterstützt Operationen mit mehr als 50 verbreiteten Dateiformaten."
+      },
+      "item_2": {
+        "title": "NuGet-Downloads",
+        "description": "{{ProdShortName}} für .NET NuGet-Paket wurde über 1.600.000 Mal heruntergeladen."
+      },
+      "item_3": {
+        "title": "Maven-Downloads",
+        "description": "{{ProdShortName}} hat 18.000 Downloads auf Maven. Leistungsstarke Java-Parsing-Funktionen."
+      },
+      "item_4": {
+        "title": "Zufriedene Kunden",
+        "description": "So berühmte Unternehmen wie einzelne Entwickler bevorzugen die Produkte von {{NameCompany}}, um innovative Lösungen zu entwickeln."
+      }
+    },
+    "customers": {
+      "title": "Unsere zufriedenen Kunden",
+      "description": "{{NameCompany}}-Bibliotheken werden von weltweit renommierten und angesehenen Marken eingesetzt."
+    },
+    "actions": {
+      "alt": "Lizenzierung",
+      "title": "Bereit zu starten?",
+      "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
+      "description_index": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos auf Ihrer Plattform"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Antworten auf die häufigsten Fragen.",
+      "item_1": {
+        "question": "Benötigt die {{ProdShortName}}-Bibliothek andere Software von Drittanbietern zur Manipulation von Dokumenten?",
+        "answer": "{{ProdShortName}} erfordert keine Installation externer Software wie Adobe Acrobat, Microsoft Office oder ähnliches."
+      },
+      "item_2": {
+        "question": "Kann ich die {{ProdShortName}}-Bibliothek vor dem Kauf testen?",
+        "answer": "Ja, Sie können {{ProdShortName}} testen, ohne eine Lizenz zu kaufen. Nach der Installation ohne Lizenz arbeitet die Bibliothek im Testmodus. In diesem Modus werden Testmarken zum resultierenden Dokument hinzugefügt, und es wird auf die ersten 3 Seiten beschränkt. Wenn Sie GroupDocs.Parser ohne die Einschränkungen der Testversion testen möchten, können Sie auch eine 30-tägige temporäre Lizenz anfordern. Für weitere Informationen, [sehen Sie hier]({{LicensingUrl}})"
+      },
+      "item_3": {
+        "question": "Welche Lizenzen haben Sie?",
+        "answer": "Wir bieten mehrere Lizenztypen an, um den Bedürfnissen bestimmter Entwickler oder Unternehmen gerecht zu werden. Lizenztypen hängen von der Anzahl der Entwickler, der Anzahl der Standorte der Entwickler und davon ab, ob Sie unser SDK/API an Ihre Endkunden liefern müssen. Alternativ können Sie auch lizenzierte Lizenzen basierend auf der monatlichen Nutzung des Produkts wählen. Erfahren Sie hier mehr [hier]({{PricingUrl}})"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} Low-Code-APIs",
+      "description": "Integrieren Sie Dokumentenparser-Funktionen in jede Anwendung mit unserer cloudbasierten REST-API.",
+      "item_1": {
+        "content": "cURL-Befehle für die RESTful-Dokumentenparser-Cloud-API, um Dokumente in einer breiten Palette unterstützter beliebter Dateiformate zu parsen."
+      },
+      "item_2": {
+        "content": "Extrahieren Sie Bilder, Text, Dokumentinformationen oder parsen Sie jedes Dokument mithilfe einer benutzerdefinierten Vorlage in Ihren Microsoft .NET-Anwendungen."
+      },
+      "item_3": {
+        "content": "Cloud-SDK für Java-Entwickler, um Dokumente zu parsen, Dokumentinformationen und Daten innerhalb von Java-basierten Anwendungen zu extrahieren."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} No-Code-Apps",
+      "description": "Webanwendung, die es Ihnen ermöglicht, Dokumente aus mehr als 50 beliebten Dateiformaten direkt in Ihrem Browser zu parsen.",
+      "item_1": {
+        "content": "Kostenlose Online-App zum Parsen von Word, Excel, PowerPoint, PDF und über 50 weiteren Dokumenttypen."
+      },
+      "item_2": {
+        "content": "Parsen Sie Word-Dokumente direkt aus Ihrem Webbrowser, um Bilder, Text oder Metadaten zu extrahieren."
+      },
+      "item_3": {
+        "content": "Kostenlose PDF-Parsing-App, die auf jeder Plattform oder jedem Gerät ohne Einschränkungen funktioniert."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office-Formate",
+      "title_2": "Bilder & andere Formate",
+      "title_3": "Weitere Formate",
+      "format_portable": "Portabel",
+      "format_images": "Bilder",
+      "format_other_office": "Andere Büroformate",
+      "format_other_web": "Web",
+      "format_other_archives": "Archive",
+      "format_other_ebooks": "e-Books"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{ProdFullName}} Dokumentenparser-Apps",
+    "head_description": "Erhalten Sie eine All-in-One-Lösung zum Dokumentenparsen für {{EnvNameShort}}-Anwendungen. Daten aus Dokumentformaten online mit einer einfachen Drag-and-Drop-Funktion extrahieren.",
+    "title": "Dokumente über {{EnvNameShort}} API parsen",
+    "description": "Extrahieren Sie Daten aus Dokumenten und Bildern auf jeder Plattform mit unseren flexiblen APIs und anwendungsbasierten Lösungen für Programmierer und Endbenutzer.",
+    "actions_main": "{{PackageStoreName}} herunterladen",
+    "code_title": "Dokumenteninhalt schnell parsen",
+    "code_comment_1": "Übergeben Sie die Quelldatei an die {{textParser}}-Instanz",
+    "code_comment_2": "Übergeben Sie den Dokumententext an {{textReader}}",
+    "code_comment_3": "Verarbeiten Sie den Dokumententext",
+    "overview_description": "API zum Durchführen von Dokumentenverarbeitung in {{EnvNameShort}}-Anwendungen",
+    "overview_feature_1": {
+      "title": "Daten aus Dokumenten extrahieren",
+      "description": "{{ProdFullName}} API ermöglicht es Ihnen, Text, Metadaten und Bilder aus einer Vielzahl von Dateiformaten wie Office-Dokumenten, E-Mails, Anhängen und Archiven zu extrahieren. Dieses leistungsstarke Tool hilft Ihnen, wertvolle Informationen effizient zuzugreifen und zu verarbeiten, die in diesen Dateien für verschiedene Anwendungen wie Datenanalyse, Suchmaschinenindizierung oder Content-Management-Systeme enthalten sind."
+    },
+    "overview_feature_2": {
+      "title": "Dokumente parsen",
+      "description": "Extrahieren Sie verschiedene Elemente wie Hyperlinks, Tabellen, QR-Codes, Barcodes und Daten aus PDF-Formularen. Auch beliebige Informationen aus Dokumenten mithilfe benutzerdefinierter Vorlagen parsen."
+    },
+    "overview_feature_3": {
+      "title": "Ergebnisse anpassen",
+      "description": "{{EnvNameShort}} API ermöglicht es Ihnen, Daten in verschiedenen Formaten wie Rohdaten, strukturiert, HTML oder Markdown zu ermitteln. Darüber hinaus bietet die API eine Suchfunktion zum Auffinden spezifischer Wörter oder Phrasen im Text der Dokumente."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Funktionen",
+      "description": "Daten aus PDFs, Office-Dokumenten und Bildern schnell und präzise extrahieren",
+      "feature_1": {
+        "title": "Text extrahieren",
+        "content": "Textuelle Informationen aus verschiedenen Dateiformaten wie Office-Dokumenten, PDF-Dateien und Bildern extrahieren, um eine einfache Lesbarkeit und Analyse zu gewährleisten."
+      },
+      "feature_2": {
+        "title": "Bilder extrahieren",
+        "content": "Visuelle Inhalte aus unterschiedlichen Quellen wie Office-Dokumenten und PDF-Dateien abrufen, um einen bequemen Zugriff zu erhalten."
+      },
+      "feature_3": {
+        "title": "QR-Codes scannen",
+        "content": "Erkennen und Dekodieren von QR-Codes, die in Office-Dokumenten, PDF-Dateien oder visuellen Inhalten vorhanden sind, um Informationen effizient abzurufen."
+      },
+      "feature_4": {
+        "title": "Daten aus E-Mail-Anhängen und Archiven extrahieren",
+        "content": "Wertvolle Informationen aus E-Mail-Nachrichten, Dateianhängen und komprimierten Datenquellen zusammenstellen, um eine effektive Analyse und Nutzung zu gewährleisten."
+      },
+      "feature_5": {
+        "title": "Tabellen extrahieren",
+        "content": "Identifizieren und extrahieren Sie tabellarische Daten aus PDF-Dokumenten für eine organisierte Analyse und Nutzung."
+      },
+      "feature_6": {
+        "title": "Hyperlinks extrahieren",
+        "content": "Lokalisieren und extrahieren Sie Hyperlinks und E-Mail-Adressen in Office-Dokumenten oder PDF-Dateien für einen effizienten Zugriff."
+      },
+      "feature_7": {
+        "title": "PDF-Formulare parsen",
+        "content": "PDF-Formulare sind digitale Dokumente mit ausfüllbaren Feldern zur Benutzerinteraktion, die es ihnen ermöglichen, Informationen elektronisch einzugeben. .NET-API kann verwendet werden, um Daten aus diesen Formularen für eine effiziente Verarbeitung zu extrahieren."
+      },
+      "feature_8": {
+        "title": "Daten durch Vorlagen parsen",
+        "content": "Erstellen Sie benutzerdefinierte Vorlagen und verwenden Sie diese mit der .NET-API, um spezifische Informationen aus PDF-Dateien zu extrahieren und die Datenextraktionsprozesse zu vereinfachen."
+      },
+      "feature_9": {
+        "title": "Text in Dokumenten suchen",
+        "content": "Schnell spezifische Wörter oder Muster innerhalb von Dokumenten finden."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager.",
+    "formats_description": "{{ProdFullName}} unterstützt Operationen mit den folgenden [Dateiformaten]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Einige Anwendungsfälle typischer {{ProdFullName}}-Operationen",
+    "code_title_sample_1": "Bilder aus PDF-Dokumenten extrahieren",
+    "code_samples_sample_1_content": "{{ProdFullName}} erleichtert es {{ProgLang}}-Entwicklern, Bilder aus [Dokumenten]({{Sample1Url}}) zu extrahieren:",
+    "code_title_sample_2": "Barcodes aus Bildern extrahieren",
+    "code_samples_sample_2_content": "Verwenden Sie unsere {{EnvNameShort}}-API, um [Barcodes]({{Sample2Url}}) aus Bildern zu extrahieren:"
+  },
+  "index-content-java": {
+    "head_title": "{{ProdFullName}} Dokumentenparser-Apps",
+    "head_description": "Erhalten Sie eine All-in-One-Lösung zum Dokumentenparsen für {{EnvNameShort}}-Anwendungen. Daten aus Dokumentformaten online mit einer einfachen Drag-and-Drop-Funktion extrahieren.",
+    "title": "Dokumente über {{EnvNameShort}} API parsen",
+    "description": "Extrahieren Sie Daten aus Dokumenten und Bildern auf jeder Plattform mit unseren flexiblen APIs und anwendungsbasierten Lösungen für Programmierer und Endbenutzer.",
+    "actions_main": "{{PackageStoreName}} herunterladen",
+    "code_title": "Dokumenteninhalt schnell abrufen",
+    "code_comment_1": "Übergeben Sie die Quelldatei an die {{textParser}}-Instanz",
+    "code_comment_2": "Übergeben Sie den Dokumententext an {{textReader}}",
+    "code_comment_3": "Verarbeiten Sie den Dokumententext",
+    "overview_description": "API zum Durchführen von Dokumentenverarbeitung in {{EnvNameShort}}-Anwendungen",
+    "overview_feature_1": {
+      "title": "Daten aus Dokumenten extrahieren",
+      "description": "{{ProdFullName}} API ermöglicht es Ihnen, Text, Metadaten und Bilder aus einer Vielzahl von Dateiformaten wie Office-Dokumenten, E-Mails, Anhängen und Archiven zu extrahieren. Dieses leistungsstarke Tool hilft Ihnen, wertvolle Informationen effizient zuzugreifen und zu verarbeiten, die in diesen Dateien für verschiedene Anwendungen wie Datenanalyse, Suchmaschinenindizierung oder Content-Management-Systeme enthalten sind."
+    },
+    "overview_feature_2": {
+      "title": "Dokumente parsen",
+      "description": "Extrahieren Sie verschiedene Elemente wie Hyperlinks, Tabellen, QR-Codes, Barcodes und Daten aus PDF-Formularen. Auch beliebige Informationen aus Dokumenten mithilfe benutzerdefinierter Vorlagen parsen."
+    },
+    "overview_feature_3": {
+      "title": "Ergebnisse anpassen",
+      "description": "{{EnvNameShort}} API ermöglicht es Ihnen, Daten in verschiedenen Formaten wie Rohdaten, strukturiert, HTML oder Markdown zu ermitteln. Darüber hinaus bietet die API eine Suchfunktion zum Auffinden spezifischer Wörter oder Phrasen im Text der Dokumente."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Funktionen",
+      "description": "Daten aus PDFs, Office-Dokumenten und Bildern schnell und präzise extrahieren",
+      "feature_1": {
+        "title": "Text extrahieren",
+        "content": "Textuelle Informationen aus verschiedenen Dateiformaten wie Office-Dokumenten, PDF-Dateien und Bildern extrahieren, um eine einfache Lesbarkeit und Analyse zu gewährleisten."
+      },
+      "feature_2": {
+        "title": "Bilder extrahieren",
+        "content": "Visuelle Inhalte aus unterschiedlichen Quellen wie Office-Dokumenten und PDF-Dateien abrufen, um einen bequemen Zugriff zu erhalten."
+      },
+      "feature_3": {
+        "title": "QR-Codes scannen",
+        "content": "Erkennen und Dekodieren von QR-Codes, die in Office-Dokumenten, PDF-Dateien oder visuellen Inhalten vorhanden sind, um Informationen effizient abzurufen."
+      },
+      "feature_4": {
+        "title": "Daten aus E-Mail-Anhängen und Archiven extrahieren",
+        "content": "Wertvolle Informationen aus E-Mail-Nachrichten, Dateianhängen und komprimierten Datenquellen zusammenstellen, um eine effektive Analyse und Nutzung zu gewährleisten."
+      },
+      "feature_5": {
+        "title": "Tabellen extrahieren",
+        "content": "Identifizieren und extrahieren Sie tabellarische Daten aus PDF-Dokumenten für eine organisierte Analyse und Nutzung."
+      },
+      "feature_6": {
+        "title": "Hyperlinks extrahieren",
+        "content": "Lokalisieren und extrahieren Sie Hyperlinks und E-Mail-Adressen in Office-Dokumenten oder PDF-Dateien für einen effizienten Zugriff."
+      },
+      "feature_7": {
+        "title": "PDF-Formulare parsen",
+        "content": "PDF-Formulare sind digitale Dokumente mit ausfüllbaren Feldern zur Benutzerinteraktion, die es ihnen ermöglichen, Informationen elektronisch einzugeben. .NET-API kann verwendet werden, um Daten aus diesen Formularen für eine effiziente Verarbeitung zu extrahieren."
+      },
+      "feature_8": {
+        "title": "Daten durch Vorlagen parsen",
+        "content": "Erstellen Sie benutzerdefinierte Vorlagen und verwenden Sie diese mit der .NET-API, um spezifische Informationen aus PDF-Dateien zu extrahieren und die Datenextraktionsprozesse zu vereinfachen."
+      },
+      "feature_9": {
+        "title": "Text in Dokumenten suchen",
+        "content": "Schnell spezifische Wörter oder Muster innerhalb von Dokumenten finden."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager.",
+    "formats_description": "{{ProdFullName}} unterstützt Operationen mit den folgenden [Dateiformaten]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Einige Anwendungsfälle typischer {{ProdFullName}}-Operationen",
+    "code_title_sample_1": "Bilder aus PDF-Dokumenten extrahieren",
+    "code_samples_sample_1_content": "{{ProdFullName}} erleichtert es {{ProgLang}}-Entwicklern, Bilder aus [Dokumenten]({{Sample1Url}}) zu extrahieren:",
+    "code_title_sample_2": "Barcodes aus Bildern extrahieren",
+    "code_samples_sample_2_content": "Verwenden Sie unsere {{EnvNameShort}}-API, um [Barcodes]({{Sample2Url}}) aus Bildern zu extrahieren:"
+  }
+}

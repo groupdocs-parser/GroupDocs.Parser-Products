@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Extraia códigos de barras de arquivos {{FileFormatUp}} em aplicativos {{ProgLang}}",
+    "description": "Utilize {{ProdShortName}} para detectar e extrair dados de código de barras de arquivos {{FileFormatUp}} em {{ProgLang}} sem precisar de software adicional."
+  },
+  "header": {
+    "title": "Extraia códigos de barras de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Detecte e extraia informações de códigos de barras de arquivos PDF, Word, Excel e imagens usando {{ProdShortName}} em suas aplicações {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Versão de Avaliação Gratuita"
+  },
+  "about": {
+    "title": "Sobre a API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) é uma poderosa API de análise de documentos para desenvolvedores {{EnvName}}. Ela permite a extração de texto, imagens, conteúdo estruturado e códigos de barras de diversos formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint e mais — tudo sem depender de ferramentas externas."
+  },
+  "formats": {
+    "title": "Formatos suportados para extração de códigos de barras",
+    "description": "{{ProdShortName}} suporta a detecção de códigos de barras em uma ampla gama de formatos de documentos e imagens. Veja abaixo os tipos de arquivos comumente suportados."
+  },
+  "examples": {
+    "comment_1": "Carregue o documento contendo códigos de barras usando a classe {{textParser}}",
+    "comment_2": "Verifique se o arquivo suporta extração de códigos de barras",
+    "comment_3": "A extração de códigos de barras não é suportada",
+    "comment_4": "Recupere e processe os códigos de barras extraídos"
+  },
+  "steps": {
+    "title": "Passos para extrair códigos de barras de {{FileFormatCap}} em {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite extrair dados de códigos de barras de arquivos {{FileFormatUp}} em aplicações {{EnvName}} seguindo estes passos simples:",
+      "step_1": "Carregue o arquivo {{FileFormatUp}} usando uma instância de {{textParser}}.",
+      "step_2": "Verifique se o documento suporta a extração de códigos de barras.",
+      "step_3": "Recupere a lista de códigos de barras do documento.",
+      "step_4": "Itere pelos resultados e utilize os valores dos códigos de barras extraídos."
+    }
+  },
+  "more_features": {
+    "title": "Recursos avançados de análise de documentos",
+    "description": "Além da extração de códigos de barras, {{ProdShortName}} permite extrações de texto simples, imagens e dados estruturados para apoiar automações avançadas e fluxos de trabalho de processamento de dados.",
+    "image_description": "Reconhecimento de códigos de barras e análise de documentos",
+    "feature_1": {
+      "title": "Suporte a múltiplos formatos de códigos de barras",
+      "content": "Reconheça tipos comuns de códigos de barras, incluindo QR Code, Code 128, Data Matrix, EAN, Aztec e mais."
+    },
+    "feature_2": {
+      "title": "Extraia códigos de barras de documentos e imagens",
+      "content": "Leia códigos de barras de documentos PDF, Word, Excel e formatos de imagem como JPEG, PNG e BMP."
+    },
+    "feature_3": {
+      "title": "Configurações de extração personalizáveis",
+      "content": "Configure opções de detecção como regiões de escaneamento e processamento de documentos de várias páginas."
+    },
+    "code_1": {
+      "title": "Como extrair códigos de barras de um PDF usando opções de código de barras",
+      "content": "Este exemplo demonstra como extrair códigos de barras de um arquivo PDF utilizando opções específicas de extração de códigos de barras.",
+      "comment_1": "Carregue o arquivo PDF com a classe {{textParser}}",
+      "comment_2": "Confirme que a extração de códigos de barras é suportada",
+      "comment_3": "Utilize opções de códigos de barras para filtrar resultados",
+      "comment_4": "Recupere os dados do código de barras do documento",
+      "comment_5": "Processe a lista de códigos de barras extraídos"
+    }
+  }
+}

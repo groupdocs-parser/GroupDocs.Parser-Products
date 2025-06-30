@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Ekstrak gambar dari file {{FileFormatUp}} dalam aplikasi {{ProgLang}}",
+    "description": "Gunakan {{ProdShortName}} untuk mendeteksi dan mengekstrak gambar dari file {{FileFormatUp}} dalam {{ProgLang}} tanpa alat tambahan."
+  },
+  "header": {
+    "title": "Ekstrak gambar dari {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "description": "Temukan dan ekstrak gambar ter嵌 dalam PDF, dokumen Word, lembar Excel, dan jenis file lainnya menggunakan {{ProdShortName}} dalam aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) adalah pustaka parsing dokumen yang kuat untuk pengembang {{EnvName}}. Ini memungkinkan Anda untuk mengekstrak gambar, teks, superlink, dan data terstruktur dari format file populer seperti PDF, DOCX, XLSX, PPTX, dan lainnya — semua tanpa memerlukan aplikasi pihak ketiga."
+  },
+  "formats": {
+    "title": "Format yang didukung untuk ekstra gambar",
+    "description": "{{ProdShortName}} memungkinkan ekstraksi gambar yang akurat dari berbagai format dokumen dan gambar. Lihat daftar di bawah ini untuk jenis yang umum didukung."
+  },
+  "examples": {
+    "comment_1": "Buka dokumen yang berisi gambar menggunakan {{textParser}}",
+    "comment_2": "Ekstrak semua gambar yang ter嵌 dari file",
+    "comment_3": "Tangani kasus di mana tidak ada gambar yang ditemukan",
+    "comment_4": "Olah atau simpan gambar yang diperoleh"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk mengekstrak gambar dari {{FileFormatCap}} di {{ProgLang}}",
+    "content": {
+      "title": "Dengan [{{ProdShortName}}]({{PlatformLink}}), Anda dapat mengekstrak gambar dari dokumen {{FileFormatUp}} dalam proyek {{EnvName}} Anda hanya dalam beberapa langkah:",
+      "step_1": "Inisialisasi {{textParser}} dengan file {{FileFormatUp}}.",
+      "step_2": "Ambil elemen gambar dari dokumen.",
+      "step_3": "Gunakan gambar yang diekstrak sesuai kebutuhan dalam alur kerja Anda."
+    }
+  },
+  "more_features": {
+    "title": "Ekstraksi konten dokumen yang komprehensif",
+    "description": "{{ProdShortName}} menawarkan lebih dari sekadar ekstraksi gambar — Anda juga dapat mengekstrak teks mentah, superlink, metadata, dan konten terstruktur untuk skenario otomatisasi lanjutan.",
+    "image_description": "Alur kerja ekstraksi gambar dan parsing dokumen",
+    "feature_1": {
+      "title": "Ekstrak gambar dari berbagai format",
+      "content": "Ambil gambar ter嵌 dari berbagai format file, termasuk DOCX, PDF, PPTX, XLSX, dan file gambar seperti PNG, JPG, dan TIFF."
+    },
+    "feature_2": {
+      "title": "Pertahankan kualitas gambar asli",
+      "content": "Gambar diekstraksi dengan fidelity tinggi, mempertahankan resolusi asli, format, dan profil warna."
+    },
+    "feature_3": {
+      "title": "Opsi ekstraksi lanjutan",
+      "content": "Sesuaikan ekstraksi gambar dengan penyaringan berdasarkan halaman, format, atau resolusi, dan dukungan untuk dokumen multi-halaman."
+    },
+    "code_1": {
+      "title": "Cara mengekstrak dan menyimpan gambar dari dokumen PDF",
+      "content": "Contoh ini menunjukkan cara mengekstrak semua aset gambar dari file PDF dan menyimpannya ke sistem file lokal.",
+      "comment_1": "Muat PDF menggunakan kelas {{textParser}}",
+      "comment_2": "Ekstrak gambar ter嵌 dari file",
+      "comment_3": "Atur format output dan opsi gambar (misalnya, PNG)",
+      "comment_4": "Tulis gambar yang diekstrak ke disk"
+    }
+  }
+}

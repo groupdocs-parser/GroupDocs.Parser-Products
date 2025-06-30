@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} ファイルから {{ProgLang}} アプリでテキストを抽出する",
+    "description": "{{ProdShortName}} を使用して、{{ProgLang}} アプリケーション内の {{FileFormatUp}} ファイルからプレーンまたは構造化テキストを抽出します。このために外部ツールは必要ありません。"
+  },
+  "header": {
+    "title": "{{ProgLang}} を使用して {{FileFormatUp}} からテキストを抽出する",
+    "description": "{{ProdShortName}} を使って、PDF、Word、Excel、およびその他のファイルタイプから読みやすく構造化されたテキストを迅速に抽出します。{{EnvNameShort}} ソリューション内での利用が可能です。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API について",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) は、{{EnvName}} 開発者向けの高性能なドキュメント解析 API です。PDF、DOCX、XLSX、PPTX など、多数のファイル形式からテキスト、画像、テーブル、および構造化コンテンツを抽出することを容易にし、サードパーティライブラリに依存することなく利用できます。"
+  },
+  "formats": {
+    "title": "テキスト抽出に対応している形式",
+    "description": "{{ProdShortName}} は幅広いドキュメントおよび画像タイプからのテキスト抽出を可能にします。以下に一般的にサポートされている形式を示します。"
+  },
+  "examples": {
+    "comment_1": "{{textParser}} にドキュメントを読み込む",
+    "comment_2": "ファイルからすべてのテキストコンテンツを抽出する",
+    "comment_3": "テキストが取得できない場合、結果は null になります",
+    "comment_4": "抽出されたテキストをアプリケーションで使用する",
+    "comment_5": "この形式ではテキスト抽出はサポートされていません"
+  },
+  "steps": {
+    "title": "{{ProgLang}} で {{FileFormatCap}} からテキストを抽出する手順",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) を使用して {{EnvName}} アプリ内の {{FileFormatUp}} ドキュメントからクリーンで構造化されたテキストを抽出するための手順は次のとおりです:",
+      "step_1": "{{textParser}} インスタンスを使用して {{FileFormatUp}} ドキュメントを開きます。",
+      "step_2": "ファイルコンテンツからテキストを抽出します。",
+      "step_3": "結果を確認してテキスト抽出が成功したことを確認します。",
+      "step_4": "抽出されたテキストをビジネスロジック、インデクシング、またはデータパイプラインで利用します。"
+    }
+  },
+  "more_features": {
+    "title": "包括的なコンテンツ抽出機能",
+    "description": "プレーンテキストに加えて、{{ProdShortName}} は、内容分析、変換、自動化をサポートするために、画像、構造化要素、およびメタデータを抽出することができます。",
+    "image_description": "テキスト認識と構造化ドキュメント解析",
+    "feature_1": {
+      "title": "さまざまなファイルタイプからのテキスト抽出",
+      "content": "PDF、DOCX、XLSX、PPTX、HTML などの形式からプレーンまたは構造化テキストを取得できます。"
+    },
+    "feature_2": {
+      "title": "ドキュメントとビジュアルからのテキスト処理",
+      "content": "スキャンした画像、プレゼンテーション、スプレッドシート、デジタルドキュメントからテキストを抽出し、構造を保持します。"
+    },
+    "feature_3": {
+      "title": "高度なテキスト抽出設定",
+      "content": "テキストの検出方法をカスタマイズします—ページ範囲、レイアウト領域を定義し、最大精度に向けて出力を調整します。"
+    },
+    "code_1": {
+      "title": "PPTX ファイルからテキストエリアを抽出する方法",
+      "content": "このコードサンプルでは、{{ProdShortName}} を使用して PowerPoint ファイルからテキストコンテンツとエリア座標を取得する方法を示します。",
+      "comment_1": "{{textParser}} で PowerPoint プレゼンテーションを読み込みます。",
+      "comment_2": "ドキュメントからすべてのテキストエリアの矩形を抽出します。",
+      "comment_3": "テキストエリア抽出ができない場合は終了します。",
+      "comment_4": "各ページのテキストエリアをループ処理します。",
+      "comment_5": "ページインデックス、エリア矩形、およびテキスト値にアクセスします。"
+    }
+  }
+}

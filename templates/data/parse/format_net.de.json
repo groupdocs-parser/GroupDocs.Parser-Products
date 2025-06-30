@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Daten aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Apps parsen",
+    "description": "Verwenden Sie {{ProdShortName}}, um Texte, Bilder, Tabellen und andere Daten aus {{FileFormatUp}}-Dateien in {{ProgLang}} zu extrahieren, ohne auf Drittanbieter-Tools angewiesen zu sein."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}-Dokumente mit {{ProgLang}} parsen",
+    "description": "Effiziente Extraktion von Text, Metadaten, Tabellen und Bildern aus PDF-, Word-, Excel- und Bilddateien unter Verwendung von {{ProdShortName}} in Ihren {{EnvNameShort}}-Projekten.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Über die {{ProdFullName}}-API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ist eine funktionsreiche Dokumentenverarbeitungs-API, die für {{EnvName}}-Entwickler entwickelt wurde. Sie unterstützt die Extraktion von einfachem und strukturiertem Text, Metadaten, Bildern, Tabellen und Barcodes aus gängigen Formaten wie PDF, DOCX, XLSX, PPTX und mehr – ganz ohne zusätzliche Software-Abhängigkeiten."
+  },
+  "formats": {
+    "title": "Unterstützte Formate für die Datenextraktion",
+    "description": "{{ProdShortName}} ermöglicht das Parsen über ein breites Spektrum an Dokumenten- und Bildformaten. Entdecken Sie die unterstützten Dateitypen, die häufig in Datenextraktions-Workflows verwendet werden."
+  },
+  "examples": {
+    "comment_1": "Laden Sie Ihr Dokument in {{textParser}}",
+    "comment_2": "Extrahieren Sie den gesamten Textinhalt aus der Datei",
+    "comment_3": "Wenn der Text nicht verfügbar ist, ist das Ergebnis null",
+    "comment_4": "Verwenden Sie den extrahierten Text in Ihrer Anwendung",
+    "comment_5": "Die Textextraktion wird für dieses Format nicht unterstützt"
+  },
+  "steps": {
+    "title": "Schritte zur Extraktion von Daten aus {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "Befolgen Sie diese Schritte, um Inhalte aus {{FileFormatUp}}-Dokumenten in Ihren {{EnvName}}-Apps mithilfe von [{{ProdShortName}}]({{PlatformLink}}) zu parsen:",
+      "step_1": "Laden Sie das {{FileFormatUp}}-Dokument mithilfe einer {{textParser}}-Instanz.",
+      "step_2": "Extrahieren Sie den gewünschten Inhalt wie Text, Tabellen oder Metadaten.",
+      "step_3": "Überprüfen Sie, ob die extrahierten Daten gültig sind.",
+      "step_4": "Verwenden Sie die geparsten Ausgaben in Ihren nachgelagerten Prozessen, Automatisierungen oder Geschäftssystemen."
+    }
+  },
+  "more_features": {
+    "title": "Umfangreiche Dokumentenverarbeitungsfunktionen",
+    "description": "{{ProdShortName}} bietet mehr als nur das Lesen von Text – es unterstützt die Extraktion von Barcodes, das Parsen von Bildern, den Zugriff auf Metadaten und die Verarbeitung strukturierter Daten für fortschrittliche Automatisierung und Datenanalyse.",
+    "image_description": "Dokumenteninhalts-Extraktions- und Verarbeitungsfunktionen",
+    "feature_1": {
+      "title": "Unterstützung für verschiedene Dateitypen",
+      "content": "Extrahieren Sie Daten, einschließlich Text, Bilder, Tabellen und Felder aus Dokumentformaten wie PDF, Word, Excel, HTML und mehr."
+    },
+    "feature_2": {
+      "title": "Arbeiten Sie mit gescannten und digitalen Dateien",
+      "content": "Parsen Sie Daten sowohl aus gescannten Dokumenten als auch aus digital geborenen Dateien, mit Unterstützung für OCR und layoutbewusste Extraktionen."
+    },
+    "feature_3": {
+      "title": "Konfigurierbare Extraktionsparameter",
+      "content": "Passen Sie die Parsing-Logik mit flexiblen Optionen wie Seitenbereichsauswahl, Zielregionen und Felderkennungsvorlagen an."
+    },
+    "code_1": {
+      "title": "Wie man PDF anhand von Vorlagen parst",
+      "content": "Dieses Beispiel zeigt, wie man strukturierte Daten aus einem PDF mithilfe einer vordefinierten Parsing-Vorlage mit {{ProdShortName}} extrahiert.",
+      "comment_1": "Laden Sie die PDF-Datei mit der {{textParser}}-Klasse",
+      "comment_2": "Parsen Sie das Dokument gemäß der Vorlage",
+      "comment_3": "Überprüfen Sie, ob die Formulartextraktion unterstützt wird",
+      "comment_4": "Verarbeiten Sie die erhaltenen Felder",
+      "comment_5": "Erstellen Sie die Detektorparameter für die Tabelle 'Details'"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "PDFを解析する",
+        "description": "(ポータブル文書形式)"
+      },
+      "docx": {
+        "name": "DOCXを解析する",
+        "description": "(Office 2007+ Word文書)"
+      },
+      "pptx": {
+        "name": "PPTXを解析する",
+        "description": "(Open XMLプレゼンテーション形式)"
+      },
+      "xlsx": {
+        "name": "XLSXを解析する",
+        "description": "(Open XMLワークブック)"
+      },
+      "odt": {
+        "name": "ODTを解析する",
+        "description": "(OpenDocumentテキスト文書)"
+      },
+      "ods": {
+        "name": "ODSを解析する",
+        "description": "(OpenDocumentスプレッドシート)"
+      },
+      "odp": {
+        "name": "ODPを解析する",
+        "description": "(OpenDocumentプレゼンテーション)"
+      },
+      "txt": {
+        "name": "TXTを解析する",
+        "description": "(テキストファイル)"
+      },
+      "rtf": {
+        "name": "RTFを解析する",
+        "description": "(リッチテキスト形式)"
+      },
+      "xml": {
+        "name": "XMLを解析する",
+        "description": "(拡張可能なマークアップ言語)"
+      },
+      "epub": {
+        "name": "EPUBを解析する",
+        "description": "(オープンeBookファイル)"
+      },
+      "fb2": {
+        "name": "FB2を解析する",
+        "description": "(FictionBook eBook)"
+      }
+    },
+    "format-code": {
+      "copy_title": "コピー",
+      "copy_tip": "クリックしてコピー",
+      "copy_done": "コピーしました",
+      "links": {
+        "title_1": "さらなる例",
+        "title_2": "ドキュメンテーション"
+      }
+    },
+    "format-actions": {
+      "title": "始める準備はできましたか？",
+      "description": "{{ProdShortName}}の機能を無料で試すか、ライセンスをリクエストしてください",
+      "comment_1": "{{PackageStoreName}}のダウンロード",
+      "comment_2": "ライセンス情報"
+    },
+    "texts": {
+      "learn_more": "詳細はこちら"
+    }
+  }
+}

@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-26T17:35:45
+date:  2025-06-30T10:25:45
 draft: false
 lang: en
 format: Rtf
@@ -107,7 +107,7 @@ more_features:
   features:
     # feature loop
     - title: "Works across numerous document formats"
-      content: "Capture both raw and structured text from DOCX, XLSX, PPTX, PDF, HTML, and various image-based documents."
+      content: "Capture both raw and structured text from DOCX, XLSX, PPTX, PDF, HTML, and various formats."
 
     # feature loop
     - title: "Extract text from visual and textual content"
@@ -137,7 +137,7 @@ more_features:
             }
 
             // Loop through text areas by page
-            for (PageTextArea a : areas) {
+            for (PageTextArea a : areas)
             {
                 // Process each text block with its page number and bounding rectangle
                 System.out.println(String.format("Page: %d, R: %s, Text: %s", a.getPage().getIndex(), a.getRectangle(), a.getText()));

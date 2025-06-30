@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Trích xuất bảng từ tệp {{FileFormatUp}} trong ứng dụng {{ProgLang}}",
+    "description": "Sử dụng {{ProdShortName}} để xác định và trích xuất dữ liệu bảng có cấu trúc từ các tệp {{FileFormatUp}} trong ứng dụng {{ProgLang}} mà không cần phụ thuộc thêm."
+  },
+  "header": {
+    "title": "Trích xuất bảng từ {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Nhanh chóng xác định và trích xuất cấu trúc bảng từ PDF, Word, Excel và các định dạng tệp khác bằng {{ProdShortName}} trong các dự án {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống bản dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) là một API phân tích tài liệu toàn diện, được xây dựng cho các nhà phát triển {{EnvName}}. Nó cho phép trích xuất chính xác văn bản, bảng, hình ảnh, liên kết và các phần tử có cấu trúc khác từ các định dạng như PDF, DOCX, XLSX, PPTX và nhiều định dạng khác — mà không cần phần mềm bên thứ ba."
+  },
+  "formats": {
+    "title": "Các định dạng được hỗ trợ cho việc trích xuất bảng",
+    "description": "{{ProdShortName}} có thể trích xuất dữ liệu bảng từ nhiều loại tài liệu. Dưới đây là những định dạng thường được sử dụng nhất cho việc phân tích bảng có cấu trúc."
+  },
+  "examples": {
+    "comment_1": "Mở tài liệu chứa dữ liệu bảng bằng {{textParser}}",
+    "comment_2": "Kiểm tra xem định dạng có hỗ trợ nhận diện bảng hay không",
+    "comment_3": "Xử lý các tài liệu không hỗ trợ phân tích bảng",
+    "comment_4": "Định nghĩa cách cấu trúc bảng nên được nhận diện",
+    "comment_5": "Xác định các tham số trích xuất cho dữ liệu bảng",
+    "comment_6": "Trích xuất bảng từ nội dung tệp",
+    "comment_7": "Lặp qua từng bảng được phát hiện"
+  },
+  "steps": {
+    "title": "Các bước để trích xuất bảng từ {{FileFormatCap}} trong {{ProgLang}}",
+    "content": {
+      "title": "Thực hiện các hướng dẫn sau để trích xuất bảng từ các tệp {{FileFormatUp}} bằng [{{ProdShortName}}]({{PlatformLink}}) trong môi trường {{EnvName}} của bạn:",
+      "step_1": "Khởi tạo một phiên bản {{textParser}} và tải tài liệu {{FileFormatUp}} của bạn.",
+      "step_2": "Kiểm tra xem việc trích xuất bảng có được hỗ trợ cho định dạng đầu vào không.",
+      "step_3": "Trích xuất nội dung bảng từ tệp.",
+      "step_4": "Sử dụng dữ liệu bảng có cấu trúc cho báo cáo, tự động hóa hoặc phân tích."
+    }
+  },
+  "more_features": {
+    "title": "Khả năng trích xuất dữ liệu mạnh mẽ",
+    "description": "Ngoài việc phân tích bảng, {{ProdShortName}} còn có thể trích xuất nội dung phong phú như khối văn bản, hình ảnh, metadata và các dữ liệu có cấu trúc khác để hỗ trợ tự động hóa tài liệu.",
+    "image_description": "Nhận diện bảng và trích xuất nội dung",
+    "feature_1": {
+      "title": "Phát hiện bảng đa định dạng chính xác",
+      "content": "Trích xuất dữ liệu bảng từ DOCX, XLSX, PDF, HTML và các định dạng tương tự với độ chính xác cao."
+    },
+    "feature_2": {
+      "title": "Phân tích cấu trúc bảng từ các tệp",
+      "content": "Tìm nạp dữ liệu bảng từ tài liệu và bảng tính một cách hiệu quả mà không bị mất định dạng."
+    },
+    "feature_3": {
+      "title": "Cấu hình trích xuất bảng linh hoạt",
+      "content": "Điều chỉnh việc nhận diện bố cục, căn chỉnh cột và tùy chọn tiêu đề/chân cho kiểm soát chính xác đầu ra."
+    },
+    "code_1": {
+      "title": "Cách trích xuất bảng từ bảng tính Excel",
+      "content": "Ví dụ mã này cho thấy cách đọc và lặp qua dữ liệu bảng trong tệp XLSX bằng cách sử dụng {{ProdShortName}}.",
+      "comment_1": "Mở tệp Excel bằng API {{textParser}}",
+      "comment_2": "Thoát nếu không thể trích xuất bảng từ tệp",
+      "comment_3": "Sử dụng quy tắc bố cục để xác định nội dung bảng",
+      "comment_4": "Thiết lập các tham số trích xuất cho bảng",
+      "comment_5": "Thực hiện thao tác trích xuất bảng",
+      "comment_6": "Đi qua từng cấu trúc bảng được phát hiện",
+      "comment_7": "Lặp qua từng hàng trong bảng",
+      "comment_8": "Lặp qua các ô trong mỗi hàng",
+      "comment_9": "Truy cập ô bảng hiện tại",
+      "comment_10": "Hiển thị nội dung văn bản của mỗi ô"
+    }
+  }
+}

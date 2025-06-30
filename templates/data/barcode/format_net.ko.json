@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 애플리케이션에서 {{FileFormatUp}} 파일의 바코드 추출",
+    "description": "{{ProdShortName}}를 사용하여 {{ProgLang}}에서 추가 소프트웨어 없이 {{FileFormatUp}} 파일의 바코드 데이터를 감지하고 추출하세요."
+  },
+  "header": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 바코드 추출",
+    "description": "{{ProdShortName}}를 사용하여 {{EnvNameShort}} 애플리케이션에서 PDF, Word, Excel 및 이미지 파일의 바코드 정보를 감지하고 추출하세요.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 체험 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 소개",
+    "content": "[{{ProdShortName}}]({{PlatformLink}})는 {{EnvName}} 개발자를 위한 강력한 문서 파싱 API입니다. PDF, Word, Excel, PowerPoint 등 다양한 파일 형식에서 텍스트, 이미지, 구조화된 콘텐츠 및 바코드를 외부 도구에 의존하지 않고 추출할 수 있도록 지원합니다."
+  },
+  "formats": {
+    "title": "바코드 추출을 위한 지원 형식",
+    "description": "{{ProdShortName}}는 다양한 문서 및 이미지 형식에서 바코드 감지를 지원합니다. 아래에서 일반적으로 지원되는 파일 유형을 확인하세요."
+  },
+  "examples": {
+    "comment_1": "{{textParser}} 클래스를 사용하여 바코드가 포함된 문서를 로드합니다.",
+    "comment_2": "파일이 바코드 추출을 지원하는지 확인합니다.",
+    "comment_3": "바코드 추출이 지원되지 않습니다.",
+    "comment_4": "추출된 바코드를 검색하고 처리합니다."
+  },
+  "steps": {
+    "title": "{{ProgLang}}에서 {{FileFormatCap}}의 바코드를 추출하는 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})를 사용하여 {{EnvName}} 애플리케이션에서 {{FileFormatUp}} 파일의 바코드 데이터를 추출하는 간단한 단계는 다음과 같습니다:",
+      "step_1": "{{textParser}} 인스턴스를 사용하여 {{FileFormatUp}} 파일을 로드합니다.",
+      "step_2": "문서가 바코드 추출을 지원하는지 확인합니다.",
+      "step_3": "문서에서 바코드 목록을 검색합니다.",
+      "step_4": "결과를 반복하고 추출된 바코드 값을 사용합니다."
+    }
+  },
+  "more_features": {
+    "title": "고급 문서 파싱 기능",
+    "description": "바코드 추출 외에도 {{ProdShortName}}는 자동화 및 데이터 처리 워크플로를 지원하기 위해 일반 텍스트, 이미지 및 구조화된 데이터를 추출할 수 있습니다.",
+    "image_description": "바코드 인식 및 문서 파싱",
+    "feature_1": {
+      "title": "다양한 바코드 형식 지원",
+      "content": "QR 코드, 코드 128, 데이터 매트릭스, EAN, 아즈텍 등 일반적인 바코드 유형을 인식합니다."
+    },
+    "feature_2": {
+      "title": "문서 및 이미지에서 바코드 추출",
+      "content": "PDF, Word, Excel 문서 및 JPEG, PNG, BMP와 같은 이미지 형식에서 바코드를 읽습니다."
+    },
+    "feature_3": {
+      "title": "사용자 정의 가능한 추출 설정",
+      "content": "스캔 영역 및 다중 페이지 문서 처리와 같은 감지 옵션을 구성합니다."
+    },
+    "code_1": {
+      "title": "바코드 옵션을 사용하여 PDF에서 바코드를 추출하는 방법",
+      "content": "이 예제에서는 특정 바코드 추출 옵션을 사용하여 PDF 파일에서 바코드를 추출하는 방법을 보여줍니다.",
+      "comment_1": "{{textParser}} 클래스를 사용하여 PDF 파일을 로드합니다.",
+      "comment_2": "바코드 추출이 지원되는지 확인합니다.",
+      "comment_3": "결과를 필터링하기 위해 바코드 옵션을 사용합니다.",
+      "comment_4": "문서에서 바코드 데이터를 검색합니다.",
+      "comment_5": "추출된 바코드 목록을 처리합니다."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "在{{ProgLang}}应用程序中从{{FileFormatUp}}文件中提取内容",
+    "description": "利用{{ProdShortName}}解析并检索{{ProgLang}}中{{FileFormatUp}}文件的结构化数据、文本、表格和图像，而无需外部工具。"
+  },
+  "header": {
+    "title": "在{{ProgLang}}中提取{{FileFormatUp}}文档的数据",
+    "description": "通过在{{EnvNameShort}}应用程序中使用{{ProdShortName}}，无缝提取PDF、Word、Excel及基于图像的文档中的结构化内容，例如文本、元数据、表格和图形。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用"
+  },
+  "about": {
+    "title": "{{ProdFullName}}是什么？",
+    "content": "[{{ProdShortName}}]({{PlatformLink}})是一个强大的API，面向{{EnvName}}开发者，提供先进的文档解析功能。它允许您从PDF、DOCX、XLSX、PPTX等多种格式中提取和处理文本数据、图像、表格、结构化字段和条形码，且无需安装额外的库。"
+  },
+  "formats": {
+    "title": "支持内容提取的文件类型",
+    "description": "{{ProdShortName}}与广泛的文档和图像文件类型兼容，使得在解析和数据自动化场景中从常用格式提取信息变得简单。"
+  },
+  "examples": {
+    "comment_1": "使用输入文档初始化{{textParser}}",
+    "comment_2": "从文档中检索所有可用的文本内容",
+    "comment_3": "如果未找到文本，返回值将为null",
+    "comment_4": "将提取的内容整合到您的解决方案中",
+    "comment_5": "此格式可能不支持文本提取"
+  },
+  "steps": {
+    "title": "如何使用{{ProgLang}}从{{FileFormatCap}}提取数据",
+    "content": {
+      "title": "要在您的{{EnvName}}项目中使用[{{ProdShortName}}]({{PlatformLink}})从{{FileFormatUp}}文档中提取有用信息，请遵循以下步骤：",
+      "step_1": "使用{{textParser}}对象打开{{FileFormatUp}}文件。",
+      "step_2": "使用解析器检索所需的数据（文本、表格、元数据等）。",
+      "step_3": "确保输出正确且完整。",
+      "step_4": "将解析的内容集成到您的数据流、业务流程或应用程序中。"
+    }
+  },
+  "more_features": {
+    "title": "多功能文档解析功能",
+    "description": "{{ProdShortName}}不仅支持文本提取——它支持对条形码、元数据、图像、表格和其他数据的全面解析，以推动智能自动化和数据驱动的应用程序。",
+    "image_description": "文档数据解析和提取的视觉概述",
+    "feature_1": {
+      "title": "从多种文件格式提取",
+      "content": "从PDF、Word、Excel、PowerPoint、HTML等广泛使用的文件类型中访问文本、表格和媒体等数据。"
+    },
+    "feature_2": {
+      "title": "解析数字和扫描来源的内容",
+      "content": "处理来自原生数字文件和扫描图像的内容，在必要时使用OCR来解释嵌入文本。"
+    },
+    "feature_3": {
+      "title": "灵活的配置选项",
+      "content": "通过页面选择、布局区域和自定义字段模板的设置，量身定制您的解析以满足特定的提取需求。"
+    },
+    "code_1": {
+      "title": "使用数据提取模板解析PDF",
+      "content": "该示例展示了如何通过{{ProdShortName}}使用自定义模板从PDF中提取结构化字段。",
+      "comment_1": "使用{{textParser}}类打开PDF",
+      "comment_2": "应用解析模板以提取定义的数据",
+      "comment_3": "检查模板基础的提取是否可用",
+      "comment_4": "处理提取的数据字段",
+      "comment_5": "定义提取“详情”部分的检测器设置"
+    }
+  }
+}

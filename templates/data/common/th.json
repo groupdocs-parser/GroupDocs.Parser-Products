@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "解析 PDF",
+        "description": "(รูปแบบเอกสารแบบพกพา)"
+      },
+      "docx": {
+        "name": "解析 DOCX",
+        "description": "(เอกสาร Word 2007+)"
+      },
+      "pptx": {
+        "name": "解析 PPTX",
+        "description": "(รูปแบบการนำเสนอ Open XML)"
+      },
+      "xlsx": {
+        "name": "解析 XLSX",
+        "description": "(สมุดงาน Open XML)"
+      },
+      "odt": {
+        "name": "解析 ODT",
+        "description": "(เอกสารข้อความ OpenDocument)"
+      },
+      "ods": {
+        "name": "解析 ODS",
+        "description": "(สเปรดชีต OpenDocument)"
+      },
+      "odp": {
+        "name": "解析 ODP",
+        "description": "(การนำเสนอ OpenDocument)"
+      },
+      "txt": {
+        "name": "解析 TXT",
+        "description": "(ไฟล์ข้อความ)"
+      },
+      "rtf": {
+        "name": "解析 RTF",
+        "description": "(รูปแบบข้อความที่มีความรวย)"
+      },
+      "xml": {
+        "name": "解析 XML",
+        "description": "(ภาษาเครื่องหมายขยาย)"
+      },
+      "epub": {
+        "name": "解析 EPUB",
+        "description": "(ไฟล์ eBook แบบเปิด)"
+      },
+      "fb2": {
+        "name": "解析 FB2",
+        "description": "(eBook FictionBook)"
+      }
+    },
+    "format-code": {
+      "copy_title": "คัดลอก",
+      "copy_tip": "คลิกเพื่อคัดลอก",
+      "copy_done": "คัดลอกแล้ว",
+      "links": {
+        "title_1": "ตัวอย่างเพิ่มเติม",
+        "title_2": "เอกสารประกอบ"
+      }
+    },
+    "format-actions": {
+      "title": "พร้อมเริ่มต้นหรือยัง?",
+      "description": "ลองฟีเจอร์ของ {{ProdShortName}} ฟรี หรือติดต่อขอใบอนุญาต",
+      "comment_1": "ดาวน์โหลด {{PackageStoreName}}",
+      "comment_2": "การอนุญาต"
+    },
+    "texts": {
+      "learn_more": "เรียนรู้เพิ่มเติม"
+    }
+  }
+}

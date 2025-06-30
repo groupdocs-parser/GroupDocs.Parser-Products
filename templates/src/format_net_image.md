@@ -7,7 +7,7 @@ layout: "format"
 date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
-format: <% get "FileformatCap" %>
+format: <% get "FileFormatCap" %>
 product: "Parser"
 product_tag: "parser"
 platform: ".NET"

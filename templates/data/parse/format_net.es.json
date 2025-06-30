@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Analizar datos de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}}",
+    "description": "Utiliza {{ProdShortName}} para extraer texto, imágenes, tablas y otros datos de archivos {{FileFormatUp}} en {{ProgLang}} sin depender de herramientas de terceros."
+  },
+  "header": {
+    "title": "Analiza documentos {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Extrae de manera eficiente texto, metadatos, tablas e imágenes de archivos PDF, Word, Excel e imagen utilizando {{ProdShortName}} en tus proyectos de {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar prueba gratuita"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) es una API de análisis de documentos rica en características, diseñada para desarrolladores de {{EnvName}}. Soporta la extracción de texto plano y estructurado, metadatos, imágenes, tablas y códigos de barras de formatos populares como PDF, DOCX, XLSX, PPTX, y más, sin dependencias de software adicionales."
+  },
+  "formats": {
+    "title": "Formatos compatibles para la extracción de datos",
+    "description": "{{ProdShortName}} permite el análisis de un amplio conjunto de formatos de documentos e imágenes. Explora los tipos de archivos soportados comúnmente utilizados en flujos de trabajo de extracción de datos."
+  },
+  "examples": {
+    "comment_1": "Carga tu documento en {{textParser}}",
+    "comment_2": "Extrae todo el contenido de texto del archivo",
+    "comment_3": "Si el texto no está disponible, el resultado será nulo",
+    "comment_4": "Utiliza el texto extraído en tu aplicación",
+    "comment_5": "La extracción de texto no es compatible con este formato"
+  },
+  "steps": {
+    "title": "Pasos para extraer datos de {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "Sigue estos pasos para analizar contenido de documentos {{FileFormatUp}} en tus aplicaciones {{EnvName}} utilizando [{{ProdShortName}}]({{PlatformLink}}):",
+      "step_1": "Carga el documento {{FileFormatUp}} utilizando una instancia de {{textParser}}.",
+      "step_2": "Extrae el contenido deseado, como texto, tablas o metadatos.",
+      "step_3": "Verifica que los datos extraídos sean válidos.",
+      "step_4": "Utiliza la salida analizada en tus procesos, automatización o sistemas de negocio."
+    }
+  },
+  "more_features": {
+    "title": "Capacidades completas de análisis de documentos",
+    "description": "{{ProdShortName}} permite más que solo lectura de texto — soporta extracción de códigos de barras, análisis de imágenes, acceso a metadatos y procesamiento de datos estructurados para automatización avanzada y análisis de datos.",
+    "image_description": "Extracción de contenido y capacidades de análisis de documentos",
+    "feature_1": {
+      "title": "Soporte para diversos tipos de contenido de archivos",
+      "content": "Extrae datos incluyendo texto, imágenes, tablas y campos de formatos de documentos como PDF, Word, Excel, HTML y más."
+    },
+    "feature_2": {
+      "title": "Trabaja con archivos escaneados y digitales",
+      "content": "Analiza datos tanto de documentos escaneados como de archivos digitales nativos, con soporte para OCR y extracción consciente del diseño."
+    },
+    "feature_3": {
+      "title": "Parámetros de extracción configurables",
+      "content": "Ajusta la lógica de análisis con opciones flexibles como selección de rango de páginas, orientación de regiones y plantillas de detección de campos."
+    },
+    "code_1": {
+      "title": "Cómo analizar PDF utilizando plantillas",
+      "content": "Este ejemplo muestra cómo extraer datos estructurados de un PDF utilizando una plantilla de análisis predefinida con {{ProdShortName}}.",
+      "comment_1": "Carga el archivo PDF con la clase {{textParser}}",
+      "comment_2": "Analiza el documento según la plantilla",
+      "comment_3": "Verifica si la extracción de formulario es compatible",
+      "comment_4": "Procesa los campos obtenidos",
+      "comment_5": "Crea parámetros de detector para la tabla 'Detalles'"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "解析 PDF",
+        "description": "(可移植文档格式)"
+      },
+      "docx": {
+        "name": "解析 DOCX",
+        "description": "(Office 2007+ Word 文档)"
+      },
+      "pptx": {
+        "name": "解析 PPTX",
+        "description": "(Open XML 演示格式)"
+      },
+      "xlsx": {
+        "name": "解析 XLSX",
+        "description": "(Open XML 工作簿)"
+      },
+      "odt": {
+        "name": "解析 ODT",
+        "description": "(OpenDocument 文本文档)"
+      },
+      "ods": {
+        "name": "解析 ODS",
+        "description": "(OpenDocument 电子表格)"
+      },
+      "odp": {
+        "name": "解析 ODP",
+        "description": "(OpenDocument 演示文稿)"
+      },
+      "txt": {
+        "name": "解析 TXT",
+        "description": "(文本文件)"
+      },
+      "rtf": {
+        "name": "解析 RTF",
+        "description": "(富文本格式)"
+      },
+      "xml": {
+        "name": "解析 XML",
+        "description": "(可扩展标记语言)"
+      },
+      "epub": {
+        "name": "解析 EPUB",
+        "description": "(开放电子书文件)"
+      },
+      "fb2": {
+        "name": "解析 FB2",
+        "description": "(FictionBook 电子书)"
+      }
+    },
+    "format-code": {
+      "copy_title": "复制",
+      "copy_tip": "点击以复制",
+      "copy_done": "已复制",
+      "links": {
+        "title_1": "更多示例",
+        "title_2": "文档"
+      }
+    },
+    "format-actions": {
+      "title": "准备好开始了吗？",
+      "description": "免费试用 {{ProdShortName}} 功能或请求许可证",
+      "comment_1": "{{PackageStoreName}} 下载",
+      "comment_2": "许可信息"
+    },
+    "texts": {
+      "learn_more": "了解更多"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Extraiga códigos de barras de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}}",
+    "description": "Utilice {{ProdShortName}} para detectar y extraer datos de códigos de barras de archivos {{FileFormatUp}} en {{ProgLang}} sin software adicional."
+  },
+  "header": {
+    "title": "Extraiga códigos de barras de {{FileFormatUp}} utilizando {{ProgLang}}",
+    "description": "Detecte y extraiga información de códigos de barras de archivos PDF, Word, Excel e imágenes utilizando {{ProdShortName}} en sus aplicaciones {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratuita"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) es una potente API de análisis de documentos para desarrolladores de {{EnvName}}. Permite la extracción de texto, imágenes, contenido estructurado y códigos de barras de varios formatos de archivo, incluidos PDF, Word, Excel, PowerPoint y más, todo sin depender de herramientas externas."
+  },
+  "formats": {
+    "title": "Formatos compatibles para la extracción de códigos de barras",
+    "description": "{{ProdShortName}} admite la detección de códigos de barras en una amplia gama de formatos de documentos e imágenes. Consulte a continuación los tipos de archivos comúnmente soportados."
+  },
+  "examples": {
+    "comment_1": "Cargue el documento que contiene códigos de barras utilizando la clase {{textParser}}",
+    "comment_2": "Verifique que el archivo admita la extracción de códigos de barras",
+    "comment_3": "La extracción de códigos de barras no es compatible",
+    "comment_4": "Recupere y procese los códigos de barras extraídos"
+  },
+  "steps": {
+    "title": "Pasos para extraer códigos de barras de {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) le permite extraer datos de códigos de barras de archivos {{FileFormatUp}} en aplicaciones {{EnvName}} siguiendo estos pasos sencillos:",
+      "step_1": "Cargue el archivo {{FileFormatUp}} utilizando una instancia de {{textParser}}.",
+      "step_2": "Verifique que el documento admita la extracción de códigos de barras.",
+      "step_3": "Recupere la lista de códigos de barras del documento.",
+      "step_4": "Itere a través de los resultados y utilice los valores de código de barras extraídos."
+    }
+  },
+  "more_features": {
+    "title": "Funciones avanzadas de análisis de documentos",
+    "description": "Más allá de la extracción de códigos de barras, {{ProdShortName}} le permite extraer texto plano, imágenes y datos estructurados para apoyar la automatización avanzada y flujos de trabajo de procesamiento de datos.",
+    "image_description": "Reconocimiento de códigos de barras y análisis de documentos",
+    "feature_1": {
+      "title": "Soporte para múltiples formatos de códigos de barras",
+      "content": "Reconozca tipos de códigos de barras comunes, incluidos QR Code, Code 128, Data Matrix, EAN, Aztec y más."
+    },
+    "feature_2": {
+      "title": "Extraiga códigos de barras de documentos e imágenes",
+      "content": "Lea códigos de barras de documentos PDF, Word, Excel y formatos de imagen como JPEG, PNG y BMP."
+    },
+    "feature_3": {
+      "title": "Configuraciones de extracción personalizables",
+      "content": "Configure opciones de detección como regiones de escaneo y procesamiento de documentos multipágina."
+    },
+    "code_1": {
+      "title": "Cómo extraer códigos de barras de un PDF utilizando opciones de código de barras",
+      "content": "Este ejemplo demuestra cómo extraer códigos de barras de un archivo PDF utilizando opciones específicas de extracción de códigos de barras.",
+      "comment_1": "Cargue el archivo PDF con la clase {{textParser}}",
+      "comment_2": "Confirme que la extracción de códigos de barras es compatible",
+      "comment_3": "Utilice opciones de códigos de barras para filtrar los resultados",
+      "comment_4": "Recupere los datos de códigos de barras del documento",
+      "comment_5": "Procese la lista de códigos de barras extraídos"
+    }
+  }
+}

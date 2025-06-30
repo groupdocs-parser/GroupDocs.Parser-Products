@@ -27,7 +27,7 @@
     "comment_7": "Loop through each detected table"
   },
   "steps": {
-    "title": "Steps to extract tables from {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps to extract tables from {{FileFormatCap}} in {{ProgLang}}",
     "content": {
       "title": "Follow these instructions to extract tables from {{FileFormatUp}} files using [{{ProdShortName}}]({{PlatformLink}}) within your {{EnvName}} environment:",
       "step_1": "Initialize a {{textParser}} instance and load your {{FileFormatUp}} document.",

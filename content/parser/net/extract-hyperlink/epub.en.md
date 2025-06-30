@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-26T17:35:43
+date:  2025-06-30T10:25:26
 draft: false
 lang: en
 format: Epub

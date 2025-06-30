@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Text aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Anwendungen abrufen",
+    "description": "Nutzen Sie {{ProdShortName}}, um unstrukturierte oder strukturierte Textinhalte aus {{FileFormatUp}}-Dokumenten in {{ProgLang}} ohne externe Abhängigkeiten zu extrahieren."
+  },
+  "header": {
+    "title": "Text aus {{FileFormatUp}} mit {{ProgLang}} abrufen",
+    "description": "Ziehen Sie problemlos lesbaren oder strukturierten Text aus Dateien wie PDF, Word, Excel und mehr mithilfe von {{ProdShortName}} in Ihren {{EnvNameShort}}-Entwicklungsprojekten.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Einführung in die {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ist ein leistungsstarker und skalierbarer Dokumentenparser, der für {{EnvName}}-Entwickler konzipiert wurde. Er bietet die Möglichkeit, Texte, Tabellen, Bilder und strukturierte Komponenten aus verschiedenen Formaten wie PDF, DOCX, XLSX, PPTX und anderen genau zu extrahieren – ganz ohne externe Hilfsprogramme."
+  },
+  "formats": {
+    "title": "Unterstützte Dateitypen zur Textextraktion",
+    "description": "{{ProdShortName}} ist in der Lage, Textinhalte aus zahlreichen Datei- und Bildformaten zu extrahieren. Nachfolgend sind die am häufigsten verwendeten Typen aufgeführt, die unterstützt werden."
+  },
+  "examples": {
+    "comment_1": "Initialisieren Sie {{textParser}} mit Ihrem Dokument",
+    "comment_2": "Lesen und extrahieren Sie alle Textdaten",
+    "comment_3": "Geben Sie null zurück, wenn der Textinhalt fehlt",
+    "comment_4": "Integrieren Sie den extrahierten Text in Ihren Workflow",
+    "comment_5": "Überspringen Sie nicht unterstützte Textformate"
+  },
+  "steps": {
+    "title": "Wie man Text aus {{FileFormatCap}} mit {{ProgLang}} abruft",
+    "content": {
+      "title": "Befolgen Sie die folgenden Schritte, um Text aus {{FileFormatUp}}-Dateien mithilfe von [{{ProdShortName}}]({{PlatformLink}}) in Ihrem {{EnvName}}-Projekt zu extrahieren:",
+      "step_1": "Laden Sie das {{FileFormatUp}}-Dokument mit der {{textParser}}-Klasse.",
+      "step_2": "Führen Sie die Textextraktion aus dem Dateinhalt durch.",
+      "step_3": "Überprüfen Sie, ob der Text erfolgreich abgerufen wurde.",
+      "step_4": "Verwenden Sie die Textdaten in Such-, Analyse- oder Automatisierungssystemen."
+    }
+  },
+  "more_features": {
+    "title": "Umfassende Funktionen zur Textextraktion",
+    "description": "{{ProdShortName}} geht über die einfache Textextraktion hinaus und unterstützt die Abfrage von Bildern, Metadaten und strukturierten Daten zur Verbesserung von Inhaltsverarbeitungsaufgaben.",
+    "image_description": "Textinhalte aus Dokumenten extrahieren und strukturieren",
+    "feature_1": {
+      "title": "Funktioniert mit zahlreichen Dokumentformaten",
+      "content": "Erfassen Sie sowohl Roh- als auch strukturierten Text aus DOCX, XLSX, PPTX, PDF, HTML und verschiedenen anderen Formaten."
+    },
+    "feature_2": {
+      "title": "Textextraktion aus visuellen und textuellen Inhalten",
+      "content": "Analysieren Sie Text aus gescannten Dokumenten, Folien, Tabellenkalkulationen und anderen Dateitypen, während Sie die logische Struktur beibehalten."
+    },
+    "feature_3": {
+      "title": "Detaillierte Kontrolle über den Extraktionsprozess",
+      "content": "Konfigurieren Sie Seitenbereiche, Layoutzonen und Genauigkeitsparameter für eine präzise Textextraktion."
+    },
+    "code_1": {
+      "title": "Beispiel: Extraktion von Textregionen aus einem PPTX-Dokument",
+      "content": "Dieses Beispiel demonstriert die Extraktion von Textblöcken sowie deren räumlichen Koordinaten aus einer PowerPoint-Präsentation mit {{ProdShortName}}.",
+      "comment_1": "Laden Sie Ihre PPTX-Datei mit der {{textParser}}-API",
+      "comment_2": "Holen Sie sich alle rechteckigen Textzonen",
+      "comment_3": "Beenden Sie, wenn diese Funktion nicht unterstützt wird",
+      "comment_4": "Durchlaufen Sie Textbereiche nach Seite",
+      "comment_5": "Verarbeiten Sie jeden Textblock mit seiner Seitennummer und dem umschreibenden Rechteck"
+    }
+  }
+}

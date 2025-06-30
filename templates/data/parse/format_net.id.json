@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Mengurai data dari file {{FileFormatUp}} dalam aplikasi {{ProgLang}}",
+    "description": "Gunakan {{ProdShortName}} untuk mengekstrak teks, gambar, tabel, dan data lainnya dari file {{FileFormatUp}} dalam {{ProgLang}} tanpa bergantung pada alat pihak ketiga."
+  },
+  "header": {
+    "title": "Mengurai dokumen {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "description": "Ekstrak teks, metadata, tabel, dan gambar secara efisien dari file PDF, Word, Excel, dan gambar menggunakan {{ProdShortName}} dalam proyek {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) adalah API penguraian dokumen yang kaya fitur, dirancang untuk pengembang {{EnvName}}. API ini mendukung ekstraksi teks biasa dan terstruktur, metadata, gambar, tabel, dan barcode dari format populer seperti PDF, DOCX, XLSX, PPTX, dan lainnya — semua tanpa ketergantungan perangkat lunak tambahan."
+  },
+  "formats": {
+    "title": "Format yang didukung untuk ekstraksi data",
+    "description": "{{ProdShortName}} memungkinkan pemrosesan data dari berbagai format dokumen dan gambar. Jelajahi jenis file yang didukung yang umum digunakan dalam alur kerja ekstraksi data."
+  },
+  "examples": {
+    "comment_1": "Muat dokumen Anda ke dalam {{textParser}}",
+    "comment_2": "Ekstrak semua konten teks dari file",
+    "comment_3": "Jika teks tidak tersedia, hasilnya akan null",
+    "comment_4": "Gunakan teks yang diekstrak dalam aplikasi Anda",
+    "comment_5": "Ekstraksi teks tidak didukung untuk format ini"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk mengekstrak data dari {{FileFormatCap}} dalam {{ProgLang}}",
+    "content": {
+      "title": "Ikuti langkah-langkah ini untuk mengurai konten dari dokumen {{FileFormatUp}} dalam aplikasi {{EnvName}} Anda menggunakan [{{ProdShortName}}]({{PlatformLink}}):",
+      "step_1": "Muat dokumen {{FileFormatUp}} menggunakan instance {{textParser}}.",
+      "step_2": "Ekstrak konten yang diinginkan seperti teks, tabel, atau metadata.",
+      "step_3": "Verifikasi bahwa data yang diekstrak valid.",
+      "step_4": "Gunakan output yang telah diurai dalam pemrosesan lanjutan, otomatisasi, atau sistem bisnis Anda."
+    }
+  },
+  "more_features": {
+    "title": "Kemampuan penguraian dokumen yang komprehensif",
+    "description": "{{ProdShortName}} tidak hanya mendukung pembacaan teks — ia mendukung ekstraksi barcode, penguraian gambar, akses metadata, dan pemrosesan data terstruktur untuk otomatisasi dan analisis data yang lebih canggih.",
+    "image_description": "Ekstraksi konten dokumen dan kemampuan penguraian",
+    "feature_1": {
+      "title": "Dukungan untuk berbagai jenis konten file",
+      "content": "Ekstrak data termasuk teks, gambar, tabel, dan bidang dari format dokumen seperti PDF, Word, Excel, HTML, dan lainnya."
+    },
+    "feature_2": {
+      "title": "Bekerja dengan file hasil pemindaian dan digital",
+      "content": "Mengurai data dari dokumen hasil pemindaian dan file digital, dengan dukungan untuk OCR dan ekstraksi yang memperhitungkan tata letak."
+    },
+    "feature_3": {
+      "title": "Parameter ekstraksi yang dapat dikonfigurasi",
+      "content": "Sesuaikan logika penguraian dengan opsi fleksibel seperti pemilihan rentang halaman, penargetan wilayah, dan template deteksi bidang."
+    },
+    "code_1": {
+      "title": "Cara mengurai PDF menggunakan template",
+      "content": "Contoh ini menunjukkan cara mengekstrak data terstruktur dari PDF menggunakan template penguraian yang telah ditentukan dengan {{ProdShortName}}.",
+      "comment_1": "Muat file PDF dengan kelas {{textParser}}",
+      "comment_2": "Urutkan dokumen berdasarkan template",
+      "comment_3": "Periksa apakah ekstraksi formulir didukung",
+      "comment_4": "Proses bidang yang diperoleh",
+      "comment_5": "Buat parameter deteksi untuk tabel 'Detail'"
+    }
+  }
+}

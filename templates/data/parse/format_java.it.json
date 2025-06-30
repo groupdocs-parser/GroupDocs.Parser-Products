@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Estrai contenuti da file {{FileFormatUp}} in applicazioni {{ProgLang}}",
+    "description": "Sfrutta {{ProdShortName}} per analizzare e recuperare dati strutturati, testi, tabelle e immagini da file {{FileFormatUp}} in {{ProgLang}}, senza necessità di strumenti esterni."
+  },
+  "header": {
+    "title": "Estrai dati da documenti {{FileFormatUp}} in {{ProgLang}}",
+    "description": "Estrai senza sforzo contenuti strutturati come testo, metadati, tabelle e grafiche da documenti PDF, Word, Excel e basati su immagini utilizzando {{ProdShortName}} nelle tue app {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica Prova Gratuita"
+  },
+  "about": {
+    "title": "Cos'è {{ProdFullName}}?",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) è un'API robusta sviluppata per i programmatori {{EnvName}}, che offre funzionalità avanzate per l'analisi dei documenti. Permette di estrarre e elaborare dati testuali, immagini, tabelle, campi strutturati e codici a barre da numerosi formati come PDF, DOCX, XLSX, PPTX e altro — tutto senza installare librerie extra."
+  },
+  "formats": {
+    "title": "Tipi di file supportati per l'estrazione del contenuto",
+    "description": "{{ProdShortName}} è compatibile con un'ampia gamma di tipi di file per documenti e immagini, facilitando l'estrazione di informazioni da formati comunemente utilizzati in scenari di analisi e automazione dei dati."
+  },
+  "examples": {
+    "comment_1": "Inizializza il tuo {{textParser}} con il documento di input",
+    "comment_2": "Recupera tutto il contenuto testuale disponibile dal documento",
+    "comment_3": "Se non viene trovato testo, il valore restituito sarà null",
+    "comment_4": "Integra il contenuto estratto nella tua soluzione",
+    "comment_5": "Questo formato potrebbe non supportare l'estrazione del testo"
+  },
+  "steps": {
+    "title": "Come estrarre dati da {{FileFormatCap}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "Per estrarre informazioni utili da documenti {{FileFormatUp}} nei tuoi progetti {{EnvName}} utilizzando [{{ProdShortName}}]({{PlatformLink}}), segui queste istruzioni:",
+      "step_1": "Apri il file {{FileFormatUp}} con un oggetto {{textParser}}.",
+      "step_2": "Utilizza il parser per recuperare i dati richiesti (testo, tabelle, metadati, ecc.).",
+      "step_3": "Assicurati che l'output sia corretto e completo.",
+      "step_4": "Integra il contenuto analizzato nel tuo flusso di dati, processi aziendali o applicazioni."
+    }
+  },
+  "more_features": {
+    "title": "Funzionalità versatili per l'analisi dei documenti",
+    "description": "{{ProdShortName}} offre più di una semplice estrazione di testo: supporta l'analisi completa di codici a barre, metadati, immagini, tabelle e altri dati per potenziare l'automazione intelligente e le applicazioni basate sui dati.",
+    "image_description": "Panoramica visiva dell'analisi e dell'estrazione dei dati dai documenti",
+    "feature_1": {
+      "title": "Estrai da più formati di file",
+      "content": "Accedi ai dati come testo, tabelle e media da tipi di file ampiamente utilizzati come PDF, Word, Excel, PowerPoint, HTML e altri."
+    },
+    "feature_2": {
+      "title": "Analizza contenuti da fonti digitali e scansionate",
+      "content": "Elabora contenuti sia da file digitali nativi che da immagini scansionate, utilizzando l'OCR quando necessario per interpretare il testo incorporato."
+    },
+    "feature_3": {
+      "title": "Opzioni di configurazione flessibili",
+      "content": "Personalizza la tua analisi con impostazioni per la selezione delle pagine, le zone di layout e i modelli di campo personalizzati per soddisfare esigenze specifiche di estrazione."
+    },
+    "code_1": {
+      "title": "Analisi PDF utilizzando un modello di estrazione dati",
+      "content": "Questo esempio mostra come estrarre campi strutturati da un PDF utilizzando un modello personalizzato tramite {{ProdShortName}}.",
+      "comment_1": "Apri il PDF utilizzando la classe {{textParser}}",
+      "comment_2": "Applica il modello di analisi per estrarre i dati definiti",
+      "comment_3": "Controlla se l'estrazione basata su un modello è disponibile",
+      "comment_4": "Lavora con i campi dati estratti",
+      "comment_5": "Definisci le impostazioni di rilevamento per estrarre la sezione 'Dettagli'"
+    }
+  }
+}

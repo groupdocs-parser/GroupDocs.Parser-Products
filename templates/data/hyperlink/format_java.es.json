@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Extraer hipervínculos de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}}",
+    "description": "Utiliza {{ProdShortName}} para encontrar y extraer enlaces URL de documentos {{FileFormatUp}} en proyectos {{ProgLang}}—sin necesidad de software adicional."
+  },
+  "header": {
+    "title": "Extraer hipervínculos de {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Obtén enlaces web y hipervínculos de archivos PDF, documentos de Word, hojas de Excel y otros documentos utilizando {{ProdShortName}} en tu entorno {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratuita"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) es una API robusta de extracción de contenido diseñada para desarrolladores de {{EnvName}}. Ofrece herramientas para extraer hipervínculos, datos estructurados, imágenes y texto de formatos populares como DOCX, XLSX, PDF, HTML y más—todo sin necesidad de plugins externos."
+  },
+  "formats": {
+    "title": "Formatos de documento que soportan la extracción de hipervínculos",
+    "description": "Con {{ProdShortName}}, puedes extraer hipervínculos de muchos formatos de archivo comúnmente utilizados. A continuación se presenta una lista de formatos que normalmente son compatibles."
+  },
+  "examples": {
+    "comment_1": "Carga el archivo que puede contener hipervínculos utilizando el {{textParser}}",
+    "comment_2": "Verifica si el formato del documento admite el análisis de hipervínculos",
+    "comment_3": "La extracción de hipervínculos no está disponible para el archivo",
+    "comment_4": "Extrae y utiliza los datos de hipervínculos del documento"
+  },
+  "steps": {
+    "title": "Cómo extraer hipervínculos de {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifica la extracción de hipervínculos de archivos {{FileFormatUp}} en aplicaciones {{EnvName}} con estos pasos básicos:",
+      "step_1": "Abre el archivo {{FileFormatUp}} utilizando una instancia de {{textParser}}.",
+      "step_2": "Asegúrate de que la extracción de hipervínculos esté disponible para el formato de archivo.",
+      "step_3": "Extrae todos los hipervínculos utilizando el método apropiado.",
+      "step_4": "Recorre los resultados y procesa cada enlace según sea necesario."
+    }
+  },
+  "more_features": {
+    "title": "Herramientas de análisis de documentos completas",
+    "description": "Además de extraer hipervínculos, {{ProdShortName}} te permite recopilar otro contenido útil como texto plano, medios incrustados y datos estructurados para su uso en flujos de trabajo automatizados.",
+    "image_description": "Extracción de hipervínculos y análisis de documentos",
+    "feature_1": {
+      "title": "Detección precisa de enlaces",
+      "content": "Captura todo tipo de hipervínculos de diferentes diseños de documentos, incluidos textos clicables y URLs ocultas."
+    },
+    "feature_2": {
+      "title": "Funciona con documentos y contenido web",
+      "content": "Extrae enlaces de archivos PDF, DOCX, XLSX, HTML y archivos de imagen que contienen hipervínculos incrustados."
+    },
+    "feature_3": {
+      "title": "Comportamiento de extracción personalizado",
+      "content": "Refina cómo se extraen los hipervínculos utilizando opciones como rangos de páginas, tipos de enlace o filtros de contenido."
+    },
+    "code_1": {
+      "title": "Ejemplo: extrayendo hipervínculos de un PDF con opciones personalizadas",
+      "content": "Este ejemplo demuestra cómo extraer todos los enlaces de un archivo PDF utilizando configuraciones de extracción de enlaces.",
+      "comment_1": "Abre el PDF utilizando la clase {{textParser}}",
+      "comment_2": "Verifica que el soporte para hipervínculos esté habilitado para este documento",
+      "comment_3": "Aplica opciones para filtrar enlaces",
+      "comment_4": "Utiliza el parser para obtener datos de hipervínculos",
+      "comment_5": "Itera a través de los enlaces y trátalos en consecuencia"
+    }
+  }
+}

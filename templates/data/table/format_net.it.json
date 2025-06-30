@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Estrai tabelle da file {{FileFormatUp}} nelle app {{ProgLang}}",
+    "description": "Utilizza {{ProdShortName}} per localizzare ed estrarre dati tabulari strutturati da file {{FileFormatUp}} nelle applicazioni {{ProgLang}} senza dipendenze extra."
+  },
+  "header": {
+    "title": "Estrai tabelle da {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Identifica rapidamente ed estrae le strutture delle tabelle da PDF, Word, Excel e altri formati di file utilizzando {{ProdShortName}} nei tuoi progetti {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica la Prova Gratuita"
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) è un'API completa per il parsing dei documenti progettata per sviluppatori {{EnvName}}. Consente di estrarre con precisione testo, tabelle, immagini, collegamenti ipertestuali e altri elementi strutturati da formati come PDF, DOCX, XLSX, PPTX e molti altri - senza la necessità di software di terze parti."
+  },
+  "formats": {
+    "title": "Formati supportati per l'estrazione delle tabelle",
+    "description": "{{ProdShortName}} può estrarre dati tabulari da una varietà di tipi di documenti. Di seguito sono elencati i formati più comunemente utilizzati per il parsing delle tabelle strutturate."
+  },
+  "examples": {
+    "comment_1": "Apri il documento che contiene dati sotto forma di tabella utilizzando {{textParser}}",
+    "comment_2": "Controlla se il formato supporta il riconoscimento delle tabelle",
+    "comment_3": "Gestisci i documenti che non supportano il parsing delle tabelle",
+    "comment_4": "Definisci come deve essere riconosciuta la struttura della tabella",
+    "comment_5": "Specifica i parametri di estrazione per i dati delle tabelle",
+    "comment_6": "Estrai tabelle dal contenuto del file",
+    "comment_7": "Ciclo attraverso ogni tabella rilevata"
+  },
+  "steps": {
+    "title": "Passaggi per estrarre tabelle da {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "Segui queste istruzioni per estrarre tabelle da file {{FileFormatUp}} utilizzando [{{ProdShortName}}]({{PlatformLink}}) all'interno del tuo ambiente {{EnvName}}:",
+      "step_1": "Inizializza un'istanza di {{textParser}} e carica il tuo documento {{FileFormatUp}}.",
+      "step_2": "Controlla se il supporto per l'estrazione delle tabelle è disponibile per il formato di input.",
+      "step_3": "Estrai il contenuto della tabella dal file.",
+      "step_4": "Utilizza i dati tabulari strutturati per reportistica, automazione o analisi."
+    }
+  },
+  "more_features": {
+    "title": "Potenti capacità di estrazione dei dati",
+    "description": "Oltre al parsing delle tabelle, {{ProdShortName}} può estrarre contenuti ricchi come blocchi di testo, immagini, metadati e altri dati strutturati per facilitare l'automazione dei documenti.",
+    "image_description": "Riconoscimento delle tabelle e estrazione del contenuto",
+    "feature_1": {
+      "title": "Riconoscimento preciso delle tabelle multi-formato",
+      "content": "Estrai dati tabulari da DOCX, XLSX, PDF, HTML e formati simili con alta precisione."
+    },
+    "feature_2": {
+      "title": "Analizza le strutture delle tabelle dai file",
+      "content": "Recupera efficientemente i dati delle tabelle dai documenti e dai fogli di calcolo senza perdita di formattazione."
+    },
+    "feature_3": {
+      "title": "Configurazione flessibile dell'estrazione delle tabelle",
+      "content": "Regola il riconoscimento del layout, l'allineamento delle colonne e le opzioni di intestazione/footer per un controllo preciso sull'output."
+    },
+    "code_1": {
+      "title": "Come estrarre tabelle da fogli di calcolo Excel",
+      "content": "Questo campione di codice mostra come leggere e iterare attraverso i dati di una tabella in un file XLSX utilizzando {{ProdShortName}}.",
+      "comment_1": "Apri il file Excel utilizzando l'API {{textParser}}",
+      "comment_2": "Esci se le tabelle non possono essere estratte dal file",
+      "comment_3": "Utilizza le regole di layout per individuare contenuti tabulari",
+      "comment_4": "Imposta i parametri di estrazione per le tabelle",
+      "comment_5": "Esegui l'operazione di estrazione delle tabelle",
+      "comment_6": "Esamina ogni struttura di tabella rilevata",
+      "comment_7": "Itera attraverso ogni riga nella tabella",
+      "comment_8": "Ciclo attraverso le celle in ogni riga",
+      "comment_9": "Accedi alla cella della tabella corrente",
+      "comment_10": "Visualizza il contenuto di testo di ogni cella"
+    }
+  }
+}

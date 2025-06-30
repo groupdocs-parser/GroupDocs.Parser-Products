@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在 {{ProgLang}} 应用程序中从 {{FileFormatUp}} 文件提取表格",
+    "description": "使用 {{ProdShortName}} 在 {{ProgLang}} 应用程序中定位并提取来自 {{FileFormatUp}} 文件的结构化表格数据，无需额外依赖。"
+  },
+  "header": {
+    "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 提取表格",
+    "description": "使用 {{ProdShortName}} 快速识别并提取来自 PDF、Word、Excel 和其他文件格式的表格结构，适用于您的 {{EnvNameShort}} 项目。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) 是一款专为 {{EnvName}} 开发人员构建的全面文档解析 API。它能够从 PDF、DOCX、XLSX、PPTX 等格式中精确提取文本、表格、图像、超链接和其他结构化元素，无需第三方软件。"
+  },
+  "formats": {
+    "title": "支持的表格提取格式",
+    "description": "{{ProdShortName}} 能够从多种文档类型中提取表格数据。以下是进行结构化表格解析时最常用的格式。"
+  },
+  "examples": {
+    "comment_1": "使用 {{textParser}} 打开包含表格数据的文档",
+    "comment_2": "检查格式是否支持表格识别",
+    "comment_3": "处理不支持表格解析的文档",
+    "comment_4": "定义如何识别表格结构",
+    "comment_5": "指定表格数据的提取参数",
+    "comment_6": "从文件内容中提取表格",
+    "comment_7": "遍历每个检测到的表格"
+  },
+  "steps": {
+    "title": "在 {{ProgLang}} 中从 {{FileFormatCap}} 提取表格的步骤",
+    "content": {
+      "title": "请按照以下说明使用 [{{ProdShortName}}]({{PlatformLink}}) 在您的 {{EnvName}} 环境中提取 {{FileFormatUp}} 文件中的表格：",
+      "step_1": "初始化一个 {{textParser}} 实例并加载您的 {{FileFormatUp}} 文档。",
+      "step_2": "检查输入格式是否支持表格提取。",
+      "step_3": "从文件中提取表格内容。",
+      "step_4": "利用结构化表格数据进行报告、自动化或分析。"
+    }
+  },
+  "more_features": {
+    "title": "强大的数据提取能力",
+    "description": "除了表格解析，{{ProdShortName}} 还能够提取丰富的内容，如文本块、图像、元数据及其他结构化数据，以促进文档自动化。",
+    "image_description": "表格识别和内容提取",
+    "feature_1": {
+      "title": "准确的多格式表格检测",
+      "content": "高精度地从 DOCX、XLSX、PDF、HTML 和类似格式中提取表格数据。"
+    },
+    "feature_2": {
+      "title": "从文件中解析表格结构",
+      "content": "高效地从文档和电子表格中检索表格数据，无需格式损失。"
+    },
+    "feature_3": {
+      "title": "灵活的表格提取配置",
+      "content": "调整布局检测、列对齐和页眉/页脚选项，以精确控制输出。"
+    },
+    "code_1": {
+      "title": "如何从 Excel 电子表格提取表格",
+      "content": "这个代码示例展示了如何使用 {{ProdShortName}} 读取和遍历 XLSX 文件中的表格数据。",
+      "comment_1": "使用 {{textParser}} API 打开 Excel 文件",
+      "comment_2": "如果无法从文件中提取表格，则退出",
+      "comment_3": "使用布局规则定位表格内容",
+      "comment_4": "设置表格的提取参数",
+      "comment_5": "执行表格提取操作",
+      "comment_6": "遍历每个检测到的表格结构",
+      "comment_7": "遍历表格中的每一行",
+      "comment_8": "循环遍历每行中的单元格",
+      "comment_9": "访问当前表格单元格",
+      "comment_10": "显示每个单元格的文本内容"
+    }
+  }
+}

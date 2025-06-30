@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Analysez les données des fichiers {{FileFormatUp}} dans les applications {{ProgLang}}",
+    "description": "Utilisez {{ProdShortName}} pour extraire du texte, des images, des tableaux et d'autres données des fichiers {{FileFormatUp}} dans {{ProgLang}} sans dépendre d'outils tiers."
+  },
+  "header": {
+    "title": "Analysez les documents {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Extrayez efficacement le texte, les métadonnées, les tableaux et les images à partir de fichiers PDF, Word, Excel et d'images en utilisant {{ProdShortName}} dans vos projets {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) est une API d'analyse de documents riche en fonctionnalités conçue pour les développeurs {{EnvName}}. Elle prend en charge l'extraction de texte brut et structuré, de métadonnées, d'images, de tableaux et de codes-barres à partir de formats populaires tels que PDF, DOCX, XLSX, PPTX et plus encore — le tout sans dépendances logicielles supplémentaires."
+  },
+  "formats": {
+    "title": "Formats pris en charge pour l'extraction de données",
+    "description": "{{ProdShortName}} permet l'analyse d'un large éventail de formats de documents et d'images. Explorez les types de fichiers pris en charge couramment utilisés dans les flux de travail d'extraction de données."
+  },
+  "examples": {
+    "comment_1": "Chargez votre document dans {{textParser}}",
+    "comment_2": "Extrayez tout le contenu texte du fichier",
+    "comment_3": "Si le texte n'est pas disponible, le résultat sera nul",
+    "comment_4": "Utilisez le texte extrait dans votre application",
+    "comment_5": "L'extraction de texte n'est pas prise en charge pour ce format"
+  },
+  "steps": {
+    "title": "Étapes pour extraire des données de {{FileFormatCap}} dans {{ProgLang}}",
+    "content": {
+      "title": "Suivez ces étapes pour analyser le contenu des documents {{FileFormatUp}} dans vos applications {{EnvName}} en utilisant [{{ProdShortName}}]({{PlatformLink}}) :",
+      "step_1": "Chargez le document {{FileFormatUp}} à l'aide d'une instance de {{textParser}}.",
+      "step_2": "Extrayez le contenu souhaité tel que le texte, les tableaux ou les métadonnées.",
+      "step_3": "Vérifiez que les données extraites sont valides.",
+      "step_4": "Utilisez la sortie analysée dans vos systèmes de traitement, d'automatisation ou d'entreprise."
+    }
+  },
+  "more_features": {
+    "title": "Capacités complètes d'analyse de documents",
+    "description": "{{ProdShortName}} permet plus que la simple lecture de texte — il prend en charge l'extraction de codes-barres, l'analyse d'images, l'accès aux métadonnées et le traitement de données structurées pour une automatisation avancée et une analyse de données.",
+    "image_description": "Capacités d'extraction et d'analyse de contenu de document",
+    "feature_1": {
+      "title": "Prise en charge de divers types de contenu de fichier",
+      "content": "Extrayez des données, y compris du texte, des images, des tableaux et des champs, à partir de formats de documents tels que PDF, Word, Excel, HTML et plus encore."
+    },
+    "feature_2": {
+      "title": "Travail avec des fichiers numérisés et numériques",
+      "content": "Analysez des données à partir de documents numérisés et de fichiers numériques natifs, avec prise en charge de l'OCR et d'une extraction sensible à la mise en page."
+    },
+    "feature_3": {
+      "title": "Paramètres d'extraction configurables",
+      "content": "Ajustez la logique d'analyse avec des options flexibles telles que la sélection de plage de pages, le ciblage de régions et les modèles de détection de champs."
+    },
+    "code_1": {
+      "title": "Comment analyser un PDF en utilisant des modèles",
+      "content": "Cet exemple montre comment extraire des données structurées d'un PDF en utilisant un modèle d'analyse prédéfini avec {{ProdShortName}}.",
+      "comment_1": "Chargez le fichier PDF avec la classe {{textParser}}",
+      "comment_2": "Analysez le document selon le modèle",
+      "comment_3": "Vérifiez si l'extraction de formulaire est prise en charge",
+      "comment_4": "Traitez les champs obtenus",
+      "comment_5": "Créez des paramètres de détecteur pour le tableau 'Détails'"
+    }
+  }
+}

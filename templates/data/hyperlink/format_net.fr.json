@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Extraire des hyperliens à partir de fichiers {{FileFormatUp}} dans des applications {{ProgLang}}",
+    "description": "Utilisez {{ProdShortName}} pour détecter et extraire des hyperliens à partir de fichiers {{FileFormatUp}} dans {{ProgLang}} sans outils ou logiciels supplémentaires."
+  },
+  "header": {
+    "title": "Extraire des hyperliens à partir de {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Détectez et extrayez les URLs et hyperliens à partir de PDF, Word, Excel et d'autres types de documents en utilisant {{ProdShortName}} dans vos applications {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) est une API de traitement de documents polyvalente pour les développeurs {{EnvName}}. Elle prend en charge l'extraction d'hyperliens, de texte, d'images et de contenu structuré à partir de divers formats de fichiers tels que PDF, Word, Excel, HTML, et plus—sans avoir recours à des logiciels externes."
+  },
+  "formats": {
+    "title": "Formats pris en charge pour l'extraction des hyperliens",
+    "description": "{{ProdShortName}} peut extraire des hyperliens à partir d'une large variété de types de documents. Consultez ci-dessous les formats couramment pris en charge."
+  },
+  "examples": {
+    "comment_1": "Chargez le document contenant des hyperliens à l'aide de la classe {{textParser}}",
+    "comment_2": "Vérifiez si le fichier prend en charge l'extraction des hyperliens",
+    "comment_3": "L'extraction des hyperliens n'est pas disponible pour le fichier",
+    "comment_4": "Récupérez et traitez les hyperliens extraits"
+  },
+  "steps": {
+    "title": "Étapes pour extraire des hyperliens à partir de {{FileFormatCap}} dans {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permet aux développeurs {{EnvName}} d'extraire des hyperliens à partir de fichiers {{FileFormatUp}} en suivant ces étapes simples :",
+      "step_1": "Chargez le fichier {{FileFormatUp}} à l'aide d'une instance de {{textParser}}.",
+      "step_2": "Vérifiez si le document prend en charge l'extraction des hyperliens.",
+      "step_3": "Récupérez la liste des hyperliens du document.",
+      "step_4": "Parcourez les résultats et travaillez avec les URLs extraites."
+    }
+  },
+  "more_features": {
+    "title": "Capacités avancées de traitement de documents",
+    "description": "En plus de l'extraction des hyperliens, {{ProdShortName}} vous permet d'extraire du texte, des métadonnées, des images et des données structurées—supportant ainsi des flux de traitement de données puissants.",
+    "image_description": "Détection d'hyperliens et traitement de documents",
+    "feature_1": {
+      "title": "Détection d'hyperliens dans les documents",
+      "content": "Extrayez rapidement des URLs et des annotations de liens à partir de documents tels que des PDF, des fichiers Word, des tableurs, et plus."
+    },
+    "feature_2": {
+      "title": "Support pour les liens web et intégrés",
+      "content": "Détectez et extrayez à la fois des URLs web standard et des liens intégrés à travers plusieurs formats."
+    },
+    "feature_3": {
+      "title": "Options d'analyse flexibles",
+      "content": "Personnalisez les paramètres d'extraction pour vérifier des sections ou pages spécifiques afin d'améliorer les performances et la précision."
+    },
+    "code_1": {
+      "title": "Comment extraire des hyperliens d'un PDF en utilisant des options de lien",
+      "content": "Cet exemple de code montre comment extraire tous les hyperliens d'un fichier PDF en utilisant des options personnalisées.",
+      "comment_1": "Initialisez le {{textParser}} avec le document PDF",
+      "comment_2": "Vérifiez si l'extraction des hyperliens est prise en charge",
+      "comment_3": "Définissez des options d'extraction de liens pour affiner les résultats",
+      "comment_4": "Extraire les données d'hyperliens du document",
+      "comment_5": "Gérez la liste des liens extraits"
+    }
+  }
+}

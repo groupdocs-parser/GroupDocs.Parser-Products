@@ -27,7 +27,7 @@
     "comment_7": "Process each extracted table from the result"
   },
   "steps": {
-    "title": "How to retrieve tables from {{FileformatCap}} in {{ProgLang}}",
+    "title": "How to retrieve tables from {{FileFormatCap}} in {{ProgLang}}",
     "content": {
       "title": "To parse tables from {{FileFormatUp}} documents using [{{ProdShortName}}]({{PlatformLink}}), follow these easy steps in your {{EnvName}} environment:",
       "step_1": "Create a {{textParser}} instance and load the target {{FileFormatUp}} file.",

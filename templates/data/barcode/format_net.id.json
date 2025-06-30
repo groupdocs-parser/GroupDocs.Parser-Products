@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Ekstrak kode batang dari file {{FileFormatUp}} dalam aplikasi {{ProgLang}}",
+    "description": "Gunakan {{ProdShortName}} untuk mendeteksi dan mengekstrak data kode batang dari file {{FileFormatUp}} dalam {{ProgLang}} tanpa perangkat lunak tambahan."
+  },
+  "header": {
+    "title": "Ekstrak kode batang dari {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "description": "Deteksi dan ekstrak informasi kode batang dari file PDF, Word, Excel, dan gambar menggunakan {{ProdShortName}} dalam aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) adalah API pemrosesan dokumen yang kuat untuk pengembang {{EnvName}}. API ini memungkinkan ekstraksi teks, gambar, konten terstruktur, dan kode batang dari berbagai format file termasuk PDF, Word, Excel, PowerPoint, dan lainnya — semua tanpa bergantung pada alat eksternal."
+  },
+  "formats": {
+    "title": "Format yang Didukung untuk ekstraksi kode batang",
+    "description": "{{ProdShortName}} mendukung deteksi kode batang dalam berbagai format dokumen dan gambar. Lihat di bawah untuk jenis file yang umum didukung."
+  },
+  "examples": {
+    "comment_1": "Muat dokumen yang berisi kode batang menggunakan kelas {{textParser}}",
+    "comment_2": "Verifikasi bahwa file mendukung ekstraksi kode batang",
+    "comment_3": "Ekstraksi kode batang tidak didukung",
+    "comment_4": "Ambil dan proses kode batang yang diekstrak"
+  },
+  "steps": {
+    "title": "Langkah untuk mengekstrak kode batang dari {{FileFormatCap}} dalam {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan Anda mengekstrak data kode batang dari file {{FileFormatUp}} dalam aplikasi {{EnvName}} dengan mengikuti langkah-langkah sederhana berikut:",
+      "step_1": "Muat file {{FileFormatUp}} menggunakan instance {{textParser}}.",
+      "step_2": "Verifikasi bahwa dokumen mendukung ekstraksi kode batang.",
+      "step_3": "Ambil daftar kode batang dari dokumen.",
+      "step_4": "Iterasi melalui hasil dan gunakan nilai kode batang yang diekstrak."
+    }
+  },
+  "more_features": {
+    "title": "Fitur pemrosesan dokumen lanjutan",
+    "description": "Selain ekstraksi kode batang, {{ProdShortName}} memungkinkan Anda mengekstrak teks biasa, gambar, dan data terstruktur untuk mendukung otomatisasi dan alur kerja pemrosesan data yang lebih canggih.",
+    "image_description": "Pengajuan kode batang dan pemrosesan dokumen",
+    "feature_1": {
+      "title": "Dukungan untuk berbagai format kode batang",
+      "content": "Mengenali jenis kode batang umum termasuk QR Code, Code 128, Data Matrix, EAN, Aztec, dan lainnya."
+    },
+    "feature_2": {
+      "title": "Ekstrak kode batang dari dokumen dan gambar",
+      "content": "Baca kode batang dari dokumen PDF, Word, Excel, dan format gambar seperti JPEG, PNG, dan BMP."
+    },
+    "feature_3": {
+      "title": "Pengaturan ekstraksi yang dapat disesuaikan",
+      "content": "Konfigurasi opsi deteksi seperti wilayah pemindaian dan pemrosesan dokumen multi-halaman."
+    },
+    "code_1": {
+      "title": "Cara mengekstrak kode batang dari PDF menggunakan opsi kode batang",
+      "content": "Contoh ini menunjukkan cara mengekstrak kode batang dari file PDF menggunakan opsi ekstraksi kode batang tertentu.",
+      "comment_1": "Muat file PDF dengan kelas {{textParser}}",
+      "comment_2": "Pastikan ekstraksi kode batang didukung",
+      "comment_3": "Gunakan opsi kode batang untuk memfilter hasil",
+      "comment_4": "Ambil data kode batang dari dokumen",
+      "comment_5": "Proses daftar kode batang yang diekstrak"
+    }
+  }
+}

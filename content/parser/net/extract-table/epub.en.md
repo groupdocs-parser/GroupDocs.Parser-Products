@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-26T17:35:45
+date:  2025-06-30T10:25:40
 draft: false
 lang: en
 format: Epub
@@ -126,7 +126,7 @@ more_features:
         //  Open the Excel file using the Parser API
         using (Parser parser = new Parser("input.xlsx"))
         {
-            // Exit if tables cannot be extracted from the format
+            // Exit if tables cannot be extracted from the file
             if (!parser.Features.Tables)
             {
                 return;

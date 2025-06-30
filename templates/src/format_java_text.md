@@ -7,7 +7,7 @@ layout: "format"
 date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
-format: <% get "FileformatCap" %>
+format: <% get "FileFormatCap" %>
 product: "Parser"
 product_tag: "parser"
 platform: "Java"
@@ -137,7 +137,7 @@ more_features:
             }
 
             // <% "{more_features.code_1.comment_4}" %>
-            for (PageTextArea a : areas) {
+            for (PageTextArea a : areas)
             {
                 // <% "{more_features.code_1.comment_5}" %>
                 System.out.println(String.format("Page: %d, R: %s, Text: %s", a.getPage().getIndex(), a.getRectangle(), a.getText()));

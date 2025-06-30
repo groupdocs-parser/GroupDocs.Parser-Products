@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Barcodes aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Apps extrahieren",
+    "description": "{{ProdShortName}} verwenden, um Barcode-Daten aus {{FileFormatUp}}-Dateien in {{ProgLang}} ohne zusätzliche Software zu erkennen und zu extrahieren."
+  },
+  "header": {
+    "title": "Barcodes aus {{FileFormatUp}} mit {{ProgLang}} extrahieren",
+    "description": "{{ProdShortName}} ermöglicht es Ihnen, Barcode-Informationen aus PDF-, Word-, Excel- und Bilddateien in Ihren {{EnvNameShort}}-Anwendungen zu erkennen und zu extrahieren.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Über die {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ist eine leistungsstarke Dokumentenparser-API für {{EnvName}}-Entwickler. Sie ermöglicht die Extraktion von Text, Bildern, strukturierten Inhalten und Barcodes aus verschiedenen Dateiformaten wie PDF, Word, Excel, PowerPoint und mehr — ganz ohne externe Werkzeuge."
+  },
+  "formats": {
+    "title": "Unterstützte Formate für die Barcode-Extraktion",
+    "description": "{{ProdShortName}} unterstützt die Barcode-Erkennung in einer Vielzahl von Dokumenten- und Bildformaten. Im Folgenden finden Sie die gängigen unterstützten Dateitypen."
+  },
+  "examples": {
+    "comment_1": "Laden Sie das Dokument mit den Barcodes mit der {{textParser}}-Klasse",
+    "comment_2": "Überprüfen Sie, ob die Datei die Barcode-Extraktion unterstützt",
+    "comment_3": "Barcode-Extraktion wird nicht unterstützt",
+    "comment_4": "Abrufen und Verarbeiten der extrahierten Barcodes"
+  },
+  "steps": {
+    "title": "Schritte zur Extraktion von Barcodes aus {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht Ihnen die Extraktion von Barcode-Daten aus {{FileFormatUp}}-Dateien in {{EnvName}}-Anwendungen, indem Sie diese einfachen Schritte befolgen:",
+      "step_1": "{{FileFormatUp}}-Datei mit einer {{textParser}}-Instanz laden.",
+      "step_2": "Überprüfen Sie, ob das Dokument die Barcode-Extraktion unterstützt.",
+      "step_3": "Rufen Sie die Liste der Barcodes aus dem Dokument ab.",
+      "step_4": "Durchlaufen Sie die Ergebnisse und verwenden Sie die extrahierten Barcode-Werte."
+    }
+  },
+  "more_features": {
+    "title": "Erweiterte Dokumentenbearbeitungsfunktionen",
+    "description": "Neben der Barcode-Extraktion ermöglicht es {{ProdShortName}}, reinen Text, Bilder und strukturierte Daten zu extrahieren, um fortgeschrittene Automatisierungs- und Datenverarbeitungsworkflows zu unterstützen.",
+    "image_description": "Barcode-Erkennung und Dokumentenparser",
+    "feature_1": {
+      "title": "Unterstützung für mehrere Barcode-Formate",
+      "content": "Erkennen Sie gängige Barcode-Typen wie QR-Code, Code 128, Data Matrix, EAN, Aztec und mehr."
+    },
+    "feature_2": {
+      "title": "Barcodes aus Dokumenten und Bildern extrahieren",
+      "content": "Lesen Sie Barcodes aus PDF-, Word-, Excel-Dokumenten und Bildformaten wie JPEG, PNG und BMP."
+    },
+    "feature_3": {
+      "title": "Anpassbare Extraktionseinstellungen",
+      "content": "Konfigurieren Sie Erkennungsoptionen wie Scanfelder und die Verarbeitung mehrseitiger Dokumente."
+    },
+    "code_1": {
+      "title": "Wie man Barcodes aus einer PDF mit Barcode-Optionen extrahiert",
+      "content": "Dieses Beispiel zeigt, wie man Barcodes aus einer PDF-Datei mithilfe spezifischer Barcode-Extraktionsoptionen extrahiert.",
+      "comment_1": "Laden Sie die PDF-Datei mit der {{textParser}}-Klasse",
+      "comment_2": "Bestätigen Sie, dass die Barcode-Extraktion unterstützt wird",
+      "comment_3": "Verwenden Sie Barcode-Optionen, um Ergebnisse zu filtern",
+      "comment_4": "Abrufen der Barcode-Daten aus dem Dokument",
+      "comment_5": "Verarbeiten Sie die Liste der extrahierten Barcodes"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Inhalte aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Anwendungen extrahieren",
+    "description": "Nutzen Sie {{ProdShortName}}, um strukturierte Daten, Text, Tabellen und Bilder aus {{FileFormatUp}}-Dateien in {{ProgLang}} zu parsen und abzurufen, ohne externe Werkzeuge zu benötigen."
+  },
+  "header": {
+    "title": "Daten aus {{FileFormatUp}}-Dokumenten in {{ProgLang}} extrahieren",
+    "description": "Extrahieren Sie nahtlos strukturierte Inhalte wie Text, Metadaten, Tabellen und Grafiken aus PDFs, Word-, Excel- und bildbasierten Dokumenten mithilfe von {{ProdShortName}} in Ihren {{EnvNameShort}}-Apps.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Was ist {{ProdFullName}}?",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ist eine leistungsstarke API, die für {{EnvName}}-Entwickler entwickelt wurde und fortschrittliche Dokumentenparsing-Funktionalitäten bietet. Sie ermöglicht es Ihnen, textuelle Daten, Bilder, Tabellen, strukturierte Felder und Barcodes aus zahlreichen Formaten wie PDF, DOCX, XLSX, PPTX und mehr zu extrahieren und zu verarbeiten – alles ohne zusätzliche Bibliotheken installieren zu müssen."
+  },
+  "formats": {
+    "title": "Unterstützte Dateitypen für die Inhalteextraktion",
+    "description": "{{ProdShortName}} ist mit einer Vielzahl von Dokumenten- und Bilddateitypen kompatibel, wodurch die Informationen aus gängigen Formaten in Parsing- und Datenautomatisierungsszenarien leicht extrahiert werden können."
+  },
+  "examples": {
+    "comment_1": "Initialisieren Sie Ihren {{textParser}} mit dem Eingabedokument",
+    "comment_2": "Rufen Sie den gesamten verfügbaren Textinhalt aus dem Dokument ab",
+    "comment_3": "Wenn kein Text gefunden wird, ist der Rückgabewert null",
+    "comment_4": "Integrieren Sie den extrahierten Inhalt in Ihre Lösung",
+    "comment_5": "Dieses Format unterstützt möglicherweise keine Textextraktion"
+  },
+  "steps": {
+    "title": "Wie man Daten aus {{FileFormatCap}} mit {{ProgLang}} extrahiert",
+    "content": {
+      "title": "Um nützliche Informationen aus {{FileFormatUp}}-Dokumenten in Ihren {{EnvName}}-Projekten mit [{{ProdShortName}}]({{PlatformLink}}) zu extrahieren, folgen Sie diesen Anweisungen:",
+      "step_1": "Öffnen Sie die {{FileFormatUp}}-Datei mit einem {{textParser}}-Objekt.",
+      "step_2": "Verwenden Sie den Parser, um die erforderlichen Daten (Text, Tabellen, Metadaten usw.) abzurufen.",
+      "step_3": "Stellen Sie sicher, dass die Ausgabe korrekt und vollständig ist.",
+      "step_4": "Integrieren Sie den geparsten Inhalt in Ihren Datenfluss, Geschäftsprozesse oder Anwendungen."
+    }
+  },
+  "more_features": {
+    "title": "Vielseitige Parsing-Funktionalitäten von Dokumenten",
+    "description": "{{ProdShortName}} bietet mehr als nur Textextraktion – es unterstützt das vollständige Parsen von Barcodes, Metadaten, Bildern, Tabellen und anderen Daten, um intelligente Automatisierung und datengestützte Anwendungen zu ermöglichen.",
+    "image_description": "Visuelle Übersicht über das Parsen und die Extraktion von Dokumentendaten",
+    "feature_1": {
+      "title": "Extraktion aus mehreren Dateiformaten",
+      "content": "Greifen Sie auf Daten wie Text, Tabellen und Medien aus weit verbreiteten Dateitypen wie PDF, Word, Excel, PowerPoint, HTML und anderen zu."
+    },
+    "feature_2": {
+      "title": "Inhalte aus digitalen und gescannten Quellen parsen",
+      "content": "Verarbeiten Sie Inhalte aus sowohl nativen digitalen Dateien als auch gescannten Bildern, wobei OCR bei Bedarf zum Interpretieren eingebetteter Texte eingesetzt wird."
+    },
+    "feature_3": {
+      "title": "Flexible Konfigurationsoptionen",
+      "content": "Passen Sie Ihr Parsing mit Einstellungen zur Seitenauswahl, Layoutzonen und benutzerdefinierten Feldvorlagen an, um spezifische Extraktionsbedürfnisse zu erfüllen."
+    },
+    "code_1": {
+      "title": "PDF mit einer Datenauszugsvorlage parsen",
+      "content": "Dieses Beispiel zeigt, wie man strukturierte Felder aus einem PDF mit einer benutzerdefinierten Vorlage über {{ProdShortName}} extrahiert.",
+      "comment_1": "Öffnen Sie das PDF mit der {{textParser}}-Klasse",
+      "comment_2": "Wenden Sie die Parsing-Vorlage an, um die definierten Daten zu extrahieren",
+      "comment_3": "Überprüfen Sie, ob die extrahierte Vorlagenbasierte Funktion verfügbar ist",
+      "comment_4": "Arbeiten Sie mit den extrahierten Datenfeldern",
+      "comment_5": "Definieren Sie die Einstellungen für den Detektor zur Extraktion des Abschnitts 'Details'"
+    }
+  }
+}

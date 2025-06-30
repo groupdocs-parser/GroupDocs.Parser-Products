@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Extraia hiperlinks de arquivos {{FileFormatUp}} em aplicativos {{ProgLang}}",
+    "description": "Utilize {{ProdShortName}} para encontrar e extrair links URL de documentos {{FileFormatUp}} em projetos {{ProgLang}}—sem necessidade de software adicional."
+  },
+  "header": {
+    "title": "Extraia hiperlinks de {{FileFormatUp}} com {{ProgLang}}",
+    "description": "Extraia links da web e hiperlinks de PDFs, arquivos Word, planilhas Excel e outros documentos utilizando {{ProdShortName}} em seu ambiente {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Versão Grátis"
+  },
+  "about": {
+    "title": "Sobre a API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) é uma API robusta de extração de conteúdo projetada para desenvolvedores {{EnvName}}. Oferece ferramentas para extrair hiperlinks, dados estruturados, imagens e texto de formatos populares como DOCX, XLSX, PDF, HTML e mais—tudo sem precisar de plugins externos."
+  },
+  "formats": {
+    "title": "Formatos de documentos que suportam extração de hiperlinks",
+    "description": "Com {{ProdShortName}}, você pode extrair hiperlinks de muitos formatos de arquivo amplamente utilizados. Abaixo está uma lista de formatos normalmente suportados."
+  },
+  "examples": {
+    "comment_1": "Carregue o arquivo que pode conter hiperlinks utilizando o {{textParser}}",
+    "comment_2": "Verifique se o formato do documento suporta a extração de hiperlinks",
+    "comment_3": "A extração de hiperlinks não está disponível para o arquivo",
+    "comment_4": "Extraia e utilize os dados de hiperlink do documento"
+  },
+  "steps": {
+    "title": "Como extrair hiperlinks de {{FileFormatCap}} em {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifica a extração de hiperlinks de arquivos {{FileFormatUp}} em aplicações {{EnvName}} com estes passos básicos:",
+      "step_1": "Abra o arquivo {{FileFormatUp}} usando uma instância do {{textParser}}.",
+      "step_2": "Assegure-se de que a extração de hiperlinks está disponível para o formato do arquivo.",
+      "step_3": "Extraia todos os hiperlinks utilizando o método apropriado.",
+      "step_4": "Percorra os resultados e processe cada link conforme necessário."
+    }
+  },
+  "more_features": {
+    "title": "Ferramentas abrangentes de análise de documentos",
+    "description": "Além de extrair hiperlinks, {{ProdShortName}} permite coletar outros conteúdos úteis, como texto simples, mídia incorporada e dados estruturados para uso em fluxos de trabalho automatizados.",
+    "image_description": "Extração de hiperlinks e análise de documentos",
+    "feature_1": {
+      "title": "Detecção precisa de links",
+      "content": "Capture todos os tipos de hiperlinks de diferentes layouts de documentos, incluindo texto clicável e URLs ocultas."
+    },
+    "feature_2": {
+      "title": "Funciona com documentos e conteúdo da web",
+      "content": "Extraia links de arquivos PDF, DOCX, XLSX, HTML e imagens que contêm hiperlinks incorporados."
+    },
+    "feature_3": {
+      "title": "Comportamento de extração personalizada",
+      "content": "Refine como os hiperlinks são extraídos utilizando opções como intervalos de páginas, tipos de links ou filtros de conteúdo."
+    },
+    "code_1": {
+      "title": "Exemplo: extraindo hiperlinks de um PDF com opções personalizadas",
+      "content": "Este exemplo demonstra como extrair todos os links de um arquivo PDF utilizando configurações de extração de links.",
+      "comment_1": "Abra o PDF utilizando a classe {{textParser}}",
+      "comment_2": "Verifique se o suporte a hiperlinks está habilitado para este documento",
+      "comment_3": "Aplique opções para filtrar links",
+      "comment_4": "Use o parser para obter dados de hiperlink",
+      "comment_5": "Itere pelos links e manuseie-os conforme necessário"
+    }
+  }
+}

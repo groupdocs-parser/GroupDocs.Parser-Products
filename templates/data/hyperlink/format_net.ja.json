@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "{{ProgLang}}アプリで{{FileFormatUp}}ファイルからハイパーリンクを抽出",
+    "description": "{{ProdShortName}}を使用して、{{ProgLang}}における{{FileFormatUp}}ファイルからハイパーリンクを検出および抽出します。他のツールやソフトウェアは不要です。"
+  },
+  "header": {
+    "title": "{{ProgLang}}を使用した{{FileFormatUp}}からのハイパーリンク抽出",
+    "description": "{{ProdShortName}}を使用して、PDF、Word、ExcelなどのドキュメントタイプからURLおよびハイパーリンクを検出し、抽出します。これを{{EnvNameShort}}アプリケーションで行います。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} APIについて",
+    "content": "[{{ProdShortName}}]({{PlatformLink}})は、{{EnvName}}開発者向けの多用途の文書解析APIです。PDF、Word、Excel、HTMLなどのさまざまなファイル形式からハイパーリンク、テキスト、画像、構造化されたコンテンツを抽出することができ、外部ソフトウェアには依存しません。"
+  },
+  "formats": {
+    "title": "ハイパーリンク抽出に対応するフォーマット",
+    "description": "{{ProdShortName}}は、さまざまな文書タイプからハイパーリンクを抽出できます。以下に一般的にサポートされているフォーマットを示します。"
+  },
+  "examples": {
+    "comment_1": "{{textParser}}クラスを使用してハイパーリンクを含むドキュメントを読み込む",
+    "comment_2": "ファイルがハイパーリンク抽出をサポートしているか確認する",
+    "comment_3": "ファイルに対してハイパーリンク抽出は利用できません",
+    "comment_4": "抽出したハイパーリンクを取得し、処理する"
+  },
+  "steps": {
+    "title": "{{ProgLang}}における{{FileFormatCap}}からハイパーリンクを抽出する手順",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})は、{{EnvName}}開発者が{{FileFormatUp}}ファイルからハイパーリンクを抽出するための簡単な手順を提供します：",
+      "step_1": "{{textParser}}インスタンスを使用して{{FileFormatUp}}ファイルを読み込む。",
+      "step_2": "ドキュメントがハイパーリンク抽出をサポートしているか確認する。",
+      "step_3": "ドキュメントからハイパーリンクのリストを取得する。",
+      "step_4": "結果をループ処理し、抽出したURLを扱う。"
+    }
+  },
+  "more_features": {
+    "title": "高度な文書解析機能",
+    "description": "ハイパーリンク抽出に加えて、{{ProdShortName}}はテキスト、メタデータ、画像、構造化データを抽出でき、強力なデータ処理ワークフローをサポートします。",
+    "image_description": "ハイパーリンク検出と文書解析",
+    "feature_1": {
+      "title": "ドキュメントからのハイパーリンク検出",
+      "content": "PDF、Wordファイル、スプレッドシートなどのドキュメントから、URLとリンクアノテーションを迅速に抽出します。"
+    },
+    "feature_2": {
+      "title": "ウェブリンクと埋め込みリンクのサポート",
+      "content": "複数のフォーマットで、標準のウェブURLと埋め込みドキュメントリンクの両方を検出して抽出します。"
+    },
+    "feature_3": {
+      "title": "柔軟な解析オプション",
+      "content": "特定のセクションやページをスキャンするための抽出設定をカスタマイズし、パフォーマンスと精度を向上させます。"
+    },
+    "code_1": {
+      "title": "リンクオプションを使用したPDFからのハイパーリンク抽出方法",
+      "content": "このコードサンプルは、カスタムオプションを使用してPDFファイルからすべてのハイパーリンクを抽出する方法を示します。",
+      "comment_1": "PDFドキュメントで{{textParser}}を初期化する",
+      "comment_2": "ハイパーリンク抽出がサポートされているか確認する",
+      "comment_3": "結果を絞り込むためにリンク抽出オプションを設定する",
+      "comment_4": "ドキュメントからハイパーリンクデータを抽出する",
+      "comment_5": "抽出したリンクのリストを処理する"
+    }
+  }
+}

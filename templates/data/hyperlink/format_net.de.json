@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Hyperlinks aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Apps extrahieren",
+    "description": "{{ProdShortName}} verwenden, um Hyperlinks aus {{FileFormatUp}}-Dateien in {{ProgLang}} ohne zusätzliche Werkzeuge oder Software zu erkennen und zu extrahieren."
+  },
+  "header": {
+    "title": "Hyperlinks aus {{FileFormatUp}} mit {{ProgLang}} extrahieren",
+    "description": "URLs und Hyperlinks aus PDF-, Word-, Excel- und anderen Dokumenttypen mithilfe von {{ProdShortName}} in Ihren {{EnvNameShort}}-Anwendungen erkennen und extrahieren.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Über die {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ist eine vielseitige API zum Parsen von Dokumenten für {{EnvName}}-Entwickler. Sie unterstützt die Extraktion von Hyperlinks, Texten, Bildern und strukturierten Inhalten aus verschiedenen Dateiformaten wie PDF, Word, Excel, HTML und mehr — ohne auf externe Software angewiesen zu sein."
+  },
+  "formats": {
+    "title": "Unterstützte Formate für die Hyperlink-Extraktion",
+    "description": "{{ProdShortName}} kann Hyperlinks aus einer Vielzahl von Dokumenttypen extrahieren. Unten sehen Sie die häufig unterstützten Formate."
+  },
+  "examples": {
+    "comment_1": "Laden Sie das Dokument mit Hyperlinks unter Verwendung der {{textParser}}-Klasse",
+    "comment_2": "Überprüfen Sie, ob die Datei die Extraktion von Hyperlinks unterstützt",
+    "comment_3": "Die Hyperlink-Extraktion ist für die Datei nicht verfügbar",
+    "comment_4": "Extrahierte Hyperlinks abrufen und verarbeiten"
+  },
+  "steps": {
+    "title": "Schritte zum Extrahieren von Hyperlinks aus {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht es {{EnvName}}-Entwicklern, Hyperlinks aus {{FileFormatUp}}-Dateien durch Befolgung dieser einfachen Schritte zu extrahieren:",
+      "step_1": "{{FileFormatUp}}-Datei mit einer {{textParser}}-Instanz laden.",
+      "step_2": "Überprüfen Sie, ob das Dokument die Extraktion von Hyperlinks unterstützt.",
+      "step_3": "Die Liste der Hyperlinks aus dem Dokument abrufen.",
+      "step_4": "Durch die Ergebnisse iterieren und mit den extrahierten URLs arbeiten."
+    }
+  },
+  "more_features": {
+    "title": "Erweiterte Dokumentenverarbeitungsfunktionen",
+    "description": "Neben der Extraktion von Hyperlinks ermöglicht {{ProdShortName}} die Extraktion von Texten, Metadaten, Bildern und strukturierten Daten – und unterstützt leistungsstarke Datenverarbeitungs-Workflows.",
+    "image_description": "Erkennung von Hyperlinks und Dokumentenverarbeitung",
+    "feature_1": {
+      "title": "Erkennung von Hyperlinks aus Dokumenten",
+      "content": "URLs und Linkannotationen schnell aus Dokumenten wie PDFs, Word-Dateien, Tabellenkalkulationen und mehr extrahieren."
+    },
+    "feature_2": {
+      "title": "Unterstützung für Web- und eingebettete Links",
+      "content": "Standard-Web-URLs und eingebettete Dokumentenlinks über mehrere Formate hinweg erkennen und extrahieren."
+    },
+    "feature_3": {
+      "title": "Flexible Parsing-Optionen",
+      "content": "Extraktionseinstellungen anpassen, um bestimmte Abschnitte oder Seiten zu scannen und so Leistung und Genauigkeit zu verbessern."
+    },
+    "code_1": {
+      "title": "Wie man Hyperlinks aus einer PDF mit Linkoptionen extrahiert",
+      "content": "Dieses Codebeispiel zeigt, wie man alle Hyperlinks aus einer PDF-Datei unter Verwendung benutzerdefinierter Optionen extrahiert.",
+      "comment_1": "Initialisieren Sie die {{textParser}} mit dem PDF-Dokument",
+      "comment_2": "Überprüfen Sie, ob die Hyperlink-Extraktion unterstützt wird",
+      "comment_3": "Link-Extraktionsoptionen festlegen, um Ergebnisse einzugrenzen",
+      "comment_4": "Hyperlinkdaten aus dem Dokument extrahieren",
+      "comment_5": "Die Liste der extrahierten Links verarbeiten"
+    }
+  }
+}

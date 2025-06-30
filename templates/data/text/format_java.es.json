@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Recuperar texto de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}}",
+    "description": "Aproveche {{ProdShortName}} para extraer contenido de texto no estructurado o estructurado de documentos {{FileFormatUp}} en {{ProgLang}}, sin dependencias externas."
+  },
+  "header": {
+    "title": "Recuperar texto de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Extraiga de manera fluida texto legible o estructurado de archivos como PDF, Word, Excel y más utilizando {{ProdShortName}} en sus proyectos de desarrollo {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratuita"
+  },
+  "about": {
+    "title": "Presentamos la API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) es un robusto y escalable parser de documentos diseñado para desarrolladores {{EnvName}}. Ofrece capacidades para extraer con precisión texto, tablas, imágenes y componentes estructurados de varios formatos, incluyendo PDF, DOCX, XLSX, PPTX y otros—sin depender de utilidades externas."
+  },
+  "formats": {
+    "title": "Tipos de archivos soportados para extracción de texto",
+    "description": "{{ProdShortName}} es capaz de extraer contenido textual de numerosos formatos de archivos e imágenes. A continuación, se presentan los tipos más utilizados que soporta."
+  },
+  "examples": {
+    "comment_1": "Inicializar {{textParser}} con su documento",
+    "comment_2": "Leer y extraer todos los datos textuales",
+    "comment_3": "Devolver nulo si el contenido de texto está ausente",
+    "comment_4": "Integrar el texto extraído en su flujo de trabajo",
+    "comment_5": "Omitir formatos de extracción de texto no soportados"
+  },
+  "steps": {
+    "title": "Cómo recuperar texto de {{FileFormatCap}} usando {{ProgLang}}",
+    "content": {
+      "title": "Siga los pasos a continuación para extraer texto de archivos {{FileFormatUp}} utilizando [{{ProdShortName}}]({{PlatformLink}}) dentro de su proyecto {{EnvName}}:",
+      "step_1": "Cargar el documento {{FileFormatUp}} usando la clase {{textParser}}.",
+      "step_2": "Realizar la extracción de texto del contenido del archivo.",
+      "step_3": "Verificar si el texto fue recuperado con éxito.",
+      "step_4": "Utilizar los datos de texto en sistemas de búsqueda, análisis o automatización."
+    }
+  },
+  "more_features": {
+    "title": "Funcionalidad rica de extracción de texto",
+    "description": "{{ProdShortName}} va más allá de la simple extracción de texto—soportando la recuperación de imágenes, metadatos y datos estructurados para mejorar las tareas de procesamiento de contenido.",
+    "image_description": "Extraer y estructurar contenido de texto de documentos",
+    "feature_1": {
+      "title": "Funciona en numerosos formatos de documentos",
+      "content": "Capture tanto texto en bruto como estructurado de DOCX, XLSX, PPTX, PDF, HTML y varios formatos."
+    },
+    "feature_2": {
+      "title": "Extraer texto de contenido visual y textual",
+      "content": "Analice texto de documentos escaneados, presentaciones, hojas de cálculo y otros tipos de archivos mientras preserva la estructura lógica."
+    },
+    "feature_3": {
+      "title": "Control detallado sobre el proceso de extracción",
+      "content": "Configure rangos de páginas, zonas de diseño y parámetros de precisión para un análisis de texto más afinado."
+    },
+    "code_1": {
+      "title": "Ejemplo: Extracción de regiones de texto de un documento PPTX",
+      "content": "Este ejemplo demuestra la extracción de bloques de texto junto con sus coordenadas espaciales de una presentación de PowerPoint utilizando {{ProdShortName}}.",
+      "comment_1": "Cargar su archivo PPTX con la API {{textParser}}",
+      "comment_2": "Obtener todas las zonas de texto rectangulares",
+      "comment_3": "Salir si esta función no es soportada",
+      "comment_4": "Recorrer áreas de texto por página",
+      "comment_5": "Procesar cada bloque de texto con su número de página y rectángulo delimitador"
+    }
+  }
+}

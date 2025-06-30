@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "从{{FileFormatUp}}文件中获取文本信息，适用于{{ProgLang}}应用程序",
+    "description": "利用{{ProdShortName}}从{{ProgLang}}中的{{FileFormatUp}}文档中提取非结构化或结构化文本内容，无需任何外部依赖。"
+  },
+  "header": {
+    "title": "使用{{ProgLang}}从{{FileFormatUp}}中提取文本",
+    "description": "在您的{{EnvNameShort}}开发项目中，使用{{ProdShortName}}无缝提取PDF、Word、Excel等文件中的可读或结构化文本。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载试用版"
+  },
+  "about": {
+    "title": "介绍{{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}})是为{{EnvName}}开发者设计的强大且可扩展的文档解析器。它能够准确从包括PDF、DOCX、XLSX、PPTX等多种格式中提取文本、表格、图像和结构化组件，而无需依赖外部工具。"
+  },
+  "formats": {
+    "title": "支持文本提取的文件类型",
+    "description": "{{ProdShortName}}能够从众多文件和图像格式中提取文本内容。以下是其支持的最常用类型。"
+  },
+  "examples": {
+    "comment_1": "使用您的文档初始化{{textParser}}",
+    "comment_2": "读取并提取所有文本数据",
+    "comment_3": "如文本内容缺失，则返回null",
+    "comment_4": "将提取的文本集成到您的工作流中",
+    "comment_5": "跳过不支持的文本提取格式"
+  },
+  "steps": {
+    "title": "如何使用{{ProgLang}}从{{FileFormatCap}}中提取文本",
+    "content": {
+      "title": "按照以下步骤使用[{{ProdShortName}}]({{PlatformLink}})在您的{{EnvName}}项目中从{{FileFormatUp}}文件中提取文本：",
+      "step_1": "使用{{textParser}}类加载{{FileFormatUp}}文档。",
+      "step_2": "从文件内容中执行文本提取。",
+      "step_3": "检查文本是否成功检索。",
+      "step_4": "在搜索、分析或自动化系统中使用文本数据。"
+    }
+  },
+  "more_features": {
+    "title": "丰富的文本提取功能",
+    "description": "{{ProdShortName}}不仅支持简单的文本提取，还能检索图像、元数据和结构化数据，以增强内容处理任务。",
+    "image_description": "从文档中提取和结构化文本内容",
+    "feature_1": {
+      "title": "支持多种文档格式",
+      "content": "从DOCX、XLSX、PPTX、PDF、HTML等多种格式中捕获原始和结构化文本。"
+    },
+    "feature_2": {
+      "title": "从视觉和文本内容中提取文本",
+      "content": "从扫描文档、幻灯片、电子表格和其他文件类型中解析文本，同时保留逻辑结构。"
+    },
+    "feature_3": {
+      "title": "对提取过程进行详细控制",
+      "content": "配置页面范围、布局区域和精度参数，以实现精确的文本解析。"
+    },
+    "code_1": {
+      "title": "示例：从PPTX文档中提取文本区域",
+      "content": "该示例演示如何使用{{ProdShortName}}从PowerPoint演示文稿中提取文本块及其空间坐标。",
+      "comment_1": "使用{{textParser}} API加载您的PPTX文件",
+      "comment_2": "获取所有矩形文本区域",
+      "comment_3": "如果不支持此功能则退出",
+      "comment_4": "按照页面循环遍历文本区域",
+      "comment_5": "处理每个文本块及其页码和边界矩形"
+    }
+  }
+}

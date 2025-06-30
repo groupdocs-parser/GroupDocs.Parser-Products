@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Extraire des images des fichiers {{FileFormatUp}} dans les applications {{ProgLang}}",
+    "description": "Avec {{ProdShortName}}, vous pouvez extraire des images des fichiers {{FileFormatUp}} dans {{ProgLang}} sans avoir recours à des outils tiers."
+  },
+  "header": {
+    "title": "Extraire des images des {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Récupérez les images intégrées dans des fichiers tels que PDF, Word, Excel, et plus encore en utilisant {{ProdShortName}} dans votre environnement de développement {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdFullName}} ?",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) est une API de parsing riche en fonctionnalités, conçue pour les développeurs {{EnvName}}. Elle permet l'extraction d'images, de texte, de liens, et d'éléments structurés de divers formats de fichiers, y compris DOCX, XLSX, PDF, PNG, JPG, et bien d'autres — le tout sans nécessiter de bibliothèques ou d'applications externes."
+  },
+  "formats": {
+    "title": "Types de fichiers supportés pour l'extraction d'images",
+    "description": "{{ProdShortName}} prend en charge l'extraction d'images à travers une large gamme de documents et d'images. Explorez les formats couramment pris en charge ci-dessous."
+  },
+  "examples": {
+    "comment_1": "Initialiser le parseur et charger le document contenant des images en utilisant {{textParser}}",
+    "comment_2": "Collecter tous les éléments d'image intégrés dans le document",
+    "comment_3": "Ignorer le traitement si le document ne contient pas d'images",
+    "comment_4": "Traiter chaque image selon les besoins"
+  },
+  "steps": {
+    "title": "Comment extraire des images de {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "Suivez ces étapes pour extraire des images des documents {{FileFormatUp}} en utilisant [{{ProdShortName}}]({{PlatformLink}}) dans votre application {{EnvName}} :",
+      "step_1": "Créer une instance de {{textParser}} et charger le fichier {{FileFormatUp}}.",
+      "step_2": "Extraire les données d'image du document chargé.",
+      "step_3": "Utiliser ou exporter les images extraites selon vos besoins."
+    }
+  },
+  "more_features": {
+    "title": "Plus de capacités de parsing de documents",
+    "description": "En plus de l'extraction d'images, {{ProdShortName}} vous permet d'extraire du contenu brut tel que du texte, des liens, des métadonnées, et des données structurées pour le traitement et l'analyse.",
+    "image_description": "Extraire des images et du contenu des documents",
+    "feature_1": {
+      "title": "Fonctionne avec une variété de formats",
+      "content": "Extraire des images de différents types de documents, y compris PDF, DOCX, PPTX, XLSX, et des formats d'image tels que PNG, JPEG, et GIF."
+    },
+    "feature_2": {
+      "title": "Maintenir la clarté et la résolution des images",
+      "content": "Toutes les images extraites conservent leur résolution et leur type de fichier d'origine pour garantir une qualité et une utilité cohérentes."
+    },
+    "feature_3": {
+      "title": "Options de configuration flexibles",
+      "content": "Personnalisez le processus d'extraction d'images en filtrant les images par type, taille, index de page, ou format de fichier."
+    },
+    "code_1": {
+      "title": "Extraire et enregistrer des images à partir de fichiers PDF",
+      "content": "Cet exemple montre comment extraire des images d'un document PDF et les enregistrer individuellement sur votre appareil.",
+      "comment_1": "Utiliser {{textParser}} pour ouvrir le fichier PDF",
+      "comment_2": "Obtenir les images du contenu du document",
+      "comment_3": "Définir des paramètres de sortie tels que le format (par exemple, JPEG ou PNG)",
+      "comment_4": "Enregistrer les images extraites dans un répertoire local"
+    }
+  }
+}

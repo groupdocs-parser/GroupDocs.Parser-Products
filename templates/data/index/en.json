@@ -53,7 +53,7 @@
         "title": "How to extract text from PDF documents",
         "content": "{{ProdShortName}} API makes it easy to extract text from documents by implementing a few steps.",
         "comment_1": "Create an instance of {{textParser}} class passing desired file",
-        "comment_2": "Extract a text to {{textReader}}",
+        "comment_2": "Extract a text",
         "comment_3": "Process the extracted text"
       },
       "sample_1": {

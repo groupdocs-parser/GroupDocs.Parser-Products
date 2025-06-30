@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Extraia conteúdo de arquivos {{FileFormatUp}} em aplicações {{ProgLang}}",
+    "description": "Aproveite {{ProdShortName}} para analisar e recuperar dados estruturados, texto, tabelas e imagens de arquivos {{FileFormatUp}} em {{ProgLang}}, sem necessidade de ferramentas externas."
+  },
+  "header": {
+    "title": "Extraia dados de documentos {{FileFormatUp}} em {{ProgLang}}",
+    "description": "Extraia de forma eficaz conteúdo estruturado, como texto, metadados, tabelas e gráficos de documentos PDF, Word, Excel e baseados em imagem usando {{ProdShortName}} em seus aplicativos {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Versão Gratuita"
+  },
+  "about": {
+    "title": "O que é {{ProdFullName}}?",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) é uma API robusta projetada para desenvolvedores {{EnvName}}, oferecendo funcionalidades avançadas de análise de documentos. Permite extrair e processar dados textuais, imagens, tabelas, campos estruturados e códigos de barras de diversos formatos como PDF, DOCX, XLSX, PPTX e muito mais — tudo isso sem a necessidade de instalar bibliotecas adicionais."
+  },
+  "formats": {
+    "title": "Tipos de arquivos suportados para extração de conteúdo",
+    "description": "{{ProdShortName}} é compatível com uma ampla variedade de tipos de arquivos de documentos e imagens, facilitando a extração de informações de formatos comumente utilizados em cenários de análise e automação de dados."
+  },
+  "examples": {
+    "comment_1": "Inicialize seu {{textParser}} com o documento de entrada",
+    "comment_2": "Recupere todo o conteúdo textual disponível do documento",
+    "comment_3": "Se nenhum texto for encontrado, o valor retornado será nulo",
+    "comment_4": "Incorpore o conteúdo extraído em sua solução",
+    "comment_5": "Este formato pode não suportar extração de texto"
+  },
+  "steps": {
+    "title": "Como extrair dados de {{FileFormatCap}} usando {{ProgLang}}",
+    "content": {
+      "title": "Para extrair informações úteis de documentos {{FileFormatUp}} em seus projetos {{EnvName}} usando [{{ProdShortName}}]({{PlatformLink}}), siga estas instruções:",
+      "step_1": "Abra o arquivo {{FileFormatUp}} com um objeto {{textParser}}.",
+      "step_2": "Use o parser para recuperar os dados necessários (texto, tabelas, metadados, etc.).",
+      "step_3": "Garanta que a saída esteja correta e completa.",
+      "step_4": "Integre o conteúdo analisado em seu fluxo de dados, processos de negócios ou aplicações."
+    }
+  },
+  "more_features": {
+    "title": "Funcionalidade versátil de análise de documentos",
+    "description": "{{ProdShortName}} faz mais do que apenas extração de texto—ele suporta a análise completa de códigos de barras, metadados, imagens, tabelas e outros dados para impulsionar automação inteligente e aplicações orientadas a dados.",
+    "image_description": "Visão geral visual da análise e extração de dados do documento",
+    "feature_1": {
+      "title": "Extração de múltiplos formatos de arquivo",
+      "content": "Acesse dados como texto, tabelas e mídia de tipos de arquivos amplamente utilizados, como PDF, Word, Excel, PowerPoint, HTML e outros."
+    },
+    "feature_2": {
+      "title": "Analise conteúdo de fontes digitais e digitalizadas",
+      "content": "Processe conteúdo tanto de arquivos digitais nativos quanto de imagens escaneadas, utilizando OCR quando necessário para interpretar texto embutido."
+    },
+    "feature_3": {
+      "title": "Opções de configuração flexíveis",
+      "content": "Personalize sua análise com configurações para seleção de páginas, zonas de layout e templates de campo personalizados para atender a necessidades específicas de extração."
+    },
+    "code_1": {
+      "title": "Análise de PDF usando um template de extração de dados",
+      "content": "Este exemplo mostra como extrair campos estruturados de um PDF usando um template personalizado através de {{ProdShortName}}.",
+      "comment_1": "Abra o PDF usando a classe {{textParser}}",
+      "comment_2": "Aplique o template de análise para extrair os dados definidos",
+      "comment_3": "Verifique se a extração baseada em template está disponível",
+      "comment_4": "Trabalhe com os campos de dados extraídos",
+      "comment_5": "Defina as configurações do detector para extrair a seção 'Detalhes'"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Extraer hipervínculos de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}}",
+    "description": "Utiliza {{ProdShortName}} para detectar y extraer hipervínculos de archivos {{FileFormatUp}} en {{ProgLang}} sin herramientas o software adicionales."
+  },
+  "header": {
+    "title": "Extraer hipervínculos de {{FileFormatUp}} utilizando {{ProgLang}}",
+    "description": "Detecta y extrae URLs e hipervínculos de PDF, Word, Excel y otros tipos de documentos utilizando {{ProdShortName}} en tus aplicaciones {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratuita"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) es una API versátil de análisis de documentos para desarrolladores de {{EnvName}}. Permite extraer hipervínculos, texto, imágenes y contenido estructurado de diversos formatos de archivo como PDF, Word, Excel, HTML y más, sin depender de software externo."
+  },
+  "formats": {
+    "title": "Formatos compatibles para extracción de hipervínculos",
+    "description": "{{ProdShortName}} puede extraer hipervínculos de una amplia variedad de tipos de documentos. Consulta a continuación los formatos comúnmente compatibles."
+  },
+  "examples": {
+    "comment_1": "Carga el documento que contiene hipervínculos utilizando la clase {{textParser}}",
+    "comment_2": "Verifica que el archivo soporte extracción de hipervínculos",
+    "comment_3": "La extracción de hipervínculos no está disponible para el archivo",
+    "comment_4": "Recupera y procesa los hipervínculos extraídos"
+  },
+  "steps": {
+    "title": "Pasos para extraer hipervínculos de {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite a los desarrolladores de {{EnvName}} extraer hipervínculos de archivos {{FileFormatUp}} siguiendo estos simples pasos:",
+      "step_1": "Carga el archivo {{FileFormatUp}} utilizando una instancia de {{textParser}}.",
+      "step_2": "Verifica si el documento soporta la extracción de hipervínculos.",
+      "step_3": "Recupera la lista de hipervínculos del documento.",
+      "step_4": "Recorre los resultados y trabaja con las URLs extraídas."
+    }
+  },
+  "more_features": {
+    "title": "Capacidades avanzadas de análisis de documentos",
+    "description": "Además de la extracción de hipervínculos, {{ProdShortName}} te permite extraer texto, metadatos, imágenes y datos estructurados, apoyando flujos de trabajo de procesamiento de datos potentes.",
+    "image_description": "Detección de hipervínculos y análisis de documentos",
+    "feature_1": {
+      "title": "Detección de hipervínculos de documentos",
+      "content": "Extrae rápidamente URLs y anotaciones de enlace de documentos como PDFs, archivos de Word, hojas de cálculo y más."
+    },
+    "feature_2": {
+      "title": "Soporte para enlaces web y embebidos",
+      "content": "Detecta y extrae tanto URLs web estándar como enlaces embebidos en múltiples formatos."
+    },
+    "feature_3": {
+      "title": "Opciones de análisis flexibles",
+      "content": "Personaliza las configuraciones de extracción para escanear secciones o páginas específicas para mejorar el rendimiento y la precisión."
+    },
+    "code_1": {
+      "title": "Cómo extraer hipervínculos de un PDF utilizando opciones de enlace",
+      "content": "Este ejemplo de código muestra cómo extraer todos los hipervínculos de un archivo PDF utilizando opciones personalizadas.",
+      "comment_1": "Inicializa el {{textParser}} con el documento PDF",
+      "comment_2": "Verifica si se soporta la extracción de hipervínculos",
+      "comment_3": "Establece opciones de extracción de enlaces para restringir resultados",
+      "comment_4": "Extrae datos de hipervínculos del documento",
+      "comment_5": "Gestiona la lista de enlaces extraídos"
+    }
+  }
+}

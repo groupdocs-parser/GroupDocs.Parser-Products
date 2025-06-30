@@ -25,7 +25,7 @@
     "comment_5": "Skip unsupported text extraction formats"
   },
   "steps": {
-    "title": "How to retrieve text from {{FileformatCap}} using {{ProgLang}}",
+    "title": "How to retrieve text from {{FileFormatCap}} using {{ProgLang}}",
     "content": {
       "title": "Follow the steps below to extract text from {{FileFormatUp}} files using [{{ProdShortName}}]({{PlatformLink}}) within your {{EnvName}} project:",
       "step_1": "Load the {{FileFormatUp}} document using the {{textParser}} class.",

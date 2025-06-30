@@ -1,0 +1,303 @@
+{
+  "index-content": {
+    "head_title": ".NET、Java、クラウドAPIとオンライン文書パーサーアプリ",
+    "head_description": "すべてを兼ね備えた文書解析ソリューションを、.NET、Java、そしてクラウドベースのアプリケーション用に提供します。シンプルなドラッグ＆ドロップ機能でオンライン文書フォーマットからデータを抽出します。",
+    "title": "文書解析ソリューション",
+    "description_0": "様々なファイル形式からデータを抽出するための堅牢なAPI。",
+    "description_1": "最小限のコーディングで文書を解析します。",
+    "description_2": "解析結果をカスタマイズします。",
+    "words_for": "のために",
+    "release_title": "バージョン {0} がリリースされました",
+    "release_notes": "新機能を確認する",
+    "release_downloads": "ダウンロード",
+    "code_more": "さらに例を見る",
+    "overview_title": "{{ProdShortName}} 概要",
+    "formats_title": "サポートされているファイル形式",
+    "platforms": {
+      "title": "プラットフォームの独立性",
+      "head_title": "プラットフォームを選択してください",
+      "description": "{{ProdShortName}} ライブラリは、次のオペレーティングシステムとフレームワークをサポートしています：",
+      "learn_more": "詳細を学ぶ",
+      "any_other_text_editor": "任意の他のテキストエディタ"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 概要",
+      "description": "PDF、Word、Excel などのデータ解析用API",
+      "feature_1": {
+        "title": "テキストの抽出",
+        "content": "様々なファイル形式からテキスト情報を抽出します"
+      },
+      "feature_2": {
+        "title": "画像の抽出",
+        "content": "多様なソースから視覚コンテンツを取り出します"
+      },
+      "feature_3": {
+        "title": "テンプレートによるデータ解析",
+        "content": "カスタムテンプレートを作成し、特定の情報を解析するために利用します"
+      },
+      "feature_4": {
+        "title": "PDFフォームの解析",
+        "content": "PDFフォームはユーザーとの対話のために入力可能なフィールドを含むデジタル文書です"
+      }
+    },
+    "formats": {
+      "title": "50以上のファイル形式をサポート",
+      "description": "{{ProdShortName}} は様々な形式ファミリー内でのパーサー操作が可能です"
+    },
+    "code_samples": {
+      "title": "コードサンプル",
+      "index_title": "{{ProdShortName}} コードサンプル",
+      "index_description": "C# と Java における典型的な {{ProdShortName}} 操作のいくつかのユースケース",
+      "more_examples": "さらに例を見る",
+      "sample_index": {
+        "title": "PDF文書からテキストを抽出する方法",
+        "content": "{{ProdShortName}} APIを使用すると、いくつかのステップを実装することで文書からテキストを抽出できます。",
+        "comment_1": "希望するファイルを渡して {{textParser}} クラスのインスタンスを作成します。",
+        "comment_2": "テキストを抽出します。",
+        "comment_3": "抽出したテキストを処理します。"
+      },
+      "sample_1": {
+        "code_title": "{{ProgLang}} でPDF文書から画像を抽出",
+        "comment_1": "{{textParser}} クラスのインスタンスを作成します。",
+        "comment_2": "画像を抽出します。",
+        "comment_3": "何かが抽出されたか確認します。",
+        "comment_4": "画像を反復処理します。",
+        "comment_5": "ページインデックス、矩形、画像タイプを出力します。"
+      },
+      "sample_2": {
+        "code_title": "{{ProgLang}} で画像からバーコードを抽出",
+        "comment_1": "{{textParser}} にソース画像を読み込みます。",
+        "comment_2": "ファイルがバーコード抽出をサポートしているか確認します。",
+        "comment_3": "ファイルからバーコードを抽出します。",
+        "comment_4": "バーコードを反復処理します。",
+        "comment_5": "ページインデックスを出力します。",
+        "comment_6": "バーコードの値を出力します。"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} での成果",
+      "description": "ライブラリの業績に関する重要な指標を発見します",
+      "item_1": {
+        "title": "サポートされている形式",
+        "description": "{{ProdShortName}} は50以上の人気ファイル形式で操作をサポートします。"
+      },
+      "item_2": {
+        "title": "NuGetダウンロード",
+        "description": "{{ProdShortName}} の .NET NuGet パッケージは1,600,000回以上ダウンロードされました。"
+      },
+      "item_3": {
+        "title": "Mavenダウンロード",
+        "description": "{{ProdShortName}} はMavenで18,000回ダウンロードされています。強力なJava解析機能。"
+      },
+      "item_4": {
+        "title": "満足している顧客",
+        "description": "有名企業や個別開発者が革新的なソリューションを構築するために {{NameCompany}} の製品を選択しています。"
+      }
+    },
+    "customers": {
+      "title": "私たちの満足している顧客",
+      "description": "{{NameCompany}} のライブラリは、世界中の著名なブランドに利用されています。"
+    },
+    "actions": {
+      "alt": "ライセンス取得",
+      "title": "始める準備はできましたか？",
+      "description": "無料で {{ProdShortName}} の機能を試すか、ライセンスをリクエストしてください。",
+      "description_index": "お使いのプラットフォームで {{ProdShortName}} の機能を無料で試してみてください。"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "よくある質問への回答。",
+      "item_1": {
+        "question": "{{ProdShortName}} ライブラリは文書を操作するために他のサードパーティソフトウェアを必要としますか？",
+        "answer": "{{ProdShortName}} はAdobe Acrobat、Microsoft Office、または他の外部ソフトウェアのインストールを必要としません。"
+      },
+      "item_2": {
+        "question": "{{ProdShortName}} ライブラリを購入前に試すことはできますか？",
+        "answer": "はい、ライセンスを購入せずに {{ProdShortName}} を試すことができます。ライセンスなしでインストールされた場合、ライブラリは試用モードで動作します。このモードでは、試用バッジが生成された文書に追加され、最初の3ページに制限されます。試用版の制限なしで GroupDocs.Parser をテストしたい場合は、30日間の一時ライセンスをリクエストすることもできます。詳細については、[こちらをご覧ください]({{LicensingUrl}})。"
+      },
+      "item_3": {
+        "question": "どのようなライセンスがありますか？",
+        "answer": "特定の開発者や企業のニーズに合った複数のライセンスタイプを提供しています。ライセンスタイプは、開発者の数、開発者のサイトの数、エンド顧客へのSDK/APIの提供の必要性によって異なります。あるいは、製品の月次使用に基づく測定ライセンスを選択することもできます。詳細については、[こちら]({{PricingUrl}})をご覧ください。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 低コードAPI",
+      "description": "クラウドベースのREST APIを使用して、任意のアプリケーションに文書パーサー機能を組み込みます。",
+      "item_1": {
+        "content": "広範囲にわたる人気ファイル形式に対応した文書パーサーのクラウドAPI用のcURLコマンド。"
+      },
+      "item_2": {
+        "content": "Microsoft .NETアプリケーション内で、画像、テキスト、文書情報を抽出したり、ユーザー定義テンプレートで任意の文書を解析します。"
+      },
+      "item_3": {
+        "content": "Javaデベロッパー向けのクラウドSDKを使用して、文書の解析、文書情報とデータを抽出します。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} ノーコードアプリ",
+      "description": "50以上の人気ファイル形式を直接ブラウザで解析できるウェブベースのアプリケーションです。",
+      "item_1": {
+        "content": "Word、Excel、PowerPoint、PDF、50以上の文書タイプを解析するための無料オンラインアプリ。"
+      },
+      "item_2": {
+        "content": "ブラウザから直接Word文書を解析し、画像、テキスト、メタデータを抽出します。"
+      },
+      "item_3": {
+        "content": "プラットフォームやデバイスに関係なく動作する無料のPDFパースアプリ。"
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office形式",
+      "title_2": "画像およびその他の形式",
+      "title_3": "その他の形式",
+      "format_portable": "ポータブル",
+      "format_images": "画像",
+      "format_other_office": "その他のオフィス形式",
+      "format_other_web": "ウェブ",
+      "format_other_archives": "アーカイブ",
+      "format_other_ebooks": "e-Book"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{ProdFullName}} 文書解析アプリ",
+    "head_description": "{{EnvNameShort}} アプリケーション向けのすべてを兼ね備えた文書解析ソリューションを提供します。シンプルなドラッグ＆ドロップ機能でオンライン文書フォーマットからデータを抽出します。",
+    "title": "{{EnvNameShort}} APIを介して文書を解析",
+    "description": "プログラマーやエンドユーザー向けに柔軟なAPIとアプリベースのソリューションを使用して、任意のプラットフォームで文書および画像からデータを抽出します。",
+    "actions_main": "{{PackageStoreName}} ダウンロード",
+    "code_title": "文書内容を迅速に解析",
+    "code_comment_1": "{{textParser}} インスタンスにソースファイルを渡します。",
+    "code_comment_2": "{{textReader}} に文書テキストを渡します。",
+    "code_comment_3": "文書テキストを処理します。",
+    "overview_description": "{{EnvNameShort}} アプリケーションで文書解析を実行するためのAPI",
+    "overview_feature_1": {
+      "title": "文書からデータを抽出",
+      "description": "{{ProdFullName}} APIを活用して、Office文書、Eメール、添付ファイル、アーカイブなど、広範囲のファイル形式からテキスト、メタデータ、画像を取得します。この強力なツールは、データ分析、検索エンジンのインデックス作成、コンテンツ管理システムなど、さまざまなアプリケーション内でこれらのファイルに含まれる貴重な情報に効率的にアクセスし処理するのに役立ちます。"
+    },
+    "overview_feature_2": {
+      "title": "文書を解析",
+      "description": "ハイパーリンク、表、QRコード、バーコード、PDFフォームのデータなど、さまざまな要素を抽出します。また、カスタムテンプレートを使用して任意の情報を文書から解析します。"
+    },
+    "overview_feature_3": {
+      "title": "結果のカスタマイズ",
+      "description": "{{EnvNameShort}} APIでは、生データ、構造化データ、HTML、またはMarkdownなど、さまざまな形式でデータを取得できます。さらに、文書のテキスト内に特定の単語やフレーズを見つけるための検索機能も提供しています。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} の機能",
+      "description": "PDF、Office文書、および画像から迅速かつ正確にデータを抽出します。",
+      "feature_1": {
+        "title": "テキストの抽出",
+        "content": "オフィス文書、PDFファイル、画像など、さまざまなファイル形式からテキスト情報を抽出します。"
+      },
+      "feature_2": {
+        "title": "画像の抽出",
+        "content": "オフィス文書やPDFファイルから視覚コンテンツを抽出し、便宜上アクセス可能にします。"
+      },
+      "feature_3": {
+        "title": "QRコードのスキャン",
+        "content": "オフィス文書やPDFファイル、または視覚コンテンツに存在するQRコードを検出してデコードします。"
+      },
+      "feature_4": {
+        "title": "メール添付ファイルやアーカイブからデータを抽出",
+        "content": "メールメッセージ、ファイル添付、圧縮データソースから貴重な情報を取得します。"
+      },
+      "feature_5": {
+        "title": "表の抽出",
+        "content": "PDF文書内の表形式のデータを識別して抽出し、整理された分析と利用を行います。"
+      },
+      "feature_6": {
+        "title": "ハイパーリンクの抽出",
+        "content": "オフィス文書やPDFファイル内のハイパーリンクやメールアドレスを見つけて抽出します。"
+      },
+      "feature_7": {
+        "title": "PDFフォームを解析",
+        "content": "PDFフォームはユーザーが情報を電子的に入力できるようにするための入力可能なフィールドを含むデジタル文書です。 .NET APIを使用して、これらのフォームからデータを抽出し、効率的に処理します。"
+      },
+      "feature_8": {
+        "title": "テンプレートによるデータ解析",
+        "content": "カスタムテンプレートを作成し、.NET APIを利用してPDFファイルから特定の情報を解析します。"
+      },
+      "feature_9": {
+        "title": "文書内のテキストを検索",
+        "content": "文書内で特定の言葉やパターンを迅速に見つけます。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} は次のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています。",
+    "formats_description": "{{ProdFullName}} は次の [ファイル形式]({{SupportedFormatsUrl}})に対応しています。",
+    "code_samples_description": "典型的な {{ProdFullName}} 操作のいくつかのユースケース",
+    "code_title_sample_1": "PDF文書から画像を抽出",
+    "code_samples_sample_1_content": "{{ProdFullName}} は {{ProgLang}} 開発者が [文書]({{Sample1Url}}) から画像を抽出するのを簡単にします：",
+    "code_title_sample_2": "画像からバーコードを抽出",
+    "code_samples_sample_2_content": "私たちの {{EnvNameShort}} APIを使用して、画像から [バーコード]({{Sample2Url}}) を抽出します："
+  },
+  "index-content-java": {
+    "head_title": "{{ProdFullName}} 文書解析アプリ",
+    "head_description": "{{EnvNameShort}} アプリケーション向けのすべてを兼ね備えた文書解析ソリューションを提供します。シンプルなドラッグ＆ドロップ機能でオンライン文書フォーマットからデータを抽出します。",
+    "title": "{{EnvNameShort}} APIを介して文書を解析",
+    "description": "プログラマーやエンドユーザー向けに柔軟なAPIとアプリベースのソリューションを使用して、任意のプラットフォームで文書および画像からデータを抽出します。",
+    "actions_main": "{{PackageStoreName}} ダウンロード",
+    "code_title": "文書内容を迅速に取得",
+    "code_comment_1": "{{textParser}} インスタンスにソースファイルを渡します。",
+    "code_comment_2": "{{textReader}} に文書テキストを渡します。",
+    "code_comment_3": "文書テキストを処理します。",
+    "overview_description": "{{EnvNameShort}} アプリケーションで文書解析を実行するためのAPI",
+    "overview_feature_1": {
+      "title": "文書からデータを抽出",
+      "description": "{{ProdFullName}} APIを活用して、Office文書、Eメール、添付ファイル、アーカイブなど、広範囲のファイル形式からテキスト、メタデータ、画像を取得します。この強力なツールは、データ分析、検索エンジンのインデックス作成、コンテンツ管理システムなど、さまざまなアプリケーション内でこれらのファイルに含まれる貴重な情報に効率的にアクセスし処理するのに役立ちます。"
+    },
+    "overview_feature_2": {
+      "title": "文書を解析",
+      "description": "ハイパーリンク、表、QRコード、バーコード、PDFフォームのデータなど、さまざまな要素を抽出します。また、カスタムテンプレートを使用して任意の情報を文書から解析します。"
+    },
+    "overview_feature_3": {
+      "title": "結果のカスタマイズ",
+      "description": "{{EnvNameShort}} APIでは、生データ、構造化データ、HTML、またはMarkdownなど、さまざまな形式でデータを取得できます。さらに、文書のテキスト内に特定の単語やフレーズを見つけるための検索機能も提供しています。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} の機能",
+      "description": "PDF、Office文書、および画像から迅速かつ正確にデータを抽出します。",
+      "feature_1": {
+        "title": "テキストの抽出",
+        "content": "オフィス文書、PDFファイル、画像など、さまざまなファイル形式からテキスト情報を抽出します。"
+      },
+      "feature_2": {
+        "title": "画像の抽出",
+        "content": "オフィス文書やPDFファイルから視覚コンテンツを抽出し、便宜上アクセス可能にします。"
+      },
+      "feature_3": {
+        "title": "QRコードのスキャン",
+        "content": "オフィス文書やPDFファイル、または視覚コンテンツに存在するQRコードを検出してデコードします。"
+      },
+      "feature_4": {
+        "title": "メール添付ファイルやアーカイブからデータを抽出",
+        "content": "メールメッセージ、ファイル添付、圧縮データソースから貴重な情報を取得します。"
+      },
+      "feature_5": {
+        "title": "表の抽出",
+        "content": "PDF文書内の表形式のデータを識別して抽出し、整理された分析と利用を行います。"
+      },
+      "feature_6": {
+        "title": "ハイパーリンクの抽出",
+        "content": "オフィス文書やPDFファイル内のハイパーリンクやメールアドレスを見つけて抽出します。"
+      },
+      "feature_7": {
+        "title": "PDFフォームを解析",
+        "content": "PDFフォームはユーザーが情報を電子的に入力できるようにするための入力可能なフィールドを含むデジタル文書です。 .NET APIを使用して、これらのフォームからデータを抽出し、効率的に処理します。"
+      },
+      "feature_8": {
+        "title": "テンプレートによるデータ解析",
+        "content": "カスタムテンプレートを作成し、.NET APIを利用してPDFファイルから特定の情報を解析します。"
+      },
+      "feature_9": {
+        "title": "文書内のテキストを検索",
+        "content": "文書内で特定の言葉やパターンを迅速に見つけます。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} は次のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています。",
+    "formats_description": "{{ProdFullName}} は次の [ファイル形式]({{SupportedFormatsUrl}})に対応しています。",
+    "code_samples_description": "典型的な {{ProdFullName}} 操作のいくつかのユースケース",
+    "code_title_sample_1": "PDF文書から画像を抽出",
+    "code_samples_sample_1_content": "{{ProdFullName}} は {{ProgLang}} 開発者が [文書]({{Sample1Url}}) から画像を抽出するのを簡単にします：",
+    "code_title_sample_2": "画像からバーコードを抽出",
+    "code_samples_sample_2_content": "私たちの {{EnvNameShort}} APIを使用して、画像から [バーコード]({{Sample2Url}}) を抽出します："
+  }
+}

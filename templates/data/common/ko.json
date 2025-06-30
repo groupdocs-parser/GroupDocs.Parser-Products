@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "PDF 파싱",
+        "description": "(휴대 문서 형식)"
+      },
+      "docx": {
+        "name": "DOCX 파싱",
+        "description": "(Office 2007+ 워드 문서)"
+      },
+      "pptx": {
+        "name": "PPTX 파싱",
+        "description": "(Open XML 프레젠테이션 형식)"
+      },
+      "xlsx": {
+        "name": "XLSX 파싱",
+        "description": "(Open XML 워크북)"
+      },
+      "odt": {
+        "name": "ODT 파싱",
+        "description": "(OpenDocument 텍스트 문서)"
+      },
+      "ods": {
+        "name": "ODS 파싱",
+        "description": "(OpenDocument 스프레드시트)"
+      },
+      "odp": {
+        "name": "ODP 파싱",
+        "description": "(OpenDocument 프레젠테이션)"
+      },
+      "txt": {
+        "name": "TXT 파싱",
+        "description": "(텍스트 파일)"
+      },
+      "rtf": {
+        "name": "RTF 파싱",
+        "description": "(리치 텍스트 형식)"
+      },
+      "xml": {
+        "name": "XML 파싱",
+        "description": "(확장 마크업 언어)"
+      },
+      "epub": {
+        "name": "EPUB 파싱",
+        "description": "(오픈 전자책 파일)"
+      },
+      "fb2": {
+        "name": "FB2 파싱",
+        "description": "(픽션북 전자책)"
+      }
+    },
+    "format-code": {
+      "copy_title": "복사",
+      "copy_tip": "클릭하여 복사",
+      "copy_done": "복사되었습니다",
+      "links": {
+        "title_1": "더 많은 예시",
+        "title_2": "문서화"
+      }
+    },
+    "format-actions": {
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}} 기능을 무료로 사용해 보거나 라이센스를 요청하세요",
+      "comment_1": "{{PackageStoreName}} 다운로드",
+      "comment_2": "라이선스"
+    },
+    "texts": {
+      "learn_more": "더 알아보기"
+    }
+  }
+}

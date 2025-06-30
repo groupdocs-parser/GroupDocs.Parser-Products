@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "在{{ProgLang}}应用中解析{{FileFormatUp}}文件中的数据",
+    "description": "使用{{ProdShortName}}从{{ProgLang}}文件中提取文本、图像、表格和其他数据，无需依赖第三方工具。"
+  },
+  "header": {
+    "title": "使用{{ProgLang}}解析{{FileFormatUp}}文档",
+    "description": "在您的{{EnvNameShort}}项目中，使用{{ProdShortName}}高效提取PDF、Word、Excel和图像文件中的文本、元数据、表格和图像。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API简介",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) 是一款功能丰富的文档解析API，专为{{EnvName}}开发人员设计。它支持从常见格式如PDF、DOCX、XLSX、PPTX等中提取纯文本和结构化文本、元数据、图像、表格和条形码，均无需额外的软件依赖。"
+  },
+  "formats": {
+    "title": "支持的数据提取格式",
+    "description": "{{ProdShortName}}能够解析广泛的文档和图像格式。了解在数据提取工作流程中常用的支持文件类型。"
+  },
+  "examples": {
+    "comment_1": "将文档加载到{{textParser}}中",
+    "comment_2": "从文件中提取所有文本内容",
+    "comment_3": "如果文本不可用，结果将为null",
+    "comment_4": "在您的应用中使用提取的文本",
+    "comment_5": "此格式不支持文本提取"
+  },
+  "steps": {
+    "title": "在{{ProgLang}}中从{{FileFormatCap}}提取数据的步骤",
+    "content": {
+      "title": "按照以下步骤使用[{{ProdShortName}}]({{PlatformLink}})在您的{{EnvName}}应用中解析{{FileFormatUp}}文档的内容：",
+      "step_1": "使用{{textParser}}实例加载{{FileFormatUp}}文档。",
+      "step_2": "提取所需的内容，例如文本、表格或元数据。",
+      "step_3": "验证提取的数据是否有效。",
+      "step_4": "在您的下游处理、自动化或业务系统中使用解析的输出。"
+    }
+  },
+  "more_features": {
+    "title": "全面的文档解析能力",
+    "description": "{{ProdShortName}}不仅支持文本读取，还支持条形码提取、图像解析、元数据访问和结构化数据处理，以进行高级自动化和数据分析。",
+    "image_description": "文档内容提取和解析能力",
+    "feature_1": {
+      "title": "支持多种文件内容类型",
+      "content": "从PDF、Word、Excel、HTML等文档格式中提取文本、图像、表格和字段等数据。"
+    },
+    "feature_2": {
+      "title": "处理扫描和数字文件",
+      "content": "支持从扫描文档和数字文件中解析数据，同时支持OCR和布局感知提取。"
+    },
+    "feature_3": {
+      "title": "可配置的提取参数",
+      "content": "通过灵活的选项调整解析逻辑，如页面范围选择、区域定位和字段检测模板。"
+    },
+    "code_1": {
+      "title": "如何使用模板解析PDF",
+      "content": "此示例展示了如何使用{{ProdShortName}}通过预定义的解析模板提取PDF中的结构化数据。",
+      "comment_1": "使用{{textParser}}类加载PDF文件",
+      "comment_2": "根据模板解析文档",
+      "comment_3": "检查是否支持表单提取",
+      "comment_4": "处理获得的字段",
+      "comment_5": "为'详情'表创建检测器参数"
+    }
+  }
+}

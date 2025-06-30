@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-26T17:35:42
+date:  2025-06-30T10:25:19
 draft: false
 lang: en
 format: Fb2
@@ -74,7 +74,7 @@ steps:
 
             // Verify that the file supports barcode extraction
             if (!parser.Features.Barcodes) {
-                Console.WriteLine("Handle cases where barcode extraction is not supported");
+                Console.WriteLine("Barcode extraction is not supported");
                 return;
             }
 

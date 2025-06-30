@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Ekstrak hyperlink dari file {{FileFormatUp}} dalam aplikasi {{ProgLang}}",
+    "description": "Gunakan {{ProdShortName}} untuk menemukan dan mengekstrak tautan URL dari dokumen {{FileFormatUp}} dalam proyek {{ProgLang}}—tanpa perangkat lunak tambahan."
+  },
+  "header": {
+    "title": "Ekstrak hyperlink dari {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Ambil tautan web dan hyperlink dari file PDF, dokumen Word, lembar Excel, dan dokumen lainnya menggunakan {{ProdShortName}} di lingkungan {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) adalah API ekstraksi konten yang kuat yang dirancang untuk pengembang {{EnvName}}. Ini menawarkan alat untuk mengekstrak hyperlink, data terstruktur, gambar, dan teks dari format populer seperti DOCX, XLSX, PDF, HTML, dan banyak lagi—semua tanpa memerlukan plugin eksternal."
+  },
+  "formats": {
+    "title": "Format dokumen yang mendukung ekstraksi hyperlink",
+    "description": "Dengan {{ProdShortName}}, Anda dapat mengekstrak hyperlink dari banyak format file yang umum digunakan. Berikut adalah daftar format yang biasanya didukung."
+  },
+  "examples": {
+    "comment_1": "Muat file yang mungkin berisi hyperlink menggunakan {{textParser}}",
+    "comment_2": "Periksa apakah format dokumen mendukung penguraian hyperlink",
+    "comment_3": "Ekstraksi hyperlink tidak tersedia untuk file ini",
+    "comment_4": "Ekstrak dan gunakan data hyperlink dari dokumen"
+  },
+  "steps": {
+    "title": "Cara mengekstrak hyperlink dari {{FileFormatCap}} dalam {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyederhanakan ekstraksi hyperlink dari file {{FileFormatUp}} dalam aplikasi {{EnvName}} dengan langkah-langkah dasar berikut:",
+      "step_1": "Buka file {{FileFormatUp}} menggunakan instance dari {{textParser}}.",
+      "step_2": "Pastikan ekstraksi hyperlink tersedia untuk format file.",
+      "step_3": "Ekstrak semua hyperlink menggunakan metode yang sesuai.",
+      "step_4": "Iterasikan hasil dan proses setiap tautan sesuai kebutuhan."
+    }
+  },
+  "more_features": {
+    "title": "Alat pemrosesan dokumen yang komprehensif",
+    "description": "Selain mengekstrak hyperlink, {{ProdShortName}} memungkinkan Anda mengumpulkan konten berguna lainnya seperti teks biasa, media terbenam, dan data terstruktur untuk digunakan dalam alur kerja otomatis.",
+    "image_description": "Ekstraksi hyperlink dan analisis dokumen",
+    "feature_1": {
+      "title": "Deteksi tautan yang akurat",
+      "content": "Tangkap semua jenis hyperlink dari berbagai tata letak dokumen, termasuk teks yang dapat diklik dan URL tersembunyi."
+    },
+    "feature_2": {
+      "title": "Bekerja dengan dokumen dan konten web",
+      "content": "Ambil tautan dari file PDF, DOCX, XLSX, HTML, dan file gambar yang berisi hyperlink terbenam."
+    },
+    "feature_3": {
+      "title": "Perilaku ekstraksi khusus",
+      "content": "Sempurnakan cara hyperlink diekstrak menggunakan opsi seperti rentang halaman, jenis tautan, atau filter konten."
+    },
+    "code_1": {
+      "title": "Contoh: mengekstrak hyperlink dari PDF dengan opsi khusus",
+      "content": "Contoh ini menunjukkan cara mengekstrak semua tautan dari file PDF menggunakan pengaturan ekstraksi tautan.",
+      "comment_1": "Buka PDF menggunakan kelas {{textParser}}",
+      "comment_2": "Verifikasi bahwa dukungan hyperlink diaktifkan untuk dokumen ini",
+      "comment_3": "Terapkan opsi untuk memfilter tautan",
+      "comment_4": "Gunakan parser untuk mendapatkan data hyperlink",
+      "comment_5": "Iterasikan tautan dan tangani sesuai kebutuhan"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Extraer tablas de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}}",
+    "description": "Utiliza {{ProdShortName}} para localizar y extraer datos de tablas estructuradas de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}} sin dependencias adicionales."
+  },
+  "header": {
+    "title": "Extrae tablas de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Identifica y extrae rápidamente estructuras de tablas de PDF, Word, Excel y otros formatos de archivo utilizando {{ProdShortName}} en tus proyectos de {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratis"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) es una API integral de análisis de documentos creada para desarrolladores de {{EnvName}}. Permite la extracción precisa de texto, tablas, imágenes, hiperenlaces y otros elementos estructurados de formatos como PDF, DOCX, XLSX, PPTX y muchos otros, sin necesidad de software de terceros."
+  },
+  "formats": {
+    "title": "Formatos soportados para extracción de tablas",
+    "description": "{{ProdShortName}} puede extraer datos de tablas de una variedad de tipos de documentos. A continuación se presentan los formatos más utilizados para el análisis estructurado de tablas."
+  },
+  "examples": {
+    "comment_1": "Abre el documento que contiene datos de tabla utilizando {{textParser}}",
+    "comment_2": "Verifica si el formato soporta el reconocimiento de tablas",
+    "comment_3": "Maneja documentos que no soportan el análisis de tablas",
+    "comment_4": "Define cómo debe reconocerse la estructura de la tabla",
+    "comment_5": "Especifica parámetros de extracción para los datos de la tabla",
+    "comment_6": "Extrae tablas del contenido del archivo",
+    "comment_7": "Itera a través de cada tabla detectada"
+  },
+  "steps": {
+    "title": "Pasos para extraer tablas de {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "Sigue estas instrucciones para extraer tablas de archivos {{FileFormatUp}} usando [{{ProdShortName}}]({{PlatformLink}}) dentro de tu entorno {{EnvName}}:",
+      "step_1": "Inicializa una instancia de {{textParser}} y carga tu documento {{FileFormatUp}}.",
+      "step_2": "Verifica si la extracción de tablas es soportada para el formato de entrada.",
+      "step_3": "Extrae el contenido de la tabla del archivo.",
+      "step_4": "Utiliza los datos de la tabla estructurada para informes, automatización o análisis."
+    }
+  },
+  "more_features": {
+    "title": "Potentes capacidades de extracción de datos",
+    "description": "Además del análisis de tablas, {{ProdShortName}} puede extraer contenido enriquecido como bloques de texto, imágenes, metadatos y otros datos estructurados para facilitar la automatización de documentos.",
+    "image_description": "Reconocimiento de tablas y extracción de contenido",
+    "feature_1": {
+      "title": "Detección precisa de tablas en múltiples formatos",
+      "content": "Extrae datos tabulares de DOCX, XLSX, PDF, HTML y formatos similares con alta precisión."
+    },
+    "feature_2": {
+      "title": "Analiza estructuras de tablas desde archivos",
+      "content": "Recupera eficientemente datos de tablas de documentos y hojas de cálculo sin pérdida de formato."
+    },
+    "feature_3": {
+      "title": "Configuración flexible de extracción de tablas",
+      "content": "Ajusta la detección de diseño, la alineación de columnas y las opciones de encabezado/pie de página para un control preciso sobre la salida."
+    },
+    "code_1": {
+      "title": "Cómo extraer tablas de hojas de cálculo de Excel",
+      "content": "Este ejemplo de código muestra cómo leer e iterar a través de datos de tabla en un archivo XLSX usando {{ProdShortName}}.",
+      "comment_1": "Abre el archivo de Excel utilizando la API {{textParser}}",
+      "comment_2": "Sal si no se pueden extraer tablas del archivo",
+      "comment_3": "Utiliza reglas de diseño para localizar contenido tabular",
+      "comment_4": "Configura los parámetros de extracción para las tablas",
+      "comment_5": "Realiza la operación de extracción de tablas",
+      "comment_6": "Revisa la estructura de cada tabla detectada",
+      "comment_7": "Itera a través de cada fila en la tabla",
+      "comment_8": "Itera sobre las celdas en cada fila",
+      "comment_9": "Accede a la celda actual de la tabla",
+      "comment_10": "Muestra el contenido de texto de cada celda"
+    }
+  }
+}

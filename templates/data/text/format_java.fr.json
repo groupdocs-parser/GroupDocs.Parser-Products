@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Récupérez du texte à partir de fichiers {{FileFormatUp}} dans des applications {{ProgLang}}",
+    "description": "Exploitez {{ProdShortName}} pour extraire du contenu textuel non structuré ou structuré à partir de documents {{FileFormatUp}} en {{ProgLang}}, sans dépendances externes."
+  },
+  "header": {
+    "title": "Récupérez du texte à partir de {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Tirez sans effort du texte lisible ou structuré de fichiers tels que PDF, Word, Excel, et autres en utilisant {{ProdShortName}} dans vos projets de développement {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "Présentation de l'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) est un analyseur de documents robuste et évolutif conçu pour les développeurs {{EnvName}}. Il offre des capacités pour extraire avec précision du texte, des tables, des images et des composants structurés à partir de divers formats, notamment PDF, DOCX, XLSX, PPTX, et d'autres—sans avoir recours à des utilitaires externes."
+  },
+  "formats": {
+    "title": "Types de fichiers pris en charge pour l'extraction de texte",
+    "description": "{{ProdShortName}} est capable de récupérer le contenu textuel à partir de nombreux formats de fichiers et d'images. Voici les types les plus couramment utilisés qu'il prend en charge."
+  },
+  "examples": {
+    "comment_1": "Initialisez {{textParser}} avec votre document",
+    "comment_2": "Lisez et extrayez toutes les données textuelles",
+    "comment_3": "Retournez null si le contenu textuel est absent",
+    "comment_4": "Intégrez le texte extrait dans votre flux de travail",
+    "comment_5": "Ignorez les formats d'extraction de texte non pris en charge"
+  },
+  "steps": {
+    "title": "Comment récupérer du texte à partir de {{FileFormatCap}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "Suivez les étapes ci-dessous pour extraire du texte à partir de fichiers {{FileFormatUp}} en utilisant [{{ProdShortName}}]({{PlatformLink}}) dans votre projet {{EnvName}} :",
+      "step_1": "Chargez le document {{FileFormatUp}} à l'aide de la classe {{textParser}}.",
+      "step_2": "Effectuez l'extraction de texte à partir du contenu du fichier.",
+      "step_3": "Vérifiez si le texte a été récupéré avec succès.",
+      "step_4": "Utilisez les données textuelles dans des systèmes de recherche, d'analyse ou d'automatisation."
+    }
+  },
+  "more_features": {
+    "title": "Fonctionnalité d'extraction de texte riche",
+    "description": "{{ProdShortName}} va au-delà de l'extraction de texte simple, prenant en charge la récupération d'images, de métadonnées et de données structurées pour améliorer les tâches de traitement de contenu.",
+    "image_description": "Extraire et structurer le contenu textuel des documents",
+    "feature_1": {
+      "title": "Fonctionne avec de nombreux formats de documents",
+      "content": "Capturez à la fois du texte brut et structuré à partir de DOCX, XLSX, PPTX, PDF, HTML et d'autres formats."
+    },
+    "feature_2": {
+      "title": "Extraire du texte à partir de contenu visuel et textuel",
+      "content": "Analysez le texte à partir de documents numérisés, de diapositives, de tableaux et d'autres types de fichiers tout en préservant la structure logique."
+    },
+    "feature_3": {
+      "title": "Contrôle détaillé sur le processus d'extraction",
+      "content": "Configurez des plages de pages, des zones de mise en page et des paramètres de précision pour un parsing de texte finement réglé."
+    },
+    "code_1": {
+      "title": "Exemple : Extraction de régions de texte à partir d'un document PPTX",
+      "content": "Cet exemple montre comment extraire des blocs de texte avec leurs coordonnées spatiales d'une présentation PowerPoint à l'aide de {{ProdShortName}}.",
+      "comment_1": "Chargez votre fichier PPTX avec l'API {{textParser}}",
+      "comment_2": "Obtenez toutes les zones de texte rectangulaires",
+      "comment_3": "Quittez si cette fonctionnalité n'est pas prise en charge",
+      "comment_4": "Parcourez les zones de texte par page",
+      "comment_5": "Traitez chaque bloc de texte avec son numéro de page et son rectangle de délimitation"
+    }
+  }
+}

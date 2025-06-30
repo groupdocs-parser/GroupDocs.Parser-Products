@@ -24,7 +24,7 @@
     "comment_4": "Process or save the retrieved images"
   },
   "steps": {
-    "title": "Steps to extract images from {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps to extract images from {{FileFormatCap}} in {{ProgLang}}",
     "content": {
       "title": "With [{{ProdShortName}}]({{PlatformLink}}), you can extract images from {{FileFormatUp}} documents in your {{EnvName}} projects in just a few steps:",
       "step_1": "Initialize the {{textParser}} with the {{FileFormatUp}} file.",

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Trích xuất bảng từ tài liệu {{FileFormatUp}} trong ứng dụng {{ProgLang}}",
+    "description": "Trích xuất dữ liệu bảng có cấu trúc từ các tập tin {{FileFormatUp}} trong các ứng dụng {{ProgLang}} bằng cách sử dụng {{ProdShortName}}—không cần công cụ bên ngoài."
+  },
+  "header": {
+    "title": "Trích xuất dữ liệu bảng từ {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Phát hiện và trích xuất bảng từ các định dạng như PDF, DOCX, và XLSX một cách liền mạch với {{ProdShortName}} trong quy trình {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải phiên bản dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) là một API trích xuất nội dung phong phú tính năng dành cho các nền tảng {{EnvName}}. Nó cho phép các nhà phát triển phân tích chính xác bảng, văn bản, đồ họa, liên kết và dữ liệu có cấu trúc từ các tài liệu PDF, các tài liệu Word, bảng tính Excel, bài thuyết trình PowerPoint, và nhiều định dạng khác—mà không cần các plugin bên thứ ba."
+  },
+  "formats": {
+    "title": "Các loại tài liệu được hỗ trợ cho việc trích xuất bảng",
+    "description": "{{ProdShortName}} cung cấp phát hiện bảng đáng tin cậy trên nhiều loại tệp. Dưới đây là danh sách các định dạng tài liệu được hỗ trợ rộng rãi nhất cho việc trích xuất bảng."
+  },
+  "examples": {
+    "comment_1": "Tải tài liệu đầu vào với {{textParser}} bao gồm các phần tử bảng",
+    "comment_2": "Xác nhận rằng loại tài liệu cho phép nhận diện bảng",
+    "comment_3": "Thêm logic cho các tệp không hỗ trợ bảng",
+    "comment_4": "Định nghĩa quy tắc để diễn giải cấu trúc bảng",
+    "comment_5": "Đặt tham số để trích xuất bảng",
+    "comment_6": "Chạy trích xuất bảng trên tài liệu đã tải",
+    "comment_7": "Xử lý từng bảng được trích xuất từ kết quả"
+  },
+  "steps": {
+    "title": "Cách trích xuất bảng từ {{FileFormatCap}} trong {{ProgLang}}",
+    "content": {
+      "title": "Để phân tích bảng từ tài liệu {{FileFormatUp}} bằng [{{ProdShortName}}]({{PlatformLink}}), hãy làm theo các bước sau trong môi trường {{EnvName}} của bạn:",
+      "step_1": "Tạo một thể hiện {{textParser}} và tải tập tin {{FileFormatUp}} mục tiêu.",
+      "step_2": "Xác nhận rằng tập tin hỗ trợ việc trích xuất bảng có cấu trúc.",
+      "step_3": "Sử dụng API để lấy các phần tử bảng từ tài liệu.",
+      "step_4": "Sử dụng dữ liệu đã trích xuất trong phân tích, báo cáo, hoặc hệ thống tự động hóa."
+    }
+  },
+  "more_features": {
+    "title": "Công cụ trích xuất nội dung nâng cao",
+    "description": "Ngoài việc đọc bảng, {{ProdShortName}} còn hỗ trợ việc khôi phục văn bản thuần, các yếu tố hình ảnh, siêu dữ liệu nhúng, và các đối tượng có cấu trúc để nâng cao các nhiệm vụ xử lý tài liệu.",
+    "image_description": "Trích xuất nội dung có cấu trúc và dữ liệu bảng",
+    "feature_1": {
+      "title": "Phân tích bảng chính xác qua nhiều định dạng",
+      "content": "Hỗ trợ trích xuất bảng từ các loại tài liệu tiêu chuẩn như PDF, Word, Excel, và HTML với độ chính xác cao."
+    },
+    "feature_2": {
+      "title": "Đọc cấu trúc bảng từ nhiều nguồn khác nhau",
+      "content": "Khôi phục dữ liệu bảng từ bảng tính, tài liệu, và báo cáo trong khi vẫn bảo tồn cấu trúc và bố cục."
+    },
+    "feature_3": {
+      "title": "Thiết lập trích xuất bảng tùy chỉnh",
+      "content": "Kiểm soát việc phát hiện bố cục, quản lý tiêu đề và chân trang, cũng như tùy chỉnh việc trích xuất với các tùy chọn cấu hình linh hoạt."
+    },
+    "code_1": {
+      "title": "Mẫu: trích xuất bảng từ tài liệu Excel",
+      "content": "Ví dụ này cho thấy cách trích xuất và lặp qua nội dung bảng trong tập tin Excel (XLSX) bằng cách sử dụng {{ProdShortName}}.",
+      "comment_1": "Khởi tạo {{textParser}} với tệp Excel",
+      "comment_2": "Thoát nếu việc trích xuất bảng không được hỗ trợ cho tài liệu này",
+      "comment_3": "Áp dụng quy tắc để xác định bố cục bảng",
+      "comment_4": "Cấu hình môi trường cho việc trích xuất bảng",
+      "comment_5": "Kích hoạt quy trình trích xuất",
+      "comment_6": "Lặp qua tất cả các cấu trúc bảng đã phân tích",
+      "comment_7": "Lặp qua từng hàng trong bảng",
+      "comment_8": "Xử lý từng ô trong hàng hiện tại",
+      "comment_9": "Truy cập và đọc nội dung của ô hiện tại",
+      "comment_10": "Xuất giá trị văn bản của từng ô bảng"
+    }
+  }
+}

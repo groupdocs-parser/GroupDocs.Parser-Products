@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-26T17:35:44
+date:  2025-06-30T10:25:38
 draft: false
 lang: en
 format: Pdf
@@ -104,7 +104,7 @@ steps:
             Iterable<PageTableArea> tables = parser.getTables(options);
 
             //  Process each extracted table from the result
-            for (PageTableArea t : tables) {
+            for (PageTableArea t : tables) 
             {
             }
         }
@@ -140,7 +140,7 @@ more_features:
         //  Initialize Parser with the Excel file
         try (Parser parser = new Parser("input.pdf"))
         {
-            // Exit if table extraction isn’t supported for this format
+            // Exit if table extraction isn’t supported for this document
             if (!parser.getFeatures().isTables())
             {
                 return;

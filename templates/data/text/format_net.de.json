@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Text aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Apps extrahieren",
+    "description": "Nutzen Sie {{ProdShortName}}, um einfachen oder strukturierten Text aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Anwendungen zu extrahieren, ohne auf externe Tools angewiesen zu sein."
+  },
+  "header": {
+    "title": "Text aus {{FileFormatUp}} mit {{ProgLang}} extrahieren",
+    "description": "Extrahieren Sie schnell lesbaren und strukturierten Text aus PDFs, Word, Excel und anderen Dateitypen mit {{ProdShortName}} in Ihren {{EnvNameShort}}-Lösungen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Über die {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ist eine leistungsstarke API zum Parsen von Dokumenten für Entwickler von {{EnvName}}. Sie vereinfacht die Extraktion von Text, Bildern, Tabellen und strukturierten Inhalten aus mehreren Dateiformaten, darunter PDF, DOCX, XLSX, PPTX und mehr – ohne auf Drittanbieterbibliotheken angewiesen zu sein."
+  },
+  "formats": {
+    "title": "Unterstützte Formate für die Textextraktion",
+    "description": "{{ProdShortName}} ermöglicht die Textextraktion aus einer Vielzahl von Dokumenten und Bildtypen. Erkunden Sie die unten aufgeführten häufig unterstützten Formate."
+  },
+  "examples": {
+    "comment_1": "Laden Sie Ihr Dokument in {{textParser}}",
+    "comment_2": "Extrahieren Sie den gesamten Textinhalt aus der Datei",
+    "comment_3": "Wenn der Text nicht verfügbar ist, ist das Ergebnis null",
+    "comment_4": "Verwenden Sie den extrahierten Text in Ihrer Anwendung",
+    "comment_5": "Die Textextraktion wird für dieses Format nicht unterstützt"
+  },
+  "steps": {
+    "title": "Schritte zur Textextraktion aus {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "Sie können mit [{{ProdShortName}}]({{PlatformLink}}) sauberen und strukturierten Text aus {{FileFormatUp}}-Dokumenten in {{EnvName}}-Apps extrahieren, indem Sie die folgenden Schritte befolgen:",
+      "step_1": "Öffnen Sie das {{FileFormatUp}}-Dokument mit einer {{textParser}}-Instanz.",
+      "step_2": "Extrahieren Sie den Text aus dem Dateiinhalt.",
+      "step_3": "Überprüfen Sie das Ergebnis, um zu bestätigen, dass die Textextraktion erfolgreich war.",
+      "step_4": "Verwenden Sie den extrahierten Text in Ihrer Geschäftslogik, Indizierung oder Datenpipelines."
+    }
+  },
+  "more_features": {
+    "title": "Umfangreiche Funktionen zur Inhaltsextraktion",
+    "description": "Zusätzlich zu einfachem Text kann {{ProdShortName}} Bilder, strukturierte Elemente und Metadaten extrahieren, um die Inhaltsanalyse, -transformation und -automatisierung zu unterstützen.",
+    "image_description": "Texterkennung und strukturiertes Dokumentenparsen",
+    "feature_1": {
+      "title": "Textextraktion über verschiedene Dateitypen hinweg",
+      "content": "Erhalten Sie einfachen oder strukturierten Text aus Formaten wie PDF, DOCX, XLSX, PPTX, HTML und anderen Formaten."
+    },
+    "feature_2": {
+      "title": "Text aus Dokumenten und visuellen Inhalten verarbeiten",
+      "content": "Extrahieren Sie Text aus gescannten Bildern, Präsentationen, Tabellenkalkulationen und digitalen Dokumenten, während Sie die Struktur beibehalten."
+    },
+    "feature_3": {
+      "title": "Erweiterte Konfiguration der Textextraktion",
+      "content": "Passen Sie an, wie Text erkannt wird – definieren Sie Seitenbereiche, Layoutregionen und optimieren Sie die Ausgabe für maximale Genauigkeit."
+    },
+    "code_1": {
+      "title": "So extrahieren Sie Textbereiche aus einer PPTX-Datei",
+      "content": "Dieses Codebeispiel zeigt, wie Sie Textinhalte zusammen mit Bereichskoordinaten aus einer PowerPoint-Datei mit {{ProdShortName}} abrufen.",
+      "comment_1": "Laden Sie die PowerPoint-Präsentation mit {{textParser}}",
+      "comment_2": "Extrahieren Sie alle Textbereichsrechtecke aus dem Dokument",
+      "comment_3": "Beenden Sie, wenn die Extraktion der Textbereiche nicht verfügbar ist",
+      "comment_4": "Durchlaufen Sie die Textbereiche jeder Seite",
+      "comment_5": "Zugriff auf Seitenindex, Bereichsrechteck und Textwert"
+    }
+  }
+}

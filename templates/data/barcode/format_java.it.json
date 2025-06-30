@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Leggi codici a barre dai file {{FileFormatUp}} nelle app {{ProgLang}}",
+    "description": "Con {{ProdShortName}}, estrai dati dei codici a barre dai documenti {{FileFormatUp}} utilizzando {{ProgLang}} senza strumenti esterni."
+  },
+  "header": {
+    "title": "Leggi codici a barre da {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "description": "Estrai contenuti di codici a barre da file PDF, Word, Excel e immagini utilizzando {{ProdShortName}} nelle tue applicazioni {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica la versione di prova gratuita"
+  },
+  "about": {
+    "title": "Panoramica dell'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) offre una soluzione completa per il parsing dei documenti in {{EnvName}}. Consente agli sviluppatori di estrarre codici a barre, testo, immagini e informazioni strutturate da diversi formati di file come PDF, Word, Excel, PowerPoint e altri, senza la necessità di librerie di terze parti."
+  },
+  "formats": {
+    "title": "Formati di file supportati per la lettura dei codici a barre",
+    "description": "{{ProdShortName}} può leggere codici a barre da molti tipi di documenti e immagini. Di seguito sono riportati alcuni dei formati comunemente supportati."
+  },
+  "examples": {
+    "comment_1": "Apri un documento contenente codici a barre utilizzando {{textParser}}",
+    "comment_2": "Controlla il supporto per i codici a barre per il file",
+    "comment_3": "Gestisci tipi di file non supportati",
+    "comment_4": "Estrai e utilizza i dati dei codici a barre"
+  },
+  "steps": {
+    "title": "Come leggere codici a barre da {{FileFormatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), gli sviluppatori di {{EnvName}} possono estrarre codici a barre dai documenti {{FileFormatUp}} in pochi passaggi:",
+      "step_1": "Carica il documento {{FileFormatUp}} utilizzando {{textParser}}.",
+      "step_2": "Verifica che il documento supporti l'estrazione dei codici a barre.",
+      "step_3": "Usa l'API per recuperare i dati dei codici a barre.",
+      "step_4": "Scorri i risultati dei codici a barre e applicali secondo necessità."
+    }
+  },
+  "more_features": {
+    "title": "Ulteriori capacità di parsing",
+    "description": "{{ProdShortName}} va oltre l'estrazione dei codici a barre: consente anche di estrarre testo semplice, immagini ed elementi strutturati per supportare flussi di lavoro basati sui dati.",
+    "image_description": "Funzionalità di estrazione codici a barre e dati",
+    "feature_1": {
+      "title": "Ampio supporto per formati di codici a barre",
+      "content": "Rileva formati di codici a barre standard tra cui QR Code, Code 39, Data Matrix, EAN, Aztec e altri."
+    },
+    "feature_2": {
+      "title": "Leggi codici a barre da più fonti",
+      "content": "Estrai informazioni sui codici a barre da documenti Office, PDF e file immagine come PNG, JPG e BMP."
+    },
+    "feature_3": {
+      "title": "Impostazione personalizzata della lettura dei codici a barre",
+      "content": "Affina l'estrazione dei codici a barre con opzioni per mirare a regioni specifiche e file multi-pagina."
+    },
+    "code_1": {
+      "title": "Esempio: estrai codici a barre da PDF con opzioni",
+      "content": "Questo esempio dimostra l'estrazione di codici a barre da un documento PDF utilizzando impostazioni personalizzate.",
+      "comment_1": "Inizializza il parser con un documento PDF",
+      "comment_2": "Assicurati che il documento supporti la lettura dei codici a barre",
+      "comment_3": "Applica filtri con le opzioni dei codici a barre",
+      "comment_4": "Estrai i codici a barre utilizzando il parser",
+      "comment_5": "Gestisci ciascun risultato del codice a barre"
+    }
+  }
+}

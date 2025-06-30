@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Leer códigos de barras de archivos {{FileFormatUp}} en aplicaciones {{ProgLang}}",
+    "description": "Con {{ProdShortName}}, extraiga datos de códigos de barras de documentos {{FileFormatUp}} usando {{ProgLang}} sin herramientas externas."
+  },
+  "header": {
+    "title": "Leer códigos de barras de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Extraiga contenido de códigos de barras de archivos PDF, Word, Excel e imágenes utilizando {{ProdShortName}} en sus aplicaciones {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar prueba gratuita"
+  },
+  "about": {
+    "title": "Descripción general de la API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ofrece una solución integral para el análisis de documentos en {{EnvName}}. Permite a los desarrolladores extraer códigos de barras, texto, imágenes e información estructurada de múltiples formatos de archivo como PDF, Word, Excel, PowerPoint y otros, sin necesidad de bibliotecas de terceros."
+  },
+  "formats": {
+    "title": "Formatos de archivo compatibles para lectura de códigos de barras",
+    "description": "{{ProdShortName}} puede leer códigos de barras de muchos tipos de documentos e imágenes. A continuación se presentan algunos de los formatos más comúnmente soportados."
+  },
+  "examples": {
+    "comment_1": "Abra un documento que contenga códigos de barras utilizando {{textParser}}",
+    "comment_2": "Verifique el soporte de códigos de barras para el archivo",
+    "comment_3": "Maneje tipos de archivos no compatibles",
+    "comment_4": "Extraiga y utilice datos de códigos de barras"
+  },
+  "steps": {
+    "title": "Cómo leer códigos de barras de {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), los desarrolladores de {{EnvName}} pueden extraer códigos de barras de documentos {{FileFormatUp}} en solo unos pocos pasos:",
+      "step_1": "Cargue el documento {{FileFormatUp}} usando {{textParser}}.",
+      "step_2": "Verifique que el documento soporte la extracción de códigos de barras.",
+      "step_3": "Utilice la API para recuperar datos de códigos de barras.",
+      "step_4": "Itere a través de los resultados de códigos de barras y aplíquelos según sea necesario."
+    }
+  },
+  "more_features": {
+    "title": "Más capacidades de análisis",
+    "description": "{{ProdShortName}} va más allá de la extracción de códigos de barras: también le permite extraer texto plano, imágenes y elementos estructurados para respaldar flujos de trabajo impulsados por datos.",
+    "image_description": "Características de extracción de códigos de barras y datos",
+    "feature_1": {
+      "title": "Amplio soporte de formatos de códigos de barras",
+      "content": "Detecte formatos de códigos de barras estándar, incluidos Código QR, Código 39, Data Matrix, EAN, Aztec y otros."
+    },
+    "feature_2": {
+      "title": "Leer códigos de barras de múltiples fuentes",
+      "content": "Extraiga información de códigos de barras de documentos de Office, PDFs y archivos de imagen como PNG, JPG y BMP."
+    },
+    "feature_3": {
+      "title": "Configuración personalizada de lectura de códigos de barras",
+      "content": "Ajuste la extracción de códigos de barras con opciones para apuntar a regiones específicas y archivos de varias páginas."
+    },
+    "code_1": {
+      "title": "Ejemplo: extraer códigos de barras de PDF con opciones",
+      "content": "Este ejemplo demuestra la extracción de códigos de barras de un documento PDF utilizando configuraciones personalizadas.",
+      "comment_1": "Inicialice el analizador con el documento PDF",
+      "comment_2": "Asegúrese de que el documento soporte la lectura de códigos de barras",
+      "comment_3": "Aplique filtrado con opciones de códigos de barras",
+      "comment_4": "Extraiga códigos de barras utilizando el analizador",
+      "comment_5": "Maneje cada resultado de código de barras"
+    }
+  }
+}

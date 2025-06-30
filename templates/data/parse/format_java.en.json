@@ -25,7 +25,7 @@
     "comment_5": "This format may not support text extraction"
   },
   "steps": {
-    "title": "How to extract data from {{FileformatCap}} using {{ProgLang}}",
+    "title": "How to extract data from {{FileFormatCap}} using {{ProgLang}}",
     "content": {
       "title": "To extract useful information from {{FileFormatUp}} documents in your {{EnvName}} projects using [{{ProdShortName}}]({{PlatformLink}}), follow these instructions:",
       "step_1": "Open the {{FileFormatUp}} file with a {{textParser}} object.",

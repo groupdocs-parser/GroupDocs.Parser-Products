@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "在{{ProgLang}}应用程序中从{{FileFormatUp}}文件读取条形码",
+    "description": "使用{{ProdShortName}}，无需任何外部工具，从{{FileFormatUp}}文档中提取条形码数据。"
+  },
+  "header": {
+    "title": "使用{{ProgLang}}从{{FileFormatUp}}读取条形码",
+    "description": "在您的{{EnvNameShort}}应用程序中，使用{{ProdShortName}}从PDF、Word、Excel和图像文件中提取条形码内容。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API概述",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) 提供了一个全面的文档解析解决方案，适用于{{EnvName}}。它使开发人员能够从多个文件格式（如PDF、Word、Excel、PowerPoint等）中提取条形码、文本、图像和结构化信息，无需使用第三方库。"
+  },
+  "formats": {
+    "title": "支持条形码读取的文件格式",
+    "description": "{{ProdShortName}}可以从多种文档和图像类型中读取条形码。以下是一些常见的支持格式。"
+  },
+  "examples": {
+    "comment_1": "使用{{textParser}}打开包含条形码的文档",
+    "comment_2": "检查文件的条形码支持",
+    "comment_3": "处理不支持的文件类型",
+    "comment_4": "提取并使用条形码数据"
+  },
+  "steps": {
+    "title": "如何在{{ProgLang}}中从{{FileFormatCap}}读取条形码",
+    "content": {
+      "title": "使用[{{ProdShortName}}]({{PlatformLink}})，{{EnvName}}开发人员可以在几个步骤内从{{FileFormatUp}}文档中提取条形码：",
+      "step_1": "使用{{textParser}}加载{{FileFormatUp}}文档。",
+      "step_2": "验证该文档是否支持条形码提取。",
+      "step_3": "使用API检索条形码数据。",
+      "step_4": "遍历条形码结果并根据需要加以应用。"
+    }
+  },
+  "more_features": {
+    "title": "更多解析能力",
+    "description": "{{ProdShortName}} 超越了条形码提取——它还允许您提取纯文本、图像和结构元素，以支持数据驱动的工作流程。",
+    "image_description": "条形码和数据提取功能",
+    "feature_1": {
+      "title": "广泛的条形码格式支持",
+      "content": "检测标准条形码格式，包括QR码、Code 39、Data Matrix、EAN、Aztec等。"
+    },
+    "feature_2": {
+      "title": "从多种来源读取条形码",
+      "content": "从Office文档、PDF和图像文件（如PNG、JPG和BMP）中提取条形码信息。"
+    },
+    "feature_3": {
+      "title": "自定义条形码读取设置",
+      "content": "通过针对特定区域和多页文件的选项，微调条形码提取。"
+    },
+    "code_1": {
+      "title": "示例：使用选项从PDF提取条形码",
+      "content": "该示例演示了从PDF文档中使用自定义设置提取条形码。",
+      "comment_1": "使用PDF文档初始化解析器",
+      "comment_2": "确保文档支持条形码读取",
+      "comment_3": "应用条形码选项进行过滤",
+      "comment_4": "使用解析器提取条形码",
+      "comment_5": "处理每个条形码结果"
+    }
+  }
+}

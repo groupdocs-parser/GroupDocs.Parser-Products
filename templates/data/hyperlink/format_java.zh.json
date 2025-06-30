@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "从 {{FileFormatUp}} 文件中提取超链接，适用于 {{ProgLang}} 应用程序",
+    "description": "使用 {{ProdShortName}} 在 {{ProgLang}} 项目中查找并提取 {{FileFormatUp}} 文档中的网址链接，无需额外软件。"
+  },
+  "header": {
+    "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 中提取超链接",
+    "description": "在您的 {{EnvNameShort}} 环境中，使用 {{ProdShortName}} 从 PDF、Word 文件、Excel 表及其他文档中提取网站链接和超链接。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 介绍",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) 是一款强大的内容提取 API，旨在为 {{EnvName}} 开发者提供服务。它提供了从 DOCX、XLSX、PDF、HTML 等流行格式中提取超链接、结构化数据、图像和文本的工具，所有操作无需任何外部插件。"
+  },
+  "formats": {
+    "title": "支持超链接提取的文档格式",
+    "description": "通过 {{ProdShortName}}，您可以从许多常用的文件格式中提取超链接。以下是通常支持的格式列表。"
+  },
+  "examples": {
+    "comment_1": "使用 {{textParser}} 加载可能包含超链接的文件",
+    "comment_2": "检查文档格式是否支持超链接解析",
+    "comment_3": "该文件不支持超链接提取",
+    "comment_4": "从文档中提取并使用超链接数据"
+  },
+  "steps": {
+    "title": "如何在 {{ProgLang}} 中从 {{FileFormatCap}} 提取超链接",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 通过以下基本步骤简化在 {{EnvName}} 应用程序中从 {{FileFormatUp}} 文件中提取超链接的过程：",
+      "step_1": "使用 {{textParser}} 的实例打开 {{FileFormatUp}} 文件。",
+      "step_2": "确保该文件格式支持超链接提取。",
+      "step_3": "使用相应的方法提取所有超链接。",
+      "step_4": "遍历结果并根据需要处理每个链接。"
+    }
+  },
+  "more_features": {
+    "title": "全面的文档解析工具",
+    "description": "除了提取超链接，{{ProdShortName}} 允许您收集其他有用的内容，例如纯文本、嵌入式媒体和结构化数据，以便在自动化工作流程中使用。",
+    "image_description": "超链接提取和文档分析",
+    "feature_1": {
+      "title": "准确的链接检测",
+      "content": "从不同文档布局中捕捉所有类型的超链接，包括可点击的文本和隐藏的 URL。"
+    },
+    "feature_2": {
+      "title": "适用于文档和网页内容",
+      "content": "从包含嵌入超链接的 PDF、DOCX、XLSX、HTML 和图像文件中提取链接。"
+    },
+    "feature_3": {
+      "title": "自定义提取行为",
+      "content": "使用页面范围、链接类型或内容过滤器等选项精炼超链接的提取方式。"
+    },
+    "code_1": {
+      "title": "示例：使用自定义选项从 PDF 中提取超链接",
+      "content": "此示例演示如何使用链接提取设置从 PDF 文件中提取所有链接。",
+      "comment_1": "使用 {{textParser}} 类打开 PDF",
+      "comment_2": "验证此文档是否启用了超链接支持",
+      "comment_3": "应用选项以过滤链接",
+      "comment_4": "使用解析器获取超链接数据",
+      "comment_5": "遍历链接并相应处理"
+    }
+  }
+}

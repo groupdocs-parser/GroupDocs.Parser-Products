@@ -1,0 +1,303 @@
+{
+  "index-content": {
+    "head_title": "Những ứng dụng phân tích tài liệu {{ProdFullName}}",
+    "head_description": "Giải pháp phân tích tài liệu toàn diện cho các ứng dụng .NET, Java. Trích xuất dữ liệu từ các định dạng tài liệu trực tuyến bằng tính năng kéo và thả đơn giản.",
+    "title": "Giải pháp phân tích tài liệu",
+    "description_0": "API mạnh mẽ để trích xuất dữ liệu từ các định dạng tệp khác nhau.",
+    "description_1": "Phân tích tài liệu với nỗ lực lập trình tối thiểu.",
+    "description_2": "Tùy chỉnh kết quả phân tích.",
+    "words_for": "cho",
+    "release_title": "Phiên bản {0} đã được phát hành",
+    "release_notes": "Xem những điểm mới",
+    "release_downloads": "Tải xuống",
+    "code_more": "Nhiều ví dụ hơn",
+    "overview_title": "{{ProdShortName}} trong cái nhìn tổng quan",
+    "formats_title": "Các định dạng tệp được hỗ trợ",
+    "platforms": {
+      "title": "Tính độc lập của nền tảng",
+      "head_title": "Chọn nền tảng của bạn",
+      "description": "Thư viện {{ProdShortName}} hỗ trợ các hệ điều hành và khung làm việc sau:",
+      "learn_more": "Tìm hiểu thêm",
+      "any_other_text_editor": "Bất kỳ trình soạn thảo văn bản nào khác"
+    },
+    "features": {
+      "title": "{{ProdShortName}} tổng quan",
+      "description": "API để phân tích dữ liệu qua PDF, Word, Excel và nhiều hơn nữa",
+      "feature_1": {
+        "title": "Trích xuất văn bản",
+        "content": "Trích xuất thông tin văn bản từ các định dạng tệp khác nhau"
+      },
+      "feature_2": {
+        "title": "Trích xuất hình ảnh",
+        "content": "Lấy nội dung hình ảnh từ các nguồn đa dạng"
+      },
+      "feature_3": {
+        "title": "Phân tích dữ liệu theo mẫu",
+        "content": "Tạo các mẫu tùy chỉnh và sử dụng chúng để phân tích thông tin cụ thể"
+      },
+      "feature_4": {
+        "title": "Phân tích biểu mẫu PDF",
+        "content": "Biểu mẫu PDF là tài liệu số có các trường có thể điền để tương tác của người dùng"
+      }
+    },
+    "formats": {
+      "title": "Hơn 50 định dạng tệp được hỗ trợ",
+      "description": "{{ProdShortName}} cho phép thực hiện các thao tác phân tích trong nhiều gia đình định dạng khác nhau"
+    },
+    "code_samples": {
+      "title": "Ví dụ mã",
+      "index_title": "Ví dụ mã {{ProdShortName}}",
+      "index_description": "Một số trường hợp sử dụng các thao tác điển hình của {{ProdShortName}} trong C# và Java",
+      "more_examples": "Nhiều ví dụ hơn",
+      "sample_index": {
+        "title": "Cách trích xuất văn bản từ tài liệu PDF",
+        "content": "API {{ProdShortName}} giúp trích xuất văn bản từ tài liệu bằng cách thực hiện một vài bước.",
+        "comment_1": "Tạo một đối tượng của lớp {{textParser}} với tệp mong muốn",
+        "comment_2": "Trích xuất văn bản",
+        "comment_3": "Xử lý văn bản đã trích xuất"
+      },
+      "sample_1": {
+        "code_title": "Trích xuất hình ảnh từ tài liệu PDF trong {{ProgLang}}",
+        "comment_1": "Tạo một đối tượng của lớp {{textParser}}",
+        "comment_2": "Trích xuất hình ảnh",
+        "comment_3": "Kiểm tra xem đã trích xuất được không",
+        "comment_4": "Lặp qua các hình ảnh",
+        "comment_5": "In chỉ số trang, hình chữ nhật và loại hình ảnh"
+      },
+      "sample_2": {
+        "code_title": "Trích xuất mã vạch từ hình ảnh trong {{ProgLang}}",
+        "comment_1": "Tải hình ảnh nguồn vào {{textParser}}",
+        "comment_2": "Kiểm tra xem tệp có hỗ trợ trích xuất mã vạch không",
+        "comment_3": "Trích xuất mã vạch từ tệp",
+        "comment_4": "Lặp qua các mã vạch",
+        "comment_5": "In chỉ số trang",
+        "comment_6": "In giá trị mã vạch"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} thành tựu",
+      "description": "Khám phá các chỉ số chính của những thành tựu thư viện của chúng tôi",
+      "item_1": {
+        "title": "Các định dạng được hỗ trợ",
+        "description": "{{ProdShortName}} hỗ trợ các thao tác với hơn 50 định dạng tệp phổ biến."
+      },
+      "item_2": {
+        "title": "Tải xuống NuGet",
+        "description": "Gói NuGet {{ProdShortName}} cho .NET đã được tải xuống hơn 1.600.000 lần."
+      },
+      "item_3": {
+        "title": "Tải xuống Maven",
+        "description": "{{ProdShortName}} có 18.000 lượt tải xuống trên Maven. Các tính năng phân tích Java mạnh mẽ."
+      },
+      "item_4": {
+        "title": "Khách hàng hài lòng",
+        "description": "Các công ty nổi tiếng cũng như các nhà phát triển cá nhân chọn sản phẩm của {{NameCompany}} để xây dựng các giải pháp sáng tạo."
+      }
+    },
+    "customers": {
+      "title": "Khách hàng hài lòng của chúng tôi",
+      "description": "Các thư viện của {{NameCompany}} được sử dụng bởi các thương hiệu nổi tiếng và uy tín trên toàn cầu."
+    },
+    "actions": {
+      "alt": "Cấp phép",
+      "title": "Sẵn sàng bắt đầu?",
+      "description": "Cố gắng sử dụng các tính năng của {{ProdShortName}} miễn phí hoặc yêu cầu giấy phép",
+      "description_index": "Thử các tính năng của {{ProdShortName}} miễn phí trên nền tảng của bạn"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "description": "Các câu trả lời cho những câu hỏi thường gặp nhất.",
+      "item_1": {
+        "question": "Thư viện {{ProdShortName}} có cần bất kỳ phần mềm bên thứ ba nào khác để thao tác tài liệu không?",
+        "answer": "{{ProdShortName}} không yêu cầu cài đặt bất kỳ phần mềm bên ngoài nào như Adobe Acrobat, Microsoft Office, hay bất kỳ phần mềm nào khác."
+      },
+      "item_2": {
+        "question": "Tôi có thể thử thư viện {{ProdShortName}} trước khi mua không?",
+        "answer": "Có, bạn có thể thử {{ProdShortName}} mà không cần mua giấy phép. Khi được cài đặt mà không có giấy phép, thư viện hoạt động ở chế độ thử nghiệm. Trong chế độ này, có các huy hiệu thử nghiệm được thêm vào tài liệu kết quả, và nó bị cắt lại để chỉ 3 trang đầu tiên. Nếu bạn muốn thử GroupDocs.Parser mà không bị hạn chế của phiên bản thử nghiệm, bạn cũng có thể yêu cầu giấy phép tạm thời 30 ngày. Để biết thêm chi tiết, [xem]({{LicensingUrl}})"
+      },
+      "item_3": {
+        "question": "Các loại giấy phép bạn có là gì?",
+        "answer": "Chúng tôi cung cấp nhiều loại giấy phép khác nhau để phù hợp với nhu cầu của các nhà phát triển hoặc công ty cụ thể. Các loại giấy phép phụ thuộc vào số lượng nhà phát triển, số lượng địa điểm của nhà phát triển, và liệu bạn có cần giao SDK/API của chúng tôi cho khách hàng của bạn hay không. Ngoài ra, bạn có thể chọn giấy phép theo mức sử dụng hàng tháng của sản phẩm. Tìm hiểu thêm [tại đây]({{PricingUrl}})"
+      }
+    },
+    "cloud_links": {
+      "title": "API mã thấp của {{ProdShortName}}",
+      "description": "Kết hợp khả năng phân tích tài liệu vào bất kỳ ứng dụng nào bằng cách sử dụng REST API trên đám mây của chúng tôi.",
+      "item_1": {
+        "content": "Lệnh cURL cho Cloud API phân tích tài liệu RESTful để phân tích các tài liệu qua nhiều định dạng tệp phổ biến được hỗ trợ."
+      },
+      "item_2": {
+        "content": "Trích xuất hình ảnh, văn bản, thông tin tài liệu hoặc thậm chí phân tích bất kỳ tài liệu nào theo mẫu do người dùng định nghĩa trong các ứng dụng Microsoft .NET của bạn."
+      },
+      "item_3": {
+        "content": "SDK đám mây cho các nhà phát triển Java để phân tích các tài liệu, trích xuất thông tin tài liệu và dữ liệu trong các ứng dụng dựa trên Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Ứng dụng không mã",
+      "description": "Ứng dụng web cho phép bạn thực hiện phân tích qua hơn 50 định dạng tài liệu phổ biến trực tiếp trong trình duyệt của bạn.",
+      "item_1": {
+        "content": "Ứng dụng trực tuyến miễn phí để phân tích Word, Excel, PowerPoint, PDF & hơn 50 loại tài liệu khác."
+      },
+      "item_2": {
+        "content": "Phân tích tài liệu Word trực tiếp từ trình duyệt của bạn để trích xuất hình ảnh, văn bản hoặc siêu dữ liệu."
+      },
+      "item_3": {
+        "content": "Ứng dụng phân tích PDF miễn phí hoạt động trên bất kỳ nền tảng hoặc thiết bị nào mà không có giới hạn."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Định dạng Microsoft Office",
+      "title_2": "Hình ảnh & Các định dạng khác",
+      "title_3": "Các định dạng khác",
+      "format_portable": "Di động",
+      "format_images": "Hình ảnh",
+      "format_other_office": "Các định dạng văn phòng khác",
+      "format_other_web": "Web",
+      "format_other_archives": "Lưu trữ",
+      "format_other_ebooks": "e-Books"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{ProdFullName}} Ứng dụng phân tích tài liệu",
+    "head_description": "Giải pháp phân tích tài liệu toàn diện cho các ứng dụng {{EnvNameShort}}. Trích xuất dữ liệu từ các định dạng tài liệu trực tuyến bằng tính năng kéo và thả đơn giản.",
+    "title": "Phân tích tài liệu qua API {{EnvNameShort}}",
+    "description": "Trích xuất dữ liệu từ tài liệu và hình ảnh trên bất kỳ nền tảng nào bằng cách sử dụng API linh hoạt và giải pháp ứng dụng dựa trên lập trình cho các lập trình viên và người dùng cuối.",
+    "actions_main": "Tải xuống từ {{PackageStoreName}}",
+    "code_title": "Nhanh chóng phân tích nội dung tài liệu",
+    "code_comment_1": "Truyền tệp nguồn cho đối tượng {{textParser}}",
+    "code_comment_2": "Truyền văn bản tài liệu cho {{textReader}}",
+    "code_comment_3": "Xử lý văn bản tài liệu",
+    "overview_description": "API để thực hiện phân tích tài liệu trong các ứng dụng {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Trích xuất dữ liệu từ tài liệu",
+      "description": "API {{ProdFullName}} cho phép bạn lấy văn bản, siêu dữ liệu và hình ảnh từ nhiều định dạng tệp như tài liệu Office, email, tệp đính kèm và lưu trữ. Công cụ mạnh mẽ này giúp bạn truy cập và xử lý thông tin giá trị nằm trong các tệp này một cách hiệu quả cho nhiều ứng dụng như phân tích dữ liệu, lập chỉ mục công cụ tìm kiếm, hoặc hệ thống quản lý nội dung."
+    },
+    "overview_feature_2": {
+      "title": "Phân tích tài liệu",
+      "description": "Trích xuất các yếu tố khác nhau như siêu liên kết, bảng, mã QR, mã vạch và dữ liệu từ biểu mẫu PDF. Đồng thời phân tích bất kỳ thông tin nào mong muốn từ tài liệu bằng cách sử dụng các mẫu tùy chỉnh."
+    },
+    "overview_feature_3": {
+      "title": "Tùy chỉnh kết quả",
+      "description": "API {{EnvNameShort}} cho phép bạn truy xuất dữ liệu ở nhiều định dạng khác nhau như thô, cấu trúc, HTML hoặc Markdown. Ngoài ra, API còn cung cấp chức năng tìm kiếm để xác định các từ hoặc cụm từ cụ thể trong văn bản của tài liệu."
+    },
+    "features": {
+      "title": "{{ProdFullName}} các tính năng",
+      "description": "Trích xuất dữ liệu từ PDFs, tài liệu Office và hình ảnh một cách nhanh chóng và chính xác",
+      "feature_1": {
+        "title": "Trích xuất văn bản",
+        "content": "Trích xuất thông tin văn bản từ các định dạng tệp khác nhau như tài liệu văn phòng, tệp PDF và hình ảnh để dễ dàng đọc và phân tích."
+      },
+      "feature_2": {
+        "title": "Trích xuất hình ảnh",
+        "content": "Lấy nội dung hình ảnh từ nhiều nguồn như tài liệu văn phòng, tệp PDF để thuận tiện trong việc truy cập và sử dụng."
+      },
+      "feature_3": {
+        "title": "Quét mã QR",
+        "content": "Phát hiện và giải mã các mã QR có trong tài liệu văn phòng, tệp PDF hoặc nội dung hình ảnh để việc truy xuất thông tin hiệu quả."
+      },
+      "feature_4": {
+        "title": "Trích xuất dữ liệu từ tệp đính kèm email và lưu trữ",
+        "content": "Tập hợp thông tin quý giá từ các tin nhắn email, tệp đính kèm và nguồn dữ liệu nén để phân tích và sử dụng hiệu quả."
+      },
+      "feature_5": {
+        "title": "Trích xuất bảng",
+        "content": "Xác định và trích xuất dữ liệu dạng bảng từ tài liệu PDF để phân tích và sử dụng có tổ chức."
+      },
+      "feature_6": {
+        "title": "Trích xuất siêu liên kết",
+        "content": "Xác định và trích xuất siêu liên kết và địa chỉ email trong tài liệu văn phòng hoặc tệp PDF để truy cập hiệu quả."
+      },
+      "feature_7": {
+        "title": "Phân tích biểu mẫu PDF",
+        "content": "Biểu mẫu PDF là tài liệu số có các trường có thể điền để tương tác của người dùng, cho phép họ nhập thông tin một cách điện tử. API .NET có thể được sử dụng để trích xuất dữ liệu từ các biểu mẫu này cho quy trình hiệu quả."
+      },
+      "feature_8": {
+        "title": "Phân tích dữ liệu theo mẫu",
+        "content": "Tạo các mẫu tùy chỉnh và sử dụng chúng với API .NET để phân tích thông tin cụ thể từ các tệp PDF, đơn giản hóa quy trình trích xuất dữ liệu."
+      },
+      "feature_9": {
+        "title": "Tìm kiếm văn bản trong tài liệu",
+        "content": "Nhanh chóng xác định các từ hoặc mẫu cụ thể trong tài liệu."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} hỗ trợ các hệ điều hành, khung làm việc và trình quản lý gói sau",
+    "formats_description": "{{ProdFullName}} hỗ trợ các thao tác với [các định dạng tệp]({{SupportedFormatsUrl}}) sau.",
+    "code_samples_description": "Một số trường hợp sử dụng các thao tác điển hình của {{ProdFullName}}",
+    "code_title_sample_1": "Trích xuất hình ảnh từ tài liệu PDF",
+    "code_samples_sample_1_content": "{{ProdFullName}} giúp các nhà phát triển {{ProgLang}} dễ dàng trích xuất hình ảnh từ [tài liệu]({{Sample1Url}}):",
+    "code_title_sample_2": "Trích xuất mã vạch từ hình ảnh",
+    "code_samples_sample_2_content": "Sử dụng API {{EnvNameShort}} của chúng tôi để trích xuất [mã vạch]({{Sample2Url}}) từ hình ảnh:"
+  },
+  "index-content-java": {
+    "head_title": "{{ProdFullName}} Ứng dụng phân tích tài liệu",
+    "head_description": "Giải pháp phân tích tài liệu toàn diện cho các ứng dụng {{EnvNameShort}}. Trích xuất dữ liệu từ các định dạng tài liệu trực tuyến bằng tính năng kéo và thả đơn giản.",
+    "title": "Phân tích tài liệu qua API {{EnvNameShort}}",
+    "description": "Trích xuất dữ liệu từ tài liệu và hình ảnh trên bất kỳ nền tảng nào bằng cách sử dụng API linh hoạt và giải pháp ứng dụng dựa trên lập trình cho các lập trình viên và người dùng cuối.",
+    "actions_main": "Tải xuống từ {{PackageStoreName}}",
+    "code_title": "Nhanh chóng lấy nội dung tài liệu",
+    "code_comment_1": "Truyền tệp nguồn cho đối tượng {{textParser}}",
+    "code_comment_2": "Truyền văn bản tài liệu cho {{textReader}}",
+    "code_comment_3": "Xử lý văn bản tài liệu",
+    "overview_description": "API để thực hiện phân tích tài liệu trong các ứng dụng {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Trích xuất dữ liệu từ tài liệu",
+      "description": "{{ProdFullName}} API cho phép bạn truy xuất văn bản, siêu dữ liệu và hình ảnh từ nhiều định dạng tệp như tài liệu Office, email, tệp đính kèm và lưu trữ. Công cụ mạnh mẽ này giúp bạn truy cập và xử lý thông tin giá trị nằm trong các tệp này một cách hiệu quả cho nhiều ứng dụng như phân tích dữ liệu, lập chỉ mục công cụ tìm kiếm, hoặc hệ thống quản lý nội dung."
+    },
+    "overview_feature_2": {
+      "title": "Phân tích tài liệu",
+      "description": "Trích xuất các yếu tố khác nhau như siêu liên kết, bảng, mã QR, mã vạch và dữ liệu từ biểu mẫu PDF. Đồng thời phân tích bất kỳ thông tin nào mong muốn từ tài liệu bằng cách sử dụng các mẫu tùy chỉnh."
+    },
+    "overview_feature_3": {
+      "title": "Tùy chỉnh kết quả",
+      "description": "{{EnvNameShort}} API cho phép bạn truy xuất dữ liệu ở nhiều định dạng khác nhau như thô, cấu trúc, HTML hoặc Markdown. Ngoài ra, API còn cung cấp chức năng tìm kiếm để xác định các từ hoặc cụm từ cụ thể trong văn bản của tài liệu."
+    },
+    "features": {
+      "title": "{{ProdFullName}} các tính năng",
+      "description": "Trích xuất dữ liệu từ PDFs, tài liệu Office và hình ảnh một cách nhanh chóng và chính xác",
+      "feature_1": {
+        "title": "Trích xuất văn bản",
+        "content": "Trích xuất thông tin văn bản từ các định dạng tệp khác nhau như tài liệu văn phòng, tệp PDF và hình ảnh để dễ dàng đọc và phân tích."
+      },
+      "feature_2": {
+        "title": "Trích xuất hình ảnh",
+        "content": "Lấy nội dung hình ảnh từ nhiều nguồn như tài liệu văn phòng, tệp PDF để thuận tiện trong việc truy cập và sử dụng."
+      },
+      "feature_3": {
+        "title": "Quét mã QR",
+        "content": "Phát hiện và giải mã các mã QR có trong tài liệu văn phòng, tệp PDF hoặc nội dung hình ảnh để việc truy xuất thông tin hiệu quả."
+      },
+      "feature_4": {
+        "title": "Trích xuất dữ liệu từ tệp đính kèm email và lưu trữ",
+        "content": "Tập hợp thông tin quý giá từ các tin nhắn email, tệp đính kèm và nguồn dữ liệu nén để phân tích và sử dụng hiệu quả."
+      },
+      "feature_5": {
+        "title": "Trích xuất bảng",
+        "content": "Xác định và trích xuất dữ liệu dạng bảng từ tài liệu PDF để phân tích và sử dụng có tổ chức."
+      },
+      "feature_6": {
+        "title": "Trích xuất siêu liên kết",
+        "content": "Xác định và trích xuất siêu liên kết và địa chỉ email trong tài liệu văn phòng hoặc tệp PDF để truy cập hiệu quả."
+      },
+      "feature_7": {
+        "title": "Phân tích biểu mẫu PDF",
+        "content": "Biểu mẫu PDF là tài liệu số có các trường có thể điền để tương tác của người dùng, cho phép họ nhập thông tin một cách điện tử. API .NET có thể được sử dụng để trích xuất dữ liệu từ các biểu mẫu này cho quy trình hiệu quả."
+      },
+      "feature_8": {
+        "title": "Phân tích dữ liệu theo mẫu",
+        "content": "Tạo các mẫu tùy chỉnh và sử dụng chúng với API .NET để phân tích thông tin cụ thể từ các tệp PDF, đơn giản hóa quy trình trích xuất dữ liệu."
+      },
+      "feature_9": {
+        "title": "Tìm kiếm văn bản trong tài liệu",
+        "content": "Nhanh chóng xác định các từ hoặc mẫu cụ thể trong tài liệu."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} hỗ trợ các hệ điều hành, khung làm việc và trình quản lý gói sau",
+    "formats_description": "{{ProdFullName}} hỗ trợ các thao tác với [các định dạng tệp]({{SupportedFormatsUrl}}) sau.",
+    "code_samples_description": "Một số trường hợp sử dụng các thao tác điển hình của {{ProdFullName}}",
+    "code_title_sample_1": "Trích xuất hình ảnh từ tài liệu PDF",
+    "code_samples_sample_1_content": "{{ProdFullName}} giúp các nhà phát triển {{ProgLang}} dễ dàng trích xuất hình ảnh từ [tài liệu]({{Sample1Url}}):",
+    "code_title_sample_2": "Trích xuất mã vạch từ hình ảnh",
+    "code_samples_sample_2_content": "Sử dụng API {{EnvNameShort}} của chúng tôi để trích xuất [mã vạch]({{Sample2Url}}) từ hình ảnh:"
+  }
+}

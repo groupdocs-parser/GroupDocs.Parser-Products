@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Extraire le contenu des fichiers {{FileFormatUp}} dans les applications {{ProgLang}}",
+    "description": "Exploitez {{ProdShortName}} pour parser et récupérer des données structurées, du texte, des tableaux et des images depuis des fichiers {{FileFormatUp}} dans {{ProgLang}}, sans nécessiter d'outils externes."
+  },
+  "header": {
+    "title": "Extraire des données des documents {{FileFormatUp}} dans {{ProgLang}}",
+    "description": "Extrayez sans effort du contenu structuré tel que du texte, des métadonnées, des tableaux et des graphiques à partir de fichiers PDF, Word, Excel et de documents basés sur des images en utilisant {{ProdShortName}} dans vos applications {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'Essai Gratuit"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdFullName}}?",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) est une API robuste conçue pour les développeurs {{EnvName}}, offrant des fonctionnalités avancées de parsing de documents. Elle vous permet d'extraire et de traiter des données textuelles, des images, des tableaux, des champs structurés et des codes-barres depuis de nombreux formats tels que PDF, DOCX, XLSX, PPTX, et bien plus encore — le tout sans nécessiter l'installation de bibliothèques supplémentaires."
+  },
+  "formats": {
+    "title": "Types de fichiers pris en charge pour l'extraction de contenu",
+    "description": "{{ProdShortName}} est compatible avec une large gamme de types de fichiers documentaires et d'images, facilitant ainsi l'extraction d'informations à partir des formats couramment utilisés dans les scénarios de parsing et d'automatisation des données."
+  },
+  "examples": {
+    "comment_1": "Initialisez votre {{textParser}} avec le document d'entrée",
+    "comment_2": "Récupérez tout le contenu textuel disponible du document",
+    "comment_3": "Si aucun texte n'est trouvé, la valeur de retour sera nulle",
+    "comment_4": "Intégrez le contenu extrait dans votre solution",
+    "comment_5": "Ce format peut ne pas prendre en charge l'extraction de texte"
+  },
+  "steps": {
+    "title": "Comment extraire des données depuis {{FileFormatCap}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "Pour extraire des informations utiles des documents {{FileFormatUp}} dans vos projets {{EnvName}} en utilisant [{{ProdShortName}}]({{PlatformLink}}), suivez ces instructions :",
+      "step_1": "Ouvrez le fichier {{FileFormatUp}} avec un objet {{textParser}}.",
+      "step_2": "Utilisez le parser pour récupérer les données nécessaires (texte, tableaux, métadonnées, etc.).",
+      "step_3": "Assurez-vous que la sortie est correcte et complète.",
+      "step_4": "Intégrez le contenu analysé dans votre flux de données, vos processus métiers ou vos applications."
+    }
+  },
+  "more_features": {
+    "title": "Fonctionnalités de parsing de documents polyvalentes",
+    "description": "{{ProdShortName}} ne se limite pas à l'extraction de texte : il prend en charge le parsing complet des codes-barres, des métadonnées, des images, des tableaux et d'autres données pour alimenter l'automatisation intelligente et les applications orientées données.",
+    "image_description": "Vue d'ensemble visuelle du parsing et de l'extraction des données documentaires",
+    "feature_1": {
+      "title": "Extraire des données de plusieurs formats de fichiers",
+      "content": "Accédez à des données comme du texte, des tableaux et des médias à partir de types de fichiers couramment utilisés tels que PDF, Word, Excel, PowerPoint, HTML, et d'autres."
+    },
+    "feature_2": {
+      "title": "Analyser du contenu provenant de sources numériques et numérisées",
+      "content": "Traitez le contenu provenant à la fois de fichiers numériques natifs et d'images numérisées, en utilisant l'OCR si nécessaire pour interpréter le texte intégré."
+    },
+    "feature_3": {
+      "title": "Options de configuration flexibles",
+      "content": "Personnalisez votre parsing avec des paramètres pour la sélection de pages, les zones de mise en page et des modèles de champs personnalisés pour répondre à des besoins d'extraction spécifiques."
+    },
+    "code_1": {
+      "title": "Parsing PDF à l'aide d'un modèle d'extraction de données",
+      "content": "Cet exemple montre comment extraire des champs structurés d'un PDF en utilisant un modèle personnalisé via {{ProdShortName}}.",
+      "comment_1": "Ouvrez le PDF en utilisant la classe {{textParser}}",
+      "comment_2": "Appliquez le modèle de parsing pour extraire des données définies",
+      "comment_3": "Vérifiez si l'extraction basée sur un modèle est disponible",
+      "comment_4": "Travaillez avec les champs de données extraites",
+      "comment_5": "Définissez les paramètres du détecteur pour extraire la section 'Détails'"
+    }
+  }
+}

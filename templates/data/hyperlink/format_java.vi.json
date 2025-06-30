@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Trích xuất liên kết từ các tệp {{FileFormatUp}} trong các ứng dụng {{ProgLang}}",
+    "description": "Sử dụng {{ProdShortName}} để tìm và trích xuất các liên kết URL từ tài liệu {{FileFormatUp}} trong các dự án {{ProgLang}}—không cần phần mềm bổ sung."
+  },
+  "header": {
+    "title": "Trích xuất liên kết từ {{FileFormatUp}} với {{ProgLang}}",
+    "description": "Trích xuất các liên kết và liên kết web từ PDF, tài liệu Word, bảng tính Excel và các tài liệu khác bằng {{ProdShortName}} trong môi trường {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống bản dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) là một API trích xuất nội dung mạnh mẽ được thiết kế cho các nhà phát triển {{EnvName}}. Nó cung cấp các công cụ để trích xuất liên kết, dữ liệu cấu trúc, hình ảnh và văn bản từ các định dạng phổ biến như DOCX, XLSX, PDF, HTML và nhiều hơn nữa—tất cả mà không cần bất kỳ plugin bên ngoài nào."
+  },
+  "formats": {
+    "title": "Các định dạng tài liệu hỗ trợ trích xuất liên kết",
+    "description": "Với {{ProdShortName}}, bạn có thể trích xuất các liên kết từ nhiều định dạng tệp thường được sử dụng. Dưới đây là danh sách các định dạng thường được hỗ trợ."
+  },
+  "examples": {
+    "comment_1": "Tải tệp có thể chứa các liên kết bằng cách sử dụng {{textParser}}",
+    "comment_2": "Kiểm tra xem định dạng tài liệu có hỗ trợ phân tích liên kết không",
+    "comment_3": "Không có khả năng trích xuất liên kết cho tệp này",
+    "comment_4": "Trích xuất và sử dụng dữ liệu liên kết từ tài liệu"
+  },
+  "steps": {
+    "title": "Cách trích xuất liên kết từ {{FileFormatCap}} trong {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) đơn giản hóa việc trích xuất liên kết từ các tệp {{FileFormatUp}} trong các ứng dụng {{EnvName}} với các bước cơ bản sau:",
+      "step_1": "Mở tệp {{FileFormatUp}} bằng một thể hiện của {{textParser}}.",
+      "step_2": "Đảm bảo khả năng trích xuất liên kết có sẵn cho định dạng tệp.",
+      "step_3": "Trích xuất tất cả các liên kết bằng cách sử dụng phương thức phù hợp.",
+      "step_4": "Lặp qua các kết quả và xử lý từng liên kết theo nhu cầu."
+    }
+  },
+  "more_features": {
+    "title": "Công cụ phân tích tài liệu toàn diện",
+    "description": "Ngoài việc trích xuất liên kết, {{ProdShortName}} cho phép bạn thu thập các nội dung hữu ích khác như văn bản thuần, phương tiện nhúng và dữ liệu cấu trúc để sử dụng trong các quy trình tự động.",
+    "image_description": "Trích xuất liên kết và phân tích tài liệu",
+    "feature_1": {
+      "title": "Phát hiện liên kết chính xác",
+      "content": "Ghi lại tất cả các loại liên kết từ các bố cục tài liệu khác nhau, bao gồm văn bản có thể nhấp và URL ẩn."
+    },
+    "feature_2": {
+      "title": "Làm việc với tài liệu và nội dung web",
+      "content": "Kéo các liên kết từ PDF, DOCX, XLSX, HTML và các tệp hình ảnh chứa liên kết nhúng."
+    },
+    "feature_3": {
+      "title": "Hành vi trích xuất tùy chỉnh",
+      "content": "Tinh chỉnh cách các liên kết được trích xuất bằng cách sử dụng các tùy chọn như khoảng trang, loại liên kết hoặc bộ lọc nội dung."
+    },
+    "code_1": {
+      "title": "Ví dụ: trích xuất liên kết từ PDF với các tùy chọn tùy chỉnh",
+      "content": "Mẫu này minh họa cách trích xuất tất cả các liên kết từ một tệp PDF bằng cách sử dụng các thiết lập trích xuất liên kết.",
+      "comment_1": "Mở PDF bằng lớp {{textParser}}",
+      "comment_2": "Xác minh rằng hỗ trợ liên kết đã được bật cho tài liệu này",
+      "comment_3": "Áp dụng các tùy chọn để lọc các liên kết",
+      "comment_4": "Sử dụng trình phân tích để lấy dữ liệu liên kết",
+      "comment_5": "Lặp qua các liên kết và xử lý chúng theo cách cần thiết"
+    }
+  }
+}

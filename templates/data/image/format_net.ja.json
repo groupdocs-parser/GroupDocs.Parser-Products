@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "{{ProgLang}} アプリで {{FileFormatUp}} ファイルから画像を抽出",
+    "description": "{{ProdShortName}} を使用して、{{ProgLang}} で {{FileFormatUp}} ファイルから画像を検出し抽出します。追加のツールは不要です。"
+  },
+  "header": {
+    "title": "{{ProgLang}} を使用して {{FileFormatUp}} から画像を抽出",
+    "description": "{{ProdShortName}} を使用して、PDF、Word 文書、Excel シート、その他のファイルタイプから埋め込まれた画像を見つけて抽出します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API について",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) は、{{EnvName}} 開発者向けの堅牢なドキュメント解析ライブラリです。PDF、DOCX、XLSX、PPTX などの一般的なファイル形式から、画像、テキスト、ハイパーリンク、および構造化データを抽出することができます。すべての操作はサードパーティのアプリケーションを必要としません。"
+  },
+  "formats": {
+    "title": "画像抽出に対応する形式",
+    "description": "{{ProdShortName}} は、幅広いドキュメントおよび画像形式から正確に画像を抽出します。一般的にサポートされている形式のリストを以下で確認してください。"
+  },
+  "examples": {
+    "comment_1": "{{textParser}} を使用して画像を含むドキュメントを開く",
+    "comment_2": "ファイルからすべての埋め込まれた画像を抽出",
+    "comment_3": "画像が見つからないケースを処理",
+    "comment_4": "取得した画像を処理または保存"
+  },
+  "steps": {
+    "title": "{{ProgLang}} で {{FileFormatCap}} から画像を抽出する手順",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) を使用すると、あなたの {{EnvName}} プロジェクトで {{FileFormatUp}} ドキュメントから画像をわずか数ステップで抽出できます：",
+      "step_1": "{{FileFormatUp}} ファイルを使用して {{textParser}} を初期化します。",
+      "step_2": "ドキュメントから画像要素を取得します。",
+      "step_3": "抽出した画像を必要に応じてワークフローで使用します。"
+    }
+  },
+  "more_features": {
+    "title": "包括的なドキュメント内容の抽出",
+    "description": "{{ProdShortName}} は画像抽出だけでなく、生のテキスト、ハイパーリンク、メタデータ、構造化されたコンテンツを抽出することも可能で、高度な自動化シナリオに対応します。",
+    "image_description": "画像抽出とドキュメント解析のワークフロー",
+    "feature_1": {
+      "title": "複数形式からの画像抽出",
+      "content": "DOCX、PDF、PPTX、XLSX、PNG、JPG、TIFF など、さまざまなファイル形式から埋め込まれた画像を抽出します。"
+    },
+    "feature_2": {
+      "title": "元の画像品質を保持",
+      "content": "画像は高忠実度で抽出され、その元の解像度、形式、およびカラープロファイルを維持します。"
+    },
+    "feature_3": {
+      "title": "高度な抽出オプション",
+      "content": "ページ、形式、または解像度でのフィルタリングによる画像抽出のカスタマイズができ、マルチページドキュメントにも対応します。"
+    },
+    "code_1": {
+      "title": "PDF ドキュメントから画像を抽出して保存する方法",
+      "content": "この例では、PDF ファイルからすべての画像アセットを抽出し、ローカルファイルシステムに保存する方法を示します。",
+      "comment_1": "{{textParser}} クラスを使用して PDF を読み込みます。",
+      "comment_2": "ファイルから埋め込まれた画像を抽出します。",
+      "comment_3": "出力形式と画像オプションを設定します（例：PNG）。",
+      "comment_4": "抽出した画像をディスクに書き込みます。"
+    }
+  }
+}

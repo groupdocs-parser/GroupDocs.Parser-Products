@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Ekstrak konten dari file {{FileFormatUp}} dalam aplikasi {{ProgLang}}",
+    "description": "Manfaatkan {{ProdShortName}} untuk mem-parsing dan mengambil data terstruktur, teks, tabel, dan gambar dari file {{FileFormatUp}} dalam {{ProgLang}}, tanpa memerlukan alat eksternal."
+  },
+  "header": {
+    "title": "Ekstrak data dari dokumen {{FileFormatUp}} dalam {{ProgLang}}",
+    "description": "Secara menyeluruh ekstrak konten terstruktur seperti teks, metadata, tabel, dan grafik dari dokumen PDF, Word, Excel, dan berbasis gambar menggunakan {{ProdShortName}} dalam aplikasi {{EnvNameShort}} Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Apa itu {{ProdFullName}}?",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) adalah API yang kuat dirancang untuk pengembang {{EnvName}}, menawarkan fungsionalitas pem-parsing dokumen yang canggih. Ini memungkinkan Anda untuk ekstrak dan proses data tekstual, gambar, tabel, bidang terstruktur, dan kode batang dari berbagai format seperti PDF, DOCX, XLSX, PPTX, dan lebih banyak lagi — semua tanpa menginstal pustaka tambahan."
+  },
+  "formats": {
+    "title": "Jenis file yang didukung untuk ekstraksi konten",
+    "description": "{{ProdShortName}} kompatibel dengan berbagai jenis file dokumen dan gambar, memungkinkan Anda untuk mengambil informasi dari format yang sering digunakan dalam skenario pem-parsing dan otomatisasi data."
+  },
+  "examples": {
+    "comment_1": "Inisialisasi {{textParser}} Anda dengan dokumen input",
+    "comment_2": "Ambil semua konten teks yang tersedia dari dokumen tersebut",
+    "comment_3": "Jika tidak ada teks yang ditemukan, nilai yang dikembalikan akan null",
+    "comment_4": "Gabungkan konten yang diekstrak ke dalam solusi Anda",
+    "comment_5": "Format ini mungkin tidak mendukung ekstraksi teks"
+  },
+  "steps": {
+    "title": "Cara mengekstrak data dari {{FileFormatCap}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "Untuk mengekstrak informasi berguna dari dokumen {{FileFormatUp}} dalam proyek {{EnvName}} Anda menggunakan [{{ProdShortName}}]({{PlatformLink}}), ikuti instruksi berikut:",
+      "step_1": "Buka file {{FileFormatUp}} dengan objek {{textParser}}.",
+      "step_2": "Gunakan parser untuk mengambil data yang dibutuhkan (teks, tabel, metadata, dst.).",
+      "step_3": "Pastikan outputnya benar dan lengkap.",
+      "step_4": "Integrasikan konten yang diparsing ke dalam aliran data, proses bisnis, atau aplikasi Anda."
+    }
+  },
+  "more_features": {
+    "title": "Fungsionalitas pem-parsing dokumen yang serbaguna",
+    "description": "{{ProdShortName}} lebih dari sekadar ekstraksi teks—ini mendukung pem-parsing penuh kode batang, metadata, gambar, tabel, dan data lain untuk mendukung otomatisasi cerdas dan aplikasi berbasis data.",
+    "image_description": "Gambaran visual pem-parsing dan ekstraksi data dokumen",
+    "feature_1": {
+      "title": "Ekstrak dari berbagai format file",
+      "content": "Akses data seperti teks, tabel, dan media dari jenis file yang umum digunakan seperti PDF, Word, Excel, PowerPoint, HTML, dan lainnya."
+    },
+    "feature_2": {
+      "title": "Parse konten dari sumber digital dan yang dipindai",
+      "content": "Proses konten dari baik file digital asli maupun gambar yang dipindai, menggunakan OCR bila perlu untuk menginterpretasikan teks yang tertanam."
+    },
+    "feature_3": {
+      "title": "Opsi konfigurasi yang fleksibel",
+      "content": "Sesuaikan pem-parsing Anda dengan pengaturan untuk pemilihan halaman, zona tata letak, dan template bidang kustom untuk memenuhi kebutuhan ekstraksi yang spesifik."
+    },
+    "code_1": {
+      "title": "Pem-parsing PDF menggunakan template ekstraksi data",
+      "content": "Contoh ini menunjukkan bagaimana mengekstrak bidang terstruktur dari PDF menggunakan template kustom melalui {{ProdShortName}}.",
+      "comment_1": "Buka PDF menggunakan kelas {{textParser}}",
+      "comment_2": "Terapkan template pem-parsing untuk mengekstrak data yang ditentukan",
+      "comment_3": "Periksa apakah ekstraksi berbasis template tersedia",
+      "comment_4": "Bekerja dengan bidang data yang diekstrak",
+      "comment_5": "Tentukan pengaturan detektor untuk mengekstrak bagian 'Detail'"
+    }
+  }
+}

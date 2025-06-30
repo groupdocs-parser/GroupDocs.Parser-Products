@@ -1,0 +1,72 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "تحلیل PDF",
+        "description": "(فرمت سند قابل حمل)"
+      },
+      "docx": {
+        "name": "تحلیل DOCX",
+        "description": "(سند Word Office 2007+)"
+      },
+      "pptx": {
+        "name": "تحلیل PPTX",
+        "description": "(فرمت ارائه Open XML)"
+      },
+      "xlsx": {
+        "name": "تحلیل XLSX",
+        "description": "(دفتر کار Open XML)"
+      },
+      "odt": {
+        "name": "تحلیل ODT",
+        "description": "(سند متنی OpenDocument)"
+      },
+      "ods": {
+        "name": "تحلیل ODS",
+        "description": "(برگه محاسباتی OpenDocument)"
+      },
+      "odp": {
+        "name": "تحلیل ODP",
+        "description": "(ارائه OpenDocument)"
+      },
+      "txt": {
+        "name": "تحلیل TXT",
+        "description": "(فایل متنی)"
+      },
+      "rtf": {
+        "name": "تحلیل RTF",
+        "description": "(فرمت متن غنی)"
+      },
+      "xml": {
+        "name": "تحلیل XML",
+        "description": "(زبان نشانه‌گذاری قابل توسعه)"
+      },
+      "epub": {
+        "name": "تحلیل EPUB",
+        "description": "(فایل کتاب الکترونیکی Open)"
+      },
+      "fb2": {
+        "name": "تحلیل FB2",
+        "description": "(کتاب الکترونیکی FictionBook)"
+      }
+    },
+    "format-code": {
+      "copy_title": "کپی",
+      "copy_tip": "برای کپی کلیک کنید",
+      "copy_done": "کپی شد",
+      "links": {
+        "title_1": "نمونه‌های بیشتر",
+        "title_2": "مستندات"
+      }
+    },
+    "format-actions": {
+      "title": "آماده شروع هستید؟",
+      "description": "امکانات {{ProdShortName}} را به صورت رایگان امتحان کنید یا درخواست مجوز دهید",
+      "comment_1": "دانلود {{PackageStoreName}}",
+      "comment_2": "مجوزدهی"
+    },
+    "texts": {
+      "learn_more": "بیشتر بدانید"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "在{{ProgLang}}应用程序中从{{FileFormatUp}}文件提取超链接",
+    "description": "使用{{ProdShortName}}在{{ProgLang}}中检测并提取{{FileFormatUp}}文件的超链接，无需额外的工具或软件。"
+  },
+  "header": {
+    "title": "使用{{ProgLang}}从{{FileFormatUp}}提取超链接",
+    "description": "通过在您的{{EnvNameShort}}应用程序中使用{{ProdShortName}}，检测并提取PDF、Word、Excel及其他文档类型中的URL和超链接。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用"
+  },
+  "about": {
+    "title": "关于{{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}})是一个适用于{{EnvName}}开发者的多功能文档解析API。它支持从各种文件格式（如PDF、Word、Excel、HTML等）提取超链接、文本、图像和结构化内容，无需依赖外部软件。"
+  },
+  "formats": {
+    "title": "支持的超链接提取格式",
+    "description": "{{ProdShortName}}可以从多种文档类型中提取超链接。请查看下面常见的支持格式。"
+  },
+  "examples": {
+    "comment_1": "使用{{textParser}}类加载包含超链接的文档",
+    "comment_2": "验证文件是否支持超链接提取",
+    "comment_3": "该文件不支持超链接提取",
+    "comment_4": "检索并处理提取的超链接"
+  },
+  "steps": {
+    "title": "在{{ProgLang}}中从{{FileFormatCap}}提取超链接的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})使{{EnvName}}开发者能够通过以下简单步骤从{{FileFormatUp}}文件中提取超链接：",
+      "step_1": "使用{{textParser}}实例加载{{FileFormatUp}}文件。",
+      "step_2": "检查文档是否支持超链接提取。",
+      "step_3": "从文档中检索超链接列表。",
+      "step_4": "循环遍历结果并处理提取的URL。"
+    }
+  },
+  "more_features": {
+    "title": "高级文档解析功能",
+    "description": "除了超链接提取之外，{{ProdShortName}}还允许您提取文本、元数据、图像和结构化数据，支持强大的数据处理工作流。",
+    "image_description": "超链接检测和文档解析",
+    "feature_1": {
+      "title": "文档中的超链接检测",
+      "content": "快速提取PDF、Word文件、电子表格等文档中的URL和链接注释。"
+    },
+    "feature_2": {
+      "title": "支持网络和嵌入链接",
+      "content": "检测并提取多种格式中的标准网页URL和嵌入文档链接。"
+    },
+    "feature_3": {
+      "title": "灵活的解析选项",
+      "content": "自定义提取设置以扫描特定部分或页面，以提高性能和准确性。"
+    },
+    "code_1": {
+      "title": "如何使用链接选项从PDF提取超链接",
+      "content": "本代码示例展示了如何使用自定义选项从PDF文件中提取所有超链接。",
+      "comment_1": "用PDF文档初始化{{textParser}}",
+      "comment_2": "检查是否支持超链接提取",
+      "comment_3": "设置链接提取选项以缩小结果范围",
+      "comment_4": "从文档中提取超链接数据",
+      "comment_5": "处理提取的链接列表"
+    }
+  }
+}

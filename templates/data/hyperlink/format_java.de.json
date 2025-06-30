@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Hyperlinks aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Apps extrahieren",
+    "description": "Verwenden Sie {{ProdShortName}}, um URL-Links aus {{FileFormatUp}}-Dokumenten in {{ProgLang}}-Projekten zu finden und zu extrahieren – keine zusätzliche Software erforderlich."
+  },
+  "header": {
+    "title": "Hyperlinks aus {{FileFormatUp}} mit {{ProgLang}} extrahieren",
+    "description": "Ziehen Sie Webseiten-Links und Hyperlinks aus PDFs, Word-Dateien, Excel-Tabellen und anderen Dokumenten mit {{ProdShortName}} in Ihrer {{EnvNameShort}}-Umgebung heraus.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Über die {{ProdFullName}} API",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) ist eine leistungsstarke API zur Inhaltsextraktion, die für {{EnvName}}-Entwickler entwickelt wurde. Sie bietet Werkzeuge zum Extrahieren von Hyperlinks, strukturierten Daten, Bildern und Text aus gängigen Formaten wie DOCX, XLSX, PDF, HTML und mehr – ganz ohne externe Plugins."
+  },
+  "formats": {
+    "title": "Dokumentenformate, die die Hyperlink-Extraktion unterstützen",
+    "description": "Mit {{ProdShortName}} können Sie Hyperlinks aus vielen häufig verwendeten Dateiformaten extrahieren. Nachfolgend finden Sie eine Liste von Formaten, die in der Regel unterstützt werden."
+  },
+  "examples": {
+    "comment_1": "Laden Sie die Datei, die möglicherweise Hyperlinks enthält, mit dem {{textParser}}",
+    "comment_2": "Überprüfen Sie, ob das Dokumentenformat die Hyperlink-Analyse unterstützt",
+    "comment_3": "Die Hyperlink-Extraktion ist für die Datei nicht verfügbar",
+    "comment_4": "Extrahieren Sie die Hyperlink-Daten aus dem Dokument und verwenden Sie sie"
+  },
+  "steps": {
+    "title": "Wie man Hyperlinks aus {{FileFormatCap}} in {{ProgLang}} extrahiert",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vereinfacht die Hyperlink-Extraktion aus {{FileFormatUp}}-Dateien in {{EnvName}}-Anwendungen mit diesen grundlegenden Schritten:",
+      "step_1": "Öffnen Sie die {{FileFormatUp}}-Datei mit einer Instanz von {{textParser}}.",
+      "step_2": "Stellen Sie sicher, dass die Hyperlink-Extraktion für das Dateiformat verfügbar ist.",
+      "step_3": "Extrahieren Sie alle Hyperlinks mit der entsprechenden Methode.",
+      "step_4": "Durchlaufen Sie die Ergebnisse und verarbeiten Sie jeden Link nach Bedarf."
+    }
+  },
+  "more_features": {
+    "title": "Umfassende Dokumentenverarbeitungstools",
+    "description": "Neben der Extraktion von Hyperlinks ermöglicht {{ProdShortName}} die Sammlung weiterer nützlicher Inhalte wie Klartext, eingebettete Medien und strukturierte Daten für den Einsatz in automatisierten Workflows.",
+    "image_description": "Hyperlink-Extraktion und Dokumentenanalyse",
+    "feature_1": {
+      "title": "Präzise Linkerkennung",
+      "content": "Erfassen Sie alle Arten von Hyperlinks aus verschiedenen Dokumentenlayouts, einschließlich klickbarem Text und versteckten URLs."
+    },
+    "feature_2": {
+      "title": "Funktioniert mit Dokumenten und Webinhalten",
+      "content": "Ziehen Sie Links aus PDF, DOCX, XLSX, HTML und Bilddateien, die eingebettete Hyperlinks enthalten."
+    },
+    "feature_3": {
+      "title": "Benutzerdefiniertes Extraktionsverhalten",
+      "content": "Verfeinern Sie, wie Hyperlinks extrahiert werden, mit Optionen wie Seitenbereichen, Linktypen oder Inhaltsfiltern."
+    },
+    "code_1": {
+      "title": "Beispiel: Extrahieren von Hyperlinks aus einem PDF mit benutzerdefinierten Optionen",
+      "content": "Dieses Beispiel demonstriert, wie alle Links aus einer PDF-Datei mithilfe von Link-Extraktionseinstellungen extrahiert werden.",
+      "comment_1": "Öffnen Sie die PDF-Datei mit der {{textParser}}-Klasse",
+      "comment_2": "Überprüfen Sie, ob die Hyperlinkunterstützung für dieses Dokument aktiviert ist",
+      "comment_3": "Wenden Sie Optionen an, um Links zu filtern",
+      "comment_4": "Verwenden Sie den Parser, um Hyperlink-Daten zu erhalten",
+      "comment_5": "Iterieren Sie über die Links und behandeln Sie sie entsprechend"
+    }
+  }
+}

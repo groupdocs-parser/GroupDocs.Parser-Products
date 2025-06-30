@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-26T17:35:46
+date:  2025-06-30T10:25:47
 draft: false
 lang: en
 format: Xlsx
@@ -93,7 +93,7 @@ more_features:
   features:
     # feature loop
     - title: "Text extraction across various file types"
-      content: "Get plain or structured text from formats like PDF, DOCX, XLSX, PPTX, HTML, and image-based files."
+      content: "Get plain or structured text from formats like PDF, DOCX, XLSX, PPTX, HTML, and other formats."
 
     # feature loop
     - title: "Process text from documents and visuals"

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Recupere tabelas de documentos {{FileFormatUp}} em aplicativos {{ProgLang}}",
+    "description": "Extraia dados tabulares estruturados de arquivos {{FileFormatUp}} em aplicações {{ProgLang}} usando {{ProdShortName}}—sem necessidade de ferramentas externas."
+  },
+  "header": {
+    "title": "Recupere dados de tabela de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Detecte e extraia tabelas de formatos como PDF, DOCX e XLSX sem dificuldades com {{ProdShortName}} em seus fluxos de trabalho {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Versão Gratuita"
+  },
+  "about": {
+    "title": "Introdução à API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) é uma API rica em recursos para extração de conteúdo orientada a plataformas {{EnvName}}. Permite que desenvolvedores façam a análise precisa de tabelas, textos, gráficos, links e dados estruturados a partir de PDFs, documentos do Word, planilhas do Excel, apresentações do PowerPoint e mais—sem exigir plugins de terceiros."
+  },
+  "formats": {
+    "title": "Tipos de documentos suportados para extração de tabelas",
+    "description": "{{ProdShortName}} oferece detecção confiável de tabelas em diversos tipos de arquivos. Aqui está uma lista dos formatos de documentos mais amplamente suportados para extração de tabelas."
+  },
+  "examples": {
+    "comment_1": "Carregue o documento de entrada com {{textParser}} que inclui elementos de tabela",
+    "comment_2": "Verifique se o tipo de documento permite o reconhecimento de tabelas",
+    "comment_3": "Adicione lógica para arquivos que não suportam tabelas",
+    "comment_4": "Defina regras para interpretar a estrutura da tabela",
+    "comment_5": "Defina parâmetros para extrair tabelas",
+    "comment_6": "Execute a extração de tabelas no documento carregado",
+    "comment_7": "Processe cada tabela extraída do resultado"
+  },
+  "steps": {
+    "title": "Como recuperar tabelas de {{FileFormatCap}} em {{ProgLang}}",
+    "content": {
+      "title": "Para analisar tabelas de documentos {{FileFormatUp}} usando [{{ProdShortName}}]({{PlatformLink}}), siga estes passos em seu ambiente {{EnvName}}:",
+      "step_1": "Crie uma instância de {{textParser}} e carregue o arquivo {{FileFormatUp}} alvo.",
+      "step_2": "Verifique se o arquivo suporta a extração de tabelas estruturadas.",
+      "step_3": "Use a API para recuperar elementos de tabela do documento.",
+      "step_4": "Utilize os dados extraídos em análises, relatórios ou sistemas de automação."
+    }
+  },
+  "more_features": {
+    "title": "Ferramentas avançadas de extração de conteúdo",
+    "description": "Além da leitura de tabelas, {{ProdShortName}} suporta a captura de texto simples, elementos visuais, metadados incorporados e objetos estruturados para aprimorar tarefas de processamento de documentos.",
+    "image_description": "Extraindo conteúdo estruturado e dados tabulares",
+    "feature_1": {
+      "title": "Análise precisa de tabelas em diversos formatos",
+      "content": "Suporte para extração de tabelas de tipos de documentos padrão como PDF, Word, Excel e HTML com alta precisão."
+    },
+    "feature_2": {
+      "title": "Leitura de estruturas tabulares de diversas fontes",
+      "content": "Recupere dados de tabela de planilhas, documentos e relatórios, mantendo a estrutura e alinhamento."
+    },
+    "feature_3": {
+      "title": "Configurações personalizáveis de extração de tabelas",
+      "content": "Controle a detecção de layout, gerencie cabeçalhos e rodapés, e ajuste a extração com opções de configuração flexíveis."
+    },
+    "code_1": {
+      "title": "Exemplo: extrair tabelas de um documento Excel",
+      "content": "Este exemplo demonstra como extrair e percorrer conteúdo de tabela em um arquivo Excel (XLSX) usando {{ProdShortName}}.",
+      "comment_1": "Inicialize {{textParser}} com o arquivo Excel",
+      "comment_2": "Saia se a extração de tabelas não for suportada para este documento",
+      "comment_3": "Aplique regras para localizar o layout da tabela",
+      "comment_4": "Configure as definições para extração de tabelas",
+      "comment_5": "Invoque o processo de extração",
+      "comment_6": "Percorra todas as estruturas de tabela analisadas",
+      "comment_7": "Itere sobre cada linha dentro da tabela",
+      "comment_8": "Processo cada célula na linha atual",
+      "comment_9": "Acesse e leia o conteúdo da célula atual",
+      "comment_10": "Saia o valor textual de cada célula da tabela"
+    }
+  }
+}

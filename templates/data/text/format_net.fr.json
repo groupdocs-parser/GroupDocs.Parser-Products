@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Extraire du texte des fichiers {{FileFormatUp}} dans des applications {{ProgLang}}",
+    "description": "Utilisez {{ProdShortName}} pour extraire du texte brut ou structuré des fichiers {{FileFormatUp}} dans des applications {{ProgLang}} sans nécessiter d'outils externes."
+  },
+  "header": {
+    "title": "Extraire du texte des {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Extrayez rapidement du texte lisible et structuré à partir de PDF, Word, Excel et d'autres types de fichiers en utilisant {{ProdShortName}} dans vos solutions {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger un essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdShortName}}]({{PlatformLink}}) est une API de parsing de documents haute performance pour les développeurs {{EnvName}}. Elle simplifie l'extraction de texte, d'images, de tableaux et de contenu structuré à partir de multiples formats de fichiers, y compris PDF, DOCX, XLSX, PPTX et plus — sans dépendre de bibliothèques tierces."
+  },
+  "formats": {
+    "title": "Formats pris en charge pour l'extraction de texte",
+    "description": "{{ProdShortName}} permet l'extraction de texte à partir d'une large gamme de types de documents et d'images. Explorez les formats couramment pris en charge listés ci-dessous."
+  },
+  "examples": {
+    "comment_1": "Chargez votre document dans {{textParser}}",
+    "comment_2": "Extrayez tout le contenu textuel du fichier",
+    "comment_3": "Si le texte est indisponible, le résultat sera nul",
+    "comment_4": "Utilisez le texte extrait dans votre application",
+    "comment_5": "L'extraction de texte n'est pas prise en charge pour ce format"
+  },
+  "steps": {
+    "title": "Étapes pour extraire du texte d'un {{FileFormatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "Vous pouvez extraire du texte clair et structuré à partir de documents {{FileFormatUp}} dans des applications {{EnvName}} avec [{{ProdShortName}}]({{PlatformLink}}) en suivant ces étapes :",
+      "step_1": "Ouvrez le document {{FileFormatUp}} à l'aide d'une instance de {{textParser}}.",
+      "step_2": "Extrayez le texte du contenu du fichier.",
+      "step_3": "Vérifiez le résultat pour confirmer que l'extraction du texte a été réussie.",
+      "step_4": "Utilisez le texte extrait dans votre logique métier, pour l'indexation ou dans des pipelines de données."
+    }
+  },
+  "more_features": {
+    "title": "Fonctionnalités complètes d'extraction de contenu",
+    "description": "En plus du texte brut, {{ProdShortName}} peut extraire des images, des éléments structurés et des métadonnées pour soutenir l'analyse, la transformation et l'automatisation du contenu.",
+    "image_description": "Reconnaissance de texte et parsing structuré de documents",
+    "feature_1": {
+      "title": "Extraction de texte à travers divers types de fichiers",
+      "content": "Obtenez du texte brut ou structuré à partir de formats comme PDF, DOCX, XLSX, PPTX, HTML et d'autres formats."
+    },
+    "feature_2": {
+      "title": "Traitez le texte à partir de documents et d'éléments visuels",
+      "content": "Extrayez du texte à partir d'images numérisées, de présentations, de tableurs et de documents numériques tout en préservant la structure."
+    },
+    "feature_3": {
+      "title": "Configuration avancée de l'extraction de texte",
+      "content": "Personnalisez la détection du texte — définissez des plages de pages, des régions de mise en page, et ajustez la sortie pour une précision maximale."
+    },
+    "code_1": {
+      "title": "Comment extraire des zones de texte d'un fichier PPTX",
+      "content": "Cet exemple de code montre comment récupérer le contenu textuel ainsi que les coordonnées des zones à partir d'un fichier PowerPoint en utilisant {{ProdShortName}}.",
+      "comment_1": "Chargez la présentation PowerPoint avec {{textParser}}",
+      "comment_2": "Extrayez tous les rectangles de zones de texte du document",
+      "comment_3": "Quittez si l'extraction de zones de texte n'est pas disponible",
+      "comment_4": "Parcourez les zones de texte de chaque page",
+      "comment_5": "Accédez à l'index de la page, au rectangle de la zone et à la valeur du texte"
+    }
+  }
+}

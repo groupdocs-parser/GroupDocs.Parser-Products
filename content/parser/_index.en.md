@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-26T17:35:47
+date:  2025-06-30T10:26:00
 draft: false
 
 product: "Parser"
@@ -135,7 +135,7 @@ code_samples:
                         // Create an instance of Parser class passing desired file
                         using (var parser = new Parser("source.pdf"))
                         {
-                            // Extract a text to {{textReader}}
+                            // Extract a text
                             using (var textReader = parser.GetText())
                             {
                                 // Process the extracted text
@@ -154,7 +154,7 @@ code_samples:
                         // Create an instance of Parser class passing desired file
                         try (Parser parser = new Parser("source.pdf"))
                         {
-                            // Extract a text to {{textReader}}
+                            // Extract a text
                             try (TextReader reader = parser.getText())
                             {
                                 // Process the extracted text

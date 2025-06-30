@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-26T17:35:42
+date:  2025-06-30T10:25:23
 draft: false
 lang: en
 format: Epub
@@ -137,7 +137,7 @@ more_features:
                 return;
             }
 
-            // Apply options to filter the type of links
+            // Apply options to filter links
             PageAreaOptions options = new PageAreaOptions(new Rectangle(new Point(380, 90), new Size(150, 50)));
 
             // Use the parser to get hyperlink data
