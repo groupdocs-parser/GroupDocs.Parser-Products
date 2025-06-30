@@ -113,11 +113,11 @@
       },
       "item_2": {
         "question": "Tôi có thể thử thư viện {{ProdShortName}} trước khi mua không?",
-        "answer": "Có, bạn có thể thử {{ProdShortName}} mà không cần mua giấy phép. Khi được cài đặt mà không có giấy phép, thư viện hoạt động ở chế độ thử nghiệm. Trong chế độ này, có các huy hiệu thử nghiệm được thêm vào tài liệu kết quả, và nó bị cắt lại để chỉ 3 trang đầu tiên. Nếu bạn muốn thử GroupDocs.Parser mà không bị hạn chế của phiên bản thử nghiệm, bạn cũng có thể yêu cầu giấy phép tạm thời 30 ngày. Để biết thêm chi tiết, [xem]({{LicensingUrl}})"
+        "answer": "Có, bạn có thể thử {{ProdShortName}} mà không cần mua giấy phép. Khi được cài đặt mà không có giấy phép, thư viện hoạt động ở chế độ thử nghiệm. Trong chế độ này, có các huy hiệu thử nghiệm được thêm vào tài liệu kết quả, và nó bị cắt lại để chỉ 3 trang đầu tiên. Nếu bạn muốn thử GroupDocs.Parser mà không bị hạn chế của phiên bản thử nghiệm, bạn cũng có thể yêu cầu giấy phép tạm thời 30 ngày. Để biết thêm chi tiết, [xem]({{LicensingUrl}})."
       },
       "item_3": {
         "question": "Các loại giấy phép bạn có là gì?",
-        "answer": "Chúng tôi cung cấp nhiều loại giấy phép khác nhau để phù hợp với nhu cầu của các nhà phát triển hoặc công ty cụ thể. Các loại giấy phép phụ thuộc vào số lượng nhà phát triển, số lượng địa điểm của nhà phát triển, và liệu bạn có cần giao SDK/API của chúng tôi cho khách hàng của bạn hay không. Ngoài ra, bạn có thể chọn giấy phép theo mức sử dụng hàng tháng của sản phẩm. Tìm hiểu thêm [tại đây]({{PricingUrl}})"
+        "answer": "Chúng tôi cung cấp nhiều loại giấy phép khác nhau để phù hợp với nhu cầu của các nhà phát triển hoặc công ty cụ thể. Các loại giấy phép phụ thuộc vào số lượng nhà phát triển, số lượng địa điểm của nhà phát triển, và liệu bạn có cần giao SDK/API của chúng tôi cho khách hàng của bạn hay không. Ngoài ra, bạn có thể chọn giấy phép theo mức sử dụng hàng tháng của sản phẩm. Tìm hiểu thêm [tại đây]({{PricingUrl}})."
       }
     },
     "cloud_links": {

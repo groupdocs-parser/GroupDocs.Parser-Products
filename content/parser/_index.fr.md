@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T10:26:00
+date:  2025-06-30T14:38:23
 draft: false
 
 product: "Parser"
@@ -279,11 +279,11 @@ faq:
 
     # items loop
     - question: "Puis-je essayer la bibliothèque GroupDocs.Parser avant de l'acheter ?"
-      answer: "Oui, vous pouvez essayer GroupDocs.Parser sans acheter de licence. Une fois installée sans licence, la bibliothèque fonctionne en mode d'essai. Dans ce mode, des badges d'essai sont ajoutés au document résultant, et il est limité aux 3 premières pages. Si vous souhaitez tester GroupDocs.Parser sans les limitations de la version d'essai, vous pouvez également demander une licence temporaire de 30 jours. Pour plus de détails, [voir](https://purchase.groupdocs.com/temporary-license/)"
+      answer: "Oui, vous pouvez essayer GroupDocs.Parser sans acheter de licence. Une fois installée sans licence, la bibliothèque fonctionne en mode d'essai. Dans ce mode, des badges d'essai sont ajoutés au document résultant, et il est limité aux 3 premières pages. Si vous souhaitez tester GroupDocs.Parser sans les limitations de la version d'essai, vous pouvez également demander une licence temporaire de 30 jours. Pour plus de détails, [voir](https://purchase.groupdocs.com/temporary-license/)."
 
     # items loop
     - question: "Quels types de licences avez-vous ?"
-      answer: "Nous proposons plusieurs types de licences adaptées aux besoins des développeurs ou des entreprises. Les types de licences dépendent du nombre de développeurs, du nombre de sites de développement et de si vous devez livrer notre SDK/API à vos clients. Alternativement, vous pouvez choisir des licences à paiement basé sur l'utilisation mensuelle du produit. En savoir plus [ici](https://purchase.groupdocs.com/pricing/parser/net/)"
+      answer: "Nous proposons plusieurs types de licences adaptées aux besoins des développeurs ou des entreprises. Les types de licences dépendent du nombre de développeurs, du nombre de sites de développement et de si vous devez livrer notre SDK/API à vos clients. Alternativement, vous pouvez choisir des licences à paiement basé sur l'utilisation mensuelle du produit. En savoir plus [ici](https://purchase.groupdocs.com/pricing/parser/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:

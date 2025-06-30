@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T10:26:00
+date:  2025-06-30T14:38:23
 draft: false
 
 product: "Parser"
@@ -279,11 +279,11 @@ faq:
 
     # items loop
     - question: "我可以在购买之前尝试 GroupDocs.Parser 库吗？"
-      answer: "是的，您可以在未购买许可证的情况下尝试 GroupDocs.Parser。在未授权的情况下安装时，该库将以试用模式工作。在此模式下，试用徽章会添加到生成的文档中，并且文档被截断为前 3 页。如果您希望在没有试用版限制的情况下测试 GroupDocs.Parser，您还可以申请 30 天的临时许可证。有关更多详情，[请看](https://purchase.groupdocs.com/temporary-license/)"
+      answer: "是的，您可以在未购买许可证的情况下尝试 GroupDocs.Parser。在未授权的情况下安装时，该库将以试用模式工作。在此模式下，试用徽章会添加到生成的文档中，并且文档被截断为前 3 页。如果您希望在没有试用版限制的情况下测试 GroupDocs.Parser，您还可以申请 30 天的临时许可证。有关更多详情，[请看](https://purchase.groupdocs.com/temporary-license/)。"
 
     # items loop
     - question: "你们有什么许可证？"
-      answer: "我们提供几种许可证类型，以满足特定开发者或公司的需求。许可证类型取决于开发者人数、开发者网站地点数量，以及是否需要将我们的 SDK/API 交付给最终客户。或者，您可以选择基于产品每月使用量的计量许可证。了解更多[在这里](https://purchase.groupdocs.com/pricing/parser/net/)"
+      answer: "我们提供几种许可证类型，以满足特定开发者或公司的需求。许可证类型取决于开发者人数、开发者网站地点数量，以及是否需要将我们的 SDK/API 交付给最终客户。或者，您可以选择基于产品每月使用量的计量许可证。了解更多[在这里](https://purchase.groupdocs.com/pricing/parser/net/)。"
 
 ############################# Cloud Links ###############################
 cloud_links:

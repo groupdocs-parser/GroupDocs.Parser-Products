@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T10:26:00
+date:  2025-06-30T14:38:23
 draft: false
 
 product: "Parser"
@@ -279,11 +279,11 @@ faq:
 
     # items loop
     - question: "Tôi có thể thử thư viện GroupDocs.Parser trước khi mua không?"
-      answer: "Có, bạn có thể thử GroupDocs.Parser mà không cần mua giấy phép. Khi được cài đặt mà không có giấy phép, thư viện hoạt động ở chế độ thử nghiệm. Trong chế độ này, có các huy hiệu thử nghiệm được thêm vào tài liệu kết quả, và nó bị cắt lại để chỉ 3 trang đầu tiên. Nếu bạn muốn thử GroupDocs.Parser mà không bị hạn chế của phiên bản thử nghiệm, bạn cũng có thể yêu cầu giấy phép tạm thời 30 ngày. Để biết thêm chi tiết, [xem](https://purchase.groupdocs.com/temporary-license/)"
+      answer: "Có, bạn có thể thử GroupDocs.Parser mà không cần mua giấy phép. Khi được cài đặt mà không có giấy phép, thư viện hoạt động ở chế độ thử nghiệm. Trong chế độ này, có các huy hiệu thử nghiệm được thêm vào tài liệu kết quả, và nó bị cắt lại để chỉ 3 trang đầu tiên. Nếu bạn muốn thử GroupDocs.Parser mà không bị hạn chế của phiên bản thử nghiệm, bạn cũng có thể yêu cầu giấy phép tạm thời 30 ngày. Để biết thêm chi tiết, [xem](https://purchase.groupdocs.com/temporary-license/)."
 
     # items loop
     - question: "Các loại giấy phép bạn có là gì?"
-      answer: "Chúng tôi cung cấp nhiều loại giấy phép khác nhau để phù hợp với nhu cầu của các nhà phát triển hoặc công ty cụ thể. Các loại giấy phép phụ thuộc vào số lượng nhà phát triển, số lượng địa điểm của nhà phát triển, và liệu bạn có cần giao SDK/API của chúng tôi cho khách hàng của bạn hay không. Ngoài ra, bạn có thể chọn giấy phép theo mức sử dụng hàng tháng của sản phẩm. Tìm hiểu thêm [tại đây](https://purchase.groupdocs.com/pricing/parser/net/)"
+      answer: "Chúng tôi cung cấp nhiều loại giấy phép khác nhau để phù hợp với nhu cầu của các nhà phát triển hoặc công ty cụ thể. Các loại giấy phép phụ thuộc vào số lượng nhà phát triển, số lượng địa điểm của nhà phát triển, và liệu bạn có cần giao SDK/API của chúng tôi cho khách hàng của bạn hay không. Ngoài ra, bạn có thể chọn giấy phép theo mức sử dụng hàng tháng của sản phẩm. Tìm hiểu thêm [tại đây](https://purchase.groupdocs.com/pricing/parser/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:

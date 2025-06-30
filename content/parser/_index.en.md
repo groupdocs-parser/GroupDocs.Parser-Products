@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T10:26:00
+date:  2025-06-30T14:38:23
 draft: false
 
 product: "Parser"
@@ -279,11 +279,11 @@ faq:
 
     # items loop
     - question: "Can I try the GroupDocs.Parser library before purchasing it?"
-      answer: "Yes, you can try GroupDocs.Parser without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Parser without the limitations of the trial version, you can also request a 30-day temporary license. For more details, [see](https://purchase.groupdocs.com/temporary-license/)"
+      answer: "Yes, you can try GroupDocs.Parser without buying a license. Once installed without a license, the library works in trial mode. In this mode, trial badges are added to the resultant document, and it is trimmed to the first 3 pages. If you wish to test GroupDocs.Parser without the limitations of the trial version, you can also request a 30-day temporary license. For more details, [see](https://purchase.groupdocs.com/temporary-license/)."
 
     # items loop
     - question: "What licenses do you have?"
-      answer: "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more [here](https://purchase.groupdocs.com/pricing/parser/net/)"
+      answer: "We offer several license types to fit the needs of particular developers or companies. License types depend on the number of developers, the number of developer site locations, and whether you need to deliver our SDK/API to your end customers. Alternatively, you can choose Metered licenses based on monthly usage of the product. Learn more [here](https://purchase.groupdocs.com/pricing/parser/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:

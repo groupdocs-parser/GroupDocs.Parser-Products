@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T10:26:00
+date:  2025-06-30T14:38:23
 draft: false
 
 product: "Parser"
@@ -14,7 +14,7 @@ head_title: ".NET, Java, Cloud-APIs & Online-Dokumentenparser-Apps"
 head_description: "Erhalten Sie eine All-in-One-Lösung zum Dokumentenparsen für .NET, Java und cloudbasierte Anwendungen. Daten aus Dokumentformaten online mit einer einfachen Drag-and-Drop-Funktion extrahieren."
 
 ############################# Header ############################
-title: "Dokumentenverarbeitungslösung"
+title: "Dokumentenverar beitungslösung"
 description:  |
   Robuste API zur Datenextraktion aus verschiedenen Dateiformaten.
 
@@ -279,11 +279,11 @@ faq:
 
     # items loop
     - question: "Kann ich die GroupDocs.Parser-Bibliothek vor dem Kauf testen?"
-      answer: "Ja, Sie können GroupDocs.Parser testen, ohne eine Lizenz zu kaufen. Nach der Installation ohne Lizenz arbeitet die Bibliothek im Testmodus. In diesem Modus werden Testmarken zum resultierenden Dokument hinzugefügt, und es wird auf die ersten 3 Seiten beschränkt. Wenn Sie GroupDocs.Parser ohne die Einschränkungen der Testversion testen möchten, können Sie auch eine 30-tägige temporäre Lizenz anfordern. Für weitere Informationen, [sehen Sie hier](https://purchase.groupdocs.com/temporary-license/)"
+      answer: "Ja, Sie können GroupDocs.Parser testen, ohne eine Lizenz zu kaufen. Nach der Installation ohne Lizenz arbeitet die Bibliothek im Testmodus. In diesem Modus werden Testmarken zum resultierenden Dokument hinzugefügt, und es wird auf die ersten 3 Seiten beschränkt. Wenn Sie GroupDocs.Parser ohne die Einschränkungen der Testversion testen möchten, können Sie auch eine 30-tägige temporäre Lizenz anfordern. Für weitere Informationen, [sehen Sie hier](https://purchase.groupdocs.com/temporary-license/)."
 
     # items loop
     - question: "Welche Lizenzen haben Sie?"
-      answer: "Wir bieten mehrere Lizenztypen an, um den Bedürfnissen bestimmter Entwickler oder Unternehmen gerecht zu werden. Lizenztypen hängen von der Anzahl der Entwickler, der Anzahl der Standorte der Entwickler und davon ab, ob Sie unser SDK/API an Ihre Endkunden liefern müssen. Alternativ können Sie auch lizenzierte Lizenzen basierend auf der monatlichen Nutzung des Produkts wählen. Erfahren Sie hier mehr [hier](https://purchase.groupdocs.com/pricing/parser/net/)"
+      answer: "Wir bieten mehrere Lizenztypen an, um den Bedürfnissen bestimmter Entwickler oder Unternehmen gerecht zu werden. Lizenztypen hängen von der Anzahl der Entwickler, der Anzahl der Standorte der Entwickler und davon ab, ob Sie unser SDK/API an Ihre Endkunden liefern müssen. Alternativ können Sie auch lizenzierte Lizenzen basierend auf der monatlichen Nutzung des Produkts wählen. Erfahren Sie hier mehr [hier](https://purchase.groupdocs.com/pricing/parser/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:

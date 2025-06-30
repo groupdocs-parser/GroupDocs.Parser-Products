@@ -2,7 +2,7 @@
   "index-content": {
     "head_title": ".NET, Java, Cloud-APIs & Online-Dokumentenparser-Apps",
     "head_description": "Erhalten Sie eine All-in-One-Lösung zum Dokumentenparsen für .NET, Java und cloudbasierte Anwendungen. Daten aus Dokumentformaten online mit einer einfachen Drag-and-Drop-Funktion extrahieren.",
-    "title": "Dokumentenverarbeitungslösung",
+    "title": "Dokumentenverar beitungslösung",
     "description_0": "Robuste API zur Datenextraktion aus verschiedenen Dateiformaten.",
     "description_1": "Dokumente mit minimalem Programmieraufwand parsen.",
     "description_2": "Parsing-Ergebnisse anpassen.",
@@ -113,11 +113,11 @@
       },
       "item_2": {
         "question": "Kann ich die {{ProdShortName}}-Bibliothek vor dem Kauf testen?",
-        "answer": "Ja, Sie können {{ProdShortName}} testen, ohne eine Lizenz zu kaufen. Nach der Installation ohne Lizenz arbeitet die Bibliothek im Testmodus. In diesem Modus werden Testmarken zum resultierenden Dokument hinzugefügt, und es wird auf die ersten 3 Seiten beschränkt. Wenn Sie GroupDocs.Parser ohne die Einschränkungen der Testversion testen möchten, können Sie auch eine 30-tägige temporäre Lizenz anfordern. Für weitere Informationen, [sehen Sie hier]({{LicensingUrl}})"
+        "answer": "Ja, Sie können {{ProdShortName}} testen, ohne eine Lizenz zu kaufen. Nach der Installation ohne Lizenz arbeitet die Bibliothek im Testmodus. In diesem Modus werden Testmarken zum resultierenden Dokument hinzugefügt, und es wird auf die ersten 3 Seiten beschränkt. Wenn Sie GroupDocs.Parser ohne die Einschränkungen der Testversion testen möchten, können Sie auch eine 30-tägige temporäre Lizenz anfordern. Für weitere Informationen, [sehen Sie hier]({{LicensingUrl}})."
       },
       "item_3": {
         "question": "Welche Lizenzen haben Sie?",
-        "answer": "Wir bieten mehrere Lizenztypen an, um den Bedürfnissen bestimmter Entwickler oder Unternehmen gerecht zu werden. Lizenztypen hängen von der Anzahl der Entwickler, der Anzahl der Standorte der Entwickler und davon ab, ob Sie unser SDK/API an Ihre Endkunden liefern müssen. Alternativ können Sie auch lizenzierte Lizenzen basierend auf der monatlichen Nutzung des Produkts wählen. Erfahren Sie hier mehr [hier]({{PricingUrl}})"
+        "answer": "Wir bieten mehrere Lizenztypen an, um den Bedürfnissen bestimmter Entwickler oder Unternehmen gerecht zu werden. Lizenztypen hängen von der Anzahl der Entwickler, der Anzahl der Standorte der Entwickler und davon ab, ob Sie unser SDK/API an Ihre Endkunden liefern müssen. Alternativ können Sie auch lizenzierte Lizenzen basierend auf der monatlichen Nutzung des Produkts wählen. Erfahren Sie hier mehr [hier]({{PricingUrl}})."
       }
     },
     "cloud_links": {
