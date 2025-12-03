@@ -1,21 +1,23 @@
-name: Publish
+name: Copy to products.groupdocs.com
 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
+    paths:
+      - 'content/**'
   pull_request:
     branches: [ master ]
+    paths:
+      - 'content/**'
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  publish:
+  copy_content:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Copycat
+    - name: Copy content to products.groupdocs.com
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.REPO_TOKEN }}
