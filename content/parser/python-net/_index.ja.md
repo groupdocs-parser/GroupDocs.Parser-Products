@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-12-09T14:10:41
+date: 2025-12-09T21:34:38
 draft: false
 
 lang: ja
@@ -51,7 +51,7 @@ release:
 code:
   title: "Python を使用してテキストを抽出"
   more: "その他のサンプル"
-  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/"
+  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Python-via-.NET/"
   install: "pip install groupdocs-parser-net"
   content: |
     ```python {style=abap}  

@@ -53,7 +53,7 @@ release:
 code:
   title: "<% "{index-content-python-net.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
-  more_link: "<% dict "products.net.more_link" %>"
+  more_link: "<% dict "products.python-net.more_link" %>"
   install: "pip install groupdocs-parser-net"
   content: |
     ```python {style=abap}  

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-12-09T14:10:41
+date: 2025-12-09T21:34:38
 draft: false
 
 lang: ko
@@ -51,7 +51,7 @@ release:
 code:
   title: "Python을 사용하여 텍스트 추출"
   more: "추가 예제"
-  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/"
+  more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Python-via-.NET/"
   install: "pip install groupdocs-parser-net"
   content: |
     ```python {style=abap}  
