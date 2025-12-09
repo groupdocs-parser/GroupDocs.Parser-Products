@@ -16,12 +16,10 @@
       "productCode": "net",
       "productPlatformLink": "/parser/net/",
       "productFullName": "GroupDocs.Parser for .NET",
-
       "programmingLanguage": "C#",
       "srcFileExt": ".cs",
       "syntax": "csharp",
-      "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
-
+      "runtime": "Frameworks: .NET Framework, .NET Standard, .NET",
       "productUrl": "https://products.groupdocs.com/parser/net/",
       "packageStoreName": "Nuget",
       "packageUrl": "https://www.nuget.org/packages/GroupDocs.Parser",
@@ -30,7 +28,6 @@
       "supportedFormatsUrl": "https://docs.groupdocs.com/parser/net/supported-document-formats/",
       "sample1Url": "https://docs.groupdocs.com/parser/net/extract-images-from-documents/",
       "sample2Url": "https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/",
-
       "more_link": "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/",
       "release_downloads": "https://releases.groupdocs.com/parser/net/"
     },
@@ -40,12 +37,10 @@
       "productCode": "java",
       "productPlatformLink": "/parser/java/",
       "productFullName": "GroupDocs.Parser for Java",
-
       "programmingLanguage": "Java",
       "srcFileExt": ".java",
       "syntax": "java",
-      "runtime": "Java runtime: J2SE 6.0 and above",
-
+      "runtime": "Java runtime: J2SE 8.0 and above",
       "productUrl": "https://products.groupdocs.com/parser/java/",
       "packageStoreName": "Maven",
       "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/",
@@ -54,9 +49,29 @@
       "supportedFormatsUrl": "https://docs.groupdocs.com/parser/java/supported-document-formats/",
       "sample1Url": "https://docs.groupdocs.com/parser/java/extract-images-from-documents/",
       "sample2Url": "https://docs.groupdocs.com/parser/java/extract-barcodes-from-document/",
-
       "more_link": "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Java/",
       "release_downloads": "https://releases.groupdocs.com/parser/java/"
+    },
+    "python-net": {
+      "environmentName": "Python via .NET",
+      "environmentNameShort": "Python",
+      "productCode": "python-net",
+      "productPlatformLink": "/parser/python-net/",
+      "productFullName": "GroupDocs.Parser for Python via .NET",
+      "programmingLanguage": "Python",
+      "srcFileExt": ".py",
+      "syntax": "python",
+      "runtime": "Python runtime: Python 3.5 and above",
+      "productUrl": "https://products.groupdocs.com/parser/net/",
+      "packageStoreName": "PyPI",
+      "packageUrl": "https://pypi.org/project/groupdocs-parser-net/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/parser/python-net/",
+      "docsUrl": "https://docs.groupdocs.com/parser/python-net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/parser/python-net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/parser/python-net/extract-images-from-documents/",
+      "sample2Url": "https://docs.groupdocs.com/parser/python-net/extract-barcodes-from-document/",
+      "more_link": "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Python-via-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/parser/python-net/"
     }
   }
 }

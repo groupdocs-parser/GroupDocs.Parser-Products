@@ -35,7 +35,7 @@ supported_platforms:
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Parser .NET 
+      description: GroupDocs.Parser for .NET 
       color: "blue"
       tag: "net"
       link: "/parser/net/"
@@ -64,7 +64,7 @@ supported_platforms:
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Parser Java
+      description: GroupDocs.Parser for Java
       color: "red"
       tag: "java"
       link: "/parser/java/"
@@ -89,6 +89,35 @@ supported_platforms:
           - rows: "1"
             content: |
                     50+ file formats
+
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Parser for Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/parser/python-net/"
+      features_link: "https://docs.groupdocs.com/parser/python-net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.5+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> macOS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    PyCharm, VS Code, Jupyter Notebook
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats                    
 
 ############################# Features ###############################
 features:
@@ -132,43 +161,51 @@ code_samples:
           - language: "C#"
             color: "blue"
             content: |
-                    <code class="language-csharp" data-lang="csharp">
-
-                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
-                        using (var parser = new Parser("source.pdf"))
-                        {
-                            // <% "{index-content.code_samples.sample_index.comment_2}" %>
-                            using (var textReader = parser.GetText())
-                            {
-                                // <% "{index-content.code_samples.sample_index.comment_3}" %>
-                                Console.WriteLine(textReader?.ReadToEnd());
-                            }
-                        }     
-                        
-                    </code>
-
+              ```csharp {style=abap}  
+                // <% "{index-content.code_samples.sample_index.comment_1}" %>
+                using (var parser = new Parser("source.pdf"))
+                {
+                    // <% "{index-content.code_samples.sample_index.comment_2}" %>
+                    using (var textReader = parser.GetText())
+                    {
+                        // <% "{index-content.code_samples.sample_index.comment_3}" %>
+                        Console.WriteLine(textReader?.ReadToEnd());
+                    }
+                }     
+              ```
           # samples loop
           - language: "Java"
             color: "red"
             content: |
-                    <code class="language-java" data-lang="java">
+              ```java {style=abap}
+                // <% "{index-content.code_samples.sample_index.comment_1}" %>
+                try (Parser parser = new Parser("source.pdf"))
+                {
+                    // <% "{index-content.code_samples.sample_index.comment_2}" %>
+                    try (TextReader reader = parser.getText())
+                    {
+                        // <% "{index-content.code_samples.sample_index.comment_3}" %>
+                        System.out.println(reader == null 
+                                ? "" 
+                                : reader.readToEnd());
+                    }
+                }  
+              ```
+          # samples loop
+          - language: "Python"
+            color: "green"
+            content: |
+              ```python {style=abap}
+                from groupdocs.parser import Parser
 
-                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
-                        try (Parser parser = new Parser("source.pdf"))
-                        {
-                            // <% "{index-content.code_samples.sample_index.comment_2}" %>
-                            try (TextReader reader = parser.getText())
-                            {
-                                // <% "{index-content.code_samples.sample_index.comment_3}" %>
-                                System.out.println(reader == null 
-                                        ? "" 
-                                        : reader.readToEnd());
-                            }
-                        }  
+                # <% "{index-content.code_samples.sample_index.comment_1}" %>
+                with Parser("source.pdf") as parser:
+                    # <% "{index-content.code_samples.sample_index.comment_2}" %>
+                    text = parser.get_text()
 
-                    </code>
-
-
+                    # <% "{index-content.code_samples.sample_index.comment_3}" %>
+                    print(text)
+              ```
 ############################# Supported Formats ###############################
 formats:
   enable: true

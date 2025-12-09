@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T10:26:00
+date:  2025-12-09T14:52:35
 draft: false
 
 product: "Parser"
@@ -10,30 +10,30 @@ product_tag: "parser"
 lang: fa
 
 ############################# Head ############################
-head_title: "برنامه‌های تحلیل اسناد .NET، جاوا، API های ابری و برنامه‌های آنلاین"
-head_description: "راهکار جامع تحلیل اسناد برای برنامه‌های .NET، جاوا و برنامه‌های مبتنی بر ابر. استخراج داده‌ها از فرمت‌های اسنادی آنلاین با استفاده از ویژگی کشیدن و رها کردن ساده."
+head_title: "SDKهای تجزیه‌کننده اسناد برای PDF، Word و Excel | GroupDocs"
+head_description: "SDK تجزیه‌کننده اسناد برای استخراج متن، تصویر، متادیتا، بارکدها و جدول‌ها از PDF، Word، Excel، ایمیل‌ها و بیش از 50 فرمت دیگر اسناد برای برنامه‌های .NET، Java و Python."
 
 ############################# Header ############################
-title: "راهکار تحلیل اسناد"
+title: "SDK تجزیه‌کننده اسناد"
 description:  |
-  API قوی برای استخراج داده‌ها از فرمت‌های مختلف فایل.
+  SDK تجزیه‌کننده اسناد کاربرپسند برای توسعه‌دهندگان جهت استخراج متن، تصویر، بارکد، متادیتا و جدول‌ها از بیش از 50 فرمت سند و تصویر.
 
-  تحلیل اسناد با حداقل تلاش کدنویسی.
+  تجزیه‌کردن اسناد با عملکرد بالا را با کمترین کدنویسی در برنامه‌های .NET، Java و Python خود ادغام کنید.
 
-  سفارشی کردن نتایج تحلیل.
+  از قالب‌های انعطاف‌پذیر و APIهای پیشرفته استفاده کنید تا قوانین تجزیه را سفارشی کنید و خروجی‌های داده‌ای ساختار یافته و تمیز ارائه دهید.
 
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
   head_title: "پلتفرم خود را انتخاب کنید"
-  title: "استقلال از پلتفرم"
-  description: "کتابخانه GroupDocs.Parser از سیستم‌عامل‌ها و فریم‌ورک‌های زیر پشتیبانی می‌کند:"
-  details_link_title: "بیشتر بدانید"
+  title: "استقلال پلتفرم"
+  description: "GroupDocs.Parser کتابخانه از سیستم‌عامل‌ها و چارچوب‌های زیر پشتیبانی می‌کند:"
+  details_link_title: "اطلاعات بیشتر"
 
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Parser .NET 
+      description: GroupDocs.Parser for .NET 
       color: "blue"
       tag: "net"
       link: "/parser/net/"
@@ -62,7 +62,7 @@ supported_platforms:
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Parser Java
+      description: GroupDocs.Parser for Java
       color: "red"
       tag: "java"
       link: "/parser/java/"
@@ -88,11 +88,40 @@ supported_platforms:
             content: |
                     50+ file formats
 
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Parser for Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/parser/python-net/"
+      features_link: "https://docs.groupdocs.com/parser/python-net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.5+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> macOS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    PyCharm, VS Code, Jupyter Notebook
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats                    
+
 ############################# Features ###############################
 features:
   enable: true
-  title: "GroupDocs.Parser در یک نظر"
-  description: "API برای پردازش داده‌ها در قالب‌های PDF، Word، Excel و بیشتر"
+  title: "GroupDocs.Parser در یک نگاه"
+  description: "SDK قدرتمند تجزیه‌کننده اسناد برای استخراج داده‌های ساختاریافته و غیرساختاریافته از PDFها، اسناد Office، تصاویر، ایمیل‌ها و آرشیوها."
 
   items:
     # items loop
@@ -103,109 +132,117 @@ features:
     # items loop
     - icon: "image"
       title: "استخراج تصاویر"
-      content: "بازیابی محتوای بصری از منابع مختلف"
+      content: "دریافت محتوای تصویری از منابع مختلف"
 
     # items loop
     - icon: "template"
-      title: "تحلیل داده با الگوها"
-      content: "ایجاد قالب‌های سفارشی و استفاده از آن‌ها برای استخراج اطلاعات خاص"
+      title: "تحلیل داده‌ها با قالب‌ها"
+      content: "ایجاد قالب‌های سفارشی و استفاده از آن‌ها برای تجزیه اطلاعات خاص"
 
     # items loop
     - icon: "pdf"
-      title: "تحلیل فرم‌های PDF"
-      content: "فرم‌های PDF اسنادی دیجیتالی هستند که دارای فیلدهای قابل پر کردن برای تعامل کاربر می‌باشند."
+      title: "تجزیه فرم‌های PDF"
+      content: "فرم‌های PDF اسناد دیجیتالی هستند که شامل فیلدهای قابل پر شدن برای تعامل کاربر می‌باشند"
 
 ############################# Code Samples ###############################
 code_samples:
   enable: true
-  title: "نمونه‌های کد GroupDocs.Parser"
-  description: "برخی از موارد کاربرد عملیات معمول GroupDocs.Parser در C# و جاوا"
+  title: "GroupDocs.Parser نمونه‌های کد"
+  description: "برخی موارد استفاده از عملیات‌های معمول GroupDocs.Parser در C# و Java و Python"
 
   items:
     # items loop
-    - title: "چگونه متن را از اسناد PDF استخراج کنیم"
-      content: "API GroupDocs.Parser روند استخراج متن از اسناد را با اجرای چند مرحله آسان می‌سازد."
+    - title: "چگونگی استخراج متن از اسناد PDF"
+      content: "API GroupDocs.Parser استخراج متن از اسناد را با اجرای چند مرحله آسان می‌کند."
       samples:
           # samples loop
           - language: "C#"
             color: "blue"
             content: |
-                    <code class="language-csharp" data-lang="csharp">
-
-                        // یک نمونه از کلاس Parser ایجاد کنید و فایل مطلوب را به آن پاس دهید.
-                        using (var parser = new Parser("source.pdf"))
-                        {
-                            // متن را استخراج کنید.
-                            using (var textReader = parser.GetText())
-                            {
-                                // متن استخراج‌شده را پردازش کنید.
-                                Console.WriteLine(textReader?.ReadToEnd());
-                            }
-                        }     
-                        
-                    </code>
-
+              ```csharp {style=abap}  
+                // یک نمونه از کلاس Parser را با عبور فایل مورد نظر ایجاد کنید
+                using (var parser = new Parser("source.pdf"))
+                {
+                    // استخراج متن
+                    using (var textReader = parser.GetText())
+                    {
+                        // پردازش متن استخراج‌شده
+                        Console.WriteLine(textReader?.ReadToEnd());
+                    }
+                }     
+              ```
           # samples loop
           - language: "Java"
             color: "red"
             content: |
-                    <code class="language-java" data-lang="java">
+              ```java {style=abap}
+                // یک نمونه از کلاس Parser را با عبور فایل مورد نظر ایجاد کنید
+                try (Parser parser = new Parser("source.pdf"))
+                {
+                    // استخراج متن
+                    try (TextReader reader = parser.getText())
+                    {
+                        // پردازش متن استخراج‌شده
+                        System.out.println(reader == null 
+                                ? "" 
+                                : reader.readToEnd());
+                    }
+                }  
+              ```
+          # samples loop
+          - language: "Python"
+            color: "green"
+            content: |
+              ```python {style=abap}
+                from groupdocs.parser import Parser
 
-                        // یک نمونه از کلاس Parser ایجاد کنید و فایل مطلوب را به آن پاس دهید.
-                        try (Parser parser = new Parser("source.pdf"))
-                        {
-                            // متن را استخراج کنید.
-                            try (TextReader reader = parser.getText())
-                            {
-                                // متن استخراج‌شده را پردازش کنید.
-                                System.out.println(reader == null 
-                                        ? "" 
-                                        : reader.readToEnd());
-                            }
-                        }  
+                # یک نمونه از کلاس Parser را با عبور فایل مورد نظر ایجاد کنید
+                with Parser("source.pdf") as parser:
+                    # استخراج متن
+                    text = parser.get_text()
 
-                    </code>
-
-
+                    # پردازش متن استخراج‌شده
+                    print(text)
+              ```
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "پشتیبانی از بیش از 50 فرمت فایل"
-  description: "GroupDocs.Parser عملیات پارس را در خانواده‌های مختلف فرمت‌ها امکان‌پذیر می‌سازد."
+  title: "پشتیبانی از بیش از 50 فرمت سند و تصویر"
+  description: "GroupDocs.Parser SDK تجزیه‌کننده اسناد امکان انجام عملیات تجزیه را در اسناد Office، PDFها، تصاویر، ایمیل‌ها، آرشیوها و موارد دیگر فراهم می‌کند."
 
 ############################# Metrics ###############################
 metrics:
   enable: true
-  title: "دستاوردهای GroupDocs.Parser"
-  description: "شاخص‌های کلیدی موفقیت‌های کتابخانه ما را کشف کنید."
+  title: "دست‌آوردهای GroupDocs.Parser"
+  description: "معیارهای کلیدی دستاوردهای کتابخانه ما را کشف کنید"
 
   items:
     # items loop
     - number: "50+"
-      title: "فرمت‌های پشتیبانی‌شده"
-      content: "GroupDocs.Parser با بیش از 50 فرمت فایل محبوب کار می‌کند."
+      title: "قالب‌های پشتیبانی‌شده"
+      content: "GroupDocs.Parser عملیات‌ها را با بیش از ۵۰ قالب فایل محبوب پشتیبانی می‌کند."
 
     # items loop
     - number: "1600k"
-      title: "نصب‌های NuGet"
-      content: "بسته NuGet GroupDocs.Parser برای .NET بیش از 1,600,000 بار دانلود شده است."
+      title: "دانلودهای NuGet"
+      content: "پکیج NuGet GroupDocs.Parser برای .NET بیش از 1,600,000 بار دانلود شده است."
 
     # items loop
     - number: "18k"
-      title: "نصب‌های Maven"
-      content: "GroupDocs.Parser در Maven دارای 18,000 نصب است. ویژگی‌های قدرتمند پارس جاوا."
+      title: "دانلودهای Maven"
+      content: "GroupDocs.Parser در Maven 18,000 بار دانلود شده است. ویژگی‌های قدرتمند تجزیه‌وتحلیل Java."
 
     # items loop
     - number: "140+"
       title: "مشتریان خوشحال"
-      content: "شرکت‌های معروف و توسعه‌دهندگان فردی محصولات GroupDocs را برای ایجاد راه‌حل‌های نوآورانه انتخاب می‌کنند."
+      content: "شرکت‌های مشهور و توسعه‌دهندگان فردی به‌طور یکسان محصولات GroupDocs را برای ساخت راه‌حل‌های نوآورانه ترجیح می‌دهند."
 
 
 ############################# Customers ###############################
 customers:
   enable: true
   title: "مشتریان خوشحال ما"
-  description: "کتابخانه‌های GroupDocs توسط برندهای معتبر و شناخته‌شده در سراسر جهان مورد استفاده قرار می‌گیرند."
+  description: "GroupDocs کتابخانه‌ها توسط برندهای مشهور و معتبر جهانی در سراسر جهان مورد استفاده قرار می‌گیرند."
 
   items:
     # items loop
@@ -252,8 +289,8 @@ customers:
 ############################# Actions ###############################
 actions:
   enable: true
-  title: "آماده شروع کار هستید؟"
-  description: "ویژگی‌های GroupDocs.Parser را بر روی پلتفرم خود به صورت رایگان امتحان کنید."
+  title: "آیا آماده شروع هستید؟"
+  description: "امکانات GroupDocs.Parser را به‌صورت رایگان روی پلتفرم خود امتحان کنید"
 
   items:
     # items loop
@@ -270,68 +307,68 @@ actions:
 faq:
   enable: true
   title: "سوالات متداول"
-  description: "پاسخ به رایج‌ترین سوالات."
+  description: "پاسخ‌های اکثر سوالات متداول."
 
   items:
     # items loop
-    - question: "آیا کتابخانه GroupDocs.Parser به نرم‌افزارهای شخص ثالث دیگری برای ویرایش اسناد نیاز دارد؟"
-      answer: "GroupDocs.Parser نیازی به نصب نرم‌افزارهای خارجی مانند Adobe Acrobat، Microsoft Office یا هر نرم‌افزار دیگر ندارد."
+    - question: "آیا کتابخانه GroupDocs.Parser برای دست‌کاری اسناد به نرم‌افزارهای شخص ثالث دیگری نیاز دارد؟"
+      answer: "GroupDocs.Parser نیازی به نصب هیچ نرم‌افزار خارجی مانند Adobe Acrobat، Microsoft Office یا سایر برنامه‌ها ندارد."
 
     # items loop
-    - question: "آیا می‌توانم قبل از خرید، کتابخانه GroupDocs.Parser را امتحان کنم؟"
-      answer: "بله، می‌توانید GroupDocs.Parser را بدون خرید مجوز امتحان کنید. پس از نصب بدون مجوز، کتابخانه در حالت آزمایشی کار می‌کند. در این حالت، نشان‌های آزمایشی به سند حاصل افزوده می‌شود و به سه صفحه اول محدود می‌شود. اگر می‌خواهید GroupDocs.Parser را بدون محدودیت‌های نسخه آزمایشی تست کنید، می‌توانید یک مجوز موقت 30 روزه درخواست کنید. برای جزئیات بیشتر، [مشاهده کنید](https://purchase.groupdocs.com/temporary-license/)."
+    - question: "آیا می‌توانم قبل از خرید کتابخانه GroupDocs.Parser را امتحان کنم؟"
+      answer: "بله، می‌توانید GroupDocs.Parser را بدون خرید لایسنس امتحان کنید. پس از نصب بدون لایسنس، کتابخانه در حالت آزمایشی کار می‌کند. در این حالت، برچسب‌های آزمایشی به سند خروجی اضافه می‌شود و سند به سه صفحهٔ اول محدود می‌شود. اگر می‌خواهید GroupDocs.Parser را بدون محدودیت‌های نسخه آزمایشی تست کنید، می‌توانید یک لایسنس موقت ۳۰ روزه نیز درخواست کنید. برای جزئیات بیشتر، [مشاهده کنید](https://purchase.groupdocs.com/temporary-license/)."
 
     # items loop
-    - question: "چه نوع مجوزهایی دارید؟"
-      answer: "ما چندین نوع مجوز ارائه می‌دهیم که نیازهای توسعه‌دهندگان خاص یا شرکت‌ها را برآورده می‌کند. نوع مجوزها به تعداد توسعه‌دهندگان، تعداد مکان‌های سایت توسعه‌دهندگان و اینکه آیا نیاز دارید SDK/API ما را به مشتریان نهایی خود ارائه دهید بستگی دارد. به‌عنوان مثال، می‌توانید مجوزهای متری را بر اساس استفاده ماهیانه از محصول انتخاب کنید. برای اطلاعات بیشتر، [اینجا را مشاهده کنید](https://purchase.groupdocs.com/pricing/parser/net/)."
+    - question: "چه نوع لایسنس‌هایی ارائه می‌کنید؟"
+      answer: "ما چندین نوع لایسنس ارائه می‌دهیم که متناسب با نیازهای توسعه‌دهندگان یا شرکت‌های خاص باشد. انواع لایسنس بر اساس تعداد توسعه‌دهندگان، تعداد مکان‌های سایت توسعه‌دهنده، و این که آیا نیاز به ارائه SDK/API ما به مشتریان نهایی دارید یا نه، تعیین می‌شود. به‌علاوه، می‌توانید لایسنس‌های متره (Metered) براساس استفاده ماهانه از محصول را انتخاب کنید. برای اطلاعات بیشتر، [اینجا](https://purchase.groupdocs.com/pricing/parser/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "API های کم‌کد GroupDocs.Parser"
-  description: "قابلیت‌های ویرایش‌گر اسناد را در هر برنامه‌ای با استفاده از API REST مبتنی بر ابر ما ادغام کنید."
+  title: "GroupDocs.Parser APIهای پارسر سند با کد کم"
+  description: "قابلیت‌های پارس سند را با استفاده از API REST مبتنی بر ابر و SDKهای ما به هر برنامه‌ای اضافه کنید."
   
   items:
     # items loop
     - title: "GroupDocs.Parser Cloud for cURL"
-      content: "دستورات cURL برای API ابری ویرایش‌گر اسناد RESTful برای تحلیل اسناد در بازه وسیعی از فرمت‌های پشتیبانی‌شده محبوب."
+      content: "دستورات cURL برای API ابری پارسر سند RESTful جهت پردازش اسناد در انواع گسترده‌ای از فرمت‌های محبوب پشتیبانی‌شده."
       icon: "groupdocs_parser-for-curl"
       link: "https://products.groupdocs.cloud/parser/curl"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for .NET"
-      content: "استخراج تصاویر، متن، اطلاعات سند یا حتی تحلیل هر سند با الگوی تعریف‌شده توسط کاربر در برنامه‌های Microsoft .NET شما."
+      content: "استخراج تصاویر، متن، اطلاعات سند یا حتی پارس هر سندی با الگوی تعریف‌شده توسط کاربر در برنامه‌های Microsoft .NET شما."
       icon: "groupdocs_parser-for-net"
       link: "https://products.groupdocs.cloud/parser/net"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for Java"
-      content: "SDK ابری برای توسعه‌دهندگان جاوا برای تحلیل اسناد، استخراج اطلاعات سند و داده‌ها در برنامه‌های مبتنی بر جاوا."
+      content: "SDK ابری برای توسعه‌دهندگان Java جهت پارس سند، استخراج اطلاعات سند و داده‌ها در برنامه‌های مبتنی بر Java."
       icon: "groupdocs_parser-for-java"
       link: "https://products.groupdocs.cloud/parser/java"
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "برنامه‌های بدون کد GroupDocs.Parser"
-  description: "برنامه تحت وبی که به شما امکان می‌دهد تا تحلیل را در بیش از 50 نوع فایل محبوب به‌صورت مستقیم در مرورگر خود انجام دهید."
+  title: "GroupDocs.Parser برنامه‌های بدون کد پارسر سند"
+  description: "برنامه‌های وب پارسر سند که به شما امکان استخراج داده از بیش از ۵۰ فرمت محبوب را مستقیماً در مرورگر شما می‌دهند."
 
   items:
     # items loop
     - title: "GroupDocs.Parser Total"
-      content: "برنامه آنلاین رایگان برای تحلیل Word، Excel، PowerPoint، PDF و بیش از 50 نوع سند دیگر."
+      content: "اپلیکیشن آنلاین رایگان برای پارس Word، Excel، PowerPoint، PDF و بیش از ۵۰ نوع سند دیگر."
       icon: "groupdocs_parser-app"
       link: "https://products.groupdocs.app/parser/total"
 
     # items loop
     - title: "GroupDocs.Parser DOCX"
-      content: "تحلیل اسناد Word به‌صورت مستقیم از مرورگر وب خود برای استخراج تصاویر، متن یا متاداده."
+      content: "پارس اسناد Word مستقیماً از مرورگر وب شما برای استخراج تصاویر، متن یا متاداده."
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/parser/docx"
 
     # items loop
     - title: "GroupDocs.Parser PDF"
-      content: "برنامه تحلیل PDF رایگان که بر روی هر پلتفرم یا دستگاهی بدون هیچ محدودیتی کار می‌کند."
+      content: "اپلیکیشن رایگان پارس PDF که روی هر پلتفرم یا دستگاهی بدون هیچ محدودیتی کار می‌کند."
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/parser/pdf"
 

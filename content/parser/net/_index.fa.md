@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-06-30T10:26:00
+date: 2025-12-09T14:10:41
 draft: false
 
 lang: fa
@@ -19,44 +19,47 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
-head_title: "برنامه‌های تحلیل اسناد GroupDocs.Parser for .NET"
-head_description: "راهکار جامع تحلیل اسناد برای برنامه‌های .NET. استخراج داده‌ها از فرمت‌های اسنادی آنلاین با استفاده از ویژگی کشیدن و رها کردن ساده."
+head_title: "GroupDocs.Parser for .NET Document Parser SDK برای .NET"
+head_description: "SDK تجزیه‌گر سند با عملکرد بالا برای .NET. متن، تصاویر، فراداده، بارکدها، جداول و سایر داده‌ها را از PDF، Word، Excel، ایمیل‌ها و بیش از 50 فرمت سند استخراج می‌کند."
 
 ############################# Header ############################
-title: "تحلیل اسناد از طریق API .NET"
-description: "استخراج داده‌ها از اسناد و تصاویر در هر پلتفرم با استفاده از API های انعطاف‌پذیر ما و راه‌حل‌های مبتنی بر برنامه برای برنامه‌نویسان و کاربران نهایی."
+title: "Document Parser SDK برای .NET"
+description: "تحلیل سریع و دقیق اسناد را به برنامه‌های .NET خود اضافه کنید و متن، تصاویر، فراداده و داده‌های ساختاریافته را از اسناد و تصاویر استخراج کنید."
 words:
   for: "برای"
 
 actions:
-  main: "دانلود Nuget"
+  main: "Nuget دانلود"
   main_link: "https://www.nuget.org/packages/GroupDocs.Parser"
-  alt: "مجوز"
+  alt: "مجوزدهی"
   alt_link: "https://purchase.groupdocs.com/pricing/parser/net/"
-  title: "آماده شروع کار هستید؟"
-  description: "ویژگی‌های GroupDocs.Parser را به صورت رایگان امتحان کنید یا درخواست مجوز دهید."
+  title: "آیا آماده شروع هستید؟"
+  description: "امکانات GroupDocs.Parser را به‌صورت رایگان امتحان کنید یا یک مجوز درخواست کنید"
 
 release:
   title: "نسخه {0} منتشر شد"
-  notes: "ببینید چه چیزهایی جدید است"
+  notes: "جدیدهای نسخه را ببینید"
   downloads: "دانلودها"
 
 code:
-  title: "به‌سرعت محتوای سند را تحلیل کنید"
+  title: "به‌سرعت محتوای سند را با SDK تجزیه کنید"
   more: "مثال‌های بیشتر"
   more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/"
   install: "dotnet add package GroupDocs.Parser"
   content: |
     ```csharp {style=abap}   
-    // فایل منبع را به نمونه Parser پاس دهید.
+    // فایل منبع را به نمونه Parser پاس دهید
     using (var parser = new Parser("source.pdf"))
     {
-        // متن سند را به TextReader پاس دهید.
+        // متن سند را به TextReader پاس دهید
         using (var textReader = parser.GetText())
         {
-            // متن سند را پردازش کنید.
+            // متن سند را پردازش کنید
             Console.WriteLine(textReader?.ReadToEnd());
         }
     }  
@@ -65,26 +68,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Parser در یک نظر"
-  description: "API برای انجام تحلیل اسناد در برنامه‌های .NET"
+  title: "GroupDocs.Parser در یک نگاه"
+  description: "Document Parser SDK برای انجام تجزیه دقیق اسناد در برنامه‌های .NET"
   features:
     # feature loop
     - title: "استخراج داده‌ها از اسناد"
-      content: "API GroupDocs.Parser for .NET به شما این امکان را می‌دهد که متن، متاداده و تصاویر را از دامنه وسیعی از فرمت‌های فایل مانند اسناد اداری، ایمیل‌ها، پیوست‌ها و آرشیوها استخراج کنید. این ابزار قوی به شما کمک می‌کند تا به‌طور مؤثر به اطلاعات ارزشمندی که در این فایل‌ها وجود دارد برای کاربردهای مختلفی همچون تحلیل داده، ایندکس‌سازی موتور جستجو یا سیستم‌های مدیریت محتوا دسترسی و پردازش کنید."
+      content: "GroupDocs.Parser for .NET API به شما امکان می‌دهد متن، فراداده و تصاویر را از طیف گسترده‌ای از فرمت‌های فایل مانند اسناد آفیس، ایمیل‌ها، پیوست‌ها و آرشیوها بازیابی کنید. این ابزار قدرتمند به شما کمک می‌کند تا به‌صورت کارآمد به اطلاعات ارزشمند موجود در این فایل‌ها دسترسی پیدا کنید و آنها را برای برنامه‌های مختلفی مانند تحلیل داده، ایندکس‌سازی موتورهای جستجو یا سیستم‌های مدیریت محتوا پردازش کنید."
 
     # feature loop
-    - title: "تحلیل اسناد"
-      content: "استخراج عناصر مختلفی مانند هایپرلینک‌ها، جداول، بارکدها، بارکدهای QR و داده‌ها از فرم‌های PDF. همچنین می‌توانید هر اطلاعات دلخواهی را از اسناد با استفاده از الگوهای سفارشی استخراج کنید."
+    - title: "تجزیه اسناد"
+      content: "عناصر مختلفی مانند پیوندها، جداول، کدهای QR، بارکدها و داده‌ها را از فرم‌های PDF استخراج کنید. همچنین می‌توانید با استفاده از قالب‌های سفارشی، هر اطلاعات دلخواهی را از اسناد تجزیه کنید."
 
     # feature loop
     - title: "سفارشی‌سازی نتایج"
-      content: "API .NET به شما این امکان را می‌دهد که داده‌ها را در فرمت‌های مختلفی همچون خام، ساختاریافته، HTML یا Markdown استخراج کنید. علاوه بر این، API یک قابلیت جستجو برای پیدا کردن کلمات یا عبارات خاص در متن اسناد ارائه می‌دهد."
+      content: ".NET API به شما امکان می‌دهد داده‌ها را در قالب‌های مختلفی مانند خام، ساختار یافته، HTML یا Markdown بازیابی کنید. علاوه بر این، API امکان جستجو برای یافتن کلمات یا عبارات خاص در متن اسناد را فراهم می‌کند."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "استقلال از پلتفرم"
-  description: "GroupDocs.Parser for .NET از سیستم‌عامل‌ها، فریم‌ورک‌ها و مدیران بسته‌های زیر پشتیبانی می‌کند."
+  title: "استقلال پلتفرم"
+  description: "GroupDocs.Parser for .NET سیستم‌عامل‌ها، چارچوب‌ها و مدیران بسته زیر را پشتیبانی می‌کند"
   items:
     # platform loop
     - title: "Amazon"
@@ -114,9 +117,9 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "فرمت‌های پشتیبانی شده"
+  title: "قالب‌های فایل پشتیبانی شده"
   description: |
-    GroupDocs.Parser for .NET از عملیات روی [فرمت‌های فایل](https://docs.groupdocs.com/parser/net/supported-document-formats/) زیر پشتیبانی می‌کند.
+    GroupDocs.Parser for .NET عملیات با [قالب‌های فایل](https://docs.groupdocs.com/parser/net/supported-document-formats/) زیر را پشتیبانی می‌کند.
   groups:
     # group loop
     - color: "green"
@@ -128,14 +131,14 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### تصاویر و سایر فرمت‌ها
+        ### تصاویر و فرمت‌های دیگر
         * **قابل حمل:** PDF 
         * **تصاویر:** JPG, BMP, PNG, TIFF, GIF
-        * **سایر فرمت‌های اداری:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **قالب‌های دیگر آفیس:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### سایر فرمت‌ها
+        ### فرمت‌های دیگر
         * **وب:** HTML, MHTML 
         * **آرشیوها:** ZIP, TAR, 7Z 
         * **کتاب‌های الکترونیکی:** CHM, EPUB, FB2, MOBI 
@@ -146,82 +149,82 @@ formats:
 features:
   enable: true
   title: "ویژگی‌های GroupDocs.Parser for .NET"
-  description: "استخراج داده‌ها از PDF ها، اسناد اداری و تصاویر به‌سرعت و به‌طور دقیق"
+  description: "با استفاده از .NET Document Parser SDK ما، داده‌ها را از PDFها، اسناد آفیس، تصاویر و سایر فرمت‌ها به‌سرعت و به‌دقت استخراج کنید"
 
   items:
     # feature loop
     - icon: "text"
       title: "استخراج متن"
-      content: "استخراج اطلاعات متنی از فرمت‌های مختلف فایل مانند اسناد اداری، فایل‌های PDF و تصاویر برای خوانایی و تحلیل آسان."
+      content: "اطلاعات متنی را از فرمت‌های مختلف فایل مانند اسناد آفیس، فایل‌های PDF و تصاویر استخراج کنید تا قابلیت خواندن و تحلیل آسان را داشته باشید."
 
     # feature loop
     - icon: "image"
       title: "استخراج تصاویر"
-      content: "بازیابی محتوای بصری از منابع مختلف مانند اسناد اداری و فایل‌های PDF برای دسترسی و استفاده راحت."
+      content: "محتوای تصویری را از منابع متنوعی مانند اسناد آفیس و فایل‌های PDF بازیابی کنید برای دسترسی و استفاده راحت."
 
     # feature loop
     - icon: "qr"
-      title: "اسکن بارکدهای QR"
-      content: "شناسایی و رمزگشایی بارکدهای QR موجود در اسناد اداری، فایل‌های PDF یا محتوای بصری برای بازیابی اطلاعات مؤثر."
+      title: "اسکن کدهای QR"
+      content: "کدهای QR موجود در اسناد آفیس، فایل‌های PDF یا محتوای تصویری را شناسایی و رمزگشایی کنید برای بازیابی مؤثر اطلاعات."
 
     # feature loop
     - icon: "email"
-      title: "استخراج داده از پیوست‌های ایمیل و آرشیوها"
-      content: "جمع‌آوری اطلاعات ارزشمند از پیام‌های ایمیل، پیوست‌های فایل و منابع داده‌های فشرده برای تحلیل و استفاده مؤثر."
+      title: "استخراج داده‌ها از پیوست‌های ایمیل و آرشیوها"
+      content: "اطلاعات ارزشمند را از پیام‌های ایمیل، پیوست‌های فایل و منابع داده فشرده جمع‌آوری کنید تا برای تجزیه و تحلیل و بهره‌برداری مؤثر به کار رود."
 
     # feature loop
     - icon: "table"
       title: "استخراج جداول"
-      content: "شناسایی و استخراج داده‌های جدولی از اسناد PDF برای تحلیل و استفاده سازمان‌یافته."
+      content: "داده‌های جدولی را از اسناد PDF شناسایی و استخراج کنید برای تجزیه و تحلیل منظم و استفاده."
 
     # feature loop
     - icon: "hyperlink"
-      title: "استخراج هایپرلینک‌ها"
-      content: "شناسایی و استخراج هایپرلینک‌ها و آدرس‌های ایمیل موجود در اسناد اداری یا فایل‌های PDF برای دسترسی مؤثر."
+      title: "استخراج پیوندهای ابرمتنی"
+      content: "پیوندهای ابرمتنی و آدرس‌های ایمیل را در اسناد آفیس یا فایل‌های PDF پیدا کرده و استخراج کنید برای دسترسی کارآمد."
 
     # feature loop
     - icon: "pdf"
-      title: "تحلیل فرم‌های PDF"
-      content: "فرم‌های PDF اسنادی دیجیتالی هستند که دارای فیلدهای قابل پر کردن برای تعامل کاربر می‌باشند، به آن‌ها این امکان را می‌دهد که اطلاعات را به‌صورت الکترونیکی وارد کنند. API .NET می‌تواند برای استخراج داده‌ها از این فرم‌ها به‌منظور پردازش مؤثر استفاده شود."
+      title: "تجزیه فرم‌های PDF"
+      content: "فرم‌های PDF اسناد دیجیتالی هستند که دارای فیلدهای قابل پرکردن برای تعامل کاربر می‌باشند و به آنها امکان وارد کردن اطلاعات به‌صورت الکترونیکی را می‌دهند. می‌توان از API .NET برای استخراج داده‌ها از این فرم‌ها جهت پردازش کارآمد استفاده کرد."
 
     # feature loop
     - icon: "template"
-      title: "تحلیل داده با الگوها"
-      content: "ایجاد الگوهای سفارشی و استفاده از آن‌ها با API .NET برای استخراج اطلاعات خاص از فایل‌های PDF، فرآیندهای استخراج داده را ساده می‌کند."
+      title: "تجزیه داده‌ها با قالب‌ها"
+      content: "قالب‌های سفارشی ایجاد کنید و با استفاده از API .NET، اطلاعات خاصی را از فایل‌های PDF تجزیه کنید، که فرآیند استخراج داده‌ها را ساده می‌کند."
 
     # feature loop
     - icon: "search"
       title: "جستجوی متن در اسناد"
-      content: "به‌سرعت کلمات یا الگوهای خاصی را در اسناد پیدا کنید."
+      content: "به‌سرعت کلمات یا الگوهای خاص را در اسناد پیدا کنید."
 
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "نمونه‌های کد"
-  description: "برخی از موارد کاربرد عملیات معمول GroupDocs.Parser for .NET"
+  description: "برخی موارد استفاده رایج برای عملیات GroupDocs.Parser for .NET"
   items:
     # code sample loop
     - title: "استخراج تصاویر از اسناد PDF"
       content: |
-        GroupDocs.Parser for .NET فرآیند استخراج تصاویر را برای توسعه‌دهندگان C# از [اسناد](https://docs.groupdocs.com/parser/net/extract-images-from-documents/) آسان می‌کند:
+        GroupDocs.Parser for .NET کار را برای توسعه‌دهندگان C# آسان می‌کند تا تصاویر را از [اسناد](https://docs.groupdocs.com/parser/net/extract-images-from-documents/) استخراج کنند:
         {{< landing/code title="استخراج تصاویر از اسناد PDF در C#">}}
         ```csharp {style=abap}
-        // یک نمونه از کلاس Parser ایجاد کنید.
+        // یک نمونه از کلاس Parser ایجاد کنید
         using (var parser = new Parser("source.pptx"))
         {
-            // تصاویر را استخراج کنید.
+            // استخراج تصاویر
             var images = parser.GetImages();
 
-            // بررسی کنید که آیا چیزی استخراج شده است.
+            // بررسی کنید آیا چیزی استخراج شده است
             if (images == null)
             {
                 return;
             }
-            // بر روی تصاویر تکرار کنید.
+            // تکرار بر روی تصاویر
             foreach (PageImageArea image in images)
             {
-                // ایندکس صفحه، مستطیل و نوع تصویر را چاپ کنید.
+                // چاپ شاخص صفحه، مستطیل و نوع تصویر
                 Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", 
                     image.Page.Index, image.Rectangle, image.FileType));
             }
@@ -234,21 +237,21 @@ code_samples:
         از API .NET ما برای استخراج [بارکدها](https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/) از تصاویر استفاده کنید:
         {{< landing/code title="استخراج بارکدها از تصاویر در C#">}}
         ```csharp {style=abap}   
-        // تصویر منبع را به Parser بارگذاری کنید.
+        // بارگذاری تصویر منبع به Parser
         using (var parser = new Parser("source.jpg"))
         {
-            // بررسی کنید که آیا فایل از استخراج بارکد پشتیبانی می‌کند.
+            // بررسی کنید آیا فایل از استخراج بارکد پشتیبانی می‌کند
             if (parser.Features.Barcodes)
             {
-                // بارکدها را از فایل استخراج کنید.
+                // استخراج بارکدها از فایل
                 var barcodes = parser.GetBarcodes();
 
-                // بر روی بارکدها تکرار کنید.
+                // تکرار بر روی بارکدها
                 foreach (var barcode in barcodes)
                 {
-                    // ایندکس صفحه را چاپ کنید.
+                    // چاپ شاخص صفحه
                     Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-                    // مقدار بارکد را چاپ کنید.
+                    // چاپ مقدار بارکد
                     Console.WriteLine("Value: " + barcode.Value);
                 }
             }

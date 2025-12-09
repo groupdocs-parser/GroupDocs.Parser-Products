@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-06-30T10:26:00
+date: 2025-12-09T14:10:41
 draft: false
 
 lang: ja
@@ -19,44 +19,47 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
-head_title: "GroupDocs.Parser for .NET 文書解析アプリ"
-head_description: ".NET アプリケーション向けのすべてを兼ね備えた文書解析ソリューションを提供します。シンプルなドラッグ＆ドロップ機能でオンライン文書フォーマットからデータを抽出します。"
+head_title: "GroupDocs.Parser for .NET Document Parser SDK .NET 向け"
+head_description: ".NET 用の高性能 Document Parser SDK。PDF、Word、Excel、メール、50 以上のドキュメント形式からテキスト、画像、メタデータ、バーコード、テーブル、その他のデータを抽出します。"
 
 ############################# Header ############################
-title: ".NET APIを介して文書を解析"
-description: "プログラマーやエンドユーザー向けに柔軟なAPIとアプリベースのソリューションを使用して、任意のプラットフォームで文書および画像からデータを抽出します。"
+title: "Document Parser SDK .NET 用"
+description: ".NET アプリに高速かつ正確なドキュメント解析を追加し、ドキュメントや画像からテキスト、画像、メタデータ、構造化データを抽出します。"
 words:
-  for: "のために"
+  for: "対象"
 
 actions:
   main: "Nuget ダウンロード"
   main_link: "https://www.nuget.org/packages/GroupDocs.Parser"
-  alt: "ライセンス取得"
+  alt: "ライセンス"
   alt_link: "https://purchase.groupdocs.com/pricing/parser/net/"
-  title: "始める準備はできましたか？"
-  description: "無料で GroupDocs.Parser の機能を試すか、ライセンスをリクエストしてください。"
+  title: "開始する準備はできましたか？"
+  description: "GroupDocs.Parserの機能を無料でお試し、またはライセンスをリクエストしてください"
 
 release:
   title: "バージョン {0} がリリースされました"
-  notes: "新機能を確認する"
+  notes: "新機能を見る"
   downloads: "ダウンロード"
 
 code:
-  title: "文書内容を迅速に解析"
-  more: "さらに例を見る"
+  title: "SDK を使用してドキュメントコンテンツを迅速に解析する"
+  more: "その他のサンプル"
   more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/"
   install: "dotnet add package GroupDocs.Parser"
   content: |
     ```csharp {style=abap}   
-    // Parser インスタンスにソースファイルを渡します。
+    // ソースファイルを Parser インスタンスに渡す
     using (var parser = new Parser("source.pdf"))
     {
-        // TextReader に文書テキストを渡します。
+        // ドキュメントテキストを TextReader に渡す
         using (var textReader = parser.GetText())
         {
-            // 文書テキストを処理します。
+            // ドキュメントテキストを処理する
             Console.WriteLine(textReader?.ReadToEnd());
         }
     }  
@@ -65,26 +68,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Parser 概要"
-  description: ".NET アプリケーションで文書解析を実行するためのAPI"
+  title: "GroupDocs.Parser の概要"
+  description: ".NET アプリケーションで高精度のドキュメント解析を実行するための Document Parser SDK"
   features:
     # feature loop
-    - title: "文書からデータを抽出"
-      content: "GroupDocs.Parser for .NET APIを活用して、Office文書、Eメール、添付ファイル、アーカイブなど、広範囲のファイル形式からテキスト、メタデータ、画像を取得します。この強力なツールは、データ分析、検索エンジンのインデックス作成、コンテンツ管理システムなど、さまざまなアプリケーション内でこれらのファイルに含まれる貴重な情報に効率的にアクセスし処理するのに役立ちます。"
+    - title: "ドキュメントからデータを抽出する"
+      content: "GroupDocs.Parser for .NET API を使用すると、Office ドキュメント、メール、添付ファイル、アーカイブなど、さまざまなファイル形式からテキスト、メタデータ、画像を取得できます。この強力なツールにより、データ分析、検索エンジンのインデックス作成、コンテンツ管理システムなどの様々なアプリケーションで、これらのファイルに含まれる貴重な情報へ効率的にアクセスし、処理できます。"
 
     # feature loop
-    - title: "文書を解析"
-      content: "ハイパーリンク、表、QRコード、バーコード、PDFフォームのデータなど、さまざまな要素を抽出します。また、カスタムテンプレートを使用して任意の情報を文書から解析します。"
+    - title: "ドキュメントを解析する"
+      content: "PDF フォームからハイパーリンク、テーブル、QR コード、バーコード、データなどのさまざまな要素を抽出します。また、カスタムテンプレートを使用してドキュメントから任意の情報を解析できます。"
 
     # feature loop
     - title: "結果のカスタマイズ"
-      content: ".NET APIでは、生データ、構造化データ、HTML、またはMarkdownなど、さまざまな形式でデータを取得できます。さらに、文書のテキスト内に特定の単語やフレーズを見つけるための検索機能も提供しています。"
+      content: ".NET API を使用すると、RAW、構造化、HTML、Markdown などのさまざまな形式でデータを取得できます。また、API はドキュメントテキスト内の特定の単語やフレーズを検索する機能も提供します。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "プラットフォームの独立性"
-  description: "GroupDocs.Parser for .NET は次のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートしています。"
+  title: "プラットフォームに依存しない"
+  description: "GroupDocs.Parser for .NET は以下のオペレーティングシステム、フレームワーク、パッケージマネージャーをサポートします"
   items:
     # platform loop
     - title: "Amazon"
@@ -116,19 +119,19 @@ formats:
   enable: true
   title: "サポートされているファイル形式"
   description: |
-    GroupDocs.Parser for .NET は次の [ファイル形式](https://docs.groupdocs.com/parser/net/supported-document-formats/)に対応しています。
+    GroupDocs.Parser for .NET は以下の [ファイル形式](https://docs.groupdocs.com/parser/net/supported-document-formats/) の操作をサポートします。
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office形式
+        ### Microsoft Office 形式
         * **Word:** DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### 画像およびその他の形式
+        ### 画像 & その他の形式
         * **ポータブル:** PDF 
         * **画像:** JPG, BMP, PNG, TIFF, GIF
         * **その他のオフィス形式:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
@@ -136,9 +139,9 @@ formats:
     - color: "red"
       content: |
         ### その他の形式
-        * **ウェブ:** HTML, MHTML 
+        * **Web:** HTML, MHTML 
         * **アーカイブ:** ZIP, TAR, 7Z 
-        * **e-Book:** CHM, EPUB, FB2, MOBI 
+        * **電子書籍:** CHM, EPUB, FB2, MOBI 
         
         
 
@@ -146,82 +149,82 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Parser for .NET の機能"
-  description: "PDF、Office文書、および画像から迅速かつ正確にデータを抽出します。"
+  description: "弊社の .NET Document Parser SDK を使用して、PDF、Office ドキュメント、画像、その他の形式からデータを迅速かつ正確に抽出します。"
 
   items:
     # feature loop
     - icon: "text"
-      title: "テキストの抽出"
-      content: "オフィス文書、PDFファイル、画像など、さまざまなファイル形式からテキスト情報を抽出します。"
+      title: "テキストを抽出する"
+      content: "Office ドキュメント、PDF ファイル、画像などのさまざまなファイル形式からテキスト情報を抽出し、読みやすさと分析のしやすさを高めます。"
 
     # feature loop
     - icon: "image"
-      title: "画像の抽出"
-      content: "オフィス文書やPDFファイルから視覚コンテンツを抽出し、便宜上アクセス可能にします。"
+      title: "画像を抽出する"
+      content: "Office ドキュメントや PDF ファイルなど、さまざまなソースから視覚コンテンツを取得し、便利にアクセス・活用できます。"
 
     # feature loop
     - icon: "qr"
-      title: "QRコードのスキャン"
-      content: "オフィス文書やPDFファイル、または視覚コンテンツに存在するQRコードを検出してデコードします。"
+      title: "QR コードをスキャンする"
+      content: "Office ドキュメント、PDF ファイル、またはビジュアルコンテンツ内にある QR コードを検出・デコードし、効率的に情報を取得します。"
 
     # feature loop
     - icon: "email"
-      title: "メール添付ファイルやアーカイブからデータを抽出"
-      content: "メールメッセージ、ファイル添付、圧縮データソースから貴重な情報を取得します。"
+      title: "メール添付ファイルおよびアーカイブからデータを抽出する"
+      content: "メールメッセージ、ファイル添付、および圧縮データソースから貴重な情報を収集し、効果的な分析と活用を実現します。"
 
     # feature loop
     - icon: "table"
-      title: "表の抽出"
-      content: "PDF文書内の表形式のデータを識別して抽出し、整理された分析と利用を行います。"
+      title: "テーブルを抽出"
+      content: "PDFドキュメントから表形式データを識別・抽出し、整理された分析と利用を可能にします。"
 
     # feature loop
     - icon: "hyperlink"
-      title: "ハイパーリンクの抽出"
-      content: "オフィス文書やPDFファイル内のハイパーリンクやメールアドレスを見つけて抽出します。"
+      title: "ハイパーリンクを抽出"
+      content: "オフィス文書やPDFファイル内のハイパーリンクとメールアドレスを検索し抽出して、効率的にアクセスできるようにします。"
 
     # feature loop
     - icon: "pdf"
       title: "PDFフォームを解析"
-      content: "PDFフォームはユーザーが情報を電子的に入力できるようにするための入力可能なフィールドを含むデジタル文書です。 .NET APIを使用して、これらのフォームからデータを抽出し、効率的に処理します。"
+      content: "PDFフォームは、ユーザーが入力できるフィールドを備えたデジタル文書で、情報を電子的に入力できます。.NET APIを使用してこれらのフォームからデータを抽出し、効率的に処理できます。"
 
     # feature loop
     - icon: "template"
-      title: "テンプレートによるデータ解析"
-      content: "カスタムテンプレートを作成し、.NET APIを利用してPDFファイルから特定の情報を解析します。"
+      title: "テンプレートでデータを解析"
+      content: "カスタムテンプレートを作成し、.NET APIと組み合わせてPDFファイルから特定の情報を解析することで、データ抽出プロセスを簡素化します。"
 
     # feature loop
     - icon: "search"
-      title: "文書内のテキストを検索"
-      content: "文書内で特定の言葉やパターンを迅速に見つけます。"
+      title: "ドキュメント内のテキストを検索"
+      content: "ドキュメント内の特定の単語やパターンを迅速に検索します。"
 
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "コードサンプル"
-  description: "典型的な GroupDocs.Parser for .NET 操作のいくつかのユースケース"
+  description: "典型的な GroupDocs.Parser for .NET の操作例の一部"
   items:
     # code sample loop
-    - title: "PDF文書から画像を抽出"
+    - title: "PDFドキュメントから画像を抽出"
       content: |
-        GroupDocs.Parser for .NET は C# 開発者が [文書](https://docs.groupdocs.com/parser/net/extract-images-from-documents/) から画像を抽出するのを簡単にします：
-        {{< landing/code title="C# でPDF文書から画像を抽出">}}
+        GroupDocs.Parser for .NET は C# 開発者が [ドキュメント](https://docs.groupdocs.com/parser/net/extract-images-from-documents/) から画像を簡単に抽出できるようにします：
+        {{< landing/code title="C# で PDF ドキュメントから画像を抽出する">}}
         ```csharp {style=abap}
-        // Parser クラスのインスタンスを作成します。
+        // Parser クラスのインスタンスを作成する
         using (var parser = new Parser("source.pptx"))
         {
-            // 画像を抽出します。
+            // 画像を抽出する
             var images = parser.GetImages();
 
-            // 何かが抽出されたか確認します。
+            // 何かが抽出されたか確認する
             if (images == null)
             {
                 return;
             }
-            // 画像を反復処理します。
+            // 画像を反復処理する
             foreach (PageImageArea image in images)
             {
-                // ページインデックス、矩形、画像タイプを出力します。
+                // ページインデックス、矩形、画像タイプを出力する
                 Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", 
                     image.Page.Index, image.Rectangle, image.FileType));
             }
@@ -231,24 +234,24 @@ code_samples:
     # code sample loop
     - title: "画像からバーコードを抽出"
       content: |
-        私たちの .NET APIを使用して、画像から [バーコード](https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/) を抽出します：
-        {{< landing/code title="C# で画像からバーコードを抽出">}}
+        当社の .NET API を使用して画像から [バーコード](https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/) を抽出します：
+        {{< landing/code title="C# で画像からバーコードを抽出する">}}
         ```csharp {style=abap}   
-        // Parser にソース画像を読み込みます。
+        // ソース画像を Parser にロードする
         using (var parser = new Parser("source.jpg"))
         {
-            // ファイルがバーコード抽出をサポートしているか確認します。
+            // ファイルがバーコード抽出に対応しているか確認する
             if (parser.Features.Barcodes)
             {
-                // ファイルからバーコードを抽出します。
+                // ファイルからバーコードを抽出する
                 var barcodes = parser.GetBarcodes();
 
-                // バーコードを反復処理します。
+                // バーコードを反復処理する
                 foreach (var barcode in barcodes)
                 {
-                    // ページインデックスを出力します。
+                    // ページインデックスを出力する
                     Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-                    // バーコードの値を出力します。
+                    // バーコードの値を出力する
                     Console.WriteLine("Value: " + barcode.Value);
                 }
             }

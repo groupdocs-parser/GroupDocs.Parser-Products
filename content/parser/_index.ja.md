@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T10:26:00
+date:  2025-12-09T14:52:35
 draft: false
 
 product: "Parser"
@@ -10,30 +10,30 @@ product_tag: "parser"
 lang: ja
 
 ############################# Head ############################
-head_title: ".NET、Java、クラウドAPIとオンライン文書パーサーアプリ"
-head_description: "すべてを兼ね備えた文書解析ソリューションを、.NET、Java、そしてクラウドベースのアプリケーション用に提供します。シンプルなドラッグ＆ドロップ機能でオンライン文書フォーマットからデータを抽出します。"
+head_title: "PDF、Word、Excel 用 Document Parser SDK | GroupDocs"
+head_description: "PDF、Word、Excel、メール および 50 以上のその他のドキュメント形式からテキスト、画像、メタデータ、バーコード、テーブルを抽出する Document Parser SDK（.NET、Java、Python アプリ向け）。"
 
 ############################# Header ############################
-title: "文書解析ソリューション"
+title: "Document Parser SDK"
 description:  |
-  様々なファイル形式からデータを抽出するための堅牢なAPI。
+  開発者に優しい Document Parser SDKで、50 以上のドキュメントと画像形式からテキスト、画像、バーコード、メタデータ、テーブルを抽出します。
 
-  最小限のコーディングで文書を解析します。
+  最小限のコードで、.NET、Java、Python アプリケーションに高性能なドキュメント解析を統合できます。
 
-  解析結果をカスタマイズします。
+  柔軟なテンプレートと高度な API を使用して、解析ルールをカスタマイズし、クリーンで構造化されたデータ出力を提供します。
 
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
-  head_title: "プラットフォームを選択してください"
-  title: "プラットフォームの独立性"
-  description: "GroupDocs.Parser ライブラリは、次のオペレーティングシステムとフレームワークをサポートしています："
-  details_link_title: "詳細を学ぶ"
+  head_title: "プラットフォームを選択"
+  title: "プラットフォームに依存しない"
+  description: "GroupDocs.Parser ライブラリは以下の OS とフレームワークをサポートしています："
+  details_link_title: "詳しく見る"
 
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Parser .NET 
+      description: GroupDocs.Parser for .NET 
       color: "blue"
       tag: "net"
       link: "/parser/net/"
@@ -62,7 +62,7 @@ supported_platforms:
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Parser Java
+      description: GroupDocs.Parser for Java
       color: "red"
       tag: "java"
       link: "/parser/java/"
@@ -88,124 +88,161 @@ supported_platforms:
             content: |
                     50+ file formats
 
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Parser for Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/parser/python-net/"
+      features_link: "https://docs.groupdocs.com/parser/python-net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.5+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> macOS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    PyCharm, VS Code, Jupyter Notebook
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats                    
+
 ############################# Features ###############################
 features:
   enable: true
-  title: "GroupDocs.Parser 概要"
-  description: "PDF、Word、Excel などのデータ解析用API"
+  title: "GroupDocs.Parser の概要"
+  description: "PDF、Office ドキュメント、画像、メール、アーカイブから構造化データと非構造化データを抽出する強力な Document Parser SDK。"
 
   items:
     # items loop
     - icon: "text"
-      title: "テキストの抽出"
-      content: "様々なファイル形式からテキスト情報を抽出します"
+      title: "テキスト抽出"
+      content: "さまざまなファイル形式からテキスト情報を抽出します"
 
     # items loop
     - icon: "image"
-      title: "画像の抽出"
-      content: "多様なソースから視覚コンテンツを取り出します"
+      title: "画像抽出"
+      content: "多様なソースからビジュアルコンテンツを取得します"
 
     # items loop
     - icon: "template"
       title: "テンプレートによるデータ解析"
-      content: "カスタムテンプレートを作成し、特定の情報を解析するために利用します"
+      content: "カスタムテンプレートを作成し、特定情報の解析に利用します"
 
     # items loop
     - icon: "pdf"
-      title: "PDFフォームの解析"
-      content: "PDFフォームはユーザーとの対話のために入力可能なフィールドを含むデジタル文書です"
+      title: "PDF フォーム解析"
+      content: "PDF フォームは、ユーザーが入力できるフィールドを備えたデジタル文書です"
 
 ############################# Code Samples ###############################
 code_samples:
   enable: true
   title: "GroupDocs.Parser コードサンプル"
-  description: "C# と Java における典型的な GroupDocs.Parser 操作のいくつかのユースケース"
+  description: "C#, Java および Python における典型的な GroupDocs.Parser 操作のユースケース"
 
   items:
     # items loop
-    - title: "PDF文書からテキストを抽出する方法"
-      content: "GroupDocs.Parser APIを使用すると、いくつかのステップを実装することで文書からテキストを抽出できます。"
+    - title: "PDF ドキュメントからテキストを抽出する方法"
+      content: "GroupDocs.Parser API は、数ステップの実装でドキュメントからテキストを簡単に抽出できます。"
       samples:
           # samples loop
           - language: "C#"
             color: "blue"
             content: |
-                    <code class="language-csharp" data-lang="csharp">
-
-                        // 希望するファイルを渡して Parser クラスのインスタンスを作成します。
-                        using (var parser = new Parser("source.pdf"))
-                        {
-                            // テキストを抽出します。
-                            using (var textReader = parser.GetText())
-                            {
-                                // 抽出したテキストを処理します。
-                                Console.WriteLine(textReader?.ReadToEnd());
-                            }
-                        }     
-                        
-                    </code>
-
+              ```csharp {style=abap}  
+                // 目的のファイルを渡して Parser クラスのインスタンスを作成する
+                using (var parser = new Parser("source.pdf"))
+                {
+                    // テキストを抽出する
+                    using (var textReader = parser.GetText())
+                    {
+                        // 抽出したテキストを処理する
+                        Console.WriteLine(textReader?.ReadToEnd());
+                    }
+                }     
+              ```
           # samples loop
           - language: "Java"
             color: "red"
             content: |
-                    <code class="language-java" data-lang="java">
+              ```java {style=abap}
+                // 目的のファイルを渡して Parser クラスのインスタンスを作成する
+                try (Parser parser = new Parser("source.pdf"))
+                {
+                    // テキストを抽出する
+                    try (TextReader reader = parser.getText())
+                    {
+                        // 抽出したテキストを処理する
+                        System.out.println(reader == null 
+                                ? "" 
+                                : reader.readToEnd());
+                    }
+                }  
+              ```
+          # samples loop
+          - language: "Python"
+            color: "green"
+            content: |
+              ```python {style=abap}
+                from groupdocs.parser import Parser
 
-                        // 希望するファイルを渡して Parser クラスのインスタンスを作成します。
-                        try (Parser parser = new Parser("source.pdf"))
-                        {
-                            // テキストを抽出します。
-                            try (TextReader reader = parser.getText())
-                            {
-                                // 抽出したテキストを処理します。
-                                System.out.println(reader == null 
-                                        ? "" 
-                                        : reader.readToEnd());
-                            }
-                        }  
+                # 目的のファイルを渡して Parser クラスのインスタンスを作成する
+                with Parser("source.pdf") as parser:
+                    # テキストを抽出する
+                    text = parser.get_text()
 
-                    </code>
-
-
+                    # 抽出したテキストを処理する
+                    print(text)
+              ```
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "50以上のファイル形式をサポート"
-  description: "GroupDocs.Parser は様々な形式ファミリー内でのパーサー操作が可能です"
+  title: "50 以上のドキュメントと画像形式をサポート"
+  description: "GroupDocs.Parser Document Parser SDK は、Office ドキュメント、PDF、画像、メール、アーカイブなどの解析操作を可能にします。"
 
 ############################# Metrics ###############################
 metrics:
   enable: true
-  title: "GroupDocs.Parser での成果"
-  description: "ライブラリの業績に関する重要な指標を発見します"
+  title: "GroupDocs.Parser の実績"
+  description: "当ライブラリの成果に関する主要指標を確認してください"
 
   items:
     # items loop
     - number: "50+"
-      title: "サポートされている形式"
-      content: "GroupDocs.Parser は50以上の人気ファイル形式で操作をサポートします。"
+      title: "対応フォーマット"
+      content: "GroupDocs.Parser は、50 以上の主要ファイル形式での操作をサポートしています。"
 
     # items loop
     - number: "1600k"
-      title: "NuGetダウンロード"
-      content: "GroupDocs.Parser の .NET NuGet パッケージは1,600,000回以上ダウンロードされました。"
+      title: "NuGet ダウンロード数"
+      content: ".NET 用 GroupDocs.Parser NuGet パッケージは 1,600,000 回以上ダウンロードされています。"
 
     # items loop
     - number: "18k"
-      title: "Mavenダウンロード"
-      content: "GroupDocs.Parser はMavenで18,000回ダウンロードされています。強力なJava解析機能。"
+      title: "Maven ダウンロード数"
+      content: "GroupDocs.Parser は Maven で 18,000 回ダウンロードされました。強力な Java パーシング機能を提供します。"
 
     # items loop
     - number: "140+"
-      title: "満足している顧客"
-      content: "有名企業や個別開発者が革新的なソリューションを構築するために GroupDocs の製品を選択しています。"
+      title: "満足したお客様"
+      content: "有名企業や個人開発者も、革新的なソリューションを構築するためにGroupDocsの製品を選んでいます。"
 
 
 ############################# Customers ###############################
 customers:
   enable: true
-  title: "私たちの満足している顧客"
-  description: "GroupDocs のライブラリは、世界中の著名なブランドに利用されています。"
+  title: "当社の満足したお客様"
+  description: "GroupDocsのライブラリは、世界中で高く評価されている著名なブランドによって使用されています。"
 
   items:
     # items loop
@@ -252,8 +289,8 @@ customers:
 ############################# Actions ###############################
 actions:
   enable: true
-  title: "始める準備はできましたか？"
-  description: "お使いのプラットフォームで GroupDocs.Parser の機能を無料で試してみてください。"
+  title: "開始する準備はできましたか？"
+  description: "ご使用のプラットフォームでGroupDocs.Parserの機能を無料でお試しください"
 
   items:
     # items loop
@@ -270,68 +307,68 @@ actions:
 faq:
   enable: true
   title: "よくある質問"
-  description: "よくある質問への回答。"
+  description: "最もよく寄せられる質問への回答です。"
 
   items:
     # items loop
-    - question: "GroupDocs.Parser ライブラリは文書を操作するために他のサードパーティソフトウェアを必要としますか？"
-      answer: "GroupDocs.Parser はAdobe Acrobat、Microsoft Office、または他の外部ソフトウェアのインストールを必要としません。"
+    - question: "GroupDocs.Parser ライブラリは、ドキュメント操作に他のサードパーティ製ソフトウェアを必要としますか？"
+      answer: "GroupDocs.Parser は、Adobe Acrobat や Microsoft Office などの外部ソフトウェアのインストールを必要としません。"
 
     # items loop
-    - question: "GroupDocs.Parser ライブラリを購入前に試すことはできますか？"
-      answer: "はい、ライセンスを購入せずに GroupDocs.Parser を試すことができます。ライセンスなしでインストールされた場合、ライブラリは試用モードで動作します。このモードでは、試用バッジが生成された文書に追加され、最初の3ページに制限されます。試用版の制限なしで GroupDocs.Parser をテストしたい場合は、30日間の一時ライセンスをリクエストすることもできます。詳細については、[こちらをご覧ください](https://purchase.groupdocs.com/temporary-license/)。"
+    - question: "購入前に GroupDocs.Parser ライブラリを試用できますか？"
+      answer: "はい、ライセンスを購入せずに GroupDocs.Parser を試すことができます。ライセンスなしでインストールすると、ライブラリはトライアルモードで動作します。このモードでは、結果のドキュメントにトライアルバッジが付加され、最初の3ページに切り詰められます。GroupDocs.Parser をトライアル版の制限なくテストしたい場合は、30日間の一時ライセンスをリクエストすることも可能です。詳細については、[参照](https://purchase.groupdocs.com/temporary-license/)。"
 
     # items loop
     - question: "どのようなライセンスがありますか？"
-      answer: "特定の開発者や企業のニーズに合った複数のライセンスタイプを提供しています。ライセンスタイプは、開発者の数、開発者のサイトの数、エンド顧客へのSDK/APIの提供の必要性によって異なります。あるいは、製品の月次使用に基づく測定ライセンスを選択することもできます。詳細については、[こちら](https://purchase.groupdocs.com/pricing/parser/net/)をご覧ください。"
+      answer: "特定の開発者や企業のニーズに合わせた複数のライセンス形態をご用意しています。ライセンス形態は、開発者数、開発拠点数、エンドユーザーへの SDK/API の提供有無に応じて決定されます。また、製品の月間使用量に基づく従量課金型ライセンスも選択可能です。詳細は[こちら](https://purchase.groupdocs.com/pricing/parser/net/)をご覧ください。"
 
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Parser 低コードAPI"
-  description: "クラウドベースのREST APIを使用して、任意のアプリケーションに文書パーサー機能を組み込みます。"
+  title: "GroupDocs.Parser ローコード ドキュメント パーサ API"
+  description: "クラウドベースの REST API と SDK を使用して、任意のアプリケーションにドキュメント解析機能を組み込むことができます。"
   
   items:
     # items loop
     - title: "GroupDocs.Parser Cloud for cURL"
-      content: "広範囲にわたる人気ファイル形式に対応した文書パーサーのクラウドAPI用のcURLコマンド。"
+      content: "cURL コマンドを使用した RESTful ドキュメント パーサ クラウド API で、幅広いサポート対象の一般的なファイル形式のドキュメントを解析します。"
       icon: "groupdocs_parser-for-curl"
       link: "https://products.groupdocs.cloud/parser/curl"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for .NET"
-      content: "Microsoft .NETアプリケーション内で、画像、テキスト、文書情報を抽出したり、ユーザー定義テンプレートで任意の文書を解析します。"
+      content: "Microsoft .NET アプリケーションで、画像、テキスト、ドキュメント情報を抽出したり、ユーザー定義テンプレートで任意のドキュメントを解析したりできます。"
       icon: "groupdocs_parser-for-net"
       link: "https://products.groupdocs.cloud/parser/net"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for Java"
-      content: "Javaデベロッパー向けのクラウドSDKを使用して、文書の解析、文書情報とデータを抽出します。"
+      content: "Java 開発者向けのクラウド SDK で、ドキュメントを解析し、Java ベースのアプリケーション内でドキュメント情報とデータを抽出できます。"
       icon: "groupdocs_parser-for-java"
       link: "https://products.groupdocs.cloud/parser/java"
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Parser ノーコードアプリ"
-  description: "50以上の人気ファイル形式を直接ブラウザで解析できるウェブベースのアプリケーションです。"
+  title: "GroupDocs.Parser ドキュメント パーサ ノーコード アプリ"
+  description: "Web ベースのドキュメント パーサ アプリで、ブラウザー上で 50 以上の一般的なファイル形式からデータを直接抽出できます。"
 
   items:
     # items loop
     - title: "GroupDocs.Parser Total"
-      content: "Word、Excel、PowerPoint、PDF、50以上の文書タイプを解析するための無料オンラインアプリ。"
+      content: "Word、Excel、PowerPoint、PDF など 50 以上のドキュメントタイプを解析できる無料のオンラインアプリ。"
       icon: "groupdocs_parser-app"
       link: "https://products.groupdocs.app/parser/total"
 
     # items loop
     - title: "GroupDocs.Parser DOCX"
-      content: "ブラウザから直接Word文書を解析し、画像、テキスト、メタデータを抽出します。"
+      content: "Web ブラウザーから直接 Word 文書を解析し、画像、テキスト、メタデータを抽出します。"
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/parser/docx"
 
     # items loop
     - title: "GroupDocs.Parser PDF"
-      content: "プラットフォームやデバイスに関係なく動作する無料のPDFパースアプリ。"
+      content: "制限なく、あらゆるプラットフォームやデバイスで動作する無料の PDF 解析アプリ。"
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/parser/pdf"
 

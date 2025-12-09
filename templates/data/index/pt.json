@@ -1,149 +1,149 @@
 {
   "index-content": {
-    "head_title": "APIs de Documentos para .NET, Java e Cloud",
-    "head_description": "Obtenha uma solução de parsing de documentos tudo-em-um para aplicações .NET, Java e baseadas na nuvem. Extraia dados de formatos de documentos online usando um recurso simples de arrastar e soltar.",
-    "title": "Solução de Parsing de Documentos",
-    "description_0": "API robusta para extração de dados de vários formatos de arquivo.",
-    "description_1": "Analise documentos com esforço mínimo de codificação.",
-    "description_2": "Personalize os resultados da análise.",
+    "head_title": "SDKs de Analisador de Documentos para PDF, Word e Excel | GroupDocs",
+    "head_description": "SDK de Analisador de Documentos para extrair texto, imagens, metadados, códigos de barras e tabelas de PDFs, Word, Excel, e‑mails e mais de 50 outros formatos de documentos para aplicativos .NET, Java e Python.",
+    "title": "SDK de Analisador de Documentos",
+    "description_0": "SDK de Analisador de Documentos voltado para desenvolvedores, que extrai texto, imagens, códigos de barras, metadados e tabelas de mais de 50 formatos de documentos e imagens.",
+    "description_1": "Integre o parsing de documentos de alto desempenho em suas aplicações .NET, Java e Python com esforço mínimo de codificação.",
+    "description_2": "Use modelos flexíveis e APIs avançadas para personalizar as regras de parsing e gerar saídas de dados claras e estruturadas.",
     "words_for": "para",
     "release_title": "Versão {0} lançada",
     "release_notes": "Veja o que há de novo",
     "release_downloads": "Downloads",
     "code_more": "Mais exemplos",
-    "overview_title": "{{ProdShortName}} em resumo",
+    "overview_title": "Visão geral de {{ProdShortName}}",
     "formats_title": "Formatos de arquivo suportados",
     "platforms": {
-      "title": "Independência da Plataforma",
+      "title": "Independência de Plataforma",
       "head_title": "Escolha sua plataforma",
-      "description": "A biblioteca {{ProdShortName}} suporta os seguintes sistemas operacionais e frameworks:",
+      "description": "A biblioteca {{ProdShortName}} oferece suporte aos seguintes sistemas operacionais e frameworks:",
       "learn_more": "Saiba mais",
       "any_other_text_editor": "Qualquer outro editor de texto"
     },
     "features": {
-      "title": "{{ProdShortName}} em resumo",
-      "description": "API para análise de dados em PDF, Word, Excel e mais",
+      "title": "Visão geral de {{ProdShortName}}",
+      "description": "Potente SDK de Analisador de Documentos para extrair dados estruturados e não estruturados de PDFs, documentos do Office, imagens, e‑mails e arquivos compactados.",
       "feature_1": {
         "title": "Extrair texto",
-        "content": "Extraia informações textuais de vários formatos de arquivo."
+        "content": "Extrair informações textuais de vários formatos de arquivo"
       },
       "feature_2": {
         "title": "Extrair imagens",
-        "content": "Recuperar conteúdo visual de diversas fontes."
+        "content": "Recuperar conteúdo visual de diversas fontes"
       },
       "feature_3": {
-        "title": "Analisar dados por modelos",
-        "content": "Crie modelos personalizados e utilize-os para extrair informações específicas."
+        "title": "Analisar dados por meio de modelos",
+        "content": "Crie modelos personalizados e os utilize para analisar informações específicas"
       },
       "feature_4": {
         "title": "Analisar Formulários PDF",
-        "content": "Formulários PDF são documentos digitais com campos preenchíveis para interação do usuário."
+        "content": "Formulários PDF são documentos digitais que apresentam campos preenchíveis para interação do usuário"
       }
     },
     "formats": {
-      "title": "Mais de 50 formatos de arquivo suportados",
-      "description": "O {{ProdShortName}} permite operações de parsing dentro de várias famílias de formatos."
+      "title": "Mais de 50 formatos de documentos e imagens suportados",
+      "description": "O SDK de Analisador de Documentos {{ProdShortName}} possibilita operações de parsing em documentos do Office, PDFs, imagens, e‑mails, arquivos compactados e muito mais."
     },
     "code_samples": {
       "title": "Exemplos de código",
-      "index_title": "Exemplos de código {{ProdShortName}}",
-      "index_description": "Alguns casos de uso das operações típicas do {{ProdShortName}} em C# e Java",
+      "index_title": "{{ProdShortName}} exemplos de código",
+      "index_description": "Alguns casos de uso típicos das operações do {{ProdShortName}} em C#, Java e Python",
       "more_examples": "Mais exemplos",
       "sample_index": {
         "title": "Como extrair texto de documentos PDF",
-        "content": "A API {{ProdShortName}} simplifica a extração de texto de documentos através de alguns passos.",
-        "comment_1": "Crie uma instância da classe {{textParser}}, passando o arquivo desejado.",
-        "comment_2": "Extraia um texto.",
-        "comment_3": "Processar o texto extraído."
+        "content": "A API {{ProdShortName}} facilita a extração de texto de documentos ao implementar algumas etapas.",
+        "comment_1": "Crie uma instância da classe {{textParser}} passando o arquivo desejado",
+        "comment_2": "Extraia o texto",
+        "comment_3": "Processar o texto extraído"
       },
       "sample_1": {
         "code_title": "Extrair imagens de documentos PDF em {{ProgLang}}",
-        "comment_1": "Crie uma instância da classe {{textParser}}.",
-        "comment_2": "Extraia imagens.",
-        "comment_3": "Verifique se algo foi extraído.",
-        "comment_4": "Itere sobre as imagens.",
-        "comment_5": "Imprima um índice de página, retângulo e tipo de imagem."
+        "comment_1": "Crie uma instância da classe {{textParser}}",
+        "comment_2": "Extrair imagens",
+        "comment_3": "Verifique se algo foi extraído",
+        "comment_4": "Iterar sobre as imagens",
+        "comment_5": "Imprima o índice da página, o retângulo e o tipo de imagem"
       },
       "sample_2": {
         "code_title": "Extrair códigos de barras de imagens em {{ProgLang}}",
-        "comment_1": "Carregue a imagem fonte para {{textParser}}.",
-        "comment_2": "Verifique se o arquivo suporta extração de códigos de barras.",
-        "comment_3": "Extraia códigos de barras do arquivo.",
-        "comment_4": "Itere sobre os códigos de barras.",
-        "comment_5": "Imprima o índice da página.",
-        "comment_6": "Imprima o valor do código de barras."
+        "comment_1": "Carregue a imagem fonte no {{textParser}}",
+        "comment_2": "Verifique se o arquivo suporta extração de códigos de barras",
+        "comment_3": "Extrair códigos de barras do arquivo",
+        "comment_4": "Iterar sobre os códigos de barras",
+        "comment_5": "Imprima o índice da página",
+        "comment_6": "Imprima o valor do código de barras"
       }
     },
     "metrics": {
-      "title": "{{ProdShortName}} conquistas",
-      "description": "Descubra as Métricas Chave das Conquistas de Nossa Biblioteca",
+      "title": "Conquistas do {{ProdShortName}}",
+      "description": "Descubra os principais indicadores das realizações da nossa biblioteca",
       "item_1": {
         "title": "Formatos suportados",
-        "description": "O {{ProdShortName}} suporta operações com mais de 50 formatos de arquivo populares."
+        "description": "{{ProdShortName}} suporta operações com mais de 50 formatos de arquivo populares."
       },
       "item_2": {
         "title": "Downloads do NuGet",
-        "description": "O pacote {{ProdShortName}} para .NET foi baixado mais de 1.600.000 vezes."
+        "description": "{{ProdShortName}} for .NET NuGet package was downloaded more than 1,600,000 times."
       },
       "item_3": {
         "title": "Downloads do Maven",
-        "description": "O {{ProdShortName}} possui 18.000 downloads no Maven. Recursos Poderosos de Parsing em Java."
+        "description": "{{ProdShortName}} has 18,000 downloads on Maven. Powerful Java Parsing Features."
       },
       "item_4": {
         "title": "Clientes satisfeitos",
-        "description": "Empresas renomadas e desenvolvedores individuais preferem os produtos da {{NameCompany}} para construir soluções inovadoras."
+        "description": "Empresas renomadas e desenvolvedores individuais preferem os produtos da {{NameCompany}} para criar soluções inovadoras."
       }
     },
     "customers": {
       "title": "Nossos clientes satisfeitos",
-      "description": "As bibliotecas {{NameCompany}} são utilizadas por marcas renomadas e respeitadas em todo o mundo."
+      "description": "{{NameCompany}} bibliotecas são usadas por marcas mundialmente renomadas e distintas em todo o mundo."
     },
     "actions": {
       "alt": "Licenciamento",
       "title": "Pronto para começar?",
-      "description": "Experimente os recursos do {{ProdShortName}} gratuitamente ou peça uma licença.",
-      "description_index": "Experimente os recursos do {{ProdShortName}} gratuitamente em sua plataforma."
+      "description": "Experimente os recursos do {{ProdShortName}} gratuitamente ou solicite uma licença",
+      "description_index": "Experimente os recursos do {{ProdShortName}} gratuitamente na sua plataforma"
     },
     "faq": {
       "title": "Perguntas frequentes",
-      "description": "Respostas para as perguntas mais comuns.",
+      "description": "Respostas às perguntas mais frequentes.",
       "item_1": {
         "question": "A biblioteca {{ProdShortName}} precisa de algum outro software de terceiros para manipular documentos?",
-        "answer": "O {{ProdShortName}} não requer nenhum software externo, como Adobe Acrobat, Microsoft Office ou qualquer outro."
+        "answer": "{{ProdShortName}} não requer a instalação de nenhum software externo, como Adobe Acrobat, Microsoft Office ou outro."
       },
       "item_2": {
-        "question": "Posso experimentar a biblioteca {{ProdShortName}} antes de comprá-la?",
-        "answer": "Sim, você pode experimentar o {{ProdShortName}} sem comprar uma licença. Uma vez instalado sem uma licença, a biblioteca funciona em modo de teste. Nesse modo, emblemas de teste são adicionados ao documento resultante, e ele é truncado para as primeiras 3 páginas. Se você deseja testar o GroupDocs.Parser sem as limitações da versão de teste, também pode solicitar uma licença temporária de 30 dias. Para mais detalhes, [veja]({{LicensingUrl}})."
+        "question": "Posso experimentar a biblioteca {{ProdShortName}} antes de comprá‑la?",
+        "answer": "Sim, você pode experimentar o {{ProdShortName}} sem comprar uma licença. Quando instalado sem licença, a biblioteca funciona em modo de avaliação. Nesse modo, marcas de avaliação são adicionadas ao documento resultante, e ele é truncado para as primeiras 3 páginas. Se desejar testar o GroupDocs.Parser sem as limitações da versão de avaliação, também pode solicitar uma licença temporária de 30 dias. Para mais detalhes, [veja]({{LicensingUrl}})."
       },
       "item_3": {
-        "question": "Que licenças vocês têm?",
-        "answer": "Oferecemos vários tipos de licenças para atender às necessidades de desenvolvedores ou empresas específicas. Os tipos de licenças dependem do número de desenvolvedores, do número de locais de desenvolvedores e se você precisa entregar nosso SDK/API aos seus clientes finais. Alternativamente, você pode escolher licenças Metered com base no uso mensal do produto. Saiba mais [aqui]({{PricingUrl}})."
+        "question": "Quais licenças você tem?",
+        "answer": "Oferecemos vários tipos de licença para atender às necessidades de desenvolvedores ou empresas específicas. Os tipos de licença dependem do número de desenvolvedores, do número de locais de site de desenvolvedor e se você precisa disponibilizar nosso SDK/API para seus clientes finais. Como alternativa, você pode escolher licenças por consumo (Metered) baseadas no uso mensal do produto. Saiba mais [aqui]({{PricingUrl}})."
       }
     },
     "cloud_links": {
-      "title": "APIs de baixa codificação {{ProdShortName}}",
-      "description": "Incorpore capacidades de parsing de documentos em qualquer aplicação usando nossa API REST baseada na nuvem.",
+      "title": "{{ProdShortName}} APIs low‑code de Análise de Documentos",
+      "description": "Incorpore recursos de análise de documentos em qualquer aplicação usando nossa API REST baseada em nuvem e SDKs.",
       "item_1": {
-        "content": "Comandos cURL para a API Cloud RESTful de parsing de documentos para analisar documentos em uma ampla gama de formatos de arquivo populares suportados."
+        "content": "Comandos cURL para a API Cloud de analisador de documentos RESTful para analisar documentos em uma ampla variedade de formatos de arquivo populares suportados."
       },
       "item_2": {
-        "content": "Extraia imagens, texto, informações do documento ou até mesmo analise qualquer documento seguindo um modelo definido pelo usuário em suas aplicações Microsoft .NET."
+        "content": "Extraia imagens, texto, informações do documento ou até mesmo analise qualquer documento por meio de um modelo definido pelo usuário em suas aplicações Microsoft .NET."
       },
       "item_3": {
-        "content": "SDK da nuvem para desenvolvedores Java para analisar documentos, extrair informações de documentos e dados dentro de aplicações baseadas em Java."
+        "content": "SDK Cloud para desenvolvedores Java para analisar documentos, extrair informações e dados do documento em aplicações baseadas em Java."
       }
     },
     "app_links": {
-      "title": "Aplicativos Sem Código {{ProdShortName}}",
-      "description": "Aplicação web que permite realizar análise em mais de 50 tipos de arquivos populares diretamente no seu navegador.",
+      "title": "{{ProdShortName}} Aplicativos No‑Code de Analisador de Documentos",
+      "description": "Aplicativos web de análise de documentos que permitem extrair dados de mais de 50 formatos de arquivo populares diretamente no seu navegador.",
       "item_1": {
-        "content": "Aplicativo gratuito online para analisar Word, Excel, PowerPoint, PDF e mais de 50 tipos de documentos."
+        "content": "Aplicativo online gratuito para analisar Word, Excel, PowerPoint, PDF e mais de 50 tipos de documentos."
       },
       "item_2": {
         "content": "Analise documentos Word diretamente do seu navegador para extrair imagens, texto ou metadados."
       },
       "item_3": {
-        "content": "Aplicativo de parsing de PDF gratuito que funciona em qualquer plataforma ou dispositivo sem limitações."
+        "content": "Aplicativo gratuito de análise de PDF que funciona em qualquer plataforma ou dispositivo sem limitações."
       }
     },
     "formats_groups": {
@@ -152,53 +152,53 @@
       "title_3": "Outros formatos",
       "format_portable": "Portátil",
       "format_images": "Imagens",
-      "format_other_office": "Outros formatos de escritório",
+      "format_other_office": "Outros formatos de Office",
       "format_other_web": "Web",
       "format_other_archives": "Arquivos",
       "format_other_ebooks": "e-Books"
     }
   },
   "index-content-net": {
-    "head_title": "Aplicativos de Parsing de Documentos {{ProdFullName}}",
-    "head_description": "Obtenha uma solução de parsing de documentos tudo-em-um para aplicações {{EnvNameShort}}. Extraia dados de formatos de documentos online usando um recurso simples de arrastar e soltar.",
-    "title": "Analise documentos através da API {{EnvNameShort}}",
-    "description": "Extraia dados de documentos e imagens em qualquer plataforma usando nossas APIs flexíveis e soluções baseadas em aplicativos para programadores e usuários finais.",
-    "actions_main": "Download {{PackageStoreName}}",
-    "code_title": "Analise rapidamente o Conteúdo do Documento",
-    "code_comment_1": "Passe o arquivo fonte para a instância {{textParser}}.",
-    "code_comment_2": "Passe o texto do documento para {{textReader}}.",
-    "code_comment_3": "Processar o texto do documento.",
-    "overview_description": "API para realizar parsing de documentos em aplicações {{EnvNameShort}}.",
+    "head_title": "{{ProdFullName}} Document Parser SDK para {{EnvNameShort}}",
+    "head_description": "SDK de análise de documentos de alto desempenho para {{EnvNameShort}}. Extraia texto, imagens, metadados, códigos de barras, tabelas e outros dados de PDF, Word, Excel, e‑mails e mais de 50 formatos de documentos.",
+    "title": "Document Parser SDK para {{EnvNameShort}}",
+    "description": "Adicione análise rápida e precisa de documentos aos seus aplicativos {{EnvNameShort}} e extraia texto, imagens, metadados e dados estruturados de documentos e imagens.",
+    "actions_main": "{{PackageStoreName}} Download",
+    "code_title": "Analise rapidamente o conteúdo de documentos com o SDK",
+    "code_comment_1": "Passe o arquivo de origem para a instância {{textParser}}",
+    "code_comment_2": "Passe o texto do documento para {{textReader}}",
+    "code_comment_3": "Processar o texto do documento",
+    "overview_description": "Document Parser SDK para realizar análise de documentos de alta precisão em aplicações {{EnvNameShort}}",
     "overview_feature_1": {
       "title": "Extrair dados de documentos",
-      "description": "A API {{ProdFullName}} permite que você recupere texto, metadados e imagens de uma ampla gama de formatos de arquivos, como documentos do Office, e-mails, anexos e arquivos compactados. Esta ferramenta poderosa ajuda você a acessar e processar de forma eficiente informações valiosas contidas nesses arquivos para várias aplicações, como análise de dados, indexação de motores de busca ou sistemas de gerenciamento de conteúdo."
+      "description": "{{ProdFullName}} API permite recuperar texto, metadados e imagens de uma ampla variedade de formatos de arquivo, como documentos do Office, e‑mails, anexos e arquivos. Esta ferramenta poderosa ajuda a acessar e processar de forma eficiente as informações valiosas contidas nesses arquivos para várias aplicações, como análise de dados, indexação de motores de busca ou sistemas de gerenciamento de conteúdo."
     },
     "overview_feature_2": {
       "title": "Analisar documentos",
-      "description": "Extraia vários elementos, como hiperlinks, tabelas, códigos QR, códigos de barras e dados de formulários PDF. Além disso, analise qualquer informação desejada de documentos usando modelos personalizados."
+      "description": "Extraia diversos elementos como hiperlinks, tabelas, códigos QR, códigos de barras e dados de formulários PDF. Também analise qualquer informação desejada de documentos usando modelos personalizados."
     },
     "overview_feature_3": {
-      "title": "Personalização de resultados",
-      "description": "A API {{EnvNameShort}} permite que você recupere dados em vários formatos, como bruto, estruturado, HTML ou Markdown. Além disso, a API oferece uma funcionalidade de pesquisa para localizar palavras ou frases específicas dentro do texto dos documentos."
+      "title": "Personalizar resultados",
+      "description": "{{EnvNameShort}} API permite recuperar dados em vários formatos, como bruto, estruturado, HTML ou Markdown. Além disso, a API oferece funcionalidade de pesquisa para localizar palavras ou frases específicas no texto dos documentos."
     },
     "features": {
-      "title": "Recursos {{ProdFullName}}",
-      "description": "Extraia dados de PDFs, Documentos do Office e Imagens de forma rápida e precisa.",
+      "title": "Recursos do {{ProdFullName}}",
+      "description": "Extraia dados de PDFs, documentos do Office, imagens e outros formatos de forma rápida e precisa com o nosso {{EnvNameShort}} Document Parser SDK",
       "feature_1": {
         "title": "Extrair texto",
-        "content": "Extraia informações textuais de vários formatos de arquivo, como documentos do office, arquivos PDF e imagens para fácil legibilidade e análise."
+        "content": "Extraia informações textuais de vários formatos de arquivo, como documentos do Office, arquivos PDF e imagens, para fácil leitura e análise."
       },
       "feature_2": {
         "title": "Extrair imagens",
-        "content": "Recupere conteúdo visual de fontes diversas, como documentos do office e arquivos PDF para acesso e uso convenientes."
+        "content": "Recupere conteúdo visual de diversas fontes, como documentos do Office e arquivos PDF, para acesso e uso conveniente."
       },
       "feature_3": {
-        "title": "Escanear códigos QR",
-        "content": "Detecte e decodifique códigos QR presentes em documentos do office, arquivos PDF ou conteúdo visual para eficaz recuperação de informações."
+        "title": "Digitalizar códigos QR",
+        "content": "Detecte e decodifique códigos QR presentes em documentos do Office, arquivos PDF ou conteúdo visual para recuperação eficiente de informações."
       },
       "feature_4": {
-        "title": "Extrair dados de anexos de e-mail e arquivos compactados",
-        "content": "Colete informações valiosas de mensagens de e-mail, anexos de arquivos e fontes de dados compactadas para análise e utilização eficaz."
+        "title": "Extrair dados de anexos de e‑mail e arquivos",
+        "content": "Coleta informações valiosas de mensagens de email, anexos de arquivos e fontes de dados compactadas para análise e utilização eficazes."
       },
       "feature_5": {
         "title": "Extrair tabelas",
@@ -206,98 +206,189 @@
       },
       "feature_6": {
         "title": "Extrair hiperlinks",
-        "content": "Localize e extraia hiperlinks e endereços de e-mail em documentos de escritório ou arquivos PDF para acesso eficiente."
+        "content": "Localize e extraia hiperlinks e endereços de email em documentos do Office ou arquivos PDF para acesso eficiente."
       },
       "feature_7": {
-        "title": "Analisar Formulários PDF",
+        "title": "Analisar formulários PDF",
         "content": "Formulários PDF são documentos digitais com campos preenchíveis para interação do usuário, permitindo que eles insiram informações eletronicamente. A API .NET pode ser utilizada para extrair dados desses formulários para processamento eficiente."
       },
       "feature_8": {
-        "title": "Analisar dados por modelos",
-        "content": "Crie modelos personalizados e utilize-os com a API .NET para analisar informações específicas de arquivos PDF, simplificando os processos de extração de dados."
+        "title": "Analisar dados com templates",
+        "content": "Crie templates personalizados e utilize-os com a API .NET para analisar informações específicas de arquivos PDF, simplificando os processos de extração de dados."
       },
       "feature_9": {
-        "title": "Pesquisar um texto em documentos",
-        "content": "Localize rapidamente palavras ou padrões específicos dentro de documentos."
+        "title": "Pesquisar texto em documentos",
+        "content": "Localize rapidamente palavras ou padrões específicos em documentos."
       }
     },
-    "platforms_description": "O {{ProdFullName}} suporta os seguintes sistemas operacionais, frameworks e gerenciadores de pacotes.",
-    "formats_description": "O {{ProdFullName}} suporta operações com os seguintes [formatos de arquivo]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Alguns casos de uso das operações típicas do {{ProdFullName}}.",
+    "platforms_description": "{{ProdFullName}} oferece suporte aos seguintes sistemas operacionais, frameworks e gerenciadores de pacotes",
+    "formats_description": "{{ProdFullName}} oferece suporte a operações com os seguintes [formatos de arquivo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Alguns casos de uso típicos das operações do {{ProdFullName}}",
     "code_title_sample_1": "Extrair imagens de documentos PDF",
-    "code_samples_sample_1_content": "{{ProdFullName}} facilita para os desenvolvedores {{ProgLang}} a extração de imagens de [documentos]({{Sample1Url}}):",
+    "code_samples_sample_1_content": "{{ProdFullName}} facilita para desenvolvedores {{ProgLang}} a extração de imagens de [documentos]({{Sample1Url}}):",
     "code_title_sample_2": "Extrair códigos de barras de imagens",
     "code_samples_sample_2_content": "Use nossa API {{EnvNameShort}} para extrair [códigos de barras]({{Sample2Url}}) de imagens:"
   },
   "index-content-java": {
-    "head_title": "Aplicativos de Parsing de Documentos {{ProdFullName}}",
-    "head_description": "Obtenha uma solução de parsing de documentos tudo-em-um para aplicações {{EnvNameShort}}. Extraia dados de formatos de documentos online usando um recurso simples de arrastar e soltar.",
-    "title": "Analise documentos através da API {{EnvNameShort}}",
-    "description": "Extraia dados de documentos e imagens em qualquer plataforma usando nossas APIs flexíveis e soluções baseadas em aplicativos para programadores e usuários finais.",
+    "head_title": "{{ProdFullName}} Document Parser SDK para {{EnvNameShort}}",
+    "head_description": "SDK de Analisador de Documentos de alto desempenho para {{EnvNameShort}}. Extraia texto, imagens, metadados, códigos de barras, tabelas e outros dados de PDF, Word, Excel, e‑mails e mais de 50 formatos de documentos.",
+    "title": "SDK de Analisador de Documentos para {{EnvNameShort}}",
+    "description": "Adicione análise de documentos rápida e precisa aos seus aplicativos {{EnvNameShort}} e extraia texto, imagens, metadados e dados estruturados de documentos e imagens.",
     "actions_main": "Download {{PackageStoreName}}",
-    "code_title": "Recupere rapidamente o Conteúdo do Documento",
-    "code_comment_1": "Passe o arquivo fonte para a instância {{textParser}}.",
-    "code_comment_2": "Passe o texto do documento para {{textReader}}.",
-    "code_comment_3": "Processar o texto do documento.",
-    "overview_description": "API para realizar parsing de documentos em aplicações {{EnvNameShort}}.",
+    "code_title": "Analise rapidamente o conteúdo de documentos com o SDK",
+    "code_comment_1": "Passe o arquivo de origem para a instância {{textParser}}",
+    "code_comment_2": "Passe o texto do documento para {{textReader}}",
+    "code_comment_3": "Processar o texto do documento",
+    "overview_description": "SDK de Analisador de Documentos para realizar análise de documentos de alta precisão em aplicativos {{EnvNameShort}}",
     "overview_feature_1": {
       "title": "Extrair dados de documentos",
-      "description": "A API {{ProdFullName}} permite que você recupere texto, metadados, e imagens de uma ampla gama de formatos de arquivo, como documentos do Office, e-mails, anexos e arquivos compactados. Esta ferramenta poderosa ajuda você a acessar e processar de forma eficiente informações valiosas contidas nesses arquivos para várias aplicações, como análise de dados, indexação de motores de busca ou sistemas de gerenciamento de conteúdo."
+      "description": "{{ProdFullName}} API permite recuperar texto, metadados e imagens de uma ampla variedade de formatos de arquivo, como documentos do Office, e‑mails, anexos e arquivos compactados. Esta ferramenta poderosa ajuda a acessar e processar de forma eficiente as informações valiosas contidas nesses arquivos para diversas aplicações, como análise de dados, indexação de mecanismos de busca ou sistemas de gerenciamento de conteúdo."
     },
     "overview_feature_2": {
       "title": "Analisar documentos",
-      "description": "Extraia vários elementos, como hiperlinks, tabelas, QR codes, códigos de barras e dados de formulários PDF. Além disso, analise qualquer informação desejada de documentos usando modelos personalizados."
+      "description": "Extraia vários elementos, como hyperlinks, tabelas, códigos QR, códigos de barras e dados de formulários PDF. Também analise quaisquer informações desejadas de documentos usando modelos personalizados."
     },
     "overview_feature_3": {
-      "title": "Personalização de resultados",
-      "description": "A API {{EnvNameShort}} permite que você recupere dados em vários formatos, como bruto, estruturado, HTML ou Markdown. Além disso, a API oferece uma funcionalidade de pesquisa para localizar palavras ou frases específicas dentro do texto dos documentos."
+      "title": "Personalizando resultados",
+      "description": "{{EnvNameShort}} API permite recuperar dados em vários formatos, como bruto, estruturado, HTML ou Markdown. Além disso, a API oferece funcionalidade de busca para localizar palavras ou frases específicas no texto dos documentos."
     },
     "features": {
-      "title": "Recursos {{ProdFullName}}",
-      "description": "Extraia dados de PDFs, Documentos do Office e Imagens de forma rápida e precisa.",
+      "title": "{{ProdFullName}} recursos",
+      "description": "Extraia dados de PDFs, documentos do Office, imagens e outros formatos de forma rápida e precisa com o nosso SDK {{EnvNameShort}} Document Parser",
       "feature_1": {
         "title": "Extrair texto",
-        "content": "Extraia informações textuais de vários formatos de arquivo, como documentos do Office, arquivos PDF e imagens para fácil legibilidade e análise."
+        "content": "Extraia informações textuais de vários formatos de arquivo, como documentos do Office, arquivos PDF e imagens, para fácil leitura e análise."
       },
       "feature_2": {
         "title": "Extrair imagens",
-        "content": "Recupere conteúdo visual de fontes diversas, como documentos do Office e arquivos PDF para acesso e uso convenientes."
+        "content": "Recupere conteúdo visual de diversas fontes, como documentos do Office e arquivos PDF, para acesso e uso convenientes."
       },
       "feature_3": {
-        "title": "Escanear códigos QR",
-        "content": "Detecte e decodifique códigos QR presentes em documentos do Office, arquivos PDF ou conteúdo visual para eficaz recuperação de informações."
+        "title": "Digitalizar códigos QR",
+        "content": "Detecte e decodifique códigos QR presentes em documentos do Office, arquivos PDF ou conteúdo visual, para recuperação eficiente de informações."
       },
       "feature_4": {
-        "title": "Extrair dados de anexos de e-mail e arquivos compactados",
-        "content": "Colete informações valiosas de mensagens de e-mail, anexos de arquivos e fontes de dados compactadas para análise e utilização eficaz."
+        "title": "Extrair dados de anexos de email e arquivos compactados",
+        "content": "Coleta informações valiosas de mensagens de email, anexos de arquivos e fontes de dados compactados para análise e utilização eficazes."
       },
       "feature_5": {
         "title": "Extrair tabelas",
         "content": "Identifique e extraia dados tabulares de documentos PDF para análise e uso organizados."
       },
       "feature_6": {
-        "title": "Extrair hiperlinks",
-        "content": "Localize e extraia hiperlinks e endereços de e-mail em documentos de escritório ou arquivos PDF para acesso eficiente."
+        "title": "Extrair hyperlinks",
+        "content": "Localize e extraia hyperlinks e endereços de email em documentos do Office ou arquivos PDF para acesso eficiente."
       },
       "feature_7": {
-        "title": "Analisar Formulários PDF",
-        "content": "Formulários PDF são documentos digitais com campos preenchíveis para interação do usuário, permitindo que eles insiram informações eletronicamente. A API .NET pode ser utilizada para extrair dados desses formulários para processamento eficiente."
+        "title": "Analisar formulários PDF",
+        "content": "Formulários PDF são documentos digitais com campos preenchíveis para interação do usuário, permitindo que insiram informações eletronicamente. A API .NET pode ser utilizada para extrair dados desses formulários para processamento eficiente."
       },
       "feature_8": {
-        "title": "Analisar dados por modelos",
+        "title": "Analisar dados por meio de modelos",
         "content": "Crie modelos personalizados e utilize-os com a API .NET para analisar informações específicas de arquivos PDF, simplificando os processos de extração de dados."
       },
       "feature_9": {
-        "title": "Pesquisar um texto em documentos",
+        "title": "Buscar texto em documentos",
         "content": "Localize rapidamente palavras ou padrões específicos dentro de documentos."
       }
     },
-    "platforms_description": "O {{ProdFullName}} suporta os seguintes sistemas operacionais, frameworks e gerenciadores de pacotes.",
-    "formats_description": "O {{ProdFullName}} suporta operações com os seguintes [formatos de arquivo]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Alguns casos de uso das operações típicas do {{ProdFullName}}.",
+    "platforms_description": "{{ProdFullName}} suporta os seguintes sistemas operacionais, frameworks e gerenciadores de pacotes",
+    "formats_description": "{{ProdFullName}} suporta operações com os seguintes [formatos de arquivo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Alguns casos de uso típicos das operações do {{ProdFullName}}",
     "code_title_sample_1": "Extrair imagens de documentos PDF",
-    "code_samples_sample_1_content": "{{ProdFullName}} facilita para os desenvolvedores {{ProgLang}} a extração de imagens de [documentos]({{Sample1Url}}):",
+    "code_samples_sample_1_content": "{{ProdFullName}} facilita para desenvolvedores {{ProgLang}} a extração de imagens de [documentos]({{Sample1Url}}):",
     "code_title_sample_2": "Extrair códigos de barras de imagens",
     "code_samples_sample_2_content": "Use nossa API {{EnvNameShort}} para extrair [códigos de barras]({{Sample2Url}}) de imagens:"
+  },
+  "index-content-python-net": {
+    "head_title": "{{ProdFullName}} Document Parser SDK para {{EnvNameShort}}",
+    "head_description": "SDK de Document Parser de alto desempenho para {{EnvNameShort}}. Extraia texto, imagens, metadados, códigos de barras, tabelas e outros dados de PDF, Word, Excel, emails e mais de 50 formatos de documento.",
+    "title": "Document Parser SDK para {{EnvNameShort}}",
+    "description": "Adicione análise de documentos rápida e precisa aos seus aplicativos {{EnvNameShort}} e extraia texto, imagens, metadados e dados estruturados de documentos e imagens.",
+    "actions_main": "{{PackageStoreName}} Baixar",
+    "code_title": "Extrair texto usando Python",
+    "code_comment_1": "Carregar o documento",
+    "code_comment_2": "Extrair texto do documento",
+    "code_comment_3": "Imprimir todo o texto extraído",
+    "overview_description": "Document Parser SDK para realizar análise de documentos de alta precisão em aplicações {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Extrair dados de documentos",
+      "description": "{{ProdFullName}} API permite recuperar texto, metadados e imagens de uma ampla variedade de formatos de arquivo, como documentos do Office, e‑mails, anexos e arquivos. Esta ferramenta poderosa ajuda a acessar e processar de forma eficiente informações valiosas contidas nesses arquivos para diversas aplicações, como análise de dados, indexação de mecanismos de busca ou sistemas de gerenciamento de conteúdo."
+    },
+    "overview_feature_2": {
+      "title": "Analisar documentos",
+      "description": "Extrair vários elementos, como hyperlinks, tabelas, códigos QR, códigos de barras e dados de formulários PDF. Também analisar qualquer informação desejada dos documentos usando modelos personalizados."
+    },
+    "overview_feature_3": {
+      "title": "Personalizar resultados",
+      "description": "{{EnvNameShort}} API permite recuperar dados em vários formatos como bruto, estruturado, HTML ou Markdown. Além disso, a API oferece funcionalidade de pesquisa para localizar palavras ou frases específicas dentro do texto dos documentos."
+    },
+    "features": {
+      "title": "Recursos do {{ProdFullName}}",
+      "description": "Extraia dados de PDFs, documentos do Office, imagens e outros formatos de forma rápida e precisa com o nosso {{EnvNameShort}} Document Parser SDK",
+      "feature_1": {
+        "title": "Extrair texto",
+        "content": "Extrair informações textuais de vários formatos de arquivo, como documentos do Office, arquivos PDF e imagens, para fácil leitura e análise."
+      },
+      "feature_2": {
+        "title": "Extrair imagens",
+        "content": "Recuperar conteúdo visual de diversas fontes, como documentos do Office e arquivos PDF, para acesso e uso convenientes."
+      },
+      "feature_3": {
+        "title": "Escanear códigos QR",
+        "content": "Detectar e decodificar códigos QR presentes em documentos do Office, arquivos PDF ou conteúdo visual para recuperação eficiente de informações."
+      },
+      "feature_4": {
+        "title": "Extrair dados de anexos de e‑mail e arquivos compactados",
+        "content": "Coletar informações valiosas de mensagens de e‑mail, anexos de arquivos e fontes de dados compactados para análise e utilização eficazes."
+      },
+      "feature_5": {
+        "title": "Extrair tabelas",
+        "content": "Identificar e extrair dados tabulares de documentos PDF para análise e uso organizados."
+      },
+      "feature_6": {
+        "title": "Extrair hyperlinks",
+        "content": "Localize e extraia hiperlinks e endereços de e‑mail em documentos do Office ou arquivos PDF para acesso eficiente."
+      },
+      "feature_7": {
+        "title": "Analisar formulários PDF",
+        "content": "Formulários PDF são documentos digitais com campos editáveis para interação do usuário, permitindo que ele insira informações eletronicamente. A API {{EnvNameShort}} pode ser utilizada para extrair dados desses formulários para processamento eficiente."
+      },
+      "feature_8": {
+        "title": "Analisar dados por modelos",
+        "content": "Crie modelos personalizados e utilize-os com a API {{EnvNameShort}} para analisar informações específicas de arquivos PDF, simplificando os processos de extração de dados."
+      },
+      "feature_9": {
+        "title": "Pesquisar texto em documentos",
+        "content": "Localize rapidamente palavras ou padrões específicos dentro de documentos."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} suporta os seguintes sistemas operacionais, frameworks e gerenciadores de pacotes",
+    "formats_description": "{{ProdFullName}} oferece suporte a operações com os seguintes [formatos de arquivo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Além da extração básica de texto, aqui estão os casos de uso mais comuns para extração rápida de texto, imagens e metadados.",
+    "code_sample_1_title": "Pesquisar texto em um documento",
+    "code_sample_1_content": "Este exemplo mostra como pesquisar uma frase específica em um documento PDF e imprimir onde ela foi encontrada.",
+    "code_sample_1": {
+      "title": "Pesquisar texto em um documento em Python",
+      "comment_1": "Carregar o documento",
+      "comment_2": "Pesquisar uma frase específica no documento",
+      "comment_3": "Imprimir o índice da página e o retângulo onde a frase foi encontrada"
+    },
+    "code_sample_2_title": "Extrair imagens de um documento",
+    "code_sample_2_content": "Este exemplo mostra como extrair imagens de um documento PDF e salvá‑las em um arquivo.",
+    "code_sample_2": {
+      "title": "Extrair imagens de um documento em Python",
+      "comment_1": "Carregar o documento",
+      "comment_2": "Extrair imagens do documento",
+      "comment_3": "Salvar as imagens em um arquivo"
+    },
+    "code_sample_3_title": "Extrair metadados de um documento",
+    "code_sample_3_content": "Este exemplo mostra como extrair metadados de um documento PDF e imprimi‑los.",
+    "code_sample_3": {
+      "title": "Extrair metadados de um documento em Python",
+      "comment_1": "Carregar o documento",
+      "comment_2": "Extrair metadados do documento",
+      "comment_3": "Imprimir os metadados"
+    }
   }
 }

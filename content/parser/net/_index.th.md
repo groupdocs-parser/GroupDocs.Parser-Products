@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-06-30T10:26:00
+date: 2025-12-09T14:10:41
 draft: false
 
 lang: th
@@ -19,38 +19,41 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
-head_title: "GroupDocs.Parser for .NET แอพพลิเคชันการแยกเอกสาร"
-head_description: "รับโซลูชันการแยกเอกสารแบบครบวงจรสำหรับแอพพลิเคชัน .NET แยกข้อมูลจากรูปแบบเอกสารออนไลน์ด้วยคุณสมบัติการลากและวางที่ง่ายดาย"
+head_title: "GroupDocs.Parser for .NET Document Parser SDK สำหรับ .NET"
+head_description: "Document Parser SDK ที่มีประสิทธิภาพสูงสำหรับ .NET. สกัดข้อความ, รูปภาพ, metadata, barcodes, ตารางและข้อมูลอื่น ๆ จาก PDF, Word, Excel, อีเมลและรูปแบบเอกสารกว่า 50 แบบ"
 
 ############################# Header ############################
-title: "วิเคราะห์เอกสารผ่าน .NET API"
-description: "แยกข้อมูลจากเอกสารและภาพในทุกแพลตฟอร์มโดยใช้ API ที่ยืดหยุ่นและโซลูชันที่ใช้แอพสำหรับโปรแกรมเมอร์และผู้ใช้ทั่วไป"
+title: "Document Parser SDK สำหรับ .NET"
+description: "เพิ่มการแปลงเอกสารที่รวดเร็วและแม่นยำให้กับแอป .NET ของคุณและสกัดข้อความ, รูปภาพ, metadata และข้อมูลเชิงโครงสร้างจากเอกสารและภาพ"
 words:
   for: "สำหรับ"
 
 actions:
-  main: "ดาวน์โหลด Nuget"
+  main: "Nuget ดาวน์โหลด"
   main_link: "https://www.nuget.org/packages/GroupDocs.Parser"
-  alt: "การอนุญาต"
+  alt: "การให้สิทธิ์ใช้"
   alt_link: "https://purchase.groupdocs.com/pricing/parser/net/"
   title: "พร้อมเริ่มต้นแล้วหรือยัง?"
-  description: "ลองใช้ฟีเจอร์ของ GroupDocs.Parser ฟรีหรือขอใบอนุญาต"
+  description: "ลองใช้ฟีเจอร์ของ GroupDocs.Parser ฟรีหรือขอรับใบอนุญาต"
 
 release:
-  title: "เวอร์ชัน {0} วางจำหน่ายแล้ว"
-  notes: "ดูว่าอะไรใหม่"
+  title: "เวอร์ชัน {0} ปล่อยแล้ว"
+  notes: "ดูว่ามีอะไรใหม่"
   downloads: "ดาวน์โหลด"
 
 code:
-  title: "วิเคราะห์เนื้อหาเอกสารอย่างรวดเร็ว"
+  title: "แยกเนื้อหาเอกสารอย่างรวดเร็วด้วย SDK"
   more: "ตัวอย่างเพิ่มเติม"
   more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/"
   install: "dotnet add package GroupDocs.Parser"
   content: |
     ```csharp {style=abap}   
-    // ส่งไฟล์ต้นทางไปยังอินสแตนซ์ของ Parser
+    // ส่งไฟล์ต้นฉบับไปยังอินสแตนซ์ของ Parser
     using (var parser = new Parser("source.pdf"))
     {
         // ส่งข้อความเอกสารไปยัง TextReader
@@ -65,26 +68,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Parser ภาพรวม"
-  description: "API สำหรับการดำเนินการแยกเอกสารในแอพพลิเคชัน .NET"
+  title: "GroupDocs.Parser อย่างคร่าวๆ"
+  description: "Document Parser SDK สำหรับการแปลงเอกสารด้วยความแม่นยำสูงในแอปพลิเคชัน .NET"
   features:
     # feature loop
-    - title: "แยกข้อมูลจากเอกสาร"
-      content: "GroupDocs.Parser for .NET API ช่วยให้คุณสามารถดึงข้อความ เมตาดาตา และรูปภาพจากรูปแบบไฟล์ที่หลากหลาย เช่น เอกสาร Office, อีเมล, ไฟล์แนบ และเอกสารเก็บถาวร เครื่องมือที่ทรงพลังนี้ช่วยให้คุณเข้าถึงและประมวลผลข้อมูลที่มีค่าในไฟล์เหล่านี้ได้อย่างมีประสิทธิภาพสำหรับแอพพลิเคชันต่างๆ เช่น การวิเคราะห์ข้อมูล, การจัดทำดัชนีเสิร์ชเอนจิน หรือระบบการจัดการเนื้อหา"
+    - title: "สกัดข้อมูลจากเอกสาร"
+      content: "GroupDocs.Parser for .NET API ช่วยให้คุณดึงข้อความ, metadata และรูปภาพจากรูปแบบไฟล์หลากหลาย เช่น เอกสาร Office, อีเมล, ไฟล์แนบและไฟล์เก็บข้อมูล เครื่องมือนี้ช่วยให้คุณเข้าถึงและประมวลผลข้อมูลสำคัญในไฟล์เหล่านี้ได้อย่างมีประสิทธิภาพสำหรับการใช้งานต่าง ๆ เช่น การวิเคราะห์ข้อมูล, การทำดัชนีเครื่องมือค้นหา หรือระบบจัดการเนื้อหา"
 
     # feature loop
-    - title: "วิเคราะห์เอกสาร"
-      content: "แยกองค์ประกอบต่างๆ เช่น ลิงก์, ตาราง, QR โค้ด, บาร์โค้ด และข้อมูลจากแบบฟอร์ม PDF นอกจากนี้ยังสามารถวิเคราะห์ข้อมูลเฉพาะจากเอกสารโดยใช้แม่แบบที่กำหนดเอง"
+    - title: "แปลงเอกสาร"
+      content: "สกัดส่วนประกอบต่าง ๆ เช่น ลิงก์, ตาราง, QR Code, barcode และข้อมูลจากแบบฟอร์ม PDF. นอกจากนี้ยังสามารถแปลงข้อมูลที่ต้องการจากเอกสารโดยใช้เทมเพลตที่กำหนดเอง"
 
     # feature loop
     - title: "ปรับแต่งผลลัพธ์"
-      content: ".NET API ช่วยให้คุณสามารถดึงข้อมูลในรูปแบบที่หลากหลาย เช่น แบบดิบ, แบบมีโครงสร้าง, HTML หรือ Markdown นอกจากนี้ API ยังมีฟังก์ชันการค้นหาที่ช่วยในการค้นหาคำหรือวลีเฉพาะภายในข้อความของเอกสาร"
+      content: ".NET API ช่วยให้คุณดึงข้อมูลในรูปแบบต่าง ๆ เช่น raw, structured, HTML หรือ Markdown. นอกจากนี้ API ยังมีฟังก์ชันการค้นหาเพื่อหาคำหรือวลีเฉพาะในข้อความของเอกสาร"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "อิสระต่อแพลตฟอร์ม"
-  description: "GroupDocs.Parser for .NET รองรับระบบปฏิบัติการ เฟรมเวิร์ก และแพ็คเกจจัดการดังต่อไปนี้"
+  title: "ความเป็นอิสระของแพลตฟอร์ม"
+  description: "GroupDocs.Parser for .NET รองรับระบบปฏิบัติการ, เฟรมเวิร์ก และผู้จัดการแพ็คเกจต่อไปนี้"
   items:
     # platform loop
     - title: "Amazon"
@@ -116,7 +119,7 @@ formats:
   enable: true
   title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    GroupDocs.Parser for .NET รองรับการดำเนินการกับ [รูปแบบไฟล์](https://docs.groupdocs.com/parser/net/supported-document-formats/) ต่อไปนี้
+    GroupDocs.Parser for .NET รองรับการทำงานกับ [รูปแบบไฟล์](https://docs.groupdocs.com/parser/net/supported-document-formats/) ต่อไปนี้.
   groups:
     # group loop
     - color: "green"
@@ -128,100 +131,100 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### รูปภาพ & รูปแบบอื่นๆ
-        * **พกพาได้:** PDF 
+        ### รูปภาพและรูปแบบอื่น ๆ
+        * **พกพา:** PDF 
         * **รูปภาพ:** JPG, BMP, PNG, TIFF, GIF
-        * **รูปแบบสำนักงานอื่นๆ:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **รูปแบบ Office อื่น ๆ:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### รูปแบบอื่นๆ
+        ### รูปแบบอื่น ๆ
         * **เว็บ:** HTML, MHTML 
-        * **เอกสารเก็บถาวร:** ZIP, TAR, 7Z 
-        * **สมุดอิเล็กทรอนิกส์:** CHM, EPUB, FB2, MOBI 
+        * **ไฟล์เก็บข้อมูล:** ZIP, TAR, 7Z 
+        * **อีบุ๊ค:** CHM, EPUB, FB2, MOBI 
         
         
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Parser for .NET คุณสมบัติ"
-  description: "แยกข้อมูลจาก PDFs, เอกสาร Office และภาพได้อย่างรวดเร็วและแม่นยำ"
+  title: "คุณลักษณะของ GroupDocs.Parser for .NET"
+  description: "สกัดข้อมูลจาก PDF, เอกสาร Office, ภาพและรูปแบบอื่น ๆ อย่างรวดเร็วและแม่นยำด้วย .NET Document Parser SDK ของเรา"
 
   items:
     # feature loop
     - icon: "text"
-      title: "แยกข้อความ"
-      content: "ดึงข้อมูลข้อความจากรูปแบบไฟล์ต่างๆ เช่น เอกสาร Office, ไฟล์ PDF และภาพเพื่อความอ่านง่ายและการวิเคราะห์"
+      title: "สกัดข้อความ"
+      content: "สกัดข้อมูลข้อความจากรูปแบบไฟล์ต่าง ๆ เช่น เอกสาร Office, ไฟล์ PDF และภาพ เพื่อความอ่านง่ายและการวิเคราะห์"
 
     # feature loop
     - icon: "image"
-      title: "แยกรูปภาพ"
-      content: "กู้คืนเนื้อหาภาพจากแหล่งที่หลากหลาย เช่น เอกสาร Office, ไฟล์ PDF เพื่อความสะดวกในการเข้าถึงและใช้งาน"
+      title: "สกัดรูปภาพ"
+      content: "ดึงเนื้อหาภาพจากแหล่งต่าง ๆ เช่น เอกสาร Office, ไฟล์ PDF เพื่อการเข้าถึงและใช้ประโยชน์ได้สะดวก"
 
     # feature loop
     - icon: "qr"
-      title: "สแกน QR โค้ด"
-      content: "ตรวจจับและถอดรหัส QR โค้ดที่มีอยู่ในเอกสาร Office, ไฟล์ PDF หรือเนื้อหาภาพเพื่อการเรียกคืนข้อมูลที่มีประสิทธิภาพ"
+      title: "สแกน QR Code"
+      content: "ตรวจจับและถอดรหัส QR Code ที่อยู่ในเอกสาร Office, ไฟล์ PDF หรือเนื้อหาภาพ เพื่อการเรียกคืนข้อมูลอย่างมีประสิทธิภาพ"
 
     # feature loop
     - icon: "email"
-      title: "แยกข้อมูลจากไฟล์แนบและเอกสารเก็บถาวร"
-      content: "รวบรวมข้อมูลที่มีค่าจากข้อความอีเมล ไฟล์แนบ และแหล่งข้อมูลที่ถูกบีบอัดเพื่อการวิเคราะห์และการใช้งานที่มีประสิทธิภาพ"
+      title: "สกัดข้อมูลจากไฟล์แนบอีเมลและไฟล์เก็บข้อมูล"
+      content: "รวบรวมข้อมูลที่มีคุณค่าจากข้อความอีเมล, ไฟล์แนบ และแหล่งข้อมูลที่บีบอัดเพื่อการวิเคราะห์และใช้งานอย่างมีประสิทธิภาพ."
 
     # feature loop
     - icon: "table"
-      title: "แยกตาราง"
-      content: "ระบุและแยกข้อมูลในตารางจากเอกสาร PDF สำหรับการวิเคราะห์และการใช้งานที่เป็นระเบียบ"
+      title: "ดึงตาราง"
+      content: "ระบุและดึงข้อมูลแบบตารางจากเอกสาร PDF เพื่อการวิเคราะห์และการใช้งานอย่างเป็นระบบ."
 
     # feature loop
     - icon: "hyperlink"
-      title: "แยกลิงก์"
-      content: "ค้นหาและแยกลิงก์และที่อยู่อีเมลภายในเอกสาร Office หรือไฟล์ PDF เพื่อเข้าถึงอย่างมีประสิทธิภาพ"
+      title: "ดึงไฮเปอร์ลิงก์"
+      content: "ค้นหาและดึงไฮเปอร์ลิงก์และที่อยู่อีเมลภายในเอกสาร Office หรือไฟล์ PDF เพื่อการเข้าถึงอย่างมีประสิทธิภาพ."
 
     # feature loop
     - icon: "pdf"
-      title: "วิเคราะห์แบบฟอร์ม PDF"
-      content: "แบบฟอร์ม PDF เป็นเอกสารดิจิตอลที่มีฟิลด์กรอกข้อมูลเพื่อให้ผู้ใช้สามารถกรอกข้อมูลได้ทางอิเล็กทรอนิกส์ API ของ .NET สามารถใช้ในการดึงข้อมูลจากแบบฟอร์มเหล่านี้เพื่อการประมวลผลที่มีประสิทธิภาพ"
+      title: "แยกวิเคราะห์แบบฟอร์ม PDF"
+      content: "แบบฟอร์ม PDF คือเอกสารดิจิทัลที่มีฟิลด์ที่สามารถกรอกได้เพื่อการโต้ตอบของผู้ใช้ ให้ผู้ใช้ป้อนข้อมูลแบบอิเล็กทรอนิกส์ได้ API ของ .NET สามารถใช้เพื่อดึงข้อมูลจากแบบฟอร์มเหล่านี้เพื่อการประมวลผลที่มีประสิทธิภาพ."
 
     # feature loop
     - icon: "template"
-      title: "วิเคราะห์ข้อมูลตามแบบฟอร์ม"
-      content: "สร้างแม่แบบกำหนดเองและใช้ร่วมกับ API .NET เพื่อดึงข้อมูลเฉพาะจากไฟล์ PDF ซึ่งทำให้การแยกข้อมูลเป็นเรื่องง่าย"
+      title: "แยกวิเคราะห์ข้อมูลโดยใช้เทมเพลต"
+      content: "สร้างเทมเพลตที่กำหนดเองและใช้ร่วมกับ API ของ .NET เพื่อนำมาวิเคราะห์ข้อมูลเฉพาะจากไฟล์ PDF ทำให้กระบวนการดึงข้อมูลง่ายขึ้น."
 
     # feature loop
     - icon: "search"
       title: "ค้นหาข้อความในเอกสาร"
-      content: "ค้นหาคำหรือรูปแบบเฉพาะในเอกสารได้อย่างรวดเร็ว"
+      content: "ค้นหาคำหรือรูปแบบเฉพาะในเอกสารได้อย่างรวดเร็ว."
 
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "ตัวอย่างโค้ด"
-  description: "กรณีการใช้งานบางประการจากการดำเนินการที่เป็นที่นิยมใน GroupDocs.Parser for .NET"
+  description: "ตัวอย่างการใช้งานทั่วไปของ GroupDocs.Parser for .NET"
   items:
     # code sample loop
-    - title: "แยกรูปภาพจากเอกสาร PDF"
+    - title: "ดึงภาพจากเอกสาร PDF"
       content: |
-        GroupDocs.Parser for .NET ทำให้การแยกรูปภาพจาก [เอกสาร](https://docs.groupdocs.com/parser/net/extract-images-from-documents/) เป็นเรื่องง่ายสำหรับนักพัฒนาที่ใช้ C#:
-        {{< landing/code title="แยกรูปภาพจากเอกสาร PDF ใน C#">}}
+        GroupDocs.Parser for .NET ทำให้ผู้พัฒนา C# สามารถดึงภาพจาก [เอกสาร](https://docs.groupdocs.com/parser/net/extract-images-from-documents/) ได้อย่างง่ายดาย:
+        {{< landing/code title="สกัดภาพจากเอกสาร PDF ด้วย C#">}}
         ```csharp {style=abap}
         // สร้างอินสแตนซ์ของคลาส Parser
         using (var parser = new Parser("source.pptx"))
         {
-            // แยกรูปภาพ
+            // สกัดภาพ
             var images = parser.GetImages();
 
-            // ตรวจสอบว่ามีการแยกรูปภาพบางอย่าง
+            // ตรวจสอบว่ามีการสกัดข้อมูลหรือไม่
             if (images == null)
             {
                 return;
             }
-            // วนรอบรูปภาพ
+            // วนลูปผ่านภาพ
             foreach (PageImageArea image in images)
             {
-                // พิมพ์ดัชนีหน้า สี่เหลี่ยม และประเภทของรูปภาพ
+                // พิมพ์ดัชนีหน้าที่, สี่เหลี่ยมและประเภทของภาพ
                 Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", 
                     image.Page.Index, image.Rectangle, image.FileType));
             }
@@ -229,21 +232,21 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "แยกรูปบาร์โค้ดจากภาพ"
+    - title: "ดึงบาร์โค้ดจากภาพ"
       content: |
-        ใช้ API .NET ของเราเพื่อแยก [บาร์โค้ด](https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/) จากภาพ:
-        {{< landing/code title="แยกรูปบาร์โค้ดจากรูปภาพใน C#">}}
+        ใช้ API .NET ของเราเพื่อดึง [บาร์โค้ด](https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/) จากภาพ:
+        {{< landing/code title="สกัดบาร์โค้ดจากภาพด้วย C#">}}
         ```csharp {style=abap}   
-        // โหลดภาพต้นฉบับไปยัง Parser
+        // โหลดภาพต้นฉบับเข้าสู่ Parser
         using (var parser = new Parser("source.jpg"))
         {
-            // ตรวจสอบว่าไฟล์รองรับการแยกรูปบาร์โค้ด
+            // ตรวจสอบว่าไฟล์รองรับการสกัดบาร์โค้ดหรือไม่
             if (parser.Features.Barcodes)
             {
-                // แยกรูปบาร์โค้ดจากไฟล์
+                // สกัดบาร์โค้ดจากไฟล์
                 var barcodes = parser.GetBarcodes();
 
-                // วนรอบรูปบาร์โค้ด
+                // วนลูปผ่านบาร์โค้ด
                 foreach (var barcode in barcodes)
                 {
                     // พิมพ์ดัชนีหน้า

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-06-30T10:26:00
+date: 2025-12-09T14:10:41
 draft: false
 
 lang: vi
@@ -19,33 +19,36 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
-head_title: "GroupDocs.Parser for Java Ứng dụng phân tích tài liệu"
-head_description: "Giải pháp phân tích tài liệu toàn diện cho các ứng dụng Java. Trích xuất dữ liệu từ các định dạng tài liệu trực tuyến bằng tính năng kéo và thả đơn giản."
+head_title: "GroupDocs.Parser for Java Document Parser SDK cho Java"
+head_description: "Document Parser SDK hiệu suất cao cho Java. Trích xuất văn bản, hình ảnh, siêu dữ liệu, mã vạch, bảng và các dữ liệu khác từ PDF, Word, Excel, email và hơn 50 định dạng tài liệu."
 
 ############################# Header ############################
-title: "Phân tích tài liệu qua API Java"
-description: "Trích xuất dữ liệu từ tài liệu và hình ảnh trên bất kỳ nền tảng nào bằng cách sử dụng API linh hoạt và giải pháp ứng dụng dựa trên lập trình cho các lập trình viên và người dùng cuối."
+title: "Document Parser SDK cho Java"
+description: "Thêm khả năng phân tích tài liệu nhanh chóng và chính xác vào các ứng dụng Java của bạn và trích xuất văn bản, hình ảnh, siêu dữ liệu và dữ liệu có cấu trúc từ tài liệu và hình ảnh."
 words:
   for: "cho"
 
 actions:
-  main: "Tải xuống từ Maven"
+  main: "Maven Tải xuống"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/"
   alt: "Cấp phép"
   alt_link: "https://purchase.groupdocs.com/pricing/parser/java/"
   title: "Sẵn sàng bắt đầu?"
-  description: "Cố gắng sử dụng các tính năng của GroupDocs.Parser miễn phí hoặc yêu cầu giấy phép"
+  description: "Dùng thử các tính năng của GroupDocs.Parser miễn phí hoặc yêu cầu giấy phép"
 
 release:
-  title: "Phiên bản {0} đã được phát hành"
-  notes: "Xem những điểm mới"
+  title: "Phiên bản {0} đã phát hành"
+  notes: "Xem những gì mới"
   downloads: "Tải xuống"
 
 code:
-  title: "Nhanh chóng lấy nội dung tài liệu"
-  more: "Nhiều ví dụ hơn"
+  title: "Nhanh chóng phân tích nội dung tài liệu bằng SDK"
+  more: "Thêm ví dụ"
   more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Java/"
   install: |
     <dependency>
@@ -55,10 +58,10 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // Truyền tệp nguồn cho đối tượng Parser
+    // Chuyển tệp nguồn cho đối tượng Parser
     try (Parser parser = new Parser("source.pdf"))
     {
-        // Truyền văn bản tài liệu cho TextReader
+        // Chuyển văn bản tài liệu cho TextReader
         try (TextReader reader = parser.getText())
         {
             // Xử lý văn bản tài liệu
@@ -72,26 +75,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Parser trong cái nhìn tổng quan"
-  description: "API để thực hiện phân tích tài liệu trong các ứng dụng Java"
+  title: "GroupDocs.Parser trong một cái nhìn tổng quan"
+  description: "Document Parser SDK để thực hiện phân tích tài liệu độ chính xác cao trong các ứng dụng Java"
   features:
     # feature loop
     - title: "Trích xuất dữ liệu từ tài liệu"
-      content: "GroupDocs.Parser for Java API cho phép bạn truy xuất văn bản, siêu dữ liệu và hình ảnh từ nhiều định dạng tệp như tài liệu Office, email, tệp đính kèm và lưu trữ. Công cụ mạnh mẽ này giúp bạn truy cập và xử lý thông tin giá trị nằm trong các tệp này một cách hiệu quả cho nhiều ứng dụng như phân tích dữ liệu, lập chỉ mục công cụ tìm kiếm, hoặc hệ thống quản lý nội dung."
+      content: "GroupDocs.Parser for Java API cho phép bạn lấy văn bản, siêu dữ liệu và hình ảnh từ đa dạng định dạng tệp như tài liệu Office, email, tệp đính kèm và lưu trữ. Công cụ mạnh mẽ này giúp bạn truy cập và xử lý thông tin giá trị chứa trong các tệp một cách hiệu quả cho các ứng dụng như phân tích dữ liệu, lập chỉ mục công cụ tìm kiếm hoặc hệ thống quản lý nội dung."
 
     # feature loop
     - title: "Phân tích tài liệu"
-      content: "Trích xuất các yếu tố khác nhau như siêu liên kết, bảng, mã QR, mã vạch và dữ liệu từ biểu mẫu PDF. Đồng thời phân tích bất kỳ thông tin nào mong muốn từ tài liệu bằng cách sử dụng các mẫu tùy chỉnh."
+      content: "Trích xuất các yếu tố đa dạng như siêu liên kết, bảng, mã QR, mã vạch và dữ liệu từ biểu mẫu PDF. Ngoài ra, phân tích bất kỳ thông tin mong muốn nào từ tài liệu bằng cách sử dụng mẫu tùy chỉnh."
 
     # feature loop
     - title: "Tùy chỉnh kết quả"
-      content: "Java API cho phép bạn truy xuất dữ liệu ở nhiều định dạng khác nhau như thô, cấu trúc, HTML hoặc Markdown. Ngoài ra, API còn cung cấp chức năng tìm kiếm để xác định các từ hoặc cụm từ cụ thể trong văn bản của tài liệu."
+      content: "Java API cho phép bạn lấy dữ liệu ở các định dạng khác nhau như thô, có cấu trúc, HTML hoặc Markdown. Ngoài ra, API cung cấp tính năng tìm kiếm để xác định các từ hoặc cụm từ cụ thể trong văn bản của tài liệu."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Tính độc lập của nền tảng"
-  description: "GroupDocs.Parser for Java hỗ trợ các hệ điều hành, khung làm việc và trình quản lý gói sau"
+  title: "Độc lập nền tảng"
+  description: "GroupDocs.Parser for Java hỗ trợ các hệ điều hành, framework và trình quản lý gói sau đây"
   items:
     # platform loop
     - title: "Amazon"
@@ -123,7 +126,7 @@ formats:
   enable: true
   title: "Các định dạng tệp được hỗ trợ"
   description: |
-    GroupDocs.Parser for Java hỗ trợ các thao tác với [các định dạng tệp](https://docs.groupdocs.com/parser/java/supported-document-formats/) sau.
+    GroupDocs.Parser for Java hỗ trợ thao tác với các [định dạng tệp](https://docs.groupdocs.com/parser/java/supported-document-formats/) sau đây.
   groups:
     # group loop
     - color: "green"
@@ -138,43 +141,43 @@ formats:
         ### Hình ảnh & Các định dạng khác
         * **Di động:** PDF 
         * **Hình ảnh:** JPG, BMP, PNG, TIFF, GIF
-        * **Các định dạng văn phòng khác:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **Các định dạng Office khác:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
         ### Các định dạng khác
         * **Web:** HTML, MHTML 
         * **Lưu trữ:** ZIP, TAR, 7Z 
-        * **e-Books:** CHM, EPUB, FB2, MOBI 
+        * **Sách điện tử:** CHM, EPUB, FB2, MOBI 
         
         
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Parser for Java các tính năng"
-  description: "Trích xuất dữ liệu từ PDFs, tài liệu Office và hình ảnh một cách nhanh chóng và chính xác"
+  title: "Các tính năng của GroupDocs.Parser for Java"
+  description: "Trích xuất dữ liệu từ PDF, tài liệu Office, hình ảnh và các định dạng khác một cách nhanh chóng và chính xác với Java Document Parser SDK của chúng tôi"
 
   items:
     # feature loop
     - icon: "text"
       title: "Trích xuất văn bản"
-      content: "Trích xuất thông tin văn bản từ các định dạng tệp khác nhau như tài liệu văn phòng, tệp PDF và hình ảnh để dễ dàng đọc và phân tích."
+      content: "Trích xuất thông tin văn bản từ các định dạng tệp khác nhau như tài liệu Office, tệp PDF và hình ảnh để dễ đọc và phân tích."
 
     # feature loop
     - icon: "image"
       title: "Trích xuất hình ảnh"
-      content: "Lấy nội dung hình ảnh từ nhiều nguồn như tài liệu văn phòng, tệp PDF để thuận tiện trong việc truy cập và sử dụng."
+      content: "Lấy nội dung hình ảnh từ các nguồn đa dạng như tài liệu Office, tệp PDF để truy cập và sử dụng thuận tiện."
 
     # feature loop
     - icon: "qr"
       title: "Quét mã QR"
-      content: "Phát hiện và giải mã các mã QR có trong tài liệu văn phòng, tệp PDF hoặc nội dung hình ảnh để việc truy xuất thông tin hiệu quả."
+      content: "Phát hiện và giải mã mã QR có trong tài liệu Office, tệp PDF hoặc nội dung hình ảnh để truy xuất thông tin một cách hiệu quả."
 
     # feature loop
     - icon: "email"
       title: "Trích xuất dữ liệu từ tệp đính kèm email và lưu trữ"
-      content: "Tập hợp thông tin quý giá từ các tin nhắn email, tệp đính kèm và nguồn dữ liệu nén để phân tích và sử dụng hiệu quả."
+      content: "Thu thập thông tin giá trị từ tin nhắn email, tệp đính kèm và nguồn dữ liệu nén để phân tích và sử dụng hiệu quả."
 
     # feature loop
     - icon: "table"
@@ -184,17 +187,17 @@ features:
     # feature loop
     - icon: "hyperlink"
       title: "Trích xuất siêu liên kết"
-      content: "Xác định và trích xuất siêu liên kết và địa chỉ email trong tài liệu văn phòng hoặc tệp PDF để truy cập hiệu quả."
+      content: "Xác định và trích xuất siêu liên kết và địa chỉ email trong tài liệu Office hoặc tệp PDF để truy cập hiệu quả."
 
     # feature loop
     - icon: "pdf"
       title: "Phân tích biểu mẫu PDF"
-      content: "Biểu mẫu PDF là tài liệu số có các trường có thể điền để tương tác của người dùng, cho phép họ nhập thông tin một cách điện tử. API .NET có thể được sử dụng để trích xuất dữ liệu từ các biểu mẫu này cho quy trình hiệu quả."
+      content: "Biểu mẫu PDF là tài liệu kỹ thuật số có các trường có thể điền để người dùng tương tác, cho phép họ nhập thông tin điện tử. API .NET có thể được sử dụng để trích xuất dữ liệu từ các biểu mẫu này nhằm xử lý hiệu quả."
 
     # feature loop
     - icon: "template"
       title: "Phân tích dữ liệu theo mẫu"
-      content: "Tạo các mẫu tùy chỉnh và sử dụng chúng với API .NET để phân tích thông tin cụ thể từ các tệp PDF, đơn giản hóa quy trình trích xuất dữ liệu."
+      content: "Tạo mẫu tùy chỉnh và sử dụng chúng cùng API .NET để phân tích thông tin cụ thể từ tệp PDF, đơn giản hóa quá trình trích xuất dữ liệu."
 
     # feature loop
     - icon: "search"
@@ -205,8 +208,8 @@ features:
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Ví dụ mã"
-  description: "Một số trường hợp sử dụng các thao tác điển hình của GroupDocs.Parser for Java"
+  title: "Mẫu code"
+  description: "Một số trường hợp sử dụng điển hình của các thao tác GroupDocs.Parser for Java"
   items:
     # code sample loop
     - title: "Trích xuất hình ảnh từ tài liệu PDF"
@@ -214,18 +217,18 @@ code_samples:
         GroupDocs.Parser for Java giúp các nhà phát triển Java dễ dàng trích xuất hình ảnh từ [tài liệu](https://docs.groupdocs.com/parser/java/extract-images-from-documents/):
         {{< landing/code title="Trích xuất hình ảnh từ tài liệu PDF trong Java">}}
         ```java {style=abap}
-        // Tạo một đối tượng của lớp Parser
+        // Tạo một thể hiện của lớp Parser
         try (Parser parser = new Parser("source.pdf"))
         {
             // Trích xuất hình ảnh
             Iterable<PageImageArea> images = parser.getImages();
 
-            // Kiểm tra xem đã trích xuất được không
+            // Kiểm tra xem có gì được trích xuất không
             if (images == null) {
                 return;
             }
 
-            // Lặp qua các hình ảnh
+            // Duyệt qua hình ảnh
             for (PageImageArea image : images) {
                 // In chỉ số trang, hình chữ nhật và loại hình ảnh
                 System.out.println(String.format("Page: %d, R: %s, Type: %s", 
@@ -249,7 +252,7 @@ code_samples:
                 // Trích xuất mã vạch từ tệp
                 Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
 
-                // Lặp qua các mã vạch
+                // Duyệt qua các mã vạch
                 for (PageBarcodeArea barcode : barcodes) {
                     // In chỉ số trang
                     System.out.println("Page: " + barcode.getPage().getIndex());

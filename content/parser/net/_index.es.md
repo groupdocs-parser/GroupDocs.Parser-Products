@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-06-30T10:26:00
+date: 2025-12-09T14:10:41
 draft: false
 
 lang: es
@@ -19,19 +19,22 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
-head_title: "Aplicaciones de análisis de documentos GroupDocs.Parser for .NET"
-head_description: "Obtenga una solución integral para el análisis de documentos para aplicaciones .NET. Extraiga datos de formatos de documentos en línea utilizando una sencilla función de arrastrar y soltar."
+head_title: "GroupDocs.Parser for .NET SDK de Análisis de Documentos para .NET"
+head_description: "SDK de Análisis de Documentos de alto rendimiento para .NET. Extrae texto, imágenes, metadatos, códigos de barras, tablas y otros datos de PDF, Word, Excel, correos electrónicos y más de 50 formatos de documentos."
 
 ############################# Header ############################
-title: "Analizar documentos a través de la API .NET"
-description: "Extraiga datos de documentos e imágenes en cualquier plataforma utilizando nuestras APIs flexibles y soluciones basadas en aplicaciones para programadores y usuarios finales."
+title: "SDK de Análisis de Documentos para .NET"
+description: "Añade un análisis de documentos rápido y preciso a tus aplicaciones .NET y extrae texto, imágenes, metadatos y datos estructurados de documentos e imágenes."
 words:
   for: "para"
 
 actions:
-  main: "Descarga de Nuget"
+  main: "Nuget Descargar"
   main_link: "https://www.nuget.org/packages/GroupDocs.Parser"
   alt: "Licencias"
   alt_link: "https://purchase.groupdocs.com/pricing/parser/net/"
@@ -40,23 +43,23 @@ actions:
 
 release:
   title: "Versión {0} lanzada"
-  notes: "Vea las novedades"
+  notes: "Ver qué hay de nuevo"
   downloads: "Descargas"
 
 code:
-  title: "Analizar rápidamente el contenido del documento"
+  title: "Analiza rápidamente el contenido de documentos con el SDK"
   more: "Más ejemplos"
   more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/"
   install: "dotnet add package GroupDocs.Parser"
   content: |
     ```csharp {style=abap}   
-    // Pase el archivo fuente a la instancia de Parser.
+    // Pasa el archivo fuente a la instancia de Parser
     using (var parser = new Parser("source.pdf"))
     {
-        // Pase el texto del documento a TextReader.
+        // Pasa el texto del documento a TextReader
         using (var textReader = parser.GetText())
         {
-            // Procese el texto del documento.
+            // Procesa el texto del documento
             Console.WriteLine(textReader?.ReadToEnd());
         }
     }  
@@ -66,25 +69,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Parser en un vistazo"
-  description: "API para realizar análisis de documentos en aplicaciones .NET."
+  description: "SDK de Análisis de Documentos para realizar un análisis de documentos de alta precisión en aplicaciones .NET"
   features:
     # feature loop
     - title: "Extraer datos de documentos"
-      content: "La API GroupDocs.Parser for .NET permite recuperar texto, metadatos e imágenes de una amplia gama de formatos de archivo, como documentos de Office, correos electrónicos, archivos adjuntos y archivos comprimidos. Esta herramienta potente le ayuda a acceder y procesar eficientemente la información valiosa contenida dentro de estos archivos para varias aplicaciones, como análisis de datos, indexación de motores de búsqueda o sistemas de gestión de contenido."
+      content: "GroupDocs.Parser for .NET API le permite recuperar texto, metadatos e imágenes de una amplia gama de formatos de archivo, como documentos de Office, correos electrónicos, adjuntos y archivos. Esta potente herramienta le ayuda a acceder y procesar de manera eficiente la información valiosa contenida en estos archivos para diversas aplicaciones, como análisis de datos, indexación de motores de búsqueda o sistemas de gestión de contenidos."
 
     # feature loop
     - title: "Analizar documentos"
-      content: "Extraiga varios elementos como hipervínculos, tablas, códigos QR, códigos de barras y datos de formularios PDF. También analice cualquier información deseada de documentos utilizando plantillas personalizadas."
+      content: "Extrae varios elementos como hipervínculos, tablas, códigos QR, códigos de barras y datos de formularios PDF. También analiza cualquier información deseada de los documentos utilizando plantillas personalizadas."
 
     # feature loop
-    - title: "Personalización de resultados"
-      content: "La API .NET le permite recuperar datos en varios formatos, como bruto, estructurado, HTML o Markdown. Además, la API ofrece una funcionalidad de búsqueda para localizar palabras o frases específicas dentro del texto de los documentos."
+    - title: "Personalizar resultados"
+      content: ".NET API le permite recuperar datos en varios formatos, como crudo, estructurado, HTML o Markdown. Además, la API ofrece una funcionalidad de búsqueda para localizar palabras o frases específicas dentro del texto de los documentos."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Independencia de la plataforma"
-  description: "La API GroupDocs.Parser for .NET es compatible con los siguientes sistemas operativos, marcos de trabajo y gerentes de paquetes."
+  title: "Independencia de plataforma"
+  description: "GroupDocs.Parser for .NET admite los siguientes sistemas operativos, frameworks y administradores de paquetes"
   items:
     # platform loop
     - title: "Amazon"
@@ -129,7 +132,7 @@ formats:
     - color: "blue"
       content: |
         ### Imágenes y otros formatos
-        * **Portátiles:** PDF 
+        * **Portátil:** PDF 
         * **Imágenes:** JPG, BMP, PNG, TIFF, GIF
         * **Otros formatos de oficina:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
@@ -138,41 +141,41 @@ formats:
         ### Otros formatos
         * **Web:** HTML, MHTML 
         * **Archivos:** ZIP, TAR, 7Z 
-        * **e-Libros:** CHM, EPUB, FB2, MOBI 
+        * **eBooks:** CHM, EPUB, FB2, MOBI 
         
         
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Características de GroupDocs.Parser for .NET"
-  description: "Extraiga datos de PDF, documentos de Office e imágenes de manera rápida y precisa."
+  title: "GroupDocs.Parser for .NET características"
+  description: "Extraiga datos de PDFs, documentos de Office, imágenes y otros formatos de forma rápida y precisa con nuestro SDK de Análisis de Documentos .NET"
 
   items:
     # feature loop
     - icon: "text"
       title: "Extraer texto"
-      content: "Extraiga información textual de varios formatos de archivo como documentos de oficina, archivos PDF e imágenes para una fácil legibilidad y análisis."
+      content: "Extrae información textual de varios formatos de archivo, como documentos de oficina, archivos PDF e imágenes, para una fácil lectura y análisis."
 
     # feature loop
     - icon: "image"
       title: "Extraer imágenes"
-      content: "Recupere contenido visual de diversas fuentes, como documentos de oficina y archivos PDF, para un acceso y uso conveniente."
+      content: "Recupera contenido visual de diversas fuentes, como documentos de oficina y archivos PDF, para un acceso y uso convenientes."
 
     # feature loop
     - icon: "qr"
       title: "Escanear códigos QR"
-      content: "Detecte y decodifique códigos QR presentes en documentos de oficina, archivos PDF o contenido visual para una eficiente recuperación de información."
+      content: "Detecta y decodifica códigos QR presentes en documentos de oficina, archivos PDF o contenido visual para una recuperación de información eficiente."
 
     # feature loop
     - icon: "email"
-      title: "Extraer datos de archivos adjuntos de correo electrónico y archivos comprimidos"
-      content: "Reúna información valiosa de mensajes de correo electrónico, archivos adjuntos y fuentes de datos comprimidos para un análisis y utilización efectiva."
+      title: "Extraer datos de adjuntos de correo electrónico y archivos"
+      content: "Recopile información valiosa de mensajes de correo electrónico, archivos adjuntos y fuentes de datos comprimidos para un análisis y utilización eficaces."
 
     # feature loop
     - icon: "table"
       title: "Extraer tablas"
-      content: "Identifique y extraiga datos tabulares de documentos PDF para un análisis y uso organizado."
+      content: "Identifique y extraiga datos tabulares de documentos PDF para un análisis y uso organizados."
 
     # feature loop
     - icon: "hyperlink"
@@ -182,46 +185,46 @@ features:
     # feature loop
     - icon: "pdf"
       title: "Analizar formularios PDF"
-      content: "Los formularios PDF son documentos digitales con campos rellenables para la interacción del usuario, permitiendo ingresar información electrónicamente. La API .NET puede ser utilizada para extraer datos de estos formularios para un procesamiento eficiente."
+      content: "Los formularios PDF son documentos digitales con campos rellenables para la interacción del usuario, que permiten introducir información electrónicamente. La API .NET puede utilizarse para extraer datos de estos formularios para un procesamiento eficiente."
 
     # feature loop
     - icon: "template"
-      title: "Analizar datos por plantillas"
+      title: "Analizar datos mediante plantillas"
       content: "Cree plantillas personalizadas y utilícelas con la API .NET para analizar información específica de archivos PDF, simplificando los procesos de extracción de datos."
 
     # feature loop
     - icon: "search"
-      title: "Buscar un texto en documentos"
-      content: "Localice rápidamente palabras o patrones específicos dentro de los documentos."
+      title: "Buscar texto en documentos"
+      content: "Ubique rápidamente palabras o patrones específicos dentro de los documentos."
 
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Ejemplos de código"
-  description: "Algunos casos de uso de operaciones típicas de GroupDocs.Parser for .NET"
+  description: "Algunos casos de uso típicos de operaciones de GroupDocs.Parser for .NET"
   items:
     # code sample loop
     - title: "Extraer imágenes de documentos PDF"
       content: |
-        GroupDocs.Parser for .NET facilita a los desarrolladores C# extraer imágenes de [documentos](https://docs.groupdocs.com/parser/net/extract-images-from-documents/):
+        GroupDocs.Parser for .NET facilita a los desarrolladores de C# extraer imágenes de [documentos](https://docs.groupdocs.com/parser/net/extract-images-from-documents/):
         {{< landing/code title="Extraer imágenes de documentos PDF en C#">}}
         ```csharp {style=abap}
-        // Cree una instancia de la clase Parser.
+        // Cree una instancia de la clase Parser
         using (var parser = new Parser("source.pptx"))
         {
-            // Extraiga imágenes.
+            // Extraer imágenes
             var images = parser.GetImages();
 
-            // Verifique si se extrajo algo.
+            // Verifique si se ha extraído algo
             if (images == null)
             {
                 return;
             }
-            // Itere sobre las imágenes.
+            // Iterar sobre las imágenes
             foreach (PageImageArea image in images)
             {
-                // Imprima el índice de la página, rectángulo y tipo de imagen.
+                // Imprima el índice de página, el rectángulo y el tipo de imagen
                 Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", 
                     image.Page.Index, image.Rectangle, image.FileType));
             }
@@ -234,21 +237,21 @@ code_samples:
         Utilice nuestra API .NET para extraer [códigos de barras](https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/) de imágenes:
         {{< landing/code title="Extraer códigos de barras de imágenes en C#">}}
         ```csharp {style=abap}   
-        // Cargue la imagen fuente en Parser.
+        // Cargue la imagen fuente en Parser
         using (var parser = new Parser("source.jpg"))
         {
-            // Verifique si el archivo es compatible con la extracción de códigos de barras.
+            // Verifique si el archivo admite la extracción de códigos de barras
             if (parser.Features.Barcodes)
             {
-                // Extraiga códigos de barras del archivo.
+                // Extraer códigos de barras del archivo
                 var barcodes = parser.GetBarcodes();
 
-                // Itere sobre los códigos de barras.
+                // Iterar sobre los códigos de barras
                 foreach (var barcode in barcodes)
                 {
-                    // Imprima el índice de la página.
+                    // Imprima el índice de página
                     Console.WriteLine("Page: " + barcode.Page.Index.ToString());
-                    // Imprima el valor del código de barras.
+                    // Imprima el valor del código de barras
                     Console.WriteLine("Value: " + barcode.Value);
                 }
             }

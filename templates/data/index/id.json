@@ -1,20 +1,20 @@
 {
   "index-content": {
-    "head_title": "Aplikasi Penguraian Dokumen .NET, Java, Cloud APIs & Online",
-    "head_description": "Dapatkan solusi penguraian dokumen serba ada untuk aplikasi .NET, Java, dan berbasis cloud. Ekstrak data dari format dokumen secara online menggunakan fitur drag and drop sederhana.",
-    "title": "Solusi Penguraian Dokumen",
-    "description_0": "API yang kuat untuk ekstraksi data dari berbagai format file.",
-    "description_1": "Parse dokumen dengan sedikit usaha pengkodean.",
-    "description_2": "Kustomisasi hasil penguraian.",
+    "head_title": "SDK Pengurai Dokumen untuk PDF, Word & Excel | GroupDocs",
+    "head_description": "SDK Pengurai Dokumen untuk mengekstrak teks, gambar, metadata, kode batang, dan tabel dari PDF, Word, Excel, email, serta lebih dari 50 format dokumen lainnya untuk aplikasi .NET, Java, dan Python.",
+    "title": "SDK Pengurai Dokumen",
+    "description_0": "SDK Pengurai Dokumen yang ramah pengembang untuk mengekstrak teks, gambar, kode batang, metadata, dan tabel dari lebih dari 50 format dokumen dan gambar.",
+    "description_1": "Integrasikan penguraian dokumen berperforma tinggi ke dalam aplikasi .NET, Java, dan Python Anda dengan upaya coding minimal.",
+    "description_2": "Gunakan templat fleksibel dan API canggih untuk menyesuaikan aturan penguraian serta menghasilkan output data yang bersih dan terstruktur.",
     "words_for": "untuk",
     "release_title": "Versi {0} dirilis",
     "release_notes": "Lihat apa yang baru",
     "release_downloads": "Unduhan",
-    "code_more": "Lebih banyak contoh",
+    "code_more": "Contoh lain",
     "overview_title": "{{ProdShortName}} sekilas",
     "formats_title": "Format file yang didukung",
     "platforms": {
-      "title": "Independensi Platform",
+      "title": "Kemandirian Platform",
       "head_title": "Pilih platform Anda",
       "description": "Perpustakaan {{ProdShortName}} mendukung sistem operasi dan kerangka kerja berikut:",
       "learn_more": "Pelajari lebih lanjut",
@@ -22,179 +22,179 @@
     },
     "features": {
       "title": "{{ProdShortName}} sekilas",
-      "description": "API untuk penguraian data di PDF, Word, Excel, dan lebih banyak lagi",
+      "description": "SDK Pengurai Dokumen yang kuat untuk mengekstrak data terstruktur dan tidak terstruktur dari PDF, dokumen Office, gambar, email, dan arsip.",
       "feature_1": {
         "title": "Ekstrak teks",
-        "content": "Ekstrak informasi tekstual dari berbagai format file"
+        "content": "Ekstrak informasi teks dari berbagai format file"
       },
       "feature_2": {
         "title": "Ekstrak gambar",
         "content": "Ambil konten visual dari berbagai sumber"
       },
       "feature_3": {
-        "title": "Parse data dengan template",
-        "content": "Buat template kustom dan gunakan untuk menguraikan informasi spesifik"
+        "title": "Urai data dengan templat",
+        "content": "Buat templat khusus dan gunakan untuk mengurai informasi spesifik"
       },
       "feature_4": {
-        "title": "Parse Formulir PDF",
-        "content": "Formulir PDF adalah dokumen digital yang memiliki bidang isian untuk interaksi pengguna"
+        "title": "Urai Formulir PDF",
+        "content": "Formulir PDF adalah dokumen digital dengan bidang yang dapat diisi untuk interaksi pengguna"
       }
     },
     "formats": {
-      "title": "Lebih dari 50 format file didukung",
-      "description": "{{ProdShortName}} memungkinkan operasi penguraian di berbagai keluarga format"
+      "title": "Dukungan lebih dari 50 format dokumen dan gambar",
+      "description": "SDK Pengurai Dokumen {{ProdShortName}} memungkinkan operasi penguraian pada dokumen Office, PDF, gambar, email, arsip, dan lainnya."
     },
     "code_samples": {
       "title": "Contoh kode",
-      "index_title": "Contoh kode {{ProdShortName}}",
-      "index_description": "Beberapa kasus penggunaan operasi {{ProdShortName}} yang khas dalam C# dan Java",
-      "more_examples": "Lebih banyak contoh",
+      "index_title": "{{ProdShortName}} contoh kode",
+      "index_description": "Beberapa contoh penggunaan operasi {{ProdShortName}} umum dalam C# dan Java dan Python",
+      "more_examples": "Contoh lainnya",
       "sample_index": {
         "title": "Cara mengekstrak teks dari dokumen PDF",
-        "content": "API {{ProdShortName}} memudahkan mengekstrak teks dari dokumen dengan menerapkan beberapa langkah.",
-        "comment_1": "Buat instance dari kelas {{textParser}} dengan file yang diinginkan",
+        "content": "API {{ProdShortName}} memudahkan mengekstrak teks dari dokumen dengan beberapa langkah.",
+        "comment_1": "Buat instance kelas {{textParser}} dengan memberikan file yang diinginkan",
         "comment_2": "Ekstrak teks",
         "comment_3": "Proses teks yang diekstrak"
       },
       "sample_1": {
-        "code_title": "Ekstrak gambar dari dokumen PDF di {{ProgLang}}",
-        "comment_1": "Buat instance dari kelas {{textParser}}",
+        "code_title": "Ekstrak gambar dari dokumen PDF dalam {{ProgLang}}",
+        "comment_1": "Buat instance kelas {{textParser}}",
         "comment_2": "Ekstrak gambar",
-        "comment_3": "Periksa apakah ada yang diekstrak",
-        "comment_4": "Iterasi melalui gambar",
-        "comment_5": "Cetak indeks halaman, kotak pembatas, dan jenis gambar"
+        "comment_3": "Periksa apakah sesuatu telah diekstrak",
+        "comment_4": "Iterasi gambar",
+        "comment_5": "Cetak indeks halaman, persegi panjang, dan tipe gambar"
       },
       "sample_2": {
-        "code_title": "Ekstrak kode batang dari gambar di {{ProgLang}}",
+        "code_title": "Ekstrak kode batang dari gambar dalam {{ProgLang}}",
         "comment_1": "Muat gambar sumber ke {{textParser}}",
         "comment_2": "Periksa apakah file mendukung ekstraksi kode batang",
         "comment_3": "Ekstrak kode batang dari file",
-        "comment_4": "Iterasi melalui kode batang",
+        "comment_4": "Iterasi kode batang",
         "comment_5": "Cetak indeks halaman",
         "comment_6": "Cetak nilai kode batang"
       }
     },
     "metrics": {
       "title": "Pencapaian {{ProdShortName}}",
-      "description": "Temukan Metrik Utama Pencapaian Perpustakaan Kami",
+      "description": "Temukan metrik kunci dari pencapaian perpustakaan kami",
       "item_1": {
         "title": "Format yang didukung",
         "description": "{{ProdShortName}} mendukung operasi dengan lebih dari 50 format file populer."
       },
       "item_2": {
         "title": "Unduhan NuGet",
-        "description": "Paket NuGet {{ProdShortName}} untuk .NET telah diunduh lebih dari 1.600.000 kali."
+        "description": "{{ProdShortName}} untuk paket NuGet .NET telah diunduh lebih dari 1,600,000 kali."
       },
       "item_3": {
         "title": "Unduhan Maven",
-        "description": "{{ProdShortName}} memiliki 18.000 unduhan di Maven. Fitur Penguraian Java yang Kuat."
+        "description": "{{ProdShortName}} memiliki 18,000 unduhan di Maven. Fitur Parsing Java yang kuat."
       },
       "item_4": {
-        "title": "Pelanggan yang puas",
-        "description": "Perusahaan terkenal dan pengembang individu memilih produk {{NameCompany}} untuk membangun solusi inovatif."
+        "title": "Pelanggan puas",
+        "description": "Perusahaan ternama maupun pengembang individual memilih produk {{NameCompany}} untuk membangun solusi inovatif."
       }
     },
     "customers": {
       "title": "Pelanggan kami yang puas",
-      "description": "Perpustakaan {{NameCompany}} digunakan oleh merek ternama di seluruh dunia."
+      "description": "Pustaka {{NameCompany}} digunakan oleh merek-merek terkenal dan terhormat di seluruh dunia."
     },
     "actions": {
       "alt": "Lisensi",
-      "title": "Siap untuk memulai?",
+      "title": "Siap memulai?",
       "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
       "description_index": "Coba fitur {{ProdShortName}} secara gratis di platform Anda"
     },
     "faq": {
-      "title": "Pertanyaan yang sering diajukan",
-      "description": "Jawaban untuk pertanyaan yang paling umum diajukan.",
+      "title": "Pertanyaan yang Sering Diajukan",
+      "description": "Jawaban atas pertanyaan yang paling sering diajukan.",
       "item_1": {
-        "question": "Apakah perpustakaan {{ProdShortName}} memerlukan perangkat lunak pihak ketiga lainnya untuk memanipulasi dokumen?",
-        "answer": "{{ProdShortName}} tidak memerlukan perangkat lunak eksternal yang harus diinstal seperti Adobe Acrobat, Microsoft Office, atau lainnya."
+        "question": "Apakah pustaka {{ProdShortName}} memerlukan perangkat lunak pihak ketiga lainnya untuk memanipulasi dokumen?",
+        "answer": "{{ProdShortName}} tidak memerlukan perangkat lunak eksternal apa pun untuk diinstal, seperti Adobe Acrobat, Microsoft Office, atau yang lainnya."
       },
       "item_2": {
-        "question": "Dapatkah saya mencoba perpustakaan {{ProdShortName}} sebelum membelinya?",
-        "answer": "Ya, Anda dapat mencoba {{ProdShortName}} tanpa membeli lisensi. Setelah diinstal tanpa lisensi, perpustakaan berfungsi dalam mode percobaan. Dalam mode ini, label percobaan ditambahkan ke dokumen yang dihasilkan, dan dibatasi hingga 3 halaman pertama. Jika Anda ingin menguji GroupDocs.Parser tanpa batasan versi percobaan, Anda juga dapat meminta lisensi sementara 30 hari. Untuk detail lebih lanjut, [lihat]({{LicensingUrl}})."
+        "question": "Bisakah saya mencoba pustaka {{ProdShortName}} sebelum membeli?",
+        "answer": "Ya, Anda dapat mencoba {{ProdShortName}} tanpa membeli lisensi. Setelah diinstal tanpa lisensi, pustaka beroperasi dalam mode percobaan. Dalam mode ini, badge percobaan ditambahkan ke dokumen hasil, dan dokumen dipangkas menjadi 3 halaman pertama. Jika Anda ingin menguji GroupDocs.Parser tanpa batasan versi percobaan, Anda juga dapat meminta lisensi sementara selama 30 hari. Untuk detail lebih lanjut, [lihat]({{LicensingUrl}})."
       },
       "item_3": {
-        "question": "Lisensi apa yang Anda miliki?",
-        "answer": "Kami menawarkan beberapa jenis lisensi untuk memenuhi kebutuhan pengembang atau perusahaan tertentu. Jenis lisensi tergantung pada jumlah pengembang, jumlah lokasi situs pengembang, dan apakah Anda perlu menyampaikan SDK/API kami kepada pelanggan akhir Anda. Sebagai alternatif, Anda dapat memilih lisensi Terukur berdasarkan penggunaan bulanan produk. Pelajari lebih lanjut [di sini]({{PricingUrl}})."
+        "question": "Lisensi apa yang tersedia?",
+        "answer": "Kami menawarkan beberapa jenis lisensi untuk memenuhi kebutuhan pengembang atau perusahaan tertentu. Jenis lisensi bergantung pada jumlah pengembang, jumlah lokasi situs pengembang, dan apakah Anda perlu menyediakan SDK/API kami kepada pelanggan akhir Anda. Sebagai alternatif, Anda dapat memilih lisensi Metered berdasarkan penggunaan bulanan produk. Pelajari lebih lanjut [di sini]({{PricingUrl}})."
       }
     },
     "cloud_links": {
-      "title": "{{ProdShortName}} API dengan kode rendah",
-      "description": "Gabungkan kemampuan penguraian dokumen ke dalam aplikasi mana pun menggunakan API REST berbasis cloud kami.",
+      "title": "{{ProdShortName}} API Parser Dokumen low‑code",
+      "description": "Integrasikan kemampuan parsing dokumen ke dalam aplikasi apa pun menggunakan REST API dan SDK berbasis cloud kami.",
       "item_1": {
-        "content": "Perintah cURL untuk Cloud API penguraian dokumen REST untuk menguraikan dokumen dari berbagai format file populer yang didukung."
+        "content": "Perintah cURL untuk Cloud API parser dokumen RESTful guna memparsing dokumen di berbagai format file populer yang didukung."
       },
       "item_2": {
-        "content": "Ekstrak gambar, teks, informasi dokumen, atau bahkan menguraikan dokumen apa pun dengan template yang ditentukan pengguna dalam aplikasi Microsoft .NET Anda."
+        "content": "Ekstrak gambar, teks, informasi dokumen, atau bahkan memparsing dokumen apa pun dengan templat yang didefinisikan pengguna dalam aplikasi Microsoft .NET Anda."
       },
       "item_3": {
-        "content": "SDK Cloud untuk pengembang Java untuk menguraikan dokumen, mengekstrak informasi dokumen, dan data dalam aplikasi berbasis Java."
+        "content": "SDK Cloud untuk pengembang Java guna memparsing dokumen, mengekstrak informasi dokumen, dan data dalam aplikasi berbasis Java."
       }
     },
     "app_links": {
-      "title": "{{ProdShortName}} Aplikasi Tanpa Kode",
-      "description": "Aplikasi berbasis web yang memungkinkan Anda untuk melakukan penguraian di lebih dari 50 format file populer langsung di browser Anda.",
+      "title": "{{ProdShortName}} Aplikasi Parser Dokumen Tanpa Kode",
+      "description": "Aplikasi parser dokumen berbasis web yang memungkinkan Anda mengekstrak data dari lebih dari 50 format file populer langsung di peramban Anda.",
       "item_1": {
-        "content": "Aplikasi online gratis untuk menguraikan Word, Excel, PowerPoint, PDF & lebih dari 50 jenis dokumen lainnya."
+        "content": "Aplikasi online gratis untuk memparsing Word, Excel, PowerPoint, PDF, & lebih dari 50 tipe dokumen lainnya."
       },
       "item_2": {
-        "content": "Uraikan dokumen Word langsung dari browser Anda untuk mengekstrak gambar, teks, atau metadata."
+        "content": "Memparsing dokumen Word langsung dari peramban web Anda untuk mengekstrak gambar, teks, atau metadata."
       },
       "item_3": {
-        "content": "Aplikasi penguraian PDF gratis yang berfungsi di platform atau perangkat mana pun tanpa batasan."
+        "content": "Aplikasi parsing PDF gratis yang bekerja di platform atau perangkat apa pun tanpa batasan."
       }
     },
     "formats_groups": {
       "title_1": "Format Microsoft Office",
-      "title_2": "Gambar & Format Lainnya",
-      "title_3": "Format Lainnya",
-      "format_portable": "Portabel",
+      "title_2": "Gambar & Format Lain",
+      "title_3": "Format lain",
+      "format_portable": "Portable",
       "format_images": "Gambar",
-      "format_other_office": "Format kantor lainnya",
+      "format_other_office": "Format Office lainnya",
       "format_other_web": "Web",
       "format_other_archives": "Arsip",
       "format_other_ebooks": "e-Book"
     }
   },
   "index-content-net": {
-    "head_title": "Aplikasi Penguraian Dokumen {{ProdFullName}}",
-    "head_description": "Dapatkan solusi penguraian dokumen serba ada untuk aplikasi {{EnvNameShort}}. Ekstrak data dari format dokumen secara online menggunakan fitur drag and drop sederhana.",
-    "title": "Uraikan dokumen melalui API {{EnvNameShort}}",
-    "description": "Ekstrak data dari dokumen dan gambar di mana saja menggunakan API yang fleksibel dan solusi berbasis aplikasi kami untuk programmer dan pengguna akhir.",
-    "actions_main": "Unduh {{PackageStoreName}}",
-    "code_title": "Dengan Cepat Uraikan Konten Dokumen",
-    "code_comment_1": "Kirim file sumber ke instance {{textParser}}",
-    "code_comment_2": "Kirim teks dokumen ke {{textReader}}",
+    "head_title": "{{ProdFullName}} SDK Parser Dokumen untuk {{EnvNameShort}}",
+    "head_description": "SDK Parser Dokumen berkinerja tinggi untuk {{EnvNameShort}}. Ekstrak teks, gambar, metadata, kode batang, tabel, dan data lainnya dari PDF, Word, Excel, email, dan lebih dari 50 format dokumen.",
+    "title": "SDK Parser Dokumen untuk {{EnvNameShort}}",
+    "description": "Tambahkan parsing dokumen yang cepat dan akurat ke aplikasi {{EnvNameShort}} Anda dan ekstrak teks, gambar, metadata, serta data terstruktur dari dokumen dan gambar.",
+    "actions_main": "{{PackageStoreName}} Unduh",
+    "code_title": "Parse Konten Dokumen dengan Cepat menggunakan SDK",
+    "code_comment_1": "Berikan file sumber ke instance {{textParser}}",
+    "code_comment_2": "Berikan teks dokumen ke {{textReader}}",
     "code_comment_3": "Proses teks dokumen",
-    "overview_description": "API untuk melakukan penguraian dokumen dalam aplikasi {{EnvNameShort}}",
+    "overview_description": "SDK Parser Dokumen untuk melakukan parsing dokumen dengan akurasi tinggi pada aplikasi {{EnvNameShort}}",
     "overview_feature_1": {
       "title": "Ekstrak data dari dokumen",
-      "description": "{{ProdFullName}} API memungkinkan Anda untuk mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat yang kuat ini membantu Anda dengan efisien mengakses dan memproses informasi berharga yang terkandung dalam file ini untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
+      "description": "{{ProdFullName}} API memungkinkan Anda mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat kuat ini membantu Anda mengakses dan memproses informasi berharga yang terdapat dalam file tersebut secara efisien untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
     },
     "overview_feature_2": {
-      "title": "Uraikan dokumen",
-      "description": "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, kode batang dan data dari formulir PDF. Juga uraikan informasi yang diinginkan dari dokumen menggunakan template kustom."
+      "title": "Parse dokumen",
+      "description": "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, kode batang, dan data dari formulir PDF. Juga parse informasi apa pun yang diinginkan dari dokumen menggunakan templat khusus."
     },
     "overview_feature_3": {
-      "title": "Kustomisasi hasil",
-      "description": "{{EnvNameShort}} API memungkinkan Anda untuk mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Markdown. Selain itu, API menawarkan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
+      "title": "Menyesuaikan hasil",
+      "description": "{{EnvNameShort}} API memungkinkan Anda mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Markdown. Selain itu, API menyediakan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
     },
     "features": {
       "title": "Fitur {{ProdFullName}}",
-      "description": "Ekstrak data dari PDF, Dokumen Office, dan Gambar dengan cepat dan akurat",
+      "description": "Ekstrak data dari PDF, dokumen Office, gambar, dan format lainnya dengan cepat dan akurat menggunakan SDK Parser Dokumen {{EnvNameShort}} kami",
       "feature_1": {
         "title": "Ekstrak teks",
-        "content": "Ekstrak informasi tekstual dari berbagai format file seperti dokumen office, file PDF, dan gambar untuk keterbacaan dan analisis yang mudah."
+        "content": "Ekstrak informasi teks dari berbagai format file seperti dokumen Office, file PDF, dan gambar untuk memudahkan pembacaan dan analisis."
       },
       "feature_2": {
         "title": "Ekstrak gambar",
-        "content": "Dapatkan konten visual dari berbagai sumber seperti dokumen office, file PDF untuk akses dan penggunaan yang nyaman."
+        "content": "Ambil konten visual dari berbagai sumber seperti dokumen Office, file PDF untuk akses dan penggunaan yang mudah."
       },
       "feature_3": {
         "title": "Pindai Kode QR",
-        "content": "Deteksi dan dekode kode QR yang terdapat dalam dokumen kantor, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
+        "content": "Deteksi dan dekode kode QR yang terdapat dalam dokumen Office, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
       },
       "feature_4": {
         "title": "Ekstrak data dari lampiran email dan arsip",
@@ -202,70 +202,70 @@
       },
       "feature_5": {
         "title": "Ekstrak tabel",
-        "content": "Identifikasi dan ekstrak data tabel dari dokumen PDF untuk analisis dan penggunaan yang terorganisir."
+        "content": "Identifikasi dan ekstrak data tabular dari dokumen PDF untuk analisis dan penggunaan yang terstruktur."
       },
       "feature_6": {
         "title": "Ekstrak hyperlink",
-        "content": "Temukan dan ekstrak hyperlink serta alamat email dalam dokumen office atau file PDF untuk akses yang efisien."
+        "content": "Temukan dan ekstrak hyperlink serta alamat email dalam dokumen Office atau file PDF untuk akses yang efisien."
       },
       "feature_7": {
-        "title": "Parse Formulir PDF",
-        "content": "Formulir PDF adalah dokumen digital yang memiliki bidang isian untuk interaksi pengguna, memungkinkan mereka untuk memasukkan informasi secara elektronik. API .NET dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
+        "title": "Mengurai Formulir PDF",
+        "content": "Formulir PDF adalah dokumen digital dengan bidang yang dapat diisi untuk interaksi pengguna, memungkinkan mereka memasukkan informasi secara elektronik. API .NET dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
       },
       "feature_8": {
-        "title": "Parse data dengan template",
-        "content": "Buat template kustom dan gunakan dengan API .NET untuk menguraikan informasi spesifik dari file PDF, menyederhanakan proses ekstraksi data."
+        "title": "Mengurai data dengan templat",
+        "content": "Buat templat khusus dan gunakan bersama API .NET untuk mengurai informasi spesifik dari file PDF, menyederhanakan proses ekstraksi data."
       },
       "feature_9": {
         "title": "Cari teks dalam dokumen",
-        "content": "Dengan cepat locasikan kata atau pola tertentu dalam dokumen."
+        "content": "Temukan dengan cepat kata atau pola tertentu dalam dokumen."
       }
     },
-    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, framework dan pengelola paket berikut.",
+    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
     "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file]({{SupportedFormatsUrl}}) berikut.",
-    "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} yang khas",
+    "code_samples_description": "Beberapa contoh penggunaan operasi {{ProdFullName}} yang umum",
     "code_title_sample_1": "Ekstrak gambar dari dokumen PDF",
     "code_samples_sample_1_content": "{{ProdFullName}} memudahkan pengembang {{ProgLang}} untuk mengekstrak gambar dari [dokumen]({{Sample1Url}}):",
     "code_title_sample_2": "Ekstrak kode batang dari gambar",
     "code_samples_sample_2_content": "Gunakan API {{EnvNameShort}} kami untuk mengekstrak [kode batang]({{Sample2Url}}) dari gambar:"
   },
   "index-content-java": {
-    "head_title": "Aplikasi Penguraian Dokumen {{ProdFullName}}",
-    "head_description": "Dapatkan solusi penguraian dokumen serba ada untuk aplikasi {{EnvNameShort}}. Ekstrak data dari format dokumen secara online menggunakan fitur drag and drop sederhana.",
-    "title": "Uraikan dokumen melalui API {{EnvNameShort}}",
-    "description": "Ekstrak data dari dokumen dan gambar di mana saja menggunakan API yang fleksibel dan solusi berbasis aplikasi kami untuk programmer dan pengguna akhir.",
-    "actions_main": "Unduh {{PackageStoreName}}",
-    "code_title": "Dengan Cepat Dapatkan Konten Dokumen",
-    "code_comment_1": "Kirim file sumber ke instance {{textParser}}",
-    "code_comment_2": "Kirim teks dokumen ke {{textReader}}",
+    "head_title": "{{ProdFullName}} Document Parser SDK untuk {{EnvNameShort}}",
+    "head_description": "SDK Document Parser berperforma tinggi untuk {{EnvNameShort}}. Ekstrak teks, gambar, metadata, kode batang, tabel, dan data lainnya dari PDF, Word, Excel, email, dan lebih dari 50 format dokumen.",
+    "title": "Document Parser SDK untuk {{EnvNameShort}}",
+    "description": "Tambahkan parsing dokumen yang cepat dan akurat ke aplikasi {{EnvNameShort}} Anda serta ekstrak teks, gambar, metadata, dan data terstruktur dari dokumen dan gambar.",
+    "actions_main": "{{PackageStoreName}} Unduh",
+    "code_title": "Segera Parse Konten Dokumen dengan SDK",
+    "code_comment_1": "Berikan file sumber ke instance {{textParser}}",
+    "code_comment_2": "Berikan teks dokumen ke {{textReader}}",
     "code_comment_3": "Proses teks dokumen",
-    "overview_description": "API untuk melakukan penguraian dokumen dalam aplikasi {{EnvNameShort}}",
+    "overview_description": "Document Parser SDK untuk melakukan parsing dokumen dengan akurasi tinggi pada aplikasi {{EnvNameShort}}",
     "overview_feature_1": {
       "title": "Ekstrak data dari dokumen",
-      "description": "{{ProdFullName}} API memungkinkan Anda untuk mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat yang kuat ini membantu Anda dengan efisien mengakses dan memproses informasi berharga yang terkandung dalam file ini untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
+      "description": "{{ProdFullName}} API memungkinkan Anda mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat yang kuat ini membantu Anda mengakses dan memproses informasi berharga yang terdapat dalam file-file tersebut secara efisien untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
     },
     "overview_feature_2": {
-      "title": "Uraikan dokumen",
-      "description": "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, kode batang dan data dari formulir PDF. Juga uraikan informasi yang diinginkan dari dokumen menggunakan template kustom."
+      "title": "Menganalisis dokumen",
+      "description": "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, barcode, dan data dari formulir PDF. Juga mengurai informasi apa pun yang diinginkan dari dokumen menggunakan templat khusus."
     },
     "overview_feature_3": {
-      "title": "Kustomisasi hasil",
-      "description": "{{EnvNameShort}} API memungkinkan Anda untuk mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Markdown. Selain itu, API menawarkan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
+      "title": "Menyesuaikan hasil",
+      "description": "{{EnvNameShort}} API memungkinkan Anda mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Markdown. Selain itu, API menyediakan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
     },
     "features": {
       "title": "Fitur {{ProdFullName}}",
-      "description": "Ekstrak data dari PDF, Dokumen Office, dan Gambar dengan cepat dan akurat",
+      "description": "Ekstrak data dari PDF, dokumen Office, gambar, dan format lain secara cepat dan akurat dengan {{EnvNameShort}} Document Parser SDK kami.",
       "feature_1": {
         "title": "Ekstrak teks",
-        "content": "Ekstrak informasi tekstual dari berbagai format file seperti dokumen office, file PDF, dan gambar untuk keterbacaan dan analisis yang mudah."
+        "content": "Ekstrak informasi tekstual dari berbagai format file seperti dokumen Office, file PDF, dan gambar untuk kemudahan pembacaan dan analisis."
       },
       "feature_2": {
         "title": "Ekstrak gambar",
-        "content": "Dapatkan konten visual dari berbagai sumber seperti dokumen office, file PDF untuk akses dan penggunaan yang nyaman."
+        "content": "Ambil konten visual dari beragam sumber seperti dokumen Office, file PDF untuk akses dan penggunaan yang mudah."
       },
       "feature_3": {
         "title": "Pindai Kode QR",
-        "content": "Deteksi dan dekode kode QR yang terdapat dalam dokumen kantor, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
+        "content": "Deteksi dan dekode kode QR yang terdapat dalam dokumen Office, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
       },
       "feature_4": {
         "title": "Ekstrak data dari lampiran email dan arsip",
@@ -277,27 +277,118 @@
       },
       "feature_6": {
         "title": "Ekstrak hyperlink",
-        "content": "Temukan dan ekstrak hyperlink serta alamat email dalam dokumen office atau file PDF untuk akses yang efisien."
+        "content": "Temukan dan ekstrak hyperlink serta alamat email dalam dokumen Office atau file PDF untuk akses yang efisien."
       },
       "feature_7": {
-        "title": "Parse Formulir PDF",
-        "content": "Formulir PDF adalah dokumen digital yang memiliki bidang isian untuk interaksi pengguna, memungkinkan mereka untuk memasukkan informasi secara elektronik. API .NET dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
+        "title": "Mengurai Formulir PDF",
+        "content": "Formulir PDF adalah dokumen digital dengan bidang yang dapat diisi untuk interaksi pengguna, memungkinkan mereka memasukkan informasi secara elektronik. API .NET dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
       },
       "feature_8": {
-        "title": "Parse data dengan template",
-        "content": "Buat template kustom dan gunakan dengan API .NET untuk menguraikan informasi spesifik dari file PDF, menyederhanakan proses ekstraksi data."
+        "title": "Mengurai data dengan templat",
+        "content": "Buat templat khusus dan gunakan dengan API .NET untuk mengurai informasi spesifik dari file PDF, menyederhanakan proses ekstraksi data."
       },
       "feature_9": {
         "title": "Cari teks dalam dokumen",
-        "content": "Dengan cepat locasikan kata atau pola tertentu dalam dokumen."
+        "content": "Dengan cepat temukan kata atau pola spesifik dalam dokumen."
       }
     },
-    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, framework dan pengelola paket berikut.",
+    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
     "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file]({{SupportedFormatsUrl}}) berikut.",
-    "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} yang khas",
+    "code_samples_description": "Beberapa contoh penggunaan operasi {{ProdFullName}} yang umum",
     "code_title_sample_1": "Ekstrak gambar dari dokumen PDF",
     "code_samples_sample_1_content": "{{ProdFullName}} memudahkan pengembang {{ProgLang}} untuk mengekstrak gambar dari [dokumen]({{Sample1Url}}):",
-    "code_title_sample_2": "Ekstrak kode batang dari gambar",
-    "code_samples_sample_2_content": "Gunakan API {{EnvNameShort}} kami untuk mengekstrak [kode batang]({{Sample2Url}}) dari gambar:"
+    "code_title_sample_2": "Ekstrak barcode dari gambar",
+    "code_samples_sample_2_content": "Gunakan API {{EnvNameShort}} kami untuk mengekstrak [barcode]({{Sample2Url}}) dari gambar:"
+  },
+  "index-content-python-net": {
+    "head_title": "{{ProdFullName}} Document Parser SDK untuk {{EnvNameShort}}",
+    "head_description": "SDK Document Parser berkinerja tinggi untuk {{EnvNameShort}}. Ekstrak teks, gambar, metadata, barcode, tabel, dan data lain dari PDF, Word, Excel, email, dan lebih dari 50 format dokumen.",
+    "title": "SDK Document Parser untuk {{EnvNameShort}}",
+    "description": "Tambahkan parsing dokumen yang cepat dan akurat ke aplikasi {{EnvNameShort}} Anda serta ekstrak teks, gambar, metadata, dan data terstruktur dari dokumen dan gambar.",
+    "actions_main": "{{PackageStoreName}} Unduh",
+    "code_title": "Ekstrak teks menggunakan Python",
+    "code_comment_1": "Muat dokumen",
+    "code_comment_2": "Ekstrak teks dari dokumen",
+    "code_comment_3": "Cetak semua teks yang diekstrak",
+    "overview_description": "SDK Document Parser untuk melakukan parsing dokumen dengan akurasi tinggi dalam aplikasi {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Ekstrak data dari dokumen",
+      "description": "API {{ProdFullName}} memungkinkan Anda mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat yang kuat ini membantu Anda mengakses dan memproses informasi berharga yang terdapat dalam file-file tersebut secara efisien untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
+    },
+    "overview_feature_2": {
+      "title": "Parse dokumen",
+      "description": "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, barcode, dan data dari formulir PDF. Juga uraikan informasi apa pun yang diinginkan dari dokumen menggunakan templat khusus."
+    },
+    "overview_feature_3": {
+      "title": "Menyesuaikan hasil",
+      "description": "API {{EnvNameShort}} memungkinkan Anda mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Markdown. Selain itu, API menyediakan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
+    },
+    "features": {
+      "title": "Fitur {{ProdFullName}}",
+      "description": "Ekstrak data dari PDF, dokumen Office, gambar, dan format lain dengan cepat dan akurat menggunakan {{EnvNameShort}} Document Parser SDK kami",
+      "feature_1": {
+        "title": "Ekstrak teks",
+        "content": "Ekstrak informasi teks dari berbagai format file seperti dokumen office, file PDF, dan gambar untuk kemudahan membaca dan analisis."
+      },
+      "feature_2": {
+        "title": "Ekstrak gambar",
+        "content": "Ambil konten visual dari berbagai sumber seperti dokumen office, file PDF untuk akses dan penggunaan yang mudah."
+      },
+      "feature_3": {
+        "title": "Pindai Kode QR",
+        "content": "Deteksi dan dekode kode QR yang terdapat dalam dokumen office, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
+      },
+      "feature_4": {
+        "title": "Ekstrak data dari lampiran email dan arsip",
+        "content": "Kumpulkan informasi berharga dari pesan email, lampiran file, dan sumber data terkompresi untuk analisis dan pemanfaatan yang efektif."
+      },
+      "feature_5": {
+        "title": "Ekstrak tabel",
+        "content": "Identifikasi dan ekstrak data tabel dari dokumen PDF untuk analisis dan penggunaan yang terstruktur."
+      },
+      "feature_6": {
+        "title": "Ekstrak hyperlink",
+        "content": "Temukan dan ekstrak tautan hiperteks serta alamat email dalam dokumen office atau file PDF untuk akses yang efisien."
+      },
+      "feature_7": {
+        "title": "Mengurai Formulir PDF",
+        "content": "{{EnvNameShort}} API dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
+      },
+      "feature_8": {
+        "title": "Mengurai data dengan templat",
+        "content": "Buat templat khusus dan gunakan dengan {{EnvNameShort}} API untuk mengurai informasi spesifik dari file PDF, menyederhanakan proses ekstraksi data."
+      },
+      "feature_9": {
+        "title": "Cari teks dalam dokumen",
+        "content": "Dengan cepat temukan kata atau pola spesifik dalam dokumen."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
+    "formats_description": "{{ProdFullName}} mendukung operasi dengan [format file]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Selain ekstraksi teks dasar, berikut adalah contoh penggunaan paling umum untuk ekstraksi cepat teks, gambar, dan metadata.",
+    "code_sample_1_title": "Cari Teks dalam Dokumen",
+    "code_sample_1_content": "Contoh ini menunjukkan cara mencari frasa spesifik dalam dokumen PDF dan mencetak lokasi temuan.",
+    "code_sample_1": {
+      "title": "Cari Teks dalam Dokumen dengan Python",
+      "comment_1": "Muat dokumen",
+      "comment_2": "Cari frasa spesifik dalam dokumen",
+      "comment_3": "Cetak indeks halaman dan persegi panjang tempat frasa ditemukan"
+    },
+    "code_sample_2_title": "Ekstrak Gambar dari Dokumen",
+    "code_sample_2_content": "Contoh ini menunjukkan cara mengekstrak gambar dari dokumen PDF dan menyimpannya ke file.",
+    "code_sample_2": {
+      "title": "Ekstrak Gambar dari Dokumen dengan Python",
+      "comment_1": "Muat dokumen",
+      "comment_2": "Ekstrak gambar dari dokumen",
+      "comment_3": "Simpan gambar ke file"
+    },
+    "code_sample_3_title": "Ekstrak Metadata dari Dokumen",
+    "code_sample_3_content": "Contoh ini menunjukkan cara mengekstrak metadata dari dokumen PDF dan menampilkannya.",
+    "code_sample_3": {
+      "title": "Ekstrak Metadata dari Dokumen dengan Python",
+      "comment_1": "Muat dokumen",
+      "comment_2": "Ekstrak metadata dari dokumen",
+      "comment_3": "Cetak metadata"
+    }
   }
 }

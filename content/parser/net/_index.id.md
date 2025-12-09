@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-06-30T10:26:00
+date: 2025-12-09T14:10:41
 draft: false
 
 lang: id
@@ -19,23 +19,26 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
-head_title: "Aplikasi Penguraian Dokumen GroupDocs.Parser for .NET"
-head_description: "Dapatkan solusi penguraian dokumen serba ada untuk aplikasi .NET. Ekstrak data dari format dokumen secara online menggunakan fitur drag and drop sederhana."
+head_title: "GroupDocs.Parser for .NET SDK Parser Dokumen untuk .NET"
+head_description: "SDK Parser Dokumen berkinerja tinggi untuk .NET. Ekstrak teks, gambar, metadata, kode batang, tabel, dan data lainnya dari PDF, Word, Excel, email, dan lebih dari 50 format dokumen."
 
 ############################# Header ############################
-title: "Uraikan dokumen melalui API .NET"
-description: "Ekstrak data dari dokumen dan gambar di mana saja menggunakan API yang fleksibel dan solusi berbasis aplikasi kami untuk programmer dan pengguna akhir."
+title: "SDK Parser Dokumen untuk .NET"
+description: "Tambahkan parsing dokumen yang cepat dan akurat ke aplikasi .NET Anda dan ekstrak teks, gambar, metadata, serta data terstruktur dari dokumen dan gambar."
 words:
   for: "untuk"
 
 actions:
-  main: "Unduh Nuget"
+  main: "Nuget Unduh"
   main_link: "https://www.nuget.org/packages/GroupDocs.Parser"
   alt: "Lisensi"
   alt_link: "https://purchase.groupdocs.com/pricing/parser/net/"
-  title: "Siap untuk memulai?"
+  title: "Siap memulai?"
   description: "Coba fitur GroupDocs.Parser secara gratis atau minta lisensi"
 
 release:
@@ -44,16 +47,16 @@ release:
   downloads: "Unduhan"
 
 code:
-  title: "Dengan Cepat Uraikan Konten Dokumen"
-  more: "Lebih banyak contoh"
+  title: "Parse Konten Dokumen dengan Cepat menggunakan SDK"
+  more: "Contoh lain"
   more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET/"
   install: "dotnet add package GroupDocs.Parser"
   content: |
     ```csharp {style=abap}   
-    // Kirim file sumber ke instance Parser
+    // Berikan file sumber ke instance Parser
     using (var parser = new Parser("source.pdf"))
     {
-        // Kirim teks dokumen ke TextReader
+        // Berikan teks dokumen ke TextReader
         using (var textReader = parser.GetText())
         {
             // Proses teks dokumen
@@ -66,25 +69,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Parser sekilas"
-  description: "API untuk melakukan penguraian dokumen dalam aplikasi .NET"
+  description: "SDK Parser Dokumen untuk melakukan parsing dokumen dengan akurasi tinggi pada aplikasi .NET"
   features:
     # feature loop
     - title: "Ekstrak data dari dokumen"
-      content: "GroupDocs.Parser for .NET API memungkinkan Anda untuk mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat yang kuat ini membantu Anda dengan efisien mengakses dan memproses informasi berharga yang terkandung dalam file ini untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
+      content: "GroupDocs.Parser for .NET API memungkinkan Anda mengambil teks, metadata, dan gambar dari berbagai format file seperti dokumen Office, email, lampiran, dan arsip. Alat kuat ini membantu Anda mengakses dan memproses informasi berharga yang terdapat dalam file tersebut secara efisien untuk berbagai aplikasi seperti analisis data, pengindeksan mesin pencari, atau sistem manajemen konten."
 
     # feature loop
-    - title: "Uraikan dokumen"
-      content: "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, kode batang dan data dari formulir PDF. Juga uraikan informasi yang diinginkan dari dokumen menggunakan template kustom."
+    - title: "Parse dokumen"
+      content: "Ekstrak berbagai elemen seperti hyperlink, tabel, kode QR, kode batang, dan data dari formulir PDF. Juga parse informasi apa pun yang diinginkan dari dokumen menggunakan templat khusus."
 
     # feature loop
-    - title: "Kustomisasi hasil"
-      content: ".NET API memungkinkan Anda untuk mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Markdown. Selain itu, API menawarkan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
+    - title: "Menyesuaikan hasil"
+      content: ".NET API memungkinkan Anda mengambil data dalam berbagai format seperti mentah, terstruktur, HTML, atau Markdown. Selain itu, API menyediakan fungsi pencarian untuk menemukan kata atau frasa tertentu dalam teks dokumen."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Independensi Platform"
-  description: "GroupDocs.Parser for .NET mendukung sistem operasi, framework dan pengelola paket berikut."
+  title: "Kemandirian Platform"
+  description: "GroupDocs.Parser for .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
   items:
     # platform loop
     - title: "Amazon"
@@ -128,14 +131,14 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### Gambar & Format Lainnya
-        * **Portabel:** PDF 
+        ### Gambar & Format Lain
+        * **Portable:** PDF 
         * **Gambar:** JPG, BMP, PNG, TIFF, GIF
-        * **Format kantor lainnya:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **Format Office lainnya:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### Format Lainnya
+        ### Format lain
         * **Web:** HTML, MHTML 
         * **Arsip:** ZIP, TAR, 7Z 
         * **e-Book:** CHM, EPUB, FB2, MOBI 
@@ -146,23 +149,23 @@ formats:
 features:
   enable: true
   title: "Fitur GroupDocs.Parser for .NET"
-  description: "Ekstrak data dari PDF, Dokumen Office, dan Gambar dengan cepat dan akurat"
+  description: "Ekstrak data dari PDF, dokumen Office, gambar, dan format lainnya dengan cepat dan akurat menggunakan SDK Parser Dokumen .NET kami"
 
   items:
     # feature loop
     - icon: "text"
       title: "Ekstrak teks"
-      content: "Ekstrak informasi tekstual dari berbagai format file seperti dokumen office, file PDF, dan gambar untuk keterbacaan dan analisis yang mudah."
+      content: "Ekstrak informasi teks dari berbagai format file seperti dokumen Office, file PDF, dan gambar untuk memudahkan pembacaan dan analisis."
 
     # feature loop
     - icon: "image"
       title: "Ekstrak gambar"
-      content: "Dapatkan konten visual dari berbagai sumber seperti dokumen office, file PDF untuk akses dan penggunaan yang nyaman."
+      content: "Ambil konten visual dari berbagai sumber seperti dokumen Office, file PDF untuk akses dan penggunaan yang mudah."
 
     # feature loop
     - icon: "qr"
       title: "Pindai Kode QR"
-      content: "Deteksi dan dekode kode QR yang terdapat dalam dokumen kantor, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
+      content: "Deteksi dan dekode kode QR yang terdapat dalam dokumen Office, file PDF, atau konten visual untuk pengambilan informasi yang efisien."
 
     # feature loop
     - icon: "email"
@@ -172,56 +175,56 @@ features:
     # feature loop
     - icon: "table"
       title: "Ekstrak tabel"
-      content: "Identifikasi dan ekstrak data tabel dari dokumen PDF untuk analisis dan penggunaan yang terorganisir."
+      content: "Identifikasi dan ekstrak data tabular dari dokumen PDF untuk analisis dan penggunaan yang terstruktur."
 
     # feature loop
     - icon: "hyperlink"
       title: "Ekstrak hyperlink"
-      content: "Temukan dan ekstrak hyperlink serta alamat email dalam dokumen office atau file PDF untuk akses yang efisien."
+      content: "Temukan dan ekstrak hyperlink serta alamat email dalam dokumen Office atau file PDF untuk akses yang efisien."
 
     # feature loop
     - icon: "pdf"
-      title: "Parse Formulir PDF"
-      content: "Formulir PDF adalah dokumen digital yang memiliki bidang isian untuk interaksi pengguna, memungkinkan mereka untuk memasukkan informasi secara elektronik. API .NET dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
+      title: "Mengurai Formulir PDF"
+      content: "Formulir PDF adalah dokumen digital dengan bidang yang dapat diisi untuk interaksi pengguna, memungkinkan mereka memasukkan informasi secara elektronik. API .NET dapat digunakan untuk mengekstrak data dari formulir ini untuk pemrosesan yang efisien."
 
     # feature loop
     - icon: "template"
-      title: "Parse data dengan template"
-      content: "Buat template kustom dan gunakan dengan API .NET untuk menguraikan informasi spesifik dari file PDF, menyederhanakan proses ekstraksi data."
+      title: "Mengurai data dengan templat"
+      content: "Buat templat khusus dan gunakan bersama API .NET untuk mengurai informasi spesifik dari file PDF, menyederhanakan proses ekstraksi data."
 
     # feature loop
     - icon: "search"
       title: "Cari teks dalam dokumen"
-      content: "Dengan cepat locasikan kata atau pola tertentu dalam dokumen."
+      content: "Temukan dengan cepat kata atau pola tertentu dalam dokumen."
 
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Contoh kode"
-  description: "Beberapa kasus penggunaan operasi GroupDocs.Parser for .NET yang khas"
+  description: "Beberapa contoh penggunaan operasi GroupDocs.Parser for .NET yang umum"
   items:
     # code sample loop
     - title: "Ekstrak gambar dari dokumen PDF"
       content: |
         GroupDocs.Parser for .NET memudahkan pengembang C# untuk mengekstrak gambar dari [dokumen](https://docs.groupdocs.com/parser/net/extract-images-from-documents/):
-        {{< landing/code title="Ekstrak gambar dari dokumen PDF di C#">}}
+        {{< landing/code title="Ekstrak gambar dari dokumen PDF dalam C#">}}
         ```csharp {style=abap}
-        // Buat instance dari kelas Parser
+        // Buat instance kelas Parser
         using (var parser = new Parser("source.pptx"))
         {
             // Ekstrak gambar
             var images = parser.GetImages();
 
-            // Periksa apakah ada yang diekstrak
+            // Periksa apakah sesuatu telah diekstrak
             if (images == null)
             {
                 return;
             }
-            // Iterasi melalui gambar
+            // Iterasi gambar
             foreach (PageImageArea image in images)
             {
-                // Cetak indeks halaman, kotak pembatas, dan jenis gambar
+                // Cetak indeks halaman, persegi panjang, dan tipe gambar
                 Console.WriteLine(string.Format("Page: {0}, R: {1}, Type: {2}", 
                     image.Page.Index, image.Rectangle, image.FileType));
             }
@@ -232,7 +235,7 @@ code_samples:
     - title: "Ekstrak kode batang dari gambar"
       content: |
         Gunakan API .NET kami untuk mengekstrak [kode batang](https://docs.groupdocs.com/parser/net/extract-barcodes-from-document/) dari gambar:
-        {{< landing/code title="Ekstrak kode batang dari gambar di C#">}}
+        {{< landing/code title="Ekstrak kode batang dari gambar dalam C#">}}
         ```csharp {style=abap}   
         // Muat gambar sumber ke Parser
         using (var parser = new Parser("source.jpg"))
@@ -243,7 +246,7 @@ code_samples:
                 // Ekstrak kode batang dari file
                 var barcodes = parser.GetBarcodes();
 
-                // Iterasi melalui kode batang
+                // Iterasi kode batang
                 foreach (var barcode in barcodes)
                 {
                     // Cetak indeks halaman

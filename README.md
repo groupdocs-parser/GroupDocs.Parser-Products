@@ -16,8 +16,20 @@ This repository contains templates, configs for GroupDocs.Parser product pages. 
 
 ## Running Hugo
 
-```bash
-cd <path-to-groupdocs-products>\groupdocs-products
+Make sure to checkout `common` submodule by running
 
-hugo server --config "./config-production.toml" --contentDir <path-to-this-repo>\generated --disableFastRender
+```bash
+git submodule update --init --recursive
+```
+
+Navigate to the `common` directory
+
+```bash
+cd common
+```
+
+Run Hugo
+
+```bash
+hugo server --config "./config-production.toml" --contentDir ../content --disableFastRender
 ```

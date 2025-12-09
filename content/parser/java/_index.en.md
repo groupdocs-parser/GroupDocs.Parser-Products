@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-06-30T10:26:00
+date: 2025-12-09T14:10:41
 draft: false
 
 lang: en
@@ -19,14 +19,17 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
-head_title: "GroupDocs.Parser for Java Document Parsing Apps"
-head_description: "Get all-in-one document parsing solution for Java applications. Extract data from document formats online using simple drag and drop feature"
+head_title: "GroupDocs.Parser for Java Document Parser SDK for Java"
+head_description: "High-performance Document Parser SDK for Java. Extract text, images, metadata, barcodes, tables and other data from PDF, Word, Excel, emails and 50+ document formats."
 
 ############################# Header ############################
-title: "Parse documents via Java API"
-description: "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
+title: "Document Parser SDK for Java"
+description: "Add fast, accurate document parsing to your Java apps and extract text, images, metadata and structured data from documents and images."
 words:
   for: "for"
 
@@ -44,7 +47,7 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Quickly Get Document Content"
+  title: "Quickly Parse Document Content with the SDK"
   more: "More examples"
   more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Java/"
   install: |
@@ -73,7 +76,7 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Parser at a glance"
-  description: "API for performing document parsing in Java applications"
+  description: "Document Parser SDK for performing high‑accuracy document parsing in Java applications"
   features:
     # feature loop
     - title: "Extract data from documents"
@@ -153,7 +156,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Parser for Java features"
-  description: "Extract data from PDFs, Office Documents, and Images swiftly and accurately"
+  description: "Extract data from PDFs, Office documents, images and other formats swiftly and accurately with our Java Document Parser SDK"
 
   items:
     # feature loop

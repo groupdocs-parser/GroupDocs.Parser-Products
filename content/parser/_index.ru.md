@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T14:38:23
+date:  2025-12-09T14:52:35
 draft: false
 
 product: "Parser"
@@ -10,30 +10,30 @@ product_tag: "parser"
 lang: ru
 
 ############################# Head ############################
-head_title: "Приложения для парсинга документов .NET, Java, Cloud APIs и онлайн"
-head_description: "Получите универсальное решение для парсинга документов для приложений на .NET, Java и облачных приложений. Извлекайте данные из форматов документов онлайн с помощью простого функционала перетаскивания."
+head_title: "SDK для парсинга документов PDF, Word и Excel | GroupDocs"
+head_description: "SDK для парсинга документов, позволяющий извлекать текст, изображения, метаданные, штрихкоды и таблицы из PDF, Word, Excel, электронных писем и более чем 50 других форматов документов для приложений на .NET, Java и Python."
 
 ############################# Header ############################
-title: "Решение для парсинга документов"
+title: "SDK парсинга документов"
 description:  |
-  Надежный API для извлечения данных из различных форматов файлов.
+  Удобный для разработчиков SDK парсинга документов для извлечения текста, изображений, штрихкодов, метаданных и таблиц из более чем 50 форматов документов и изображений.
 
-  Парсите документы с минимальными усилиями в кодировании.
+  Интегрируйте высокопроизводительный парсинг документов в свои приложения на .NET, Java и Python с минимальными усилиями по написанию кода.
 
-  Настраивайте результаты парсинга.
+  Используйте гибкие шаблоны и расширенные API для настройки правил парсинга и получения чистых, структурированных данных.
 
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
-  head_title: "Выберите свою платформу"
-  title: "Независимость платформы"
+  head_title: "Выберите платформу"
+  title: "Независимость от платформы"
   description: "Библиотека GroupDocs.Parser поддерживает следующие операционные системы и фреймворки:"
   details_link_title: "Узнать больше"
 
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Parser .NET 
+      description: GroupDocs.Parser for .NET 
       color: "blue"
       tag: "net"
       link: "/parser/net/"
@@ -62,7 +62,7 @@ supported_platforms:
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Parser Java
+      description: GroupDocs.Parser for Java
       color: "red"
       tag: "java"
       link: "/parser/java/"
@@ -88,11 +88,40 @@ supported_platforms:
             content: |
                     50+ file formats
 
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Parser for Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/parser/python-net/"
+      features_link: "https://docs.groupdocs.com/parser/python-net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.5+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> macOS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    PyCharm, VS Code, Jupyter Notebook
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats                    
+
 ############################# Features ###############################
 features:
   enable: true
-  title: "GroupDocs.Parser в кратком изложении"
-  description: "API для парсинга данных из PDF, Word, Excel и других форматов"
+  title: "GroupDocs.Parser в двух словах"
+  description: "Мощный SDK парсинга документов для извлечения структурированных и неструктурированных данных из PDF, офисных документов, изображений, электронных писем и архивов."
 
   items:
     # items loop
@@ -108,104 +137,112 @@ features:
     # items loop
     - icon: "template"
       title: "Парсинг данных по шаблонам"
-      content: "Создание пользовательских шаблонов и их использование для парсинга конкретной информации"
+      content: "Создавайте пользовательские шаблоны и используйте их для парсинга конкретной информации"
 
     # items loop
     - icon: "pdf"
-      title: "Парсинг PDF-форм"
-      content: "PDF-формы - это цифровые документы с заполняемыми полями для взаимодействия с пользователем"
+      title: "Парсинг PDF‑форм"
+      content: "PDF‑формы — это цифровые документы с заполняемыми полями для взаимодействия пользователя"
 
 ############################# Code Samples ###############################
 code_samples:
   enable: true
-  title: "Примеры кода GroupDocs.Parser"
-  description: "Некоторые случаи использования типичных операций GroupDocs.Parser на C# и Java"
+  title: "GroupDocs.Parser примеры кода"
+  description: "Некоторые примеры типовых операций GroupDocs.Parser на C#, Java и Python"
 
   items:
     # items loop
-    - title: "Как извлечь текст из PDF-документов"
-      content: "API GroupDocs.Parser позволяет извлекать текст из документов, выполнив несколько шагов."
+    - title: "Как извлечь текст из PDF‑документов"
+      content: "GroupDocs.Parser API упрощает извлечение текста из документов, выполнив несколько шагов."
       samples:
           # samples loop
           - language: "C#"
             color: "blue"
             content: |
-                    <code class="language-csharp" data-lang="csharp">
-
-                        // Создайте экземпляр класса Parser, передав нужный файл
-                        using (var parser = new Parser("source.pdf"))
-                        {
-                            // Извлеките текст
-                            using (var textReader = parser.GetText())
-                            {
-                                // Обработайте извлеченный текст
-                                Console.WriteLine(textReader?.ReadToEnd());
-                            }
-                        }     
-                        
-                    </code>
-
+              ```csharp {style=abap}  
+                // Создайте экземпляр класса Parser, передав нужный файл
+                using (var parser = new Parser("source.pdf"))
+                {
+                    // Извлеките текст
+                    using (var textReader = parser.GetText())
+                    {
+                        // Обработайте извлечённый текст
+                        Console.WriteLine(textReader?.ReadToEnd());
+                    }
+                }     
+              ```
           # samples loop
           - language: "Java"
             color: "red"
             content: |
-                    <code class="language-java" data-lang="java">
+              ```java {style=abap}
+                // Создайте экземпляр класса Parser, передав нужный файл
+                try (Parser parser = new Parser("source.pdf"))
+                {
+                    // Извлеките текст
+                    try (TextReader reader = parser.getText())
+                    {
+                        // Обработайте извлечённый текст
+                        System.out.println(reader == null 
+                                ? "" 
+                                : reader.readToEnd());
+                    }
+                }  
+              ```
+          # samples loop
+          - language: "Python"
+            color: "green"
+            content: |
+              ```python {style=abap}
+                from groupdocs.parser import Parser
 
-                        // Создайте экземпляр класса Parser, передав нужный файл
-                        try (Parser parser = new Parser("source.pdf"))
-                        {
-                            // Извлеките текст
-                            try (TextReader reader = parser.getText())
-                            {
-                                // Обработайте извлеченный текст
-                                System.out.println(reader == null 
-                                        ? "" 
-                                        : reader.readToEnd());
-                            }
-                        }  
+                # Создайте экземпляр класса Parser, передав нужный файл
+                with Parser("source.pdf") as parser:
+                    # Извлеките текст
+                    text = parser.get_text()
 
-                    </code>
-
-
+                    # Обработайте извлечённый текст
+                    print(text)
+              ```
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "Поддерживается более 50 форматов файлов"
-  description: "GroupDocs.Parser позволяет выполнять операции парсинга в различных семействе форматов"
+  title: "Поддерживается более 50 форматов документов и изображений"
+  description: "SDK парсинга документов GroupDocs.Parser позволяет выполнять операции парсинга для офисных документов, PDF, изображений, электронных писем, архивов и многого другого."
 
 ############################# Metrics ###############################
 metrics:
   enable: true
-  title: "GroupDocs.Parser достижения"
-  description: "Узнайте ключевые показатели успеха нашей библиотеки"
+  title: "Достижения GroupDocs.Parser"
+  description: "Узнайте ключевые показатели достижений нашей библиотеки"
 
   items:
     # items loop
     - number: "50+"
       title: "Поддерживаемые форматы"
-      content: "GroupDocs.Parser поддерживает работу с более чем 50 популярными форматами файлов."
+      content: "GroupDocs.Parser поддерживает работу более чем с 50 популярными форматами файлов."
 
     # items loop
     - number: "1600k"
       title: "Скачивания NuGet"
-      content: "Пакет GroupDocs.Parser для .NET был скачан более 1,600,000 раз."
+      content: "Пакет GroupDocs.Parser для .NET в NuGet был загружен более 1 600 000 раз."
 
     # items loop
     - number: "18k"
       title: "Скачивания Maven"
-      content: "GroupDocs.Parser имеет 18,000 скачиваний на Maven. Мощные функции парсинга Java."
+      content: "GroupDocs.Parser имеет 18 000 загрузок в Maven. Мощные функции парсинга для Java."
 
     # items loop
     - number: "140+"
-      title: "Счастливые клиенты"
-      content: "Известные компании и индивидуальные разработчики предпочитают продукты GroupDocs для создания инновационных решений."
+      title: "Довольные клиенты"
+      content: "Известные компании и отдельные разработчики предпочитают продукты GroupDocs для создания инновационных решений."
 
 
 ############################# Customers ###############################
 customers:
   enable: true
   title: "Наши довольные клиенты"
-  description: "Библиотеки GroupDocs используются всемирно известными и уважаемыми брендами."
+  description: "GroupDocs библиотеки используют всемирно известные и выдающиеся бренды по всему миру."
 
   items:
     # items loop
@@ -252,7 +289,7 @@ customers:
 ############################# Actions ###############################
 actions:
   enable: true
-  title: "Готовы приступить к работе?"
+  title: "Готовы начать?"
   description: "Попробуйте функции GroupDocs.Parser бесплатно на вашей платформе"
 
   items:
@@ -274,64 +311,64 @@ faq:
 
   items:
     # items loop
-    - question: "Требуется ли библиотеке GroupDocs.Parser другое стороннее программное обеспечение для работы с документами?"
-      answer: "GroupDocs.Parser не требует установки внешнего программного обеспечения, такого как Adobe Acrobat, Microsoft Office или любое другое."
+    - question: "Требует ли библиотека GroupDocs.Parser какого-либо стороннего программного обеспечения для работы с документами?"
+      answer: "GroupDocs.Parser не требует установки какого-либо внешнего программного обеспечения, такого как Adobe Acrobat, Microsoft Office или другое."
 
     # items loop
-    - question: "Могу ли я попробовать библиотеку GroupDocs.Parser перед покупкой?"
-      answer: "Да, вы можете попробовать GroupDocs.Parser без покупки лицензии. После установки без лицензии библиотека работает в пробном режиме. В этом режиме в результирующий документ добавляются пробные метки, и он ограничен первыми 3 страницами. Если вы хотите протестировать GroupDocs.Parser без ограничений пробной версии, вы также можете запросить временную лицензию на 30 дней. Для получения дополнительной информации посетите эту [страницу](https://purchase.groupdocs.com/temporary-license/)."
+    - question: "Могу ли я попробовать библиотеку GroupDocs.Parser перед её покупкой?"
+      answer: "Да, вы можете попробовать GroupDocs.Parser без покупки лицензии. При установке без лицензии библиотека работает в режиме пробной версии. В этом режиме к полученному документу добавляются ярлыки trial, и он ограничивается первыми 3 страницами. Если вы хотите протестировать GroupDocs.Parser без ограничений пробной версии, вы также можете запросить 30‑дневную временную лицензию. Подробнее см. [см.](https://purchase.groupdocs.com/temporary-license/)."
 
     # items loop
-    - question: "Какие лицензии у вас есть?"
-      answer: "Мы предлагаем несколько типов лицензий, чтобы соответствовать потребностям конкретных разработчиков или компаний. Типы лицензий зависят от количества разработчиков, местонахождения разработчиков и необходимости доставки нашего SDK/API конечным пользователям. В качестве альтернативы вы можете выбрать лицензии с учётом расхода на основе месячного использования продукта. Узнать больше [здесь](https://purchase.groupdocs.com/pricing/parser/net/)."
+    - question: "Какие лицензии вы предлагаете?"
+      answer: "Мы предлагаем несколько типов лицензий, соответствующих потребностям конкретных разработчиков или компаний. Типы лицензий зависят от количества разработчиков, количества площадок разработчиков и того, нужно ли предоставлять наш SDK/API конечным клиентам. Кроме того, вы можете выбрать лицензии с оплатой за использование (Metered), основанные на месячном потреблении продукта. Подробнее [здесь](https://purchase.groupdocs.com/pricing/parser/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Parser API с низким кодом"
-  description: "Интегрируйте возможности парсинга документов в любое приложение, используя наш облачный REST API"
+  title: "GroupDocs.Parser API парсера документов low‑code"
+  description: "Интегрируйте возможности парсинга документов в любое приложение с помощью нашего облачного REST API и SDK."
   
   items:
     # items loop
     - title: "GroupDocs.Parser Cloud for cURL"
-      content: "Команды cURL для облачного API парсинга документов для обработки документов в широком диапазоне поддерживаемых популярных форматов файлов."
+      content: "cURL‑команды для RESTful Cloud API парсера документов, позволяющие парсить документы из широкого спектра поддерживаемых популярных файловых форматов."
       icon: "groupdocs_parser-for-curl"
       link: "https://products.groupdocs.cloud/parser/curl"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for .NET"
-      content: "Извлеките изображения, текст, информацию о документах или даже проведите парсинг любого документа по определенному пользователем шаблону в ваших приложениях Microsoft .NET."
+      content: "Извлекайте изображения, текст, сведения о документе или даже парсите любой документ по пользовательскому шаблону в ваших приложениях Microsoft .NET."
       icon: "groupdocs_parser-for-net"
       link: "https://products.groupdocs.cloud/parser/net"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for Java"
-      content: "Облачный SDK для разработчиков Java для парсинга документов, извлечения информации и данных в приложениях на Java."
+      content: "Облачный SDK для разработчиков Java, позволяющий парсить документы, извлекать информацию о документе и данные в Java‑приложениях."
       icon: "groupdocs_parser-for-java"
       link: "https://products.groupdocs.cloud/parser/java"
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Parser Apps без кода"
-  description: "Веб-приложение, которое позволяет выполнять парсинг более чем 50 популярных форматов документов напрямую в вашем браузере."
+  title: "GroupDocs.Parser Приложения парсера документов без кода"
+  description: "Веб‑приложения парсера документов, позволяющие извлекать данные из более чем 50 популярных файловых форматов прямо в браузере."
 
   items:
     # items loop
     - title: "GroupDocs.Parser Total"
-      content: "Бесплатное онлайн приложение для парсинга Word, Excel, PowerPoint, PDF и более 50 типов документов."
+      content: "Бесплатное онлайн‑приложение для парсинга Word, Excel, PowerPoint, PDF и более 50 других типов документов."
       icon: "groupdocs_parser-app"
       link: "https://products.groupdocs.app/parser/total"
 
     # items loop
     - title: "GroupDocs.Parser DOCX"
-      content: "Парсите документы Word напрямую из вашего веб-браузера, чтобы извлечь изображения, текст или метаданные."
+      content: "Парсите документы Word напрямую из веб‑браузера, чтобы извлекать изображения, текст или метаданные."
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/parser/docx"
 
     # items loop
     - title: "GroupDocs.Parser PDF"
-      content: "Бесплатное приложение для парсинга PDF, которое работает на любой платформе или устройстве без каких-либо ограничений."
+      content: "Бесплатное приложение для парсинга PDF, работающее на любой платформе или устройстве без ограничений."
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/parser/pdf"
 

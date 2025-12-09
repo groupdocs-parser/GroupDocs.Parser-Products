@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T14:38:23
+date:  2025-12-09T14:52:35
 draft: false
 
 product: "Parser"
@@ -10,17 +10,17 @@ product_tag: "parser"
 lang: en
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & Online Document Parser Apps"
-head_description: "Get all-in-one document parsing solution for .NET, Java and cloud-based applications. Extract data from document formats online using simple drag and drop feature"
+head_title: "Document Parser SDKs for PDF, Word & Excel | GroupDocs"
+head_description: "Document Parser SDK to extract text, images, metadata, barcodes and tables from PDF, Word, Excel, emails and 50+ other document formats for .NET, Java and Python apps."
 
 ############################# Header ############################
-title: "Document Parsing Solution"
+title: "Document Parser SDK"
 description:  |
-  Robust API for data extraction from various file formats.
+  Developer‑friendly Document Parser SDK for extracting text, images, barcodes, metadata and tables from 50+ document and image formats.
 
-  Parse documents with minimal coding effort.
+  Integrate high‑performance document parsing into your .NET, Java and Python applications with minimal coding effort.
 
-  Customize parsing results.
+  Use flexible templates and advanced APIs to customize parsing rules and deliver clean, structured data outputs.
 
 ############################# Supported Platforms ###############################
 supported_platforms:
@@ -33,7 +33,7 @@ supported_platforms:
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Parser .NET 
+      description: GroupDocs.Parser for .NET 
       color: "blue"
       tag: "net"
       link: "/parser/net/"
@@ -62,7 +62,7 @@ supported_platforms:
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Parser Java
+      description: GroupDocs.Parser for Java
       color: "red"
       tag: "java"
       link: "/parser/java/"
@@ -88,11 +88,40 @@ supported_platforms:
             content: |
                     50+ file formats
 
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Parser for Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/parser/python-net/"
+      features_link: "https://docs.groupdocs.com/parser/python-net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.5+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> macOS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    PyCharm, VS Code, Jupyter Notebook
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats                    
+
 ############################# Features ###############################
 features:
   enable: true
   title: "GroupDocs.Parser at a glance"
-  description: "API for data parsing across PDF, Word, Excel and more"
+  description: "Powerful Document Parser SDK for extracting structured and unstructured data from PDFs, Office documents, images, emails and archives."
 
   items:
     # items loop
@@ -119,7 +148,7 @@ features:
 code_samples:
   enable: true
   title: "GroupDocs.Parser code samples"
-  description: "Some use cases of typical GroupDocs.Parser operations in C# and Java"
+  description: "Some use cases of typical GroupDocs.Parser operations in C#, Java and Python"
 
   items:
     # items loop
@@ -130,48 +159,56 @@ code_samples:
           - language: "C#"
             color: "blue"
             content: |
-                    <code class="language-csharp" data-lang="csharp">
-
-                        // Create an instance of Parser class passing desired file
-                        using (var parser = new Parser("source.pdf"))
-                        {
-                            // Extract a text
-                            using (var textReader = parser.GetText())
-                            {
-                                // Process the extracted text
-                                Console.WriteLine(textReader?.ReadToEnd());
-                            }
-                        }     
-                        
-                    </code>
-
+              ```csharp {style=abap}  
+                // Create an instance of Parser class passing desired file
+                using (var parser = new Parser("source.pdf"))
+                {
+                    // Extract a text
+                    using (var textReader = parser.GetText())
+                    {
+                        // Process the extracted text
+                        Console.WriteLine(textReader?.ReadToEnd());
+                    }
+                }     
+              ```
           # samples loop
           - language: "Java"
             color: "red"
             content: |
-                    <code class="language-java" data-lang="java">
+              ```java {style=abap}
+                // Create an instance of Parser class passing desired file
+                try (Parser parser = new Parser("source.pdf"))
+                {
+                    // Extract a text
+                    try (TextReader reader = parser.getText())
+                    {
+                        // Process the extracted text
+                        System.out.println(reader == null 
+                                ? "" 
+                                : reader.readToEnd());
+                    }
+                }  
+              ```
+          # samples loop
+          - language: "Python"
+            color: "green"
+            content: |
+              ```python {style=abap}
+                from groupdocs.parser import Parser
 
-                        // Create an instance of Parser class passing desired file
-                        try (Parser parser = new Parser("source.pdf"))
-                        {
-                            // Extract a text
-                            try (TextReader reader = parser.getText())
-                            {
-                                // Process the extracted text
-                                System.out.println(reader == null 
-                                        ? "" 
-                                        : reader.readToEnd());
-                            }
-                        }  
+                # Create an instance of Parser class passing desired file
+                with Parser("source.pdf") as parser:
+                    # Extract a text
+                    text = parser.get_text()
 
-                    </code>
-
-
+                    # Process the extracted text
+                    print(text)
+              ```
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "50+ file formats supported"
-  description: "GroupDocs.Parser enables parser operations within various format families"
+  title: "50+ document and image formats supported"
+  description: "GroupDocs.Parser Document Parser SDK enables parsing operations across Office documents, PDFs, images, emails, archives and more."
 
 ############################# Metrics ###############################
 metrics:
@@ -288,8 +325,8 @@ faq:
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Parser low code APIs"
-  description: "Incorporate document parser capabilities into any application using our cloud-based REST API"
+  title: "GroupDocs.Parser low code Document Parser APIs"
+  description: "Incorporate document parsing capabilities into any application using our cloud-based REST API and SDKs."
   
   items:
     # items loop
@@ -313,8 +350,8 @@ cloud_links:
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Parser No Code Apps"
-  description: "Web-based application that enables you to perform parse across more than 50 popular file formats directly in your browser. "
+  title: "GroupDocs.Parser Document Parser No Code Apps"
+  description: "Web-based document parser apps that let you extract data from more than 50 popular file formats directly in your browser."
 
   items:
     # items loop

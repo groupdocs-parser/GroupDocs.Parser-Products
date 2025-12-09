@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T14:38:23
+date:  2025-12-09T14:52:35
 draft: false
 
 product: "Parser"
@@ -10,22 +10,22 @@ product_tag: "parser"
 lang: zh
 
 ############################# Head ############################
-head_title: ".NET、Java、云 API 和在线文档解析器应用程序"
-head_description: "为 .NET、Java 和基于云的应用程序提供一体化文档解析解决方案。使用简单的拖放功能从文档格式中提取数据"
+head_title: "适用于 PDF、Word 和 Excel 的文档解析 SDK | GroupDocs"
+head_description: "文档解析 SDK，用于从 PDF、Word、Excel、电子邮件以及 50 多种其他文档格式中提取文本、图像、元数据、条形码和表格，适用于 .NET、Java 和 Python 应用程序。"
 
 ############################# Header ############################
-title: "文档解析解决方案"
+title: "文档解析 SDK"
 description:  |
-  用于从各种文件格式中提取数据的强大 API。
+  面向开发者的文档解析 SDK，可从 50 多种文档和图像格式中提取文本、图像、条形码、元数据和表格。
 
-  以最小的编码工作量解析文档。
+  在 .NET、Java 和 Python 应用程序中集成高性能文档解析，代码编写工作量最小化。
 
-  自定义解析结果。
+  使用灵活的模板和高级 API 定制解析规则，并提供干净、结构化的数据输出。
 
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
-  head_title: "选择您的平台"
+  head_title: "选择你的平台"
   title: "平台独立性"
   description: "GroupDocs.Parser 库支持以下操作系统和框架："
   details_link_title: "了解更多"
@@ -33,7 +33,7 @@ supported_platforms:
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Parser .NET 
+      description: GroupDocs.Parser for .NET 
       color: "blue"
       tag: "net"
       link: "/parser/net/"
@@ -62,7 +62,7 @@ supported_platforms:
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Parser Java
+      description: GroupDocs.Parser for Java
       color: "red"
       tag: "java"
       link: "/parser/java/"
@@ -88,11 +88,40 @@ supported_platforms:
             content: |
                     50+ file formats
 
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Parser for Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/parser/python-net/"
+      features_link: "https://docs.groupdocs.com/parser/python-net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.5+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> macOS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    PyCharm, VS Code, Jupyter Notebook
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats                    
+
 ############################# Features ###############################
 features:
   enable: true
   title: "GroupDocs.Parser 一览"
-  description: "跨 PDF、Word、Excel 等进行数据解析的 API"
+  description: "强大的文档解析 SDK，可从 PDF、Office 文档、图像、电子邮件和归档文件中提取结构化和非结构化数据。"
 
   items:
     # items loop
@@ -103,109 +132,117 @@ features:
     # items loop
     - icon: "image"
       title: "提取图像"
-      content: "从不同来源检索视觉内容"
+      content: "从多种来源获取视觉内容"
 
     # items loop
     - icon: "template"
-      title: "按模板解析数据"
-      content: "创建自定义模板并利用它们解析特定信息"
+      title: "通过模板解析数据"
+      content: "创建自定义模板并利用其解析特定信息"
 
     # items loop
     - icon: "pdf"
       title: "解析 PDF 表单"
-      content: "PDF 表单是带有可供用户交互填写的字段的数字文档"
+      content: "PDF 表单是带有可填写字段的数字文档，用于用户交互"
 
 ############################# Code Samples ###############################
 code_samples:
   enable: true
   title: "GroupDocs.Parser 代码示例"
-  description: "一些典型 GroupDocs.Parser 操作的用例，使用 C# 和 Java"
+  description: "在 C#, Java 和 Python 中的典型 GroupDocs.Parser 操作用例"
 
   items:
     # items loop
     - title: "如何从 PDF 文档中提取文本"
-      content: "GroupDocs.Parser API 通过实现几个步骤使提取文本变得简单。"
+      content: "GroupDocs.Parser API 通过几个步骤即可轻松从文档中提取文本。"
       samples:
           # samples loop
           - language: "C#"
             color: "blue"
             content: |
-                    <code class="language-csharp" data-lang="csharp">
-
-                        // 创建一个 Parser 类的实例并传入所需的文件
-                        using (var parser = new Parser("source.pdf"))
-                        {
-                            // 提取文本
-                            using (var textReader = parser.GetText())
-                            {
-                                // 处理提取的文本
-                                Console.WriteLine(textReader?.ReadToEnd());
-                            }
-                        }     
-                        
-                    </code>
-
+              ```csharp {style=abap}  
+                // 创建 Parser 类的实例并传入所需文件
+                using (var parser = new Parser("source.pdf"))
+                {
+                    // 提取文本
+                    using (var textReader = parser.GetText())
+                    {
+                        // 处理提取的文本
+                        Console.WriteLine(textReader?.ReadToEnd());
+                    }
+                }     
+              ```
           # samples loop
           - language: "Java"
             color: "red"
             content: |
-                    <code class="language-java" data-lang="java">
+              ```java {style=abap}
+                // 创建 Parser 类的实例并传入所需文件
+                try (Parser parser = new Parser("source.pdf"))
+                {
+                    // 提取文本
+                    try (TextReader reader = parser.getText())
+                    {
+                        // 处理提取的文本
+                        System.out.println(reader == null 
+                                ? "" 
+                                : reader.readToEnd());
+                    }
+                }  
+              ```
+          # samples loop
+          - language: "Python"
+            color: "green"
+            content: |
+              ```python {style=abap}
+                from groupdocs.parser import Parser
 
-                        // 创建一个 Parser 类的实例并传入所需的文件
-                        try (Parser parser = new Parser("source.pdf"))
-                        {
-                            // 提取文本
-                            try (TextReader reader = parser.getText())
-                            {
-                                // 处理提取的文本
-                                System.out.println(reader == null 
-                                        ? "" 
-                                        : reader.readToEnd());
-                            }
-                        }  
+                # 创建 Parser 类的实例并传入所需文件
+                with Parser("source.pdf") as parser:
+                    # 提取文本
+                    text = parser.get_text()
 
-                    </code>
-
-
+                    # 处理提取的文本
+                    print(text)
+              ```
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "支持 50 种以上文件格式"
-  description: "GroupDocs.Parser 可在各种格式族中进行解析操作"
+  title: "支持 50 多种文档和图像格式"
+  description: "GroupDocs.Parser 文档解析 SDK 可在 Office 文档、PDF、图像、电子邮件、归档文件等多种类型上执行解析操作。"
 
 ############################# Metrics ###############################
 metrics:
   enable: true
   title: "GroupDocs.Parser 成就"
-  description: "发现我们的库成功的关键指标"
+  description: "了解我们库的关键指标和成就"
 
   items:
     # items loop
     - number: "50+"
       title: "支持的格式"
-      content: "GroupDocs.Parser 支持操作超过 50 种流行的文件格式。"
+      content: "GroupDocs.Parser 支持超过 50 种主流文件格式的操作。"
 
     # items loop
     - number: "1600k"
       title: "NuGet 下载量"
-      content: "GroupDocs.Parser 的 .NET NuGet 包下载次数超过 1,600,000 次。"
+      content: "GroupDocs.Parser 的 .NET NuGet 包已下载超过 1,600,000 次。"
 
     # items loop
     - number: "18k"
       title: "Maven 下载量"
-      content: "GroupDocs.Parser 在 Maven 上有 18,000 次下载。强大的 Java 解析功能。"
+      content: "GroupDocs.Parser 在 Maven 上已下载 18,000 次，具备强大的 Java 解析功能。"
 
     # items loop
     - number: "140+"
       title: "满意的客户"
-      content: "许多知名公司和独立开发者都选择 GroupDocs 产品来构建创新的解决方案。"
+      content: "知名企业和独立开发者都倾向于使用 GroupDocs 产品构建创新解决方案。"
 
 
 ############################# Customers ###############################
 customers:
   enable: true
   title: "我们的满意客户"
-  description: "GroupDocs 库被全球众多知名品牌广泛使用。"
+  description: "GroupDocs 库被全球知名且卓越的品牌所采用。"
 
   items:
     # items loop
@@ -252,7 +289,7 @@ customers:
 ############################# Actions ###############################
 actions:
   enable: true
-  title: "准备开始吗？"
+  title: "准备开始了吗？"
   description: "在您的平台上免费试用 GroupDocs.Parser 功能"
 
   items:
@@ -270,68 +307,68 @@ actions:
 faq:
   enable: true
   title: "常见问题"
-  description: "对常见问题的回答。"
+  description: "对最常见问题的回答。"
 
   items:
     # items loop
-    - question: "GroupDocs.Parser 库需要其他第三方软件来处理文档吗？"
-      answer: "GroupDocs.Parser 无需安装任何外部软件，例如 Adobe Acrobat、Microsoft Office 或其他。"
+    - question: "GroupDocs.Parser 库是否需要其他第三方软件来处理文档？"
+      answer: "GroupDocs.Parser 不需要安装任何外部软件，例如 Adobe Acrobat、Microsoft Office 或其他软件。"
 
     # items loop
-    - question: "我可以在购买之前尝试 GroupDocs.Parser 库吗？"
-      answer: "是的，您可以在未购买许可证的情况下尝试 GroupDocs.Parser。在未授权的情况下安装时，该库将以试用模式工作。在此模式下，试用徽章会添加到生成的文档中，并且文档被截断为前 3 页。如果您希望在没有试用版限制的情况下测试 GroupDocs.Parser，您还可以申请 30 天的临时许可证。有关更多详情，[请看](https://purchase.groupdocs.com/temporary-license/)。"
+    - question: "我可以在购买前试用 GroupDocs.Parser 库吗？"
+      answer: "是的，您可以在不购买许可证的情况下试用 GroupDocs.Parser。未授权安装后，库将以试用模式运行。在此模式下，生成的文档会添加试用徽章，并截取前 3 页。如果您希望在不受试用版限制的情况下测试 GroupDocs.Parser，还可以申请 30 天的临时许可证。更多详情，请[查看](https://purchase.groupdocs.com/temporary-license/)。"
 
     # items loop
-    - question: "你们有什么许可证？"
-      answer: "我们提供几种许可证类型，以满足特定开发者或公司的需求。许可证类型取决于开发者人数、开发者网站地点数量，以及是否需要将我们的 SDK/API 交付给最终客户。或者，您可以选择基于产品每月使用量的计量许可证。了解更多[在这里](https://purchase.groupdocs.com/pricing/parser/net/)。"
+    - question: "您提供哪些许可证？"
+      answer: "我们提供多种许可证类型，以满足特定开发者或公司的需求。许可证类型取决于开发者人数、开发者站点位置数量，以及是否需要向最终客户交付我们的 SDK/API。您也可以根据产品的月度使用量选择计量许可证。了解更多信息，请[点击此处](https://purchase.groupdocs.com/pricing/parser/net/)。"
 
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Parser 低代码 API"
-  description: "利用我们的基于云的 REST API 将文档解析能力集成到任何应用程序中"
+  title: "GroupDocs.Parser 低代码文档解析 API"
+  description: "使用我们的基于云的 REST API 和 SDK，将文档解析功能集成到任何应用程序中。"
   
   items:
     # items loop
     - title: "GroupDocs.Parser Cloud for cURL"
-      content: "用于 RESTful 文档解析器云 API 的 cURL 命令，可跨多种流行文件格式解析文档。"
+      content: "cURL 命令用于 RESTful 文档解析云 API，可解析跨多种受支持的流行文件格式的文档。"
       icon: "groupdocs_parser-for-curl"
       link: "https://products.groupdocs.cloud/parser/curl"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for .NET"
-      content: "在您的 Microsoft .NET 应用程序中提取图像、文本、文档信息，或者通过用户定义的模板解析任何文档。"
+      content: "在您的 Microsoft .NET 应用程序中，提取图像、文本、文档信息，甚至通过用户自定义模板解析任何文档。"
       icon: "groupdocs_parser-for-net"
       link: "https://products.groupdocs.cloud/parser/net"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for Java"
-      content: "为 Java 开发人员提供的云 SDK，用于解析文档、提取文档信息和数据。"
+      content: "面向 Java 开发者的云 SDK，用于在基于 Java 的应用程序中解析文档、提取文档信息和数据。"
       icon: "groupdocs_parser-for-java"
       link: "https://products.groupdocs.cloud/parser/java"
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Parser 无代码应用程序"
-  description: "网页应用程序，使您能够直接在浏览器中解析超过 50 种流行文件格式。"
+  title: "GroupDocs.Parser 文档解析无代码应用"
+  description: "基于网页的文档解析应用，让您直接在浏览器中从超过 50 种流行文件格式提取数据。"
 
   items:
     # items loop
     - title: "GroupDocs.Parser Total"
-      content: "免费的在线应用程序，用于解析 Word、Excel、PowerPoint、PDF 和 50 多种文档类型。"
+      content: "免费在线应用，可解析 Word、Excel、PowerPoint、PDF 等 50 多种文档类型。"
       icon: "groupdocs_parser-app"
       link: "https://products.groupdocs.app/parser/total"
 
     # items loop
     - title: "GroupDocs.Parser DOCX"
-      content: "直接从您的网页浏览器解析 Word 文档，以提取图像、文本或元数据。"
+      content: "直接在网页浏览器中解析 Word 文档，提取图像、文本或元数据。"
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/parser/docx"
 
     # items loop
     - title: "GroupDocs.Parser PDF"
-      content: "适用于任何平台或设备的免费 PDF 解析应用程序，没有任何限制。"
+      content: "免费 PDF 解析应用，可在任何平台或设备上使用，且没有任何限制。"
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/parser/pdf"
 

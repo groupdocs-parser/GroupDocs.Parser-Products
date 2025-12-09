@@ -1,11 +1,11 @@
 {
   "index-content": {
-    "head_title": ".NET, Java, Cloud APIs & Online Document Parser Apps",
-    "head_description": "Get all-in-one document parsing solution for .NET, Java and cloud-based applications. Extract data from document formats online using simple drag and drop feature",
-    "title": "Document Parsing Solution",
-    "description_0": "Robust API for data extraction from various file formats.",
-    "description_1": "Parse documents with minimal coding effort.",
-    "description_2": "Customize parsing results.",
+    "head_title": "Document Parser SDKs for PDF, Word & Excel | GroupDocs",
+    "head_description": "Document Parser SDK to extract text, images, metadata, barcodes and tables from PDF, Word, Excel, emails and 50+ other document formats for .NET, Java and Python apps.",
+    "title": "Document Parser SDK",
+    "description_0": "Developer‑friendly Document Parser SDK for extracting text, images, barcodes, metadata and tables from 50+ document and image formats.",
+    "description_1": "Integrate high‑performance document parsing into your .NET, Java and Python applications with minimal coding effort.",
+    "description_2": "Use flexible templates and advanced APIs to customize parsing rules and deliver clean, structured data outputs.",
     "words_for": "for",
     "release_title": "Version {0} released",
     "release_notes": "See what’s new",
@@ -22,7 +22,7 @@
     },
     "features": {
       "title": "{{ProdShortName}} at a glance",
-      "description": "API for data parsing across PDF, Word, Excel and more",
+      "description": "Powerful Document Parser SDK for extracting structured and unstructured data from PDFs, Office documents, images, emails and archives.",
       "feature_1": {
         "title": "Extract text",
         "content": "Extract textual information from various file formats"
@@ -41,13 +41,13 @@
       }
     },
     "formats": {
-      "title": "50+ file formats supported",
-      "description": "{{ProdShortName}} enables parser operations within various format families"
+      "title": "50+ document and image formats supported",
+      "description": "{{ProdShortName}} Document Parser SDK enables parsing operations across Office documents, PDFs, images, emails, archives and more."
     },
     "code_samples": {
       "title": "Code samples",
       "index_title": "{{ProdShortName}} code samples",
-      "index_description": "Some use cases of typical {{ProdShortName}} operations in C# and Java",
+      "index_description": "Some use cases of typical {{ProdShortName}} operations in C#, Java and Python",
       "more_examples": "More examples",
       "sample_index": {
         "title": "How to extract text from PDF documents",
@@ -121,8 +121,8 @@
       }
     },
     "cloud_links": {
-      "title": "{{ProdShortName}} low code APIs",
-      "description": "Incorporate document parser capabilities into any application using our cloud-based REST API",
+      "title": "{{ProdShortName}} low code Document Parser APIs",
+      "description": "Incorporate document parsing capabilities into any application using our cloud-based REST API and SDKs.",
       "item_1": {
         "content": "cURL commands for RESTful document parser Cloud API to parse documents across wide range of supported popular file formats."
       },
@@ -134,8 +134,8 @@
       }
     },
     "app_links": {
-      "title": "{{ProdShortName}} No Code Apps",
-      "description": "Web-based application that enables you to perform parse across more than 50 popular file formats directly in your browser. ",
+      "title": "{{ProdShortName}} Document Parser No Code Apps",
+      "description": "Web-based document parser apps that let you extract data from more than 50 popular file formats directly in your browser.",
       "item_1": {
         "content": "Free online app to parse Word, Excel, PowerPoint, PDF & 50+ more document types."
       },
@@ -159,16 +159,16 @@
     }
   },
   "index-content-net": {
-    "head_title": "{{ProdFullName}} Document Parsing Apps",
-    "head_description": "Get all-in-one document parsing solution for {{EnvNameShort}} applications. Extract data from document formats online using simple drag and drop feature",
-    "title": "Parse documents via {{EnvNameShort}} API",
-    "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "head_title": "{{ProdFullName}} Document Parser SDK for {{EnvNameShort}}",
+    "head_description": "High-performance Document Parser SDK for {{EnvNameShort}}. Extract text, images, metadata, barcodes, tables and other data from PDF, Word, Excel, emails and 50+ document formats.",
+    "title": "Document Parser SDK for {{EnvNameShort}}",
+    "description": "Add fast, accurate document parsing to your {{EnvNameShort}} apps and extract text, images, metadata and structured data from documents and images.",
     "actions_main": "{{PackageStoreName}} Download",
-    "code_title": "Quickly Parse Document Content",
+    "code_title": "Quickly Parse Document Content with the SDK",
     "code_comment_1": "Pass source file to {{textParser}} instance",
     "code_comment_2": "Pass document text to {{textReader}}",
     "code_comment_3": "Process document text",
-    "overview_description": "API for performing document parsing in {{EnvNameShort}} applications",
+    "overview_description": "Document Parser SDK for performing high‑accuracy document parsing in {{EnvNameShort}} applications",
     "overview_feature_1": {
       "title": "Extract data from documents",
       "description": "{{ProdFullName}} API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
@@ -183,7 +183,7 @@
     },
     "features": {
       "title": "{{ProdFullName}} features",
-      "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately",
+      "description": "Extract data from PDFs, Office documents, images and other formats swiftly and accurately with our {{EnvNameShort}} Document Parser SDK",
       "feature_1": {
         "title": "Extract text",
         "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
@@ -230,16 +230,16 @@
     "code_samples_sample_2_content": "Use our {{EnvNameShort}} API to extract [barcodes]({{Sample2Url}}) from images:"
   },
   "index-content-java": {
-    "head_title": "{{ProdFullName}} Document Parsing Apps",
-    "head_description": "Get all-in-one document parsing solution for {{EnvNameShort}} applications. Extract data from document formats online using simple drag and drop feature",
-    "title": "Parse documents via {{EnvNameShort}} API",
-    "description": "Extract data from documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "head_title": "{{ProdFullName}} Document Parser SDK for {{EnvNameShort}}",
+    "head_description": "High-performance Document Parser SDK for {{EnvNameShort}}. Extract text, images, metadata, barcodes, tables and other data from PDF, Word, Excel, emails and 50+ document formats.",
+    "title": "Document Parser SDK for {{EnvNameShort}}",
+    "description": "Add fast, accurate document parsing to your {{EnvNameShort}} apps and extract text, images, metadata and structured data from documents and images.",
     "actions_main": "{{PackageStoreName}} Download",
-    "code_title": "Quickly Get Document Content",
+    "code_title": "Quickly Parse Document Content with the SDK",
     "code_comment_1": "Pass source file to {{textParser}} instance",
     "code_comment_2": "Pass document text to {{textReader}}",
     "code_comment_3": "Process document text",
-    "overview_description": "API for performing document parsing in {{EnvNameShort}} applications",
+    "overview_description": "Document Parser SDK for performing high‑accuracy document parsing in {{EnvNameShort}} applications",
     "overview_feature_1": {
       "title": "Extract data from documents",
       "description": "{{ProdFullName}} API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
@@ -254,7 +254,7 @@
     },
     "features": {
       "title": "{{ProdFullName}} features",
-      "description": "Extract data from PDFs, Office Documents, and Images swiftly and accurately",
+      "description": "Extract data from PDFs, Office documents, images and other formats swiftly and accurately with our {{EnvNameShort}} Document Parser SDK",
       "feature_1": {
         "title": "Extract text",
         "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
@@ -299,5 +299,99 @@
     "code_samples_sample_1_content": "{{ProdFullName}} makes it easy for {{ProgLang}} developers to extract images from [documents]({{Sample1Url}}):",
     "code_title_sample_2": "Extract barcodes from images",
     "code_samples_sample_2_content": "Use our {{EnvNameShort}} API to extract [barcodes]({{Sample2Url}}) from images:"
+  },
+  "index-content-python-net": {
+    "head_title": "{{ProdFullName}} Document Parser SDK for {{EnvNameShort}}",
+    "head_description": "High‑performance Document Parser SDK for {{EnvNameShort}}. Extract text, images, metadata, barcodes, tables and other data from PDF, Word, Excel, emails and 50+ document formats.",
+    "title": "Document Parser SDK for {{EnvNameShort}}",
+    "description": "Add fast, accurate document parsing to your {{EnvNameShort}} apps and extract text, images, metadata and structured data from documents and images.",
+    "actions_main": "{{PackageStoreName}} Download",
+    "code_title": "Extract text using Python",
+    "code_comment_1": "Load the document",
+    "code_comment_2": "Extract text from the document",
+    "code_comment_3": "Print all extracted text",
+    "overview_description": "Document Parser SDK for performing high‑accuracy document parsing in {{EnvNameShort}} applications",
+    "overview_feature_1": {
+      "title": "Extract data from documents",
+      "description": "{{ProdFullName}} API enables you to retrieve text, metadata, and images from a wide range of file formats such as Office documents, emails, attachments, and archives. This powerful tool helps you efficiently access and process valuable information contained within these files for various applications like data analysis, search engine indexing, or content management systems."
+    },
+    "overview_feature_2": {
+      "title": "Parse documents",
+      "description": "Extract various elements such as hyperlinks, tables, QR codes, barcodes and data from PDF forms. Also parse any desired information from documents using custom templates."
+    },
+    "overview_feature_3": {
+      "title": "Customizing results",
+      "description": "{{EnvNameShort}} API enables you to retrieve data in various formats such as raw, structured, HTML, or Markdown. Additionally, the API offers a search functionality for locating specific words or phrases within the text of documents."
+    },
+    "features": {
+      "title": "{{ProdFullName}} features",
+      "description": "Extract data from PDFs, Office documents, images and other formats swiftly and accurately with our {{EnvNameShort}} Document Parser SDK",
+      "feature_1": {
+        "title": "Extract text",
+        "content": "Extract textual information from various file formats such as office documents, PDF files and images for easy readability and analysis."
+      },
+      "feature_2": {
+        "title": "Extract images",
+        "content": "Retrieve visual content from diverse sources like office documents, PDF files for convenient access and use."
+      },
+      "feature_3": {
+        "title": "Scan QR Codes",
+        "content": "Detect and decode QR codes present within office documents, PDF files, or visual content for efficient information retrieval."
+      },
+      "feature_4": {
+        "title": "Extract data from email attachments and archives",
+        "content": "Gather valuable information from email messages, file attachments, and compressed data sources for effective analysis and utilization."
+      },
+      "feature_5": {
+        "title": "Extract tables",
+        "content": "Identify and extract tabular data from PDF documents for organized analysis and use."
+      },
+      "feature_6": {
+        "title": "Extract hyperlinks",
+        "content": "Locate and extract hyperlinks and email addresses within office documents or PDF files for efficient access."
+      },
+      "feature_7": {
+        "title": "Parse PDF Forms",
+        "content": "PDF Forms are digital documents featuring fillable fields for user interaction, allowing them to input information electronically. {{EnvNameShort}} API can be utilized to extract data from these forms for efficient processing."
+      },
+      "feature_8": {
+        "title": "Parse data by templates",
+        "content": "Create custom templates and utilize them with {{EnvNameShort}} API to parse specific information from PDF files, simplifying data extraction processes."
+      },
+      "feature_9": {
+        "title": "Search a text in documents",
+        "content": "Quickly locate specific words or patterns within documents."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supports the following operating systems, frameworks and package managers",
+    "formats_description": "{{ProdFullName}} supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Beyond basic text extraction, here are the most common use cases for quick text, image and metadata extraction.",
+    
+    "code_sample_1_title": "Search Text in a Document",
+    "code_sample_1_content": "This example shows how to search for a specific phrase in a PDF document and print where it was found.",
+    "code_sample_1": {
+      "title": "Search Text in a Document in Python",
+      "comment_1": "Load the document",
+      "comment_2": "Search for a specific phrase in the document",
+      "comment_3": "Print the page index and rectangle where the phrase was found"
+    },
+
+    "code_sample_2_title": "Extract Images from a Document",
+    "code_sample_2_content": "This example shows how to extract images from a PDF document and save them to a file.",
+    "code_sample_2": {
+      "title": "Extract Images from a Document in Python",
+      "comment_1": "Load the document",
+      "comment_2": "Extract images from the document",
+      "comment_3": "Save the images to a file"
+    },
+    
+    "code_sample_3_title": "Extract Metadata from a Document",
+    "code_sample_3_content": "This example shows how to extract metadata from a PDF document and print it.",
+    "code_sample_3": {
+      "title": "Extract Metadata from a Document in Python",
+      "comment_1": "Load the document",
+      "comment_2": "Extract metadata from the document",
+      "comment_3": "Print the metadata"
+    }
   }
 }

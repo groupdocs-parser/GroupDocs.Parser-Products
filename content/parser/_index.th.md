@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-06-30T10:26:00
+date:  2025-12-09T14:52:35
 draft: false
 
 product: "Parser"
@@ -10,30 +10,30 @@ product_tag: "parser"
 lang: th
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & แอพพลิเคชันสำหรับการแยกเอกสาร"
-head_description: "รับโซลูชันการแยกเอกสารแบบครบวงจรสำหรับ .NET, Java และแอพพลิเคชันที่ใช้คลาวด์ แยกข้อมูลจากรูปแบบเอกสารออนไลน์ด้วยคุณสมบัติการลากและวางที่ง่ายดาย"
+head_title: "Document Parser SDKs สำหรับ PDF, Word & Excel | GroupDocs"
+head_description: "Document Parser SDK เพื่อสกัดข้อความ, รูปภาพ, เมทาดาต้า, บาร์โค้ดและตารางจาก PDF, Word, Excel, อีเมล และรูปแบบเอกสารอื่นกว่า 50 รูปแบบสำหรับแอป .NET, Java และ Python"
 
 ############################# Header ############################
-title: "โซลูชันการแยกเอกสาร"
+title: "Document Parser SDK"
 description:  |
-  API ที่แข็งแกร่งสำหรับการแยกข้อมูลจากรูปแบบไฟล์ต่างๆ
+  Document Parser SDK ที่เป็นมิตรกับนักพัฒนาเพื่อสกัดข้อความ, รูปภาพ, บาร์โค้ด, เมทาดาต้าและตารางจากรูปแบบเอกสารและรูปภาพกว่า 50 รูปแบบ
 
-  วิเคราะห์เอกสารด้วยความพยายามในการเขียนโค้ดที่น้อยที่สุด
+  รวมการแยกเอกสารประสิทธิภาพสูงเข้าไปในแอปพลิเคชัน .NET, Java และ Python ของคุณด้วยความพยายามในการเขียนโค้ดเพียงเล็กน้อย
 
-  ปรับแต่งผลลัพธ์ที่แยกได้
+  ใช้เทมเพลตที่ยืดหยุ่นและ API ขั้นสูงเพื่อปรับแต่งกฎการแยกและส่งมอบผลลัพธ์ข้อมูลที่เป็นระเบียบและมีโครงสร้าง
 
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
   head_title: "เลือกแพลตฟอร์มของคุณ"
-  title: "อิสระต่อแพลตฟอร์ม"
-  description: "ไลบรารี GroupDocs.Parser รองรับระบบปฏิบัติการและเฟรมเวิร์กต่อไปนี้:"
+  title: "ความเป็นอิสระของแพลตฟอร์ม"
+  description: "GroupDocs.Parser ไลบรารีรองรับระบบปฏิบัติการและเฟรมเวิร์กต่อไปนี้:"
   details_link_title: "เรียนรู้เพิ่มเติม"
 
   items:
     # items loop
     - title: ".NET"
-      description: GroupDocs.Parser .NET 
+      description: GroupDocs.Parser for .NET 
       color: "blue"
       tag: "net"
       link: "/parser/net/"
@@ -62,7 +62,7 @@ supported_platforms:
 
     # items loop
     - title: "Java"
-      description: GroupDocs.Parser Java
+      description: GroupDocs.Parser for Java
       color: "red"
       tag: "java"
       link: "/parser/java/"
@@ -88,124 +88,161 @@ supported_platforms:
             content: |
                     50+ file formats
 
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Parser for Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/parser/python-net/"
+      features_link: "https://docs.groupdocs.com/parser/python-net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.5+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> macOS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    PyCharm, VS Code, Jupyter Notebook
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats                    
+
 ############################# Features ###############################
 features:
   enable: true
-  title: "GroupDocs.Parser ภาพรวม"
-  description: "API สำหรับการแยกข้อมูลจาก PDF, Word, Excel และอื่นๆ"
+  title: "GroupDocs.Parser อย่างคร่าวๆ"
+  description: "Document Parser SDK ที่มีประสิทธิภาพสำหรับสกัดข้อมูลที่มีโครงสร้างและไม่มีโครงสร้างจาก PDF, เอกสาร Office, รูปภาพ, อีเมล และไฟล์เก็บถาวร"
 
   items:
     # items loop
     - icon: "text"
-      title: "แยกข้อความ"
-      content: "ดึงข้อมูลข้อความจากรูปแบบไฟล์ต่างๆ"
+      title: "สกัดข้อความ"
+      content: "สกัดข้อมูลข้อความจากรูปแบบไฟล์ต่างๆ"
 
     # items loop
     - icon: "image"
-      title: "แยกรูปภาพ"
-      content: "กู้คืนเนื้อหาภาพจากแหล่งที่มาที่หลากหลาย"
+      title: "สกัดรูปภาพ"
+      content: "ดึงเนื้อหาภาพจากแหล่งที่หลากหลาย"
 
     # items loop
     - icon: "template"
-      title: "วิเคราะห์ข้อมูลตามแบบฟอร์ม"
-      content: "สร้างแม่แบบที่กำหนดเองและใช้เพื่อวิเคราะห์ข้อมูลเฉพาะ"
+      title: "แยกข้อมูลด้วยเทมเพลต"
+      content: "สร้างเทมเพลตที่กำหนดเองและใช้เพื่อแยกข้อมูลเฉพาะ"
 
     # items loop
     - icon: "pdf"
-      title: "วิเคราะห์แบบฟอร์ม PDF"
-      content: "แบบฟอร์ม PDF เป็นเอกสารดิจิตอลที่มีฟิลด์สำหรับกรอกข้อมูลเพื่อให้ผู้ใช้มีปฏิสัมพันธ์"
+      title: "แยกแบบฟอร์ม PDF"
+      content: "แบบฟอร์ม PDF คือเอกสารดิจิทัลที่มีฟิลด์ให้กรอกสำหรับการโต้ตอบของผู้ใช้"
 
 ############################# Code Samples ###############################
 code_samples:
   enable: true
-  title: "ตัวอย่างโค้ด GroupDocs.Parser"
-  description: "กรณีการใช้งานบางประการของการดำเนินการ GroupDocs.Parser ใน C# และ Java"
+  title: "GroupDocs.Parser ตัวอย่างโค้ด"
+  description: "ตัวอย่างการใช้กรณีของการทำงานทั่วไปของ GroupDocs.Parser ใน C#, Java และ Python"
 
   items:
     # items loop
-    - title: "วิธีการแยกข้อความจากเอกสาร PDF"
-      content: "GroupDocs.Parser API ช่วยให้คุณสามารถแยกข้อความจากเอกสารได้โดยการดำเนินการไม่กี่ขั้นตอน"
+    - title: "วิธีการสกัดข้อความจากเอกสาร PDF"
+      content: "API ของ GroupDocs.Parser ทำให้การสกัดข้อความจากเอกสารเป็นเรื่องง่ายโดยดำเนินการเพียงไม่กี่ขั้นตอน."
       samples:
           # samples loop
           - language: "C#"
             color: "blue"
             content: |
-                    <code class="language-csharp" data-lang="csharp">
-
-                        // สร้างอินสแตนซ์ของคลาส Parser โดยการส่งไฟล์ที่ต้องการ
-                        using (var parser = new Parser("source.pdf"))
-                        {
-                            // แยกข้อความ
-                            using (var textReader = parser.GetText())
-                            {
-                                // ประมวลผลข้อความที่แยกได้
-                                Console.WriteLine(textReader?.ReadToEnd());
-                            }
-                        }     
-                        
-                    </code>
-
+              ```csharp {style=abap}  
+                // สร้างอินสแตนซ์ของคลาส Parser พร้อมส่งไฟล์ที่ต้องการ
+                using (var parser = new Parser("source.pdf"))
+                {
+                    // สกัดข้อความ
+                    using (var textReader = parser.GetText())
+                    {
+                        // ประมวลผลข้อความที่สกัดได้
+                        Console.WriteLine(textReader?.ReadToEnd());
+                    }
+                }     
+              ```
           # samples loop
           - language: "Java"
             color: "red"
             content: |
-                    <code class="language-java" data-lang="java">
+              ```java {style=abap}
+                // สร้างอินสแตนซ์ของคลาส Parser พร้อมส่งไฟล์ที่ต้องการ
+                try (Parser parser = new Parser("source.pdf"))
+                {
+                    // สกัดข้อความ
+                    try (TextReader reader = parser.getText())
+                    {
+                        // ประมวลผลข้อความที่สกัดได้
+                        System.out.println(reader == null 
+                                ? "" 
+                                : reader.readToEnd());
+                    }
+                }  
+              ```
+          # samples loop
+          - language: "Python"
+            color: "green"
+            content: |
+              ```python {style=abap}
+                from groupdocs.parser import Parser
 
-                        // สร้างอินสแตนซ์ของคลาส Parser โดยการส่งไฟล์ที่ต้องการ
-                        try (Parser parser = new Parser("source.pdf"))
-                        {
-                            // แยกข้อความ
-                            try (TextReader reader = parser.getText())
-                            {
-                                // ประมวลผลข้อความที่แยกได้
-                                System.out.println(reader == null 
-                                        ? "" 
-                                        : reader.readToEnd());
-                            }
-                        }  
+                # สร้างอินสแตนซ์ของคลาส Parser พร้อมส่งไฟล์ที่ต้องการ
+                with Parser("source.pdf") as parser:
+                    # สกัดข้อความ
+                    text = parser.get_text()
 
-                    </code>
-
-
+                    # ประมวลผลข้อความที่สกัดได้
+                    print(text)
+              ```
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "รองรับรูปแบบไฟล์มากกว่า 50 รูปแบบ"
-  description: "GroupDocs.Parser รองรับการดำเนินงานภายในกลุ่มรูปแบบต่างๆ"
+  title: "รองรับรูปแบบเอกสารและรูปภาพกว่า 50 รูปแบบ"
+  description: "GroupDocs.Parser Document Parser SDK ช่วยให้การทำงานแยกเอกสารทำได้กับเอกสาร Office, PDF, รูปภาพ, อีเมล, ไฟล์เก็บถาวร และอื่น ๆ"
 
 ############################# Metrics ###############################
 metrics:
   enable: true
-  title: "GroupDocs.Parser ความสำเร็จ"
-  description: "ค้นพบเมตริกหลักของความสำเร็จของห้องสมุดเรา"
+  title: "ความสำเร็จของ GroupDocs.Parser"
+  description: "ค้นพบเมตริกสำคัญของความสำเร็จของไลบรารีของเรา"
 
   items:
     # items loop
     - number: "50+"
       title: "รูปแบบที่รองรับ"
-      content: "GroupDocs.Parser รองรับการดำเนินการกับรูปแบบไฟล์ที่เป็นที่นิยมมากกว่า 50 รูปแบบ"
+      content: "GroupDocs.Parser รองรับการทำงานกับรูปแบบไฟล์ที่เป็นที่นิยมมากกว่า 50 รูปแบบ."
 
     # items loop
     - number: "1600k"
-      title: "การดาวน์โหลด NuGet"
-      content: "GroupDocs.Parser สำหรับแพ็คเกจ NuGet .NET ถูกดาวน์โหลดมากกว่า 1,600,000 ครั้ง"
+      title: "การดาวน์โหลดจาก NuGet"
+      content: "GroupDocs.Parser สำหรับแพ็กเกจ NuGet ของ .NET ถูกดาวน์โหลดมากกว่า 1,600,000 ครั้ง."
 
     # items loop
     - number: "18k"
-      title: "การดาวน์โหลด Maven"
-      content: "GroupDocs.Parser มีการดาวน์โหลด 18,000 ครั้งใน Maven โดยมีฟีเจอร์การแยกข้อมูลที่ทรงพลังสำหรับ Java"
+      title: "การดาวน์โหลดจาก Maven"
+      content: "GroupDocs.Parser มีการดาวน์โหลด 18,000 ครั้งบน Maven. ฟีเจอร์การแยกข้อมูล Java ที่มีประสิทธิภาพ."
 
     # items loop
     - number: "140+"
       title: "ลูกค้าที่พึงพอใจ"
-      content: "บริษัทชั้นนำและนักพัฒนารายบุคคลเลือกใช้ผลิตภัณฑ์ของ GroupDocs เพื่อสร้างโซลูชันที่สร้างสรรค์"
+      content: "ทั้งบริษัทชื่อดังและนักพัฒนารายบุคคลต่างก็ชื่นชอบผลิตภัณฑ์ของ GroupDocs เพื่อสร้างโซลูชันที่เป็นนวัตกรรม"
 
 
 ############################# Customers ###############################
 customers:
   enable: true
   title: "ลูกค้าที่พึงพอใจของเรา"
-  description: "ไลบรารีของ GroupDocs ถูกใช้งานโดยแบรนด์ที่มีชื่อเสียงและเป็นที่รู้จักทั่วโลก"
+  description: "ไลบรารีของ GroupDocs ถูกนำไปใช้โดยแบรนด์ระดับโลกที่มีชื่อเสียงและโดดเด่นทั่วโลก"
 
   items:
     # items loop
@@ -274,64 +311,64 @@ faq:
 
   items:
     # items loop
-    - question: "ไลบรารี GroupDocs.Parser จำเป็นต้องติดตั้งซอฟต์แวร์ของบุคคลที่สามอื่นใดเพื่อจัดการเอกสารหรือไม่?"
-      answer: "GroupDocs.Parser ไม่ต้องการติดตั้งซอฟต์แวร์ภายนอกเช่น Adobe Acrobat, Microsoft Office หรืออื่นๆ"
+    - question: "ไลบรารี GroupDocs.Parser ต้องการซอฟต์แวร์ของบุคคลที่สามอื่นใดเพื่อจัดการเอกสารหรือไม่?"
+      answer: "GroupDocs.Parser ไม่ต้องการซอฟต์แวร์ภายนอกใดๆ เช่น Adobe Acrobat, Microsoft Office หรืออื่นๆ ติดตั้ง"
 
     # items loop
-    - question: "ฉันสามารถลองใช้งานไลบรารี GroupDocs.Parser ก่อนที่จะทำการซื้อได้หรือไม่?"
-      answer: "ใช่, คุณสามารถลองใช้ GroupDocs.Parser ได้โดยไม่ต้องซื้อใบอนุญาต เมื่อติดตั้งโดยไม่มีใบอนุญาต ไลบรารีจะทำงานในโหมดทดลอง ในโหมดนี้ ป้ายทดลองจะถูกเพิ่มในเอกสารที่ได้ และจำกัดไว้ที่ 3 หน้าแรก หากคุณต้องการทดสอบ GroupDocs.Parser โดยไม่มีข้อจำกัดในการทดลอง คุณสามารถขอใบอนุญาตชั่วคราวเป็นเวลา 30 วันได้ สำหรับรายละเอียดเพิ่มเติม, [ดูที่นี่](https://purchase.groupdocs.com/temporary-license/)"
+    - question: "ฉันสามารถทดลองไลบรารี GroupDocs.Parser ก่อนซื้อได้หรือไม่?"
+      answer: "ได้, คุณสามารถทดลองใช้ GroupDocs.Parser ได้โดยไม่ต้องซื้อใบอนุญาต เมื่อติดตั้งโดยไม่มีใบอนุญาต ไลบรารีจะทำงานในโหมดทดลอง ในโหมดนี้จะมีการเพิ่มป้ายแบ๊จทดลองลงในเอกสารผลลัพธ์และจะตัดให้เหลือเพียง 3 หน้าแรก หากคุณต้องการทดสอบ GroupDocs.Parser โดยไม่มีข้อจำกัดของเวอร์ชันทดลอง คุณสามารถขอใบอนุญาตชั่วคราว 30 วันได้ สำหรับรายละเอียดเพิ่มเติม, [ดู](https://purchase.groupdocs.com/temporary-license/)."
 
     # items loop
-    - question: "คุณมีประเภทใบอนุญาตอะไรบ้าง?"
-      answer: "เรามีประเภทใบอนุญาตหลายประเภทเพื่อตอบสนองความต้องการของนักพัฒนาหรือบริษัทหลากหลายประเภท ประเภทใบอนุญาตขึ้นอยู่กับจำนวนของนักพัฒนา, จำนวนสถานที่ของนักพัฒนาที่จำเป็น, และว่าคุณต้องการส่ง SDK/API ของเราไปยังลูกค้าสุดท้ายหรือไม่ นอกจากนี้ คุณสามารถเลือกใบอนุญาตตามการใช้งานรายเดือนที่มีอยู่ เรียนรู้เพิ่มเติม [ที่นี่](https://purchase.groupdocs.com/pricing/parser/net/)"
+    - question: "คุณมีใบอนุญาตประเภทใดบ้าง?"
+      answer: "เรามีประเภทใบอนุญาตหลายแบบเพื่อตอบสนองความต้องการของนักพัฒนา หรือบริษัทแต่ละแห่ง ประเภทใบอนุญาตขึ้นกับจำนวนนักพัฒนา จำนวนสถานที่ติดตั้งของนักพัฒนา และว่าคุณต้องการแจกจ่าย SDK/API ของเราให้แก่ลูกค้าสุดท้ายหรือไม่ อีกทางหนึ่ง คุณสามารถเลือกใบอนุญาตแบบ Metered ที่คำนวณตามการใช้งานรายเดือนของผลิตภัณฑ์เพิ่มเติมได้ เรียนรู้เพิ่มเติม [ที่นี่](https://purchase.groupdocs.com/pricing/parser/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Parser API ต่ำ"
-  description: "นำความสามารถในการแยกเอกสารไปใช้ในแอปพลิเคชันใด ๆ โดยใช้ REST API ที่ใช้คลาวด์ของเรา"
+  title: "GroupDocs.Parser API เอกสารแบบ low‑code"
+  description: "รวมความสามารถในการแยกเอกสารเข้าในแอปพลิเคชันใด ๆ ด้วย REST API และ SDK บนคลาวด์ของเรา"
   
   items:
     # items loop
     - title: "GroupDocs.Parser Cloud for cURL"
-      content: "คำสั่ง cURL สำหรับ RESTful document parser Cloud API เพื่อวิเคราะห์เอกสารในรูปแบบไฟล์ยอดนิยมที่ได้รับการสนับสนุน"
+      content: "คำสั่ง cURL สำหรับ Cloud API แบบ RESTful ที่แยกเอกสารจากไฟล์รูปแบบที่นิยมและรองรับหลายประเภท"
       icon: "groupdocs_parser-for-curl"
       link: "https://products.groupdocs.cloud/parser/curl"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for .NET"
-      content: "แยกรูปภาพ ข้อความ ข้อมูลเอกสาร หรือแม้แต่แยกเอกสารใด ๆ โดยใช้แม่แบบที่ผู้ใช้กำหนดในแอปพลิเคชัน Microsoft .NET ของคุณ"
+      content: "แยกภาพ, ข้อความ, ข้อมูลเอกสาร หรือแม้แต่แยกเอกสารใด ๆ ด้วยเทมเพลตที่กำหนดโดยผู้ใช้ในแอปพลิเคชัน Microsoft .NET ของคุณ"
       icon: "groupdocs_parser-for-net"
       link: "https://products.groupdocs.cloud/parser/net"
 
     # items loop
     - title: "GroupDocs.Parser Cloud for Java"
-      content: "Cloud SDK สำหรับนักพัฒนา Java เพื่อวิเคราะห์เอกสาร ดึงข้อมูลเอกสาร และข้อมูลภายในแอปพลิเคชันที่ใช้ Java"
+      content: "Cloud SDK สำหรับนักพัฒนา Java เพื่อแยกเอกสาร, ดึงข้อมูลเอกสารและข้อมูลภายในแอปพลิเคชันที่พัฒนาด้วย Java"
       icon: "groupdocs_parser-for-java"
       link: "https://products.groupdocs.cloud/parser/java"
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Parser แอพพลิเคชัน No Code"
-  description: "แอพพลิเคชั่นบนเว็บที่ช่วยให้คุณสามารถแยกข้อมูลจากรูปแบบเอกสารยอดนิยมกว่า 50 รูปแบบโดยตรงในเบราว์เซอร์ของคุณ"
+  title: "GroupDocs.Parser แอปแยกเอกสารแบบ No‑Code"
+  description: "แอปแยกเอกสารบนเว็บที่ช่วยให้คุณดึงข้อมูลจากไฟล์รูปแบบยอดนิยมกว่า 50 แบบโดยตรงในเบราว์เซอร์ของคุณ"
 
   items:
     # items loop
     - title: "GroupDocs.Parser Total"
-      content: "แอพออนไลน์ฟรีในการแยกข้อมูลจาก Word, Excel, PowerPoint, PDF & เอกสารประเภทอีกมากกว่า 50 รูปแบบ"
+      content: "แอปออนไลน์ฟรีเพื่อแยกเอกสาร Word, Excel, PowerPoint, PDF และประเภทไฟล์อื่น ๆ มากกว่า 50 ประเภท"
       icon: "groupdocs_parser-app"
       link: "https://products.groupdocs.app/parser/total"
 
     # items loop
     - title: "GroupDocs.Parser DOCX"
-      content: "วิเคราะห์เอกสาร Word โดยตรงจากเบราว์เซอร์ของคุณเพื่อดึงรูปภาพ ข้อความ หรือเมตาดาต้า"
+      content: "แยกเอกสาร Word โดยตรงจากเว็บบราวเซอร์ของคุณเพื่อดึงภาพ, ข้อความ หรือเมทาดาตา"
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/parser/docx"
 
     # items loop
     - title: "GroupDocs.Parser PDF"
-      content: "แอพพลิเคชันการแยก PDF ฟรีที่สามารถทำงานบนแพลตฟอร์มหรืออุปกรณ์ใด ๆ โดยไม่มีข้อจำกัด"
+      content: "แอปแยก PDF ฟรีที่ทำงานบนแพลตฟอร์มหรืออุปกรณ์ใด ๆ โดยไม่มีข้อจำกัด"
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/parser/pdf"
 

@@ -1,149 +1,149 @@
 {
   "index-content": {
-    "head_title": ".NET, Java, 클라우드 API 및 온라인 문서 파서 앱",
-    "head_description": ".NET, Java 및 클라우드 기반 애플리케이션을 위한 올인원 문서 파싱 솔루션을 얻으십시오. 간단한 드래그 앤 드롭 기능으로 온라인에서 문서 형식의 데이터를 추출하세요.",
-    "title": "문서 파싱 솔루션",
-    "description_0": "다양한 파일 형식에서 데이터 추출을 위한 강력한 API입니다.",
-    "description_1": "최소한의 코딩으로 문서를 파싱하세요.",
-    "description_2": "파싱 결과를 사용자 맞춤화하세요.",
-    "words_for": "을 위한",
+    "head_title": "PDF, Word 및 Excel용 문서 파서 SDK | GroupDocs",
+    "head_description": ".NET, Java 및 Python 앱용으로 PDF, Word, Excel, 이메일 및 50개 이상의 기타 문서 형식에서 텍스트, 이미지, 메타데이터, 바코드 및 표를 추출하는 Document Parser SDK.",
+    "title": "문서 파서 SDK",
+    "description_0": "개발자 친화적인 Document Parser SDK로 50개 이상의 문서 및 이미지 형식에서 텍스트, 이미지, 바코드, 메타데이터 및 표를 추출합니다.",
+    "description_1": ".NET, Java 및 Python 애플리케이션에 최소한의 코드 작성으로 고성능 문서 파싱을 통합하세요.",
+    "description_2": "유연한 템플릿과 고급 API를 사용해 파싱 규칙을 맞춤 설정하고 정제된 구조화 데이터 출력을 제공합니다.",
+    "words_for": "용",
     "release_title": "버전 {0} 출시",
     "release_notes": "새로운 기능 보기",
     "release_downloads": "다운로드",
-    "code_more": "더 많은 예제",
-    "overview_title": "{{ProdShortName}} 개요",
+    "code_more": "추가 예제",
+    "overview_title": "{{ProdShortName}} 한눈에 보기",
     "formats_title": "지원되는 파일 형식",
     "platforms": {
       "title": "플랫폼 독립성",
-      "head_title": "플랫폼 선택하기",
+      "head_title": "플랫폼 선택",
       "description": "{{ProdShortName}} 라이브러리는 다음 운영 체제와 프레임워크를 지원합니다:",
-      "learn_more": "자세히 알아보기",
-      "any_other_text_editor": "기타 텍스트 편집기"
+      "learn_more": "자세히 보기",
+      "any_other_text_editor": "다른 텍스트 편집기"
     },
     "features": {
-      "title": "{{ProdShortName}} 개요",
-      "description": "PDF, Word, Excel 등 다양한 문서에서 데이터를 파싱하기 위한 API입니다.",
+      "title": "{{ProdShortName}} 한눈에 보기",
+      "description": "PDF, Office 문서, 이미지, 이메일 및 아카이브에서 구조화 및 비구조화 데이터를 추출하는 강력한 Document Parser SDK.",
       "feature_1": {
         "title": "텍스트 추출",
-        "content": "다양한 파일 형식에서 텍스트 정보를 추출합니다."
+        "content": "다양한 파일 형식에서 텍스트 정보를 추출합니다"
       },
       "feature_2": {
         "title": "이미지 추출",
-        "content": "다양한 소스에서 비주얼 콘텐츠를 가져옵니다."
+        "content": "다양한 소스에서 시각적 콘텐츠를 가져옵니다"
       },
       "feature_3": {
-        "title": "템플릿에 따른 데이터 파싱",
-        "content": "사용자 정의 템플릿을 생성하고 이를 활용하여 특정 정보를 파싱합니다."
+        "title": "템플릿으로 데이터 파싱",
+        "content": "맞춤 템플릿을 생성하고 이를 사용해 특정 정보를 파싱합니다"
       },
       "feature_4": {
         "title": "PDF 양식 파싱",
-        "content": "PDF 양식은 사용자 상호작용을 위한 작성 가능한 필드가 포함된 디지털 문서입니다."
+        "content": "PDF 양식은 사용자가 입력할 수 있는 필드를 포함한 디지털 문서입니다"
       }
     },
     "formats": {
-      "title": "50개 이상의 지원 파일 형식",
-      "description": "{{ProdShortName}}는 다양한 형식 가족 내에서 파서 작업을 지원합니다."
+      "title": "50개 이상의 문서 및 이미지 형식 지원",
+      "description": "{{ProdShortName}} Document Parser SDK는 Office 문서, PDF, 이미지, 이메일, 아카이브 등 다양한 형식에 대한 파싱 작업을 가능하게 합니다."
     },
     "code_samples": {
       "title": "코드 샘플",
       "index_title": "{{ProdShortName}} 코드 샘플",
-      "index_description": "C# 및 Java에서의 전형적인 {{ProdShortName}} 작업 사례 몇 가지",
+      "index_description": "C#, Java 및 Python에서 일반적인 {{ProdShortName}} 작업의 몇 가지 사용 사례",
       "more_examples": "더 많은 예제",
       "sample_index": {
-        "title": "PDF 문서에서 텍스트 추출하기",
-        "content": "{{ProdShortName}} API는 몇 가지 단계를 구현하여 문서에서 텍스트를 추출하는 것을 돕습니다.",
-        "comment_1": "{{textParser}} 클래스의 인스턴스를 생성하고 원하는 파일을 전달하세요.",
-        "comment_2": "텍스트 추출하기",
-        "comment_3": "추출된 텍스트를 처리하기"
+        "title": "PDF 문서에서 텍스트 추출 방법",
+        "content": "{{ProdShortName}} API는 몇 단계만 구현하면 문서에서 텍스트를 쉽게 추출할 수 있도록 합니다.",
+        "comment_1": "원하는 파일을 전달하여 {{textParser}} 클래스의 인스턴스를 생성합니다.",
+        "comment_2": "텍스트 추출",
+        "comment_3": "추출된 텍스트를 처리합니다."
       },
       "sample_1": {
-        "code_title": "{{ProgLang}}에서 PDF 문서의 이미지 추출",
-        "comment_1": "{{textParser}} 클래스의 인스턴스를 생성하세요.",
-        "comment_2": "이미지를 추출하세요.",
-        "comment_3": "추출된 여부 확인하기",
-        "comment_4": "이미지를 순회하기",
-        "comment_5": "페이지 인덱스, 사각형 및 이미지 유형을 출력하기"
+        "code_title": "{{ProgLang}}에서 PDF 문서에서 이미지 추출",
+        "comment_1": "{{textParser}} 클래스의 인스턴스를 생성합니다.",
+        "comment_2": "이미지 추출",
+        "comment_3": "무언가가 추출되었는지 확인합니다",
+        "comment_4": "이미지를 반복 처리합니다",
+        "comment_5": "페이지 인덱스, 사각형 및 이미지 유형을 출력합니다"
       },
       "sample_2": {
-        "code_title": "{{ProgLang}}에서 이미지의 바코드 추출",
-        "comment_1": "{{textParser}}에 소스 이미지를 로드하세요.",
-        "comment_2": "파일이 바코드 추출을 지원하는지 확인하세요.",
-        "comment_3": "파일에서 바코드를 추출하세요.",
-        "comment_4": "바코드를 순회하기",
-        "comment_5": "페이지 인덱스를 출력하기",
-        "comment_6": "바코드 값을 출력하기"
+        "code_title": "{{ProgLang}}에서 이미지에서 바코드 추출",
+        "comment_1": "{{textParser}}에 소스 이미지를 로드합니다",
+        "comment_2": "파일이 바코드 추출을 지원하는지 확인합니다",
+        "comment_3": "파일에서 바코드 추출",
+        "comment_4": "바코드를 반복 처리합니다",
+        "comment_5": "페이지 인덱스를 출력합니다",
+        "comment_6": "바코드 값을 출력합니다"
       }
     },
     "metrics": {
-      "title": "{{ProdShortName}} 업적",
-      "description": "우리 라이브러리의 주요 성과 지표를 확인하세요.",
+      "title": "{{ProdShortName}} 성과",
+      "description": "우리 라이브러리 성과의 주요 지표를 확인하세요",
       "item_1": {
-        "title": "지원되는 형식",
-        "description": "{{ProdShortName}}는 50개 이상의 인기 파일 형식과의 작업을 지원합니다."
+        "title": "지원되는 포맷",
+        "description": "{{ProdShortName}}는 50개 이상의 인기 파일 포맷을 지원합니다."
       },
       "item_2": {
         "title": "NuGet 다운로드",
-        "description": "{{ProdShortName}} .NET NuGet 패키지는 1,600,000회 이상 다운로드되었습니다."
+        "description": "{{ProdShortName}} .NET용 NuGet 패키지는 1,600,000회 이상 다운로드되었습니다."
       },
       "item_3": {
         "title": "Maven 다운로드",
         "description": "{{ProdShortName}}는 Maven에서 18,000회 다운로드되었습니다. 강력한 Java 파싱 기능."
       },
       "item_4": {
-        "title": "만족한 고객",
-        "description": "유명한 기업과 개인 개발자들이 혁신적인 솔루션 구축을 위해 {{NameCompany}} 제품을 선호합니다."
+        "title": "만족하는 고객",
+        "description": "유명 기업과 개인 개발자 모두 혁신적인 솔루션을 구축하기 위해 {{NameCompany}} 제품을 선호합니다."
       }
     },
     "customers": {
-      "title": "우리의 만족한 고객들",
-      "description": "{{NameCompany}} 라이브러리는 전세계적으로 저명한 브랜드에 의해 사용되고 있습니다."
+      "title": "우리의 만족하는 고객",
+      "description": "{{NameCompany}} 라이브러리는 전 세계적으로 유명하고 저명한 브랜드에서 사용됩니다."
     },
     "actions": {
       "alt": "라이선스",
       "title": "시작할 준비가 되셨나요?",
-      "description": "{{ProdShortName}} 기능을 무료로 체험하거나 라이선스를 요청하세요.",
-      "description_index": "{{ProdShortName}} 기능을 귀하의 플랫폼에서 무료로 체험하세요."
+      "description": "{{ProdShortName}} 기능을 무료로 사용해 보거나 라이선스를 요청하세요.",
+      "description_index": "귀하의 플랫폼에서 {{ProdShortName}} 기능을 무료로 사용해 보세요."
     },
     "faq": {
       "title": "자주 묻는 질문",
-      "description": "가장 많이 묻는 질문에 대한 답변입니다.",
+      "description": "가장 자주 묻는 질문에 대한 답변입니다.",
       "item_1": {
-        "question": "{{ProdShortName}} 라이브러리는 문서 작업을 위해 다른 서드파티 소프트웨어가 필요합니까?",
-        "answer": "{{ProdShortName}}는 Adobe Acrobat, Microsoft Office 또는 기타 외부 소프트웨어가 설치될 필요가 없습니다."
+        "question": "{{ProdShortName}} 라이브러리가 문서를 조작하기 위해 다른 타사 소프트웨어가 필요합니까?",
+        "answer": "{{ProdShortName}}는 Adobe Acrobat, Microsoft Office 등과 같은 외부 소프트웨어를 설치할 필요가 없습니다."
       },
       "item_2": {
-        "question": "{{ProdShortName}} 라이브러리를 구매 전에 시험해볼 수 있습니까?",
-        "answer": "예, 라이선스 없이 {{ProdShortName}}를 시험해볼 수 있습니다. 라이선스 없이 설치하면 라이브러리는 시험 모드로 작동합니다. 이 모드에서는 결과 문서에 시험 배지가 추가되고 첫 3페이지로 제한됩니다. 시험 버전의 제한 없이 GroupDocs.Parser를 테스트하고 싶다면, 30일 임시 라이선스를 요청할 수도 있습니다. 자세한 내용은 [여기]({{LicensingUrl}})에서 확인하세요."
+        "question": "{{ProdShortName}} 라이브러리를 구매하기 전에 체험할 수 있나요?",
+        "answer": "예, 라이선스를 구매하지 않고도 {{ProdShortName}}를 체험할 수 있습니다. 라이선스 없이 설치하면 라이브러리는 체험 모드로 작동합니다. 이 모드에서는 결과 문서에 체험 배지가 추가되고 처음 3페이지로 제한됩니다. GroupDocs.Parser를 체험 버전 제한 없이 테스트하려면 30일 임시 라이선스를 요청할 수도 있습니다. 자세한 내용은 [자세히 보기]({{LicensingUrl}})를 참고하십시오."
       },
       "item_3": {
-        "question": "어떤 라이선스가 있습니까?",
-        "answer": "특정 개발자나 회사의 요구에 맞는 여러 라이선스 유형을 제공합니다. 라이선스 유형은 개발자 수, 개발자 사이트 위치 수 및 최종 고객에게 SDK/API를 전달할 필요성에 따라 다릅니다. 또는 제품의 월별 사용량에 따라 미터링 라이선스를 선택할 수 있습니다. 자세한 내용은 [여기]({{PricingUrl}})에서 확인하세요."
+        "question": "어떤 라이선스를 제공하나요?",
+        "answer": "당사는 특정 개발자 또는 기업의 요구에 맞는 다양한 라이선스 유형을 제공합니다. 라이선스 유형은 개발자 수, 개발자 사이트 위치 수, 그리고 SDK/API를 최종 고객에게 제공해야 하는지 여부에 따라 결정됩니다. 또한 제품의 월별 사용량에 기반한 종량제 라이선스를 선택할 수도 있습니다. 자세한 내용은 [자세히 보기]({{PricingUrl}})에서 확인하십시오."
       }
     },
     "cloud_links": {
-      "title": "{{ProdShortName}} 저코드 API",
-      "description": "클라우드 기반 REST API를 사용하여 모든 애플리케이션에 문서 파서 기능을 통합하세요.",
+      "title": "{{ProdShortName}} 로우코드 문서 파서 API",
+      "description": "클라우드 기반 REST API 및 SDK를 사용하여 모든 애플리케이션에 문서 파싱 기능을 통합하십시오.",
       "item_1": {
-        "content": "지원되는 인기 파일 형식 전반에서 문서를 파싱하기 위한 RESTful 문서 파서 클라우드 API의 cURL 명령입니다."
+        "content": "지원되는 다양한 인기 파일 형식 전반에 걸쳐 문서를 파싱하기 위한 RESTful 문서 파서 클라우드 API용 cURL 명령."
       },
       "item_2": {
-        "content": "Microsoft .NET 애플리케이션에서 이미지, 텍스트, 문서 정보를 추출하거나 사용자 정의 템플릿으로 문서를 파싱하세요."
+        "content": "Microsoft .NET 애플리케이션에서 사용자 정의 템플릿으로 이미지, 텍스트, 문서 정보를 추출하거나 모든 문서를 파싱할 수 있습니다."
       },
       "item_3": {
-        "content": "Java 기반 애플리케이션에서 문서를 파싱하고 문서 정보 및 데이터를 추출할 수 있는 Java 개발자를 위한 클라우드 SDK입니다."
+        "content": "Java 개발자를 위한 클라우드 SDK로 Java 기반 애플리케이션에서 문서를 파싱하고 문서 정보 및 데이터를 추출합니다."
       }
     },
     "app_links": {
-      "title": "{{ProdShortName}} 노코드 앱",
-      "description": "브라우저에서 직접 50개 이상의 인기 파일 형식에 대해 파싱을 수행할 수 있는 웹 기반 애플리케이션입니다.",
+      "title": "{{ProdShortName}} 문서 파서 노코드 앱",
+      "description": "웹 기반 문서 파서 앱으로 브라우저에서 직접 50개 이상의 인기 파일 형식에서 데이터를 추출할 수 있습니다.",
       "item_1": {
-        "content": "Word, Excel, PowerPoint, PDF 및 50개 이상의 문서 형식을 파싱할 수 있는 무료 온라인 앱입니다."
+        "content": "Word, Excel, PowerPoint, PDF 및 50개 이상의 문서 형식을 파싱할 수 있는 무료 온라인 앱."
       },
       "item_2": {
-        "content": "웹 브라우저에서 Word 문서를 직접 파싱하여 이미지, 텍스트 또는 메타데이터를 추출하세요."
+        "content": "웹 브라우저에서 직접 Word 문서를 파싱하여 이미지, 텍스트 또는 메타데이터를 추출합니다."
       },
       "item_3": {
-        "content": "모든 플랫폼 또는 장치에서 제한 없이 작동하는 무료 PDF 파싱 앱입니다."
+        "content": "제한 없이 모든 플랫폼이나 디바이스에서 작동하는 무료 PDF 파싱 앱."
       }
     },
     "formats_groups": {
@@ -155,149 +155,240 @@
       "format_other_office": "기타 오피스 형식",
       "format_other_web": "웹",
       "format_other_archives": "아카이브",
-      "format_other_ebooks": "e-북"
+      "format_other_ebooks": "전자책"
     }
   },
   "index-content-net": {
-    "head_title": "{{ProdFullName}} 문서 파싱 앱",
-    "head_description": "{{EnvNameShort}} 애플리케이션을 위한 올인원 문서 파싱 솔루션을 얻으십시오. 간단한 드래그 앤 드롭 기능으로 온라인에서 문서 형식의 데이터를 추출하세요.",
-    "title": "{{EnvNameShort}} API를 통한 문서 파싱",
-    "description": "프로그래머 및 최종 사용자를 위한 유연한 API와 앱 기반 솔루션을 사용하여 모든 플랫폼에서 문서와 이미지의 데이터를 추출합니다.",
+    "head_title": "{{ProdFullName}} 문서 파서 SDK for {{EnvNameShort}}",
+    "head_description": "{{EnvNameShort}}용 고성능 Document Parser SDK. PDF, Word, Excel, 이메일 및 50개 이상의 문서 형식에서 텍스트, 이미지, 메타데이터, 바코드, 테이블 및 기타 데이터를 추출합니다.",
+    "title": "{{EnvNameShort}}용 Document Parser SDK",
+    "description": "{{EnvNameShort}} 앱에 빠르고 정확한 문서 파싱을 추가하고 문서와 이미지에서 텍스트, 이미지, 메타데이터 및 구조화된 데이터를 추출합니다.",
     "actions_main": "{{PackageStoreName}} 다운로드",
-    "code_title": "문서 내용 빠르게 파싱하기",
-    "code_comment_1": "소스 파일을 {{textParser}} 인스턴스에 전달하세요.",
-    "code_comment_2": "문서 텍스트를 {{textReader}}에 전달하세요.",
-    "code_comment_3": "문서 텍스트 처리하기",
-    "overview_description": "{{EnvNameShort}} 애플리케이션에서 문서 파싱을 수행하기 위한 API",
+    "code_title": "SDK를 사용해 문서 콘텐츠를 빠르게 파싱하세요",
+    "code_comment_1": "소스 파일을 {{textParser}} 인스턴스에 전달합니다",
+    "code_comment_2": "문서 텍스트를 {{textReader}}에 전달합니다",
+    "code_comment_3": "문서 텍스트를 처리합니다",
+    "overview_description": "{{EnvNameShort}} 애플리케이션에서 고정밀 문서 파싱을 수행하기 위한 Document Parser SDK",
     "overview_feature_1": {
       "title": "문서에서 데이터 추출",
-      "description": "{{ProdFullName}} API는 Office 문서, 이메일, 첨부 파일 및 아카이브와 같은 다양한 파일 형식에서 텍스트, 메타데이터 및 이미지를 검색할 수 있게 해줍니다. 이 강력한 도구는 데이터 분석, 검색 엔진 인덱싱 또는 콘텐츠 관리 시스템과 같은 다양한 애플리케이션에서 파일에 포함된 소중한 정보에 효율적으로 접근하고 처리하는 데 도움을 줍니다."
+      "description": "{{ProdFullName}} API를 사용하면 Office 문서, 이메일, 첨부 파일 및 아카이브와 같은 다양한 파일 형식에서 텍스트, 메타데이터 및 이미지를 검색할 수 있습니다. 이 강력한 도구는 데이터 분석, 검색 엔진 인덱싱 또는 콘텐츠 관리 시스템 등 다양한 애플리케이션에서 이러한 파일에 포함된 유용한 정보를 효율적으로 액세스하고 처리하는 데 도움이 됩니다."
     },
     "overview_feature_2": {
       "title": "문서 파싱",
-      "description": "하이퍼링크, 테이블, QR 코드, 바코드 및 PDF 양식에서 데이터를 추출합니다. 또한 사용자 정의 템플릿을 사용하여 문서에서 원하는 정보를 파싱합니다."
+      "description": "PDF 양식에서 하이퍼링크, 표, QR 코드, 바코드 및 데이터를 비롯한 다양한 요소를 추출합니다. 또한 맞춤 템플릿을 사용해 문서에서 원하는 정보를 파싱할 수 있습니다."
     },
     "overview_feature_3": {
-      "title": "결과 사용자 정의",
-      "description": "{{EnvNameShort}} API는 원시, 구조화된, HTML 또는 Markdown과 같은 다양한 형식으로 데이터를 검색할 수 있게 해줍니다. 추가로, API는 문서 텍스트 내에서 특정 단어 또는 구문을 찾기 위한 검색 기능을 제공합니다."
+      "title": "결과 맞춤 설정",
+      "description": "{{EnvNameShort}} API를 사용하면 원시, 구조화, HTML 또는 Markdown과 같은 다양한 형식으로 데이터를 검색할 수 있습니다. 또한 API는 문서 텍스트 내에서 특정 단어나 구절을 찾는 검색 기능을 제공합니다."
     },
     "features": {
       "title": "{{ProdFullName}} 기능",
-      "description": "PDF, Office 문서 및 이미지를 신속하고 정확하게 데이터 추출",
+      "description": "당사의 {{EnvNameShort}} Document Parser SDK를 사용해 PDF, Office 문서, 이미지 및 기타 형식에서 데이터를 빠르고 정확하게 추출합니다.",
       "feature_1": {
         "title": "텍스트 추출",
-        "content": "Office 문서, PDF 파일 및 이미지와 같은 다양한 파일 형식에서 텍스트 정보를 추출하여 가독성과 분석을 용이하게 합니다."
+        "content": "Office 문서, PDF 파일 및 이미지와 같은 다양한 파일 형식에서 텍스트 정보를 추출해 가독성과 분석을 용이하게 합니다."
       },
       "feature_2": {
         "title": "이미지 추출",
-        "content": "Office 문서, PDF 파일 등 다양한 출처에서 비주얼 콘텐츠를 리트리브하여 편리하게 사용할 수 있게 합니다."
+        "content": "Office 문서, PDF 파일 등 다양한 소스에서 시각적 콘텐츠를 검색해 편리하게 액세스하고 사용할 수 있습니다."
       },
       "feature_3": {
         "title": "QR 코드 스캔",
-        "content": "Office 문서, PDF 파일 또는 비주얼 콘텐츠에 존재하는 QR 코드를 감지하고 해독하여 정보를 효율적으로 리트리브합니다."
+        "content": "Office 문서, PDF 파일 또는 시각적 콘텐츠에 포함된 QR 코드를 감지하고 디코딩해 효율적인 정보 검색을 지원합니다."
       },
       "feature_4": {
-        "title": "이메일 첨부文件 및 압축 파일에서 데이터 추출",
-        "content": "이메일 메시지, 파일 첨부 파일 및 압축 데이터 소스에서 귀중한 정보를 수집하여 효과적으로 분석하고 활용합니다."
+        "title": "이메일 첨부 파일 및 아카이브에서 데이터 추출",
+        "content": "이메일 메시지, 파일 첨부 및 압축 데이터 소스에서 귀중한 정보를 수집하여 효과적인 분석 및 활용을 수행합니다."
       },
       "feature_5": {
         "title": "테이블 추출",
-        "content": "PDF 문서에서 테이블 데이터를 확인하고 추출하여 체계적인 분석 및 사용을 지원합니다."
+        "content": "PDF 문서에서 표 형식 데이터를 식별하고 추출하여 체계적인 분석 및 활용에 사용할 수 있습니다."
       },
       "feature_6": {
         "title": "하이퍼링크 추출",
-        "content": "Office 문서 또는 PDF 파일 내에 있는 하이퍼링크 및 이메일 주소를 찾아서 효율적으로 접근합니다."
+        "content": "오피스 문서나 PDF 파일 내의 하이퍼링크 및 이메일 주소를 찾아 추출하여 효율적인 액세스를 가능하게 합니다."
       },
       "feature_7": {
         "title": "PDF 양식 파싱",
-        "content": "PDF 양식은 사용자 상호작용을 위한 작성 가능한 필드가 포함된 디지털 문서입니다. .NET API를 사용하여 이러한 양식에서 데이터를 효율적으로 추출할 수 있습니다."
+        "content": "PDF 양식은 사용자가 전자적으로 정보를 입력할 수 있는 입력 가능한 필드를 포함한 디지털 문서입니다. .NET API를 사용하여 이러한 양식에서 데이터를 추출하고 효율적으로 처리할 수 있습니다."
       },
       "feature_8": {
         "title": "템플릿으로 데이터 파싱",
-        "content": ".NET API와 함께 사용할 사용자 정의 템플릿을 생성하고 PDF 파일에서 특정 정보를 파싱하여 데이터 추출 프로세스를 간소화합니다."
+        "content": "사용자 정의 템플릿을 생성하고 이를 .NET API와 함께 사용하여 PDF 파일에서 특정 정보를 파싱함으로써 데이터 추출 프로세스를 간소화합니다."
       },
       "feature_9": {
-        "title": "문서에서 텍스트 검색",
-        "content": "문서 내에서 특정 단어 또는 패턴을 신속하게 찾습니다."
+        "title": "문서 내 텍스트 검색",
+        "content": "문서 내에서 특정 단어나 패턴을 신속하게 찾습니다."
       }
     },
-    "platforms_description": "{{ProdFullName}}는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
-    "formats_description": "{{ProdFullName}}는 다음 [파일 형식]({{SupportedFormatsUrl}})으로 작업을 지원합니다.",
-    "code_samples_description": "전형적인 {{ProdFullName}} 작업 사례 몇 가지",
+    "platforms_description": "{{ProdFullName}}은(는) 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+    "formats_description": "{{ProdFullName}}은(는) 다음 [파일 형식]({{SupportedFormatsUrl}})에 대한 작업을 지원합니다.",
+    "code_samples_description": "일반적인 {{ProdFullName}} 작업의 일부 사용 사례",
     "code_title_sample_1": "PDF 문서에서 이미지 추출",
-    "code_samples_sample_1_content": "{{ProdFullName}}은 {{ProgLang}} 개발자가 [문서]({{Sample1Url}})에서 이미지를 추출할 수 있도록 쉽게 만들어줍니다:",
+    "code_samples_sample_1_content": "{{ProdFullName}}은(는) {{ProgLang}} 개발자가 [문서]({{Sample1Url}})에서 이미지를 쉽게 추출하도록 지원합니다.",
     "code_title_sample_2": "이미지에서 바코드 추출",
-    "code_samples_sample_2_content": "우리의 {{EnvNameShort}} API를 사용하여 이미지에서 [바코드]({{Sample2Url}})를 추출하세요:"
+    "code_samples_sample_2_content": "우리 {{EnvNameShort}} API를 사용하여 이미지에서 [바코드]({{Sample2Url}})를 추출합니다:"
   },
   "index-content-java": {
-    "head_title": "{{ProdFullName}} 문서 파싱 앱",
-    "head_description": "{{EnvNameShort}} 애플리케이션을 위한 올인원 문서 파싱 솔루션을 얻으십시오. 간단한 드래그 앤 드롭 기능으로 온라인에서 문서 형식의 데이터를 추출하세요.",
-    "title": "{{EnvNameShort}} API를 통한 문서 파싱",
-    "description": "프로그래머 및 최종 사용자를 위한 유연한 API와 앱 기반 솔루션을 사용하여 모든 플랫폼에서 문서와 이미지의 데이터를 추출합니다.",
+    "head_title": "{{ProdFullName}} {{EnvNameShort}}용 문서 파서 SDK",
+    "head_description": "{{EnvNameShort}}용 고성능 문서 파서 SDK. PDF, Word, Excel, 이메일 및 50개 이상의 문서 형식에서 텍스트, 이미지, 메타데이터, 바코드, 표 및 기타 데이터를 추출합니다.",
+    "title": "{{EnvNameShort}}용 문서 파서 SDK",
+    "description": "{{EnvNameShort}} 애플리케이션에 빠르고 정확한 문서 파싱을 추가하고 문서 및 이미지에서 텍스트, 이미지, 메타데이터 및 구조화된 데이터를 추출합니다.",
     "actions_main": "{{PackageStoreName}} 다운로드",
-    "code_title": "문서 콘텐츠를 빠르게 가져오기",
-    "code_comment_1": "소스 파일을 {{textParser}} 인스턴스에 전달하세요.",
-    "code_comment_2": "문서 텍스트를 {{textReader}}에 전달하세요.",
-    "code_comment_3": "문서 텍스트 처리하기",
-    "overview_description": "{{EnvNameShort}} 애플리케이션에서 문서 파싱을 수행하기 위한 API",
+    "code_title": "SDK를 사용하여 문서 내용을 빠르게 파싱",
+    "code_comment_1": "소스 파일을 {{textParser}} 인스턴스에 전달합니다",
+    "code_comment_2": "문서 텍스트를 {{textReader}}에 전달합니다",
+    "code_comment_3": "문서 텍스트를 처리합니다",
+    "overview_description": "{{EnvNameShort}} 애플리케이션에서 고정밀 문서 파싱을 수행하기 위한 Document Parser SDK",
     "overview_feature_1": {
       "title": "문서에서 데이터 추출",
-      "description": "{{ProdFullName}} API는 Office 문서, 이메일, 첨부 파일 및 아카이브와 같은 다양한 파일 형식에서 텍스트, 메타데이터 및 이미지를 검색할 수 있게 해줍니다. 이 강력한 도구는 데이터 분석, 검색 엔진 인덱싱 또는 콘텐츠 관리 시스템과 같은 다양한 애플리케이션에서 파일에 포함된 소중한 정보에 효율적으로 접근하고 처리하는 데 도움을 줍니다."
+      "description": "{{ProdFullName}} API를 사용하면 Office 문서, 이메일, 첨부 파일 및 아카이브와 같은 다양한 파일 형식에서 텍스트, 메타데이터 및 이미지를 검색할 수 있습니다. 이 강력한 도구는 데이터 분석, 검색 엔진 인덱싱 또는 콘텐츠 관리 시스템과 같은 다양한 애플리케이션을 위해 파일에 포함된 귀중한 정보를 효율적으로 액세스하고 처리하는 데 도움을 줍니다."
     },
     "overview_feature_2": {
-      "title": "문서 파싱",
-      "description": "하이퍼링크, 테이블, QR 코드, 바코드 및 PDF 양식에서 데이터를 추출합니다. 또한 사용자 정의 템플릿을 사용하여 문서에서 원하는 정보를 파싱합니다."
+      "title": "문서 구문 분석",
+      "description": "PDF 양식에서 하이퍼링크, 표, QR 코드, 바코드 및 데이터를 비롯한 다양한 요소를 추출합니다. 또한 사용자 정의 템플릿을 사용하여 문서에서 원하는 정보를 구문 분석합니다."
     },
     "overview_feature_3": {
-      "title": "결과 사용자 정의",
-      "description": "{{EnvNameShort}} API는 원시, 구조화된, HTML 또는 Markdown과 같은 다양한 형식으로 데이터를 검색할 수 있게 해줍니다. 추가로, API는 문서 텍스트 내에서 특정 단어 또는 구문을 찾기 위한 검색 기능을 제공합니다."
+      "title": "결과 사용자 지정",
+      "description": "{{EnvNameShort}} API를 사용하면 raw, structured, HTML, Markdown과 같은 다양한 형식으로 데이터를 검색할 수 있습니다. 또한 API는 문서 텍스트 내에서 특정 단어나 구를 찾는 검색 기능을 제공합니다."
     },
     "features": {
       "title": "{{ProdFullName}} 기능",
-      "description": "PDF, Office 문서 및 이미지를 신속하고 정확하게 데이터 추출",
+      "description": "우리의 {{EnvNameShort}} Document Parser SDK를 사용하여 PDF, Office 문서, 이미지 및 기타 형식에서 데이터를 신속하고 정확하게 추출합니다.",
       "feature_1": {
         "title": "텍스트 추출",
-        "content": "Office 문서, PDF 파일 및 이미지와 같은 다양한 파일 형식에서 텍스트 정보를 추출하여 가독성과 분석을 용이하게 합니다."
+        "content": "Office 문서, PDF 파일 및 이미지와 같은 다양한 파일 형식에서 텍스트 정보를 추출하여 읽기 쉽고 분석할 수 있도록 합니다."
       },
       "feature_2": {
         "title": "이미지 추출",
-        "content": "Office 문서, PDF 파일 등 다양한 출처에서 비주얼 콘텐츠를 리트리브하여 편리하게 사용할 수 있게 합니다."
+        "content": "Office 문서, PDF 파일 등 다양한 소스에서 시각적 콘텐츠를 가져와 편리하게 액세스하고 사용할 수 있습니다."
       },
       "feature_3": {
         "title": "QR 코드 스캔",
-        "content": "Office 문서, PDF 파일 또는 비주얼 콘텐츠에 존재하는 QR 코드를 감지하고 해독하여 정보를 효율적으로 리트리브합니다."
+        "content": "Office 문서, PDF 파일 또는 시각적 콘텐츠에 포함된 QR 코드를 감지하고 디코딩하여 효율적인 정보 검색을 지원합니다."
       },
       "feature_4": {
-        "title": "이메일 첨부文件 및 압축 파일에서 데이터 추출",
-        "content": "이메일 메시지, 파일 첨부 파일 및 압축 데이터 소스에서 귀중한 정보를 수집하여 효과적으로 분석하고 활용합니다."
+        "title": "이메일 첨부 파일 및 아카이브에서 데이터 추출",
+        "content": "이메일 메시지, 파일 첨부 및 압축된 데이터 소스에서 유용한 정보를 수집하여 효과적인 분석 및 활용을 가능하게 합니다."
       },
       "feature_5": {
-        "title": "테이블 추출",
-        "content": "PDF 문서에서 테이블 데이터를 확인하고 추출하여 체계적인 분석 및 사용을 지원합니다."
+        "title": "표 추출",
+        "content": "PDF 문서에서 표 형태 데이터를 식별하고 추출하여 체계적인 분석 및 활용에 활용합니다."
       },
       "feature_6": {
         "title": "하이퍼링크 추출",
-        "content": "Office 문서 또는 PDF 파일 내에 있는 하이퍼링크 및 이메일 주소를 찾아서 효율적으로 접근합니다."
+        "content": "Office 문서 또는 PDF 파일 내에서 하이퍼링크와 이메일 주소를 찾아 추출하여 효율적인 접근을 가능하게 합니다."
       },
       "feature_7": {
-        "title": "PDF 양식 파싱",
-        "content": "PDF 양식은 사용자 상호작용을 위한 작성 가능한 필드가 포함된 디지털 문서입니다. .NET API를 사용하여 이러한 양식에서 데이터를 효율적으로 추출할 수 있습니다."
+        "title": "PDF 양식 구문 분석",
+        "content": "PDF 양식은 사용자가 전자적으로 정보를 입력할 수 있는 입력 필드가 포함된 디지털 문서입니다. .NET API를 사용하여 이러한 양식에서 데이터를 추출하고 효율적으로 처리할 수 있습니다."
       },
       "feature_8": {
-        "title": "템플릿으로 데이터 파싱",
-        "content": ".NET API와 함께 사용할 사용자 정의 템플릿을 생성하고 PDF 파일에서 특정 정보를 파싱하여 데이터 추출 프로세스를 간소화합니다."
+        "title": "템플릿을 통한 데이터 구문 분석",
+        "content": "사용자 정의 템플릿을 생성하고 .NET API와 함께 사용하여 PDF 파일에서 특정 정보를 구문 분석함으로써 데이터 추출 프로세스를 간소화합니다."
       },
       "feature_9": {
         "title": "문서에서 텍스트 검색",
-        "content": "문서 내에서 특정 단어 또는 패턴을 신속하게 찾습니다."
+        "content": "문서 내에서 특정 단어나 패턴을 빠르게 찾습니다."
       }
     },
     "platforms_description": "{{ProdFullName}}는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
-    "formats_description": "{{ProdFullName}}는 다음 [파일 형식]({{SupportedFormatsUrl}})으로 작업을 지원합니다.",
-    "code_samples_description": "전형적인 {{ProdFullName}} 작업 사례 몇 가지",
+    "formats_description": "{{ProdFullName}}는 다음 [파일 형식]({{SupportedFormatsUrl}})과(와) 함께 작업을 지원합니다.",
+    "code_samples_description": "일반적인 {{ProdFullName}} 작업의 몇 가지 사용 사례",
     "code_title_sample_1": "PDF 문서에서 이미지 추출",
-    "code_samples_sample_1_content": "{{ProdFullName}}은 {{ProgLang}} 개발자가 [문서]({{Sample1Url}})에서 이미지를 추출할 수 있도록 쉽게 만들어줍니다:",
+    "code_samples_sample_1_content": "{{ProdFullName}}는 {{ProgLang}} 개발자가 [문서]({{Sample1Url}})에서 이미지를 쉽게 추출할 수 있도록 합니다:",
     "code_title_sample_2": "이미지에서 바코드 추출",
-    "code_samples_sample_2_content": "우리의 {{EnvNameShort}} API를 사용하여 이미지에서 [바코드]({{Sample2Url}})를 추출하세요:"
+    "code_samples_sample_2_content": "{{EnvNameShort}} API를 사용하여 이미지에서 [바코드]({{Sample2Url}})를 추출합니다:"
+  },
+  "index-content-python-net": {
+    "head_title": "{{ProdFullName}} Document Parser SDK for {{EnvNameShort}}",
+    "head_description": "고성능 {{EnvNameShort}}용 Document Parser SDK. PDF, Word, Excel, 이메일 및 50개 이상의 문서 형식에서 텍스트, 이미지, 메타데이터, 바코드, 표 및 기타 데이터를 추출합니다.",
+    "title": "{{EnvNameShort}}용 Document Parser SDK",
+    "description": "{{EnvNameShort}} 앱에 빠르고 정확한 문서 파싱을 추가하고 문서와 이미지에서 텍스트, 이미지, 메타데이터 및 구조화된 데이터를 추출합니다.",
+    "actions_main": "{{PackageStoreName}} 다운로드",
+    "code_title": "Python을 사용하여 텍스트 추출",
+    "code_comment_1": "문서 로드",
+    "code_comment_2": "문서에서 텍스트 추출",
+    "code_comment_3": "추출된 모든 텍스트 출력",
+    "overview_description": "{{EnvNameShort}} 애플리케이션에서 고정밀 문서 파싱을 수행하기 위한 Document Parser SDK",
+    "overview_feature_1": {
+      "title": "문서에서 데이터 추출",
+      "description": "{{ProdFullName}} API를 사용하면 Office 문서, 이메일, 첨부 파일 및 압축 파일과 같은 다양한 파일 형식에서 텍스트, 메타데이터 및 이미지를 가져올 수 있습니다. 이 강력한 도구는 데이터 분석, 검색 엔진 인덱싱 또는 콘텐츠 관리 시스템과 같은 다양한 애플리케이션에서 이러한 파일에 포함된 중요한 정보를 효율적으로 액세스하고 처리하는 데 도움이 됩니다."
+    },
+    "overview_feature_2": {
+      "title": "문서 파싱",
+      "description": "PDF 양식에서 하이퍼링크, 표, QR 코드, 바코드 및 데이터를 포함한 다양한 요소를 추출합니다. 또한 사용자 정의 템플릿을 사용하여 문서에서 원하는 정보를 파싱할 수 있습니다."
+    },
+    "overview_feature_3": {
+      "title": "결과 맞춤화",
+      "description": "{{EnvNameShort}} API를 사용하면 원시, 구조화, HTML 또는 Markdown과 같은 다양한 형식으로 데이터를 가져올 수 있습니다. 또한 API는 문서 텍스트 내에서 특정 단어나 구문을 찾을 수 있는 검색 기능을 제공합니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}} 기능",
+      "description": "우리의 {{EnvNameShort}} Document Parser SDK로 PDF, Office 문서, 이미지 및 기타 형식에서 데이터를 빠르고 정확하게 추출합니다.",
+      "feature_1": {
+        "title": "텍스트 추출",
+        "content": "Office 문서, PDF 파일 및 이미지와 같은 다양한 파일 형식에서 텍스트 정보를 추출하여 손쉽게 읽고 분석할 수 있습니다."
+      },
+      "feature_2": {
+        "title": "이미지 추출",
+        "content": "Office 문서, PDF 파일 등 다양한 소스에서 시각적 콘텐츠를 가져와 편리하게 접근하고 사용할 수 있습니다."
+      },
+      "feature_3": {
+        "title": "QR 코드 스캔",
+        "content": "Office 문서, PDF 파일 또는 시각적 콘텐츠에 포함된 QR 코드를 감지하고 디코딩하여 효율적인 정보 검색을 가능하게 합니다."
+      },
+      "feature_4": {
+        "title": "이메일 첨부 파일 및 압축 파일에서 데이터 추출",
+        "content": "이메일 메시지, 파일 첨부 및 압축 데이터 소스에서 유용한 정보를 수집하여 효과적인 분석 및 활용이 가능합니다."
+      },
+      "feature_5": {
+        "title": "표 추출",
+        "content": "PDF 문서에서 표 형태의 데이터를 식별하고 추출하여 체계적인 분석 및 활용이 가능합니다."
+      },
+      "feature_6": {
+        "title": "하이퍼링크 추출",
+        "content": "오피스 문서 또는 PDF 파일 내에서 하이퍼링크와 이메일 주소를 찾아 추출하여 효율적으로 액세스합니다."
+      },
+      "feature_7": {
+        "title": "PDF 양식 파싱",
+        "content": "PDF 양식은 사용자가 상호 작용할 수 있는 입력 가능한 필드를 포함한 디지털 문서로, 전자적으로 정보를 입력할 수 있습니다. {{EnvNameShort}} API를 사용하여 이러한 양식에서 데이터를 추출하고 효율적으로 처리할 수 있습니다."
+      },
+      "feature_8": {
+        "title": "템플릿을 사용한 데이터 파싱",
+        "content": "맞춤 템플릿을 생성하고 {{EnvNameShort}} API와 함께 사용하여 PDF 파일에서 특정 정보를 파싱함으로써 데이터 추출 프로세스를 간소화합니다."
+      },
+      "feature_9": {
+        "title": "문서에서 텍스트 검색",
+        "content": "문서 내에서 특정 단어나 패턴을 빠르게 찾습니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}}는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+    "formats_description": "{{ProdFullName}}는 다음 [파일 형식]({{SupportedFormatsUrl}})과 함께 작업을 지원합니다.",
+    "code_samples_description": "기본 텍스트 추출을 넘어, 빠른 텍스트, 이미지 및 메타데이터 추출을 위한 가장 일반적인 사용 사례는 다음과 같습니다.",
+    "code_sample_1_title": "문서에서 텍스트 검색",
+    "code_sample_1_content": "이 예제는 PDF 문서에서 특정 구문을 검색하고 해당 위치를 출력하는 방법을 보여줍니다.",
+    "code_sample_1": {
+      "title": "Python에서 문서 텍스트 검색",
+      "comment_1": "문서 로드",
+      "comment_2": "문서에서 특정 구문 검색",
+      "comment_3": "구문이 발견된 페이지 인덱스와 사각형 영역을 출력"
+    },
+    "code_sample_2_title": "문서에서 이미지 추출",
+    "code_sample_2_content": "이 예제는 PDF 문서에서 이미지를 추출하고 파일에 저장하는 방법을 보여줍니다.",
+    "code_sample_2": {
+      "title": "Python에서 문서 이미지 추출",
+      "comment_1": "문서 로드",
+      "comment_2": "문서에서 이미지 추출",
+      "comment_3": "이미지를 파일에 저장"
+    },
+    "code_sample_3_title": "문서에서 메타데이터 추출",
+    "code_sample_3_content": "이 예제는 PDF 문서에서 메타데이터를 추출하고 출력하는 방법을 보여줍니다.",
+    "code_sample_3": {
+      "title": "Python에서 문서 메타데이터 추출",
+      "comment_1": "문서 로드",
+      "comment_2": "문서에서 메타데이터 추출",
+      "comment_3": "메타데이터 출력"
+    }
   }
 }

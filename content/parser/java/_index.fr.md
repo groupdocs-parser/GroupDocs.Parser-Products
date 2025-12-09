@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-06-30T10:26:00
+date: 2025-12-09T14:10:41
 draft: false
 
 lang: fr
@@ -19,21 +19,24 @@ supported_platforms:
     # supported_platforms loop
     - title: "Java"
       tag: "java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
-head_title: "Applications d'analyse de documents GroupDocs.Parser for Java"
-head_description: "Obtenez une solution d'analyse de documents tout-en-un pour les applications Java. Extrayez des données à partir de formats de documents en ligne à l'aide d'une fonctionnalité simple de glisser-déposer."
+head_title: "GroupDocs.Parser for Java Document Parser SDK pour Java"
+head_description: "SDK de parsing de documents haute performance pour Java. Extrayez le texte, les images, les métadonnées, les codes‑barres, les tableaux et d’autres données à partir de PDF, Word, Excel, e‑mails et plus de 50 formats de documents."
 
 ############################# Header ############################
-title: "Analysez des documents via l'API Java"
-description: "Extrayez des données à partir de documents et d'images sur n'importe quelle plateforme à l'aide de nos APIs flexibles et de solutions basées sur des applications pour les programmeurs et les utilisateurs finaux."
+title: "Document Parser SDK pour Java"
+description: "Ajoutez un parsing de documents rapide et précis à vos applications Java et extrayez le texte, les images, les métadonnées et les données structurées à partir de documents et d’images."
 words:
   for: "pour"
 
 actions:
   main: "Télécharger Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-parser/"
-  alt: "Licences"
+  alt: "Licence"
   alt_link: "https://purchase.groupdocs.com/pricing/parser/java/"
   title: "Prêt à commencer ?"
   description: "Essayez les fonctionnalités de GroupDocs.Parser gratuitement ou demandez une licence"
@@ -44,7 +47,7 @@ release:
   downloads: "Téléchargements"
 
 code:
-  title: "Accédez rapidement au contenu des documents"
+  title: "Analyser rapidement le contenu des documents avec le SDK"
   more: "Plus d'exemples"
   more_link: "https://github.com/groupdocs-parser/GroupDocs.Parser-for-Java/"
   install: |
@@ -55,7 +58,7 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // Passez le fichier source à l'instance Parser
+    // Passez le fichier source à l’instance Parser
     try (Parser parser = new Parser("source.pdf"))
     {
         // Passez le texte du document à TextReader
@@ -73,25 +76,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Parser en un coup d'œil"
-  description: "API pour effectuer l'analyse de documents dans les applications Java"
+  description: "SDK de parsing de documents pour réaliser un parsing haute précision dans les applications Java"
   features:
     # feature loop
-    - title: "Extraire des données à partir de documents"
-      content: "L'API GroupDocs.Parser for Java vous permet de récupérer du texte, des métadonnées et des images à partir d'une large gamme de formats de fichiers tels que les documents Office, les e-mails, les pièces jointes et les archives. Cet outil puissant vous aide à accéder et à traiter efficacement des informations précieuses contenues dans ces fichiers pour diverses applications comme l'analyse de données, l'indexation par les moteurs de recherche ou les systèmes de gestion de contenu."
+    - title: "Extraire des données de documents"
+      content: "GroupDocs.Parser for Java API vous permet de récupérer le texte, les métadonnées et les images d’une large gamme de formats de fichiers tels que les documents Office, les e‑mails, les pièces jointes et les archives. Cet outil puissant vous aide à accéder et à traiter efficacement les informations précieuses contenues dans ces fichiers pour diverses applications comme l’analyse de données, l’indexation pour les moteurs de recherche ou les systèmes de gestion de contenu."
 
     # feature loop
-    - title: "Analyser des documents"
-      content: "Extraire divers éléments tels que des hyperliens, des tableaux, des QR codes, des codes-barres et des données à partir de formulaires PDF. Analysez également toute information souhaitée à partir des documents en utilisant des modèles personnalisés."
+    - title: "Analyser les documents"
+      content: "Extraire divers éléments tels que les hyperliens, les tableaux, les codes QR, les codes-barres et les données des formulaires PDF. Analysez également toute information souhaitée à partir de documents en utilisant des modèles personnalisés."
 
     # feature loop
-    - title: "Personnalisation des résultats"
-      content: "L'API Java vous permet de récupérer des données dans divers formats tels que brut, structuré, HTML ou Markdown. De plus, l'API offre une fonctionnalité de recherche pour localiser des mots ou des phrases spécifiques dans le texte des documents."
+    - title: "Personnaliser les résultats"
+      content: "Java API vous permet de récupérer des données dans divers formats tels que brut, structuré, HTML ou Markdown. De plus, l’API offre une fonction de recherche pour localiser des mots ou des expressions spécifiques dans le texte des documents."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Indépendance de la plateforme"
-  description: "GroupDocs.Parser for Java prend en charge les systèmes d'exploitation, les frameworks et les gestionnaires de paquets suivants"
+  title: "Indépendance de plateforme"
+  description: "GroupDocs.Parser for Java prend en charge les systèmes d’exploitation, frameworks et gestionnaires de packages suivants"
   items:
     # platform loop
     - title: "Amazon"
@@ -138,86 +141,86 @@ formats:
         ### Images et autres formats
         * **Portable:** PDF 
         * **Images:** JPG, BMP, PNG, TIFF, GIF
-        * **Autres formats de bureau:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        * **Autres formats Office:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
         ### Autres formats
         * **Web:** HTML, MHTML 
         * **Archives:** ZIP, TAR, 7Z 
-        * **e-Books:** CHM, EPUB, FB2, MOBI 
+        * **e-books:** CHM, EPUB, FB2, MOBI 
         
         
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Fonctionnalités de GroupDocs.Parser for Java"
-  description: "Extraire des données des PDF, des documents Office et des images rapidement et précisément"
+  title: "GroupDocs.Parser for Java fonctionnalités"
+  description: "Extraire des données des PDF, documents Office, images et autres formats rapidement et avec précision grâce à notre SDK Java Document Parser"
 
   items:
     # feature loop
     - icon: "text"
       title: "Extraire du texte"
-      content: "Extraire des informations textuelles à partir de divers formats de fichiers tels que les documents de bureau, les fichiers PDF et les images pour une lisibilité et une analyse conviviales."
+      content: "Extrayez les informations textuelles de divers formats de fichiers tels que les documents Office, les fichiers PDF et les images pour une lecture et une analyse aisées."
 
     # feature loop
     - icon: "image"
       title: "Extraire des images"
-      content: "Récupérer du contenu visuel à partir de sources diverses comme les documents de bureau et les fichiers PDF pour un accès et une utilisation pratiques."
+      content: "Récupérez le contenu visuel de diverses sources comme les documents Office ou les fichiers PDF pour un accès et une utilisation pratiques."
 
     # feature loop
     - icon: "qr"
-      title: "Scanner des QR Codes"
-      content: "Détecter et décoder les QR codes présents dans les documents de bureau, les fichiers PDF ou le contenu visuel pour une récupération efficace des informations."
+      title: "Scanner les QR Codes"
+      content: "Détectez et décodez les QR codes présents dans les documents Office, les fichiers PDF ou le contenu visuel pour une récupération d'informations efficace."
 
     # feature loop
     - icon: "email"
-      title: "Extraire des données à partir des pièces jointes d'emails et des archives"
-      content: "Rassembler des informations précieuses à partir des messages électroniques, des pièces jointes et des sources de données compressées pour une analyse et une utilisation efficaces."
+      title: "Extraire des données des pièces jointes d'e‑mail et des archives"
+      content: "Recueillez des informations précieuses à partir des messages électroniques, des pièces jointes et des sources de données compressées pour une analyse et une utilisation efficaces."
 
     # feature loop
     - icon: "table"
-      title: "Extraire des tableaux"
-      content: "Identifier et extraire des données tabulaires à partir de documents PDF pour une analyse et une utilisation organisées."
+      title: "Extraire les tableaux"
+      content: "Identifiez et extrayez les données tabulaires des documents PDF pour une analyse et une utilisation organisées."
 
     # feature loop
     - icon: "hyperlink"
-      title: "Extraire des hyperliens"
-      content: "Localiser et extraire des hyperliens et des adresses électroniques dans les documents de bureau ou les fichiers PDF pour un accès efficace."
+      title: "Extraire les hyperliens"
+      content: "Localisez et extrayez les hyperliens et les adresses e‑mail dans les documents Office ou les fichiers PDF pour un accès efficace."
 
     # feature loop
     - icon: "pdf"
-      title: "Analyser des formulaires PDF"
-      content: "Les formulaires PDF sont des documents numériques comportant des champs remplissables permettant aux utilisateurs d'entrer des informations électroniquement. L'API .NET peut être utilisée pour extraire des données de ces formulaires pour un traitement efficace."
+      title: "Analyser les formulaires PDF"
+      content: "Les formulaires PDF sont des documents numériques contenant des champs remplissables pour l’interaction utilisateur, permettant de saisir des informations électroniquement. L’API .NET peut être utilisée pour extraire les données de ces formulaires afin de les traiter efficacement."
 
     # feature loop
     - icon: "template"
-      title: "Analyser des données par modèles"
-      content: "Créez des modèles personnalisés et utilisez-les avec l'API .NET pour analyser des informations spécifiques à partir de fichiers PDF, simplifiant ainsi les processus d'extraction de données."
+      title: "Analyser les données à l’aide de modèles"
+      content: "Créez des modèles personnalisés et utilisez‑les avec l’API .NET pour analyser des informations spécifiques à partir de fichiers PDF, simplifiant ainsi les processus d’extraction de données."
 
     # feature loop
     - icon: "search"
-      title: "Rechercher du texte dans des documents"
-      content: "Localiser rapidement des mots ou des motifs spécifiques dans des documents."
+      title: "Rechercher du texte dans les documents"
+      content: "Localisez rapidement des mots ou des motifs spécifiques dans les documents."
 
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Exemples de code"
-  description: "Quelques cas d'utilisation des opérations typiques GroupDocs.Parser for Java"
+  description: "Quelques cas d’utilisation des opérations typiques de GroupDocs.Parser for Java"
   items:
     # code sample loop
-    - title: "Extraire des images à partir de documents PDF"
+    - title: "Extraire des images de documents PDF"
       content: |
-        GroupDocs.Parser for Java permet aux développeurs Java d'extraire des images à partir de [documents](https://docs.groupdocs.com/parser/java/extract-images-from-documents/) :
-        {{< landing/code title="Extraire des images à partir de documents PDF en Java">}}
+        GroupDocs.Parser for Java facilite aux développeurs Java l’extraction d’images depuis les [documents](https://docs.groupdocs.com/parser/java/extract-images-from-documents/) :
+        {{< landing/code title="Extraire des images de documents PDF en Java">}}
         ```java {style=abap}
         // Créez une instance de la classe Parser
         try (Parser parser = new Parser("source.pdf"))
         {
-            // Extraire des images
+            // Extrayez les images
             Iterable<PageImageArea> images = parser.getImages();
 
             // Vérifiez si quelque chose a été extrait
@@ -225,9 +228,9 @@ code_samples:
                 return;
             }
 
-            // Parcourez les images
+            // Itérez sur les images
             for (PageImageArea image : images) {
-                // Imprimez l'index de la page, le rectangle et le type d'image
+                // Affichez l'index de page, le rectangle et le type d'image
                 System.out.println(String.format("Page: %d, R: %s, Type: %s", 
                     image.getPage().getIndex(), image.getRectangle(), image.getFileType()));
             }
@@ -235,10 +238,10 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Extraire des codes-barres à partir d'images"
+    - title: "Extraire les codes-barres des images"
       content: |
-        Utilisez notre API Java pour extraire des [codes-barres](https://docs.groupdocs.com/parser/java/extract-barcodes-from-document/) à partir d'images :
-        {{< landing/code title="Extraire des codes-barres à partir d'images en Java">}}
+        Utilisez notre API Java pour extraire les [codes-barres](https://docs.groupdocs.com/parser/java/extract-barcodes-from-document/) depuis les images :
+        {{< landing/code title="Extraire les codes-barres d'images en Java">}}
         ```java {style=abap}   
         // Chargez l'image source dans Parser
         try (Parser parser = new Parser("source.jpg")){
@@ -246,14 +249,14 @@ code_samples:
             // Vérifiez si le fichier prend en charge l'extraction de codes-barres
             if (!parser.getFeatures().isBarcodes()) {
 
-                // Extraire des codes-barres du fichier
+                // Extrayez les codes-barres du fichier
                 Iterable<PageBarcodeArea> barcodes = parser.getBarcodes();
 
-                // Parcourez les codes-barres
+                // Itérez sur les codes-barres
                 for (PageBarcodeArea barcode : barcodes) {
-                    // Imprimez l'index de la page
+                    // Affichez l'index de page
                     System.out.println("Page: " + barcode.getPage().getIndex());
-                    // Imprimez la valeur du code-barres
+                    // Affichez la valeur du code-barres
                     System.out.println("Value: " + barcode.getValue());
                 }
             }

@@ -1,4 +1,4 @@
-Project: GroupDocs.Parser — Document Parsing APIs and SDKs
+Product: GroupDocs.Parser — Document Parsing SDKs
 
 Purpose
 
@@ -45,5 +45,4 @@ Examples of phrasing
   - Translate the phrase clearly; keep terms like "templates" and "data" in a natural technical style for the locale.
 - EN: "50+ file formats supported"
   - Translate the phrase; keep the number and plus sign as is.
-
 
